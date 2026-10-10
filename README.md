@@ -479,7 +479,7 @@ zh). The pieces:
 - `src/i18n/index.ts` — `t(key, vars)`, `tIn(lang, key, vars)`, `useI18n()`; flat catalogs, `{placeholders}`, plural
   objects picked by `vars.count` with the CLDR rules in `plural.ts` (pl/ru/uk have one/few/many, ar six forms, zh one).
   Missing keys fall back to English, then to the key (one warning per key in `__DEV__`). Pure TypeScript, tested in Node.
-- `src/i18n/locales/<lang>.json` — the UI catalogs (904 keys; `en.json` is the reference).
+- `src/i18n/locales/<lang>.json` — the UI catalogs (907 keys; `en.json` is the reference).
   `node scripts/i18n-ui-check.mjs <lang>` checks keys, placeholders and plural categories.
 - `src/data/i18n/<lang>.json` — the content overlays: grammar cards, scenes, rule sentences and titles, the core
   lexicon's meanings plus the bundled Taboo cards' (so the guesser's gloss reads in the app's language), level
@@ -558,10 +558,10 @@ model, its prompts and its parsers are untouched: the tutor still writes English
 - `modules/eszett-translate/` — a local Expo module with the same five functions on both platforms
   (`downloadedModels`, `downloadModel(tag, allowCellular)`, `deleteModel`, `translate(text, from, to)`):
   Kotlin over `com.google.mlkit:translate:17.0.3` (verified on the phone) and Swift over `GoogleMLKit/Translate`
-  9.0.0 (`ios/EszettTranslate.podspec`, iOS 16.4 like `ExpoModulesCore`, `static_framework`). The iOS side has not
-  been built here: the pod graph resolves (MLKitTranslate 8.0.0, MLKitNaturalLanguage 10, MLKitCommon 14,
-  11 pods) and every ML Kit call in the Swift file type-checks against those frameworks for arm64 iOS 16.4; the
-  Expo DSL calls match `expo-modules-core`'s sources. Two iOS caveats: ML Kit's frameworks carry
+  9.0.0 (`ios/EszettTranslate.podspec`, iOS 16.4 like `ExpoModulesCore`, `static_framework`). The iOS side
+  compiles (the whole app, `xcodebuild -sdk iphoneos` with Xcode 27 after `expo prebuild`: the pod graph resolves
+  with MLKitTranslate 8.0.0, MLKitNaturalLanguage 10, MLKitCommon 14, and the Swift module builds for arm64
+  iOS 16.4) but has not run on an iPhone yet. Two iOS caveats: ML Kit's frameworks carry
   `EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64`, so the simulator needs a Rosetta destination (a device is fine),
   and the `SafeAreaView edges={{ bottom: Platform.OS === 'ios' }}` on the Tutor screen (Android's tab bar already
   ends the screen; iOS lays content under it) is reasoned, not seen on an iPhone. A translator kept alive holds
@@ -671,12 +671,32 @@ only on the model.
 - `src/app/unlock.tsx` is the **Me › Full access** sheet (also reached from the Tutor tab and the model sheet when
   locked): days left / ended / paid, the pitch, "Unlock for {price}" with the store's own price string, Restore,
   the legal line. In a dev build a row of pills ends the week, resets it, marks paid, clears the purchase.
+- The welcome screen's third point (`onboarding.freeWeek`) says, before the week starts, how long it lasts, what
+  stops working afterwards and what the purchase costs (the store's price once it has been fetched). App Store
+  guideline 3.1.1 asks for exactly that from a non-subscription trial.
 
-**Store setup (once, by hand):** create a non-consumable in-app purchase with product id `eszett_full_access` in
-App Store Connect and a one-time (non-consumable) product with the same id in the Play Console, and attach it to
-the app. The price is read from the store; nothing in the app needs to change for a price change. `expo-iap` is a
-native module, so the first build with it must be a fresh native build (`npx expo run:android` / `run:ios`, or
-EAS); its config plugin is already in `app.json`. Test with sandbox testers (iOS) / licence testers (Play).
+**Store setup (once, by hand).** The price is read from the store; nothing in the app changes for a price change.
+`expo-iap` is a native module, so the first build with it must be a fresh native build (`npx expo run:android` /
+`run:ios`, or EAS); its config plugin is already in `app.json`.
+
+- **App Store.** In App Store Connect sign the Paid Apps agreement (Agreements, Tax, and Banking — until it is
+  active `fetchProducts` returns nothing and the button says the store is not available), then under the app's
+  In-App Purchases add a **Non-Consumable** with product id `eszett_full_access`, a price, the display name and
+  description in the app's languages, and a screenshot of the unlock sheet for review. The first in-app purchase
+  has to be submitted together with an app version (pick it on the version page). No capability or entitlement is
+  needed: In-App Purchase is on for every App ID, and `expo-iap` uses StoreKit 2 (iOS 15+; the app is iOS 16.4+).
+  Apple's review wants a visible Restore button (it is there) and the disclosure above. Apple's own recipe for a
+  trial is a free non-consumable named "7-day Trial" that the learner "buys" first; Eszett starts the week on the
+  first launch instead so it also works offline — if a reviewer insists on the recipe, that is the fallback.
+  "Ask to Buy" purchases arrive as `pending`; the sheet says so and the unlock comes through the purchase listener
+  when the parent approves, even on a later launch. Test on a device signed in with a Sandbox Apple Account
+  (Settings › Developer › Sandbox Apple Account); App Store Connect › Users and Access › Sandbox › Clear Purchase
+  History lets a tester buy again. In the simulator use a StoreKit Configuration file (Xcode: File › New › StoreKit
+  Configuration File, add the non-consumable `eszett_full_access`, pick it in Product › Scheme › Edit Scheme › Run
+  › Options); `ios/` is generated, so redo that after a `prebuild --clean`. Or just use the dev pills.
+- **Google Play.** Play Console › Monetize › Products › In-app products: product id `eszett_full_access`, one-time,
+  active. Purchases only work for builds signed with the upload/app signing key that Play knows (an internal
+  testing track is enough) and for accounts listed as licence testers.
 
 **Limitations, on purpose:** there is no server and no receipt verification — the device's own StoreKit / Play
 Billing state is trusted, the same way the rest of the app trusts the phone. A reinstall starts a new week (the

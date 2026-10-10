@@ -1,11 +1,12 @@
 import { router } from 'expo-router';
 import { Check, Download, FolderOpen } from 'lucide-react-native';
 import { useState } from 'react';
-import { ScrollView, View } from 'react-native';
+import { Platform, ScrollView, View } from 'react-native';
 import Animated, { FadeIn, FadeInDown, FadeOut } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { statusLabel, useModelPercent } from '@/features/modelStatus';
+import { usePurchases } from '@/features/purchases';
 import { LEVEL_INFO, LEVELS, type Level } from '@/harness/levels';
 import { useI18n } from '@/i18n';
 import { resolveLanguage } from '@/i18n/bind';
@@ -28,6 +29,9 @@ const WELCOME_POINTS: [string, string][] = [
   ['onboarding.onPhone', 'onboarding.onPhoneDetail'],
   ['onboarding.checksAnswers', 'onboarding.checksAnswersDetail'],
 ];
+
+/** Whether the free week and the one-time purchase apply (the stores exist only in the native apps). */
+const HAS_STORE = Platform.OS !== 'web';
 
 function freeOnPhone(): number | null {
   try {
@@ -53,8 +57,13 @@ export default function Onboarding() {
   const edition = useModel((s) => s.edition);
   const local = useModel((s) => s.local);
   const pct = useModelPercent();
+  const price = usePurchases((s) => s.price);
   const size = describeBytes(estimatedBytes(edition));
   const free = step === 'tutor' && status === 'absent' ? freeOnPhone() : null;
+  // The free week starts with this first launch, so the welcome screen says what it covers, how long it lasts and
+  // what a learner pays afterwards (the store's price when it has already been fetched).
+  const points: [string, string][] = WELCOME_POINTS.map(([title, detailKey]) => [t(title), t(detailKey)]);
+  if (HAS_STORE) points.push([t('onboarding.freeWeek'), price ? t('onboarding.freeWeekDetailPrice', { price }) : t('onboarding.freeWeekDetail')]);
 
   const finish = () => {
     set({ onboarded: true, level, glosses: level === 'A1' || level === 'A2' });
@@ -78,15 +87,15 @@ export default function Onboarding() {
             </View>
             <View style={{ gap: space.l }}>
               <Paper tone="alt" style={{ gap: space.m }}>
-                {WELCOME_POINTS.map(([title, detailKey]) => (
+                {points.map(([title, detail]) => (
                   <View key={title} style={{ flexDirection: 'row', gap: space.m }}>
                     <View style={{ width: 22, height: 22, borderRadius: 11, backgroundColor: c.amberTint, alignItems: 'center', justifyContent: 'center', marginTop: 1 }}>
                       <Check size={14} color={c.amberInk} strokeWidth={2.6} />
                     </View>
                     <View style={{ flex: 1 }}>
-                      <Txt variant="bodyStrong">{t(title)}</Txt>
+                      <Txt variant="bodyStrong">{title}</Txt>
                       <Txt variant="small" color="inkSoft">
-                        {t(detailKey)}
+                        {detail}
                       </Txt>
                     </View>
                   </View>
