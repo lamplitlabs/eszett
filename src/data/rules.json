@@ -1,0 +1,126 @@
+{
+ "age": {
+  "de": "Das Alter sagt man mit „sein“ und „alt“.",
+  "en": "Age takes 'sein' plus 'alt'."
+ },
+ "impersonal-dative": {
+  "de": "Körperempfindungen und Befinden stehen mit dem Dativ: Mir ist kalt, mir geht es gut.",
+  "en": "Bodily sensations and well-being take a dative experiencer: mir ist kalt, mir geht es gut."
+ },
+ "preposition-case": {
+  "de": "Die Präposition bestimmt den Fall: „aus“, „bei“, „mit“, „nach“, „von“ und „zu“ verlangen den Dativ.",
+  "en": "The preposition sets the case: aus, bei, mit, nach, von and zu take the dative."
+ },
+ "tense-seit": {
+  "de": "Was noch andauert, steht mit „seit“ im Präsens; „seit“ verlangt den Dativ: seit drei Jahren.",
+  "en": "What still continues is in the present tense with 'seit'; 'seit' takes the dative: seit drei Jahren."
+ },
+ "accusative-object": {
+  "de": "Das direkte Objekt steht im Akkusativ; maskuline Artikel enden dort auf -en: einen Hund, meinen Freund.",
+  "en": "The direct object is accusative; masculine articles there end in -en: einen Hund, meinen Freund."
+ },
+ "place-preposition": {
+  "de": "Richtung und Ort brauchen verschiedene Wörter: nach Hause / zu Hause, wohin / wo, nach Berlin / in die Schweiz.",
+  "en": "Direction and location use different words: nach Hause / zu Hause, wohin / wo, nach Berlin / in die Schweiz."
+ },
+ "bracket": {
+  "de": "Partizip, Infinitiv und Verbzusatz stehen am Satzende; Objekte und Angaben stehen davor, in der Satzklammer.",
+  "en": "Participle, infinitive and separable prefix close the clause; objects and adverbials come before them, inside the verb bracket."
+ },
+ "noun-gender": {
+  "de": "Artikel und Endung richten sich nach dem Genus des Nomens: der Name, die Idee, das Ergebnis.",
+  "en": "Article and ending follow the noun's gender: der Name, die Idee, das Ergebnis."
+ },
+ "idiom": {
+  "de": "Das ist eine feste Wendung; sie wird nicht Wort für Wort aus dem Englischen übertragen.",
+  "en": "This is a fixed expression; it is not translated word for word from English."
+ },
+ "negation": {
+  "de": "Verneint wird nur einmal: „nicht“ steht hinter dem Objekt, ein Nomen ohne Artikel wird mit „kein“ verneint.",
+  "en": "Negate only once: 'nicht' follows the object, and a noun without an article is negated with 'kein'."
+ },
+ "dative-verb": {
+  "de": "Verben wie „helfen“, „danken“, „zustimmen“ und „erklären“ (die Person) verlangen den Dativ: mir, dir, meinem Bruder.",
+  "en": "Verbs like helfen, danken, zustimmen and erklären (the person) take the dative: mir, dir, meinem Bruder."
+ },
+ "verb-second": {
+  "de": "Im Hauptsatz steht das konjugierte Verb an zweiter Stelle, auch nach „dann“, „deswegen“ oder „desto“.",
+  "en": "In a main clause the finite verb is in second position, also after dann, deswegen or desto."
+ },
+ "verb-final": {
+  "de": "Im Nebensatz mit „dass“, „weil“, „wenn“, „ob“, Fragewort oder Relativpronomen steht das konjugierte Verb am Ende.",
+  "en": "In a subordinate clause with dass, weil, wenn, ob, a question word or a relative pronoun, the finite verb goes to the end."
+ },
+ "da-compound": {
+  "de": "Vor einem dass- oder Infinitivsatz steht das Präpositionalobjekt als da-Wort: darauf, dafür, darüber.",
+  "en": "Before a dass- or infinitive clause the prepositional object becomes a da-compound: darauf, dafür, darüber."
+ },
+ "verb-preposition": {
+  "de": "Verb und Präposition sind fest verbunden und werden nicht übersetzt: warten auf, Angst vor, sich bewerben um, sich beschäftigen mit.",
+  "en": "Verb and preposition form a fixed pair that is not translated: warten auf, Angst vor, sich bewerben um, sich beschäftigen mit."
+ },
+ "comparison": {
+  "de": "Der Komparativ hat die Endung -er und vergleicht mit „als“; „mehr“ und „wie“ gehören nicht dazu. Gleichheit: so … wie.",
+  "en": "The comparative takes -er and compares with 'als'; 'mehr' and 'wie' do not belong. Equality: so … wie."
+ },
+ "konjunktiv-2": {
+  "de": "Wünsche und Irreales stehen im Konjunktiv II: „hätte gern“ vor einem Nomen, „würde gern“ vor einem Infinitiv, „hätte“ und „wäre“ statt „würde haben“ und „würde sein“.",
+  "en": "Wishes and unreal conditions use Konjunktiv II: 'hätte gern' before a noun, 'würde gern' before an infinitive, 'hätte' and 'wäre' instead of 'würde haben' and 'würde sein'."
+ },
+ "konjunktiv-1": {
+  "de": "Indirekte Rede steht im Konjunktiv I (sei, habe, komme), nicht im Konjunktiv II; im dass-Satz steht das Verb am Ende.",
+  "en": "Reported speech uses Konjunktiv I (sei, habe, komme), not Konjunktiv II; in a dass-clause the verb goes to the end."
+ },
+ "infinitive-form": {
+  "de": "Modalverben und „lassen“ nehmen den Infinitiv ohne „zu“ (auch im Perfekt: musste, schneiden lassen), andere Verben „zu“ + Infinitiv; ein zweites Hilfsverb wie „worden“ oder „wird“ entfällt.",
+  "en": "Modal verbs and 'lassen' take the bare infinitive (also in the perfect: musste, schneiden lassen), other verbs 'zu' + infinitive; a second auxiliary such as 'worden' or 'wird' is dropped."
+ },
+ "word-choice": {
+  "de": "Hier passt ein anderes Wort; die englische Bedeutung lässt sich nicht direkt übertragen: interessant, wissen, sich lohnen, sinnvoll.",
+  "en": "A different word is needed; the English meaning does not carry over directly: interessant, wissen, sich lohnen, sinnvoll."
+ },
+ "tekamolo": {
+  "de": "Angaben stehen in der Reihenfolge Zeit, Grund, Art, Ort (TeKaMoLo).",
+  "en": "Adverbials follow the order time, cause, manner, place (TeKaMoLo)."
+ },
+ "relative-pronoun": {
+  "de": "Das Relativpronomen richtet sich im Genus nach dem Bezugswort und im Fall nach dem Verb oder der Präposition im Relativsatz: der Mann, den ich sah; die Frage, auf die ich keine Antwort habe.",
+  "en": "The relative pronoun takes its gender from the noun and its case from the verb or preposition in the relative clause: der Mann, den ich sah; die Frage, auf die ich keine Antwort habe."
+ },
+ "redundancy": {
+  "de": "Ein Verbindungswort genügt: „obwohl“ ohne „aber“, „einerseits“ ohne „aber“, „anbei“ ohne „im Anhang“, „deshalb“ ohne „aus diesem Grund“.",
+  "en": "One connector is enough: obwohl without aber, einerseits without aber, anbei without im Anhang, deshalb without aus diesem Grund."
+ },
+ "conjunction-choice": {
+  "de": "„obwohl“ leitet einen Nebensatz ein, „trotzdem“ einen Hauptsatz; nach „Der Grund ist“ folgt „dass“, nicht „weil“.",
+  "en": "'obwohl' opens a subordinate clause, 'trotzdem' a main clause; after 'Der Grund ist' use 'dass', not 'weil'."
+ },
+ "reflexive": {
+  "de": "Das Verb ist reflexiv: sich entscheiden, sich erinnern an, sich konzentrieren auf, sich beeilen, sich erkälten.",
+  "en": "The verb is reflexive: sich entscheiden, sich erinnern an, sich konzentrieren auf, sich beeilen, sich erkälten."
+ },
+ "fronted-adverbial": {
+  "de": "Eine vorangestellte Angabe zählt als erste Position: Danach folgt sofort das Verb, ohne Komma.",
+  "en": "A fronted adverbial fills the first position: the verb follows immediately, with no comma."
+ },
+ "genitive": {
+  "de": "„wegen“, „trotz“ und „während“ verlangen den Genitiv (wegen des Regens); „der Meinung sein“ steht im Genitiv.",
+  "en": "'wegen', 'trotz' and 'während' take the genitive (wegen des Regens); 'der Meinung sein' is genitive."
+ },
+ "agreement": {
+  "de": "Verb und Endungen stimmen mit dem Subjekt überein: „die Anzahl“ ist Singular (hat); ein Adjektiv vor dem Nomen bekommt die passende Endung (die geplanten Maßnahmen).",
+  "en": "Verb and endings agree with the subject: 'die Anzahl' is singular (hat); an adjective before its noun takes the matching ending (die geplanten Maßnahmen)."
+ },
+ "clause-form": {
+  "de": "Nach „damit einverstanden sein“ folgt ein dass-Satz mit konjugiertem Verb, kein Infinitiv: …, dass die Gebühren erhöht werden.",
+  "en": "'damit einverstanden sein' is followed by a dass-clause with a finite verb, not an infinitive: …, dass die Gebühren erhöht werden."
+ },
+ "passive": {
+  "de": "Das Passiv hat ein Hilfsverb: Präteritum „wurden … geschlossen“ oder Perfekt „sind … geschlossen worden“, nicht beides.",
+  "en": "The passive takes one auxiliary: preterite 'wurden … geschlossen' or perfect 'sind … geschlossen worden', not both."
+ },
+ "style-chain": {
+  "de": "Aneinandergereihte dass- und was-Sätze wirken umständlich; ein Hauptsatz mit Nominalphrase oder „und damit“ sagt es kürzer.",
+  "en": "Chains of dass- and was-clauses are clumsy; one main clause with a noun phrase or 'und damit' says it more briefly."
+ }
+}

@@ -1,0 +1,42 @@
+[
+ {
+  "key": "bakery",
+  "frame": "en-a",
+  "help": "en",
+  "turn": 1,
+  "learner": [
+   "Guten Morgen, ich möchte sechs Brötchen, bitte."
+  ],
+  "prompt": "Role-play: buying rolls at the bakery. You are the shop assistant (Bäckerei). I am the customer. We use formal \"Sie\".\nFacts (only these are true):\n- Rolls: 0,45 Euro das Stück\n- Wholegrain loaf: 3,80 Euro\n- Open: heute bis 18 Uhr\n- Pretzels: heute ausverkauft\nDialogue so far:\nVerkäuferin: Guten Morgen! Was darf es sein?\nKunde: Guten Morgen, ich möchte sechs Brötchen, bitte.\nReply only with Verkäuferin's next line: 1-2 sentences in German, ending with a question. No correction, no explanation, no translation, no word list.\nThen add one line in English in parentheses saying what you said.\nExample (different situation) - Kellner: \"Einen Moment, ich bringe die Karte. Möchten Sie schon etwas trinken?\""
+ },
+ {
+  "key": "cafe",
+  "frame": "de-a",
+  "help": "de",
+  "turn": 0,
+  "learner": [
+   "Einen Cappuccino, bitte."
+  ],
+  "prompt": "Rollenspiel: Etwas bestellen im Café. Du bist der Kellner (Café). Ich bin der Gast. Wir sagen „Sie“.\nFakten (nur diese gelten):\n- Cappuccino: 3,60 Euro\n- Apfelkuchen: 4,20 Euro das Stück\n- Hafermilch: möglich, kein Aufpreis\n- Bezahlen: nur bar\nBisheriger Dialog:\nKellner: Hallo, was darf ich Ihnen bringen?\nGast: Einen Cappuccino, bitte.\nAntworte nur als Kellner mit der nächsten Zeile: 1-2 Sätze, Deutsch, am Ende eine Frage. Keine Korrektur, keine Erklärung, keine Übersetzung, keine Wortliste.\nBeispiel (andere Situation) - Bäcker: „Gern, zwei Brötchen. Darf es sonst noch etwas sein?“"
+ },
+ {
+  "key": "flatmate_kitchen",
+  "frame": "de-b",
+  "help": "en",
+  "turn": 2,
+  "learner": [
+   "Hallo! Können wir kurz über die Küche reden?"
+  ],
+  "prompt": "Wir üben: Mit der Mitbewohnerin die Küchenregeln besprechen. Deine Rolle: die Mitbewohnerin (WG, Küche). Meine Rolle: der Mitbewohner. Anrede: du.\nWas du weißt (mehr nicht):\n- Küche putzen: jeden Sonntag, abwechselnd\n- Haushaltskasse: 10 Euro im Monat\n- Spülmaschine: abends anstellen\n- Besuch: vorher kurz Bescheid sagen\nSo weit sind wir:\nMitbewohnerin: Hey, schön, dass du da bist! Hast du schon alles ausgepackt?\nMitbewohner: Hallo! Können wir kurz über die Küche reden?\nDeine Aufgabe: nur die nächste Zeile als Mitbewohnerin, 1-2 Sätze auf Deutsch, mit einer Frage am Ende. Bleib in der Rolle - nichts korrigieren, nichts erklären, nichts übersetzen.\nSchreib danach in Klammern einen englischen Satz, der sagt, was du gesagt hast.\nZum Beispiel (andere Situation) - Freund: „Klar, ich bring dir das Buch morgen mit. Bist du um sechs zu Hause?“"
+ },
+ {
+  "key": "job_interview",
+  "frame": "en-b",
+  "help": "de",
+  "turn": 3,
+  "learner": [
+   "Guten Tag, vielen Dank für die Einladung."
+  ],
+  "prompt": "Let's practise: a job interview at a logistics company. You play the head of HR (Büro der Personalabteilung); I play the applicant. Address: formal \"Sie\".\nWhat you know (nothing more):\n- Position: Sachbearbeiter im Kundenservice, Vollzeit\n- Start date: 1. März\n- Salary: 3.400 Euro brutto im Monat\n- Probation: sechs Monate\n- Working from home: zwei Tage pro Woche nach der Probezeit\nWhere we are:\nPersonalleiterin: Guten Tag, schön, dass Sie da sind. Erzählen Sie mir zuerst kurz etwas über sich – was hat Sie zu uns geführt?\nBewerber: Guten Tag, vielen Dank für die Einladung.\nYour job: only Personalleiterin's next line, 1-2 sentences of German, with a question at the end. Stay in character - do not correct, explain, or translate anything.\nFor example (different situation) - Busfahrer: \"Bis zum Rathaus sind es drei Stationen. Haben Sie schon eine Fahrkarte?\""
+ }
+]

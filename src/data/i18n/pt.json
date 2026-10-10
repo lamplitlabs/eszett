@@ -1,0 +1,2836 @@
+{
+  "grammar": {
+    "vokalwechsel": {
+      "title": "Mudança de vogal no presente: er wirft, er sieht, er fährt",
+      "rule": "Muitos verbos fortes mudam a vogal do radical nas formas de du e er/sie/es: e vira i (werfen: du wirfst, er wirft), e vira ie (sehen: du siehst, er sieht), a vira ä (fahren: du fährst, er fährt). Todas as outras formas mantêm a vogal do infinitivo: ich werfe, wir werfen, ihr werft, sie werfen. Por isso se diz 'er wirft', e não 'er werft'.",
+      "examples": [
+        "Eu lanço a bola, você lança a bola, ele lança a bola.",
+        "Você vê a placa? Sim, eu a vejo.",
+        "Ela vai para Viena amanhã, nós vamos na sexta-feira.",
+        "Ele fala três línguas e lê muito."
+      ],
+      "pitfalls": [
+        "Em 'werfen', o e vira i nas formas de du e er/sie/es.",
+        "A mudança de vogal só vale para du e er/sie/es; a forma de ihr mantém a vogal: ihr fahrt.",
+        "e -> ie na 2ª e na 3ª pessoa do singular: du siehst, er/sie sieht, mais a terminação -t.",
+        "a -> ä para du e er/sie/es: du schläfst, er schläft; ich schlafe, wir schlafen mantêm a vogal simples.",
+        "A mudança de vogal só vale para du e er/sie/es. wir, ihr, sie mantêm a vogal do radical: wir lesen, ihr lest.",
+        "'nehmen' muda e -> i e encurta o radical: du nimmst, er nimmt (com mm)."
+      ]
+    },
+    "kein-nicht": {
+      "title": "kein ou nicht?",
+      "rule": "'Kein' nega um substantivo com artigo indefinido ou sem artigo: Ich habe ein Auto → Ich habe kein Auto; Ich habe Zeit → Ich habe keine Zeit. 'Nicht' nega todo o resto: verbos, adjetivos, advérbios e substantivos com artigo definido ou possessivo: Das ist nicht mein Auto. 'Nicht' costuma ficar no fim da oração ou logo antes da parte que nega.",
+      "examples": [
+        "Não tenho tempo nem dinheiro.",
+        "Não entendo isso.",
+        "Esse não é o caminho certo.",
+        "Ela não vem hoje."
+      ],
+      "pitfalls": [
+        "Um substantivo sem artigo é negado com 'kein'.",
+        "Antes de um possessivo, use 'nicht', nunca 'kein'.",
+        "'kein' se declina como 'ein': der Hunger, acusativo masculino -> keinen Hunger.",
+        "Adjetivos, verbos e advérbios são negados com 'nicht'; 'kein' só vem antes de substantivos.",
+        "Um substantivo sem artigo ou com 'ein' é negado com 'kein': keinen Kaffee, keine Zeit.",
+        "O verbo é negado com 'nicht', colocado o mais para o fim possível: kommt heute nicht."
+      ]
+    },
+    "modalverben": {
+      "title": "Verbos modais",
+      "rule": "Os verbos modais können, müssen, dürfen, sollen, wollen, mögen (möchte) ocupam a posição 2 e mandam o infinitivo para o fim: Ich muss heute arbeiten. As formas de ich e er/sie/es são idênticas: ich kann, er kann; ich muss, sie muss; ich möchte, er möchte. Significados: können = capacidade ou possibilidade, müssen = necessidade, dürfen = permissão, sollen = obrigação ou conselho, wollen = intenção forte, möchte = desejo educado.",
+      "examples": [
+        "Não posso vir hoje.",
+        "Ele tem que se levantar cedo todos os dias.",
+        "Posso estacionar aqui?",
+        "Eu gostaria de um café, por favor."
+      ],
+      "pitfalls": [
+        "Os verbos modais não recebem -t na forma de er/sie/es: er kann.",
+        "O infinitivo vai para o fim da frase.",
+        "'möchte' não tem -t na 1ª e na 3ª pessoa do singular: ich möchte, er/sie möchte; ihr möchtet.",
+        "Depois de um verbo modal, o infinitivo vem sem 'zu'.",
+        "Os verbos modais não têm terminação na 1ª e na 3ª pessoa do singular: ich will, er will; ihr wollt.",
+        "ich darf, du darfst, er darf – o singular dos verbos modais não tem -e na 1ª pessoa."
+      ]
+    },
+    "imperativ": {
+      "title": "O imperativo: du, ihr, Sie",
+      "rule": "O imperativo tem três formas. Forma de du: o radical do verbo sem 'du', geralmente sem terminação: Komm! Depois de -t/-d acrescenta-se -e: Warte! Verbos com e para i mantêm a mudança: Sprich! Nimm! Verbos com a para ä, não: Fahr! Forma de ihr: igual ao presente sem 'ihr': Kommt! Wartet! Forma de Sie: infinitivo + Sie: Kommen Sie bitte! O verbo normalmente vem primeiro; no máximo palavras como 'bitte', 'jetzt' ou 'dann' vêm antes dele. 'Sein' é especial: Sei ruhig! Seid ruhig! Seien Sie ruhig!",
+      "examples": [
+        "Por favor, venha aqui e me ajude!",
+        "Peguem seus livros e leiam o texto!",
+        "Por favor, espere aqui um momento.",
+        "Por favor, seja pontual!"
+      ],
+      "pitfalls": [
+        "Nos verbos com e para i, o imperativo de du mantém a mudança de vogal: sprich, nimm, gib.",
+        "O imperativo de du não tem terminação -st nem Umlaut: fahr.",
+        "O imperativo de du não tem terminação -st: Geh! Komm! Nimm! O pronome normalmente é omitido; só 'Sie' permanece: Gehen Sie!",
+        "'sein' é irregular: sei (du), seid (ihr), seien Sie.",
+        "Verbos com e -> i/ie mantêm a mudança no imperativo de du: nimm, gib, sprich, lies.",
+        "Verbos com a -> ä perdem o Umlaut no imperativo: schlaf, fahr, lauf."
+      ]
+    },
+    "verb-zweitstellung": {
+      "title": "Orações principais: o verbo fica na posição 2",
+      "rule": "Numa afirmação, o verbo conjugado sempre ocupa a posição 2. A posição 1 pode ser o sujeito, mas também uma expressão de tempo ou de lugar ou um objeto; nesse caso o sujeito vem depois do verbo: Morgen fahre ich nach Köln. Perguntas de sim ou não começam com o verbo: Kommst du mit? Nas perguntas com palavra interrogativa (W-Fragen), a palavra interrogativa ocupa a posição 1 e o verbo a posição 2: Wann kommst du?",
+      "examples": [
+        "Eu vou para Köln amanhã.",
+        "Amanhã eu vou para Köln.",
+        "No fim de semana vamos visitar meus pais.",
+        "Você vem junto? Quando você vem?"
+      ],
+      "pitfalls": [
+        "Depois de uma expressão de tempo na posição 1, o verbo fica na posição 2 e depois vem o sujeito.",
+        "O verbo tem que ficar na posição 2: besuchen wir.",
+        "Quando uma expressão de tempo vem primeiro, o verbo fica na posição 2 e o sujeito vem depois: Heute habe ich.",
+        "'dann', 'deshalb', 'trotzdem' podem ocupar a posição 1: o verbo vem logo depois.",
+        "Um advérbio como 'leider' também conta como posição 1; o verbo fica em segundo lugar.",
+        "Uma locução preposicional inteira é a posição 1; o verbo vem logo em seguida: lerne ich."
+      ]
+    },
+    "kennen-wissen-koennen": {
+      "title": "kennen, wissen ou können?",
+      "rule": "'Kennen' significa conhecer uma pessoa, um lugar ou uma coisa; leva objeto direto: Ich kenne die Stadt. 'Wissen' significa saber uma informação; vem quase sempre seguido de 'dass', 'ob', uma palavra interrogativa ou 'es/das', ou então de uma coisa (die Antwort): Ich weiß, dass er kommt. 'Können' é o verbo modal de capacidade ou possibilidade, geralmente com infinitivo: Ich kann schwimmen.",
+      "examples": [
+        "Conheço bem Berlim.",
+        "Sei que ela vem hoje.",
+        "Você sabe onde fica a estação?",
+        "Eu sei falar alemão. Você sabe nadar?"
+      ],
+      "pitfalls": [
+        "Lugares e pessoas se conhecem com 'kennen'; 'wissen' é para informações: Ich weiß, wo Berlin liegt.",
+        "Antes de uma oração com palavra interrogativa, use 'wissen'.",
+        "Pessoas, lugares e obras que você conhece vão com 'kennen'; 'wissen' leva quase sempre uma oração (dass, ob, palavra interrogativa) ou fatos como 'es/das/viel/die Antwort'.",
+        "Antes de uma oração com palavra interrogativa, 'dass' ou 'ob', você usa 'wissen', nunca 'kennen'.",
+        "Línguas e habilidades: 'können' (Ich kann Deutsch, sie kann schwimmen).",
+        "Uma habilidade com infinitivo pede 'können'; 'kennen' só vai com substantivo ou pronome."
+      ]
+    },
+    "seit-vor-fuer": {
+      "title": "seit, vor ou für com expressões de tempo?",
+      "rule": "'Seit' (+ dativo) marca o início de um período que ainda continua, e o alemão normalmente usa o presente: Ich lerne seit zwei Jahren Deutsch = Aprendo alemão há dois anos. 'Vor' (+ dativo) significa 'há … atrás', um ponto no passado: vor zwei Jahren. 'Für' (+ acusativo) indica uma duração planejada: für zwei Wochen.",
+      "examples": [
+        "Moro em Hamburgo há três anos.",
+        "Três anos atrás eu me mudei para Hamburgo.",
+        "Ela vai para a Itália por duas semanas.",
+        "Desde quando você aprende alemão? Desde janeiro."
+      ],
+      "pitfalls": [
+        "O período ainda continua, por isso o alemão usa o presente.",
+        "O sentido é um período até agora (aprendo há …): seit + dativo.",
+        "Um ponto no passado: vor + dativo. 'seit' indica um período que continua até agora.",
+        "'seit' exige o dativo, e o dativo plural recebe -n: seit zwei Jahren.",
+        "Uma duração planejada (futuro): für. 'seit' só cabe quando o período começou no passado e ainda está em curso.",
+        "O presente com uma duração até hoje pede 'seit'; 'vor' com o presente não combina."
+      ]
+    },
+    "dass-ob": {
+      "title": "dass ou ob?",
+      "rule": "'Dass' introduz uma afirmação (que); 'ob' introduz uma pergunta indireta de sim ou não (se). Nas duas orações o verbo vai para o fim. Se a pergunta tem uma palavra interrogativa, essa palavra substitui 'ob': Ich weiß nicht, wo er wohnt.",
+      "examples": [
+        "Acho que ele vem amanhã.",
+        "Não sei se ele vem amanhã.",
+        "Ela pergunta se você tem tempo."
+      ],
+      "pitfalls": [
+        "Uma pergunta indireta de sim ou não (ele vem ou não?) pede 'ob'.",
+        "O 'se' de uma pergunta indireta é 'ob', não 'wenn' (que é o 'se' condicional).",
+        "'hoffen' introduz uma afirmação: dass. 'ob' só aparece com uma pergunta de sim ou não em aberto.",
+        "Depois de 'fragen' vem uma pergunta indireta de sim ou não: ob (Hast du Zeit? -> ob ich Zeit habe).",
+        "A conjunção 'dass' se escreve com ss; 'das' é o artigo ou o pronome relativo (das Haus, das ich sehe).",
+        "Quando a resposta está em aberto (sim ou não), use 'ob'; 'dass' apresenta a afirmação como certa."
+      ]
+    },
+    "wechselpraepositionen": {
+      "title": "Preposições de duplo caso: acusativo ou dativo?",
+      "rule": "As nove preposições de duplo caso an, auf, hinter, in, neben, über, unter, vor, zwischen levam o acusativo para direção ou destino (pergunta: wohin? para onde?) e o dativo para localização (pergunta: wo? onde?). Dica para lembrar: movimento em direção a um destino = acusativo, posição = dativo.",
+      "examples": [
+        "Eu vou para a cozinha. Eu estou na cozinha.",
+        "Ele coloca o livro sobre a mesa. O livro está sobre a mesa.",
+        "Nós vamos para o mar. Nós moramos à beira do mar."
+      ],
+      "pitfalls": [
+        "'Gehen' com destino responde a 'wohin?', portanto acusativo: in die Küche.",
+        "'Liegen' é posição, pergunta 'wo?', portanto dativo: auf dem Tisch.",
+        "'Essen' não é movimento em direção a um destino, pergunta 'wo?', portanto dativo: in einem Restaurant.",
+        "Para onde? Um movimento em direção a um destino leva o acusativo: an die Wand.",
+        "Onde? 'sitzen' indica um lugar sem movimento: dativo, auf dem Stuhl. (Sie setzt sich auf den Stuhl.)",
+        "'stellen' é um movimento com destino (para onde?): acusativo. 'Die Flasche steht im Kühlschrank' seria dativo.",
+        "'warten' não é mudança de lugar: onde? Dativo, vor der Schule."
+      ]
+    },
+    "perfekt-haben-sein": {
+      "title": "Perfekt com haben ou sein?",
+      "rule": "A maioria dos verbos forma o Perfekt com 'haben'. 'Sein' é usado com verbos de movimento de A para B (gehen, fahren, kommen, fliegen), de mudança de estado (aufwachen, einschlafen, sterben, werden) e com sein, bleiben, passieren, geschehen. Nesses usos eles não levam objeto no acusativo (mas: Ich habe das Auto gefahren). Verbos reflexivos e verbos modais levam 'haben'.",
+      "examples": [
+        "Eu fui ao cinema.",
+        "Eu trabalhei no escritório.",
+        "Ela acordou às seis horas.",
+        "Nós ficamos duas horas."
+      ],
+      "pitfalls": [
+        "Movimento para um lugar sem objeto direto: sein.",
+        "Mudança de estado: sein.",
+        "'arbeiten' não é movimento nem mudança de estado: Perfekt com 'haben'.",
+        "'aufstehen' é uma mudança de estado (deitado -> em pé): Perfekt com 'sein'.",
+        "Movimento de A para B (gehen, fahren, kommen, fliegen): 'sein'.",
+        "'passieren', 'geschehen', 'bleiben', 'sein' e 'werden' levam 'sein', embora não sejam movimento."
+      ]
+    },
+    "futur-i": {
+      "title": "Futur I: werden + infinitivo",
+      "rule": "O Futur I é 'werden' (no presente) + infinitivo no fim da oração: Ich werde morgen arbeiten. Para planos com uma expressão de tempo, o alemão geralmente usa só o presente: Morgen fahre ich nach Köln. O futuro destaca uma intenção, uma suposição ou uma promessa. Cuidado: 'würde' é Konjunktiv II (faria, iria), não o futuro.",
+      "examples": [
+        "Eu vou te ligar amanhã.",
+        "No ano que vem vamos para a Espanha.",
+        "Ele provavelmente ainda está no escritório."
+      ],
+      "pitfalls": [
+        "Uma promessa sobre o futuro leva 'werde' (eu vou, eu irei); 'würde' significa 'faria, iria' e é Konjunktiv II.",
+        "Depois de 'werden', o infinitivo vai para o fim.",
+        "Futur I = werden + um infinitivo. Um segundo 'werden' no fim está sobrando.",
+        "Depois de 'werden', o infinitivo vem sem 'zu', assim como depois dos verbos modais.",
+        "O infinitivo vai para o fim da frase; 'werden' fica na posição 2."
+      ]
+    },
+    "trennbare-verben": {
+      "title": "Verbos separáveis",
+      "rule": "Os verbos separáveis têm um prefixo tônico (an-, auf-, aus-, ein-, mit-, zu-, ab-, vor-, weg-). Na oração principal, o prefixo vai para o fim: Ich rufe dich an. Na oração subordinada, o verbo fica no fim, inteiro: ..., weil ich dich anrufe. O particípio passado é prefixo + particípio do verbo base: an + gerufen = angerufen, aus + probiert = ausprobiert; 'zu' entra no meio: anzurufen. Os prefixos inseparáveis (be-, ver-, er-, ent-, zer-, ge-, emp-) nunca se separam.",
+      "examples": [
+        "Eu me levanto às sete todos os dias.",
+        "Ela me ligou ontem.",
+        "Eu sei que o trem sai às oito.",
+        "Ele entendeu a pergunta e respondeu."
+      ],
+      "pitfalls": [
+        "Na oração principal, o prefixo se separa e vai para o fim.",
+        "O particípio dos verbos separáveis é prefixo + particípio do verbo base: an + gerufen.",
+        "Com um verbo modal, o verbo separável fica no fim como um único infinitivo: ausgehen.",
+        "Na oração subordinada, o verbo vai para o fim e o prefixo volta a se juntar a ele: ankommt.",
+        "be-, ver-, er-, ent-, zer- e ge- são inseparáveis e átonos: o particípio passado não leva ge-.",
+        "Na oração principal e na pergunta, o prefixo se separa e vai para o fim: fährt ... ab."
+      ]
+    },
+    "nebensatz-verbende": {
+      "title": "Orações subordinadas: o verbo vai para o fim",
+      "rule": "Depois de conjunções subordinativas como weil, dass, wenn, ob, obwohl, als, damit, bevor, nachdem, e depois de palavras interrogativas em perguntas indiretas, o verbo conjugado vai para o fim da oração. Com duas partes verbais, o verbo conjugado vem por último: ..., weil ich gestern nicht kommen konnte. Se a oração subordinada vem primeiro, a oração principal começa pelo verbo: Weil ich krank bin, bleibe ich zu Hause.",
+      "examples": [
+        "Acho que ele não tem tempo hoje.",
+        "Como está chovendo, vamos ficar em casa.",
+        "Ela pergunta se você pode vir junto amanhã."
+      ],
+      "pitfalls": [
+        "Na oração com 'dass', o verbo vai para o fim.",
+        "A oração antecipada ocupa a posição 1; o verbo vem logo depois dela.",
+        "Depois de 'ob', o verbo vai para o fim da oração; a expressão de tempo fica antes dele.",
+        "Na oração subordinada, o verbo modal vem por último, depois do infinitivo: nicht kommen kann.",
+        "Na oração relativa (uma oração subordinada), o auxiliar vem por último: gesehen habe."
+      ]
+    },
+    "dativ-plural-n": {
+      "title": "O dativo plural: -n no substantivo",
+      "rule": "No dativo plural, quase todo substantivo recebe -n: mit den Kindern, bei meinen Eltern, aus den Häusern. Plurais em -s (die Autos), plurais em -n (die Frauen) e alguns plurais estrangeiros (die Praktika) não mudam. As palavras de artigo também terminam em -en: den, meinen, diesen, allen. Depois de mit, bei, von, zu, aus, nach, seit usa-se sempre o dativo.",
+      "examples": [
+        "Vou de férias com meus filhos.",
+        "Ela ainda mora com os pais.",
+        "Conversamos muitas vezes com nossos vizinhos.",
+        "Ele conversa com as mulheres do curso."
+      ],
+      "pitfalls": [
+        "Depois de 'mit' é obrigatório o dativo: meinen Kindern, com -n no substantivo.",
+        "Depois de 'bei' é obrigatório o dativo plural: ihren Eltern.",
+        "'mit' exige o dativo: artigo 'den' e -n no substantivo plural: mit den Kindern.",
+        "'von' + dativo plural: unseren Freunden – palavra de artigo em -en, substantivo em -n.",
+        "'seit' + dativo: die Jahre -> seit Jahren. O dativo plural recebe -n, mesmo sem artigo.",
+        "'aus' + dativo: die Häuser -> aus den Häusern. Só os plurais em -s ou -n não mudam."
+      ]
+    },
+    "reflexive-verben": {
+      "title": "Verbos reflexivos: mich ou mir?",
+      "rule": "Os verbos reflexivos vêm com um pronome reflexivo: mich, dich, sich, uns, euch, sich. Muitos são sempre reflexivos (sich beeilen, sich irren, sich schämen, sich weigern). O pronome costuma estar no acusativo; fica normalmente no dativo quando a frase também tem um objeto direto: Ich wasche mich, mas ich wasche mir die Hände. Só mir/mich e dir/dich mostram a diferença. O Perfekt se forma com haben.",
+      "examples": [
+        "Mal posso esperar pelo fim de semana.",
+        "Você se lembra dele?",
+        "Eu lavo as mãos.",
+        "Nós nos encontramos ontem."
+      ],
+      "pitfalls": [
+        "Com um objeto direto ('die Hände'), o pronome reflexivo fica no dativo: mir.",
+        "'Sich freuen auf' é sempre reflexivo.",
+        "Sem outro objeto, o pronome reflexivo fica quase sempre no acusativo: ich interessiere mich, du freust dich.",
+        "Quando há um objeto no acusativo (die Hände), o pronome reflexivo fica no dativo: mir, dir.",
+        "O pronome reflexivo concorda com o sujeito: wir -> uns, ihr -> euch; 'sich' só para er/sie/es/sie/Sie.",
+        "'sich (dativo) etwas vorstellen' = imaginar; 'sich (acusativo) vorstellen' = apresentar-se."
+      ]
+    },
+    "komparativ-superlativ": {
+      "title": "O comparativo e o superlativo",
+      "rule": "Comparativo: adjetivo + -er, comparação com 'als': schneller als. Superlativo: am + adjetivo + -sten, ou der/die/das + -ste antes de um substantivo: am schnellsten, der schnellste Zug. Muitos adjetivos monossilábicos com a, o, u recebem Umlaut: alt, älter, am ältesten; groß, größer, am größten. Irregulares: gut, besser, am besten; viel, mehr, am meisten; gern, lieber, am liebsten; hoch, höher, am höchsten. Igualdade: so ... wie.",
+      "examples": [
+        "Berlim é maior que Hamburgo.",
+        "O ICE é o trem mais rápido da Alemanha.",
+        "Prefiro chá a café, e chá verde acima de tudo.",
+        "Meu irmão tem a mesma idade que eu."
+      ],
+      "pitfalls": [
+        "O comparativo recebe -er (com Umlaut: größer), não 'mehr' + adjetivo.",
+        "'Gut' é irregular: gut, besser, am besten, der beste.",
+        "Depois do comparativo vem 'als'; 'wie' pertence à comparação de igualdade (so groß wie).",
+        "O superlativo com verbo: am + -sten (am schnellsten, am besten).",
+        "Igualdade: so ... wie. 'als' só depois de um comparativo (größer als).",
+        "O comparativo se forma com -er, mesmo em adjetivos longos: interessanter, nunca 'mehr interessant'."
+      ]
+    },
+    "genus-endungen": {
+      "title": "Reconhecer o gênero pela terminação do substantivo",
+      "rule": "Muitas terminações revelam o artigo. Sempre femininos: -ung, -heit, -keit, -schaft, -tät (die Wohnung, die Freiheit, die Universität); quase sempre femininos: -ion, -ei, -ie, -ik, -ur (die Nation, die Bäckerei, die Musik). Sempre neutros: os diminutivos -chen, -lein e os infinitivos usados como substantivos (das Mädchen, das Essen); quase sempre neutros: -um, -ment, -tum (das Museum, das Dokument, mas der Irrtum). Quase sempre masculinos: -er para pessoas e aparelhos, -ling, -ismus, -ist, -or (der Lehrer, der Computer, der Motor). A terminação -e não é um sinal seguro: die Lampe, mas das Ende, der Name. Nos outros casos, aprenda o artigo junto com a palavra.",
+      "examples": [
+        "'Wohnung', 'Freiheit' e 'Möglichkeit' são femininos.",
+        "'Mädchen' e 'Museum' são neutros.",
+        "'Lehrer', 'Computer' e 'Optimismus' são masculinos.",
+        "O fim do filme foi triste."
+      ],
+      "pitfalls": [
+        "Palavras estrangeiras terminadas em -um são quase sempre neutras: das Museum, das Zentrum, das Datum.",
+        "Substantivos terminados em -ung são sempre femininos: die Zeitung, die Wohnung, die Übung.",
+        "-heit e -keit tornam o substantivo feminino: die Freiheit, die Gesundheit, die Möglichkeit.",
+        "O diminutivo -chen é sempre neutro, mesmo para pessoas: das Mädchen, das Brüderchen.",
+        "Pessoas e aparelhos terminados em -er são quase sempre masculinos: der Computer, der Drucker, der Fahrer.",
+        "A terminação -e não marca gênero: das Ende, das Auge são neutros, die Lampe é feminino, der Name é masculino. Aprenda o artigo junto com a palavra.",
+        "Palavras estrangeiras terminadas em -ion são quase sempre femininas: die Nation, die Information, die Diskussion."
+      ]
+    },
+    "als-wenn-wann": {
+      "title": "als, wenn ou wann?",
+      "rule": "'Wann' é a palavra interrogativa para um momento no tempo e também introduz perguntas indiretas: Ich weiß nicht, wann er kommt. 'Als' é o 'quando' de um evento ou período único no passado. 'Wenn' cobre eventos repetidos (sempre que), o presente e o futuro, e condições (se). Depois de 'als' e 'wenn', o verbo vai para o fim da oração.",
+      "examples": [
+        "Quando eu tinha dez anos, nós nos mudamos para Berlim.",
+        "Sempre que estou cansado, tomo um café.",
+        "Se ele vier amanhã, vamos comemorar.",
+        "Quando você vem? Não sei quando ele vem."
+      ],
+      "pitfalls": [
+        "Um período único no passado leva 'als'.",
+        "Uma pergunta indireta sobre o momento pede a palavra interrogativa 'wann'.",
+        "Um período único no passado: als. 'wann' pergunta pelo momento (Wann kommst du?).",
+        "Para presente e futuro, use 'wenn'; 'als' é só para eventos únicos no passado.",
+        "Repetição no passado (immer, jedes Mal): wenn. 'als' só para o evento único.",
+        "A pergunta indireta sobre o momento leva 'wann'; 'wenn' aqui significaria 'se' ou 'assim que'."
+      ]
+    },
+    "weil-denn-da": {
+      "title": "weil, denn ou da?",
+      "rule": "As três indicam uma causa. 'Weil' e 'da' são subordinativas: o verbo vai para o fim da oração. 'Da' é um pouco mais formal e muitas vezes abre a frase com uma razão que o ouvinte já conhece. 'Denn' liga duas orações principais: segue a ordem normal das palavras, e a oração com 'denn' nunca pode vir primeiro.",
+      "examples": [
+        "Aprendo alemão porque trabalho em Berlim.",
+        "Como está chovendo, vamos pegar o ônibus.",
+        "Vamos dormir cedo, pois amanhã partimos."
+      ],
+      "pitfalls": [
+        "Depois de 'weil', o verbo vai para o fim.",
+        "'Denn' não pode abrir uma oração antecipada; para isso use 'da' ou 'weil'.",
+        "'denn' liga duas orações principais (posição 0): o verbo fica na posição 2, não no fim.",
+        "'da' abre uma oração subordinada: o verbo conjugado vai para o fim; a oração ocupa a posição 1, então o verbo da oração principal vem logo em seguida: lerne ich.",
+        "Uma causa antecipada pede 'weil' ou 'da'; a oração com denn vem depois da afirmação que ela explica.",
+        "Depois de 'weil', o verbo vem por último: o auxiliar 'hat' fecha a oração."
+      ]
+    },
+    "trotzdem-obwohl": {
+      "title": "obwohl ou trotzdem?",
+      "rule": "Os dois expressam um contraste (embora, mesmo assim). 'Obwohl' é uma conjunção subordinativa: abre uma oração subordinada e manda o verbo para o fim. 'Trotzdem' é um advérbio na oração principal: na posição 1, o verbo vem logo depois, ou ele fica dentro da oração: Wir gehen trotzdem spazieren. Depois de uma oração com 'obwohl', o verbo da oração principal vem logo em seguida.",
+      "examples": [
+        "Embora esteja chovendo, vamos passear.",
+        "Está chovendo. Mesmo assim, vamos passear.",
+        "Ele está cansado, mas continua trabalhando."
+      ],
+      "pitfalls": [
+        "Depois da oração antecipada com 'obwohl', o verbo vem logo em seguida: '..., gehen wir (trotzdem) spazieren'.",
+        "Depois de 'trotzdem' na posição 1, o verbo vem logo em seguida.",
+        "A consequência na oração principal leva 'trotzdem' (verbo logo depois). 'obwohl' abre a oração subordinada com o obstáculo.",
+        "'trotzdem' como conjunção subordinativa é coloquial; no alemão padrão, a oração subordinada pede 'obwohl'.",
+        "'trotzdem' ocupa a posição 1, então o verbo vem logo em seguida: Trotzdem geht er."
+      ]
+    },
+    "nachdem-bevor-waehrend": {
+      "title": "nachdem, bevor ou während?",
+      "rule": "As três abrem orações subordinadas com o verbo no fim. 'Bevor' = antes de: Bevor ich esse, wasche ich mir die Hände. 'Während' = enquanto: Während ich koche, höre ich Radio. 'Nachdem' = depois de; o verbo da oração com 'nachdem' costuma estar um tempo verbal mais para trás: Nachdem ich gegessen hatte, ging ich spazieren.",
+      "examples": [
+        "Antes de comer, lavo as mãos.",
+        "Enquanto cozinho, ouço rádio.",
+        "Depois que eu tinha comido, fui passear.",
+        "Depois que ele passou na prova, ele comemora."
+      ],
+      "pitfalls": [
+        "Depois de 'nachdem', o verbo costuma estar um tempo verbal mais para trás: Perfekt com o presente, Plusquamperfekt com o passado.",
+        "Depois de 'bevor', o verbo vai para o fim da oração."
+      ]
+    },
+    "praeteritum-perfekt": {
+      "title": "Präteritum ou Perfekt?",
+      "rule": "Os dois tempos narram o passado. Na fala e em e-mails, o Perfekt é a forma normal: Ich habe gestern gearbeitet. O Präteritum pertence a narrativas escritas, relatórios e textos de jornal. Com sein, haben e os verbos modais, o Präteritum é normal até na fala: Ich war müde, ich hatte Zeit, ich konnte nicht kommen.",
+      "examples": [
+        "Ontem trabalhei muitas horas e depois fiquei cansado.",
+        "Era uma vez um rei que tinha três filhas.",
+        "Eu queria ligar, mas não tive tempo."
+      ],
+      "pitfalls": [
+        "Perfekt = haben/sein + particípio passado; 'arbeitete' é Präteritum, não particípio.",
+        "'Bleiben' forma o Perfekt com sein.",
+        "Os verbos modais costumam ficar no Präteritum mesmo na fala: konnte, musste, wollte; o Perfekt seria 'habe nicht kommen können'.",
+        "'haben' e 'sein' ficam no Präteritum: hatte, war. O Plusquamperfekt precisa de um evento anterior.",
+        "Os verbos fortes mudam a vogal e não recebem -te: gehen -> ging, kommen -> kam, sehen -> sah."
+      ]
+    },
+    "konjunktiv-ii": {
+      "title": "Konjunktiv II: würde e as formas próprias",
+      "rule": "O Konjunktiv II expressa situações irreais, desejos e pedidos educados. Para a maioria dos verbos, use 'würde' + infinitivo: Ich würde ein Haus kaufen. Alguns verbos frequentes têm forma própria: wäre, hätte, könnte, müsste, dürfte, sollte, wollte, käme, ginge, wüsste, gäbe, bliebe, fände, ließe. Na oração com 'wenn', prefira essa forma própria no fim em vez de 'würde'; a oração principal que vem depois começa pelo verbo.",
+      "examples": [
+        "Se eu tivesse mais tempo, viajaria.",
+        "Se eu tivesse mais dinheiro, iria junto com prazer.",
+        "Você poderia me ajudar, por favor?",
+        "Eu gostaria de saber se o trem está no horário."
+      ],
+      "pitfalls": [
+        "Na oração com 'wenn', use a forma própria 'hätte' no fim; a oração principal que vem depois começa pelo verbo: würde ich.",
+        "'Werfte' não existe; para werfen use würde + infinitivo (a forma antiga 'würfe' é rara).",
+        "'werfe' é Konjunktiv I (discurso indireto). O Konjunktiv II dos verbos fortes é raro (würfe), então: würde + infinitivo.",
+        "haben, sein e os verbos modais usam suas formas próprias (hätte, wäre, könnte), não würde.",
+        "Uma condição irreal coloca as duas partes no Konjunktiv II: hätte ... würde kommen.",
+        "A oração com wenn antecipada ocupa a posição 1; o verbo vem logo em seguida: würde ich."
+      ]
+    },
+    "adjektivendungen": {
+      "title": "Terminações dos adjetivos",
+      "rule": "A terminação do adjetivo depende da palavra que vem antes dele. Depois do artigo definido e depois de dieser, jeder, welcher só existem -e e -en: der alte Mann, die alten Männer, mit dem alten Mann. Depois de ein, kein, mein, o adjetivo mostra o gênero onde o artigo não tem terminação: ein alter Mann, ein altes Haus; feminino -e (eine alte Frau); acusativo masculino, dativo, genitivo e plural -en. Sem artigo, o adjetivo recebe a terminação que o artigo definido teria: alter Wein, kaltes Wasser, mit frischer Milch (genitivo masculino/neutro: -en, guten Weines).",
+      "examples": [
+        "O cachorro pequeno está dormindo. Eu vejo o cachorro pequeno.",
+        "Um cachorro pequeno está dormindo. Eu tenho um cachorro pequeno.",
+        "Gosto de beber chá gelado com hortelã fresca.",
+        "Gosto deste carro novo."
+      ],
+      "pitfalls": [
+        "Acusativo masculino: einen kleinen Hund. O artigo mostra o caso.",
+        "'Plan' é masculino; depois de 'ein', o adjetivo mostra o gênero: ein guter Plan.",
+        "welcher, dieser, jeder mostram o gênero eles mesmos, como o artigo definido: o adjetivo recebe -e no nominativo singular e no acusativo singular feminino/neutro, nos outros casos -en.",
+        "Depois de 'dieser', a terminação é como depois de 'der': dieser alte Mann, diese alte Frau, dieses alte Haus.",
+        "No dativo e no genitivo, o adjetivo depois de ein/kein/mein recebe sempre -en; '-em' fica só na palavra de artigo.",
+        "'Auto' é neutro: acusativo 'ein' sem terminação, e o adjetivo mostra o gênero com -es: ein rotes Auto.",
+        "Sem artigo, o adjetivo recebe a terminação do artigo definido: das Brot -> frisches Brot."
+      ]
+    },
+    "relativpronomen": {
+      "title": "Orações relativas e pronomes relativos",
+      "rule": "Uma oração relativa descreve um substantivo com mais detalhes. O pronome relativo pega o gênero e o número do substantivo a que se refere, mas o caso vem da oração relativa: der Mann, der (nominativo), den (acusativo), dem (dativo), dessen (genitivo). As formas são as do artigo definido, exceto dessen, deren, denen. O verbo vai para o fim; a preposição fica antes do pronome: die Frau, mit der ich arbeite.",
+      "examples": [
+        "Esse é o homem que mora ao meu lado.",
+        "Esse é o homem que eu vi ontem.",
+        "Essa é a mulher com quem eu trabalho.",
+        "As crianças que eu ajudo estão aprendendo alemão."
+      ],
+      "pitfalls": [
+        "Na oração relativa, o homem é o objeto direto: den.",
+        "A preposição vem antes do pronome relativo e o verbo vai para o fim.",
+        "O caso vem do verbo da oração relativa: 'helfen' + dativo -> dem Kind -> dem.",
+        "Pronomes relativos no genitivo: dessen para masculino e neutro, deren para feminino e plural.",
+        "'wo' só substitui um lugar onde algo acontece. Um objeto pede o pronome: das Haus, das.",
+        "'was' só vem depois de alles, etwas, nichts, das ou de uma oração inteira; aqui: den Film -> den."
+      ]
+    },
+    "zu-infinitiv": {
+      "title": "Infinitivo com ou sem zu?",
+      "rule": "Muitos verbos, adjetivos e substantivos se combinam com 'zu' + infinitivo: Ich habe vor, morgen zu kommen. Es ist wichtig, pünktlich zu sein. Não há 'zu' depois de verbos modais, werden (futuro), lassen, sehen, hören e gehen (Ich gehe schwimmen). Nos verbos separáveis, 'zu' entra no meio: anzurufen. O infinitivo com 'zu' fica no fim, muitas vezes depois de uma vírgula.",
+      "examples": [
+        "Pretendo ir para a Itália no verão.",
+        "É importante praticar todos os dias.",
+        "Ela esqueceu de me ligar.",
+        "Hoje tenho que trabalhar muitas horas."
+      ],
+      "pitfalls": [
+        "Depois de verbos modais, o infinitivo vem sem 'zu'.",
+        "Nos verbos separáveis, 'zu' fica entre o prefixo e o verbo.",
+        "Depois de substantivos como Lust, Zeit, Angst, o infinitivo leva 'zu'.",
+        "'gehen', 'fahren', 'bleiben' e os verbos modais levam o infinitivo sem 'zu'.",
+        "Os verbos de percepção (hören, sehen) e 'lassen' levam o infinitivo sem 'zu'.",
+        "Nos verbos separáveis, 'zu' fica entre o prefixo e o verbo: wiederzusehen, anzurufen."
+      ]
+    },
+    "um-zu-damit": {
+      "title": "um ... zu ou damit?",
+      "rule": "Os dois expressam finalidade (para, para que). 'Um ... zu' + infinitivo é usado quando a oração principal e a finalidade têm o mesmo sujeito: Ich lerne Deutsch, um in Berlin zu arbeiten. 'Damit' introduz uma oração subordinada com sujeito próprio e é obrigatório sempre que os sujeitos são diferentes: Ich spreche langsam, damit du mich verstehst.",
+      "examples": [
+        "Aprendo alemão para trabalhar em Berlim.",
+        "Falo devagar para que você me entenda.",
+        "Ela economiza dinheiro para que os filhos possam estudar."
+      ],
+      "pitfalls": [
+        "Sujeitos diferentes (ich, du): damit + oração subordinada.",
+        "Para finalidade (para), use 'um ... zu' + infinitivo, não 'für'.",
+        "'um ... zu' precisa do 'zu' antes do infinitivo no fim: um ... zu kaufen.",
+        "Um sujeito diferente (sie / die Kinder) exige 'damit' com uma oração; 'um dass' não existe.",
+        "Depois de 'um' não há sujeito nem verbo conjugado, só 'zu' + infinitivo: um pünktlich zu sein.",
+        "A finalidade se expressa com 'um ... zu', não com 'für'; o verbo separável recebe 'zu' no meio: einzukaufen."
+      ]
+    },
+    "n-deklination": {
+      "title": "A declinação em -n (substantivos masculinos fracos)",
+      "rule": "Alguns substantivos masculinos recebem -(e)n em todos os casos, exceto no nominativo singular: der Student, den Studenten, dem Studenten, des Studenten; plural: die Studenten. O grupo inclui substantivos masculinos em -e para pessoas e animais (der Junge, der Kollege, der Kunde, der Löwe), substantivos em -ent, -ant, -ist, -at (der Präsident, der Praktikant, der Journalist, der Automat) e algumas palavras curtas: der Mensch, der Herr (den Herrn), der Nachbar (den Nachbarn), der Bauer (den Bauern). 'Name' tem -ns no genitivo: des Namens.",
+      "examples": [
+        "Pergunto ao colega sobre o compromisso.",
+        "Você conhece este senhor?",
+        "Ajudamos o estudante com a inscrição.",
+        "Esse é o carro do vizinho."
+      ],
+      "pitfalls": [
+        "'Junge' pertence à declinação em -n: acusativo den Jungen.",
+        "Substantivos masculinos em -e para pessoas: dativo dem Kunden."
+      ]
+    },
+    "lassen": {
+      "title": "O verbo lassen",
+      "rule": "'Lassen' tem vários significados. 1. Deixar algo em algum lugar: Ich lasse den Schirm zu Hause. 2. Permitir: Meine Eltern lassen mich ausgehen. 3. Mandar fazer algo por outra pessoa: Ich lasse mein Auto reparieren (não sou eu que faço). 4. Sugestão: Lass uns gehen! Com infinitivo não há 'zu', e o Perfekt é: Ich habe das Auto reparieren lassen (não: gelassen). Presente: ich lasse, du lässt, er lässt.",
+      "examples": [
+        "Eu mando cortar o cabelo.",
+        "Deixe-me explicar isso!",
+        "Ela deixou o celular no ônibus.",
+        "Mandamos pintar o apartamento."
+      ],
+      "pitfalls": [
+        "Depois de 'lassen', o infinitivo vem sem 'zu'.",
+        "Com um segundo infinitivo, o Perfekt usa 'lassen' em vez de 'gelassen'."
+      ]
+    },
+    "genitiv": {
+      "title": "O genitivo",
+      "rule": "O genitivo indica posse ou pertencimento e responde a 'wessen?' (de quem?). Artigos: des (masculino, neutro), der (feminino, plural). Substantivos masculinos e neutros geralmente recebem -s ou -es: das Auto des Mannes, die Tür des Hauses (substantivos masculinos fracos -(e)n: des Studenten); substantivos femininos e no plural não recebem terminação: die Tasche der Frau, die Eltern der Kinder. Algumas preposições exigem o genitivo: wegen, trotz, während, statt, innerhalb, außerhalb. Na fala, o genitivo é muitas vezes substituído por 'von' + dativo: das Auto von meinem Bruder.",
+      "examples": [
+        "Esse é o carro do meu irmão.",
+        "Gosto da cor da parede.",
+        "Por causa da chuva, ficamos em casa.",
+        "Apesar do mau tempo, vamos fazer uma caminhada."
+      ],
+      "pitfalls": [
+        "'Bruder' recebe -s no genitivo: meines Bruders.",
+        "Genitivo feminino: der Frau, sem terminação no substantivo.",
+        "Genitivo feminino: der (die Lehrerin -> der Lehrerin), sem -s no substantivo.",
+        "Substantivos masculinos e neutros recebem -s ou -es no genitivo singular: des Autos, des Mannes.",
+        "wegen, trotz, während, statt levam o genitivo na norma escrita: wegen des Regens.",
+        "Genitivo plural: der + a forma do plural igual à do nominativo: der Kinder (den Kindern seria dativo)."
+      ]
+    },
+    "typische-fehler-englisch": {
+      "title": "Erros típicos de falantes de inglês",
+      "rule": "Os erros mais frequentes: 1. Ordem das palavras: na oração principal o verbo fica na posição 2 (Morgen fahre ich ...), na oração subordinada no fim (..., weil ich müde bin). 2. Frio, calor, tédio e mal-estar levam o dativo: Mir ist kalt, não 'ich bin kalt'. 3. A idade usa sein: Ich bin 20 Jahre alt. 4. Falsos amigos: bekommen = receber, não 'become' (isso é werden); also = portanto, não 'also' (isso é auch). 5. wann/wenn/als, kennen/wissen e seit + presente: Ich lerne seit zwei Jahren Deutsch. 6. Escreva os substantivos com maiúscula e aprenda o artigo de cada um.",
+      "examples": [
+        "Amanhã eu vou para Munique.",
+        "Estou com frio. Você pode fechar a janela?",
+        "Recebo muitos e-mails todos os dias.",
+        "Aprendo alemão há dois anos."
+      ],
+      "pitfalls": [
+        "Depois de uma expressão de tempo na posição 1, o verbo fica na posição 2.",
+        "Frio, calor, tédio e mal-estar levam o dativo: mir ist kalt.",
+        "A idade em alemão usa 'sein' + alt.",
+        "'Ich bin langweilig' significa 'eu sou chato/entediante'. Sentimentos e estados muitas vezes levam o dativo: mir ist langweilig, mir ist kalt.",
+        "'bekommen' = receber; 'werden' = tornar-se, ficar: Ich werde müde, ich werde Lehrer.",
+        "O alemão pergunta com 'wie': Wie heißt du? Wie ist dein Name? 'Was' soa como tradução literal."
+      ]
+    },
+    "passiv-werden-sein": {
+      "title": "A voz passiva com werden ou sein?",
+      "rule": "A passiva de ação 'werden' + particípio passado descreve uma ação que está acontecendo ou aconteceu: Die Tür wird geschlossen (alguém está fechando a porta). A passiva de estado 'sein' + particípio passado descreve o resultado, o estado depois: Die Tür ist geschlossen (ela está fechada). O Perfekt da passiva de ação é 'ist geschlossen worden'.",
+      "examples": [
+        "A porta está sendo fechada agora mesmo.",
+        "A porta está fechada (estado).",
+        "A carta foi escrita ontem. Agora ela está escrita.",
+        "A casa foi construída em 1900."
+      ],
+      "pitfalls": [
+        "O sentido é o acontecimento (ela escreveu ontem), portanto passiva de ação; no Perfekt: ist ... geschrieben worden.",
+        "No Perfekt da passiva, o particípio de 'werden' é 'worden', não 'geworden'.",
+        "Um processo acontecendo agora: passiva de ação com 'werden'. 'ist gebacken' seria o estado concluído.",
+        "Passiva no passado = wurde + particípio passado. 'worden' pertence ao Perfekt e ao Plusquamperfekt (ist/war repariert worden), não ao lado de 'wurde'.",
+        "O Perfekt da passiva se forma com 'sein' + particípio passado + worden, não com 'werden'."
+      ]
+    },
+    "plusquamperfekt": {
+      "title": "Plusquamperfekt (o mais-que-perfeito)",
+      "rule": "O Plusquamperfekt descreve o que tinha acontecido antes de outro evento no passado. Formação: hatte/war + particípio passado: Ich hatte gegessen, sie war gegangen. O auxiliar é o mesmo do Perfekt (haben ou sein), só que no Präteritum. É típico na oração com 'nachdem': Nachdem ich gegessen hatte, ging ich spazieren. Sem um segundo ponto no passado, o Perfekt ou o Präteritum bastam.",
+      "examples": [
+        "Quando cheguei, o trem já tinha partido.",
+        "Depois que ela tinha passado na prova, comemorou com os amigos.",
+        "Ele tinha esquecido a chave e teve que esperar."
+      ],
+      "pitfalls": [
+        "A partida aconteceu antes da chegada: Plusquamperfekt com war.",
+        "Com Präteritum na oração principal, a oração com 'nachdem' leva o Plusquamperfekt."
+      ]
+    },
+    "nominalstil-verbalstil": {
+      "title": "Estilo nominal e estilo verbal: oração ou grupo nominal?",
+      "rule": "No estilo nominal, uma ação é expressa por um substantivo, muitas vezes com uma preposição em vez de uma oração subordinada: 'wegen der Erhöhung der Preise' em vez de 'weil die Preise erhöht wurden'. Preposições típicas: wegen/aufgrund (weil), trotz (obwohl), bei/während (als, während), nach (nachdem), vor (bevor), zu/zur/zum (um … zu, damit), durch (indem, dadurch dass), bei (wenn). O sujeito ou o objeto da oração vira um complemento no genitivo ou um possessivo: 'weil die Firma umzieht' → 'wegen des Umzugs der Firma'. O estilo nominal é típico do alemão acadêmico, administrativo e jornalístico; na conversa soa pesado, e aí o estilo verbal com uma oração subordinada é mais natural.",
+      "examples": [
+        "Apesar do mau tempo, o show aconteceu. = Embora o tempo estivesse ruim, o show aconteceu.",
+        "Após a conclusão das negociações, o contrato foi assinado. = Depois que as negociações foram concluídas, o contrato foi assinado.",
+        "Para reduzir custos, duas filiais foram fechadas.",
+        "Com o uso de um novo software, a empresa conseguiu economizar tempo."
+      ],
+      "pitfalls": [
+        "No alemão escrito, 'wegen' rege o genitivo: wegen der Erhöhung.",
+        "'trotz' é uma preposição e precisa de um substantivo (trotz seiner Krankheit); uma oração leva a conjunção 'obwohl'.",
+        "O objeto do verbo (die Luftqualität verbessern) vira um complemento no genitivo no estilo nominal: die Verbesserung der Luftqualität.",
+        "O estilo nominal prefere o substantivo consagrado (Abschluss) e um complemento no genitivo (der Verhandlungen) a 'von + dativo'; expressões fixas como 'nach Abschluss' não têm artigo."
+      ]
+    },
+    "partizipialattribut": {
+      "title": "Particípios como atributo: der gestern angekommene Zug",
+      "rule": "Um particípio pode ficar antes do substantivo como um adjetivo e levar junto seus próprios complementos, transformando uma oração relativa em um atributo: 'der Zug, der gestern angekommen ist' → 'der gestern angekommene Zug'. O Partizip I (steigend, lachend) expressa algo simultâneo e ativo: 'die steigenden Preise' = os preços que estão subindo. O Partizip II expressa, com verbos transitivos, algo passivo e concluído: 'die geschlossene Tür' = a porta que foi fechada; com verbos que vão com 'sein', algo anterior e ativo: 'der angekommene Zug' = o trem que chegou. 'zu' + Partizip I expressa necessidade ou possibilidade: 'die zu erledigende Aufgabe' = a tarefa que precisa ser feita. Todos os complementos ficam entre o artigo e o particípio; o particípio recebe a terminação normal do adjetivo.",
+      "examples": [
+        "As medidas decididas pelo governo entram em vigor em janeiro.",
+        "Os aluguéis, que sobem há anos, pesam sobre muitas famílias.",
+        "As questões que ainda precisam ser esclarecidas estão na pauta.",
+        "A associação, fundada em 1990, tem hoje 3.000 membros."
+      ],
+      "pitfalls": [
+        "O particípio é declinado como um adjetivo: depois de 'die' no plural, a terminação é -en.",
+        "O Partizip I (ankommend) significa simultâneo: um trem que está chegando agora. Para algo concluído é preciso o Partizip II: angekommen.",
+        "Todos os complementos ficam entre o artigo e o particípio; o particípio fica logo antes do substantivo.",
+        "'zu' só se combina com o Partizip I (erledigend): das zu erledigende Problem = o problema que precisa ser resolvido."
+      ]
+    },
+    "passiversatz": {
+      "title": "Alternativas à passiva: sich lassen, sein + zu, -bar",
+      "rule": "Em vez da passiva com um verbo modal (kann/muss gemacht werden) existem formas mais curtas. 'sich lassen' + infinitivo = pode ser feito: Das Problem lässt sich lösen. 'sein' + zu + infinitivo = precisa ou pode ser feito, conforme o contexto: Die Rechnung ist bis Freitag zu bezahlen (precisa); Der Fehler ist leicht zu übersehen (pode). Adjetivos em -bar, -lich, -fähig = pode ser feito: lösbar, verständlich, tragfähig. Reflexivo com um advérbio: Das Buch liest sich leicht. 'man' + ativa é sempre possível: Man kann das Problem lösen. Essas formas são típicas do alemão acadêmico e administrativo; com verbos separáveis, 'zu' fica entre o prefixo e o verbo (einzureichen).",
+      "examples": [
+        "O problema não se resolve tão facilmente assim.",
+        "O requerimento precisa ser entregue até 31 de março.",
+        "Os dados só podem ser verificados com dificuldade.",
+        "Essa evolução não podia ser prevista."
+      ],
+      "pitfalls": [
+        "'sich lassen' é seguido do infinitivo, não do particípio passado.",
+        "A forma é sein + zu + infinitivo; com verbos separáveis, 'zu' fica entre o prefixo e o verbo: einzureichen.",
+        "'sich lassen' expressa apenas possibilidade (poder). Para uma obrigação (precisar), use sein + zu + infinitivo ou a passiva com 'müssen'.",
+        "'vorhersehen' é separável: 'zu' fica entre 'vorher' e 'sehen'."
+      ]
+    },
+    "subjektive-modalverben": {
+      "title": "Os modais como juízo do falante: Er muss krank sein, er soll reich sein",
+      "rule": "Os verbos modais podem expressar a avaliação do falante em vez de uma obrigação ou de uma capacidade. Suposição, do certo ao incerto: muss (tenho certeza), dürfte (provavelmente), könnte/kann (possível), mag (talvez, concedendo). Afirmação de outra pessoa: soll = dizem, supostamente (Er soll sehr reich sein); will = ele mesmo afirma isso de si (Er will nichts gewusst haben). O passado vai para o infinitivo, não para o modal: Er muss krank gewesen sein, e não 'Er musste krank sein'. 'werden' + infinitivo também expressa uma suposição: Sie wird schon im Zug sitzen. É o contexto que mostra se um modal é usado em sentido subjetivo ou objetivo.",
+      "examples": [
+        "A luz está apagada; ela já deve estar dormindo.",
+        "O trem deve chegar em uns dez minutos.",
+        "Dizem que o ministro sabia das acusações.",
+        "O motorista afirma não ter visto a placa de pare."
+      ],
+      "pitfalls": [
+        "Para uma suposição, o modal fica no presente; o passado vai para o infinitivo perfeito (gewesen sein). 'Er musste krank sein' significaria que ele era obrigado a estar doente.",
+        "'soll' relata o que os outros dizem; o que alguém afirma de si mesmo se expressa com 'will'.",
+        "O infinitivo (sein) não pode ser omitido, e 'provavelmente' já está contido em 'dürfte'.",
+        "Depois de um modal vem um infinitivo; para o passado, o infinitivo perfeito: angekommen sein."
+      ]
+    },
+    "konjunktiv-i-redewiedergabe": {
+      "title": "O Konjunktiv I no discurso indireto: Er sagt, er habe keine Zeit",
+      "rule": "Em notícias, relatórios e textos formais, o discurso indireto é marcado com o Konjunktiv I, que deixa claro que se trata da afirmação de outra pessoa. Formação: radical do verbo + terminações com e: ich habe, du habest, er habe, wir haben, ihr habet, sie haben; 'sein' é irregular: ich sei, du seist, er sei, wir seien, ihr seiet, sie seien. A 3ª pessoa do singular é a mais frequente (er habe, sie komme, es gebe). Onde o Konjunktiv I coincide com o indicativo (wir haben, sie kommen), usa-se em seu lugar o Konjunktiv II (wir hätten, sie kämen) ou 'würde' + infinitivo. Passado: Konjunktiv I de haben/sein + particípio passado: Er sagte, er habe nichts gewusst / er sei zu spät gekommen. Futuro: er werde kommen. O verbo introdutor fica no indicativo; segue-se uma oração com dass ou uma oração principal.",
+      "examples": [
+        "O ministro disse que a reforma era necessária e seria aprovada no outono.",
+        "O porta-voz disse que os moradores tinham sido informados a tempo.",
+        "Os estudantes ressaltaram que não tinham tido outra escolha.",
+        "A testemunha declarou que tinha visto o autor do crime claramente."
+      ],
+      "pitfalls": [
+        "No discurso indireto formal usa-se o Konjunktiv I (habe); o indicativo só é comum na língua falada.",
+        "'sie haben' é idêntico no Konjunktiv I e no indicativo, por isso usa-se em seu lugar o Konjunktiv II: hätten.",
+        "Em uma oração com dass, o verbo conjugado vai para o fim, também no Konjunktiv I.",
+        "Futuro no discurso indireto: werde + infinitivo. 'habe' + infinitivo não existe.",
+        "Quando o Konjunktiv I não é ambíguo (sei), ele tem prioridade no discurso indireto formal; 'wäre' pode ser lido como dúvida sobre a afirmação."
+      ]
+    },
+    "paronyme-scheinbar-anscheinend": {
+      "title": "Parônimos: scheinbar ou anscheinend, effektiv ou effizient?",
+      "rule": "Parônimos são palavras de som parecido e significado diferente que até falantes nativos confundem. 'anscheinend' expressa uma suposição que provavelmente é verdadeira (ao que tudo indica); 'scheinbar' diz que algo só parece ser assim, mas na realidade é diferente: 'Er ist anscheinend krank' (provavelmente) em oposição a 'Sein Interesse war nur scheinbar' (fingido). Outros pares: effektiv (eficaz, que atinge o objetivo) e effizient (eficiente, com pouco esforço); formal (relativo à forma) e formell (cerimonioso, conforme as regras); rational (racional, sensato) e rationell (econômico, prático); kindlich (próprio de criança, neutro) e kindisch (pueril, imaturo, pejorativo); sensibel (sensível, que se magoa com facilidade) e sensitiv (termo técnico: que reage a pequenas variações). Na dúvida, faça o teste com o contrário: 'scheinbar' admite um 'aber in Wirklichkeit', 'anscheinend' não.",
+      "examples": [
+        "Pelo visto o trem está atrasado – no painel ainda não aparece nada.",
+        "A pergunta aparentemente simples acabou se revelando uma armadilha.",
+        "A medida foi eficaz, mas não eficiente: o objetivo foi atingido, porém a um custo enorme.",
+        "Quanto à forma, o requerimento está correto; se ele foi entregue na devida forma é outra questão."
+      ],
+      "pitfalls": [
+        "Trata-se de uma suposição (ele provavelmente está mesmo doente), portanto 'anscheinend'; 'scheinbar' daria a entender que ele só está fingindo.",
+        "Economizar tempo e dinheiro é uma questão de esforço, ou seja, de eficiência; 'effektiv' só diz que o objetivo é atingido.",
+        "Um comportamento imaturo, em sentido pejorativo, é 'kindisch'; 'kindlich' é neutro ou positivo (kindliche Neugier)."
+      ]
+    },
+    "funktionsverbgefuege": {
+      "title": "Construções com verbo-suporte: zur Verfügung stellen, in Betracht ziehen, Abhilfe schaffen",
+      "rule": "Um Funktionsverbgefüge (construção com verbo-suporte) é formado por um substantivo que carrega o significado e por um 'verbo-suporte' (Funktionsverb) que faz quase só trabalho gramatical: 'eine Entscheidung treffen' (decidir), 'zur Anwendung kommen' (ser aplicado), 'in Kraft treten' (entrar em vigor). Essas construções são típicas do alemão administrativo, empresarial e acadêmico e permitem distinções finas: 'zur Sprache bringen' (ativo: levantar um assunto) em oposição a 'zur Sprache kommen' (de sentido passivo: vir à tona); 'in Gang setzen' (pôr em andamento) em oposição a 'in Gang kommen' (entrar em andamento). Verbo e substantivo são fixos: artigo, preposição e verbo não podem ser trocados ('eine Frage stellen', não 'machen'; 'Abhilfe schaffen', não 'geben'). O substantivo costuma ficar no fim da oração, e o verbo-suporte, na segunda posição: 'Die Kommission zieht eine Verschiebung in Betracht.' Na conversa, o acúmulo dessas construções soa pesado; ali, o verbo simples muitas vezes é melhor.",
+      "examples": [
+        "A nova regulamentação entra em vigor em 1º de janeiro.",
+        "Com prazer colocamos os documentos à sua disposição.",
+        "A diretoria está considerando um adiamento do projeto.",
+        "Com essa medida, pretende-se remediar a escassez de mão de obra qualificada.",
+        "O assunto só foi abordado rapidamente na reunião."
+      ],
+      "pitfalls": [
+        "O verbo-suporte é fixo: decisões são 'getroffen', não 'gemacht'.",
+        "'zur Sprache kommen' tem sentido passivo (a questão vem à tona); quem levanta um assunto usa 'bringen': zur Sprache bringen.",
+        "Na construção, 'Kraft' fica sem artigo, e o substantivo da construção vai para o fim da oração."
+      ]
+    },
+    "stilebenen-register": {
+      "title": "Níveis de estilo e registro: elevado, neutro, coloquial",
+      "rule": "Toda palavra pertence a um nível de estilo: 'verscheiden' (elevado), 'sterben' (neutro), 'abkratzen' (grosseiro). No nível C2, a tarefa já não é ser entendido, e sim manter o nível de forma consistente. Uma quebra de registro acontece quando palavras coloquiais aparecem em um texto formal ('echt', 'krass', 'hinkriegen', 'Sachen', 'kriegen', 'total') ou quando uma conversa do dia a dia de repente soa como linguagem burocrática ('Ich bitte um Kenntnisnahme'). Marcas do registro formal: nominalizações, passiva e alternativas à passiva, o Konjunktiv de polidez ('Ich wäre Ihnen dankbar, wenn …'), verbos como 'erhalten' em vez de 'kriegen', 'bewältigen' em vez de 'hinkriegen', 'tatsächlich' em vez de 'echt', nenhuma partícula modal como 'halt' e 'eh'. Marcas do registro falado: orações principais curtas, partículas (doch, mal, eben), intensificadores, elementos deslocados para depois da moldura verbal. Tipos de texto diferentes exigem níveis diferentes: uma reclamação ou um parecer técnico, de elevado a neutro; um e-mail para colegas, neutro; um bate-papo com amigos, coloquial.",
+      "examples": [
+        "Eu lhe ficaria grato se pudesse me fazer chegar os documentos até sexta-feira. (formal)",
+        "Você pode me mandar as coisas até sexta? (falado)",
+        "Nesse meio-tempo, a administração superou o acúmulo de pendências. / Eles já deram um jeito nisso.",
+        "O falecido partiu em paz ontem. (elevado) / Ele morreu ontem. (neutro)"
+      ],
+      "pitfalls": [
+        "'echt' e 'hinkriegen' são coloquiais e quebram o registro formal estabelecido pela saudação inicial.",
+        "'ersuchen um Übersendung' é linguagem burocrática; entre amigos soa irônico ou involuntariamente engraçado.",
+        "'total kaputt' é coloquial; um laudo técnico exige palavras precisas e neutras como 'erheblich beschädigt' ou 'nicht mehr tragfähig'."
+      ]
+    },
+    "erzaehltempora-erlebte-rede": {
+      "title": "Tempos narrativos e discurso indireto livre (erlebte Rede)",
+      "rule": "O tempo narrativo da narração escrita é o Präteritum; ele não marca o passado, e sim a narração – por isso até 'morgen' pode aparecer ao lado dele: 'Morgen war Weihnachten.' O que está antes da ação narrada vai para o Plusquamperfekt (anterioridade); o que, do ponto de vista da personagem, ainda está por vir vai para 'würde' + infinitivo (posterioridade). A erlebte Rede (discurso indireto livre) reproduz os pensamentos de uma personagem sem verbo introdutor e sem aspas: pessoa e tempo verbal como no relato do narrador (terceira pessoa, Präteritum), mas ordem das palavras, perguntas, exclamações e partículas como no discurso direto: 'Sie sah auf die Uhr. Warum kam er denn nicht? Er hatte es doch versprochen!' A voz do narrador e a voz da personagem se fundem; o leitor fica sabendo dos pensamentos sem que eles sejam marcados como citação. Devem-se distinguir disso o discurso indireto com Konjunktiv I ('Sie fragte sich, warum er nicht komme') e o discurso direto com aspas e presente.",
+      "examples": [
+        "Quando ela chegou, a reunião já tinha começado havia muito tempo.",
+        "Ele fez a mala. Em três dias estaria em Lisboa.",
+        "Ela olhou fixamente para a carta. O que, afinal, esse homem queria dela? Ela nem sequer o conhecia!",
+        "Amanhã era a prova, e ele não tinha lido nem a metade."
+      ],
+      "pitfalls": [
+        "O que antecede a ação narrada vai para o Plusquamperfekt; o Perfekt pertence à língua falada e quebra o nível narrativo.",
+        "Na erlebte Rede, o tempo verbal permanece no Präteritum do narrador; o presente sinalizaria discurso direto, e esse precisa de aspas.",
+        "O futuro visto a partir do ponto de vista de uma personagem no passado se expressa com 'würde' + infinitivo, não com 'wird'."
+      ]
+    },
+    "gehobene-praepositionen": {
+      "title": "Preposições do registro elevado: mangels, ungeachtet, zufolge, seitens",
+      "rule": "Textos formais condensam orações subordinadas por meio de preposições que quase não ocorrem na conversa. Com genitivo: angesichts (diante de), infolge (em consequência de), mangels (por falta de), zwecks (com o objetivo de), ungeachtet (não obstante), anlässlich (por ocasião de), seitens (por parte de), kraft (em virtude de), zugunsten / zuungunsten (em favor de / em detrimento de), mittels (por meio de), hinsichtlich / bezüglich (no que diz respeito a), vorbehaltlich (sob reserva de), binnen (dentro de, no prazo de; genitivo ou dativo). Com dativo: gemäß, entsprechend, zuwider e zufolge, sendo que as duas últimas costumam vir depois do substantivo: 'dem Bericht zufolge', 'dem Gesetz zuwider'. Se um substantivo no plural aparece sem artigo e sem adjetivo, o genitivo não fica visível, e entra o dativo em seu lugar: 'mangels Beweisen', 'zwecks Verhandlungen' (mas 'mangels eindeutiger Beweise'). Essas preposições pertencem a pareceres técnicos, contratos e cartas de repartições públicas; na língua falada, soam rígidas, e em seu lugar usa-se uma oração subordinada.",
+      "examples": [
+        "Por falta de provas inequívocas, o processo foi arquivado.",
+        "Não obstante todos os protestos, o senado manteve o plano.",
+        "Segundo o relatório, os defeitos já tinham sido constatados em 2019.",
+        "Por parte da diretoria, foi assegurado que nenhum posto de trabalho seria cortado.",
+        "Para fins de esclarecimento dos fatos, solicitamos o envio dos documentos no prazo de duas semanas."
+      ],
+      "pitfalls": [
+        "'laut' e 'zufolge' significam a mesma coisa; um só basta. 'zufolge' vem depois do substantivo e rege o dativo.",
+        "'ungeachtet' rege o genitivo: ungeachtet der Proteste.",
+        "'gemäß' rege o dativo, embora soe formal; o genitivo é uma hipercorreção muito difundida."
+      ]
+    }
+  },
+  "scenes": {
+    "bakery": {
+      "situation": "comprar pãezinhos na padaria",
+      "role": "a vendedora",
+      "learner": "o cliente",
+      "facts": [
+        "Pãezinhos",
+        "Pão integral",
+        "Aberto",
+        "Pretzels"
+      ],
+      "opening": "Bom dia! O que vai querer?",
+      "beats": [
+        "Pois não, seis pãezinhos. Deseja mais alguma coisa?",
+        "O pão integral custa 3,80 euros. Quer que eu fatie para você?",
+        "Infelizmente os pretzels esgotaram hoje. Posso oferecer outra coisa no lugar?"
+      ]
+    },
+    "cafe": {
+      "situation": "fazer um pedido no café",
+      "role": "o garçom",
+      "learner": "o cliente",
+      "facts": [
+        "Cappuccino",
+        "Bolo de maçã",
+        "Leite de aveia",
+        "Pagamento"
+      ],
+      "opening": "Olá, o que posso trazer para você?",
+      "beats": [
+        "Pois não, um cappuccino. Gostaria de um pedaço de bolo para acompanhar?",
+        "Sim, leite de aveia é possível, sem custo adicional. Faço o cappuccino assim?",
+        "O bolo de maçã custa 4,20 euros a fatia. Quer com chantilly?",
+        "Infelizmente só aceitamos dinheiro, não aceitamos cartão. Por acaso você tem o valor exato?"
+      ]
+    },
+    "doctor_phone": {
+      "situation": "marcar uma consulta médica por telefone",
+      "role": "a recepcionista do consultório médico",
+      "learner": "o paciente",
+      "facts": [
+        "Próximo horário livre",
+        "Levar",
+        "Consultório aberto hoje",
+        "Chegada"
+      ],
+      "opening": "Consultório médico da praça do mercado, bom dia. Como posso ajudar?",
+      "beats": [
+        "Sinto muito. O próximo horário livre é quinta-feira às 9h, fica bom para você?",
+        "Por favor, traga seu cartão do seguro de saúde e chegue dez minutos antes. Você já esteve no nosso consultório?",
+        "Estamos à disposição até as 17h hoje. Posso ajudar em mais alguma coisa?"
+      ]
+    },
+    "train_ticket": {
+      "situation": "comprar uma passagem de trem na estação",
+      "role": "o funcionário do guichê",
+      "learner": "a viajante",
+      "facts": [
+        "Próximo trem para Hamburgo",
+        "Passagem só de ida",
+        "Conexão",
+        "Tempo de viagem"
+      ],
+      "opening": "Bom dia, para onde você gostaria de viajar?",
+      "beats": [
+        "O próximo trem para Hamburgo sai às 14:12 da plataforma 7. Você quer passagem só de ida ou de ida e volta?",
+        "A passagem só de ida custa 29 euros. Vai pagar com cartão ou em dinheiro?",
+        "Não, o trem é direto, não precisa trocar de trem. Você também precisa de reserva de assento?"
+      ]
+    },
+    "supermarket": {
+      "situation": "pagar no caixa do supermercado",
+      "role": "a caixa",
+      "learner": "o cliente",
+      "facts": [
+        "Sacola",
+        "Depósito por garrafa",
+        "Pagamento com cartão",
+        "Máquina de depósito"
+      ],
+      "opening": "Olá! Você precisa de sacola?",
+      "beats": [
+        "A sacola custa 20 centavos. Você acumula pontos com cartão fidelidade?",
+        "Sim, cartão a partir de 5 euros. Quer o recibo?",
+        "A máquina de depósito fica na entrada; você recebe 25 centavos de volta por garrafa. Já está com o comprovante do depósito?"
+      ]
+    },
+    "hotel_checkin": {
+      "situation": "fazer check-in no hotel",
+      "role": "a recepcionista",
+      "learner": "o hóspede",
+      "facts": [
+        "Quarto",
+        "Café da manhã",
+        "Senha do Wi-Fi",
+        "Check-out"
+      ],
+      "opening": "Bem-vindo! Você tem reserva?",
+      "beats": [
+        "Pois não. Você está no quarto 214, no segundo andar; posso ver seu documento, por favor?",
+        "O café da manhã é das 7h às 10h no térreo. Quer também já a senha do Wi-Fi?",
+        "A senha é hotelgast2026, tudo em minúsculas. Quer que eu mostre o caminho até o elevador?",
+        "O check-out é até as 11h. Você vai precisar de táxi no dia da partida?"
+      ]
+    },
+    "pharmacy": {
+      "situation": "comprar algo para a tosse na farmácia",
+      "role": "o farmacêutico",
+      "learner": "o cliente",
+      "facts": [
+        "Xarope para tosse",
+        "Dosagem",
+        "Receita",
+        "Aberto"
+      ],
+      "opening": "Bom dia, como posso ajudar?",
+      "beats": [
+        "Sim, posso recomendar um xarope para tosse; custa 6,95 euros. Você também está com febre?",
+        "Tome uma colher três vezes ao dia, de preferência depois das refeições. Está tomando algum outro medicamento?",
+        "Não, o xarope é vendido sem receita. Posso acrescentar umas pastilhas para a garganta?"
+      ]
+    },
+    "restaurant_booking": {
+      "situation": "reservar uma mesa no restaurante",
+      "role": "a garçonete",
+      "learner": "o cliente",
+      "facts": [
+        "Mesa livre",
+        "Cozinha aberta",
+        "Terraço",
+        "Reserva"
+      ],
+      "opening": "Restaurante Linde, boa noite. Como posso ajudar?",
+      "beats": [
+        "Pois não, no sábado ainda tenho uma mesa para quatro às 19h. Às 19h fica bom para você?",
+        "A cozinha fica aberta até as 22h, então vocês têm bastante tempo. Vocês preferem sentar dentro ou no terraço?",
+        "Quando chove, infelizmente o terraço fica fechado; nesse caso vocês ficam com uma mesa dentro. Em que número de telefone posso falar com você?"
+      ]
+    },
+    "directions": {
+      "situation": "perguntar o caminho para a prefeitura",
+      "role": "a transeunte",
+      "learner": "o turista",
+      "facts": [
+        "Caminho para a prefeitura",
+        "A pé",
+        "Bonde",
+        "Passagem"
+      ],
+      "opening": "Sim? Posso ajudar?",
+      "beats": [
+        "Siga reto aqui e depois pegue a segunda rua à esquerda. Você quer ir a pé ou prefere pegar o bonde?",
+        "A pé são uns dez minutos. Você está com bagagem?",
+        "Pegue a linha 4; a parada fica bem do outro lado da rua. Você já tem passagem?"
+      ]
+    },
+    "late_friend": {
+      "situation": "pedir desculpas a uma amiga pelo atraso",
+      "role": "a amiga",
+      "learner": "o amigo",
+      "facts": [
+        "Filme",
+        "Ingressos",
+        "Ponto de encontro",
+        "Pipoca"
+      ],
+      "opening": "Ei, onde você está? O filme já vai começar!",
+      "beats": [
+        "Sem estresse, o filme só começa às 20h. Já quer que eu pegue uma pipoca para você?",
+        "Sim, já estou com os ingressos; estamos na fileira 8. Onde exatamente você está agora?",
+        "Espero você na entrada. Quer algo para beber também?"
+      ]
+    },
+    "taxi": {
+      "situation": "pegar um táxi",
+      "role": "o taxista",
+      "learner": "o passageiro",
+      "facts": [
+        "Destino",
+        "Valor aproximado",
+        "Tempo de viagem",
+        "Pagamento",
+        "Recibo"
+      ],
+      "opening": "Olá, para onde você quer ir?",
+      "beats": [
+        "Pois não, para o Lindenhof, na Gartenstraße 12. Você tem bagagem para o porta-malas?",
+        "A corrida leva uns 15 minutos. Quer que eu coloque a mala no porta-malas?",
+        "Uns 18 euros. Vai pagar em dinheiro ou com cartão?",
+        "Sem problema, você recebe o recibo no final. Quer que eu deixe você bem na frente do hotel?"
+      ]
+    },
+    "cinema": {
+      "situation": "comprar ingressos de cinema",
+      "role": "a atendente da bilheteria",
+      "learner": "o espectador",
+      "facts": [
+        "Filme",
+        "Ingresso adulto",
+        "Desconto com carteira de estudante",
+        "Lugares livres",
+        "Idioma"
+      ],
+      "opening": "Boa noite, para qual filme você quer ingressos?",
+      "beats": [
+        "Pois não, dois ingressos para as 20h. O ingresso custa 11 euros, 8 euros com carteira de estudante; você está com a sua?",
+        "Obrigada, então dois com desconto. Onde vocês preferem sentar, na fileira 7 no meio ou na fileira 12 atrás?",
+        "O filme é em alemão com legendas em inglês. Tudo bem para você?",
+        "A sessão começa às 20h. Você sabia que o filme é exibido em alemão com legendas em inglês?"
+      ]
+    },
+    "return_item": {
+      "situation": "devolver uma peça de roupa",
+      "role": "o vendedor",
+      "learner": "a cliente",
+      "facts": [
+        "Devolução",
+        "Reembolso",
+        "Tamanho M",
+        "Vale-compras válido"
+      ],
+      "opening": "Olá, posso ajudar?",
+      "beats": [
+        "Não tem problema; em até 14 dias aceitamos a devolução com o recibo. Você está com o recibo?",
+        "Para devoluções damos um vale-compras, não dinheiro; o vale é válido por três anos. Você não prefere trocar a blusa por outro tamanho?",
+        "No M infelizmente está esgotado, mas ainda temos o tamanho L. Quer experimentar o L?"
+      ]
+    },
+    "bike_rental": {
+      "situation": "alugar uma bicicleta",
+      "role": "a atendente da locadora",
+      "learner": "o cliente",
+      "facts": [
+        "Preço",
+        "Caução",
+        "Devolução",
+        "Capacete"
+      ],
+      "opening": "Olá! Você quer alugar uma bicicleta?",
+      "beats": [
+        "Uma bicicleta custa 15 euros por dia. Mais ou menos quanto você mede, para eu escolher a bicicleta certa?",
+        "Sim, a caução é de 50 euros, em dinheiro ou cartão. Quer um capacete também?",
+        "Não, o capacete está incluído, sem custo. Você já sabe para onde quer pedalar?",
+        "Por favor, devolva a bicicleta até as 19h, que é quando fechamos. Quer que eu dê um cadeado também?"
+      ]
+    },
+    "post_office": {
+      "situation": "enviar uma encomenda pequena para o exterior",
+      "role": "o funcionário dos correios",
+      "learner": "a cliente",
+      "facts": [
+        "Encomenda pequena para a Espanha",
+        "Prazo de entrega",
+        "Encomenda com rastreamento",
+        "Formulário alfandegário"
+      ],
+      "opening": "Bom dia, em que posso ajudar?",
+      "beats": [
+        "Como encomenda pequena para a Espanha, fica em 9,49 euros. Tem algo frágil dentro?",
+        "A encomenda leva de quatro a seis dias úteis. Você prefere enviar como encomenda com rastreamento?",
+        "Com rastreamento custa 13,99 euros; aí você pode ver online onde ela está. Registro assim?",
+        "Não, dentro da UE não é preciso formulário alfandegário. Quer o recibo impresso ou por e-mail?"
+      ]
+    },
+    "buergeramt": {
+      "situation": "registrar seu endereço na repartição municipal",
+      "role": "a funcionária",
+      "learner": "o cidadão",
+      "facts": [
+        "Registro",
+        "Levar",
+        "Prazo",
+        "Agendamento"
+      ],
+      "opening": "Bom dia, é a sua vez. Do que se trata?",
+      "beats": [
+        "Pois não, o registro é gratuito. Você está com o documento de identidade e a confirmação do locador?",
+        "É um formulário que o seu locador assina; sem ele, infelizmente, o registro não pode ser feito. Você poderia entregá-lo com um agendamento online?",
+        "Você tem 14 dias depois da mudança. Quando você se mudou?"
+      ]
+    },
+    "hairdresser": {
+      "situation": "ir ao cabeleireiro",
+      "role": "a cabeleireira",
+      "learner": "o cliente",
+      "facts": [
+        "Corte de cabelo",
+        "Lavar e cortar",
+        "Horário livre hoje",
+        "Espera sem agendamento",
+        "Pagamento"
+      ],
+      "opening": "Olá, você tem horário marcado?",
+      "beats": [
+        "Sem horário marcado você esperaria uns 20 minutos, ou posso marcar para as 15h. O que você prefere?",
+        "Um corte custa 24 euros, 32 com lavagem. Quer lavar o cabelo primeiro?",
+        "Certo, vou deixar as laterais um pouco mais compridas. Quanto tiro em cima, uns dois centímetros?",
+        "Sim, você pode pagar em dinheiro ou com cartão. Por favor, sente-se aqui na frente; quer algo para beber?"
+      ]
+    },
+    "landlord_washing": {
+      "situation": "perguntar ao zelador sobre a lavanderia",
+      "role": "o zelador",
+      "learner": "o inquilino",
+      "facts": [
+        "Máquina de lavar",
+        "Horários de lavagem",
+        "Escala",
+        "Secadora"
+      ],
+      "opening": "Oi! Você é o novo inquilino do terceiro andar, certo?",
+      "beats": [
+        "Tem uma máquina de lavar no porão; uma lavagem custa 2 euros em moedas. Você já tem a chave do porão?",
+        "Você pode lavar das 7h às 21h; depois disso é horário de silêncio no prédio. Você já está na escala de lavagem?",
+        "A escala está na porta da lavanderia; é só colocar seu nome lá. Você precisa da secadora também?",
+        "A secadora está quebrada, infelizmente; o conserto vem na quarta-feira. Você consegue se virar com o varal até lá?"
+      ]
+    },
+    "flatmate_kitchen": {
+      "situation": "combinar as regras da cozinha com a colega de apartamento",
+      "role": "a colega de apartamento",
+      "learner": "o novo colega de apartamento",
+      "facts": [
+        "Limpeza da cozinha",
+        "Caixa comum",
+        "Lava-louças",
+        "Visitas"
+      ],
+      "opening": "Ei, que bom que você chegou! Já desfez as malas?",
+      "beats": [
+        "Limpamos a cozinha todo domingo, revezando. Isso funciona para você, ou você costuma estar ocupado aos domingos?",
+        "Sim, temos uma caixa comum; cada um coloca 10 euros por mês. Tudo bem para você?",
+        "Ligamos a lava-louças à noite, quando está cheia. Aliás, você gosta de cozinhar?",
+        "Claro, é só avisar rapidinho antes. Vamos cozinhar juntos amanhã?"
+      ]
+    },
+    "lost_property": {
+      "situation": "perguntar por uma bolsa perdida nos achados e perdidos",
+      "role": "o funcionário",
+      "learner": "a cliente",
+      "facts": [
+        "Entregue",
+        "Retirada",
+        "Taxa",
+        "Guardado por"
+      ],
+      "opening": "Bom dia, o que você perdeu?",
+      "beats": [
+        "Uma bolsa preta de ontem está aqui conosco, sim. O que havia dentro, para eu conferir?",
+        "Sim, para a retirada só preciso do seu documento de identidade. Você está com ele?",
+        "Há uma taxa de 5 euros pela guarda. Quer um recibo?"
+      ]
+    },
+    "cold_soup": {
+      "situation": "reclamar de uma sopa fria no restaurante",
+      "role": "o garçom",
+      "learner": "o cliente",
+      "facts": [
+        "Sopa nova",
+        "Bebida",
+        "Conta",
+        "Sobremesa de hoje"
+      ],
+      "opening": "Está tudo bem por aqui?",
+      "beats": [
+        "Sinto muito; trago uma sopa nova em uns cinco minutos. Posso trazer uma bebida por conta da casa enquanto isso?",
+        "Não, claro que tiramos a sopa da conta. Quer ver uma sobremesa depois?",
+        "Hoje temos strudel de maçã, fresquinho do forno. Trago um com molho de baunilha?"
+      ]
+    },
+    "neighbour_plants": {
+      "situation": "pedir ao vizinho para regar suas plantas",
+      "role": "o vizinho",
+      "learner": "a vizinha do apartamento em frente",
+      "facts": [
+        "Vizinho também viaja",
+        "Chave",
+        "Correspondência",
+        "Regar"
+      ],
+      "opening": "Boa noite! Você queria me perguntar alguma coisa?",
+      "beats": [
+        "Com prazer, mas de segunda a quarta eu também estou fora. Basta se eu regar a partir de quinta?",
+        "Melhor me dar a chave na sexta; a gente se vê mesmo nesse dia. Quer que eu recolha sua correspondência também?",
+        "Vou deixar a correspondência no corredor, assim você encontra logo. Com que frequência devo regar, duas vezes por semana?"
+      ]
+    },
+    "cafe_job": {
+      "situation": "candidatar-se a uma vaga em um café",
+      "role": "a gerente",
+      "learner": "o candidato",
+      "facts": [
+        "Horário",
+        "Salário",
+        "Turno de experiência",
+        "Experiência"
+      ],
+      "opening": "Olá, que bom que você veio. Você está interessado na vaga de atendimento?",
+      "beats": [
+        "Estamos procurando alguém para o fim de semana, das 9h às 15h nos dois dias. Isso funciona para você em termos de horário?",
+        "Você recebe 14 euros por hora, mais as gorjetas. Já trabalhou com atendimento antes?",
+        "Não, experiência não é necessária; a gente mostra tudo. Você teria tempo para um turno de experiência no sábado?"
+      ]
+    },
+    "library": {
+      "situation": "fazer uma carteirinha da biblioteca",
+      "role": "a bibliotecária",
+      "learner": "a leitora",
+      "facts": [
+        "Taxa anual",
+        "Levar",
+        "Prazo de empréstimo",
+        "Itens por vez",
+        "Horário de funcionamento"
+      ],
+      "opening": "Olá, como posso ajudar?",
+      "beats": [
+        "Pois não, você precisa do documento de identidade e de um comprovante de residência. Está com os dois?",
+        "A taxa anual é de 20 euros, 10 euros com desconto. Você teria direito a desconto?",
+        "O prazo de empréstimo é de 4 semanas, e você pode renovar duas vezes. Já emito a carteirinha?",
+        "Até 20 itens por vez, e abrimos de segunda a sábado, das 10h às 19h. Você tem mais alguma pergunta?"
+      ]
+    },
+    "dentist": {
+      "situation": "uma consulta no dentista",
+      "role": "o dentista",
+      "learner": "a paciente",
+      "facts": [
+        "Queixa",
+        "Diagnóstico",
+        "Anestesia",
+        "Custo",
+        "Depois"
+      ],
+      "opening": "Olá, sente-se, por favor. Onde exatamente dói?",
+      "beats": [
+        "Vamos dar uma olhada, então; abra bem a boca, por favor. Dói quando eu aperto aqui?",
+        "Tem um buraquinho, precisa de uma obturação. Já faço hoje?",
+        "Não se preocupe, você vai receber uma injeção, que faz efeito depois de uns 5 minutos. Você tem alergia a algum anestésico?",
+        "Não, isso é coberto pelo seguro, sem coparticipação. Depois, por favor, não coma por duas horas; você tem alguma pergunta?"
+      ]
+    },
+    "mobile_cancel": {
+      "situation": "cancelar um contrato de celular",
+      "role": "a atendente da central de atendimento",
+      "learner": "o cliente",
+      "facts": [
+        "Prazo de aviso prévio",
+        "Fim do contrato",
+        "Cancelamento",
+        "Manter o número"
+      ],
+      "opening": "Bom dia, você está falando com o atendimento ao cliente. Como posso ajudar?",
+      "beats": [
+        "Posso preparar isso para você. Posso perguntar por que você quer cancelar?",
+        "O prazo de aviso prévio é de um mês, então seu contrato terminaria em 31 de março. Registro o cancelamento para essa data?",
+        "O cancelamento tem que ser feito por escrito ou online pela sua conta de cliente; infelizmente, só a ligação não basta. Você tem acesso à conta de cliente?",
+        "Levar o seu número é gratuito; a sua nova operadora simplesmente o solicita a nós. Quer também uma confirmação por e-mail?"
+      ]
+    },
+    "bank_account": {
+      "situation": "abrir uma conta corrente",
+      "role": "o consultor do banco",
+      "learner": "a cliente",
+      "facts": [
+        "Tarifa da conta",
+        "Levar",
+        "Cartão do banco",
+        "Cheque especial"
+      ],
+      "opening": "Bom dia, sente-se, por favor. Em que posso ajudar?",
+      "beats": [
+        "A conta é gratuita se entrarem pelo menos 700 euros por mês; caso contrário, custa 4,90 euros por mês. Seu salário vai cair na conta regularmente?",
+        "Preciso do seu documento de identidade e de um comprovante de residência atual. Está com os dois hoje?",
+        "O cartão do banco chega pelo correio em cinco a sete dias; a senha vem separada. Quer ativar o internet banking também?",
+        "O cheque especial é possível depois de três meses, se o salário entrar regularmente. Já anoto um horário para isso?"
+      ]
+    },
+    "garage": {
+      "situation": "perguntar na oficina sobre o conserto do carro",
+      "role": "o mecânico",
+      "learner": "o cliente",
+      "facts": [
+        "Problema",
+        "Custo",
+        "Pronto",
+        "Carro reserva"
+      ],
+      "opening": "Bom dia, você veio por causa da perua azul, certo?",
+      "beats": [
+        "Sim, os freios dianteiros estão gastos, é esse o barulho. Você tem dirigido muito na cidade ultimamente?",
+        "Com peças e mão de obra, dá uns 280 euros. Já faço os freios?",
+        "O carro fica pronto amanhã à tarde; eu ligo assim que estiver pronto. Você consegue ficar sem carro até lá?",
+        "Infelizmente não tem carro reserva livre agora; estão todos fora. Quer que eu chame um táxi para você?"
+      ]
+    },
+    "hotel_noise": {
+      "situation": "reclamar de barulho no hotel",
+      "role": "o porteiro noturno",
+      "learner": "o hóspede",
+      "facts": [
+        "Barulho",
+        "Outro quarto",
+        "Compensação",
+        "Bagagem"
+      ],
+      "opening": "Boa noite, em que posso ajudar?",
+      "beats": [
+        "Sinto muito, é a obra ao lado; o trabalho começa às 7h, infelizmente. Você gostaria de mudar para um quarto mais silencioso?",
+        "Sim, o quarto 512 no quinto andar está livre; fica do lado silencioso. Quer que eu ajude a levar sua bagagem?",
+        "Claro, o café da manhã de amanhã é por conta da casa. Posso ajudar em mais alguma coisa?"
+      ]
+    },
+    "sick_call": {
+      "situation": "avisar no trabalho que está doente",
+      "role": "a chefe de equipe",
+      "learner": "o funcionário",
+      "facts": [
+        "Motivo",
+        "Ausência prevista",
+        "Atestado médico",
+        "Compromisso em aberto",
+        "Substituição"
+      ],
+      "opening": "Oi, aqui é a Anna. Você não parece nada bem, o que houve?",
+      "beats": [
+        "Ah, não, então primeiro fique bom. Quanto tempo você acha que vai ficar fora?",
+        "A partir do terceiro dia precisamos de um atestado médico; é só mandar por e-mail para personal@firma.de. Você vai ao médico hoje?",
+        "A Sara assume a reunião com o cliente na quinta às 10h. Você consegue mandar os documentos atuais para ela rapidinho?",
+        "Sim, me manda uma mensagem na quarta dizendo se você volta na quinta. Precisa de mais alguma coisa da gente?"
+      ]
+    },
+    "travel_centre": {
+      "situation": "uma conexão perdida no centro de viagens",
+      "role": "o funcionário do centro de viagens",
+      "learner": "a viajante",
+      "facts": [
+        "Atraso do trem",
+        "Próximo trem para Hamburgo",
+        "Passagem",
+        "Compensação",
+        "Formulário"
+      ],
+      "opening": "Olá, em que posso ajudar?",
+      "beats": [
+        "Sinto muito, o próximo trem para Hamburgo sai às 17:42 da plataforma 9. Posso ver sua passagem um momento?",
+        "Sua passagem continua válida, a restrição de trem foi suspensa. Você segue viagem até Hamburgo hoje?",
+        "A partir de 60 minutos de atraso no destino, você recebe 25 por cento do valor da passagem de volta. Quer levar o formulário de direitos do passageiro agora?",
+        "Sim, confirmo o atraso para você aqui no formulário. Tem mais alguma pergunta sobre a continuação da viagem?"
+      ]
+    },
+    "job_interview": {
+      "situation": "uma entrevista de emprego numa empresa de logística",
+      "role": "a chefe de RH",
+      "learner": "o candidato",
+      "facts": [
+        "Vaga",
+        "Data de início",
+        "Salário",
+        "Período de experiência",
+        "Home office"
+      ],
+      "opening": "Boa tarde, que bom ter você aqui. Primeiro, fale um pouco sobre você – o que trouxe você até nós?",
+      "beats": [
+        "Isso combina bem, pois estamos procurando um assistente de atendimento ao cliente em tempo integral. O que atrai você especialmente nesta vaga?",
+        "A vaga está disponível a partir de 1º de março; o período de experiência é de seis meses. Essa data funcionaria para você?",
+        "Oferecemos 3.400 euros brutos por mês, mais dois dias de home office por semana depois do período de experiência. Isso corresponde às suas expectativas?",
+        "Depois do período de experiência, você pode trabalhar de casa dois dias por semana. Você tem mais alguma pergunta para nós?"
+      ]
+    },
+    "flat_viewing": {
+      "situation": "visitar um apartamento com o corretor de imóveis",
+      "role": "o corretor de imóveis",
+      "learner": "a interessada no apartamento",
+      "facts": [
+        "Aluguel sem encargos",
+        "Encargos",
+        "Caução",
+        "Disponível a partir de",
+        "Documentos"
+      ],
+      "opening": "Boa tarde, entre. O que você achou do apartamento à primeira vista?",
+      "beats": [
+        "O aluguel é de 890 euros sem encargos, mais 180 euros de encargos por mês, aquecimento incluído. Isso cabe no seu orçamento?",
+        "A caução é de três meses de aluguel. A partir de quando você gostaria de se mudar?",
+        "O apartamento fica disponível a partir de 1º de julho. Você quer se candidatar a ele já?",
+        "Preciso de comprovantes de salário dos últimos três meses e de uma declaração do seu locador atual de que você não tem aluguéis atrasados. Você poderia me enviar os documentos por e-mail?"
+      ]
+    },
+    "utility_bill": {
+      "situation": "reclamar da conta de luz por telefone",
+      "role": "a atendente da central de atendimento",
+      "learner": "o cliente",
+      "facts": [
+        "Pagamento adicional",
+        "Motivo",
+        "Recálculo",
+        "Prazo",
+        "Número de cliente"
+      ],
+      "opening": "Atendimento ao cliente da companhia municipal, bom dia. Em que posso ajudar?",
+      "beats": [
+        "Vou verificar com prazer. Vejo um pagamento adicional de 412 euros com base em uma leitura estimada do medidor, pois não tínhamos nenhuma leitura sua. Você poderia me informar seu número de cliente, por favor?",
+        "Exatamente, a leitura do medidor foi estimada. Se você me informar a leitura atual, a conta será recalculada. Você está perto do medidor agora?",
+        "Não, o pagamento fica suspenso até o recálculo, e você pode apresentar uma contestação em até quatro semanas. Envio a confirmação por e-mail?"
+      ]
+    },
+    "immigration_office": {
+      "situation": "um atendimento na repartição de imigração para renovar a autorização de residência",
+      "role": "a funcionária",
+      "learner": "o requerente",
+      "facts": [
+        "Assunto",
+        "Documentos faltantes",
+        "Taxa",
+        "Prazo de processamento",
+        "Certificado provisório"
+      ],
+      "opening": "Bom dia, você tem horário para renovar sua autorização de residência. Está com o passaporte e o requerimento?",
+      "beats": [
+        "Obrigada. Para a renovação da autorização de residência para trabalho, ainda preciso do contrato de aluguel e de um comprovante atual de seguro de saúde. Você consegue entregar esses dois documentos depois?",
+        "A taxa é de 98 euros e é paga na máquina no térreo. Você quer fazer isso logo depois do nosso atendimento?",
+        "O processamento leva cerca de seis semanas. Até lá, você recebe hoje um certificado provisório, válido até a decisão. Imprimo agora mesmo?",
+        "O certificado provisório vale até a decisão, então seus direitos atuais continuam em vigor. Você tem mais alguma pergunta sobre o procedimento?"
+      ]
+    },
+    "parcel_complaint": {
+      "situation": "reclamar por telefone de uma entrega danificada",
+      "role": "o atendente da central de atendimento",
+      "learner": "a cliente",
+      "facts": [
+        "Número do pedido",
+        "Dano",
+        "Opções",
+        "Devolução",
+        "Gesto de boa vontade"
+      ],
+      "opening": "Atendimento ao cliente, olá. Como posso ajudar?",
+      "beats": [
+        "Sinto muito por isso. Para eu registrar o caso: você poderia me informar o número do pedido, por favor?",
+        "Obrigado, encontrei o pedido 771325. Posso oferecer uma reposição em até três dias úteis ou o reembolso. O que você prefere?",
+        "Não é preciso devolver; uma foto do dano basta para nós. Você poderia enviar a foto para o nosso endereço de atendimento?",
+        "Claro, como pedido de desculpas você recebe um vale de 10 euros para o próximo pedido. Posso ajudar em mais alguma coisa?"
+      ]
+    },
+    "flat_handover": {
+      "situation": "a entrega do apartamento e a caução",
+      "role": "a administradora do imóvel",
+      "learner": "o inquilino",
+      "facts": [
+        "Caução",
+        "Devolução",
+        "Retenção possível",
+        "Defeitos no relatório",
+        "Leituras dos medidores",
+        "Chaves"
+      ],
+      "opening": "Olá, então vamos percorrer o apartamento juntos. Você está com todas as chaves?",
+      "beats": [
+        "O relatório cobre as leituras dos medidores, luz 45210 e água 812, as chaves e todos os defeitos. Você já fechou os furos de broca na sala?",
+        "Vou conferir isso agora no relatório de entrada; aí registramos os arranhões como já existentes. Você concorda que fotografemos os dois?",
+        "Devolvemos a caução de 1800 euros em até seis semanas após a entrega. Para qual conta deve ir a transferência?",
+        "Podemos reter uma parte do valor até a prestação de contas dos encargos; o resto vem dentro das seis semanas. Você quer assinar o relatório agora ou ler com calma primeiro?"
+      ]
+    },
+    "internet_hotline": {
+      "situation": "comunicar uma queda da internet à central de suporte",
+      "role": "o atendente da central",
+      "learner": "a cliente",
+      "facts": [
+        "Número de cliente",
+        "Sem conexão desde",
+        "Falha",
+        "Número do chamado",
+        "Visita do técnico, se necessário",
+        "Alternativa"
+      ],
+      "opening": "Olá, atendimento ao cliente. Qual é o seu número de cliente?",
+      "beats": [
+        "Obrigado, estou com a sua linha aqui na tela. A luz DSL do roteador está vermelha ou piscando?",
+        "Então não é do seu lado: há uma falha conhecida no armário de distribuição da rua, e o reparo está previsto para amanhã até o meio-dia. Você precisa de uma alternativa até lá?",
+        "Vou ativar 10 GB de dados LTE para você gratuitamente; você recebe o código de acesso por SMS. Faço isso agora mesmo?",
+        "Então ligue de volta com o número do chamado ST-2093 e mandamos um técnico na sexta-feira entre 8h e 12h. Esse horário funciona para você?"
+      ]
+    },
+    "salary_negotiation": {
+      "situation": "uma negociação salarial na avaliação anual",
+      "role": "a chefe de departamento",
+      "learner": "o funcionário",
+      "facts": [
+        "Margem de manobra",
+        "Condição para mais",
+        "Com efeito a partir de",
+        "Alternativa",
+        "Próximo passo"
+      ],
+      "opening": "Que bom que estamos reservando esse tempo. Você tinha sinalizado que gostaria de falar sobre seu salário – por onde você quer começar?",
+      "beats": [
+        "Seu desempenho é indiscutível, eu vejo da mesma forma. No entanto, nossa margem de manobra este ano é de no máximo 5 por cento – em que ordem de grandeza você tinha pensado?",
+        "Mais do que isso só seria possível se você assumisse a liderança do projeto do novo portal de clientes. Você se vê fazendo isso?",
+        "O reajuste entraria em vigor em 1º de julho, assim que o orçamento for aprovado. Isso seria aceitável para você?",
+        "Como alternativa, eu poderia oferecer um dia de folga adicional e um orçamento de treinamento de 1.500 euros. Quer que eu coloque as duas opções por escrito até o fim da semana?"
+      ]
+    },
+    "rent_increase": {
+      "situation": "uma consulta na associação de inquilinos por causa de um aumento de aluguel",
+      "role": "a consultora da associação de inquilinos",
+      "learner": "a inquilina",
+      "facts": [
+        "Teto de aumento",
+        "Exigência de forma",
+        "Tabela de aluguéis",
+        "Prazo para concordar",
+        "Mensalidade de sócio"
+      ],
+      "opening": "Boa tarde, sente-se. Então você recebeu uma carta do seu locador – de que aumento se trata exatamente?",
+      "beats": [
+        "Isso parece ultrapassar o teto, porque nesta cidade o aluguel só pode subir no máximo 15 por cento em três anos. Quando foi o último aumento?",
+        "Não, um aumento precisa ser justificado por escrito, por exemplo com a tabela de aluguéis ou com apartamentos comparáveis; caso contrário, é inválido. Você está com a carta?",
+        "Segundo a tabela de aluguéis, o aluguel de referência local para a sua região é de 9,80 euros por metro quadrado. Quanto você paga atualmente?",
+        "Você só precisa dar sua concordância até o fim do mês seguinte ao próximo; até lá vamos analisar a carta. A associação custa 90 euros por ano, com proteção jurídica incluída – você quer se associar hoje?"
+      ]
+    },
+    "town_hall_traffic": {
+      "situation": "uma audiência pública sobre o novo plano de trânsito",
+      "role": "o planejador de tráfego da prefeitura",
+      "learner": "a moradora",
+      "facts": [
+        "Moderação do tráfego",
+        "Vagas de estacionamento",
+        "Serviço de ônibus",
+        "Cronograma",
+        "Objeções"
+      ],
+      "opening": "Boa noite e obrigado por terem vindo em tão grande número. Daqui a pouco vou apresentar o plano – antes disso, há alguma pergunta dos moradores?",
+      "beats": [
+        "Com prazer: o plano prevê um limite de 30 km/h em todas as ruas do bairro, complementado por calçadas mais largas perto das escolas. A qual rua você se refere em particular?",
+        "É verdade que 120 vagas de estacionamento vão desaparecer; em compensação, será construído um estacionamento vertical para o bairro junto à estação. Você usaria uma opção dessas?",
+        "Sim, a linha 7 vai passar de dez em dez minutos no futuro, também nos fins de semana. Isso seria suficiente para os seus trajetos?",
+        "O início das obras está previsto para a primavera e os trabalhos vão durar cerca de 18 meses. A secretaria de planejamento aceita objeções por escrito até 30 de setembro – posso dar o formulário para você levar?"
+      ]
+    },
+    "press_interview_study": {
+      "situation": "uma entrevista para um jornal sobre o seu próprio estudo",
+      "role": "a jornalista",
+      "learner": "o coordenador do estudo",
+      "facts": [
+        "Seção e edição",
+        "Extensão da matéria",
+        "Aprovação das citações",
+        "Contraponto",
+        "Sessão de fotos"
+      ],
+      "opening": "Muito obrigada por reservar esse tempo. Antes de começarmos com as perguntas sobre o estudo, você gostaria de saber primeiro alguma coisa sobre as condições da conversa?",
+      "beats": [
+        "Está prevista a página de ciência da edição de sábado. Tudo bem para você se esclarecermos os principais resultados logo no início?",
+        "Temos cerca de 6.000 caracteres, mais um box informativo sobre a metodologia. Qual limitação dos seus dados não pode faltar ali de forma alguma?",
+        "Claro, eu envio as citações literais para a sua aprovação, mas preciso do seu retorno até quinta-feira, às 12h. Isso é viável?",
+        "Sim, um estatístico da Universidade de Bremen será ouvido com uma avaliação crítica. Você gostaria de já se posicionar sobre isso durante a conversa?",
+        "Logo em seguida, tiramos algumas fotos no pátio interno, isso leva uns 15 minutos. Fica bom para você em termos de horário?"
+      ]
+    },
+    "publishing_contract": {
+      "situation": "a negociação de um contrato editorial para um livro de não ficção",
+      "role": "o editor",
+      "learner": "a autora",
+      "facts": [
+        "Adiantamento",
+        "Direitos autorais",
+        "Prazo de entrega",
+        "Direitos subsidiários",
+        "Decisão sobre o título"
+      ],
+      "opening": "Que bom que você veio, estamos muito ansiosos pelo livro. Trouxe a minuta do contrato comigo – por onde você quer começar, pelos direitos autorais ou pelo cronograma?",
+      "beats": [
+        "Oferecemos um adiantamento de 4.000 euros, pagável em duas parcelas, na assinatura do contrato e na entrega do manuscrito. Isso corresponde às suas expectativas?",
+        "O usual aqui é 10 por cento sobre o preço líquido de capa; a partir de 5.000 exemplares vendidos, a taxa sobe para 12 por cento. Você teria alguma objeção a esse escalonamento?",
+        "Contamos com a entrega do manuscrito até 31 de março, para que o livro possa sair no catálogo de outono. Esse cronograma é realista para você?",
+        "Audiolivro e e-book ficariam com a editora, os direitos de edições em língua estrangeira ficariam com você. Isso seria aceitável para você?",
+        "O título nós definimos juntos, mas a palavra final é da editora. Você consegue conviver com esse arranjo?"
+      ]
+    },
+    "tax_office_objection": {
+      "situation": "uma impugnação de notificação de lançamento de imposto na repartição fiscal",
+      "role": "a funcionária responsável",
+      "learner": "o contribuinte",
+      "facts": [
+        "Motivo da divergência",
+        "Prazo de impugnação",
+        "Envio dos comprovantes",
+        "Suspensão da cobrança",
+        "Tempo de processamento"
+      ],
+      "opening": "Boa tarde, você tinha pedido uma conversa sobre a sua notificação de lançamento do imposto. Qual é a sua principal preocupação, o pagamento complementar ou a fundamentação do lançamento?",
+      "beats": [
+        "As despesas de deslocamento só foram reconhecidas pela metade porque faltam os comprovantes do segundo semestre. Você já está com esses documentos?",
+        "O prazo de impugnação é de um mês a partir da notificação do lançamento, ou seja, no seu caso, até 14 de maio. Você gostaria de registrar a impugnação hoje mesmo?",
+        "O mais simples é pelo portal online ELSTER, mas você também pode enviá-los pelo correio, desde que cheguem antes do fim do prazo. Você já tem acesso ao portal?",
+        "A impugnação por si só não adia o pagamento, mas você pode requerer a suspensão da cobrança; nesse caso, o pagamento complementar de 1.240 euros fica adiado até a decisão. Quer que eu já inclua o requerimento?",
+        "Pela experiência, cerca de seis a oito semanas após o recebimento dos documentos. Quer que eu envie a confirmação de recebimento pelo correio ou por via eletrônica?"
+      ]
+    }
+  },
+  "rules": {
+    "age": "A idade usa 'sein' mais 'alt'.",
+    "impersonal-dative": "Sensações físicas e bem-estar levam a pessoa no dativo: mir ist kalt, mir geht es gut.",
+    "preposition-case": "A preposição determina o caso: aus, bei, mit, nach, von e zu levam o dativo.",
+    "tense-seit": "O que ainda continua fica no presente com 'seit'; 'seit' leva o dativo: seit drei Jahren.",
+    "accusative-object": "O objeto direto fica no acusativo; aí os artigos masculinos terminam em -en: einen Hund, meinen Freund.",
+    "place-preposition": "Direção e localização usam palavras diferentes: nach Hause / zu Hause, wohin / wo, nach Berlin / in die Schweiz.",
+    "bracket": "Particípio, infinitivo e prefixo separável fecham a oração; objetos e adverbiais vêm antes deles, dentro da moldura verbal.",
+    "noun-gender": "Artigo e terminação seguem o gênero do substantivo: der Name, die Idee, das Ergebnis.",
+    "idiom": "Esta é uma expressão fixa; ela não se traduz palavra por palavra do português.",
+    "negation": "Negue só uma vez: 'nicht' vem depois do objeto, e um substantivo sem artigo é negado com 'kein'.",
+    "dative-verb": "Verbos como helfen, danken, zustimmen e erklären (a pessoa) levam o dativo: mir, dir, meinem Bruder.",
+    "verb-second": "Na oração principal, o verbo conjugado fica na segunda posição, também depois de dann, deswegen ou desto.",
+    "verb-final": "Na oração subordinada com dass, weil, wenn, ob, uma palavra interrogativa ou um pronome relativo, o verbo conjugado vai para o fim.",
+    "da-compound": "Antes de uma oração com dass ou de infinitivo, o objeto preposicional vira um composto com da-: darauf, dafür, darüber.",
+    "verb-preposition": "Verbo e preposição formam um par fixo que não se traduz: warten auf, Angst vor, sich bewerben um, sich beschäftigen mit.",
+    "comparison": "O comparativo recebe -er e compara com 'als'; 'mehr' e 'wie' não entram. Igualdade: so … wie.",
+    "konjunktiv-2": "Desejos e condições irreais usam o Konjunktiv II: 'hätte gern' antes de um substantivo, 'würde gern' antes de um infinitivo, 'hätte' e 'wäre' em vez de 'würde haben' e 'würde sein'.",
+    "konjunktiv-1": "O discurso indireto usa o Konjunktiv I (sei, habe, komme), não o Konjunktiv II; na oração com dass, o verbo vai para o fim.",
+    "infinitive-form": "Verbos modais e 'lassen' levam o infinitivo sem 'zu' (também no Perfekt: musste, schneiden lassen), os outros verbos 'zu' + infinitivo; um segundo auxiliar como 'worden' ou 'wird' é eliminado.",
+    "word-choice": "É preciso outra palavra; o sentido do português não se transfere diretamente: interessant, wissen, sich lohnen, sinnvoll.",
+    "tekamolo": "Os adverbiais seguem a ordem tempo, causa, modo, lugar (TeKaMoLo).",
+    "relative-pronoun": "O pronome relativo pega o gênero do substantivo e o caso do verbo ou da preposição da oração relativa: der Mann, den ich sah; die Frage, auf die ich keine Antwort habe.",
+    "redundancy": "Um conector basta: obwohl sem aber, einerseits sem aber, anbei sem im Anhang, deshalb sem aus diesem Grund.",
+    "conjunction-choice": "'obwohl' abre uma oração subordinada, 'trotzdem' uma oração principal; depois de 'Der Grund ist' use 'dass', não 'weil'.",
+    "reflexive": "O verbo é reflexivo: sich entscheiden, sich erinnern an, sich konzentrieren auf, sich beeilen, sich erkälten.",
+    "fronted-adverbial": "Um adverbial no início da frase ocupa a primeira posição: o verbo vem logo em seguida, sem vírgula.",
+    "genitive": "'wegen', 'trotz' e 'während' levam o genitivo (wegen des Regens); 'der Meinung sein' é genitivo.",
+    "agreement": "Verbo e terminações concordam com o sujeito: 'die Anzahl' é singular (hat); um adjetivo antes do substantivo recebe a terminação correspondente (die geplanten Maßnahmen).",
+    "clause-form": "'damit einverstanden sein' é seguido de uma oração com dass e verbo conjugado, não de um infinitivo: …, dass die Gebühren erhöht werden.",
+    "passive": "A passiva leva um só auxiliar: Präteritum 'wurden … geschlossen' ou Perfekt 'sind … geschlossen worden', não os dois.",
+    "style-chain": "Cadeias de orações com dass e was ficam pesadas; uma oração principal com um sintagma nominal ou 'und damit' diz o mesmo de forma mais breve."
+  },
+  "ruleTitles": {
+    "verb-second": "O verbo fica em segundo lugar",
+    "verb-final": "O verbo vai para o fim",
+    "preposition-case": "A preposição determina o caso",
+    "accusative-preposition": "A preposição leva o acusativo",
+    "two-way-preposition": "Onde ou para onde?",
+    "accusative-object": "O objeto direto fica no acusativo",
+    "perfekt-auxiliary": "Perfekt com haben ou sein",
+    "tense-seit": "seit com o presente",
+    "noun-gender": "O gênero do substantivo",
+    "negation": "Negação com kein",
+    "bracket": "A moldura verbal",
+    "dative-verb": "Um verbo com dativo",
+    "capitalisation": "Substantivos começam com maiúscula",
+    "age": "Dizer a idade",
+    "impersonal-dative": "Como você se sente: mir ist …",
+    "place-preposition": "Onde ou para onde?"
+  },
+  "lexicon": {
+    "Abend": "noite, fim de tarde",
+    "Abholzung": "desmatamento",
+    "Abhängigkeit": "dependência",
+    "Abitur": "exame final do ensino médio (Abitur)",
+    "Abkürzung": "abreviatura",
+    "Abreise": "partida",
+    "Absage": "recusa",
+    "Abschiedsparty": "festa de despedida",
+    "Abschluss": "diploma, formação concluída",
+    "Absteige": "espelunca",
+    "Achtung": "respeito",
+    "Adventskranz": "coroa do Advento",
+    "Aktie": "ação (na bolsa)",
+    "Allegorie": "alegoria",
+    "Allergie": "alergia",
+    "Altersgrenze": "limite de idade",
+    "Analogie": "analogia",
+    "Anbeginn": "começo",
+    "Anerkennung": "reconhecimento",
+    "Anmeldeformular": "formulário de inscrição",
+    "Anmeldung": "inscrição, registro",
+    "Anrede": "forma de tratamento",
+    "Anreise": "chegada",
+    "Antibiotikum": "antibiótico",
+    "Anzug": "terno",
+    "Anästhesie": "anestesia",
+    "App": "aplicativo",
+    "Arbeit": "trabalho",
+    "Arbeitserlaubnis": "autorização de trabalho",
+    "Arbeitsplatz": "local de trabalho",
+    "Arbeitsumfeld": "ambiente de trabalho",
+    "Arbeitsvertrag": "contrato de trabalho",
+    "Archiv": "arquivo",
+    "Arm": "braço",
+    "Artenschutz": "proteção das espécies",
+    "Artikulation": "articulação",
+    "Arzt": "médico",
+    "Arzthelferin": "auxiliar de consultório médico",
+    "Arzttermin": "consulta médica",
+    "Assistent": "assistente",
+    "Assistentin": "assistente",
+    "Atom": "átomo",
+    "Attraktion": "atração",
+    "Aufbau": "estrutura",
+    "Aufenthaltsgenehmigung": "autorização de residência",
+    "Aufgabe": "tarefa",
+    "Aufklärung": "o Iluminismo",
+    "Aufrichtigkeit": "sinceridade",
+    "Aufsatz": "redação",
+    "Auftreten": "ocorrência",
+    "Aufzug": "elevador",
+    "Auge": "olho",
+    "Augenbraue": "sobrancelha",
+    "Ausbildung": "formação profissional",
+    "Ausgangssprache": "língua de partida",
+    "Ausgleich": "equilíbrio, compensação",
+    "Auslandspraktikum": "estágio no exterior",
+    "Ausrede": "desculpa",
+    "Ausrichtung": "orientação",
+    "Ausrottung": "extinção",
+    "Ausrüstung": "equipamento",
+    "Aussehen": "aparência",
+    "Ausstellungsbehörde": "autoridade emissora",
+    "Ausstellungsort": "local de emissão",
+    "Auswirkung": "impacto",
+    "Autokratie": "autocracia",
+    "Automat": "máquina de bilhetes",
+    "Automatisierung": "automatização",
+    "Außenwerbung": "publicidade exterior",
+    "Backware": "produtos de padaria",
+    "Badeanzug": "maiô",
+    "Badehose": "sunga, calção de banho",
+    "Badewanne": "banheira",
+    "Bahnhof": "estação de trem",
+    "Balkendiagramm": "gráfico de barras",
+    "Balkon": "sacada, varanda",
+    "Bargeld": "dinheiro em espécie",
+    "Bart": "barba",
+    "Bauch": "barriga",
+    "Baustelle": "canteiro de obras",
+    "Befreiung": "libertação",
+    "Begierde": "desejo",
+    "Begrenzung": "limitação",
+    "Bein": "perna",
+    "Beitrag": "contribuição",
+    "Beleg": "comprovante",
+    "Bequemlichkeit": "comodidade",
+    "Beruf": "profissão",
+    "Berufserfahrung": "experiência profissional",
+    "Berufsschule": "escola profissionalizante",
+    "Berufstherapeut": "terapeuta ocupacional",
+    "Beschäftigung": "emprego, ocupação",
+    "Besprechung": "reunião",
+    "Betriebsunfall": "acidente de trabalho",
+    "Bewegungslinie": "linha de movimento",
+    "Bewerbung": "candidatura",
+    "Bewerbungsverfahren": "processo seletivo",
+    "Bewertung": "avaliação, resenha",
+    "Bewässerung": "irrigação",
+    "Bier": "cerveja",
+    "Biodiversität": "biodiversidade",
+    "Bioladen": "loja de produtos orgânicos",
+    "Blaubeere": "mirtilo",
+    "Blick": "vista, olhar",
+    "Blindenhund": "cão-guia",
+    "Blume": "flor",
+    "Bluse": "blusa",
+    "Bodenerosion": "erosão do solo",
+    "Botanik": "botânica",
+    "Botschaft": "mensagem",
+    "Bourgeoisie": "burguesia",
+    "Brainteaser": "quebra-cabeça, desafio de lógica",
+    "Bratwurst": "salsicha grelhada",
+    "Brauch": "costume",
+    "Brauchtum": "tradição, costumes",
+    "Brautkleid": "vestido de noiva",
+    "Brett": "tábua",
+    "Brettspiel": "jogo de tabuleiro",
+    "Brezel": "pretzel",
+    "Brief": "carta",
+    "Briefanfang": "início da carta",
+    "Briefende": "fim da carta",
+    "Briefkopf": "cabeçalho da carta",
+    "Briefumschlag": "envelope",
+    "Brot": "pão",
+    "Brotteller": "prato de pão",
+    "Bruchbude": "espelunca",
+    "Bruchteil": "fração",
+    "Bruttoinlandsprodukt": "Produto Interno Bruto (PIB)",
+    "Brüderlichkeit": "fraternidade",
+    "Buchhaltung": "contabilidade",
+    "Budget": "orçamento",
+    "Bushaltestelle": "ponto de ônibus",
+    "Büro": "escritório",
+    "Bürokratie": "burocracia",
+    "Cartoon": "cartum, desenho animado",
+    "Chef": "chefe",
+    "Computerspiel": "jogo de computador",
+    "Containern": "recolha de alimentos no lixo",
+    "Couchsurfing": "couchsurfing",
+    "Croissant": "croissant",
+    "Cyberaktivismus": "ciberativismo",
+    "Date": "encontro romântico",
+    "Datenmenge": "volume de dados",
+    "Datensatz": "registro (de dados)",
+    "Dauer": "duração",
+    "Debatte": "debate",
+    "Dekoration": "decoração",
+    "Demographie": "demografia",
+    "Demokratie": "democracia",
+    "Diagnose": "diagnóstico",
+    "Dialekt": "dialeto",
+    "Digitalisierung": "digitalização",
+    "Ding": "coisa",
+    "Diskriminierung": "discriminação",
+    "Diversität": "diversidade",
+    "Dokumentarfilm": "documentário",
+    "Dose": "lata",
+    "Drache": "dragão",
+    "Drohne": "drone",
+    "Durchbruch": "avanço decisivo",
+    "Durchführung": "realização",
+    "Durchsetzung": "imposição, aplicação",
+    "Dürre": "seca",
+    "Echtzeit": "tempo real",
+    "Eigenschaft": "qualidade, característica",
+    "Eigentum": "propriedade",
+    "Einbauküche": "cozinha planejada",
+    "Eindruck": "impressão",
+    "Einhaltung": "cumprimento",
+    "Einladung": "convite",
+    "Einleitung": "introdução",
+    "Einleitungssatz": "frase de abertura",
+    "Einrichtungsstil": "estilo de decoração",
+    "Einsamkeit": "solidão",
+    "Einschränkung": "restrição",
+    "Einsprachigkeit": "monolinguismo",
+    "Einstellung": "contratação",
+    "Einwand": "objeção",
+    "Einwohnerin": "habitante, moradora",
+    "Einwohnermeldeamt": "cartório de registro de residentes",
+    "Einzelkind": "filho único",
+    "Elterngeneration": "geração dos pais",
+    "Elternschaft": "parentalidade",
+    "Emoji": "emoji",
+    "Empathie": "empatia",
+    "Empfang": "recepção",
+    "Empörung": "indignação",
+    "Ende": "fim",
+    "Energieerzeugung": "geração de energia",
+    "Energieversorgung": "abastecimento de energia",
+    "Entdeckung": "descoberta",
+    "Entstehung": "origem, surgimento",
+    "Entwaldung": "desmatamento",
+    "Epoche": "época",
+    "Erdbeere": "morango",
+    "Erderwärmung": "aquecimento global",
+    "Erdgeschoss": "térreo",
+    "Erfahrung": "experiência",
+    "Erfindung": "invenção",
+    "Ergebnis": "resultado",
+    "Erlebnis": "experiência (vivida)",
+    "Erleichterung": "alívio",
+    "Ernte": "colheita",
+    "Ernährungsplan": "plano alimentar",
+    "Erstsprache": "primeira língua",
+    "Erwachsenenalter": "idade adulta",
+    "Essgewohnheit": "hábito alimentar",
+    "Ethik": "ética",
+    "Ethnie": "etnia",
+    "Etymologie": "etimologia",
+    "Fachhochschule": "faculdade de ciências aplicadas",
+    "Fachkräftemangel": "escassez de mão de obra qualificada",
+    "Fachoberschule": "escola técnica de nível médio",
+    "Fahrrad": "bicicleta",
+    "Fahrt": "viagem, trajeto",
+    "Familienstand": "estado civil",
+    "Fangfrage": "pegadinha",
+    "Fantasie": "fantasia",
+    "Fassade": "fachada",
+    "Faszination": "fascínio",
+    "Feedback": "feedback",
+    "Feierabend": "fim do expediente",
+    "Feierabendbier": "cerveja depois do trabalho",
+    "Feingefühl": "tato, sensibilidade",
+    "Ferienhaus": "casa de férias",
+    "Ferienort": "local de férias",
+    "Ferienwohnung": "apartamento de férias",
+    "Fernsehprogramm": "programação da TV",
+    "Fernsehwerbespot": "comercial de TV",
+    "Fernunterricht": "ensino a distância",
+    "Fernweh": "vontade de viajar para longe",
+    "Film": "filme",
+    "Fingerspitzengefühl": "tato (sensibilidade fina)",
+    "Firma": "empresa",
+    "Flagge": "bandeira",
+    "Flaute": "estagnação, recessão",
+    "Flohmarkt": "feira de usados",
+    "Floß": "jangada",
+    "Flucht": "fuga",
+    "Fluchtweg": "rota de fuga",
+    "Flughafen": "aeroporto",
+    "Flur": "corredor, hall",
+    "Form": "forma",
+    "Fortbildung": "aperfeiçoamento profissional",
+    "Fortschritt": "progresso",
+    "Fortsetzung": "continuação",
+    "Freibad": "piscina ao ar livre",
+    "Freizeit": "tempo livre",
+    "Fremdsprache": "língua estrangeira",
+    "Fruchtbarkeit": "fertilidade",
+    "Frühbucherrabatt": "desconto por reserva antecipada",
+    "Frühling": "primavera",
+    "Fuß": "pé",
+    "Fußballspiel": "jogo de futebol",
+    "Fußgängerzone": "zona de pedestres",
+    "Fähigkeit": "capacidade",
+    "Führerschein": "carteira de motorista",
+    "Füllwort": "palavra de preenchimento",
+    "Gang": "corredor (entre prateleiras)",
+    "Garage": "garagem",
+    "Garten": "jardim",
+    "Gartenzaun": "cerca do jardim",
+    "Gast": "convidado, hóspede",
+    "Gattung": "gênero",
+    "Geburt": "nascimento",
+    "Gebühr": "taxa",
+    "Geduld": "paciência",
+    "Gedöns": "tralha, alarido (col.)",
+    "Gefahr": "perigo",
+    "Gefährdung": "ameaça, risco",
+    "Gegenseitigkeit": "reciprocidade",
+    "Gegenwart": "presente",
+    "Gegenwehr": "resistência",
+    "Gehalt": "salário",
+    "Gehaltsvorschlag": "proposta salarial",
+    "Gehaltsvorstellung": "pretensão salarial",
+    "Geist": "espírito",
+    "Gelegenheitsjob": "bico, trabalho ocasional",
+    "Gemeinschaft": "comunidade",
+    "Gemeinschaftsraum": "sala comum",
+    "Genom": "genoma",
+    "Gericht": "prato",
+    "Geruch": "cheiro",
+    "Gerät": "aparelho, dispositivo",
+    "Gesamtschule": "escola integrada",
+    "Geschenkesystem": "sistema de presentes",
+    "Geschicklichkeit": "destreza",
+    "Geschmack": "gosto, sabor",
+    "Geschmacksrichtung": "sabor",
+    "Gesicht": "rosto",
+    "Gesichtsausdruck": "expressão facial",
+    "Gestik": "gestos",
+    "Girokonto": "conta corrente",
+    "Gitarre": "violão",
+    "Globalisierung": "globalização",
+    "Glück": "sorte, felicidade",
+    "Glücksspiel": "jogo de azar",
+    "Glühwein": "vinho quente",
+    "Goldmedaille": "medalha de ouro",
+    "Gramm": "grama",
+    "Grausamkeit": "crueldade",
+    "Grenze": "fronteira",
+    "Grundriss": "planta baixa",
+    "Grundschule": "escola primária",
+    "Grundsteuer": "imposto predial",
+    "Grundstück": "terreno, lote",
+    "Gruppendynamik": "dinâmica de grupo",
+    "Grußformel": "fórmula de saudação",
+    "Gymnasium": "escola secundária (preparatória para a universidade)",
+    "Gültigkeitsdatum": "data de validade",
+    "Hals": "pescoço, garganta",
+    "Haltestelle": "ponto, parada",
+    "Hamsterrad": "roda-viva",
+    "Hand": "mão",
+    "Handwerk": "ofício, artesanato",
+    "Hashtag": "hashtag",
+    "Hauptschule": "escola secundária básica",
+    "Hauptteil": "parte principal",
+    "Hauptverkehrszeit": "horário de pico",
+    "Hausfrau": "dona de casa",
+    "Haushalt": "domicílio, orçamento doméstico",
+    "Hausmann": "dono de casa",
+    "Heiligabend": "véspera de Natal",
+    "Heimat": "terra natal",
+    "Heimweh": "saudade de casa",
+    "Heimwerken": "faça-você-mesmo, bricolagem",
+    "Herausforderung": "desafio",
+    "Herbst": "outono",
+    "Herd": "fogão",
+    "Historiolinguistik": "linguística histórica",
+    "Hitze": "calor",
+    "Hobby": "hobby",
+    "Hochkonjunktur": "boom econômico",
+    "Hochschule": "instituição de ensino superior",
+    "Hochzeit": "casamento",
+    "Hof": "pátio",
+    "Hoheitsgewalt": "soberania",
+    "Holzkiste": "caixa de madeira",
+    "Hose": "calça",
+    "Hostel": "hostel, albergue",
+    "Hurrikan": "furacão",
+    "Hut": "chapéu",
+    "Hymne": "hino nacional",
+    "Hypothek": "hipoteca",
+    "Idealbild": "imagem ideal",
+    "Idealismus": "idealismo",
+    "Imitation": "imitação",
+    "Immersion": "imersão",
+    "Impfung": "vacinação",
+    "Industrialisierung": "industrialização",
+    "Inflation": "inflação",
+    "Informationsflut": "excesso de informação",
+    "Ingenieur": "engenheiro",
+    "Insel": "ilha",
+    "Inspiration": "inspiração",
+    "Interkulturalität": "interculturalidade",
+    "Interpretation": "interpretação",
+    "Investition": "investimento",
+    "Jacke": "jaqueta, casaco",
+    "Jahr": "ano",
+    "Jahreszeit": "estação do ano",
+    "Jahrhundert": "século",
+    "Jetlag": "jet lag",
+    "Jeton": "ficha",
+    "Job": "emprego, trabalho",
+    "Jugend": "juventude",
+    "Juwelier": "joalheiro",
+    "Kampagne": "campanha",
+    "Kampagnenziel": "objetivo da campanha",
+    "Kanalisation": "rede de esgoto",
+    "Kapazität": "capacidade",
+    "Kapitalismus": "capitalismo",
+    "Karte": "cartão",
+    "Kasse": "caixa",
+    "Kernfusion": "fusão nuclear",
+    "Kerze": "vela",
+    "Kilogramm": "quilograma",
+    "Kindergarten": "jardim de infância",
+    "Kindertageseinrichtung": "creche",
+    "Kindheit": "infância",
+    "Kinn": "queixo",
+    "Kita": "creche",
+    "Klamotte": "peça de roupa",
+    "Klavier": "piano",
+    "Kleid": "vestido",
+    "Kleidung": "roupa",
+    "Kleidungsstück": "peça de roupa",
+    "Klischee": "clichê",
+    "Kneipenquiz": "quiz de bar",
+    "Koalition": "coalizão",
+    "Koch": "cozinheiro, chef",
+    "Kochrezept": "receita de cozinha",
+    "Kochtopf": "panela",
+    "Kollision": "colisão",
+    "Kompetenz": "competência",
+    "Komödie": "comédia",
+    "Konditorei": "confeitaria",
+    "Konkurrenzprodukt": "produto concorrente",
+    "Konnotation": "conotação",
+    "Konservendose": "lata de conserva",
+    "Konsum": "consumo",
+    "Kontrollpunkt": "posto de controle",
+    "Konzert": "concerto, show",
+    "Kopf": "cabeça",
+    "Korb": "cesta",
+    "Krankschreibung": "atestado médico",
+    "Kredit": "empréstimo, crédito",
+    "Kreisdiagramm": "gráfico de pizza",
+    "Krimi": "policial (gênero)",
+    "Kulturhoheit": "soberania cultural",
+    "Kunde": "cliente",
+    "Kurvendiagramm": "gráfico de linhas",
+    "Kurzgeschichte": "conto",
+    "Kuss": "beijo",
+    "Käfig": "gaiola",
+    "Kälte": "frio",
+    "Körpersprache": "linguagem corporal",
+    "Körperteil": "parte do corpo",
+    "Küche": "cozinha",
+    "Küchenwaage": "balança de cozinha",
+    "Kühlschrank": "geladeira",
+    "Kündigungsfrist": "prazo de aviso prévio",
+    "Land": "país",
+    "Lawine": "avalanche",
+    "Lebensabschnitt": "fase da vida",
+    "Lebensgefährte": "companheiro",
+    "Lebensgefährtin": "companheira",
+    "Lebenslauf": "currículo",
+    "Lebensqualität": "qualidade de vida",
+    "Lebensraum": "habitat",
+    "Lebenstraum": "sonho de uma vida",
+    "Lehre": "aprendizagem profissional",
+    "Leibeigenschaft": "servidão",
+    "Leidenschaft": "paixão",
+    "Leistung": "desempenho",
+    "Leistungskurs": "curso avançado",
+    "Leistungspunkt": "crédito (acadêmico)",
+    "Lektor": "revisor, editor",
+    "Lektorin": "revisora, editora",
+    "Lichtgeschwindigkeit": "velocidade da luz",
+    "Lichtstrahl": "feixe de luz",
+    "Lichtung": "clareira",
+    "Liebesbrief": "carta de amor",
+    "Liedtext": "letra de música",
+    "Liga": "liga",
+    "Lobeshymne": "hino de louvor",
+    "Lohn": "salário",
+    "Luftverschmutzung": "poluição do ar",
+    "Lüge": "mentira",
+    "Magnet": "ímã",
+    "Manifest": "manifesto",
+    "Manipulation": "manipulação",
+    "Mannschaft": "equipe, time",
+    "Manufaktur": "manufatura",
+    "Marketing": "marketing",
+    "Marketingstrategie": "estratégia de marketing",
+    "Marmeladenglas": "pote de geleia",
+    "Masse": "massa",
+    "Massenflucht": "êxodo em massa",
+    "Material": "material",
+    "Mauer": "muro",
+    "Maßnahme": "medida",
+    "Mediation": "mediação linguística",
+    "Meeting": "reunião",
+    "Mehrheit": "maioria",
+    "Mehrsprachigkeit": "multilinguismo",
+    "Meisterschaft": "campeonato",
+    "Melodie": "melodia",
+    "Menschenrechtsverletzung": "violação dos direitos humanos",
+    "Mentalität": "mentalidade",
+    "Merkmal": "característica",
+    "Messlatte": "sarrafo (nível de exigência)",
+    "Metapher": "metáfora",
+    "Milchprodukt": "laticínio",
+    "Million": "milhão",
+    "Mimik": "expressão facial",
+    "Minderheit": "minoria",
+    "Minnesang": "Minnesang (poesia cortesã)",
+    "Misshandlung": "maus-tratos",
+    "Missverständnis": "mal-entendido",
+    "Mist": "droga!, que porcaria",
+    "Mittag": "meio-dia",
+    "Mittagspause": "pausa para o almoço",
+    "Mittelteil": "parte central",
+    "Modetrend": "tendência de moda",
+    "Monarchie": "monarquia",
+    "Monitor": "monitor",
+    "Moos": "musgo",
+    "Moral": "moral",
+    "Motorrad": "moto",
+    "Mund": "boca",
+    "Musikgeschmack": "gosto musical",
+    "Mutationsrate": "taxa de mutação",
+    "Muttersprache": "língua materna",
+    "Männerdomäne": "domínio masculino",
+    "Möbelgeschäft": "loja de móveis",
+    "Nachbarschaft": "vizinhança",
+    "Nachkriegszeit": "pós-guerra",
+    "Nachmittag": "tarde",
+    "Nachmittagssonne": "sol da tarde",
+    "Nachname": "sobrenome",
+    "Nachtflohmarkt": "feira de usados noturna",
+    "Nachtleben": "vida noturna",
+    "Nachwelt": "posteridade",
+    "Nahrungsmittelknappheit": "escassez de alimentos",
+    "Nase": "nariz",
+    "Nationalismus": "nacionalismo",
+    "Naturkatastrophe": "catástrofe natural",
+    "Naturschutzgebiet": "reserva natural",
+    "Neutronenstern": "estrela de nêutrons",
+    "Nichtregierungsorganisation": "organização não governamental",
+    "Obstkiste": "caixa de frutas",
+    "Ohr": "orelha, ouvido",
+    "Ohrwurm": "música grudenta",
+    "Onlineshopping": "compras online",
+    "Opposition": "oposição",
+    "Optimierungsbestreben": "busca pela otimização",
+    "Optimierungsstreben": "busca pelo autoaperfeiçoamento",
+    "Option": "opção",
+    "Orkan": "furacão, vendaval",
+    "Ort": "lugar",
+    "Paket": "pacote, encomenda",
+    "Panne": "pane, avaria",
+    "Partei": "partido",
+    "Partnersuche": "busca de parceiro",
+    "Pension": "pensão (hospedagem)",
+    "Personal": "pessoal, funcionários",
+    "Personalausweis": "carteira de identidade",
+    "Petition": "petição",
+    "Pfanne": "frigideira",
+    "Piercing": "piercing",
+    "Platz": "lugar, praça",
+    "Polizei": "polícia",
+    "Polizist": "policial",
+    "Poncho": "poncho",
+    "Pool": "piscina",
+    "Portion": "porção",
+    "Porto": "porte postal",
+    "Post": "correio",
+    "Potenzial": "potencial",
+    "Praline": "bombom",
+    "Praxis": "consultório médico",
+    "Preis": "preço",
+    "Printwerbung": "publicidade impressa",
+    "Probezeit": "período de experiência",
+    "Produkt": "produto",
+    "Profi": "profissional",
+    "Profilbild": "foto de perfil",
+    "Profispielerin": "jogadora profissional",
+    "Prognose": "prognóstico, previsão",
+    "Programmiersprache": "linguagem de programação",
+    "Promocode": "código promocional",
+    "Proviant": "provisões, mantimentos",
+    "Präsentation": "apresentação",
+    "Präsenzunterricht": "aula presencial",
+    "Präzision": "precisão",
+    "Punkt": "ponto",
+    "Pünktlichkeit": "pontualidade",
+    "Radiowerbung": "publicidade no rádio",
+    "Radtour": "passeio de bicicleta",
+    "Rasse": "raça",
+    "Rationalismus": "racionalismo",
+    "Raum": "espaço",
+    "Raumanzug": "traje espacial",
+    "Raumfahrt": "viagens espaciais",
+    "Raumschiff": "nave espacial",
+    "Raumzeit": "espaço-tempo",
+    "Rausch": "embriaguez",
+    "Realitätsflucht": "fuga da realidade",
+    "Realschule": "escola secundária intermediária",
+    "Recherche": "pesquisa",
+    "Rechnung": "conta, fatura",
+    "Refrain": "refrão",
+    "Regal": "estante, prateleira",
+    "Regenwald": "floresta tropical",
+    "Regierung": "governo",
+    "Region": "região",
+    "Reim": "rima",
+    "Reisebüro": "agência de viagens",
+    "Reisepass": "passaporte",
+    "Reiseziel": "destino",
+    "Relativitätstheorie": "teoria da relatividade",
+    "Renovieren": "reforma",
+    "Rente": "aposentadoria",
+    "Rezept": "receita médica",
+    "Rezeption": "recepção",
+    "Rezession": "recessão",
+    "Richtung": "direção",
+    "Rock": "saia",
+    "Rohstoff": "matéria-prima",
+    "Rose": "rosa",
+    "Ruhestand": "aposentadoria",
+    "Rundreise": "circuito, viagem de ida e volta",
+    "Sache": "coisa, assunto",
+    "Sage": "lenda",
+    "Sandale": "sandália",
+    "Sandkorn": "grão de areia",
+    "Sandsturm": "tempestade de areia",
+    "Satz": "frase",
+    "Schalk": "malícia brincalhona",
+    "Schallplatte": "disco de vinil",
+    "Schar": "bando, multidão",
+    "Schattenseite": "lado negativo",
+    "Schaubild": "diagrama, gráfico",
+    "Schild": "placa de trânsito",
+    "Schlafsaal": "dormitório coletivo",
+    "Schlussfolgerung": "conclusão",
+    "Schlüsselfigur": "figura-chave",
+    "Schmeichelei": "lisonja",
+    "Schmerz": "dor",
+    "Schmetterling": "borboleta",
+    "Schnee": "neve",
+    "Schrank": "armário",
+    "Schreck": "susto",
+    "Schreibtisch": "escrivaninha",
+    "Schriftverkehr": "correspondência",
+    "Schuh": "sapato",
+    "Schuhkarton": "caixa de sapatos",
+    "Schulsystem": "sistema escolar",
+    "Schultüte": "cone de doces do primeiro dia de aula",
+    "Schulzeit": "tempo de escola",
+    "Schwerpunkt": "foco, ênfase",
+    "Schwierigkeit": "dificuldade",
+    "Schwimmbad": "piscina",
+    "Schwäche": "fraqueza",
+    "Schüssel": "tigela",
+    "See": "lago",
+    "Seele": "alma",
+    "Sehnsucht": "saudade, anseio",
+    "Sekundarschule": "escola secundária",
+    "Selbermachen": "faça-você-mesmo, artesanato",
+    "Selbstakzeptanz": "autoaceitação",
+    "Selbstbestimmung": "autodeterminação",
+    "Selbstbild": "autoimagem",
+    "Selbstregierung": "autogoverno",
+    "Selbstversorger": "pessoa autossuficiente",
+    "Selbstversorgerin": "pessoa autossuficiente",
+    "Selbstverwirklichung": "autorrealização",
+    "Selbstwertgefühl": "autoestima",
+    "Semesterticket": "passe semestral de estudante",
+    "Sendung": "programa (de TV ou rádio)",
+    "Shoppingcenter": "shopping center",
+    "Sicherheitslücke": "falha de segurança",
+    "Sieg": "vitória",
+    "Siegertreppchen": "pódio",
+    "Simulation": "simulação",
+    "Singularität": "singularidade",
+    "Sinneswahrnehmung": "percepção sensorial",
+    "Sitte": "tradição, costume",
+    "Slogan": "slogan",
+    "Socke": "meia",
+    "Sofa": "sofá",
+    "Solidargemeinschaft": "comunidade solidária",
+    "Sonderanfertigung": "fabricação sob medida",
+    "Sonne": "sol",
+    "Sonntag": "domingo",
+    "Sparkonto": "conta poupança",
+    "Sparschwein": "cofrinho",
+    "Spende": "doação",
+    "Sphäre": "esfera",
+    "Spielstein": "peça de jogo",
+    "Spielzeug": "brinquedo",
+    "Spirale": "espiral",
+    "Sport": "esporte",
+    "Sprache": "língua, idioma",
+    "Sprachfamilie": "família linguística",
+    "Sprachgeschichte": "história da língua",
+    "Sprachmittlung": "mediação linguística",
+    "Sprachwissenschaft": "linguística",
+    "Sprechstunde": "horário de atendimento",
+    "Sprechstundenhilfe": "recepcionista (de consultório)",
+    "Stall": "estábulo",
+    "Stammzelle": "célula estaminal",
+    "Stand": "estande",
+    "Station": "estação",
+    "Statistik": "estatística",
+    "Stelle": "vaga, cargo",
+    "Sterilisation": "esterilização",
+    "Stillstand": "paralisação, estagnação",
+    "Stipendium": "bolsa de estudos",
+    "Stock": "andar",
+    "Stockwerk": "andar, pavimento",
+    "Stoff": "tecido",
+    "Strand": "praia",
+    "Strategiespiel": "jogo de estratégia",
+    "Strecke": "trajeto, rota",
+    "Stress": "estresse",
+    "Strömung": "corrente",
+    "Student": "estudante universitário",
+    "Stunde": "hora",
+    "Stundenplan": "horário (de aulas)",
+    "Sturm": "tempestade",
+    "Stärke": "força, ponto forte",
+    "Stück": "pedaço, peça",
+    "Suchmaschine": "mecanismo de busca",
+    "Suchmaschinenoptimierung": "otimização para mecanismos de busca",
+    "Sucht": "vício, dependência",
+    "Superintelligenz": "superinteligência",
+    "Supermarkt": "supermercado",
+    "Supernova": "supernova",
+    "Suppe": "sopa",
+    "Surrogat": "sucedâneo",
+    "Symbiose": "simbiose",
+    "Symptom": "sintoma",
+    "Säugling": "bebê",
+    "Säulendiagramm": "gráfico de colunas",
+    "Süßigkeit": "doce, guloseima",
+    "Tagesablauf": "rotina diária",
+    "Tagesordnung": "pauta, ordem do dia",
+    "Taktik": "tática",
+    "Tannenbaum": "árvore de Natal",
+    "Tauschhandel": "escambo",
+    "Taxi": "táxi",
+    "Taxistand": "ponto de táxi",
+    "Teamarbeit": "trabalho em equipe",
+    "Teamgeist": "espírito de equipe",
+    "Teilung": "divisão",
+    "Ticket": "passagem, ingresso",
+    "Tiefsee": "mar profundo",
+    "Tierquälerei": "crueldade contra animais",
+    "Tierschutzgesetz": "lei de proteção aos animais",
+    "Tinte": "tinta (de caneta)",
+    "Tischtuch": "toalha de mesa",
+    "Tod": "morte",
+    "Tor": "portão",
+    "Tornado": "tornado",
+    "Totschlagargument": "argumento que encerra a discussão",
+    "Tourismus": "turismo",
+    "Tourist": "turista",
+    "Touristin": "turista",
+    "Training": "treino, treinamento",
+    "Treibhauseffekt": "efeito estufa",
+    "Treibstoff": "combustível",
+    "Trennung": "separação",
+    "Trinkgeld": "gorjeta",
+    "Trumpf": "trunfo",
+    "Trödelmarkt": "feira de usados",
+    "Trümmerliteratur": "literatura dos escombros",
+    "Tugend": "virtude",
+    "Tulpe": "tulipa",
+    "Turnier": "torneio",
+    "Tätowierung": "tatuagem",
+    "Uhr": "relógio",
+    "Umbruch": "reviravolta",
+    "Umgangssprache": "linguagem coloquial",
+    "Umgebung": "arredores",
+    "Umweltproblem": "problema ambiental",
+    "Umweltschutz": "proteção ambiental",
+    "Umweltschutzverein": "associação de proteção ambiental",
+    "Umweltverschmutzung": "poluição ambiental",
+    "Umzug": "mudança",
+    "Unbehagen": "desconforto, mal-estar",
+    "Unikat": "peça única",
+    "Universität": "universidade",
+    "Universum": "universo",
+    "Unterbrechung": "interrupção",
+    "Unterhaltung": "entretenimento",
+    "Unterkunft": "hospedagem, alojamento",
+    "Unterkühlung": "hipotermia",
+    "Unternehmensbindung": "vínculo com a empresa",
+    "Unterwelt": "submundo",
+    "Upcycling": "upcycling",
+    "Urlaubstag": "dia de férias",
+    "Ursprache": "língua original, protolíngua",
+    "Ursprung": "origem",
+    "Urwald": "floresta primitiva",
+    "Valentinstag": "Dia dos Namorados",
+    "Verfallsdatum": "data de validade",
+    "Verfassung": "constituição",
+    "Vergangenheit": "passado",
+    "Vergreisung": "envelhecimento",
+    "Verkehr": "trânsito",
+    "Verkettung": "encadeamento",
+    "Verkörperung": "personificação",
+    "Verlauf": "desenrolar, curso",
+    "Verlust": "perda",
+    "Vermutung": "suposição",
+    "Vermüllung": "acúmulo de lixo",
+    "Vernunft": "razão",
+    "Verpflichtung": "obrigação",
+    "Verriss": "crítica demolidora",
+    "Verschmutzung": "poluição",
+    "Versichertenkarte": "cartão do seguro de saúde",
+    "Version": "versão",
+    "Vertrag": "contrato",
+    "Veränderung": "mudança",
+    "Veröffentlichung": "publicação",
+    "Vielfalt": "diversidade",
+    "Visum": "visto",
+    "Volksabstimmung": "referendo",
+    "Volkslied": "canção popular",
+    "Vollkommenheit": "perfeição",
+    "Vorbedingung": "pré-condição",
+    "Vorbild": "modelo, exemplo a seguir",
+    "Vorhersage": "previsão",
+    "Vormittag": "manhã (antes do meio-dia)",
+    "Vorname": "primeiro nome",
+    "Vorrat": "reserva, provisão",
+    "Vorreiterrolle": "papel pioneiro",
+    "Vorsprung": "avanço",
+    "Vorstellungsgespräch": "entrevista de emprego",
+    "Vorteil": "vantagem",
+    "Vorzeit": "pré-história",
+    "Vulkanausbruch": "erupção vulcânica",
+    "Wahlkampf": "campanha eleitoral",
+    "Waldbrand": "incêndio florestal",
+    "Wand": "parede",
+    "Wanderlust": "paixão por caminhadas e viagens",
+    "Wanderschuh": "bota de trilha",
+    "Wanderung": "caminhada, trilha",
+    "Wartung": "manutenção",
+    "Wechselkurs": "taxa de câmbio",
+    "Weihnachtsmarkt": "mercado de Natal",
+    "Weinflasche": "garrafa de vinho",
+    "Weinkiste": "caixa de vinho",
+    "Weißbrot": "pão branco",
+    "Weltall": "universo, espaço",
+    "Weltherrschaft": "domínio mundial",
+    "Weltkulturerbe": "patrimônio mundial",
+    "Weltraum": "espaço (sideral)",
+    "Weltraumforschung": "exploração espacial",
+    "Werbeagentur": "agência de publicidade",
+    "Werbekampagne": "campanha publicitária",
+    "Werbemittel": "material publicitário",
+    "Werbespot": "comercial",
+    "Werbetreibenden": "anunciantes",
+    "Werbung": "publicidade, propaganda",
+    "Wertvorstellung": "valor (moral)",
+    "Wettbewerb": "concorrência, concurso",
+    "Wettervorhersage": "previsão do tempo",
+    "Wettkampf": "competição",
+    "Wiederbelebung": "revitalização, reanimação",
+    "Wiedervereinigung": "reunificação",
+    "Wind": "vento",
+    "Winterjacke": "casaco de inverno",
+    "Wissenssendung": "programa de divulgação científica",
+    "Wohlbefinden": "bem-estar",
+    "Wohnungssuche": "busca de apartamento",
+    "Wolke": "nuvem",
+    "Wunschtraum": "sonho impossível",
+    "Wurmloch": "buraco de minhoca",
+    "Wärme": "calor, aconchego",
+    "Wörterbuch": "dicionário",
+    "Zahn": "dente",
+    "Zeitplan": "cronograma",
+    "Zeitraum": "período de tempo",
+    "Zeitschrift": "revista",
+    "Zelt": "barraca",
+    "Zeltplatz": "camping",
+    "Zentrum": "centro",
+    "Zerstörung": "destruição",
+    "Zeugnis": "certificado, boletim",
+    "Ziel": "objetivo, meta",
+    "Zielgruppe": "público-alvo",
+    "Zielsprache": "língua de chegada",
+    "Zoobesuch": "visita ao zoológico",
+    "Zukunft": "futuro",
+    "Zunge": "língua (órgão)",
+    "Zuwachs": "acréscimo",
+    "Zwirn": "linha torcida",
+    "Öffentlichkeit": "público, opinião pública",
+    "Überfischung": "sobrepesca",
+    "Überfluss": "abundância",
+    "Übergang": "transição",
+    "Übergangsbereich": "zona de transição",
+    "Überinvestition": "superinvestimento",
+    "Überlebenschance": "chance de sobrevivência",
+    "Überlegenheit": "superioridade",
+    "Übernachtung": "pernoite",
+    "Überraschung": "surpresa",
+    "Übersetzungstätigkeit": "trabalho de tradução",
+    "Übersicht": "visão geral",
+    "Überstunde": "hora extra",
+    "Überwachungsstaat": "Estado de vigilância",
+    "Überzeugung": "convicção, crença",
+    "sein": "ser, estar",
+    "haben": "ter",
+    "werden": "tornar-se, ficar",
+    "können": "poder, conseguir, saber (fazer)",
+    "müssen": "ter de, precisar",
+    "wollen": "querer",
+    "dürfen": "poder, ter permissão para",
+    "sollen": "dever (obrigação, recomendação)",
+    "mögen": "gostar de",
+    "wissen": "saber (fatos)",
+    "denken": "pensar",
+    "bringen": "trazer, levar",
+    "kennen": "conhecer (pessoas, lugares)",
+    "nennen": "nomear, chamar",
+    "rennen": "correr",
+    "brennen": "queimar, arder",
+    "senden": "enviar",
+    "wenden": "virar, dirigir-se (a)",
+    "anfangen": "começar",
+    "ankommen": "chegar",
+    "anrufen": "telefonar, ligar",
+    "aufstehen": "levantar-se",
+    "aufwachsen": "crescer (ser criado)",
+    "ausziehen": "mudar-se (sair de casa); tirar (roupa)",
+    "backen": "assar",
+    "befehlen": "ordenar, mandar",
+    "beginnen": "começar",
+    "beißen": "morder",
+    "bekommen": "receber, ganhar",
+    "bewegen": "mover (algo)",
+    "bieten": "oferecer",
+    "binden": "amarrar, atar",
+    "bitten": "pedir",
+    "bleiben": "ficar, permanecer",
+    "braten": "fritar, assar",
+    "brechen": "quebrar",
+    "einladen": "convidar",
+    "einschlafen": "adormecer",
+    "empfehlen": "recomendar",
+    "entscheiden": "decidir",
+    "entstehen": "surgir, formar-se",
+    "erfahren": "ficar sabendo, descobrir; vivenciar",
+    "erhalten": "receber (formal)",
+    "erscheinen": "aparecer, ser publicado",
+    "erschrecken": "assustar-se",
+    "essen": "comer",
+    "fahren": "dirigir, ir (de veículo)",
+    "fallen": "cair",
+    "fangen": "pegar, capturar",
+    "fernsehen": "ver televisão",
+    "finden": "encontrar, achar",
+    "fliegen": "voar",
+    "fliehen": "fugir",
+    "fließen": "fluir, correr (líquido)",
+    "frieren": "sentir frio, congelar",
+    "gebären": "dar à luz",
+    "geben": "dar",
+    "gefallen": "agradar",
+    "gehen": "ir, andar",
+    "gelingen": "dar certo, conseguir",
+    "gelten": "valer, ser válido",
+    "genießen": "desfrutar, aproveitar",
+    "geschehen": "acontecer (formal)",
+    "gewinnen": "ganhar, vencer",
+    "greifen": "agarrar, pegar",
+    "halten": "segurar, parar",
+    "hängen": "estar pendurado",
+    "heben": "levantar, erguer",
+    "heißen": "chamar-se, significar",
+    "helfen": "ajudar",
+    "kommen": "vir",
+    "laden": "carregar",
+    "lassen": "deixar; mandar fazer",
+    "laufen": "correr, andar",
+    "leiden": "sofrer",
+    "leihen": "emprestar; pegar emprestado",
+    "lesen": "ler",
+    "liegen": "estar deitado, ficar (situado)",
+    "lügen": "mentir",
+    "messen": "medir",
+    "nehmen": "pegar, tomar",
+    "passieren": "acontecer",
+    "folgen": "seguir",
+    "begegnen": "encontrar por acaso",
+    "aufwachen": "acordar",
+    "raten": "aconselhar; adivinhar",
+    "reiten": "cavalgar, andar a cavalo",
+    "riechen": "cheirar",
+    "rufen": "chamar, gritar",
+    "schaffen": "criar",
+    "scheinen": "brilhar; parecer",
+    "schieben": "empurrar",
+    "schießen": "atirar",
+    "schlafen": "dormir",
+    "schlagen": "bater",
+    "schließen": "fechar",
+    "schneiden": "cortar",
+    "schreiben": "escrever",
+    "schreien": "gritar",
+    "schweigen": "calar-se, ficar em silêncio",
+    "schwimmen": "nadar",
+    "sehen": "ver",
+    "singen": "cantar",
+    "sinken": "afundar, baixar (intransitivo)",
+    "sitzen": "estar sentado",
+    "sprechen": "falar",
+    "springen": "pular, saltar",
+    "stattfinden": "acontecer, realizar-se",
+    "stehen": "estar em pé, estar (situado)",
+    "stehlen": "roubar",
+    "steigen": "subir, aumentar",
+    "sterben": "morrer",
+    "stoßen": "empurrar, bater (em)",
+    "streiten": "discutir, brigar",
+    "tragen": "carregar; vestir, usar",
+    "treffen": "encontrar(-se); acertar",
+    "treten": "pisar; chutar",
+    "trinken": "beber",
+    "tun": "fazer",
+    "umziehen": "mudar-se (de casa)",
+    "unterbrechen": "interromper",
+    "unterscheiden": "distinguir",
+    "vergessen": "esquecer",
+    "vergleichen": "comparar",
+    "verlassen": "deixar, abandonar (um lugar ou uma pessoa)",
+    "verlieren": "perder",
+    "vermeiden": "evitar",
+    "verschwinden": "desaparecer",
+    "versprechen": "prometer",
+    "verstehen": "entender, compreender",
+    "wachsen": "crescer",
+    "waschen": "lavar",
+    "werfen": "jogar, atirar",
+    "wiegen": "pesar",
+    "ziehen": "puxar; mudar-se",
+    "zwingen": "forçar, obrigar",
+    "bestehen": "passar (em uma prova); consistir; insistir",
+    "beschreiben": "descrever",
+    "beweisen": "provar",
+    "bewerben": "candidatar-se (a um emprego)",
+    "erkennen": "reconhecer",
+    "verbringen": "passar (tempo)",
+    "mitbringen": "trazer (consigo)",
+    "widersprechen": "contradizer",
+    "zunehmen": "aumentar; engordar",
+    "erwerben": "adquirir",
+    "betrügen": "enganar, trapacear",
+    "verzeihen": "perdoar",
+    "stinken": "feder",
+    "stechen": "picar, espetar",
+    "kriechen": "rastejar, engatinhar",
+    "schmelzen": "derreter",
+    "reißen": "rasgar",
+    "pfeifen": "assobiar",
+    "gleichen": "assemelhar-se a",
+    "meiden": "evitar",
+    "reiben": "esfregar, ralar",
+    "schleichen": "esgueirar-se, andar de fininho",
+    "schmeißen": "jogar, atirar (coloquial)",
+    "saufen": "beber (animais; pessoas: encher a cara)",
+    "salzen": "salgar",
+    "spalten": "rachar, dividir",
+    "hauen": "bater, golpear",
+    "wägen": "ponderar, sopesar (formal)",
+    "Hund": "cachorro",
+    "Katze": "gato",
+    "Apfel": "maçã",
+    "Schule": "escola",
+    "Auto": "carro",
+    "Zug": "trem",
+    "Fenster": "janela",
+    "Wasser": "água",
+    "Winter": "inverno",
+    "Geschenk": "presente",
+    "Urlaub": "férias",
+    "Bibliothek": "biblioteca",
+    "Krankenhaus": "hospital",
+    "Schlüssel": "chave",
+    "Wohnung": "apartamento",
+    "Frühstück": "café da manhã",
+    "Regenschirm": "guarda-chuva",
+    "Stau": "engarrafamento",
+    "Verspätung": "atraso",
+    "Gewitter": "tempestade",
+    "Nachbar": "vizinho",
+    "Gewohnheit": "hábito",
+    "Ehrenamt": "trabalho voluntário",
+    "Klimawandel": "mudança climática",
+    "Verantwortung": "responsabilidade",
+    "Vertrauen": "confiança",
+    "Kompromiss": "acordo, meio-termo",
+    "Nachhaltigkeit": "sustentabilidade",
+    "Vorurteil": "preconceito",
+    "Gewaltenteilung": "separação de poderes",
+    "Pressefreiheit": "liberdade de imprensa",
+    "Generationenvertrag": "contrato entre gerações",
+    "Ehrenwort": "palavra de honra",
+    "Schadenfreude": "alegria com a desgraça alheia",
+    "Sachverhalt": "os fatos do caso",
+    "Gewissen": "consciência",
+    "Zivilcourage": "coragem cívica",
+    "Gratwanderung": "andar na corda bamba, equilíbrio delicado",
+    "Zwickmühle": "dilema, sinuca de bico",
+    "Sündenbock": "bode expiatório",
+    "Vergangenheitsbewältigung": "acerto de contas com o passado",
+    "Zeitgeist": "espírito da época",
+    "Weltanschauung": "visão de mundo, ideologia",
+    "Elfenbeinturm": "torre de marfim",
+    "Verschlimmbesserung": "piora disfarçada de melhoria",
+    "Torschlusspanik": "medo de perder o bonde (pânico de última hora)",
+    "Schlupfloch": "brecha, lacuna na lei"
+  },
+  "levels": {
+    "A1": {
+      "name": "Iniciante",
+      "canDo": "Apresentar-se, pedir comida, fazer perguntas simples sobre preços e horários.",
+      "exampleGloss": "Meu nome é Sam e eu moro em Köln."
+    },
+    "A2": {
+      "name": "Básico",
+      "canDo": "Falar sobre o seu dia e o seu último fim de semana, marcar compromissos, escrever mensagens curtas.",
+      "exampleGloss": "No fim de semana eu fui ao cinema com amigos."
+    },
+    "B1": {
+      "name": "Intermediário",
+      "canDo": "Resolver situações do dia a dia sozinho, dar razões e opiniões, escrever e-mails pessoais e e-mails formais simples.",
+      "exampleGloss": "Eu não pude vir porque tive que trabalhar até mais tarde."
+    },
+    "B2": {
+      "name": "Intermediário superior",
+      "canDo": "Discutir temas abstratos, argumentar a favor e contra, escrever reclamações e candidaturas formais claras.",
+      "exampleGloss": "Embora o aluguel tenha subido, eu gostaria de ficar com o apartamento."
+    },
+    "C1": {
+      "name": "Avançado",
+      "canDo": "Acompanhar textos e palestras exigentes, defender uma posição com nuances, escrever ensaios, relatórios e posicionamentos formais bem estruturados.",
+      "exampleGloss": "Diante da alta dos aluguéis, muitos exigem que a construção de moradias seja acelerada."
+    },
+    "C2": {
+      "name": "Proficiente",
+      "canDo": "Entender praticamente tudo o que lê ou ouve, ponderar argumentos de várias fontes e expressar nuances finas de significado em qualquer registro, de uma contestação formal a uma resenha.",
+      "exampleGloss": "Mal o acordo tinha sido anunciado, já voltava a ser questionado justamente pelos membros que o tinham negociado."
+    }
+  },
+  "writing": {
+    "a1-cafe-invite": {
+      "title": "Uma mensagem para uma amiga",
+      "prompt": "Escreva uma mensagem curta para a sua amiga Lena: você está no café \"Lindenblatt\". Pergunte se ela quer vir, diga até quando você fica lá e o que você está bebendo.",
+      "points": [
+        "pergunte se ela vem",
+        "até quando",
+        "o que você está bebendo"
+      ]
+    },
+    "a1-hotel-form": {
+      "title": "Um e-mail para um hotel",
+      "prompt": "Escreva um e-mail curto para o Hotel Seeblick: você quer um quarto de solteiro para duas noites a partir de sexta-feira. Pergunte o preço e se o café da manhã está incluído.",
+      "points": [
+        "o quarto e as datas",
+        "pergunte o preço",
+        "pergunte sobre o café da manhã"
+      ]
+    },
+    "a2-birthday": {
+      "title": "Um convite de aniversário",
+      "prompt": "Escreva um e-mail curto para um amigo: convide-o para a sua festa de aniversário no sábado. Diga quando começa, onde é e o que ele deve levar. 30-40 palavras.",
+      "points": [
+        "quando começa",
+        "onde é",
+        "o que levar"
+      ]
+    },
+    "a2-sick-course": {
+      "title": "Faltar ao curso",
+      "prompt": "Escreva para o seu professor, Herr Klein: você está doente e não pode ir ao curso de alemão amanhã. Diga o que você tem e pergunte qual é a tarefa de casa. 30-40 palavras.",
+      "points": [
+        "que você não pode vir",
+        "o que você tem",
+        "pergunte qual é a tarefa de casa"
+      ]
+    },
+    "a2-new-flat": {
+      "title": "Seu novo apartamento",
+      "prompt": "Escreva para o seu amigo Jonas: você tem um apartamento novo. Descreva o apartamento, diga do que você gosta nele e convide-o para uma visita.",
+      "points": [
+        "descreva o apartamento",
+        "do que você gosta",
+        "convide-o"
+      ]
+    },
+    "b1-missed-party": {
+      "title": "Desculpe por ter perdido sua festa",
+      "prompt": "Escreva um e-mail (cerca de 80 palavras) para um amigo: você perdeu a festa dele no último fim de semana. Peça desculpas, explique por que não pôde ir e sugira um novo encontro.",
+      "points": [
+        "peça desculpas",
+        "explique por quê",
+        "sugira um novo encontro"
+      ]
+    },
+    "b1-teacher-absent": {
+      "title": "Um e-mail para a sua professora",
+      "prompt": "Escreva um e-mail formal (cerca de 40 palavras) para a sua professora de alemão, Frau Weber: você não pode comparecer à próxima aula. Diga o motivo e pergunte qual é a tarefa de casa.",
+      "points": [
+        "o motivo",
+        "pergunte qual é a tarefa de casa"
+      ]
+    },
+    "b1-forum-homeoffice": {
+      "title": "Um post em fórum: trabalhar de casa",
+      "prompt": "Escreva um post para um fórum (cerca de 80 palavras): trabalhar de casa é uma boa ideia? Dê a sua opinião, uma vantagem, uma desvantagem e um exemplo da sua vida.",
+      "points": [
+        "sua opinião",
+        "uma vantagem",
+        "uma desvantagem",
+        "um exemplo"
+      ]
+    },
+    "b2-course-complaint": {
+      "title": "Uma reclamação para uma escola de idiomas",
+      "prompt": "Escreva uma reclamação formal (cerca de 150 palavras) para uma escola de idiomas: o seu curso ficou sem professor em três aulas. Descreva o que aconteceu, diga o que você espera que a escola faça e estabeleça um prazo para a resposta.",
+      "points": [
+        "descreva o que aconteceu",
+        "o que você espera da escola",
+        "estabeleça um prazo"
+      ]
+    },
+    "b2-application": {
+      "title": "Uma candidatura a um estágio",
+      "prompt": "Escreva uma candidatura formal (cerca de 150 palavras) para um estágio em um museu em Hamburg: diga por que você tem interesse, que experiência você tem e quando você está disponível.",
+      "points": [
+        "por que você tem interesse",
+        "sua experiência",
+        "quando você está disponível"
+      ]
+    },
+    "c1-letter-to-editor": {
+      "title": "Uma carta do leitor sobre a semana de quatro dias",
+      "prompt": "Um jornal publicou um artigo afirmando que uma semana de quatro dias prejudicaria a economia. Escreva uma carta do leitor (cerca de 200 palavras): faça referência ao artigo, assuma uma posição clara com dois argumentos, responda a um contra-argumento e termine com uma recomendação ou um apelo.",
+      "points": [
+        "uma referência ao artigo",
+        "sua posição com dois argumentos",
+        "um contra-argumento ao qual você responde",
+        "uma recomendação ou um apelo no fim"
+      ]
+    },
+    "c1-statement-management": {
+      "title": "Um posicionamento à diretoria sobre o home office",
+      "prompt": "Sua empresa quer acabar completamente com o home office. Como porta-voz da sua equipe, escreva um posicionamento formal dirigido à diretoria (cerca de 220 palavras): descreva o arranjo atual, explique as consequências do plano para a equipe, proponha um meio-termo e peça uma reunião.",
+      "points": [
+        "o arranjo atual",
+        "as consequências para a equipe",
+        "uma proposta de meio-termo",
+        "um pedido de reunião"
+      ]
+    },
+    "c2-objection-bank-fees": {
+      "title": "Uma contestação a um banco sobre tarifas de conta ilegais",
+      "prompt": "Seu banco aumentou as tarifas da conta há dois anos sem o seu consentimento expresso e agora se recusa a devolvê-las, alegando sua \"aceitação tácita\". Escreva uma contestação formal dirigida ao banco (cerca de 260 palavras): exponha os fatos com datas e valores, indique a base legal e a decisão judicial em que você se apoia, exija a devolução com um prazo e anuncie as medidas que você tomará caso o banco não atenda.",
+      "points": [
+        "os fatos com datas e valores",
+        "a base legal e a decisão judicial em que você se apoia",
+        "a exigência de devolução com um prazo",
+        "as medidas que você tomará caso o banco não atenda"
+      ]
+    },
+    "c2-expert-statement-council": {
+      "title": "Um parecer técnico à câmara municipal sobre um centro sem carros",
+      "prompt": "A câmara municipal pediu a você, como especialista convidado, um parecer por escrito sobre um plano para tornar o centro histórico livre de carros. Escreva um parecer formal dirigido à câmara (cerca de 280 palavras): pondere os efeitos esperados do plano, confrontando-os entre si, cite as evidências ou a experiência em que você se baseia, responda à objeção mais forte e encerre com uma recomendação vinculada a condições.",
+      "points": [
+        "os efeitos esperados, confrontados entre si",
+        "as evidências ou a experiência em que você se baseia",
+        "a objeção mais forte, respondida",
+        "uma recomendação vinculada a condições"
+      ]
+    }
+  }
+}

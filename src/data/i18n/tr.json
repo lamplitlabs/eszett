@@ -1,0 +1,2836 @@
+{
+  "grammar": {
+    "vokalwechsel": {
+      "title": "Şimdiki zamanda ünlü değişimi: er wirft, er sieht, er fährt",
+      "rule": "Birçok kuvvetli fiil du ve er/sie/es biçimlerinde kök ünlüsünü değiştirir: e harfi i olur (werfen: du wirfst, er wirft), e harfi ie olur (sehen: du siehst, er sieht), a harfi ä olur (fahren: du fährst, er fährt). Diğer tüm biçimler mastarın ünlüsünü korur: ich werfe, wir werfen, ihr werft, sie werfen. Bu yüzden 'er werft' değil, 'er wirft' denir.",
+      "examples": [
+        "Ben topu atıyorum, sen topu atıyorsun, o topu atıyor.",
+        "Tabelayı görüyor musun? Evet, görüyorum.",
+        "O yarın Viyana'ya gidiyor, biz cuma günü gidiyoruz.",
+        "O üç dil konuşuyor ve çok okuyor."
+      ],
+      "pitfalls": [
+        "'werfen' fiilinde du ve er/sie/es biçimlerinde e, i olur.",
+        "Ünlü değişimi yalnızca du ve er/sie/es için geçerlidir; ihr biçimi ünlüyü korur: ihr fahrt.",
+        "2. ve 3. tekil şahısta e -> ie: du siehst, er/sie sieht, artı -t eki.",
+        "du ve er/sie/es için a -> ä: du schläfst, er schläft; ich schlafe, wir schlafen düz ünlüyü korur.",
+        "Ünlü değişimi yalnızca du ve er/sie/es için geçerlidir. wir, ihr, sie kök ünlüsünü korur: wir lesen, ihr lest.",
+        "'nehmen' e -> i değişimi yapar ve kökü kısaltır: du nimmst, er nimmt (mm ile)."
+      ]
+    },
+    "kein-nicht": {
+      "title": "kein mi, nicht mi?",
+      "rule": "'Kein', belirsiz artikelli ya da artikelsiz bir ismi olumsuzlar: Ich habe ein Auto → Ich habe kein Auto; Ich habe Zeit → Ich habe keine Zeit. 'Nicht' geri kalan her şeyi olumsuzlar: fiilleri, sıfatları, zarfları ve belirli artikelli ya da iyelik sıfatlı isimleri: Das ist nicht mein Auto. 'Nicht' genellikle cümlenin sonunda ya da olumsuzladığı öğenin hemen önünde durur.",
+      "examples": [
+        "Ne zamanım var ne de param.",
+        "Bunu anlamıyorum.",
+        "Bu doğru yol değil.",
+        "O bugün gelmiyor."
+      ],
+      "pitfalls": [
+        "Artikelsiz bir isim 'kein' ile olumsuzlanır.",
+        "İyelik sıfatının önünde 'nicht' kullanılır, asla 'kein' değil.",
+        "'kein', 'ein' gibi çekimlenir: der Hunger, eril -i hali -> keinen Hunger.",
+        "Sıfatlar, fiiller ve zarflar 'nicht' ile olumsuzlanır; 'kein' yalnızca isimlerin önüne gelir.",
+        "Artikelsiz ya da 'ein' artikelli bir isim 'kein' ile olumsuzlanır: keinen Kaffee, keine Zeit.",
+        "Fiil 'nicht' ile olumsuzlanır ve 'nicht' mümkün olduğunca sona konur: kommt heute nicht."
+      ]
+    },
+    "modalverben": {
+      "title": "Kiplik (modal) fiiller",
+      "rule": "Kiplik fiiller können, müssen, dürfen, sollen, wollen, mögen (möchte) cümlede 2. sırada yer alır ve mastarı cümlenin sonuna gönderir: Ich muss heute arbeiten. ich ve er/sie/es biçimleri aynıdır: ich kann, er kann; ich muss, sie muss; ich möchte, er möchte. Anlamları: können = yetenek ya da olasılık, müssen = zorunluluk, dürfen = izin, sollen = yükümlülük ya da tavsiye, wollen = güçlü niyet, möchte = kibar istek.",
+      "examples": [
+        "Bugün gelemiyorum.",
+        "O her gün erken kalkmak zorunda.",
+        "Buraya park edebilir miyim?",
+        "Bir kahve istiyorum, lütfen."
+      ],
+      "pitfalls": [
+        "Kiplik fiiller er/sie/es biçiminde -t almaz: er kann.",
+        "Mastar cümlenin sonuna gider.",
+        "'möchte' 1. ve 3. tekil şahısta -t almaz: ich möchte, er/sie möchte; ihr möchtet.",
+        "Kiplik fiilden sonra mastar 'zu' almaz.",
+        "Kiplik fiiller 1. ve 3. tekil şahısta ek almaz: ich will, er will; ihr wollt.",
+        "ich darf, du darfst, er darf - kiplik fiillerin tekili 1. şahısta -e almaz."
+      ]
+    },
+    "imperativ": {
+      "title": "Emir kipi: du, ihr, Sie",
+      "rule": "Emir kipinin üç biçimi vardır. du biçimi: 'du' olmadan fiil kökü, genellikle eksiz: Komm! -t/-d'den sonra -e eklenir: Warte! e'den i'ye değişen fiiller değişimi korur: Sprich! Nimm! a'dan ä'ye değişenler korumaz: Fahr! ihr biçimi: 'ihr' olmadan şimdiki zaman gibi: Kommt! Wartet! Sie biçimi: mastar + Sie: Kommen Sie bitte! Fiil genellikle başta gelir; önüne en fazla 'bitte', 'jetzt' ya da 'dann' gibi kelimeler gelebilir. 'Sein' özeldir: Sei ruhig! Seid ruhig! Seien Sie ruhig!",
+      "examples": [
+        "Lütfen buraya gel ve bana yardım et!",
+        "Kitaplarınızı alın ve metni okuyun!",
+        "Lütfen burada bir dakika bekleyin.",
+        "Lütfen dakik olun!"
+      ],
+      "pitfalls": [
+        "e'den i'ye değişen fiillerde du emir kipi ünlü değişimini korur: sprich, nimm, gib.",
+        "du emir kipinde -st eki ve umlaut yoktur: fahr.",
+        "du emir kipinde -st eki yoktur: Geh! Komm! Nimm! Zamir normalde düşer; yalnızca 'Sie' kalır: Gehen Sie!",
+        "'sein' düzensizdir: sei (du), seid (ihr), seien Sie.",
+        "e -> i/ie değişimi yapan fiiller du emir kipinde bu değişimi korur: nimm, gib, sprich, lies.",
+        "a -> ä değişimi yapan fiiller emir kipinde umlaut'u kaybeder: schlaf, fahr, lauf."
+      ]
+    },
+    "verb-zweitstellung": {
+      "title": "Ana cümleler: fiil 2. sırada",
+      "rule": "Düz cümlede çekimli fiil her zaman 2. sırada yer alır. 1. sırada özne olabileceği gibi bir zaman ya da yer ifadesi ya da bir nesne de olabilir; o zaman özne fiilden sonra gelir: Morgen fahre ich nach Köln. Evet/hayır soruları fiille başlar: Kommst du mit? W-sorularında soru kelimesi 1., fiil 2. sırada yer alır: Wann kommst du?",
+      "examples": [
+        "Ben yarın Köln'e gidiyorum.",
+        "Yarın Köln'e gidiyorum.",
+        "Hafta sonu annemle babamı ziyaret ediyoruz.",
+        "Sen de geliyor musun? Ne zaman geliyorsun?"
+      ],
+      "pitfalls": [
+        "1. sıradaki zaman ifadesinden sonra fiil 2. sırada gelir, ardından özne.",
+        "Fiil 2. sırada kalmalıdır: besuchen wir.",
+        "Zaman ifadesi başa gelince fiil 2. sırada yer alır ve özne onu izler: Heute habe ich.",
+        "'dann', 'deshalb', 'trotzdem' 1. sırada yer alabilir: fiil hemen ardından gelir.",
+        "'leider' gibi bir zarf da 1. sıra sayılır; fiil ikinci sırada kalır.",
+        "Edat öbeğinin tamamı 1. sıradır; fiil hemen ardından gelir: lerne ich."
+      ]
+    },
+    "kennen-wissen-koennen": {
+      "title": "kennen mi, wissen mi, können mi?",
+      "rule": "'Kennen' bir kişiyi, yeri ya da şeyi tanımak, ona aşina olmak demektir; doğrudan nesne alır: Ich kenne die Stadt. 'Wissen' bir bilgiye sahip olmak demektir; çoğunlukla ardından 'dass', 'ob', bir soru kelimesi ya da 'es/das' gelir, yoksa bir şey (die Antwort): Ich weiß, dass er kommt. 'Können' yetenek ya da olasılık bildiren kiplik fiildir, genellikle mastarla kullanılır: Ich kann schwimmen.",
+      "examples": [
+        "Berlin'i iyi tanıyorum.",
+        "Onun bugün geleceğini biliyorum.",
+        "Garın nerede olduğunu biliyor musun?",
+        "Almanca konuşabiliyorum. Yüzebiliyor musun?"
+      ],
+      "pitfalls": [
+        "Yerler ve kişiler 'kennen' ile tanınır; 'wissen' bilgi içindir: Ich weiß, wo Berlin liegt.",
+        "Soru kelimeli bir yan cümlenin önünde 'wissen' kullanılır.",
+        "Tanıdığın kişiler, yerler ve eserler 'kennen' ile kullanılır; 'wissen' çoğunlukla bir yan cümle (dass, ob, soru kelimesi) ya da 'es/das/viel/die Antwort' gibi olgular alır.",
+        "Soru kelimesi, 'dass' ya da 'ob' ile başlayan bir yan cümlenin önünde 'wissen' kullanılır, asla 'kennen' değil.",
+        "Diller ve beceriler: 'können' (Ich kann Deutsch, sie kann schwimmen).",
+        "Mastarla ifade edilen bir yetenek 'können' gerektirir; 'kennen' yalnızca isim ya da zamirle kullanılır."
+      ]
+    },
+    "seit-vor-fuer": {
+      "title": "Zaman ifadeleriyle seit mi, vor mu, für mü?",
+      "rule": "'Seit' (+ -e hali) hâlâ süren bir dönemin başlangıcını belirtir ve Almanca normalde şimdiki zamanı kullanır: Ich lerne seit zwei Jahren Deutsch = İki yıldır Almanca öğreniyorum. 'Vor' (+ -e hali) \"önce\" anlamına gelir: vor zwei Jahren. 'Für' (+ -i hali) planlanan bir süreyi belirtir: für zwei Wochen.",
+      "examples": [
+        "Üç yıldır Hamburg'da yaşıyorum.",
+        "Üç yıl önce Hamburg'a taşındım.",
+        "O iki haftalığına İtalya'ya gidiyor.",
+        "Ne zamandan beri Almanca öğreniyorsun? Ocaktan beri."
+      ],
+      "pitfalls": [
+        "Dönem hâlâ sürüyor, bu yüzden Almanca şimdiki zamanı kullanır.",
+        "Anlam, şimdiye kadar süren bir dönemdir (öğreniyorum): seit + -e hali.",
+        "Geçmişte bir nokta: vor + -e hali. 'seit' şimdiye kadar süren bir dönemi adlandırır.",
+        "'seit' -e hali ister ve -e hali çoğulu -n alır: seit zwei Jahren.",
+        "Planlanan bir süre (gelecek): für. 'seit' yalnızca zaman geçmişte başlayıp hâlâ sürüyorsa uyar.",
+        "Bugüne kadar süren bir süreyle şimdiki zaman 'seit' gerektirir; şimdiki zamanla 'vor' uymaz."
+      ]
+    },
+    "dass-ob": {
+      "title": "dass mı, ob mu?",
+      "rule": "'Dass' bir bildirim cümlesi başlatır (\"-dığını\"); 'ob' dolaylı bir evet/hayır sorusu başlatır (\"-ıp -madığını\"). Her iki yan cümlede de fiil sona gider. Soruda bir soru kelimesi varsa 'ob'un yerini o kelime alır: Ich weiß nicht, wo er wohnt.",
+      "examples": [
+        "Onun yarın geleceğini düşünüyorum.",
+        "Onun yarın gelip gelmeyeceğini bilmiyorum.",
+        "O, zamanın olup olmadığını soruyor."
+      ],
+      "pitfalls": [
+        "Dolaylı bir evet/hayır sorusu (geliyor mu, gelmiyor mu?) 'ob' gerektirir.",
+        "Dolaylı sorudaki \"-ip -mediğini\" anlamı (İngilizce \"if\") 'ob' ile verilir, 'wenn' ile değil.",
+        "'hoffen' bir bildirim cümlesi başlatır: dass. 'ob' yalnızca açık bir evet/hayır sorusuyla kullanılır.",
+        "'fragen'den sonra dolaylı bir evet/hayır sorusu gelir: ob (Hast du Zeit? -> ob ich Zeit habe).",
+        "'dass' bağlacı ss ile yazılır; 'das' artikel ya da ilgi zamiridir (das Haus, das ich sehe).",
+        "Cevap açıksa (evet ya da hayır) 'ob' kullanılır; 'dass' ifadeyi kesin olarak sunar."
+      ]
+    },
+    "wechselpraepositionen": {
+      "title": "İki halli edatlar: -i hali mi, -e hali mi?",
+      "rule": "Dokuz iki halli edat an, auf, hinter, in, neben, über, unter, vor, zwischen bir yön ya da hedef için -i hali (soru: wohin? nereye?), bir konum için -e hali alır (soru: wo? nerede?). Hatırlatma: hedefe doğru hareket = -i hali, konum = -e hali.",
+      "examples": [
+        "Mutfağa gidiyorum. Mutfaktayım.",
+        "Kitabı masanın üstüne koyuyor. Kitap masanın üstünde duruyor.",
+        "Denize gidiyoruz. Deniz kenarında yaşıyoruz."
+      ],
+      "pitfalls": [
+        "'Gehen' bir hedefle birlikte 'wohin?' diye sorar, bu yüzden -i hali: in die Küche.",
+        "'Liegen' bir konumdur, soru 'wo?', bu yüzden -e hali: auf dem Tisch.",
+        "'Essen' hedefe doğru bir hareket değildir, soru 'wo?', bu yüzden -e hali: in einem Restaurant.",
+        "Nereye? Hedefe doğru bir hareket -i hali alır: an die Wand.",
+        "Nerede? 'sitzen' hareketsiz bir yer bildirir: -e hali, auf dem Stuhl. (Sie setzt sich auf den Stuhl.)",
+        "'stellen' hedefli bir harekettir (nereye?): -i hali. 'Die Flasche steht im Kühlschrank' -e hali olurdu.",
+        "'warten' bir yer değişikliği değildir: nerede? -e hali, vor der Schule."
+      ]
+    },
+    "perfekt-haben-sein": {
+      "title": "Perfekt: haben mi, sein mi?",
+      "rule": "Çoğu fiil Perfekt'i 'haben' ile kurar. 'Sein', A'dan B'ye hareket bildiren fiillerle (gehen, fahren, kommen, fliegen), durum değişikliği bildirenlerle (aufwachen, einschlafen, sterben, werden) ve sein, bleiben, passieren, geschehen ile kullanılır. Bu kullanımlarda -i halinde nesne almazlar (ama: Ich habe das Auto gefahren). Dönüşlü fiiller ve kiplik fiiller 'haben' alır.",
+      "examples": [
+        "Sinemaya gittim.",
+        "Ofiste çalıştım.",
+        "O saat altıda uyandı.",
+        "İki saat kaldık."
+      ],
+      "pitfalls": [
+        "Doğrudan nesnesiz, bir yere hareket: sein.",
+        "Durum değişikliği: sein.",
+        "'arbeiten' ne hareket ne de durum değişikliğidir: Perfekt 'haben' ile.",
+        "'aufstehen' bir durum değişikliğidir (yatmak -> ayakta durmak): Perfekt 'sein' ile.",
+        "A'dan B'ye hareket (gehen, fahren, kommen, fliegen): 'sein'.",
+        "'passieren', 'geschehen', 'bleiben', 'sein' ve 'werden' hareket bildirmese de 'sein' alır."
+      ]
+    },
+    "futur-i": {
+      "title": "Futur I: werden + mastar",
+      "rule": "Futur I, 'werden' (şimdiki zaman) + cümle sonunda mastardır: Ich werde morgen arbeiten. Zaman ifadesi içeren planlar için Almanca genellikle sadece şimdiki zamanı kullanır: Morgen fahre ich nach Köln. Gelecek zaman bir niyeti, varsayımı ya da sözü vurgular. Dikkat: 'würde' Konjunktiv II'dir (\"-erdi\"), gelecek zaman değil.",
+      "examples": [
+        "Seni yarın arayacağım.",
+        "Gelecek yıl İspanya'ya gidiyoruz.",
+        "O muhtemelen hâlâ ofistedir."
+      ],
+      "pitfalls": [
+        "Gelecekle ilgili bir söz 'werde' alır (\"-eceğim\"); 'würde' \"-erdi\" demektir ve Konjunktiv II'dir.",
+        "'werden'den sonra mastar sona gider.",
+        "Futur I = werden + tek bir mastar. Sonda ikinci bir 'werden' fazladır.",
+        "'werden'den sonra mastar 'zu' almaz, tıpkı kiplik fiillerden sonra olduğu gibi.",
+        "Mastar cümlenin sonuna gider; 'werden' 2. sırada kalır."
+      ]
+    },
+    "trennbare-verben": {
+      "title": "Ayrılabilen fiiller",
+      "rule": "Ayrılabilen fiillerin vurgulu bir ön eki vardır (an-, auf-, aus-, ein-, mit-, zu-, ab-, vor-, weg-). Ana cümlede ön ek cümlenin sonuna gider: Ich rufe dich an. Yan cümlede fiil tek parça hâlinde sonda durur: ..., weil ich dich anrufe. Geçmiş zaman ortacı (Partizip II), ön ek + temel fiilin ortacıdır: an + gerufen = angerufen, aus + probiert = ausprobiert; 'zu' ortaya girer: anzurufen. Ayrılamayan ön ekler (be-, ver-, er-, ent-, zer-, ge-, emp-) asla ayrılmaz.",
+      "examples": [
+        "Her gün yedide kalkıyorum.",
+        "Dün beni aradı.",
+        "Trenin sekizde kalktığını biliyorum.",
+        "Soruyu anladı ve cevapladı."
+      ],
+      "pitfalls": [
+        "Ana cümlede ön ek ayrılır ve sona gider.",
+        "Ayrılabilen fiillerin Partizip II'si, ön ek + temel fiilin Partizip II'sidir: an + gerufen.",
+        "Kiplik fiille birlikte ayrılabilen fiil, tek bir mastar olarak sonda durur: ausgehen.",
+        "Yan cümlede fiil sona gider ve ön ek yeniden onunla birleşir: ankommt.",
+        "be-, ver-, er-, ent-, zer- ve ge- ayrılamaz ve vurgusuzdur: Partizip II'de ge- yoktur.",
+        "Ana cümlede ve soruda ön ek ayrılır ve sona gider: fährt ... ab."
+      ]
+    },
+    "nebensatz-verbende": {
+      "title": "Yan cümleler: fiil sona gider",
+      "rule": "weil, dass, wenn, ob, obwohl, als, damit, bevor, nachdem gibi yan cümle bağlaçlarından ve dolaylı sorulardaki soru kelimelerinden sonra çekimli fiil yan cümlenin sonuna gider. İki fiil parçası varsa çekimli fiil en sona gelir: ..., weil ich gestern nicht kommen konnte. Yan cümle başta geliyorsa ana cümle fiiliyle başlar: Weil ich krank bin, bleibe ich zu Hause.",
+      "examples": [
+        "Onun bugün vakti olmadığını düşünüyorum.",
+        "Yağmur yağdığı için evde kalıyoruz.",
+        "O, yarın gelip gelemeyeceğini soruyor."
+      ],
+      "pitfalls": [
+        "'dass' yan cümlesinde fiil sona gider.",
+        "Başa alınan yan cümle 1. sırayı doldurur; fiil hemen ardından gelir.",
+        "'ob'dan sonra fiil yan cümlenin sonuna gider; zaman ifadesi onun önünde kalır.",
+        "Yan cümlede kiplik fiil en sona, mastardan sonra gelir: nicht kommen kann.",
+        "İlgi cümlesinde (bir yan cümle) yardımcı fiil en sona gelir: gesehen habe."
+      ]
+    },
+    "dativ-plural-n": {
+      "title": "-e hali çoğulu: isme -n eklenir",
+      "rule": "-e hali çoğulunda hemen her isim -n alır: mit den Kindern, bei meinen Eltern, aus den Häusern. -s ile biten çoğullar (die Autos), -n ile biten çoğullar (die Frauen) ve bazı yabancı kökenli çoğullar (die Praktika) değişmez. Artikel kelimeleri de -en ile biter: den, meinen, diesen, allen. mit, bei, von, zu, aus, nach, seit'ten sonra her zaman -e hali kullanılır.",
+      "examples": [
+        "Çocuklarımla tatile gidiyorum.",
+        "O hâlâ anne babasının yanında yaşıyor.",
+        "Komşularımızla sık sık konuşuyoruz.",
+        "O, kurstaki kadınlarla konuşuyor."
+      ],
+      "pitfalls": [
+        "'mit'ten sonra -e hali gerekir: meinen Kindern, isimde -n ile.",
+        "'bei'den sonra -e hali çoğulu gerekir: ihren Eltern.",
+        "'mit' -e hali ister: artikel 'den' ve çoğul isimde -n: mit den Kindern.",
+        "'von' + -e hali çoğulu: unseren Freunden - artikel kelimesi -en, isim -n alır.",
+        "'seit' + -e hali: die Jahre -> seit Jahren. -e hali çoğulu artikelsiz de -n alır.",
+        "'aus' + -e hali: die Häuser -> aus den Häusern. Yalnızca -s ya da -n ile biten çoğullar değişmez."
+      ]
+    },
+    "reflexive-verben": {
+      "title": "Dönüşlü fiiller: mich mi, mir mi?",
+      "rule": "Dönüşlü fiiller bir dönüşlü zamirle kullanılır: mich, dich, sich, uns, euch, sich. Birçoğu her zaman dönüşlüdür (sich beeilen, sich irren, sich schämen, sich weigern). Zamir genellikle -i halindedir; cümlede ayrıca bir doğrudan nesne varsa normalde -e halinde olur: Ich wasche mich, ama ich wasche mir die Hände. Farkı yalnızca mir/mich ve dir/dich gösterir. Perfekt haben ile kurulur.",
+      "examples": [
+        "Hafta sonunu dört gözle bekliyorum.",
+        "Onu hatırlıyor musun?",
+        "Ellerimi yıkıyorum.",
+        "Dün buluştuk."
+      ],
+      "pitfalls": [
+        "Doğrudan nesne ('die Hände') varsa dönüşlü zamir -e halindedir: mir.",
+        "'Sich freuen auf' her zaman dönüşlüdür.",
+        "Başka bir nesne yoksa dönüşlü zamir çoğunlukla -i halindedir: ich interessiere mich, du freust dich.",
+        "-i halinde bir nesne (die Hände) varsa dönüşlü zamir -e halindedir: mir, dir.",
+        "Dönüşlü zamir özneye uyar: wir -> uns, ihr -> euch; 'sich' yalnızca er/sie/es/sie/Sie için.",
+        "'sich (-e hali) etwas vorstellen' = hayal etmek; 'sich (-i hali) vorstellen' = kendini tanıtmak."
+      ]
+    },
+    "komparativ-superlativ": {
+      "title": "Karşılaştırma ve en üstünlük derecesi",
+      "rule": "Komparativ (karşılaştırma): sıfat + -er, 'als' ile karşılaştırma: schneller als. Superlativ (en üstünlük): am + sıfat + -sten ya da isimden önce der/die/das + -ste: am schnellsten, der schnellste Zug. a, o, u içeren birçok tek heceli sıfat umlaut alır: alt, älter, am ältesten; groß, größer, am größten. Düzensizler: gut, besser, am besten; viel, mehr, am meisten; gern, lieber, am liebsten; hoch, höher, am höchsten. Eşitlik: so ... wie.",
+      "examples": [
+        "Berlin, Hamburg'dan daha büyük.",
+        "ICE, Almanya'daki en hızlı tren.",
+        "Çayı kahveye tercih ederim, en çok da yeşil çayı.",
+        "Erkek kardeşim benimle aynı yaşta."
+      ],
+      "pitfalls": [
+        "Komparativ -er alır (umlaut ile: größer), 'mehr' + sıfat değil.",
+        "'Gut' düzensizdir: gut, besser, am besten, der beste.",
+        "Komparativ'den sonra 'als' gelir; 'wie' eşitlik karşılaştırmasına aittir (so groß wie).",
+        "Fiille birlikte Superlativ: am + -sten (am schnellsten, am besten).",
+        "Eşitlik: so ... wie. 'als' yalnızca Komparativ'den sonra (größer als).",
+        "Komparativ -er ile kurulur, uzun sıfatlarda bile: interessanter, asla 'mehr interessant' değil."
+      ]
+    },
+    "genus-endungen": {
+      "title": "İsmin cinsini ekinden anlamak",
+      "rule": "Birçok ek artikeli ele verir. Her zaman dişil: -ung, -heit, -keit, -schaft, -tät (die Wohnung, die Freiheit, die Universität); çoğunlukla dişil: -ion, -ei, -ie, -ik, -ur (die Nation, die Bäckerei, die Musik). Her zaman nötr: -chen, -lein küçültme ekleri ve isimleşmiş mastarlar (das Mädchen, das Essen); çoğunlukla nötr: -um, -ment, -tum (das Museum, das Dokument, ama der Irrtum). Çoğunlukla eril: kişiler ve aletler için -er, -ling, -ismus, -ist, -or (der Lehrer, der Computer, der Motor). -e eki güvenilir bir işaret değildir: die Lampe, ama das Ende, der Name. Diğer durumlarda artikeli kelimeyle birlikte öğren.",
+      "examples": [
+        "'Wohnung', 'Freiheit' ve 'Möglichkeit' dişildir.",
+        "'Mädchen' ve 'Museum' nötrdür.",
+        "'Lehrer', 'Computer' ve 'Optimismus' erildir.",
+        "Filmin sonu hüzünlüydü."
+      ],
+      "pitfalls": [
+        "-um ile biten alıntı kelimeler neredeyse her zaman nötrdür: das Museum, das Zentrum, das Datum.",
+        "-ung ile biten isimler her zaman dişildir: die Zeitung, die Wohnung, die Übung.",
+        "-heit ve -keit ismi dişil yapar: die Freiheit, die Gesundheit, die Möglichkeit.",
+        "-chen küçültme eki her zaman nötrdür, kişiler için bile: das Mädchen, das Brüderchen.",
+        "-er ile biten kişiler ve aletler çoğunlukla erildir: der Computer, der Drucker, der Fahrer.",
+        "-e eki cins belirtmez: das Ende, das Auge nötr, die Lampe dişil, der Name erildir. Artikeli kelimeyle birlikte öğren.",
+        "-ion ile biten alıntı kelimeler neredeyse her zaman dişildir: die Nation, die Information, die Diskussion."
+      ]
+    },
+    "als-wenn-wann": {
+      "title": "als mı, wenn mi, wann mı?",
+      "rule": "'Wann' bir zaman noktası için soru kelimesidir ve dolaylı soruları da başlatır: Ich weiß nicht, wann er kommt. 'Als', geçmişteki tek bir olay ya da dönem için \"-dığında\" demektir. 'Wenn' tekrarlanan olayları (her -dığında), şimdiki ve gelecek zamanı ve koşulları (eğer) kapsar. 'als' ve 'wenn'den sonra fiil yan cümlenin sonuna gider.",
+      "examples": [
+        "On yaşındayken Berlin'e taşındık.",
+        "Ne zaman yorgun olsam bir kahve içerim.",
+        "Yarın gelirse kutlarız.",
+        "Ne zaman geliyorsun? Onun ne zaman geleceğini bilmiyorum."
+      ],
+      "pitfalls": [
+        "Geçmişteki tek bir dönem 'als' alır.",
+        "Zamanla ilgili dolaylı soru 'wann' soru kelimesini gerektirir.",
+        "Geçmişteki tek bir dönem: als. 'wann' zamanı sorar (Wann kommst du?).",
+        "Şimdiki ve gelecek zaman için 'wenn' kullanılır; 'als' yalnızca geçmişteki tek seferlik olaylar içindir.",
+        "Geçmişte tekrar (immer, jedes Mal): wenn. 'als' yalnızca tek olay için.",
+        "Zamanla ilgili dolaylı soru 'wann' alır; burada 'wenn' \"eğer\" ya da \"-er -mez\" anlamına gelirdi."
+      ]
+    },
+    "weil-denn-da": {
+      "title": "weil mi, denn mi, da mı?",
+      "rule": "Üçü de neden bildirir. 'Weil' ve 'da' yan cümle bağlacıdır: fiil yan cümlenin sonuna gider. 'Da' biraz daha resmîdir ve çoğunlukla dinleyicinin zaten bildiği bir nedenle cümleyi açar. 'Denn' iki ana cümleyi bağlar: normal sözcük dizilişi korunur ve 'denn' cümlesi asla başa gelemez.",
+      "examples": [
+        "Berlin'de çalıştığım için Almanca öğreniyorum.",
+        "Yağmur yağdığından otobüse bineceğiz.",
+        "Erken yatıyoruz, çünkü yarın yola çıkıyoruz."
+      ],
+      "pitfalls": [
+        "'weil'den sonra fiil sona gider.",
+        "'Denn' başa alınan bir cümle açamaz; bunun için 'da' ya da 'weil' kullan.",
+        "'denn' iki ana cümleyi bağlar (0. sıra): fiil 2. sırada kalır, sona gitmez.",
+        "'da' bir yan cümle açar: çekimli fiil en sona gider; yan cümle 1. sırayı doldurur, bu yüzden ana cümlenin fiili hemen ardından gelir: lerne ich.",
+        "Başa alınan bir neden 'weil' ya da 'da' gerektirir; denn cümlesi açıkladığı ifadenin ardından gelir.",
+        "'weil'den sonra fiil en sona gider: yardımcı fiil 'hat' yan cümleyi kapatır."
+      ]
+    },
+    "trotzdem-obwohl": {
+      "title": "obwohl mu, trotzdem mi?",
+      "rule": "İkisi de karşıtlık bildirir (-e rağmen, yine de). 'Obwohl' bir yan cümle bağlacıdır: yan cümle açar ve fiili sona gönderir. 'Trotzdem' ana cümlede bir zarftır: 1. sırada olduğunda fiil hemen ardından gelir ya da cümlenin içinde yer alır: Wir gehen trotzdem spazieren. 'obwohl' yan cümlesinden sonra ana cümlenin fiili hemen gelir.",
+      "examples": [
+        "Yağmur yağmasına rağmen yürüyüşe çıkıyoruz.",
+        "Yağmur yağıyor. Yine de yürüyüşe çıkıyoruz.",
+        "O yorgun, yine de çalışmaya devam ediyor."
+      ],
+      "pitfalls": [
+        "Başa alınan 'obwohl' yan cümlesinden sonra fiil hemen gelir: '..., gehen wir (trotzdem) spazieren'.",
+        "1. sıradaki 'trotzdem'den sonra fiil hemen gelir.",
+        "Ana cümledeki sonuç 'trotzdem' alır (fiil hemen ardından). 'obwohl' engeli bildiren yan cümleyi açar.",
+        "Yan cümle bağlacı olarak 'trotzdem' konuşma dilidir; standart Almancada yan cümle 'obwohl' gerektirir.",
+        "'trotzdem' 1. sırada yer alır, bu yüzden fiil hemen ardından gelir: Trotzdem geht er."
+      ]
+    },
+    "nachdem-bevor-waehrend": {
+      "title": "nachdem mi, bevor mu, während mi?",
+      "rule": "Üçü de fiili sonda olan yan cümleler açar. 'Bevor' = -meden önce: Bevor ich esse, wasche ich mir die Hände. 'Während' = -ken, sırasında: Während ich koche, höre ich Radio. 'Nachdem' = -dikten sonra; 'nachdem' yan cümlesindeki fiil genellikle bir zaman basamağı daha öncededir: Nachdem ich gegessen hatte, ging ich spazieren.",
+      "examples": [
+        "Yemek yemeden önce ellerimi yıkarım.",
+        "Yemek pişirirken radyo dinlerim.",
+        "Yemek yedikten sonra yürüyüşe çıktım.",
+        "Sınavı geçtikten sonra kutlama yapıyor."
+      ],
+      "pitfalls": [
+        "'nachdem'den sonra fiil genellikle bir zaman basamağı daha öncededir: şimdiki zamanla Perfekt, geçmiş zamanla Plusquamperfekt.",
+        "'bevor'dan sonra fiil yan cümlenin sonuna gider."
+      ]
+    },
+    "praeteritum-perfekt": {
+      "title": "Präteritum mu, Perfekt mi?",
+      "rule": "İki zaman da geçmişi anlatır. Konuşmada ve e-postalarda Perfekt normal biçimdir: Ich habe gestern gearbeitet. Präteritum yazılı anlatılara, raporlara ve gazete metinlerine aittir. sein, haben ve kiplik fiillerde Präteritum konuşmada da normaldir: Ich war müde, ich hatte Zeit, ich konnte nicht kommen.",
+      "examples": [
+        "Dün uzun saatler çalıştım ve sonrasında yorgundum.",
+        "Bir zamanlar üç kızı olan bir kral varmış.",
+        "Aramak istedim ama zamanım yoktu."
+      ],
+      "pitfalls": [
+        "Perfekt = haben/sein + geçmiş zaman ortacı (Partizip II); 'arbeitete' Präteritum'dur, ortaç değil.",
+        "'Bleiben' Perfekt'i sein ile kurar.",
+        "Kiplik fiiller konuşmada da genellikle Präteritum'dadır: konnte, musste, wollte; Perfekt 'habe nicht kommen können' olurdu.",
+        "'haben' ve 'sein' Präteritum'a girer: hatte, war. Plusquamperfekt daha önceki bir olay gerektirir.",
+        "Kuvvetli fiiller ünlüyü değiştirir ve -te almaz: gehen -> ging, kommen -> kam, sehen -> sah."
+      ]
+    },
+    "konjunktiv-ii": {
+      "title": "Konjunktiv II: würde ve tek kelimelik biçimler",
+      "rule": "Konjunktiv II gerçek dışı durumları, dilekleri ve kibar ricaları ifade eder. Çoğu fiil için 'würde' + mastar kullanılır: Ich würde ein Haus kaufen. Birkaç sık kullanılan fiilin kendi biçimi vardır: wäre, hätte, könnte, müsste, dürfte, sollte, wollte, käme, ginge, wüsste, gäbe, bliebe, fände, ließe. 'wenn' yan cümlesinde sonda 'würde' yerine bu kendi biçimi tercih et; ardından gelen ana cümle fiille başlar.",
+      "examples": [
+        "Daha çok zamanım olsaydı seyahat ederdim.",
+        "Daha çok param olsaydı seve seve gelirdim.",
+        "Bana yardım edebilir misiniz lütfen?",
+        "Trenin zamanında olup olmadığını öğrenmek istiyorum."
+      ],
+      "pitfalls": [
+        "'wenn' yan cümlesinde sonda kendi biçimi 'hätte' kullanılır; ardından gelen ana cümle fiille başlar: würde ich.",
+        "'Werfte' diye bir biçim yoktur; werfen için würde + mastar kullan (eski biçim 'würfe' nadirdir).",
+        "'werfe' Konjunktiv I'dir (dolaylı anlatım). Kuvvetli fiillerin Konjunktiv II'si nadirdir (würfe), bu yüzden: würde + mastar.",
+        "haben, sein ve kiplik fiiller kendi biçimlerini kullanır (hätte, wäre, könnte), würde değil.",
+        "Gerçek dışı bir koşulda iki parça da Konjunktiv II'dedir: hätte ... würde kommen.",
+        "Başa alınan wenn yan cümlesi 1. sırayı alır; fiil hemen ardından gelir: würde ich."
+      ]
+    },
+    "adjektivendungen": {
+      "title": "Sıfat ekleri",
+      "rule": "Sıfat eki, önündeki kelimeye bağlıdır. Belirli artikelden ve dieser, jeder, welcher'den sonra yalnızca -e ve -en vardır: der alte Mann, die alten Männer, mit dem alten Mann. ein, kein, mein'dan sonra, artikelin eki olmadığı yerde sıfat cinsi gösterir: ein alter Mann, ein altes Haus; dişil -e (eine alte Frau); eril -i hali, -e hali, -in hali ve çoğul -en. Artikelsiz kullanımda sıfat, belirli artikelin alacağı eki taşır: alter Wein, kaltes Wasser, mit frischer Milch (eril/nötr -in hali: -en, guten Weines).",
+      "examples": [
+        "Küçük köpek uyuyor. Küçük köpeği görüyorum.",
+        "Küçük bir köpek uyuyor. Küçük bir köpeğim var.",
+        "Taze naneli soğuk çay içmeyi severim.",
+        "Bu yeni arabayı beğeniyorum."
+      ],
+      "pitfalls": [
+        "Eril -i hali: einen kleinen Hund. Hali artikel gösterir.",
+        "'Plan' erildir; 'ein'dan sonra sıfat cinsi gösterir: ein guter Plan.",
+        "welcher, dieser, jeder belirli artikel gibi cinsi kendileri gösterir: sıfat yalın hal tekilde ve dişil/nötr -i hali tekilde -e, diğer durumlarda -en alır.",
+        "'dieser'den sonra ek, 'der'den sonraki gibidir: dieser alte Mann, diese alte Frau, dieses alte Haus.",
+        "-e ve -in halinde ein/kein/mein'dan sonra sıfat her zaman -en alır; '-em' yalnızca artikel kelimesinde bulunur.",
+        "'Auto' nötrdür: -i halinde 'ein' eksizdir ve sıfat cinsi -es ile gösterir: ein rotes Auto.",
+        "Artikelsiz kullanımda sıfat belirli artikelin ekini alır: das Brot -> frisches Brot."
+      ]
+    },
+    "relativpronomen": {
+      "title": "İlgi cümleleri ve ilgi zamirleri",
+      "rule": "İlgi cümlesi bir ismi daha yakından tanımlar. İlgi zamiri cinsini ve sayısını ilgili olduğu isimden, halini ise ilgi cümlesinden alır: der Mann, der (yalın hal), den (-i hali), dem (-e hali), dessen (-in hali). Biçimler dessen, deren, denen dışında belirli artikelin biçimleridir. Fiil sona gider; edat zamirin önünde durur: die Frau, mit der ich arbeite.",
+      "examples": [
+        "Bu, yanımda oturan adam.",
+        "Bu, dün gördüğüm adam.",
+        "Bu, birlikte çalıştığım kadın.",
+        "Yardım ettiğim çocuklar Almanca öğreniyor."
+      ],
+      "pitfalls": [
+        "İlgi cümlesinde adam doğrudan nesnedir: den.",
+        "Edat ilgi zamirinin önüne gelir ve fiil sona gider.",
+        "Hal, ilgi cümlesindeki fiilden gelir: 'helfen' + -e hali -> dem Kind -> dem.",
+        "-in halindeki ilgi zamirleri: eril ve nötr için dessen, dişil ve çoğul için deren.",
+        "'wo' yalnızca bir şeyin olduğu yer için kullanılır. Nesne zamir gerektirir: das Haus, das.",
+        "'was' yalnızca alles, etwas, nichts, das ya da bütün bir cümleden sonra gelir; burada: den Film -> den."
+      ]
+    },
+    "zu-infinitiv": {
+      "title": "Mastar: zu'lu mu, zu'suz mu?",
+      "rule": "Birçok fiil, sıfat ve isim 'zu' + mastar ile birleşir: Ich habe vor, morgen zu kommen. Es ist wichtig, pünktlich zu sein. Kiplik fiillerden, werden (gelecek zaman), lassen, sehen, hören ve gehen'den sonra 'zu' yoktur (Ich gehe schwimmen). Ayrılabilen fiillerde 'zu' ortaya girer: anzurufen. 'zu'lu mastar sonda durur, çoğunlukla virgülden sonra.",
+      "examples": [
+        "Yazın İtalya'ya gitmeyi planlıyorum.",
+        "Her gün pratik yapmak önemli.",
+        "Beni aramayı unuttu.",
+        "Bugün uzun saatler çalışmak zorundayım."
+      ],
+      "pitfalls": [
+        "Kiplik fiillerden sonra mastar 'zu' almaz.",
+        "Ayrılabilen fiillerde 'zu' ön ek ile fiilin arasına girer.",
+        "Lust, Zeit, Angst gibi isimlerden sonra mastar 'zu' alır.",
+        "'gehen', 'fahren', 'bleiben' ve kiplik fiiller mastarı 'zu'suz alır.",
+        "Algı fiilleri (hören, sehen) ve 'lassen' yalın mastar alır.",
+        "Ayrılabilen fiillerde 'zu' ön ek ile fiilin arasına girer: wiederzusehen, anzurufen."
+      ]
+    },
+    "um-zu-damit": {
+      "title": "um ... zu mu, damit mi?",
+      "rule": "İkisi de amaç bildirir (-mek için, -sin diye). 'Um ... zu' + mastar, ana cümlenin ve amacın öznesi aynı olduğunda kullanılır: Ich lerne Deutsch, um in Berlin zu arbeiten. 'Damit' kendi öznesi olan bir yan cümle başlatır ve özneler farklı olduğunda zorunludur: Ich spreche langsam, damit du mich verstehst.",
+      "examples": [
+        "Berlin'de çalışmak için Almanca öğreniyorum.",
+        "Beni anlayasın diye yavaş konuşuyorum.",
+        "Çocukları okuyabilsin diye para biriktiriyor."
+      ],
+      "pitfalls": [
+        "Farklı özneler (ich, du): damit + yan cümle.",
+        "Amaç için (-mek için) 'um ... zu' + mastar kullan, 'für' değil.",
+        "'um ... zu', sondaki mastarın önünde 'zu' gerektirir: um ... zu kaufen.",
+        "Farklı bir özne (sie / die Kinder) yan cümleli 'damit' gerektirir; 'um dass' diye bir yapı yoktur.",
+        "'um'dan sonra özne ve çekimli fiil yoktur, yalnızca 'zu' + mastar vardır: um pünktlich zu sein.",
+        "Amaç 'um ... zu' ile ifade edilir, 'für' ile değil; ayrılabilen fiil 'zu'yu ortasına alır: einzukaufen."
+      ]
+    },
+    "n-deklination": {
+      "title": "n-çekimi (zayıf eril isimler)",
+      "rule": "Bazı eril isimler yalın hal tekil dışında her halde -(e)n alır: der Student, den Studenten, dem Studenten, des Studenten; çoğul: die Studenten. Bu gruba kişi ve hayvan bildiren, -e ile biten eril isimler (der Junge, der Kollege, der Kunde, der Löwe), -ent, -ant, -ist, -at ile biten isimler (der Präsident, der Praktikant, der Journalist, der Automat) ve birkaç kısa kelime girer: der Mensch, der Herr (den Herrn), der Nachbar (den Nachbarn), der Bauer (den Bauern). 'Name' -in halinde -ns alır: des Namens.",
+      "examples": [
+        "Meslektaşa randevuyu soruyorum.",
+        "Bu beyi tanıyor musun?",
+        "Öğrenciye kayıtta yardım ediyoruz.",
+        "Bu, komşunun arabası."
+      ],
+      "pitfalls": [
+        "'Junge' n-çekimine girer: -i hali den Jungen.",
+        "Kişi bildiren, -e ile biten eril isimler: -e hali dem Kunden."
+      ]
+    },
+    "lassen": {
+      "title": "lassen fiili",
+      "rule": "'Lassen'in birkaç anlamı vardır. 1. Bir şeyi bırakmak: Ich lasse den Schirm zu Hause. 2. İzin vermek: Meine Eltern lassen mich ausgehen. 3. Bir şeyi başkasına yaptırmak: Ich lasse mein Auto reparieren (kendim yapmıyorum). 4. Öneri: Lass uns gehen! Mastarla birlikte 'zu' yoktur ve Perfekt şöyledir: Ich habe das Auto reparieren lassen (gelassen değil). Şimdiki zaman: ich lasse, du lässt, er lässt.",
+      "examples": [
+        "Saçımı kestiriyorum.",
+        "Bunu açıklamama izin ver!",
+        "Telefonunu otobüste bıraktı.",
+        "Daireyi boyattık."
+      ],
+      "pitfalls": [
+        "'lassen'den sonra mastar 'zu' almaz.",
+        "İkinci bir mastarla Perfekt'te 'gelassen' yerine 'lassen' kullanılır."
+      ]
+    },
+    "genitiv": {
+      "title": "-in hali (Genitiv)",
+      "rule": "-in hali sahiplik ya da aidiyet gösterir ve 'wessen?' (kimin?) sorusuna cevap verir. Artikeller: des (eril, nötr), der (dişil, çoğul). Eril ve nötr isimler genellikle -s ya da -es alır: das Auto des Mannes, die Tür des Hauses (zayıf eril isimler -(e)n: des Studenten); dişil ve çoğul isimler ek almaz: die Tasche der Frau, die Eltern der Kinder. Bazı edatlar -in hali ister: wegen, trotz, während, statt, innerhalb, außerhalb. Konuşmada -in halinin yerini çoğunlukla 'von' + -e hali alır: das Auto von meinem Bruder.",
+      "examples": [
+        "Bu, erkek kardeşimin arabası.",
+        "Duvarın rengini beğeniyorum.",
+        "Yağmur yüzünden evde kalıyoruz.",
+        "Kötü havaya rağmen doğa yürüyüşüne çıkıyoruz."
+      ],
+      "pitfalls": [
+        "'Bruder' -in halinde -s alır: meines Bruders.",
+        "Dişil -in hali: der Frau, isimde ek yok.",
+        "Dişil -in hali: der (die Lehrerin -> der Lehrerin), isimde -s yok.",
+        "Eril ve nötr isimler -in hali tekilde -s ya da -es alır: des Autos, des Mannes.",
+        "wegen, trotz, während, statt yazılı standartta -in hali alır: wegen des Regens.",
+        "-in hali çoğulu: der + yalın haldeki çoğul biçim: der Kinder (den Kindern -e hali olurdu)."
+      ]
+    },
+    "typische-fehler-englisch": {
+      "title": "İngilizce konuşanların tipik hataları",
+      "rule": "En sık yapılan hatalar: 1. Sözcük dizilişi: ana cümlede fiil 2. sıradadır (Morgen fahre ich ...), yan cümlede sondadır (..., weil ich müde bin). 2. Üşümek, sıcaklamak, sıkılmak, kendini iyi hissetmemek -e hali alır: Mir ist kalt, 'ich bin kalt' değil. 3. Yaş sein ile söylenir: Ich bin 20 Jahre alt. 4. Yalancı eşdeğerler: bekommen = almak, olmak değil (o werden'dir); also = bu yüzden/yani, İngilizce \"also\" (de/da) değil (o auch'tur). 5. wann/wenn/als, kennen/wissen ve seit + şimdiki zaman: Ich lerne seit zwei Jahren Deutsch. 6. İsimleri büyük harfle yaz ve her ismin artikelini öğren.",
+      "examples": [
+        "Yarın Münih'e gidiyorum.",
+        "Üşüyorum. Pencereyi kapatabilir misin?",
+        "Her gün çok sayıda e-posta alıyorum.",
+        "İki yıldır Almanca öğreniyorum."
+      ],
+      "pitfalls": [
+        "1. sıradaki zaman ifadesinden sonra fiil 2. sırada gelir.",
+        "Üşümek, sıcaklamak, sıkılmak, kendini iyi hissetmemek -e hali alır: mir ist kalt.",
+        "Almancada yaş 'sein' + alt ile söylenir.",
+        "'Ich bin langweilig' \"ben sıkıcıyım\" demektir. Duygular ve durumlar çoğunlukla -e hali alır: mir ist langweilig, mir ist kalt.",
+        "'bekommen' = almak; 'werden' = olmak: Ich werde müde, ich werde Lehrer.",
+        "Almanca 'wie' ile sorar: Wie heißt du? Wie ist dein Name? 'Was' çeviri kokar."
+      ]
+    },
+    "passiv-werden-sein": {
+      "title": "Edilgen: werden mi, sein mi?",
+      "rule": "'werden' + geçmiş zaman ortacı (Partizip II) ile kurulan süreç edilgeni, yapılmakta ya da yapılmış olan bir eylemi anlatır: Die Tür wird geschlossen (biri onu kapatıyor). 'sein' + Partizip II ile kurulan durum edilgeni, sonucu, sonraki durumu anlatır: Die Tür ist geschlossen (kapalı). Süreç edilgeninin Perfekt'i 'ist geschlossen worden'dır.",
+      "examples": [
+        "Kapı şu anda kapatılıyor.",
+        "Kapı kapalı (durum).",
+        "Mektup dün yazıldı. Şimdi yazılmış durumda.",
+        "Ev 1900'de inşa edildi."
+      ],
+      "pitfalls": [
+        "Anlam olaydır (dün yazdı), bu yüzden süreç edilgeni; Perfekt'te: ist ... geschrieben worden.",
+        "Edilgen Perfekt'te 'werden'in Partizip II'si 'worden'dır, 'geworden' değil.",
+        "Şu anda süren bir süreç: 'werden' ile süreç edilgeni. 'ist gebacken' tamamlanmış durum olurdu.",
+        "Geçmiş zaman edilgeni = wurde + Partizip II. 'worden' Perfekt ve Plusquamperfekt'e aittir (ist/war repariert worden), 'wurde'nin yanına değil.",
+        "Edilgenin Perfekt'i 'sein' + Partizip II + worden ile kurulur, 'werden' ile değil."
+      ]
+    },
+    "plusquamperfekt": {
+      "title": "Plusquamperfekt (geçmişin geçmişi)",
+      "rule": "Plusquamperfekt, geçmişteki başka bir olaydan önce olmuş olanı anlatır. Kuruluş: hatte/war + geçmiş zaman ortacı (Partizip II): Ich hatte gegessen, sie war gegangen. Yardımcı fiil Perfekt'tekiyle aynıdır (haben ya da sein), sadece Präteritum'dadır. 'nachdem' yan cümlesinde tipiktir: Nachdem ich gegessen hatte, ging ich spazieren. Geçmişte ikinci bir zaman noktası yoksa Perfekt ya da Präteritum yeterlidir.",
+      "examples": [
+        "Ben vardığımda tren çoktan kalkmıştı.",
+        "Sınavı geçtikten sonra arkadaşlarıyla kutladı.",
+        "Anahtarı unutmuştu ve beklemek zorunda kaldı."
+      ],
+      "pitfalls": [
+        "Kalkış, varıştan önceydi: war ile Plusquamperfekt.",
+        "Ana cümlede Präteritum varsa 'nachdem' yan cümlesi Plusquamperfekt alır."
+      ]
+    },
+    "nominalstil-verbalstil": {
+      "title": "Ad stili ve fiil stili: yan cümle mi, isim öbeği mi?",
+      "rule": "Ad stilinde bir eylem, çoğunlukla yan cümle yerine bir edatla birlikte, bir isimle ifade edilir: 'weil die Preise erhöht wurden' yerine 'wegen der Erhöhung der Preise'. Tipik edatlar: wegen/aufgrund (weil), trotz (obwohl), bei/während (als, während), nach (nachdem), vor (bevor), zu/zur/zum (um … zu, damit), durch (indem, dadurch dass), bei (wenn). Yan cümlenin öznesi veya nesnesi, -in hâlinde bir tamlayan ya da iyelik sıfatı olur: 'weil die Firma umzieht' → 'wegen des Umzugs der Firma'. Ad stili akademik, resmî ve gazete Almancasına özgüdür; konuşmada ağır durur, orada yan cümleli fiil stili daha doğaldır.",
+      "examples": [
+        "Kötü havaya rağmen konser gerçekleşti. = Hava kötü olmasına rağmen konser gerçekleşti.",
+        "Görüşmelerin tamamlanmasının ardından sözleşme imzalandı. = Görüşmeler tamamlandıktan sonra sözleşme imzalandı.",
+        "Maliyetleri düşürmek için iki şube kapatıldı.",
+        "Yeni bir yazılım kullanarak şirket zaman kazanabildi."
+      ],
+      "pitfalls": [
+        "Yazılı Almancada 'wegen' -in hâli alır: wegen der Erhöhung.",
+        "'trotz' bir edattır ve bir isim ister (trotz seiner Krankheit); yan cümle 'obwohl' bağlacını alır.",
+        "Fiilin nesnesi (die Luftqualität verbessern) ad stilinde -in hâlinde tamlayan olur: die Verbesserung der Luftqualität.",
+        "Ad stili yerleşik ismi (Abschluss) ve -in hâlinde tamlayanı (der Verhandlungen) 'von + -e hâli' yerine tercih eder; 'nach Abschluss' gibi kalıp ifadeler artikelsizdir."
+      ]
+    },
+    "partizipialattribut": {
+      "title": "Ortaç sıfatlar: der gestern angekommene Zug",
+      "rule": "Bir ortaç, sıfat gibi ismin önünde durabilir ve kendi tümleçlerini de yanında getirerek ilgi cümlesini bir sıfata dönüştürür: 'der Zug, der gestern angekommen ist' → 'der gestern angekommene Zug'. Partizip I (steigend, lachend) eş zamanlı ve etken bir şeyi anlatır: 'die steigenden Preise' = yükselmekte olan fiyatlar. Partizip II geçişli fiillerde edilgen ve tamamlanmış bir şeyi anlatır: 'die geschlossene Tür' = kapatılmış kapı; 'sein' ile çekimlenen fiillerde ise önce olmuş ve etken bir şeyi: 'der angekommene Zug' = gelmiş olan tren. 'zu' + Partizip I zorunluluk veya olanak bildirir: 'die zu erledigende Aufgabe' = yapılması gereken görev. Tüm tümleçler artikel ile ortaç arasına girer; ortaç normal sıfat ekini alır.",
+      "examples": [
+        "Hükûmetin kararlaştırdığı önlemler ocakta yürürlüğe giriyor.",
+        "Yıllardır yükselen kiralar birçok haneye yük oluyor.",
+        "Hâlâ açıklığa kavuşturulması gereken sorular gündemde.",
+        "1990'da kurulan dernek bugün 3.000 üyeye sahip."
+      ],
+      "pitfalls": [
+        "Ortaç sıfat gibi çekimlenir: çoğul 'die'den sonra ek -en'dir.",
+        "Partizip I (ankommend) eş zamanlılık anlatır: şu anda gelmekte olan bir tren. Tamamlanmış bir şey için Partizip II gerekir: angekommen.",
+        "Tüm tümleçler artikel ile ortaç arasına girer; ortaç doğrudan ismin önünde durur.",
+        "'zu' yalnızca Partizip I ile kullanılır (erledigend): das zu erledigende Problem = ele alınması gereken sorun."
+      ]
+    },
+    "passiversatz": {
+      "title": "Edilgen çatının alternatifleri: sich lassen, sein + zu, -bar",
+      "rule": "Kiplik fiilli edilgen çatı (kann/muss gemacht werden) yerine daha kısa biçimler vardır. 'sich lassen' + mastar = yapılabilir: Das Problem lässt sich lösen. 'sein' + zu + mastar = bağlama göre yapılmalı veya yapılabilir: Die Rechnung ist bis Freitag zu bezahlen (yapılmalı); Der Fehler ist leicht zu übersehen (yapılabilir). -bar, -lich, -fähig ekli sıfatlar = yapılabilir: lösbar, verständlich, tragfähig. Zarflı dönüşlü biçim: Das Buch liest sich leicht. 'man' + etken her zaman mümkündür: Man kann das Problem lösen. Bu biçimler akademik ve resmî Almancaya özgüdür; ayrılabilen fiillerde 'zu' ön ek ile fiilin arasına girer (einzureichen).",
+      "examples": [
+        "Sorun o kadar kolay çözülemiyor.",
+        "Başvuru 31 Mart'a kadar yapılmalı.",
+        "Veriler ancak güçlükle doğrulanabiliyor.",
+        "Bu gelişme önceden görülemezdi."
+      ],
+      "pitfalls": [
+        "'sich lassen'den sonra mastar gelir, geçmiş zaman ortacı değil.",
+        "Biçim sein + zu + mastar'dır; ayrılabilen fiillerde 'zu' ön ek ile fiilin arasına girer: einzureichen.",
+        "'sich lassen' yalnızca olanak (-ebilmek) anlatır. Zorunluluk (-meli) için sein + zu + mastar ya da 'müssen'li edilgen çatı kullan.",
+        "'vorhersehen' ayrılabilen bir fiildir: 'zu', 'vorher' ile 'sehen' arasına girer."
+      ]
+    },
+    "subjektive-modalverben": {
+      "title": "Konuşanın yargısı olarak kiplik fiiller: Er muss krank sein, er soll reich sein",
+      "rule": "Kiplik fiiller zorunluluk veya yetenek yerine konuşanın değerlendirmesini ifade edebilir. Tahmin, kesinden belirsize: muss (eminim), dürfte (muhtemelen), könnte/kann (mümkün), mag (belki, kabul ederek). Başkasının iddiası: soll = söylendiğine göre, güya (Er soll sehr reich sein); will = kendisi öyle iddia ediyor (Er will nichts gewusst haben). Geçmiş, kiplik fiile değil mastara taşınır: Er muss krank gewesen sein, 'Er musste krank sein' değil. 'werden' + mastar da tahmin bildirir: Sie wird schon im Zug sitzen. Bir kiplik fiilin öznel mi nesnel mi kullanıldığını bağlam gösterir.",
+      "examples": [
+        "Işık kapalı; çoktan uyuyor olmalı.",
+        "Trenin yaklaşık on dakika içinde gelmesi gerekiyor.",
+        "Bakanın suçlamalardan haberdar olduğu söyleniyor.",
+        "Sürücü dur işaretini görmediğini iddia ediyor."
+      ],
+      "pitfalls": [
+        "Tahminde kiplik fiil şimdiki zamanda kalır; geçmiş, geçmiş mastara taşınır (gewesen sein). 'Er musste krank sein' hasta olmak zorunda olduğu anlamına gelirdi.",
+        "'soll' başkalarının söylediğini aktarır; birinin kendisi hakkında iddia ettiği şey 'will' ile anlatılır.",
+        "Mastar (sein) atılamaz ve 'muhtemelen' anlamı zaten 'dürfte'nin içindedir.",
+        "Kiplik fiilden sonra mastar gelir; geçmiş için geçmiş mastar: angekommen sein."
+      ]
+    },
+    "konjunktiv-i-redewiedergabe": {
+      "title": "Dolaylı anlatımda Konjunktiv I: Er sagt, er habe keine Zeit",
+      "rule": "Haberlerde, raporlarda ve resmî metinlerde dolaylı anlatım, bunun başka birinin ifadesi olduğunu açıkça gösteren Konjunktiv I ile işaretlenir. Oluşumu: fiil kökü + e'li ekler: ich habe, du habest, er habe, wir haben, ihr habet, sie haben; 'sein' düzensizdir: ich sei, du seist, er sei, wir seien, ihr seiet, sie seien. En yaygını 3. tekil kişidir (er habe, sie komme, es gebe). Konjunktiv I'in bildirme kipiyle çakıştığı yerlerde (wir haben, sie kommen) onun yerine Konjunktiv II (wir hätten, sie kämen) ya da 'würde' + mastar kullanılır. Geçmiş: haben/sein'ın Konjunktiv I'i + geçmiş zaman ortacı: Er sagte, er habe nichts gewusst / er sei zu spät gekommen. Gelecek: er werde kommen. Aktaran fiil bildirme kipinde kalır; ardından bir dass cümlesi veya bir ana cümle gelir.",
+      "examples": [
+        "Bakan, reformun gerekli olduğunu ve sonbaharda kabul edileceğini söyledi.",
+        "Sözcü, sakinlerin zamanında bilgilendirildiğini söyledi.",
+        "Öğrenciler başka seçeneklerinin olmadığını vurguladı.",
+        "Tanık, faili net biçimde gördüğünü ifade etti."
+      ],
+      "pitfalls": [
+        "Resmî dolaylı anlatımda Konjunktiv I (habe) kullanılır; bildirme kipi yalnızca konuşma dilinde olağandır.",
+        "'sie haben' Konjunktiv I ve bildirme kipinde aynıdır, bu yüzden onun yerine Konjunktiv II kullanılır: hätten.",
+        "dass cümlesinde çekimli fiil sona gider, Konjunktiv I'de de.",
+        "Dolaylı anlatımda gelecek: werde + mastar. 'habe' + mastar diye bir şey yoktur.",
+        "Konjunktiv I belirsizlik taşımıyorsa (sei), resmî dolaylı anlatımda önceliklidir; 'wäre' ifadeden şüphe duyulduğu şeklinde okunabilir."
+      ]
+    },
+    "paronyme-scheinbar-anscheinend": {
+      "title": "Paronimler: scheinbar mı, anscheinend mi; effektiv mi, effizient mi?",
+      "rule": "Paronimler, ana dili konuşanların bile birbirine karıştırdığı, benzer sesli ama farklı anlamlı sözcüklerdir. 'anscheinend' büyük olasılıkla doğru olan bir tahmini ifade eder (görünüşe bakılırsa); 'scheinbar' ise bir şeyin yalnızca öyle göründüğünü, gerçekteyse farklı olduğunu söyler: 'Er ist anscheinend krank' (muhtemelen) karşısında 'Sein Interesse war nur scheinbar' (yapmacık). Diğer çiftler: effektiv (etkili, hedefe ulaşan) ve effizient (verimli, az çabayla); formal (biçime ilişkin) ve formell (resmî, kurallara uygun); rational (akılcı) ve rationell (tutumlu, amaca uygun); kindlich (çocuksu, nötr) ve kindisch (çocukça, aşağılayıcı); sensibel (duyarlı, kolay incinen) ve sensitiv (teknik dilde: küçük değişimlere tepki veren). Şüphede kalınca karşıtıyla sınamak yardımcı olur: 'scheinbar' bir 'aber in Wirklichkeit' kaldırır, 'anscheinend' kaldırmaz.",
+      "examples": [
+        "Tren görünüşe göre gecikmeli – panoda henüz bir şey yazmıyor.",
+        "Görünüşte basit olan soru bir tuzak çıktı.",
+        "Önlem etkiliydi ama verimli değildi: Hedefe ulaşıldı, ancak çok büyük bir bedelle.",
+        "Biçimsel olarak başvuru doğru; usulüne uygun biçimde sunulup sunulmadığı ise başka bir soru."
+      ],
+      "pitfalls": [
+        "Kastedilen bir tahmindir (muhtemelen gerçekten hasta), dolayısıyla 'anscheinend'; 'scheinbar' yalnızca öyle yaptığını ima ederdi.",
+        "Zamandan ve paradan tasarruf etmek bir çaba meselesidir, yani verimliliktir; 'effektiv' yalnızca hedefe ulaşıldığını söyler.",
+        "Aşağılayıcı anlamda kastedilen olgunlaşmamış davranış 'kindisch'tir; 'kindlich' nötr ya da olumludur (kindliche Neugier)."
+      ]
+    },
+    "funktionsverbgefuege": {
+      "title": "İşlev fiili yapıları (Funktionsverbgefüge): zur Verfügung stellen, in Betracht ziehen, Abhilfe schaffen",
+      "rule": "Bir Funktionsverbgefüge, anlamı taşıyan bir isim ile neredeyse yalnızca dil bilgisel iş gören bir 'işlev fiili'nden oluşur: 'eine Entscheidung treffen' (karar vermek), 'zur Anwendung kommen' (uygulanmak), 'in Kraft treten' (yürürlüğe girmek). Bu yapılar idare, iş dünyası ve bilim Almancası için tipiktir ve ince ayrımlara olanak tanır: 'zur Sprache bringen' (etken: gündeme getirmek) karşısında 'zur Sprache kommen' (edilgen benzeri: gündeme gelmek); 'in Gang setzen' (harekete geçirmek) karşısında 'in Gang kommen' (harekete geçmek). Fiil ve isim sabittir: artikel, edat ve fiil değiştirilemez ('eine Frage stellen', 'machen' değil; 'Abhilfe schaffen', 'geben' değil). İsim genellikle cümlenin sonunda durur, işlev fiili ise 2. sıradadır: 'Die Kommission zieht eine Verschiebung in Betracht.' Konuşmada bu yapıların üst üste yığılması ağır durur; orada çoğu zaman yalın fiil daha iyidir.",
+      "examples": [
+        "Yeni düzenleme 1 Ocak'ta yürürlüğe giriyor.",
+        "Belgeleri memnuniyetle kullanımınıza sunarız.",
+        "Yönetim kurulu projeyi ertelemeyi göz önünde bulunduruyor.",
+        "Bu önlemle nitelikli iş gücü açığına çare bulunması amaçlanıyor.",
+        "Konu toplantıda yalnızca kısaca gündeme geldi."
+      ],
+      "pitfalls": [
+        "İşlev fiili sabittir: kararlar 'getroffen' olur, 'gemacht' değil.",
+        "'zur Sprache kommen' edilgen benzeridir (soru gündeme gelir); bir şeyi gündeme getiren kişi onu zur Sprache 'bringt'.",
+        "Yapıda 'Kraft' artikelsizdir ve yapının ismi cümlenin sonuna gider."
+      ]
+    },
+    "stilebenen-register": {
+      "title": "Üslup düzeyleri ve dil kaydı: yüksek, nötr, konuşma dili",
+      "rule": "Her sözcük bir üslup düzeyine aittir: 'verscheiden' (yüksek), 'sterben' (nötr), 'abkratzen' (kaba). C2'de mesele artık anlaşılmak değil, düzeyi tutarlı biçimde sürdürmektir. Resmî bir metinde konuşma diline ait sözcükler belirdiğinde ('echt', 'krass', 'hinkriegen', 'Sachen', 'kriegen', 'total') ya da gündelik bir konuşma birdenbire bürokrasi dili gibi tınladığında ('Ich bitte um Kenntnisnahme') bir üslup kırılması ortaya çıkar. Resmî dil kaydının belirtileri: isimleştirmeler, edilgen çatı ve alternatifleri, nezaket Konjunktiv'i ('Ich wäre Ihnen dankbar, wenn …'), 'kriegen' yerine 'erhalten', 'hinkriegen' yerine 'bewältigen' gibi fiiller, 'echt' yerine 'tatsächlich', 'halt' ve 'eh' gibi kiplik parçacıklarının yokluğu. Sözlü dil kaydının belirtileri: kısa ana cümleler, parçacıklar (doch, mal, eben), pekiştiriciler, fiil parantezinin dışına çıkarılan ögeler. Farklı metin türleri farklı düzeyler ister: şikâyet yazısı ya da bilirkişi raporu yüksek ile nötr arası, meslektaşlara e-posta nötr, arkadaşlarla sohbet konuşma dili.",
+      "examples": [
+        "Belgeleri cumaya kadar bana iletebilirseniz minnettar olurum. (resmî)",
+        "Şu şeyleri cumaya kadar bana yollar mısın? (sözlü)",
+        "İdare, birikmiş işlerin üstesinden bu arada gelmiştir. / Bunu artık hallettiler.",
+        "Merhum dün huzur içinde ebediyete intikal etti. (yüksek) / Dün öldü. (nötr)"
+      ],
+      "pitfalls": [
+        "'echt' ve 'hinkriegen' konuşma diline aittir ve hitabın belirlediği resmî dil kaydını kırar.",
+        "'ersuchen um Übersendung' bürokrasi dilidir; arkadaşlar arasında ironik ya da istemeden komik durur.",
+        "'total kaputt' konuşma dilidir; bir bilirkişi raporu 'erheblich beschädigt' ya da 'nicht mehr tragfähig' gibi kesin, nötr sözcükler ister."
+      ]
+    },
+    "erzaehltempora-erlebte-rede": {
+      "title": "Anlatı zamanları ve serbest dolaylı anlatım (erlebte Rede)",
+      "rule": "Yazılı anlatının anlatı zamanı Präteritum'dur; geçmiş zamanı değil anlatıyı işaretler, bu yüzden yanında 'morgen' bile durabilir: 'Morgen war Weihnachten.' Anlatılan olaydan önce olanlar Plusquamperfekt'e girer (öncelik ilişkisi); karakterin bakış açısından henüz gerçekleşmemiş olanlar 'würde' + mastar ile verilir (sonralık ilişkisi). Erlebte Rede (serbest dolaylı anlatım), bir karakterin düşüncelerini aktaran fiil olmadan ve tırnak işareti kullanmadan aktarır: kişi ve zaman anlatıcının anlatımındaki gibidir (3. kişi, Präteritum), ancak sözcük dizilişi, sorular, ünlemler ve parçacıklar doğrudan anlatımdaki gibidir: 'Sie sah auf die Uhr. Warum kam er denn nicht? Er hatte es doch versprochen!' Anlatıcının sesi ile karakterin sesi birbirine karışır; okur düşünceleri, alıntı olarak işaretlenmeden öğrenir. Bundan ayırt edilmesi gerekenler: Konjunktiv I'li dolaylı anlatım ('Sie fragte sich, warum er nicht komme') ve tırnak işaretli, şimdiki zamanlı doğrudan anlatım.",
+      "examples": [
+        "O geldiğinde toplantı çoktan başlamıştı.",
+        "Bavulunu topladı. Üç gün sonra Lizbon'da olacaktı.",
+        "Mektuba dik dik baktı. Bu adam ondan aslında ne istiyordu? Onu tanımıyordu bile!",
+        "Yarın sınav vardı ve daha yarısını bile okumamıştı."
+      ],
+      "pitfalls": [
+        "Anlatılan olaydan önce olanlar Plusquamperfekt'e girer; Perfekt konuşma diline aittir ve anlatı düzlemini kırar.",
+        "Erlebte Rede'de zaman, anlatıcının Präteritum'unda kalır; şimdiki zaman doğrudan anlatıma işaret ederdi, o da tırnak işareti gerektirir.",
+        "Geçmişteki bir karakterin bakış açısından gelecek, 'wird' ile değil 'würde' + mastar ile ifade edilir."
+      ]
+    },
+    "gehobene-praepositionen": {
+      "title": "Yüksek üslup edatları: mangels, ungeachtet, zufolge, seitens",
+      "rule": "Resmî metinler, yan cümleleri konuşmada neredeyse hiç geçmeyen edatlarla yoğunlaştırır. -in hâliyle: angesichts (göz önüne alındığında), infolge (sonucunda), mangels (yokluğunda), zwecks (amacıyla), ungeachtet (-e rağmen), anlässlich (vesilesiyle), seitens (tarafından), kraft (gereğince, gücüyle), zugunsten / zuungunsten (lehine / aleyhine), mittels (aracılığıyla), hinsichtlich / bezüglich (bakımından, -e ilişkin), vorbehaltlich (saklı kalmak kaydıyla), binnen (içinde; -in hâli ya da -e hâli). -e hâliyle: gemäß, entsprechend, zuwider ve zufolge; son ikisi genellikle ismin arkasına konur: 'dem Bericht zufolge', 'dem Gesetz zuwider'. Çoğul bir isim artikelsiz ve sıfatsız duruyorsa -in hâli görünmez olur ve yerine -e hâli geçer: 'mangels Beweisen', 'zwecks Verhandlungen' (ama 'mangels eindeutiger Beweise'). Bu edatlar bilirkişi raporlarına, sözleşmelere ve resmî yazılara aittir; konuşma dilinde kaskatı dururlar, orada bunların yerine yan cümle kullanılır.",
+      "examples": [
+        "Kesin kanıt yokluğundan dolayı yargılamaya son verildi.",
+        "Tüm protestolara rağmen senato plana bağlı kaldı.",
+        "Rapora göre kusurlar daha 2019'da tespit edilmişti.",
+        "Yönetim tarafından hiçbir pozisyonun kaldırılmayacağına dair güvence verildi.",
+        "Durumun açıklığa kavuşturulması amacıyla belgelerin iki hafta içinde gönderilmesini rica ediyoruz."
+      ],
+      "pitfalls": [
+        "'laut' ve 'zufolge' aynı anlama gelir; biri yeter. 'zufolge' ismin arkasına gelir ve -e hâli alır.",
+        "'ungeachtet' -in hâli alır: ungeachtet der Proteste.",
+        "'gemäß' resmî tınlasa da -e hâli alır; -in hâli yaygın bir aşırı düzeltmedir."
+      ]
+    }
+  },
+  "scenes": {
+    "bakery": {
+      "situation": "fırından küçük ekmek alma",
+      "role": "tezgâhtar",
+      "learner": "müşteri",
+      "facts": [
+        "Küçük ekmekler",
+        "Tam tahıllı ekmek",
+        "Açık",
+        "Brezel"
+      ],
+      "opening": "Günaydın! Ne arzu edersiniz?",
+      "beats": [
+        "Tabii, altı küçük ekmek. Başka bir şey ister misiniz?",
+        "Tam tahıllı ekmek 3,80 euro. Sizin için dilimleyeyim mi?",
+        "Maalesef brezeller bugün tükendi. Yerine başka bir şey önerebilir miyim?"
+      ]
+    },
+    "cafe": {
+      "situation": "kafede sipariş verme",
+      "role": "garson",
+      "learner": "müşteri",
+      "facts": [
+        "Cappuccino",
+        "Elmalı kek",
+        "Yulaf sütü",
+        "Ödeme"
+      ],
+      "opening": "Merhaba, ne getirebilirim?",
+      "beats": [
+        "Tabii, bir cappuccino. Yanında bir dilim kek ister misiniz?",
+        "Evet, yulaf sütü ek ücret olmadan mümkün. Cappuccino'yu öyle mi hazırlayayım?",
+        "Elmalı kekin dilimi 4,20 euro. Kremalı ister misiniz?",
+        "Maalesef sadece nakit, kart kabul etmiyoruz. Acaba tam paranız var mı?"
+      ]
+    },
+    "doctor_phone": {
+      "situation": "telefonla doktor randevusu alma",
+      "role": "muayenehane resepsiyonisti",
+      "learner": "hasta",
+      "facts": [
+        "Bir sonraki boş randevu",
+        "Getirilecekler",
+        "Muayenehane bugün açık",
+        "Kayıt"
+      ],
+      "opening": "Pazar meydanındaki muayenehane, iyi günler. Size nasıl yardımcı olabilirim?",
+      "beats": [
+        "Çok geçmiş olsun. Bir sonraki boş randevu perşembe saat 9'da, size uyar mı?",
+        "Lütfen sağlık sigortası kartınızı getirin ve on dakika erken gelin. Daha önce muayenehanemize geldiniz mi?",
+        "Bugün saat 17'ye kadar hizmetinizdeyiz. Sizin için yapabileceğim başka bir şey var mı?"
+      ]
+    },
+    "train_ticket": {
+      "situation": "garda tren bileti alma",
+      "role": "gişe görevlisi",
+      "learner": "yolcu",
+      "facts": [
+        "Hamburg'a bir sonraki tren",
+        "Tek yön ücreti",
+        "Aktarma",
+        "Yolculuk süresi"
+      ],
+      "opening": "İyi günler, nereye seyahat etmek istiyorsunuz?",
+      "beats": [
+        "Hamburg'a bir sonraki tren 14:12'de 7. perondan kalkıyor. Tek yön mü, gidiş-dönüş mü istersiniz?",
+        "Tek yön bilet 29 euro. Kartla mı, nakit mi ödemek istersiniz?",
+        "Hayır, tren direkt gidiyor, aktarma yok. Ayrıca koltuk rezervasyonu da ister misiniz?"
+      ]
+    },
+    "supermarket": {
+      "situation": "süpermarket kasasında ödeme yapma",
+      "role": "kasiyer",
+      "learner": "müşteri",
+      "facts": [
+        "Poşet",
+        "Şişe başına depozito",
+        "Kartla ödeme",
+        "Depozito otomatı"
+      ],
+      "opening": "Merhaba! Poşet ister misiniz?",
+      "beats": [
+        "Poşet 20 sent. Müşteri kartıyla puan biriktiriyor musunuz?",
+        "Evet, 5 eurodan itibaren kart geçerli. Fişinizi ister misiniz?",
+        "Depozito otomatı girişte; şişe başına 25 sent geri alıyorsunuz. Depozito fişiniz var mı?"
+      ]
+    },
+    "hotel_checkin": {
+      "situation": "otele giriş yapma",
+      "role": "resepsiyonist",
+      "learner": "misafir",
+      "facts": [
+        "Oda",
+        "Kahvaltı",
+        "Wi-Fi şifresi",
+        "Çıkış"
+      ],
+      "opening": "Hoş geldiniz! Rezervasyonunuz var mı?",
+      "beats": [
+        "Tabii. İkinci katta 214 numaralı odadasınız; kimliğinizi görebilir miyim lütfen?",
+        "Kahvaltı 7 ile 10 arasında zemin katta. Wi-Fi şifresini de hemen ister misiniz?",
+        "Şifre hotelgast2026, hepsi küçük harf. Size asansörün yolunu göstereyim mi?",
+        "Çıkış saat 11'e kadar. Ayrıldığınız gün taksi ister misiniz?"
+      ]
+    },
+    "pharmacy": {
+      "situation": "eczaneden öksürük için bir şey alma",
+      "role": "eczacı",
+      "learner": "müşteri",
+      "facts": [
+        "Öksürük şurubu",
+        "Dozaj",
+        "Reçete",
+        "Açık"
+      ],
+      "opening": "İyi günler, size nasıl yardımcı olabilirim?",
+      "beats": [
+        "Evet, bir öksürük şurubu önerebilirim; 6,95 euro. Ateşiniz de var mı?",
+        "Günde üç kez bir kaşık alın, en iyisi yemeklerden sonra. Başka ilaç kullanıyor musunuz?",
+        "Hayır, öksürük şurubu reçetesiz satılıyor. Yanına boğaz pastili de ekleyeyim mi?"
+      ]
+    },
+    "restaurant_booking": {
+      "situation": "restoranda masa ayırtma",
+      "role": "garson",
+      "learner": "müşteri",
+      "facts": [
+        "Boş masa",
+        "Mutfak açık",
+        "Teras",
+        "Rezervasyon"
+      ],
+      "opening": "Restoran Linde, iyi akşamlar. Size nasıl yardımcı olabilirim?",
+      "beats": [
+        "Tabii, cumartesi saat 19'da dört kişilik bir masam hâlâ boş. 19 size uyar mı?",
+        "Mutfak saat 22'ye kadar açık, yani bol vaktiniz var. İçeride mi, terasta mı oturmak istersiniz?",
+        "Yağmur yağarsa teras maalesef kapalı oluyor; o zaman içeride bir masa alıyorsunuz. Size hangi telefon numarasından ulaşabilirim?"
+      ]
+    },
+    "directions": {
+      "situation": "belediye binasına giden yolu sorma",
+      "role": "yoldan geçen",
+      "learner": "turist",
+      "facts": [
+        "Belediye binasına giden yol",
+        "Yürüyerek",
+        "Tramvay",
+        "Bilet"
+      ],
+      "opening": "Evet? Yardımcı olabilir miyim?",
+      "beats": [
+        "Buradan dümdüz gidin, sonra ikinci sokaktan sola dönün. Yürümek mi istersiniz, yoksa tramvaya mı binmeyi tercih edersiniz?",
+        "Yürüyerek yaklaşık on dakika. Yanınızda bagaj var mı?",
+        "4 numaralı hatta binin; durak tam karşıda. Biletiniz var mı?"
+      ]
+    },
+    "late_friend": {
+      "situation": "geç kaldığın için arkadaşından özür dileme",
+      "role": "arkadaş",
+      "learner": "arkadaş",
+      "facts": [
+        "Film",
+        "Biletler",
+        "Buluşma noktası",
+        "Patlamış mısır"
+      ],
+      "opening": "Hey, neredesin? Film birazdan başlıyor!",
+      "beats": [
+        "Stres yapma, film 8'den önce başlamıyor. Sana şimdiden patlamış mısır alayım mı?",
+        "Evet, biletleri aldım bile; 8. sıradayız. Şu an tam olarak neredesin?",
+        "Seni girişte bekliyorum. İçecek bir şey de ister misin?"
+      ]
+    },
+    "taxi": {
+      "situation": "taksiye binme",
+      "role": "taksi şoförü",
+      "learner": "yolcu",
+      "facts": [
+        "Varış yeri",
+        "Yaklaşık ücret",
+        "Yolculuk süresi",
+        "Ödeme",
+        "Fiş"
+      ],
+      "opening": "Merhaba, nereye gitmek istiyorsunuz?",
+      "beats": [
+        "Tabii, Gartenstraße 12'deki Lindenhof'a. Bagaja koyacak eşyanız var mı?",
+        "Yolculuk yaklaşık 15 dakika sürer. Valizi bagaja koyayım mı?",
+        "Yaklaşık 18 euro. Nakit mi, kartla mı ödemek istersiniz?",
+        "Sorun değil, fişi sonunda alırsınız. Sizi tam otelin önünde mi bırakayım?"
+      ]
+    },
+    "cinema": {
+      "situation": "sinema bileti alma",
+      "role": "gişe görevlisi",
+      "learner": "sinema seyircisi",
+      "facts": [
+        "Film",
+        "Yetişkin bileti",
+        "Öğrenci kartıyla indirimli",
+        "Boş koltuklar",
+        "Dil"
+      ],
+      "opening": "İyi akşamlar, hangi film için bilet istiyorsunuz?",
+      "beats": [
+        "Tabii, saat 20 için iki bilet. Bir bilet 11 euro, öğrenci kartıyla 8 euro; yanınızda var mı?",
+        "Teşekkürler, o zaman iki indirimli. Nerede oturmak istersiniz, ortada 7. sıra mı, arkada 12. sıra mı?",
+        "Film Almanca, İngilizce altyazılı. Sizin için uygun mu?",
+        "Gösterim saat 20'de başlıyor. Filmin Almanca ve İngilizce altyazılı gösterildiğini biliyor muydunuz?"
+      ]
+    },
+    "return_item": {
+      "situation": "bir giysiyi iade etme",
+      "role": "tezgâhtar",
+      "learner": "müşteri",
+      "facts": [
+        "İade",
+        "Para iadesi",
+        "M beden",
+        "Hediye çeki geçerliliği"
+      ],
+      "opening": "Merhaba, yardımcı olabilir miyim?",
+      "beats": [
+        "Sorun değil; 14 gün içinde fişle birlikte geri alıyoruz. Fişiniz yanınızda mı?",
+        "İadelerde nakit değil, hediye çeki veriyoruz; çek üç yıl geçerli. Bluzu belki başka bir bedenle değiştirmeyi tercih eder misiniz?",
+        "M bedeni maalesef tükendi, ama L bedenimiz hâlâ var. L'yi denemek ister misiniz?"
+      ]
+    },
+    "bike_rental": {
+      "situation": "bisiklet kiralama",
+      "role": "kiralama görevlisi",
+      "learner": "müşteri",
+      "facts": [
+        "Fiyat",
+        "Depozito",
+        "İade",
+        "Kask"
+      ],
+      "opening": "Merhaba! Bisiklet kiralamak mı istiyorsunuz?",
+      "beats": [
+        "Bir bisiklet günlük 15 euro. Doğru bisikleti seçebilmem için boyunuz yaklaşık kaç?",
+        "Evet, depozito 50 euro, nakit ya da kart. Kask da ister misiniz?",
+        "Hayır, kask ücretsiz dahil. Nereye gitmek istediğinizi biliyor musunuz?",
+        "Lütfen bisikleti saat 19'a kadar geri getirin, o saatte kapatıyoruz. Size bir kilit de vereyim mi?"
+      ]
+    },
+    "post_office": {
+      "situation": "yurt dışına küçük koli gönderme",
+      "role": "posta görevlisi",
+      "learner": "müşteri",
+      "facts": [
+        "İspanya'ya küçük koli",
+        "Teslimat süresi",
+        "Takipli koli",
+        "Gümrük formu"
+      ],
+      "opening": "İyi günler, sizin için ne yapabilirim?",
+      "beats": [
+        "İspanya'ya küçük koli olarak 9,49 euro. İçinde kırılacak bir şey var mı?",
+        "Koli dört ila altı iş günü sürer. Takipli koli olarak göndermeyi tercih eder misiniz?",
+        "Takipli 13,99 euro; o zaman nerede olduğunu internetten görebilirsiniz. Öyle kaydedeyim mi?",
+        "Hayır, AB içinde gümrük formu gerekmiyor. Fişi basılı mı istersiniz, e-postayla mı?"
+      ]
+    },
+    "buergeramt": {
+      "situation": "vatandaşlık dairesinde adres kaydı yaptırma",
+      "role": "memur",
+      "learner": "başvuru sahibi",
+      "facts": [
+        "Kayıt",
+        "Getirilecekler",
+        "Süre",
+        "Randevu"
+      ],
+      "opening": "İyi günler, sıra sizde. Konu nedir?",
+      "beats": [
+        "Tabii, kayıt ücretsiz. Kimlik kartınız ve ev sahibi onayı yanınızda mı?",
+        "Bu, ev sahibinizin imzaladığı bir form; onsuz kayıt maalesef yapılamıyor. Online randevuyla sonradan teslim edebilir misiniz?",
+        "Taşındıktan sonra 14 gününüz var. Ne zaman taşındınız?"
+      ]
+    },
+    "hairdresser": {
+      "situation": "berbere gitme",
+      "role": "berber",
+      "learner": "müşteri",
+      "facts": [
+        "Saç kesimi",
+        "Yıkama ve kesim",
+        "Bugün boş randevu",
+        "Randevusuz bekleme",
+        "Ödeme"
+      ],
+      "opening": "Merhaba, randevunuz var mı?",
+      "beats": [
+        "Randevusuz yaklaşık 20 dakika beklersiniz ya da sizi saat 15'e yazabilirim. Hangisini tercih edersiniz?",
+        "Saç kesimi 24 euro, yıkamayla 32. Önce saçınızı yıkatmak ister misiniz?",
+        "Tamam, yanları biraz daha uzun bırakıyorum. Üstten ne kadar alalım, yaklaşık iki santim mi?",
+        "Evet, nakit ya da kartla ödeyebilirsiniz. Lütfen burada öne oturun; içecek bir şey ister misiniz?"
+      ]
+    },
+    "landlord_washing": {
+      "situation": "kapıcıya çamaşırhaneyi sorma",
+      "role": "kapıcı",
+      "learner": "kiracı",
+      "facts": [
+        "Çamaşır makinesi",
+        "Yıkama saatleri",
+        "Yıkama çizelgesi",
+        "Kurutma makinesi"
+      ],
+      "opening": "Merhaba! Siz üçüncü kattaki yeni kiracısınız, değil mi?",
+      "beats": [
+        "Bodrumda bir çamaşır makinesi var; bir yıkama bozuk parayla 2 euro. Bodrum anahtarınız var mı?",
+        "Sabah 7'den akşam 9'a kadar yıkayabilirsiniz; sonrasında binada sessizlik var. Yıkama çizelgesine yazıldınız mı?",
+        "Çizelge çamaşırhane kapısında asılı; adınızı oraya yazmanız yeterli. Kurutma makinesi de lazım mı?",
+        "Kurutma makinesi maalesef bozuk; tamir çarşamba günü geliyor. O zamana kadar kurutma askısıyla idare edebilir misiniz?"
+      ]
+    },
+    "flatmate_kitchen": {
+      "situation": "ev arkadaşınla mutfak kurallarını konuşma",
+      "role": "ev arkadaşı",
+      "learner": "yeni ev arkadaşı",
+      "facts": [
+        "Mutfak temizliği",
+        "Ortak kasa",
+        "Bulaşık makinesi",
+        "Misafirler"
+      ],
+      "opening": "Hey, gelmene çok sevindim! Her şeyi yerleştirdin mi?",
+      "beats": [
+        "Mutfağı her pazar sırayla temizliyoruz. Sana uyar mı, yoksa pazarları genelde meşgul müsün?",
+        "Evet, ortak bir kasamız var; herkes ayda 10 euro koyuyor. Senin için uygun mu?",
+        "Bulaşık makinesini akşam dolunca çalıştırıyoruz. Bu arada, yemek yapmayı sever misin?",
+        "Tabii, sadece önceden kısaca haber ver. Yarın birlikte yemek yapalım mı?"
+      ]
+    },
+    "lost_property": {
+      "situation": "kayıp eşya bürosunda kaybolan bir çantayı sorma",
+      "role": "görevli",
+      "learner": "müşteri",
+      "facts": [
+        "Teslim edilmiş",
+        "Teslim alma",
+        "Ücret",
+        "Saklama süresi"
+      ],
+      "opening": "İyi günler, ne kaybettiniz?",
+      "beats": [
+        "Dünden kalma siyah bir çanta gerçekten de bizde. Eşleştirebilmem için içinde ne vardı?",
+        "Evet, teslim almak için sadece kimliğiniz gerekiyor. Yanınızda mı?",
+        "Saklama için 5 euro ücret var. Bunun için fiş ister misiniz?"
+      ]
+    },
+    "cold_soup": {
+      "situation": "restoranda soğuk çorbadan şikâyet etme",
+      "role": "garson",
+      "learner": "müşteri",
+      "facts": [
+        "Yeni çorba",
+        "İçecek",
+        "Hesap",
+        "Bugünkü tatlı"
+      ],
+      "opening": "Her şey yolunda mı?",
+      "beats": [
+        "Çok özür dilerim; yaklaşık beş dakika içinde size taze bir çorba getiriyorum. Bu arada ikramımız olarak bir içecek getirebilir miyim?",
+        "Hayır, çorbayı elbette hesaptan düşüyoruz. Ardından bir tatlıya bakmak ister misiniz?",
+        "Bugün fırından yeni çıkmış elmalı ştrudelimiz var. Size vanilya soslu bir tane getireyim mi?"
+      ]
+    },
+    "neighbour_plants": {
+      "situation": "komşundan bitkilerini sulamasını isteme",
+      "role": "komşu",
+      "learner": "karşı dairedeki komşu",
+      "facts": [
+        "Komşunun kendisi de yok",
+        "Anahtar",
+        "Posta",
+        "Sulama"
+      ],
+      "opening": "İyi akşamlar! Bana bir şey mi soracaktınız?",
+      "beats": [
+        "Memnuniyetle, ama pazartesiden çarşambaya ben de yokum. Perşembeden itibaren sulasam yeterli olur mu?",
+        "Anahtarı en iyisi cuma günü verin; o gün zaten görüşüyoruz. Postanızı da içeri alayım mı?",
+        "Postayı koridora bırakırım, böylece hemen bulursunuz. Ne sıklıkla sulayayım, haftada iki kez mi?"
+      ]
+    },
+    "cafe_job": {
+      "situation": "bir kafede işe başvurma",
+      "role": "işletme müdürü",
+      "learner": "başvuran",
+      "facts": [
+        "Çalışma saatleri",
+        "Ücret",
+        "Deneme vardiyası",
+        "Deneyim"
+      ],
+      "opening": "Merhaba, gelmenize sevindim. Servis pozisyonuyla ilgileniyorsunuz, değil mi?",
+      "beats": [
+        "Hafta sonu için birini arıyoruz, her gün 9'dan 15'e. Zaman açısından size uyar mı?",
+        "Saatte 14 euro alırsınız, bahşiş de üstüne gelir. Daha önce serviste çalıştınız mı?",
+        "Hayır, deneyim gerekli değil; size her şeyi gösteririz. Cumartesi bir deneme vardiyası için vaktiniz olur mu?"
+      ]
+    },
+    "library": {
+      "situation": "kütüphane kartı çıkartma",
+      "role": "kütüphaneci",
+      "learner": "okuyucu",
+      "facts": [
+        "Yıllık ücret",
+        "Getirilecekler",
+        "Ödünç alma süresi",
+        "Aynı anda ödünç alınabilecek materyal",
+        "Açılış saatleri"
+      ],
+      "opening": "Merhaba, size nasıl yardımcı olabilirim?",
+      "beats": [
+        "Tabii, kimliğiniz ve bir ikamet belgesi gerekiyor. İkisi de yanınızda mı?",
+        "Yıllık ücret 20 euro, indirimli 10 euro. Sizin için bir indirim söz konusu olabilir mi?",
+        "Ödünç alma süresi 4 hafta ve iki kez uzatabilirsiniz. Kartı hemen çıkarayım mı?",
+        "Aynı anda en fazla 20 materyal ve pazartesiden cumartesiye 10'dan 19'a kadar açığız. Başka sorunuz var mı?"
+      ]
+    },
+    "dentist": {
+      "situation": "diş hekimi ziyareti",
+      "role": "diş hekimi",
+      "learner": "hasta",
+      "facts": [
+        "Şikâyet",
+        "Bulgu",
+        "Anestezi",
+        "Maliyet",
+        "Sonrası"
+      ],
+      "opening": "Merhaba, lütfen oturun. Tam olarak neresi ağrıyor?",
+      "beats": [
+        "O zaman bir bakalım, lütfen ağzınızı iyice açın. Buraya bastırınca acıyor mu?",
+        "Küçük bir çürük var, dolgu gerekiyor. Hemen bugün yapayım mı?",
+        "Endişelenmeyin, bir iğne yapılacak; yaklaşık 5 dakika sonra etkisini gösterir. Herhangi bir anestezi maddesine alerjiniz var mı?",
+        "Hayır, bunu sigorta ek ödeme olmadan karşılıyor. Sonrasında lütfen iki saat bir şey yemeyin; sorunuz var mı?"
+      ]
+    },
+    "mobile_cancel": {
+      "situation": "cep telefonu sözleşmesini feshetme",
+      "role": "müşteri hizmetleri temsilcisi",
+      "learner": "müşteri",
+      "facts": [
+        "Fesih bildirim süresi",
+        "Sözleşme bitişi",
+        "Fesih",
+        "Numarayı taşıma"
+      ],
+      "opening": "İyi günler, müşteri hizmetlerine bağlandınız. Size nasıl yardımcı olabilirim?",
+      "beats": [
+        "Bunu sizin için hazırlayabilirim. Neden feshetmek istediğinizi sorabilir miyim?",
+        "Fesih bildirim süresi bir ay, yani sözleşmeniz 31 Mart'ta sona erer. Feshi bu tarihe kaydedeyim mi?",
+        "Fesih yazılı olarak ya da online müşteri hesabınız üzerinden gelmeli; tek başına arama maalesef yeterli değil. Müşteri hesabınıza erişiminiz var mı?",
+        "Numaranızı yanınızda götürmek ücretsiz; yeni operatörünüz bunu bizden talep ediyor. E-postayla da bir onay ister misiniz?"
+      ]
+    },
+    "bank_account": {
+      "situation": "vadesiz hesap açtırma",
+      "role": "banka danışmanı",
+      "learner": "müşteri",
+      "facts": [
+        "Hesap ücreti",
+        "Getirilecekler",
+        "Banka kartı",
+        "Kredili mevduat"
+      ],
+      "opening": "İyi günler, lütfen oturun. Sizin için ne yapabilirim?",
+      "beats": [
+        "Her ay en az 700 euro yatarsa hesap ücretsiz; aksi hâlde ayda 4,90 euro. Maaşınız hesaba düzenli olarak yatacak mı?",
+        "Kimliğiniz ve güncel bir ikamet belgesi gerekiyor. İkisi de bugün yanınızda mı?",
+        "Banka kartı beş ila yedi gün içinde postayla gelir; PIN ayrı gelir. Online bankacılığın da açılmasını ister misiniz?",
+        "Maaş düzenli yatarsa üç ay sonra kredili mevduat mümkün. Bunun için şimdiden bir randevu not edeyim mi?"
+      ]
+    },
+    "garage": {
+      "situation": "tamirhaneye araba tamirini sorma",
+      "role": "tamirci",
+      "learner": "müşteri",
+      "facts": [
+        "Sorun",
+        "Maliyet",
+        "Hazır olma",
+        "Yedek araç"
+      ],
+      "opening": "İyi günler, mavi station wagon için geldiniz, değil mi?",
+      "beats": [
+        "Evet, ön frenler aşınmış; ses ondan geliyor. Son zamanlarda şehir içinde çok mu sürdünüz?",
+        "Parça ve işçilikle yaklaşık 280 euroya geliyor. Frenleri hemen yapayım mı?",
+        "Araba yarın öğleden sonra hazır olur; biter bitmez sizi ararım. O zamana kadar arabasız idare edebilir misiniz?",
+        "Maalesef şu an boş yedek araç yok; hepsi dışarıda. Size bir taksi çağırayım mı?"
+      ]
+    },
+    "hotel_noise": {
+      "situation": "otelde gürültüden şikâyet etme",
+      "role": "gece görevlisi",
+      "learner": "misafir",
+      "facts": [
+        "Gürültü",
+        "Başka oda",
+        "Telafi",
+        "Bagaj"
+      ],
+      "opening": "İyi akşamlar, sizin için ne yapabilirim?",
+      "beats": [
+        "Özür dilerim, bu yan taraftaki şantiye; çalışmalar maalesef 7'de başlıyor. Daha sessiz bir odaya geçmek ister misiniz?",
+        "Evet, beşinci kattaki 512 numaralı oda boş; sessiz tarafta. Bagajınızı taşımanıza yardım edeyim mi?",
+        "Elbette, yarınki kahvaltı bizden. Sizin için yapabileceğim başka bir şey var mı?"
+      ]
+    },
+    "sick_call": {
+      "situation": "işe hasta olduğunu bildirme",
+      "role": "ekip lideri",
+      "learner": "çalışan",
+      "facts": [
+        "Neden",
+        "Tahmini süre",
+        "Hastalık raporu",
+        "Açık randevu",
+        "Yerine bakacak kişi"
+      ],
+      "opening": "Merhaba, ben Anna. Sesin hiç iyi gelmiyor, ne oldu?",
+      "beats": [
+        "Olamaz, o zaman önce iyileş. Ne kadar süre yok olacağını düşünüyorsun?",
+        "Üçüncü günden itibaren hastalık raporu lazım; e-postayla personal@firma.de adresine göndermen yeterli. Bugün doktora gidiyor musun?",
+        "Perşembe saat 10'daki müşteri görüşmesini Sara devralacak. Ona güncel belgeleri hemen gönderebilir misin?",
+        "Evet, perşembe dönüp dönmeyeceğini çarşamba kısaca yaz. Bizden başka bir şeye ihtiyacın var mı?"
+      ]
+    },
+    "travel_centre": {
+      "situation": "seyahat merkezinde kaçırılan aktarma",
+      "role": "seyahat merkezi görevlisi",
+      "learner": "yolcu",
+      "facts": [
+        "Tren gecikmesi",
+        "Hamburg'a bir sonraki tren",
+        "Bilet",
+        "Tazminat",
+        "Form"
+      ],
+      "opening": "Merhaba, sizin için ne yapabilirim?",
+      "beats": [
+        "Üzgünüm, Hamburg'a bir sonraki tren 17:42'de 9. perondan kalkıyor. Biletinizi kısaca görebilir miyim?",
+        "Biletiniz geçerli kalıyor, tren kısıtlaması kaldırıldı. Bugün Hamburg'a kadar devam ediyor musunuz?",
+        "Varış yerinde 60 dakikadan fazla gecikmede bilet ücretinin yüzde 25'ini geri alırsınız. Yolcu hakları formunu hemen yanınıza almak ister misiniz?",
+        "Evet, gecikmeyi burada formun üzerinde onaylıyorum. Yolculuğunuzun devamıyla ilgili başka sorunuz var mı?"
+      ]
+    },
+    "job_interview": {
+      "situation": "bir lojistik şirketinde iş görüşmesi",
+      "role": "insan kaynakları müdürü",
+      "learner": "başvuran",
+      "facts": [
+        "Pozisyon",
+        "Başlangıç tarihi",
+        "Maaş",
+        "Deneme süresi",
+        "Evden çalışma"
+      ],
+      "opening": "İyi günler, gelmenize sevindik. Önce bize biraz kendinizden bahsedin – sizi bize getiren ne oldu?",
+      "beats": [
+        "Bu iyi uyuyor, çünkü tam zamanlı bir müşteri hizmetleri uzmanı arıyoruz. Bu pozisyonda sizi özellikle ne çekiyor?",
+        "Pozisyon 1 Mart'tan itibaren açık; deneme süresi altı ay. Bu tarih sizin için uygun olur mu?",
+        "Aylık brüt 3.400 euro sunuyoruz, deneme süresinden sonra buna haftada iki gün evden çalışma ekleniyor. Bu beklentilerinizle örtüşüyor mu?",
+        "Deneme süresinden sonra haftada iki gün evden çalışabilirsiniz. Bize başka sorunuz var mı?"
+      ]
+    },
+    "flat_viewing": {
+      "situation": "emlakçıyla daire gezme",
+      "role": "emlakçı",
+      "learner": "kiracı adayı",
+      "facts": [
+        "Net kira",
+        "Aidat ve giderler",
+        "Depozito",
+        "Boş olduğu tarih",
+        "Belgeler"
+      ],
+      "opening": "İyi günler, buyurun girin. Daireyi ilk bakışta nasıl buldunuz?",
+      "beats": [
+        "Net kira 890 euro, buna ayda 180 euro aidat ve giderler ekleniyor, ısınma dahil. Bütçenize uyuyor mu?",
+        "Depozito üç aylık kira. Ne zamandan itibaren taşınmak istersiniz?",
+        "Daire 1 Temmuz'dan itibaren boş. Hemen başvurmak ister misiniz?",
+        "Son üç aya ait maaş bordrolarınız ve mevcut ev sahibinizden kira borcunuz olmadığına dair bir belge gerekiyor. Belgeleri bana e-postayla gönderebilir misiniz?"
+      ]
+    },
+    "utility_bill": {
+      "situation": "telefonla elektrik faturasından şikâyet etme",
+      "role": "müşteri hizmetleri temsilcisi",
+      "learner": "müşteri",
+      "facts": [
+        "Ek ödeme",
+        "Neden",
+        "Yeniden hesaplama",
+        "Süre",
+        "Müşteri numarası"
+      ],
+      "opening": "Belediye işletmeleri müşteri hizmetleri, günaydın. Sizin için ne yapabilirim?",
+      "beats": [
+        "Buna memnuniyetle bakarım. Sizden bir sayaç okuması gelmediği için tahmini sayaç değerine dayanan 412 euroluk bir ek ödeme görüyorum. Müşteri numaranızı söyleyebilir misiniz lütfen?",
+        "Aynen, sayaç değeri tahmin edilmiş. Güncel değeri bana bildirirseniz fatura yeniden hesaplanır. Sayaç şu anda elinizin altında mı?",
+        "Hayır, ödeme yeniden hesaplamaya kadar askıya alındı ve dört hafta içinde itiraz edebilirsiniz. Onayı size e-postayla göndereyim mi?"
+      ]
+    },
+    "immigration_office": {
+      "situation": "oturma izni uzatmak için göçmenlik dairesinde randevu",
+      "role": "dosya memuru",
+      "learner": "başvuran",
+      "facts": [
+        "Amaç",
+        "Eksik belgeler",
+        "Ücret",
+        "İşlem süresi",
+        "Geçici belge"
+      ],
+      "opening": "Günaydın, oturma izninizi uzatmak için randevunuz var. Pasaportunuz ve başvurunuz yanınızda mı?",
+      "beats": [
+        "Teşekkürler. Çalışma amaçlı oturma izninin uzatılması için kira sözleşmesi ve güncel bir sağlık sigortası belgesi daha gerekiyor. Bu iki belgeyi sonradan teslim edebilir misiniz?",
+        "Ücret 98 euro ve zemin kattaki otomatta ödeniyor. Görüşmemizden hemen sonra halletmek ister misiniz?",
+        "İşlem yaklaşık altı hafta sürüyor. O zamana kadar bugün, karar verilene dek geçerli bir geçici belge alıyorsunuz. Hemen yazdırayım mı?",
+        "Geçici belge karar verilene kadar geçerli, yani mevcut haklarınız korunuyor. Süreçle ilgili başka sorunuz var mı?"
+      ]
+    },
+    "parcel_complaint": {
+      "situation": "telefonla hasarlı bir teslimattan şikâyet etme",
+      "role": "müşteri hizmetleri temsilcisi",
+      "learner": "müşteri",
+      "facts": [
+        "Sipariş numarası",
+        "Hasar",
+        "Seçenekler",
+        "İade",
+        "Jest"
+      ],
+      "opening": "Müşteri hizmetleri, merhaba. Size nasıl yardımcı olabilirim?",
+      "beats": [
+        "Bunun için çok üzgünüm. Kaydı açabilmem için sipariş numaranızı söyleyebilir misiniz lütfen?",
+        "Teşekkürler, 771325 numaralı siparişi buldum. Size üç iş günü içinde değişim ya da para iadesi sunabilirim. Hangisini tercih edersiniz?",
+        "İade gerekmiyor; hasarın bir fotoğrafı bize yeter. Fotoğrafı servis adresimize gönderebilir misiniz?",
+        "Elbette, özür olarak bir sonraki siparişiniz için 10 euroluk bir hediye çeki alacaksınız. Sizin için yapabileceğim başka bir şey var mı?"
+      ]
+    },
+    "flat_handover": {
+      "situation": "daire teslimi ve depozito",
+      "role": "bina yöneticisi",
+      "learner": "kiracı",
+      "facts": [
+        "Depozito",
+        "İade",
+        "Olası kesinti",
+        "Tutanaktaki kusurlar",
+        "Sayaç değerleri",
+        "Anahtarlar"
+      ],
+      "opening": "Merhaba, o zaman daireyi birlikte gezelim. Tüm anahtarlar yanınızda mı?",
+      "beats": [
+        "Tutanağa sayaç değerleri, elektrik 45210 ve su 812, anahtarlar ve tüm kusurlar giriyor. Oturma odasındaki matkap deliklerini kapattınız mı?",
+        "Bunu hemen giriş tutanağından kontrol ediyorum; o zaman çizikleri önceden mevcut olarak kaydederiz. İkisini de fotoğraflamamızı kabul ediyor musunuz?",
+        "1800 euroluk depozitoyu teslimden sonraki altı hafta içinde iade ediyoruz. Havale hangi hesaba yapılsın?",
+        "Bir kısmını aidat ve gider hesaplaşmasına kadar tutabiliriz; geri kalanı altı hafta içinde gelir. Tutanağı şimdi mi imzalamak istersiniz, yoksa önce sakin sakin okumak mı?"
+      ]
+    },
+    "internet_hotline": {
+      "situation": "internet kesintisini destek hattına bildirme",
+      "role": "destek hattı görevlisi",
+      "learner": "müşteri",
+      "facts": [
+        "Müşteri numarası",
+        "Kesintinin başlangıcı",
+        "Arıza",
+        "Kayıt numarası",
+        "Gerekirse teknisyen randevusu",
+        "Geçici çözüm"
+      ],
+      "opening": "Merhaba, müşteri hizmetleri. Müşteri numaranız nedir?",
+      "beats": [
+        "Teşekkürler, hattınız önümde. Modemdeki DSL ışığı kırmızı mı yanıyor, yoksa yanıp sönüyor mu?",
+        "O zaman sorun sizde değil: sokaktaki dağıtım kutusunda bilinen bir arıza var ve onarım yarın saat 12'ye kadar planlandı. O zamana kadar bir alternatife ihtiyacınız var mı?",
+        "Size ücretsiz 10 GB LTE internet açıyorum; erişim kodunu SMS'le alacaksınız. Hemen yapayım mı?",
+        "O zaman ST-2093 kayıt numarasıyla tekrar arayın, cuma 8 ile 12 arasında bir teknisyen göndeririz. Bu zaman aralığı size uyar mı?"
+      ]
+    },
+    "salary_negotiation": {
+      "situation": "yıllık görüşmede maaş pazarlığı",
+      "role": "bölüm müdiresi",
+      "learner": "çalışan",
+      "facts": [
+        "Hareket alanı",
+        "Daha fazlası için koşul",
+        "Geçerlilik tarihi",
+        "Alternatif",
+        "Sonraki adım"
+      ],
+      "opening": "Buna zaman ayırmamız iyi oldu. Maaşınız hakkında konuşmak istediğinizi belirtmiştiniz – nereden başlamak istersiniz?",
+      "beats": [
+        "Performansınız tartışmasız, ben de aynı şekilde görüyorum. Ancak bu yıl hareket alanımız en fazla yüzde 5 – siz nasıl bir büyüklük düşünmüştünüz?",
+        "Daha fazlası ancak yeni müşteri portalının proje liderliğini üstlenmeniz hâlinde düşünülebilir. Bunu yapabileceğinizi düşünüyor musunuz?",
+        "Düzenleme, bütçe onaylanır onaylanmaz 1 Temmuz'dan itibaren geçerli olur. Bu sizin için kabul edilebilir mi?",
+        "Alternatif olarak size bir ek izin günü ve 1.500 euroluk bir eğitim bütçesi sunabilirim. Her ikisini de hafta sonuna kadar yazılı olarak hazırlayayım mı?"
+      ]
+    },
+    "rent_increase": {
+      "situation": "kira artışı nedeniyle kiracılar derneğinde danışma",
+      "role": "kiracılar derneğinin danışmanı",
+      "learner": "kiracı",
+      "facts": [
+        "Artış üst sınırı",
+        "Şekil şartı",
+        "Kira endeksi",
+        "Onay süresi",
+        "Üyelik aidatı"
+      ],
+      "opening": "İyi günler, buyurun oturun. Demek ev sahibinizden bir mektup aldınız – tam olarak nasıl bir artıştan söz ediyoruz?",
+      "beats": [
+        "Bu, üst sınırı aşıyor gibi görünüyor, çünkü bu şehirde kira üç yıl içinde en fazla yüzde 15 artabilir. Son artış ne zamandı?",
+        "Hayır, bir artışın yazılı olarak gerekçelendirilmesi gerekir, örneğin kira endeksiyle ya da benzer dairelerle; aksi hâlde geçersizdir. Mektup yanınızda mı?",
+        "Kira endeksine göre bulunduğunuz konum için yerel emsal kira metrekare başına 9,80 euro. Şu anda ne kadar ödüyorsunuz?",
+        "Onayınızı ancak gelecek aydan sonraki ayın sonuna kadar vermeniz gerekiyor; o zamana kadar mektubu inceleyeceğiz. Üyelik yılda 90 euro, hukuki koruma dâhil – bugün üye olmak ister misiniz?"
+      ]
+    },
+    "town_hall_traffic": {
+      "situation": "yeni trafik planıyla ilgili halk toplantısı",
+      "role": "belediyenin trafik planlamacısı",
+      "learner": "mahalle sakini",
+      "facts": [
+        "Trafik yavaşlatma",
+        "Park yerleri",
+        "Otobüs seferleri",
+        "Zaman planı",
+        "İtirazlar"
+      ],
+      "opening": "İyi akşamlar, bu kadar kalabalık geldiğiniz için teşekkürler. Birazdan planı sunacağım – öncesinde sakinlerden bir soru var mı?",
+      "beats": [
+        "Memnuniyetle: plan, mahalledeki tüm sokaklarda 30 km/sa sınırı ve okulların önünde daha geniş kaldırımlar öngörüyor. Özellikle hangi sokağı kastediyorsunuz?",
+        "120 park yerinin kalkacağı doğru; buna karşılık istasyonda mahalleye yönelik katlı bir otopark yapılacak. Böyle bir seçeneği kullanır mıydınız?",
+        "Evet, 7 numaralı hat gelecekte hafta sonları da dâhil her on dakikada bir çalışacak. Bu, yolculuklarınız için yeterli olur muydu?",
+        "İnşaata ilkbaharda başlanması planlanıyor ve çalışmalar yaklaşık 18 ay sürecek. Planlama dairesi yazılı itirazları 30 Eylül'e kadar kabul ediyor – formu yanınıza vermemi ister misiniz?"
+      ]
+    },
+    "press_interview_study": {
+      "situation": "kendi araştırman hakkında gazete röportajı",
+      "role": "gazeteci",
+      "learner": "baş araştırmacı",
+      "facts": [
+        "Bölüm ve baskı",
+        "Yazının uzunluğu",
+        "Alıntı onayı",
+        "Karşı görüş",
+        "Fotoğraf çekimi"
+      ],
+      "opening": "Zaman ayırdığınız için teşekkürler. Araştırmayla ilgili sorulara geçmeden önce görüşmenin çerçevesi hakkında bir şey öğrenmek ister misiniz?",
+      "beats": [
+        "Cumartesi baskısının bilim sayfası planlanıyor. Temel bulguları hemen başta netleştirsek sizin için uygun olur mu?",
+        "Yaklaşık 6.000 karakterimiz var, buna ek olarak yönteme ilişkin bir bilgi kutusu. Verilerinizin hangi sınırlılığı orada kesinlikle eksik olmamalı?",
+        "Elbette, birebir alıntıları onayınız için size göndereceğim, ancak geri dönüşünüze perşembe saat 12'ye kadar ihtiyacım var. Bu yetişir mi?",
+        "Evet, Bremen Üniversitesi'nden bir istatistikçi eleştirel bir değerlendirmeyle söz alacak. Buna görüşme sırasında şimdiden yanıt vermek ister misiniz?",
+        "Hemen ardından iç avluda birkaç fotoğraf çekeceğiz, bu yaklaşık 15 dakika sürer. Zaman açısından size uyar mı?"
+      ]
+    },
+    "publishing_contract": {
+      "situation": "kurgu dışı bir kitap için yayın sözleşmesi pazarlığı",
+      "role": "editör",
+      "learner": "yazar",
+      "facts": [
+        "Avans",
+        "Telif",
+        "Teslim tarihi",
+        "Yan haklar",
+        "Başlık kararı"
+      ],
+      "opening": "Gelmenize sevindik, kitabı sabırsızlıkla bekliyoruz. Sözleşme taslağı yanımda – neyle başlamak istersiniz, telifle mi, zaman planıyla mı?",
+      "beats": [
+        "4.000 euroluk bir avans öneriyoruz; iki taksitte, sözleşme imzalanırken ve metin teslim edilirken ödenir. Bu beklentilerinizle örtüşüyor mu?",
+        "Bizde olağan oran net etiket fiyatının yüzde 10'udur; satılan 5.000 adetten itibaren oran yüzde 12'ye çıkar. Bu kademelendirmeye bir itirazınız olur mu?",
+        "Kitabın sonbahar programında çıkabilmesi için metnin 31 Mart'a kadar teslim edilmesini bekliyoruz. Bu zaman planı sizin için gerçekçi mi?",
+        "Sesli kitap ve e-kitap hakları yayınevinde olur, yabancı dildeki baskıların hakları sizde kalır. Bu sizin açınızdan kabul edilebilir mi?",
+        "Kitabın adını birlikte belirliyoruz, ancak son söz yayınevinin. Bu düzenlemeyi kabullenebilir misiniz?"
+      ]
+    },
+    "tax_office_objection": {
+      "situation": "vergi dairesinde bir vergi ihbarnamesine itiraz",
+      "role": "dosya memuru",
+      "learner": "vergi mükellefi",
+      "facts": [
+        "Farkın nedeni",
+        "İtiraz süresi",
+        "Belgelerin sunulması",
+        "Yürütmenin durdurulması",
+        "İşlem süresi"
+      ],
+      "opening": "İyi günler, vergi ihbarnameniz hakkında bir görüşme talep etmiştiniz. Sizin için öncelikli olan ne, ek ödeme mi yoksa ihbarnamenin gerekçesi mi?",
+      "beats": [
+        "Yol giderlerinin yalnızca yarısı kabul edildi, çünkü yılın ikinci yarısına ait belgeler eksik. Bu belgeler artık elinizde mi?",
+        "İtiraz süresi ihbarnamenin tebliğinden itibaren bir aydır, yani sizin durumunuzda 14 Mayıs'a kadar. İtirazı bugün tutanağa geçirmek ister misiniz?",
+        "En kolayı ELSTER çevrimiçi portalı üzerinden, ama posta yoluyla da gönderebilirsiniz; yeter ki süre dolmadan ulaşsınlar. Portala erişiminiz var mı?",
+        "İtiraz tek başına ödemeyi ertelemez, ancak yürütmenin durdurulmasını talep edebilirsiniz; o zaman 1.240 euroluk ek ödeme karara kadar ertelenir. Başvuruyu hemen ekleyeyim mi?",
+        "Deneyimlerimize göre belgelerin ulaşmasından sonra yaklaşık altı ila sekiz hafta. Alındı teyidini size posta yoluyla mı yoksa elektronik olarak mı göndereyim?"
+      ]
+    }
+  },
+  "rules": {
+    "age": "Yaş 'sein' artı 'alt' ile söylenir.",
+    "impersonal-dative": "Bedensel duyumlar ve kendini iyi hissetme, -e halinde bir deneyimleyen alır: mir ist kalt, mir geht es gut.",
+    "preposition-case": "Hali edat belirler: aus, bei, mit, nach, von ve zu -e hali alır.",
+    "tense-seit": "Hâlâ süren şey 'seit' ile şimdiki zamandadır; 'seit' -e hali alır: seit drei Jahren.",
+    "accusative-object": "Doğrudan nesne -i halindedir; eril artikeller orada -en ile biter: einen Hund, meinen Freund.",
+    "place-preposition": "Yön ve konum farklı kelimeler kullanır: nach Hause / zu Hause, wohin / wo, nach Berlin / in die Schweiz.",
+    "bracket": "Ortaç, mastar ve ayrılabilen ön ek cümleyi kapatır; nesneler ve tümleçler onlardan önce, fiil parantezinin içinde gelir.",
+    "noun-gender": "Artikel ve ek, ismin cinsine uyar: der Name, die Idee, das Ergebnis.",
+    "idiom": "Bu kalıplaşmış bir ifadedir; İngilizceden kelimesi kelimesine çevrilmez.",
+    "negation": "Yalnızca bir kez olumsuzla: 'nicht' nesneden sonra gelir ve artikelsiz bir isim 'kein' ile olumsuzlanır.",
+    "dative-verb": "helfen, danken, zustimmen ve erklären (kişi) gibi fiiller -e hali alır: mir, dir, meinem Bruder.",
+    "verb-second": "Ana cümlede çekimli fiil ikinci sıradadır, dann, deswegen ya da desto'dan sonra da.",
+    "verb-final": "dass, weil, wenn, ob, bir soru kelimesi ya da bir ilgi zamiriyle kurulan yan cümlede çekimli fiil sona gider.",
+    "da-compound": "Bir dass- ya da mastar cümlesinden önce edatlı nesne bir da- bileşiğine dönüşür: darauf, dafür, darüber.",
+    "verb-preposition": "Fiil ve edat, çevrilmeyen sabit bir ikili oluşturur: warten auf, Angst vor, sich bewerben um, sich beschäftigen mit.",
+    "comparison": "Komparativ -er alır ve 'als' ile karşılaştırır; 'mehr' ve 'wie' buraya ait değildir. Eşitlik: so … wie.",
+    "konjunktiv-2": "Dilekler ve gerçek dışı koşullar Konjunktiv II kullanır: isimden önce 'hätte gern', mastardan önce 'würde gern', 'würde haben' ve 'würde sein' yerine 'hätte' ve 'wäre'.",
+    "konjunktiv-1": "Dolaylı anlatım Konjunktiv I kullanır (sei, habe, komme), Konjunktiv II değil; dass yan cümlesinde fiil sona gider.",
+    "infinitive-form": "Kiplik fiiller ve 'lassen' yalın mastar alır (Perfekt'te de: musste, schneiden lassen), diğer fiiller 'zu' + mastar; 'worden' ya da 'wird' gibi ikinci bir yardımcı fiil düşer.",
+    "word-choice": "Farklı bir kelime gerekiyor; İngilizce anlam doğrudan aktarılmaz: interessant, wissen, sich lohnen, sinnvoll.",
+    "tekamolo": "Tümleçler zaman, neden, tarz, yer sırasını izler (TeKaMoLo).",
+    "relative-pronoun": "İlgi zamiri cinsini isimden, halini ise ilgi cümlesindeki fiilden ya da edattan alır: der Mann, den ich sah; die Frage, auf die ich keine Antwort habe.",
+    "redundancy": "Tek bir bağlayıcı yeterlidir: aber'siz obwohl, aber'siz einerseits, im Anhang'sız anbei, aus diesem Grund'suz deshalb.",
+    "conjunction-choice": "'obwohl' bir yan cümle, 'trotzdem' bir ana cümle açar; 'Der Grund ist'ten sonra 'weil' değil, 'dass' kullanılır.",
+    "reflexive": "Fiil dönüşlüdür: sich entscheiden, sich erinnern an, sich konzentrieren auf, sich beeilen, sich erkälten.",
+    "fronted-adverbial": "Başa alınan bir tümleç birinci sırayı doldurur: fiil hemen ardından gelir, virgül olmadan.",
+    "genitive": "'wegen', 'trotz' ve 'während' -in hali alır (wegen des Regens); 'der Meinung sein' -in halindedir.",
+    "agreement": "Fiil ve ekler özneye uyar: 'die Anzahl' tekildir (hat); isminden önce gelen sıfat uygun eki alır (die geplanten Maßnahmen).",
+    "clause-form": "'damit einverstanden sein'den sonra mastar değil, çekimli fiilli bir dass yan cümlesi gelir: …, dass die Gebühren erhöht werden.",
+    "passive": "Edilgen tek bir yardımcı fiil alır: Präteritum 'wurden … geschlossen' ya da Perfekt 'sind … geschlossen worden', ikisi birden değil.",
+    "style-chain": "dass- ve was- yan cümlesi zincirleri hantaldır; isim öbekli ya da 'und damit'li tek bir ana cümle bunu daha kısa söyler."
+  },
+  "ruleTitles": {
+    "verb-second": "Fiil ikinci sırada",
+    "verb-final": "Fiil sona gider",
+    "preposition-case": "Hali edat belirler",
+    "accusative-preposition": "Edat -i hali alır",
+    "two-way-preposition": "Nerede mi, nereye mi?",
+    "accusative-object": "Doğrudan nesne -i halinde",
+    "perfekt-auxiliary": "Perfekt: haben mi, sein mi",
+    "tense-seit": "seit ile şimdiki zaman",
+    "noun-gender": "İsmin cinsi",
+    "negation": "kein ile olumsuzlama",
+    "bracket": "Fiil parantezi",
+    "dative-verb": "-e hali alan fiil",
+    "capitalisation": "İsimler büyük harfle başlar",
+    "age": "Yaşını söylemek",
+    "impersonal-dative": "Nasıl hissettiğin: mir ist …",
+    "place-preposition": "Nerede mi, nereye mi?"
+  },
+  "lexicon": {
+    "Abend": "akşam",
+    "Abholzung": "ormansızlaştırma",
+    "Abhängigkeit": "bağımlılık",
+    "Abitur": "lise bitirme sınavı",
+    "Abkürzung": "kısaltma",
+    "Abreise": "ayrılış, yola çıkış",
+    "Absage": "ret, olumsuz yanıt",
+    "Abschiedsparty": "veda partisi",
+    "Abschluss": "diploma, mezuniyet",
+    "Absteige": "köhne otel, döküntü yer",
+    "Achtung": "saygı",
+    "Adventskranz": "Advent çelengi",
+    "Aktie": "hisse senedi",
+    "Allegorie": "alegori",
+    "Allergie": "alerji",
+    "Altersgrenze": "yaş sınırı",
+    "Analogie": "analoji, benzeşim",
+    "Anbeginn": "başlangıç",
+    "Anerkennung": "takdir",
+    "Anmeldeformular": "kayıt formu",
+    "Anmeldung": "kayıt",
+    "Anrede": "hitap",
+    "Anreise": "varış, geliş",
+    "Antibiotikum": "antibiyotik",
+    "Anzug": "takım elbise",
+    "Anästhesie": "anestezi",
+    "App": "uygulama",
+    "Arbeit": "iş, çalışma",
+    "Arbeitserlaubnis": "çalışma izni",
+    "Arbeitsplatz": "iş yeri",
+    "Arbeitsumfeld": "çalışma ortamı",
+    "Arbeitsvertrag": "iş sözleşmesi",
+    "Archiv": "arşiv",
+    "Arm": "kol",
+    "Artenschutz": "türlerin korunması",
+    "Artikulation": "artikülasyon",
+    "Arzt": "doktor",
+    "Arzthelferin": "tıbbi asistan",
+    "Arzttermin": "doktor randevusu",
+    "Assistent": "asistan",
+    "Assistentin": "asistan",
+    "Atom": "atom",
+    "Attraktion": "cazibe merkezi, atraksiyon",
+    "Aufbau": "yapı, kuruluş",
+    "Aufenthaltsgenehmigung": "oturma izni",
+    "Aufgabe": "görev",
+    "Aufklärung": "Aydınlanma",
+    "Aufrichtigkeit": "içtenlik, samimiyet",
+    "Aufsatz": "kompozisyon, deneme",
+    "Auftreten": "ortaya çıkma",
+    "Aufzug": "asansör",
+    "Auge": "göz",
+    "Augenbraue": "kaş",
+    "Ausbildung": "meslek eğitimi",
+    "Ausgangssprache": "kaynak dil",
+    "Ausgleich": "denge, telafi",
+    "Auslandspraktikum": "yurt dışı stajı",
+    "Ausrede": "bahane",
+    "Ausrichtung": "yönelim",
+    "Ausrottung": "yok olma, kökünü kurutma",
+    "Ausrüstung": "donanım, ekipman",
+    "Aussehen": "görünüş",
+    "Ausstellungsbehörde": "düzenleyen makam",
+    "Ausstellungsort": "düzenlenme yeri",
+    "Auswirkung": "etki",
+    "Autokratie": "otokrasi",
+    "Automat": "otomat, bilet makinesi",
+    "Automatisierung": "otomasyon",
+    "Außenwerbung": "açık hava reklamı",
+    "Backware": "unlu mamul",
+    "Badeanzug": "mayo",
+    "Badehose": "erkek mayosu, deniz şortu",
+    "Badewanne": "küvet",
+    "Bahnhof": "tren garı",
+    "Balkendiagramm": "çubuk grafik",
+    "Balkon": "balkon",
+    "Bargeld": "nakit",
+    "Bart": "sakal",
+    "Bauch": "karın",
+    "Baustelle": "şantiye",
+    "Befreiung": "kurtuluş, özgürleşme",
+    "Begierde": "arzu",
+    "Begrenzung": "sınırlama",
+    "Bein": "bacak",
+    "Beitrag": "katkı",
+    "Beleg": "belge, fiş",
+    "Bequemlichkeit": "rahatlık",
+    "Beruf": "meslek",
+    "Berufserfahrung": "iş deneyimi",
+    "Berufsschule": "meslek okulu",
+    "Berufstherapeut": "ergoterapist",
+    "Beschäftigung": "istihdam, uğraş",
+    "Besprechung": "toplantı",
+    "Betriebsunfall": "iş kazası",
+    "Bewegungslinie": "hareket çizgisi",
+    "Bewerbung": "başvuru",
+    "Bewerbungsverfahren": "başvuru süreci",
+    "Bewertung": "değerlendirme, yorum",
+    "Bewässerung": "sulama",
+    "Bier": "bira",
+    "Biodiversität": "biyoçeşitlilik",
+    "Bioladen": "organik ürün dükkânı",
+    "Blaubeere": "yaban mersini",
+    "Blick": "bakış, manzara",
+    "Blindenhund": "rehber köpek",
+    "Blume": "çiçek",
+    "Bluse": "bluz",
+    "Bodenerosion": "toprak erozyonu",
+    "Botanik": "botanik",
+    "Botschaft": "mesaj",
+    "Bourgeoisie": "burjuvazi",
+    "Brainteaser": "zekâ sorusu",
+    "Bratwurst": "ızgara sosis",
+    "Brauch": "gelenek, âdet",
+    "Brauchtum": "gelenekler",
+    "Brautkleid": "gelinlik",
+    "Brett": "tahta",
+    "Brettspiel": "kutu oyunu",
+    "Brezel": "brezel",
+    "Brief": "mektup",
+    "Briefanfang": "mektup girişi",
+    "Briefende": "mektup sonu",
+    "Briefkopf": "antet",
+    "Briefumschlag": "zarf",
+    "Brot": "ekmek",
+    "Brotteller": "ekmek tabağı",
+    "Bruchbude": "harabe, döküntü ev",
+    "Bruchteil": "kesir",
+    "Bruttoinlandsprodukt": "gayrisafi yurt içi hasıla (GSYH)",
+    "Brüderlichkeit": "kardeşlik",
+    "Buchhaltung": "muhasebe",
+    "Budget": "bütçe",
+    "Bushaltestelle": "otobüs durağı",
+    "Büro": "ofis, büro",
+    "Bürokratie": "bürokrasi",
+    "Cartoon": "karikatür, çizgi film",
+    "Chef": "patron, şef",
+    "Computerspiel": "bilgisayar oyunu",
+    "Containern": "çöpten yiyecek toplama",
+    "Couchsurfing": "couchsurfing",
+    "Croissant": "kruvasan",
+    "Cyberaktivismus": "siber aktivizm",
+    "Date": "buluşma, randevu",
+    "Datenmenge": "veri miktarı",
+    "Datensatz": "veri kaydı",
+    "Dauer": "süre",
+    "Debatte": "tartışma, münazara",
+    "Dekoration": "dekorasyon",
+    "Demographie": "demografi",
+    "Demokratie": "demokrasi",
+    "Diagnose": "tanı, teşhis",
+    "Dialekt": "lehçe, ağız",
+    "Digitalisierung": "dijitalleşme",
+    "Ding": "şey",
+    "Diskriminierung": "ayrımcılık",
+    "Diversität": "çeşitlilik",
+    "Dokumentarfilm": "belgesel",
+    "Dose": "konserve kutusu, kutu",
+    "Drache": "ejderha",
+    "Drohne": "dron",
+    "Durchbruch": "atılım, çığır",
+    "Durchführung": "uygulama, gerçekleştirme",
+    "Durchsetzung": "yürürlüğe koyma, uygulatma",
+    "Dürre": "kuraklık",
+    "Echtzeit": "gerçek zaman",
+    "Eigenschaft": "özellik",
+    "Eigentum": "mülk, mülkiyet",
+    "Einbauküche": "ankastre mutfak",
+    "Eindruck": "izlenim",
+    "Einhaltung": "uyum (kurallara)",
+    "Einladung": "davet",
+    "Einleitung": "giriş",
+    "Einleitungssatz": "giriş cümlesi",
+    "Einrichtungsstil": "dekorasyon tarzı",
+    "Einsamkeit": "yalnızlık",
+    "Einschränkung": "kısıtlama",
+    "Einsprachigkeit": "tek dillilik",
+    "Einstellung": "işe alım",
+    "Einwand": "itiraz",
+    "Einwohnerin": "sakin, oturan (kadın)",
+    "Einwohnermeldeamt": "nüfus kayıt dairesi",
+    "Einzelkind": "tek çocuk",
+    "Elterngeneration": "ebeveyn kuşağı",
+    "Elternschaft": "ebeveynlik",
+    "Emoji": "emoji",
+    "Empathie": "empati",
+    "Empfang": "resepsiyon, karşılama",
+    "Empörung": "infial",
+    "Ende": "son",
+    "Energieerzeugung": "enerji üretimi",
+    "Energieversorgung": "enerji arzı",
+    "Entdeckung": "keşif",
+    "Entstehung": "ortaya çıkış, oluşum",
+    "Entwaldung": "ormansızlaşma",
+    "Epoche": "çağ",
+    "Erdbeere": "çilek",
+    "Erderwärmung": "küresel ısınma",
+    "Erdgeschoss": "zemin kat, giriş katı",
+    "Erfahrung": "deneyim, tecrübe",
+    "Erfindung": "icat, buluş",
+    "Ergebnis": "sonuç",
+    "Erlebnis": "yaşantı, deneyim",
+    "Erleichterung": "rahatlama, kolaylaştırma",
+    "Ernte": "hasat",
+    "Ernährungsplan": "beslenme planı",
+    "Erstsprache": "birinci dil",
+    "Erwachsenenalter": "yetişkinlik",
+    "Essgewohnheit": "yeme alışkanlığı",
+    "Ethik": "etik",
+    "Ethnie": "etnik grup",
+    "Etymologie": "etimoloji, köken bilimi",
+    "Fachhochschule": "uygulamalı bilimler yüksekokulu",
+    "Fachkräftemangel": "nitelikli işgücü açığı",
+    "Fachoberschule": "meslek lisesi",
+    "Fahrrad": "bisiklet",
+    "Fahrt": "yolculuk, sürüş",
+    "Familienstand": "medeni durum",
+    "Fangfrage": "tuzak soru",
+    "Fantasie": "hayal gücü, fantezi",
+    "Fassade": "cephe",
+    "Faszination": "büyülenme",
+    "Feedback": "geri bildirim",
+    "Feierabend": "iş çıkışı, mesai sonu",
+    "Feierabendbier": "iş çıkışı birası",
+    "Feingefühl": "incelik, hassasiyet",
+    "Ferienhaus": "tatil evi",
+    "Ferienort": "tatil yöresi",
+    "Ferienwohnung": "tatil dairesi",
+    "Fernsehprogramm": "televizyon programı, yayın akışı",
+    "Fernsehwerbespot": "televizyon reklamı",
+    "Fernunterricht": "uzaktan eğitim",
+    "Fernweh": "uzaklara gitme özlemi",
+    "Film": "film",
+    "Fingerspitzengefühl": "ince sezgi",
+    "Firma": "şirket, firma",
+    "Flagge": "bayrak",
+    "Flaute": "durgunluk, kriz",
+    "Flohmarkt": "bit pazarı",
+    "Floß": "sal",
+    "Flucht": "kaçış",
+    "Fluchtweg": "kaçış yolu",
+    "Flughafen": "havalimanı",
+    "Flur": "koridor, hol",
+    "Form": "biçim",
+    "Fortbildung": "hizmet içi eğitim, ileri eğitim",
+    "Fortschritt": "ilerleme",
+    "Fortsetzung": "devam",
+    "Freibad": "açık yüzme havuzu",
+    "Freizeit": "boş zaman",
+    "Fremdsprache": "yabancı dil",
+    "Fruchtbarkeit": "verimlilik, doğurganlık",
+    "Frühbucherrabatt": "erken rezervasyon indirimi",
+    "Frühling": "ilkbahar",
+    "Fuß": "ayak",
+    "Fußballspiel": "futbol maçı",
+    "Fußgängerzone": "yaya bölgesi",
+    "Fähigkeit": "yetenek",
+    "Führerschein": "ehliyet",
+    "Füllwort": "dolgu kelimesi",
+    "Gang": "koridor, reyon arası",
+    "Garage": "garaj",
+    "Garten": "bahçe",
+    "Gartenzaun": "bahçe çiti",
+    "Gast": "misafir, konuk",
+    "Gattung": "cins",
+    "Geburt": "doğum",
+    "Gebühr": "ücret, harç",
+    "Geduld": "sabır",
+    "Gedöns": "ıvır zıvır",
+    "Gefahr": "tehlike",
+    "Gefährdung": "tehlikeye atılma, tehdit",
+    "Gegenseitigkeit": "karşılıklılık",
+    "Gegenwart": "şimdiki zaman, bugün",
+    "Gegenwehr": "direniş",
+    "Gehalt": "maaş",
+    "Gehaltsvorschlag": "maaş teklifi",
+    "Gehaltsvorstellung": "maaş beklentisi",
+    "Geist": "ruh",
+    "Gelegenheitsjob": "geçici iş",
+    "Gemeinschaft": "topluluk",
+    "Gemeinschaftsraum": "ortak alan",
+    "Genom": "genom",
+    "Gericht": "yemek",
+    "Geruch": "koku",
+    "Gerät": "cihaz, alet",
+    "Gesamtschule": "birleşik okul",
+    "Geschenkesystem": "hediye sistemi",
+    "Geschicklichkeit": "beceri",
+    "Geschmack": "tat, zevk",
+    "Geschmacksrichtung": "aroma, tat çeşidi",
+    "Gesicht": "yüz",
+    "Gesichtsausdruck": "yüz ifadesi",
+    "Gestik": "el kol hareketleri",
+    "Girokonto": "vadesiz hesap",
+    "Gitarre": "gitar",
+    "Globalisierung": "küreselleşme",
+    "Glück": "şans, mutluluk",
+    "Glücksspiel": "şans oyunu",
+    "Glühwein": "sıcak şarap",
+    "Goldmedaille": "altın madalya",
+    "Gramm": "gram",
+    "Grausamkeit": "zulüm",
+    "Grenze": "sınır",
+    "Grundriss": "kat planı",
+    "Grundschule": "ilkokul",
+    "Grundsteuer": "emlak vergisi",
+    "Grundstück": "arsa, arazi",
+    "Gruppendynamik": "grup dinamiği",
+    "Grußformel": "selamlama kalıbı",
+    "Gymnasium": "lise (Gymnasium)",
+    "Gültigkeitsdatum": "son geçerlilik tarihi",
+    "Hals": "boyun, boğaz",
+    "Haltestelle": "durak",
+    "Hamsterrad": "kısır döngü",
+    "Hand": "el",
+    "Handwerk": "zanaat, el sanatı",
+    "Hashtag": "hashtag, etiket",
+    "Hauptschule": "temel ortaokul (Hauptschule)",
+    "Hauptteil": "ana bölüm",
+    "Hauptverkehrszeit": "yoğun trafik saati",
+    "Hausfrau": "ev hanımı",
+    "Haushalt": "ev halkı, hane; bütçe",
+    "Hausmann": "ev işlerini üstlenen erkek",
+    "Heiligabend": "Noel arifesi",
+    "Heimat": "memleket, yurt",
+    "Heimweh": "memleket özlemi, sıla hasreti",
+    "Heimwerken": "kendin yap işleri",
+    "Herausforderung": "meydan okuma, zorluk",
+    "Herbst": "sonbahar",
+    "Herd": "ocak",
+    "Historiolinguistik": "tarihsel dilbilim",
+    "Hitze": "sıcak, sıcaklık",
+    "Hobby": "hobi",
+    "Hochkonjunktur": "ekonomik canlanma, refah dönemi",
+    "Hochschule": "yükseköğretim kurumu",
+    "Hochzeit": "düğün",
+    "Hof": "avlu",
+    "Hoheitsgewalt": "egemenlik",
+    "Holzkiste": "tahta sandık",
+    "Hose": "pantolon",
+    "Hostel": "hostel",
+    "Hurrikan": "kasırga",
+    "Hut": "şapka",
+    "Hymne": "millî marş",
+    "Hypothek": "ipotek",
+    "Idealbild": "ideal imge",
+    "Idealismus": "idealizm",
+    "Imitation": "taklit",
+    "Immersion": "immersiyon",
+    "Impfung": "aşı",
+    "Industrialisierung": "sanayileşme",
+    "Inflation": "enflasyon",
+    "Informationsflut": "bilgi bombardımanı",
+    "Ingenieur": "mühendis",
+    "Insel": "ada",
+    "Inspiration": "ilham",
+    "Interkulturalität": "kültürlerarasılık",
+    "Interpretation": "yorum",
+    "Investition": "yatırım",
+    "Jacke": "ceket, mont",
+    "Jahr": "yıl",
+    "Jahreszeit": "mevsim",
+    "Jahrhundert": "yüzyıl",
+    "Jetlag": "jet lag",
+    "Jeton": "jeton",
+    "Job": "iş",
+    "Jugend": "gençlik",
+    "Juwelier": "kuyumcu",
+    "Kampagne": "kampanya",
+    "Kampagnenziel": "kampanya hedefi",
+    "Kanalisation": "kanalizasyon",
+    "Kapazität": "kapasite",
+    "Kapitalismus": "kapitalizm",
+    "Karte": "kart",
+    "Kasse": "kasa",
+    "Kernfusion": "nükleer füzyon",
+    "Kerze": "mum",
+    "Kilogramm": "kilogram",
+    "Kindergarten": "anaokulu",
+    "Kindertageseinrichtung": "gündüz bakım kurumu",
+    "Kindheit": "çocukluk",
+    "Kinn": "çene",
+    "Kita": "kreş, gündüz bakımevi",
+    "Klamotte": "giysi, kıyafet (günlük dil)",
+    "Klavier": "piyano",
+    "Kleid": "elbise",
+    "Kleidung": "giysi, kıyafet",
+    "Kleidungsstück": "giysi parçası",
+    "Klischee": "klişe",
+    "Kneipenquiz": "meyhane bilgi yarışması",
+    "Koalition": "koalisyon",
+    "Koch": "aşçı",
+    "Kochrezept": "yemek tarifi",
+    "Kochtopf": "tencere",
+    "Kollision": "çarpışma",
+    "Kompetenz": "yetkinlik",
+    "Komödie": "komedi",
+    "Konditorei": "pastane",
+    "Konkurrenzprodukt": "rakip ürün",
+    "Konnotation": "çağrışım, yan anlam",
+    "Konservendose": "konserve kutusu",
+    "Konsum": "tüketim",
+    "Kontrollpunkt": "kontrol noktası",
+    "Konzert": "konser",
+    "Kopf": "baş, kafa",
+    "Korb": "sepet",
+    "Krankschreibung": "hastalık raporu",
+    "Kredit": "kredi",
+    "Kreisdiagramm": "pasta grafik",
+    "Krimi": "polisiye",
+    "Kulturhoheit": "kültürel egemenlik",
+    "Kunde": "müşteri",
+    "Kurvendiagramm": "eğri grafiği, çizgi grafik",
+    "Kurzgeschichte": "kısa öykü",
+    "Kuss": "öpücük",
+    "Käfig": "kafes",
+    "Kälte": "soğuk",
+    "Körpersprache": "beden dili",
+    "Körperteil": "vücut bölümü",
+    "Küche": "mutfak",
+    "Küchenwaage": "mutfak terazisi",
+    "Kühlschrank": "buzdolabı",
+    "Kündigungsfrist": "fesih bildirim süresi",
+    "Land": "ülke",
+    "Lawine": "çığ",
+    "Lebensabschnitt": "yaşam evresi",
+    "Lebensgefährte": "hayat arkadaşı",
+    "Lebensgefährtin": "hayat arkadaşı",
+    "Lebenslauf": "özgeçmiş",
+    "Lebensqualität": "yaşam kalitesi",
+    "Lebensraum": "yaşam alanı, habitat",
+    "Lebenstraum": "hayatının hayali",
+    "Lehre": "çıraklık eğitimi",
+    "Leibeigenschaft": "serflik",
+    "Leidenschaft": "tutku",
+    "Leistung": "performans, başarı",
+    "Leistungskurs": "ileri düzey ders",
+    "Leistungspunkt": "kredi puanı",
+    "Lektor": "editör, redaktör",
+    "Lektorin": "editör, redaktör",
+    "Lichtgeschwindigkeit": "ışık hızı",
+    "Lichtstrahl": "ışık huzmesi",
+    "Lichtung": "orman açıklığı",
+    "Liebesbrief": "aşk mektubu",
+    "Liedtext": "şarkı sözü",
+    "Liga": "lig",
+    "Lobeshymne": "övgü dolu methiye",
+    "Lohn": "ücret, maaş",
+    "Luftverschmutzung": "hava kirliliği",
+    "Lüge": "yalan",
+    "Magnet": "mıknatıs",
+    "Manifest": "manifesto",
+    "Manipulation": "manipülasyon",
+    "Mannschaft": "takım",
+    "Manufaktur": "manifaktür, atölye",
+    "Marketing": "pazarlama",
+    "Marketingstrategie": "pazarlama stratejisi",
+    "Marmeladenglas": "reçel kavanozu",
+    "Masse": "kütle",
+    "Massenflucht": "kitlesel kaçış",
+    "Material": "malzeme",
+    "Mauer": "duvar",
+    "Maßnahme": "önlem, tedbir",
+    "Mediation": "dil aracılığı",
+    "Meeting": "toplantı",
+    "Mehrheit": "çoğunluk",
+    "Mehrsprachigkeit": "çok dillilik",
+    "Meisterschaft": "şampiyona",
+    "Melodie": "melodi",
+    "Menschenrechtsverletzung": "insan hakları ihlali",
+    "Mentalität": "zihniyet",
+    "Merkmal": "özellik, nitelik",
+    "Messlatte": "çıta",
+    "Metapher": "metafor, eğretileme",
+    "Milchprodukt": "süt ürünü",
+    "Million": "milyon",
+    "Mimik": "yüz ifadesi, mimik",
+    "Minderheit": "azınlık",
+    "Minnesang": "Minnesang (saray aşk şiiri)",
+    "Misshandlung": "kötü muamele",
+    "Missverständnis": "yanlış anlama",
+    "Mist": "hay aksi, kahretsin",
+    "Mittag": "öğle",
+    "Mittagspause": "öğle arası",
+    "Mittelteil": "orta bölüm",
+    "Modetrend": "moda akımı",
+    "Monarchie": "monarşi",
+    "Monitor": "monitör",
+    "Moos": "yosun",
+    "Moral": "ahlak",
+    "Motorrad": "motosiklet",
+    "Mund": "ağız",
+    "Musikgeschmack": "müzik zevki",
+    "Mutationsrate": "mutasyon oranı",
+    "Muttersprache": "ana dil",
+    "Männerdomäne": "erkek alanı",
+    "Möbelgeschäft": "mobilya mağazası",
+    "Nachbarschaft": "mahalle, komşuluk",
+    "Nachkriegszeit": "savaş sonrası dönem",
+    "Nachmittag": "öğleden sonra",
+    "Nachmittagssonne": "öğleden sonra güneşi",
+    "Nachname": "soyadı",
+    "Nachtflohmarkt": "gece bit pazarı",
+    "Nachtleben": "gece hayatı",
+    "Nachwelt": "gelecek nesiller",
+    "Nahrungsmittelknappheit": "gıda kıtlığı",
+    "Nase": "burun",
+    "Nationalismus": "milliyetçilik",
+    "Naturkatastrophe": "doğal afet",
+    "Naturschutzgebiet": "doğa koruma alanı",
+    "Neutronenstern": "nötron yıldızı",
+    "Nichtregierungsorganisation": "sivil toplum kuruluşu",
+    "Obstkiste": "meyve kasası",
+    "Ohr": "kulak",
+    "Ohrwurm": "kulaktan çıkmayan melodi",
+    "Onlineshopping": "online alışveriş",
+    "Opposition": "muhalefet",
+    "Optimierungsbestreben": "optimizasyon çabası",
+    "Optimierungsstreben": "kendini geliştirme tutkusu",
+    "Option": "seçenek",
+    "Orkan": "fırtına, kasırga",
+    "Ort": "yer",
+    "Paket": "koli, paket",
+    "Panne": "arıza",
+    "Partei": "parti",
+    "Partnersuche": "eş arayışı",
+    "Pension": "pansiyon",
+    "Personal": "personel",
+    "Personalausweis": "kimlik kartı",
+    "Petition": "dilekçe, imza kampanyası",
+    "Pfanne": "tava",
+    "Piercing": "piercing",
+    "Platz": "yer, meydan",
+    "Polizei": "polis",
+    "Polizist": "polis memuru",
+    "Poncho": "panço",
+    "Pool": "havuz",
+    "Portion": "porsiyon",
+    "Porto": "posta ücreti",
+    "Post": "posta",
+    "Potenzial": "potansiyel",
+    "Praline": "pralin, çikolata",
+    "Praxis": "muayenehane",
+    "Preis": "fiyat",
+    "Printwerbung": "basılı reklam",
+    "Probezeit": "deneme süresi",
+    "Produkt": "ürün",
+    "Profi": "profesyonel",
+    "Profilbild": "profil fotoğrafı",
+    "Profispielerin": "profesyonel oyuncu",
+    "Prognose": "tahmin, öngörü",
+    "Programmiersprache": "programlama dili",
+    "Promocode": "promosyon kodu",
+    "Proviant": "yol azığı",
+    "Präsentation": "sunum",
+    "Präsenzunterricht": "yüz yüze ders",
+    "Präzision": "hassasiyet, kesinlik",
+    "Punkt": "nokta, puan",
+    "Pünktlichkeit": "dakiklik",
+    "Radiowerbung": "radyo reklamı",
+    "Radtour": "bisiklet turu",
+    "Rasse": "ırk",
+    "Rationalismus": "akılcılık",
+    "Raum": "mekân, uzay",
+    "Raumanzug": "uzay giysisi",
+    "Raumfahrt": "uzay yolculuğu",
+    "Raumschiff": "uzay gemisi",
+    "Raumzeit": "uzay-zaman",
+    "Rausch": "sarhoşluk",
+    "Realitätsflucht": "gerçeklerden kaçış",
+    "Realschule": "ortaokul (Realschule)",
+    "Recherche": "araştırma",
+    "Rechnung": "fatura, hesap",
+    "Refrain": "nakarat",
+    "Regal": "raf",
+    "Regenwald": "yağmur ormanı",
+    "Regierung": "hükümet",
+    "Region": "bölge",
+    "Reim": "kafiye, uyak",
+    "Reisebüro": "seyahat acentesi",
+    "Reisepass": "pasaport",
+    "Reiseziel": "seyahat hedefi, varış yeri",
+    "Relativitätstheorie": "görelilik kuramı",
+    "Renovieren": "tadilat, yenileme",
+    "Rente": "emekli maaşı",
+    "Rezept": "reçete",
+    "Rezeption": "resepsiyon",
+    "Rezession": "resesyon, durgunluk",
+    "Richtung": "yön",
+    "Rock": "etek",
+    "Rohstoff": "ham madde",
+    "Rose": "gül",
+    "Ruhestand": "emeklilik",
+    "Rundreise": "tur, gezi turu",
+    "Sache": "şey, mesele",
+    "Sage": "efsane",
+    "Sandale": "sandalet",
+    "Sandkorn": "kum tanesi",
+    "Sandsturm": "kum fırtınası",
+    "Satz": "cümle",
+    "Schalk": "muziplik",
+    "Schallplatte": "plak",
+    "Schar": "sürü, kalabalık",
+    "Schattenseite": "olumsuz yan, karanlık yüz",
+    "Schaubild": "şema, grafik",
+    "Schild": "tabela, trafik levhası",
+    "Schlafsaal": "yatakhane, koğuş",
+    "Schlussfolgerung": "sonuç, çıkarım",
+    "Schlüsselfigur": "kilit isim",
+    "Schmeichelei": "dalkavukluk",
+    "Schmerz": "ağrı, acı",
+    "Schmetterling": "kelebek",
+    "Schnee": "kar",
+    "Schrank": "dolap",
+    "Schreck": "korku, ürkme",
+    "Schreibtisch": "çalışma masası",
+    "Schriftverkehr": "yazışma",
+    "Schuh": "ayakkabı",
+    "Schuhkarton": "ayakkabı kutusu",
+    "Schulsystem": "okul sistemi",
+    "Schultüte": "okul külahı",
+    "Schulzeit": "okul yılları",
+    "Schwerpunkt": "ağırlık noktası, odak",
+    "Schwierigkeit": "zorluk",
+    "Schwimmbad": "yüzme havuzu",
+    "Schwäche": "zayıflık",
+    "Schüssel": "kâse",
+    "See": "göl",
+    "Seele": "ruh",
+    "Sehnsucht": "özlem",
+    "Sekundarschule": "ortaöğretim okulu",
+    "Selbermachen": "kendin yap, el işi",
+    "Selbstakzeptanz": "kendini kabul",
+    "Selbstbestimmung": "kendi kaderini tayin",
+    "Selbstbild": "benlik imajı",
+    "Selbstregierung": "özyönetim",
+    "Selbstversorger": "kendi kendine yeten kişi",
+    "Selbstversorgerin": "kendi kendine yeten kişi",
+    "Selbstverwirklichung": "kendini gerçekleştirme",
+    "Selbstwertgefühl": "özsaygı",
+    "Semesterticket": "öğrenci dönem bileti",
+    "Sendung": "yayın, program",
+    "Shoppingcenter": "alışveriş merkezi",
+    "Sicherheitslücke": "güvenlik açığı",
+    "Sieg": "zafer",
+    "Siegertreppchen": "kürsü, podyum",
+    "Simulation": "simülasyon",
+    "Singularität": "tekillik",
+    "Sinneswahrnehmung": "duyusal algı",
+    "Sitte": "gelenek, görenek",
+    "Slogan": "slogan",
+    "Socke": "çorap",
+    "Sofa": "kanepe",
+    "Solidargemeinschaft": "dayanışma topluluğu",
+    "Sonderanfertigung": "özel üretim",
+    "Sonne": "güneş",
+    "Sonntag": "pazar",
+    "Sparkonto": "tasarruf hesabı",
+    "Sparschwein": "kumbara",
+    "Spende": "bağış",
+    "Sphäre": "küre, alan",
+    "Spielstein": "oyun taşı",
+    "Spielzeug": "oyuncak",
+    "Spirale": "sarmal",
+    "Sport": "spor",
+    "Sprache": "dil",
+    "Sprachfamilie": "dil ailesi",
+    "Sprachgeschichte": "dil tarihi",
+    "Sprachmittlung": "dil aracılığı",
+    "Sprachwissenschaft": "dilbilim",
+    "Sprechstunde": "muayene saati, görüşme saati",
+    "Sprechstundenhilfe": "muayenehane asistanı",
+    "Stall": "ahır",
+    "Stammzelle": "kök hücre",
+    "Stand": "stant",
+    "Station": "istasyon",
+    "Statistik": "istatistik",
+    "Stelle": "pozisyon, iş yeri",
+    "Sterilisation": "sterilizasyon",
+    "Stillstand": "duraklama, durma",
+    "Stipendium": "burs",
+    "Stock": "kat",
+    "Stockwerk": "kat",
+    "Stoff": "kumaş",
+    "Strand": "plaj, kumsal",
+    "Strategiespiel": "strateji oyunu",
+    "Strecke": "güzergâh, mesafe",
+    "Stress": "stres",
+    "Strömung": "akım",
+    "Student": "öğrenci (üniversite)",
+    "Stunde": "saat",
+    "Stundenplan": "ders programı",
+    "Sturm": "fırtına",
+    "Stärke": "güç, güçlü yan",
+    "Stück": "parça",
+    "Suchmaschine": "arama motoru",
+    "Suchmaschinenoptimierung": "arama motoru optimizasyonu",
+    "Sucht": "bağımlılık",
+    "Superintelligenz": "süper zekâ",
+    "Supermarkt": "süpermarket",
+    "Supernova": "süpernova",
+    "Suppe": "çorba",
+    "Surrogat": "ikame",
+    "Symbiose": "simbiyoz",
+    "Symptom": "belirti, semptom",
+    "Säugling": "bebek",
+    "Säulendiagramm": "sütun grafik",
+    "Süßigkeit": "şekerleme, tatlı",
+    "Tagesablauf": "günlük rutin",
+    "Tagesordnung": "gündem",
+    "Taktik": "taktik",
+    "Tannenbaum": "Noel ağacı",
+    "Tauschhandel": "takas",
+    "Taxi": "taksi",
+    "Taxistand": "taksi durağı",
+    "Teamarbeit": "ekip çalışması",
+    "Teamgeist": "takım ruhu",
+    "Teilung": "bölünme",
+    "Ticket": "bilet",
+    "Tiefsee": "derin deniz",
+    "Tierquälerei": "hayvanlara eziyet",
+    "Tierschutzgesetz": "hayvanları koruma kanunu",
+    "Tinte": "mürekkep",
+    "Tischtuch": "masa örtüsü",
+    "Tod": "ölüm",
+    "Tor": "büyük kapı",
+    "Tornado": "hortum, tornado",
+    "Totschlagargument": "tartışmayı bitiren argüman",
+    "Tourismus": "turizm",
+    "Tourist": "turist",
+    "Touristin": "turist",
+    "Training": "antrenman",
+    "Treibhauseffekt": "sera etkisi",
+    "Treibstoff": "yakıt",
+    "Trennung": "ayrılık",
+    "Trinkgeld": "bahşiş",
+    "Trumpf": "koz",
+    "Trödelmarkt": "bit pazarı",
+    "Trümmerliteratur": "yıkıntı edebiyatı",
+    "Tugend": "erdem",
+    "Tulpe": "lale",
+    "Turnier": "turnuva",
+    "Tätowierung": "dövme",
+    "Uhr": "saat",
+    "Umbruch": "köklü değişim",
+    "Umgangssprache": "günlük konuşma dili",
+    "Umgebung": "çevre, etraf",
+    "Umweltproblem": "çevre sorunu",
+    "Umweltschutz": "çevre koruma",
+    "Umweltschutzverein": "çevre koruma derneği",
+    "Umweltverschmutzung": "çevre kirliliği",
+    "Umzug": "taşınma",
+    "Unbehagen": "rahatsızlık, huzursuzluk",
+    "Unikat": "tek nüsha, eşsiz parça",
+    "Universität": "üniversite",
+    "Universum": "evren",
+    "Unterbrechung": "kesinti, ara",
+    "Unterhaltung": "eğlence",
+    "Unterkunft": "konaklama yeri",
+    "Unterkühlung": "hipotermi",
+    "Unternehmensbindung": "şirkete bağlılık",
+    "Unterwelt": "yeraltı dünyası",
+    "Upcycling": "ileri dönüşüm",
+    "Urlaubstag": "izin günü",
+    "Ursprache": "kök dil, ana dil (tarihsel)",
+    "Ursprung": "köken",
+    "Urwald": "balta girmemiş orman",
+    "Valentinstag": "Sevgililer Günü",
+    "Verfallsdatum": "son kullanma tarihi",
+    "Verfassung": "anayasa",
+    "Vergangenheit": "geçmiş",
+    "Vergreisung": "yaşlanma",
+    "Verkehr": "trafik",
+    "Verkettung": "zincirleme",
+    "Verkörperung": "cisimleşme, vücut bulma",
+    "Verlauf": "seyir, gidişat",
+    "Verlust": "kayıp",
+    "Vermutung": "tahmin, varsayım",
+    "Vermüllung": "çöple kirlenme",
+    "Vernunft": "akıl, sağduyu",
+    "Verpflichtung": "yükümlülük",
+    "Verriss": "yerden yere vuran eleştiri",
+    "Verschmutzung": "kirlilik",
+    "Versichertenkarte": "sağlık sigortası kartı",
+    "Version": "sürüm, versiyon",
+    "Vertrag": "sözleşme",
+    "Veränderung": "değişim",
+    "Veröffentlichung": "yayın, yayımlama",
+    "Vielfalt": "çeşitlilik",
+    "Visum": "vize",
+    "Volksabstimmung": "halk oylaması",
+    "Volkslied": "halk türküsü",
+    "Vollkommenheit": "mükemmellik",
+    "Vorbedingung": "ön koşul",
+    "Vorbild": "örnek alınan kişi, rol model",
+    "Vorhersage": "tahmin, öngörü",
+    "Vormittag": "öğleden önce, kuşluk",
+    "Vorname": "ad, ilk isim",
+    "Vorrat": "stok",
+    "Vorreiterrolle": "öncü rol",
+    "Vorsprung": "avantaj, önde olma",
+    "Vorstellungsgespräch": "iş görüşmesi",
+    "Vorteil": "avantaj",
+    "Vorzeit": "tarih öncesi",
+    "Vulkanausbruch": "yanardağ patlaması",
+    "Wahlkampf": "seçim kampanyası",
+    "Waldbrand": "orman yangını",
+    "Wand": "duvar",
+    "Wanderlust": "gezme tutkusu",
+    "Wanderschuh": "yürüyüş botu",
+    "Wanderung": "doğa yürüyüşü",
+    "Wartung": "bakım",
+    "Wechselkurs": "döviz kuru",
+    "Weihnachtsmarkt": "Noel pazarı",
+    "Weinflasche": "şarap şişesi",
+    "Weinkiste": "şarap kasası",
+    "Weißbrot": "beyaz ekmek",
+    "Weltall": "evren, uzay",
+    "Weltherrschaft": "dünya hâkimiyeti",
+    "Weltkulturerbe": "dünya kültür mirası",
+    "Weltraum": "uzay",
+    "Weltraumforschung": "uzay araştırmaları",
+    "Werbeagentur": "reklam ajansı",
+    "Werbekampagne": "reklam kampanyası",
+    "Werbemittel": "reklam malzemesi",
+    "Werbespot": "reklam filmi",
+    "Werbetreibenden": "reklam verenler",
+    "Werbung": "reklam",
+    "Wertvorstellung": "değer yargısı",
+    "Wettbewerb": "yarışma, rekabet",
+    "Wettervorhersage": "hava tahmini",
+    "Wettkampf": "müsabaka, yarışma",
+    "Wiederbelebung": "canlanma, canlandırma",
+    "Wiedervereinigung": "yeniden birleşme",
+    "Wind": "rüzgâr",
+    "Winterjacke": "kışlık mont",
+    "Wissenssendung": "bilim programı",
+    "Wohlbefinden": "esenlik",
+    "Wohnungssuche": "ev arama",
+    "Wolke": "bulut",
+    "Wunschtraum": "boş hayal",
+    "Wurmloch": "solucan deliği",
+    "Wärme": "sıcaklık, ılıklık",
+    "Wörterbuch": "sözlük",
+    "Zahn": "diş",
+    "Zeitplan": "zaman planı, takvim",
+    "Zeitraum": "zaman dilimi, dönem",
+    "Zeitschrift": "dergi",
+    "Zelt": "çadır",
+    "Zeltplatz": "kamp alanı",
+    "Zentrum": "merkez",
+    "Zerstörung": "yıkım",
+    "Zeugnis": "karne, belge",
+    "Ziel": "hedef, amaç",
+    "Zielgruppe": "hedef kitle",
+    "Zielsprache": "hedef dil",
+    "Zoobesuch": "hayvanat bahçesi ziyareti",
+    "Zukunft": "gelecek",
+    "Zunge": "dil (organ)",
+    "Zuwachs": "artış",
+    "Zwirn": "iplik",
+    "Öffentlichkeit": "kamuoyu",
+    "Überfischung": "aşırı avlanma",
+    "Überfluss": "bolluk",
+    "Übergang": "geçiş",
+    "Übergangsbereich": "geçiş bölgesi",
+    "Überinvestition": "aşırı yatırım",
+    "Überlebenschance": "hayatta kalma şansı",
+    "Überlegenheit": "üstünlük",
+    "Übernachtung": "gecelik konaklama",
+    "Überraschung": "sürpriz",
+    "Übersetzungstätigkeit": "çeviri işi",
+    "Übersicht": "genel bakış",
+    "Überstunde": "fazla mesai",
+    "Überwachungsstaat": "gözetim devleti",
+    "Überzeugung": "inanç, kanaat",
+    "sein": "olmak",
+    "haben": "sahip olmak",
+    "werden": "olmak (bir duruma gelmek)",
+    "können": "-ebilmek, yapabilmek",
+    "müssen": "-meli, zorunda olmak",
+    "wollen": "istemek",
+    "dürfen": "-ebilmek (izinli olmak), izni olmak",
+    "sollen": "-meli (gerekmek), beklenmek",
+    "mögen": "sevmek, hoşlanmak",
+    "wissen": "bilmek (bilgi olarak)",
+    "denken": "düşünmek",
+    "bringen": "getirmek",
+    "kennen": "tanımak (aşina olmak)",
+    "nennen": "adlandırmak, demek",
+    "rennen": "koşmak, yarışmak",
+    "brennen": "yanmak",
+    "senden": "göndermek",
+    "wenden": "çevirmek, (birine) başvurmak",
+    "anfangen": "başlamak",
+    "ankommen": "varmak",
+    "anrufen": "telefon etmek, aramak",
+    "aufstehen": "kalkmak",
+    "aufwachsen": "büyümek, yetişmek",
+    "ausziehen": "evden taşınmak; (giysi) çıkarmak",
+    "backen": "fırında pişirmek",
+    "befehlen": "emretmek",
+    "beginnen": "başlamak",
+    "beißen": "ısırmak",
+    "bekommen": "almak, elde etmek",
+    "bewegen": "hareket ettirmek",
+    "bieten": "sunmak, teklif etmek",
+    "binden": "bağlamak",
+    "bitten": "rica etmek, istemek",
+    "bleiben": "kalmak",
+    "braten": "kızartmak, kavurmak",
+    "brechen": "kırmak",
+    "einladen": "davet etmek",
+    "einschlafen": "uykuya dalmak",
+    "empfehlen": "tavsiye etmek",
+    "entscheiden": "karar vermek",
+    "entstehen": "ortaya çıkmak, oluşmak",
+    "erfahren": "öğrenmek, haberdar olmak; deneyimlemek",
+    "erhalten": "almak (resmî)",
+    "erscheinen": "görünmek, yayımlanmak",
+    "erschrecken": "korkmak, ürkmek",
+    "essen": "yemek yemek",
+    "fahren": "(araçla) gitmek, sürmek",
+    "fallen": "düşmek",
+    "fangen": "yakalamak",
+    "fernsehen": "televizyon izlemek",
+    "finden": "bulmak",
+    "fliegen": "uçmak",
+    "fliehen": "kaçmak",
+    "fließen": "akmak",
+    "frieren": "üşümek, donmak",
+    "gebären": "doğurmak",
+    "geben": "vermek",
+    "gefallen": "hoşuna gitmek, beğenilmek",
+    "gehen": "gitmek, yürümek",
+    "gelingen": "başarılı olmak, başarmak",
+    "gelten": "geçerli olmak, sayılmak",
+    "genießen": "tadını çıkarmak",
+    "geschehen": "olmak, meydana gelmek (resmî)",
+    "gewinnen": "kazanmak",
+    "greifen": "kavramak, uzanmak",
+    "halten": "tutmak, durmak",
+    "hängen": "asılı olmak",
+    "heben": "kaldırmak",
+    "heißen": "adı olmak, anlamına gelmek",
+    "helfen": "yardım etmek",
+    "kommen": "gelmek",
+    "laden": "yüklemek",
+    "lassen": "bırakmak, izin vermek; yaptırmak",
+    "laufen": "koşmak, yürümek",
+    "leiden": "acı çekmek",
+    "leihen": "ödünç vermek; ödünç almak",
+    "lesen": "okumak",
+    "liegen": "yatmak, uzanmış olmak",
+    "lügen": "yalan söylemek",
+    "messen": "ölçmek",
+    "nehmen": "almak",
+    "passieren": "olmak, meydana gelmek",
+    "folgen": "takip etmek, izlemek",
+    "begegnen": "rastlamak, karşılaşmak",
+    "aufwachen": "uyanmak",
+    "raten": "tavsiye etmek; tahmin etmek",
+    "reiten": "ata binmek",
+    "riechen": "koklamak, kokmak",
+    "rufen": "çağırmak, seslenmek",
+    "schaffen": "yaratmak",
+    "scheinen": "parlamak; görünmek",
+    "schieben": "itmek",
+    "schießen": "ateş etmek, şut çekmek",
+    "schlafen": "uyumak",
+    "schlagen": "vurmak, dövmek",
+    "schließen": "kapatmak",
+    "schneiden": "kesmek",
+    "schreiben": "yazmak",
+    "schreien": "bağırmak, çığlık atmak",
+    "schweigen": "susmak",
+    "schwimmen": "yüzmek",
+    "sehen": "görmek",
+    "singen": "şarkı söylemek",
+    "sinken": "batmak, alçalmak (geçişsiz)",
+    "sitzen": "oturmak (oturur durumda olmak)",
+    "sprechen": "konuşmak",
+    "springen": "atlamak, zıplamak",
+    "stattfinden": "gerçekleşmek, yapılmak",
+    "stehen": "ayakta durmak",
+    "stehlen": "çalmak",
+    "steigen": "tırmanmak, yükselmek",
+    "sterben": "ölmek",
+    "stoßen": "itmek, çarpmak",
+    "streiten": "tartışmak, kavga etmek",
+    "tragen": "taşımak; giymek",
+    "treffen": "buluşmak; isabet ettirmek",
+    "treten": "adım atmak, basmak; tekmelemek",
+    "trinken": "içmek",
+    "tun": "yapmak",
+    "umziehen": "taşınmak (ev)",
+    "unterbrechen": "kesmek, ara vermek",
+    "unterscheiden": "ayırt etmek",
+    "vergessen": "unutmak",
+    "vergleichen": "karşılaştırmak",
+    "verlassen": "terk etmek, (bir yerden/kişiden) ayrılmak",
+    "verlieren": "kaybetmek",
+    "vermeiden": "kaçınmak",
+    "verschwinden": "kaybolmak, gözden kaybolmak",
+    "versprechen": "söz vermek",
+    "verstehen": "anlamak",
+    "wachsen": "büyümek",
+    "waschen": "yıkamak",
+    "werfen": "atmak, fırlatmak",
+    "wiegen": "tartmak",
+    "ziehen": "çekmek; taşınmak",
+    "zwingen": "zorlamak",
+    "bestehen": "(sınavı) geçmek; oluşmak; ısrar etmek",
+    "beschreiben": "tanımlamak, betimlemek",
+    "beweisen": "kanıtlamak",
+    "bewerben": "(işe) başvurmak",
+    "erkennen": "tanımak, fark etmek",
+    "verbringen": "(zaman) geçirmek",
+    "mitbringen": "yanında getirmek",
+    "widersprechen": "karşı çıkmak, itiraz etmek",
+    "zunehmen": "artmak; kilo almak",
+    "erwerben": "edinmek, satın almak",
+    "betrügen": "aldatmak, dolandırmak",
+    "verzeihen": "affetmek, bağışlamak",
+    "stinken": "kötü kokmak",
+    "stechen": "sokmak, batmak",
+    "kriechen": "sürünmek, emeklemek",
+    "schmelzen": "erimek",
+    "reißen": "yırtmak, kopmak",
+    "pfeifen": "ıslık çalmak",
+    "gleichen": "benzemek",
+    "meiden": "kaçınmak, uzak durmak",
+    "reiben": "ovmak, rendelemek",
+    "schleichen": "sinsice yürümek, süzülmek",
+    "schmeißen": "fırlatmak (günlük dil)",
+    "saufen": "su içmek (hayvanlar); kafayı çekmek (insanlar)",
+    "salzen": "tuzlamak",
+    "spalten": "yarmak, bölmek",
+    "hauen": "vurmak, yontmak",
+    "wägen": "ölçüp biçmek, tartmak (resmî)",
+    "Hund": "köpek",
+    "Katze": "kedi",
+    "Apfel": "elma",
+    "Schule": "okul",
+    "Auto": "araba",
+    "Zug": "tren",
+    "Fenster": "pencere",
+    "Wasser": "su",
+    "Winter": "kış",
+    "Geschenk": "hediye",
+    "Urlaub": "tatil",
+    "Bibliothek": "kütüphane",
+    "Krankenhaus": "hastane",
+    "Schlüssel": "anahtar",
+    "Wohnung": "daire",
+    "Frühstück": "kahvaltı",
+    "Regenschirm": "şemsiye",
+    "Stau": "trafik sıkışıklığı",
+    "Verspätung": "gecikme",
+    "Gewitter": "gök gürültülü fırtına",
+    "Nachbar": "komşu",
+    "Gewohnheit": "alışkanlık",
+    "Ehrenamt": "gönüllülük",
+    "Klimawandel": "iklim değişikliği",
+    "Verantwortung": "sorumluluk",
+    "Vertrauen": "güven",
+    "Kompromiss": "uzlaşma",
+    "Nachhaltigkeit": "sürdürülebilirlik",
+    "Vorurteil": "ön yargı",
+    "Gewaltenteilung": "kuvvetler ayrılığı",
+    "Pressefreiheit": "basın özgürlüğü",
+    "Generationenvertrag": "kuşaklar arası sözleşme",
+    "Ehrenwort": "şeref sözü",
+    "Schadenfreude": "başkasının zararına sevinme",
+    "Sachverhalt": "olayın gerçekleri",
+    "Gewissen": "vicdan",
+    "Zivilcourage": "sivil cesaret",
+    "Gratwanderung": "bıçak sırtında yürüyüş, denge oyunu",
+    "Zwickmühle": "ikilem, çıkmaz",
+    "Sündenbock": "günah keçisi",
+    "Vergangenheitsbewältigung": "geçmişle yüzleşme",
+    "Zeitgeist": "zamanın ruhu",
+    "Weltanschauung": "dünya görüşü, ideoloji",
+    "Elfenbeinturm": "fildişi kule",
+    "Verschlimmbesserung": "düzelteyim derken bozma",
+    "Torschlusspanik": "son treni kaçırma korkusu, geç kalmışlık paniği",
+    "Schlupfloch": "yasal boşluk, kuraldaki açık"
+  },
+  "levels": {
+    "A1": {
+      "name": "Başlangıç",
+      "canDo": "Kendini tanıt, yemek sipariş et, fiyatlar ve saatler hakkında basit sorular sor.",
+      "exampleGloss": "Benim adım Sam ve Köln'de yaşıyorum."
+    },
+    "A2": {
+      "name": "Temel",
+      "canDo": "Gününü ve geçen hafta sonunu anlat, randevu ayarla, kısa mesajlar yaz.",
+      "exampleGloss": "Hafta sonu arkadaşlarımla sinemaya gittim."
+    },
+    "B1": {
+      "name": "Orta",
+      "canDo": "Günlük durumları kendi başına hallet, neden ve görüş bildir, kişisel ve basit resmî e-postalar yaz.",
+      "exampleGloss": "Gelemedim, çünkü daha uzun çalışmak zorundaydım."
+    },
+    "B2": {
+      "name": "Orta üstü",
+      "canDo": "Soyut konuları tartış, lehte ve aleyhte savlar ileri sür, açık resmî şikâyet ve başvuru yazıları yaz.",
+      "exampleGloss": "Kira artmış olsa da daireyi tutmak istiyorum."
+    },
+    "C1": {
+      "name": "İleri",
+      "canDo": "Zorlu metinleri ve konuşmaları takip etmek, bir görüşü incelikle savunmak, iyi yapılandırılmış denemeler, raporlar ve resmî görüş yazıları yazmak.",
+      "exampleGloss": "Yükselen kiralar karşısında birçok kişi konut yapımının hızlandırılmasını talep ediyor."
+    },
+    "C2": {
+      "name": "Ustalık",
+      "canDo": "Okuduğun ya da duyduğun hemen her şeyi anlamak, birden çok kaynaktaki savları tartmak ve resmî bir itirazdan bir eleştiri yazısına kadar her üslupta ince anlam ayrımlarını dile getirmek.",
+      "exampleGloss": "Uzlaşma açıklanır açıklanmaz, onu bizzat müzakere etmiş olan üyeler tarafından yeniden sorgulanmaya başlanmıştı bile."
+    }
+  },
+  "writing": {
+    "a1-cafe-invite": {
+      "title": "Bir arkadaşa mesaj",
+      "prompt": "Arkadaşın Lena'ya kısa bir mesaj yaz: \"Lindenblatt\" kafesindesin. Gelmek isteyip istemediğini sor, ne zamana kadar orada olduğunu ve ne içtiğini söyle.",
+      "points": [
+        "gelip gelmeyeceğini sor",
+        "ne zamana kadar orada olduğunu söyle",
+        "ne içtiğini söyle"
+      ]
+    },
+    "a1-hotel-form": {
+      "title": "Bir otele e-posta",
+      "prompt": "Hotel Seeblick'e kısa bir e-posta yaz: cumadan itibaren iki gecelik tek kişilik bir oda istiyorsun. Fiyatı ve kahvaltının dahil olup olmadığını sor.",
+      "points": [
+        "odayı ve tarihleri belirt",
+        "fiyatı sor",
+        "kahvaltıyı sor"
+      ]
+    },
+    "a2-birthday": {
+      "title": "Doğum günü daveti",
+      "prompt": "Bir arkadaşına kısa bir e-posta yaz: onu cumartesi günkü doğum günü partine davet et. Ne zaman başladığını, nerede olduğunu ve ne getirmesi gerektiğini söyle. 30-40 kelime.",
+      "points": [
+        "ne zaman başladığını söyle",
+        "nerede olduğunu söyle",
+        "ne getirmesi gerektiğini söyle"
+      ]
+    },
+    "a2-sick-course": {
+      "title": "Kursa gelememek",
+      "prompt": "Öğretmenin Herr Klein'a yaz: hastasın ve yarın Almanca kursuna gelemiyorsun. Neyin olduğunu söyle ve ödevin ne olduğunu sor. 30-40 kelime.",
+      "points": [
+        "gelemeyeceğini söyle",
+        "neyin olduğunu söyle",
+        "ödevi sor"
+      ]
+    },
+    "a2-new-flat": {
+      "title": "Yeni dairen",
+      "prompt": "Arkadaşın Jonas'a yaz: yeni bir dairen var. Daireyi tarif et, nesini sevdiğini söyle ve onu ziyarete davet et.",
+      "points": [
+        "daireyi tarif et",
+        "neyi sevdiğini söyle",
+        "onu davet et"
+      ]
+    },
+    "b1-missed-party": {
+      "title": "Partini kaçırdığım için üzgünüm",
+      "prompt": "Bir arkadaşına bir e-posta (yaklaşık 80 kelime) yaz: geçen hafta sonu partisini kaçırdın. Özür dile, neden gelemediğini açıkla ve yeni bir buluşma öner.",
+      "points": [
+        "özür dile",
+        "nedenini açıkla",
+        "yeni bir buluşma öner"
+      ]
+    },
+    "b1-teacher-absent": {
+      "title": "Öğretmenine e-posta",
+      "prompt": "Almanca öğretmenin Frau Weber'e resmî bir e-posta (yaklaşık 40 kelime) yaz: bir sonraki derse katılamıyorsun. Nedenini belirt ve ödevi sor.",
+      "points": [
+        "nedenini belirt",
+        "ödevi sor"
+      ]
+    },
+    "b1-forum-homeoffice": {
+      "title": "Forum yazısı: evden çalışmak",
+      "prompt": "Bir forum yazısı (yaklaşık 80 kelime) yaz: evden çalışmak iyi bir fikir mi? Görüşünü belirt; bir avantaj, bir dezavantaj ve kendi hayatından bir örnek ver.",
+      "points": [
+        "görüşünü belirt",
+        "bir avantaj yaz",
+        "bir dezavantaj yaz",
+        "bir örnek ver"
+      ]
+    },
+    "b2-course-complaint": {
+      "title": "Bir dil okuluna şikâyet",
+      "prompt": "Bir dil okuluna resmî bir şikâyet yazısı (yaklaşık 150 kelime) yaz: kursunda üç ders boyunca öğretmen yoktu. Ne olduğunu anlat, okuldan ne yapmasını beklediğini söyle ve cevap için bir son tarih belirle.",
+      "points": [
+        "ne olduğunu anlat",
+        "ne beklediğini söyle",
+        "bir son tarih belirle"
+      ]
+    },
+    "b2-application": {
+      "title": "Staj başvurusu",
+      "prompt": "Hamburg'daki bir müzede staj için resmî bir başvuru yazısı (yaklaşık 150 kelime) yaz: neden ilgilendiğini, hangi deneyimlere sahip olduğunu ve ne zaman müsait olduğunu söyle.",
+      "points": [
+        "neden ilgilendiğini söyle",
+        "deneyimini anlat",
+        "ne zaman müsait olduğunu söyle"
+      ]
+    },
+    "c1-letter-to-editor": {
+      "title": "Dört günlük çalışma haftası üzerine bir okur mektubu",
+      "prompt": "Bir gazete, dört günlük çalışma haftasının ekonomiye zarar vereceğini öne süren bir makale yayımladı. Bir okur mektubu yaz (yaklaşık 200 kelime): makaleye atıfta bulun, iki gerekçeyle net bir tutum al, bir karşı argümanı ele al ve bir öneri ya da çağrıyla bitir.",
+      "points": [
+        "makaleye bir atıf",
+        "iki gerekçeyle tutumun",
+        "ele aldığın bir karşı argüman",
+        "sonda bir öneri ya da çağrı"
+      ]
+    },
+    "c1-statement-management": {
+      "title": "Evden çalışma konusunda yönetime bir görüş yazısı",
+      "prompt": "Şirketin evden çalışmayı tamamen kaldırmak istiyor. Ekibinin sözcüsü olarak yönetime resmî bir görüş yazısı yaz (yaklaşık 220 kelime): mevcut düzenlemeyi anlat, planın ekip için sonuçlarını açıkla, bir uzlaşma öner ve bir görüşme talep et.",
+      "points": [
+        "mevcut düzenleme",
+        "ekip için sonuçlar",
+        "bir uzlaşma önerisi",
+        "bir görüşme talebi"
+      ]
+    },
+    "c2-objection-bank-fees": {
+      "title": "Hukuka aykırı hesap ücretleri konusunda bir bankaya itiraz",
+      "prompt": "Bankan iki yıl önce hesap ücretlerini senin açık onayın olmadan artırdı ve şimdi \"zımni kabulünü\" gerekçe göstererek bunları iade etmeyi reddediyor. Bankaya resmî bir itiraz yazısı yaz (yaklaşık 260 kelime): olayları tarih ve tutarlarıyla ortaya koy, dayandığın hukuki temeli ve mahkeme kararını belirt, bir süre vererek iadeyi talep et ve banka buna uymazsa atacağın adımları bildir.",
+      "points": [
+        "tarih ve tutarlarıyla olaylar",
+        "dayandığın hukuki temel ve mahkeme kararı",
+        "süreli bir iade talebi",
+        "banka uymazsa atacağın adımlar"
+      ]
+    },
+    "c2-expert-statement-council": {
+      "title": "Arabasız şehir merkezi konusunda belediye meclisine bir uzman görüşü",
+      "prompt": "Belediye meclisi, davetli uzman sıfatıyla senden tarihî şehir merkezini arabasız hâle getirme planı hakkında yazılı bir görüş istedi. Meclise resmî bir görüş yazısı yaz (yaklaşık 280 kelime): planın beklenen etkilerini birbiriyle tart, dayandığın kanıtları ya da deneyimleri belirt, en güçlü itirazı ele al ve koşullara bağlı bir öneriyle bitir.",
+      "points": [
+        "birbiriyle tartılmış beklenen etkiler",
+        "dayandığın kanıtlar ya da deneyimler",
+        "ele alınmış en güçlü itiraz",
+        "koşullara bağlı bir öneri"
+      ]
+    }
+  }
+}

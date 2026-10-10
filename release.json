@@ -1,0 +1,12 @@
+{
+  "_comment": "Published at https://lichtgwcst001.blob.core.windows.net/models/eszett/release.json (see src/features/release.ts). One entry per platform: `version` is what the store has, `minimum` is the lowest version still allowed to run, `storeUrl` is where Update goes, `notes` is a string or one per language code.",
+  "android": {
+    "version": "1.0.5",
+    "minimum": "1.0.0",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.lamplitlabs.eszett",
+    "notes": {
+      "en": "Two new games in Together, both offline: Word tiles, a Scrabble-like game on a German board with every word's article or lemma and meaning, and Five letters, where you take turns guessing a five-letter German word in six tries. Story chain now shows the rule behind each correction and checks the sentences written while the tutor was still loading.",
+      "de": "Zwei neue Spiele unter „Zu zweit“, beide offline: Wörter legen, ein Scrabble-ähnliches Spiel mit deutschem Buchstabensatz und zu jedem Wort Artikel bzw. Grundform und Bedeutung, und Fünf Buchstaben, bei dem ihr abwechselnd ein deutsches Wort mit fünf Buchstaben in sechs Versuchen erratet. Die Kettengeschichte zeigt jetzt die Regel hinter jeder Korrektur und prüft auch Sätze, die geschrieben wurden, während der Tutor noch lud."
+    }
+  }
+}

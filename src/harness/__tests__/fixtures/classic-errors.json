@@ -1,0 +1,751 @@
+[
+ {
+  "level": "A1",
+  "wrong": "Ich bin 25 Jahre.",
+  "right": "Ich bin 25 Jahre alt.",
+  "why": "With 'Jahre' German needs 'alt'; alternatively just 'Ich bin 25.'",
+  "kind": "age"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich habe kalt.",
+  "right": "Mir ist kalt.",
+  "why": "Body sensations use a dative experiencer: mir ist kalt/warm/heiß/schlecht. 'Ich habe kalt' is a calque from French/Swiss usage.",
+  "kind": "impersonal-dative"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich bin heiß.",
+  "right": "Mir ist heiß.",
+  "why": "'Ich bin heiß' means 'I am hot' in the sexual sense; temperature is 'mir ist heiß'.",
+  "kind": "impersonal-dative"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich komme aus die Türkei.",
+  "right": "Ich komme aus der Türkei.",
+  "why": "'aus' takes the dative. Countries with an article keep it: aus der Türkei, aus der Schweiz, aus den USA.",
+  "kind": "preposition-case"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich wohne in Berlin seit drei Jahre.",
+  "right": "Ich wohne seit drei Jahren in Berlin.",
+  "why": "'seit' takes the dative (drei Jahren) and time normally comes before place. Present tense because the situation continues.",
+  "kind": "tense-seit"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich habe ein Hund.",
+  "right": "Ich habe einen Hund.",
+  "why": "A masculine direct object takes the accusative article 'einen'.",
+  "kind": "accusative-object"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich gehe zu Hause.",
+  "right": "Ich gehe nach Hause.",
+  "why": "Direction is 'nach Hause', location is 'zu Hause': Ich gehe nach Hause. Ich bin zu Hause.",
+  "kind": "place-preposition"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich fahre nach die Schweiz.",
+  "right": "Ich fahre in die Schweiz.",
+  "why": "Countries with an article use 'in + Akkusativ' for direction (in die Schweiz, in die USA); 'nach' is only for article-less names (nach Deutschland).",
+  "kind": "place-preposition"
+ },
+ {
+  "level": "A1",
+  "wrong": "Er kann Deutsch sprechen gut.",
+  "right": "Er kann gut Deutsch sprechen.",
+  "why": "The infinitive closes the sentence bracket; adverbs stay inside the bracket, before the infinitive.",
+  "kind": "bracket"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich möchte ein Kaffee, bitte.",
+  "right": "Ich möchte einen Kaffee, bitte.",
+  "why": "'der Kaffee' is masculine, so the direct object is 'einen Kaffee'.",
+  "kind": "accusative-object"
+ },
+ {
+  "level": "A1",
+  "wrong": "Was ist deine Name?",
+  "right": "Wie ist dein Name? / Wie heißt du?",
+  "why": "German asks 'wie' (how) for names, and 'der Name' is masculine: dein Name.",
+  "kind": "noun-gender"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich arbeite als ein Lehrer.",
+  "right": "Ich arbeite als Lehrer.",
+  "why": "No article after 'als' with professions; likewise 'Ich bin Lehrer' (not 'ein Lehrer').",
+  "kind": "idiom"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich verstehe nicht die Frage.",
+  "right": "Ich verstehe die Frage nicht.",
+  "why": "When you negate the whole sentence, 'nicht' goes after a definite direct object, towards the end.",
+  "kind": "negation"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich habe keine Zeit nicht.",
+  "right": "Ich habe keine Zeit.",
+  "why": "German has no double negation: 'kein' already negates the noun.",
+  "kind": "negation"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich spreche nicht Deutsch.",
+  "right": "Ich spreche kein Deutsch.",
+  "why": "A noun without an article is negated with 'kein'. 'nicht Deutsch' is only used for contrast: nicht Deutsch, sondern Englisch.",
+  "kind": "negation"
+ },
+ {
+  "level": "A1",
+  "wrong": "Wo gehst du?",
+  "right": "Wohin gehst du?",
+  "why": "Direction is 'wohin', location 'wo', origin 'woher'.",
+  "kind": "place-preposition"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich bin geboren in Hamburg.",
+  "right": "Ich bin in Hamburg geboren.",
+  "why": "The participle 'geboren' closes the bracket; the place goes inside it.",
+  "kind": "bracket"
+ },
+ {
+  "level": "A1",
+  "wrong": "Es ist ein Problem mit dem Auto.",
+  "right": "Es gibt ein Problem mit dem Auto.",
+  "why": "Existence is expressed with 'es gibt' + Akkusativ, not with 'es ist'.",
+  "kind": "idiom"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich bin langweilig.",
+  "right": "Mir ist langweilig. / Ich langweile mich.",
+  "why": "'Ich bin langweilig' means 'I am a boring person'. Boredom as a state is 'mir ist langweilig'.",
+  "kind": "impersonal-dative"
+ },
+ {
+  "level": "A1",
+  "wrong": "Kannst du mich helfen?",
+  "right": "Kannst du mir helfen?",
+  "why": "'helfen' takes a dative object: mir, dir, ihm, ihr, uns, euch, ihnen.",
+  "kind": "dative-verb"
+ },
+ {
+  "level": "A1",
+  "wrong": "Am Montag ich gehe ins Kino.",
+  "right": "Am Montag gehe ich ins Kino.",
+  "why": "Verb-second rule: after a fronted element (Am Montag) the verb comes next and the subject follows it.",
+  "kind": "verb-second"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich habe gestern gegangen ins Kino.",
+  "right": "Ich bin gestern ins Kino gegangen.",
+  "why": "Verbs of movement form the Perfekt with 'sein', and the participle closes the sentence.",
+  "kind": "bracket"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich mag schwimmen.",
+  "right": "Ich schwimme gern.",
+  "why": "For activities German prefers verb + 'gern'. 'mögen' + infinitive is colloquial; 'Ich mag Schwimmen' with the noun is fine.",
+  "kind": "idiom"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich habe 30 Jahre alt.",
+  "right": "Ich bin 30 Jahre alt.",
+  "why": "Age uses 'sein', not 'haben' (unlike French/Spanish/Italian).",
+  "kind": "age"
+ },
+ {
+  "level": "A1",
+  "wrong": "Wie viel Uhr es ist?",
+  "right": "Wie viel Uhr ist es? / Wie spät ist es?",
+  "why": "In a direct question the finite verb comes right after the question word.",
+  "kind": "verb-second"
+ },
+ {
+  "level": "A1",
+  "wrong": "Ich bin gut, danke.",
+  "right": "Mir geht es gut, danke.",
+  "why": "'Wie geht es dir?' is answered with 'Mir geht es gut'; 'Ich bin gut' means 'I am good (at something / morally)'.",
+  "kind": "impersonal-dative"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich habe vergessen meine Tasche.",
+  "right": "Ich habe meine Tasche vergessen.",
+  "why": "The participle goes to the end of the main clause; objects stay inside the bracket.",
+  "kind": "bracket"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich habe geschlafen gut.",
+  "right": "Ich habe gut geschlafen.",
+  "why": "The participle closes the sentence; adverbs come before it.",
+  "kind": "bracket"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich denke, dass ich habe keine Zeit.",
+  "right": "Ich denke, dass ich keine Zeit habe.",
+  "why": "In a 'dass' clause the finite verb moves to the end.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich weiß nicht, wo ist der Bahnhof.",
+  "right": "Ich weiß nicht, wo der Bahnhof ist.",
+  "why": "An indirect question is a subordinate clause: the verb goes to the end.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "A2",
+  "wrong": "Weil ich bin krank, bleibe ich zu Hause.",
+  "right": "Weil ich krank bin, bleibe ich zu Hause.",
+  "why": "'weil' sends the verb to the end of its clause; the main clause after the comma starts with the verb.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich freue mich auf dich zu sehen.",
+  "right": "Ich freue mich darauf, dich zu sehen.",
+  "why": "Before an infinitive clause the preposition becomes da(r)- + preposition: darauf, … zu.",
+  "kind": "da-compound"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich interessiere mich für Musik zu hören.",
+  "right": "Ich interessiere mich dafür, Musik zu hören. / Ich höre gern Musik.",
+  "why": "A preposition cannot govern an infinitive clause directly; use 'dafür, … zu' or rephrase.",
+  "kind": "da-compound"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich bin gefahren mit dem Auto.",
+  "right": "Ich bin mit dem Auto gefahren.",
+  "why": "The participle closes the main clause; 'mit dem Auto' belongs inside the bracket.",
+  "kind": "bracket"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich habe mein Freund getroffen.",
+  "right": "Ich habe meinen Freund getroffen.",
+  "why": "Masculine accusative: meinen Freund.",
+  "kind": "accusative-object"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich gebe das Buch zu meinem Bruder.",
+  "right": "Ich gebe meinem Bruder das Buch.",
+  "why": "The recipient of 'geben' is a plain dative object, without 'zu'. Dative pronoun/noun before accusative noun.",
+  "kind": "dative-verb"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich warte für den Bus.",
+  "right": "Ich warte auf den Bus.",
+  "why": "'warten auf' + Akkusativ. 'für' is a calque from English 'wait for'.",
+  "kind": "verb-preposition"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich bin interessiert in Geschichte.",
+  "right": "Ich interessiere mich für Geschichte. / Ich bin an Geschichte interessiert.",
+  "why": "'sich interessieren für' + Akkusativ, or 'interessiert sein an' + Dativ.",
+  "kind": "verb-preposition"
+ },
+ {
+  "level": "A2",
+  "wrong": "Das ist mehr besser.",
+  "right": "Das ist besser. / Das ist viel besser.",
+  "why": "The comparative is never combined with 'mehr'; intensify with 'viel'.",
+  "kind": "comparison"
+ },
+ {
+  "level": "A2",
+  "wrong": "Er ist größer wie ich.",
+  "right": "Er ist größer als ich.",
+  "why": "Inequality uses 'als'; 'wie' only for equality: so groß wie ich.",
+  "kind": "comparison"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich habe die Hausaufgaben gemacht, dann ich bin ins Bett gegangen.",
+  "right": "Ich habe die Hausaufgaben gemacht, dann bin ich ins Bett gegangen.",
+  "why": "'dann' occupies position 1, so the verb follows immediately and the subject moves after it.",
+  "kind": "verb-second"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich wurde gern ein Eis.",
+  "right": "Ich hätte gern ein Eis. / Ich würde gern ein Eis essen.",
+  "why": "Wishes use 'hätte gern' + noun; 'würde gern' needs an infinitive. 'wurde' is the past of 'werden' (became).",
+  "kind": "konjunktiv-2"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich muss zu arbeiten.",
+  "right": "Ich muss arbeiten.",
+  "why": "Modal verbs take a bare infinitive without 'zu'.",
+  "kind": "infinitive-form"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich habe gemusst arbeiten.",
+  "right": "Ich musste arbeiten.",
+  "why": "Modals in the past are normally used in the Präteritum. The Perfekt would be 'Ich habe arbeiten müssen' (double infinitive), never 'gemusst' with a second verb.",
+  "kind": "infinitive-form"
+ },
+ {
+  "level": "A2",
+  "wrong": "Wenn ich war ein Kind, ich habe viel gespielt.",
+  "right": "Als ich ein Kind war, habe ich viel gespielt.",
+  "why": "A single past period takes 'als'; the verb goes to the end of the als clause and the main clause then starts with the verb.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich habe Angst von Spinnen.",
+  "right": "Ich habe Angst vor Spinnen.",
+  "why": "'Angst haben vor' + Dativ.",
+  "kind": "verb-preposition"
+ },
+ {
+  "level": "A2",
+  "wrong": "Der Film war sehr interessiert.",
+  "right": "Der Film war sehr interessant.",
+  "why": "'interessant' describes the thing, 'interessiert' the person (ich bin interessiert).",
+  "kind": "word-choice"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich habe ein Termin bei der Arzt.",
+  "right": "Ich habe einen Termin beim Arzt.",
+  "why": "'der Termin' → einen Termin (Akkusativ); 'bei' + Dativ → bei dem = beim Arzt.",
+  "kind": "accusative-object"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich fahre mit dem Zug nach Hause um 18 Uhr.",
+  "right": "Ich fahre um 18 Uhr mit dem Zug nach Hause.",
+  "why": "Order of adverbials: time – cause – manner – place (TeKaMoLo).",
+  "kind": "tekamolo"
+ },
+ {
+  "level": "A2",
+  "wrong": "Können Sie mir sagen, wie viel Uhr ist es?",
+  "right": "Können Sie mir sagen, wie viel Uhr es ist?",
+  "why": "An embedded question is a subordinate clause: the verb goes to the end.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "A2",
+  "wrong": "Der Mann, der ich gesehen habe, ist mein Nachbar.",
+  "right": "Der Mann, den ich gesehen habe, ist mein Nachbar.",
+  "why": "The relative pronoun takes the case demanded by the relative clause: 'sehen' needs an accusative object → den.",
+  "kind": "relative-pronoun"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich kenne, dass er recht hat.",
+  "right": "Ich weiß, dass er recht hat.",
+  "why": "'wissen' introduces facts and clauses; 'kennen' is for people, places and things you are acquainted with.",
+  "kind": "word-choice"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich habe ihn seit zwei Jahren nicht gesehen, weil er ist umgezogen.",
+  "right": "Ich habe ihn seit zwei Jahren nicht gesehen, weil er umgezogen ist.",
+  "why": "In writing 'weil' always sends the verb to the end; 'weil' + main-clause order is spoken only.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich gehe zum Arzt, weil ich habe Bauchschmerzen.",
+  "right": "Ich gehe zum Arzt, weil ich Bauchschmerzen habe.",
+  "why": "Subordinate clause: finite verb at the end.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "A2",
+  "wrong": "Ich möchte lernen Deutsch, weil ich will in Deutschland arbeiten.",
+  "right": "Ich möchte Deutsch lernen, weil ich in Deutschland arbeiten will.",
+  "why": "Infinitive at the end of the main clause; in the weil clause the modal goes last, after the infinitive.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B1",
+  "wrong": "Obwohl es regnete, aber wir sind gegangen.",
+  "right": "Obwohl es regnete, sind wir gegangen.",
+  "why": "'obwohl' already expresses the contrast; adding 'aber' doubles it. After the obwohl clause the main clause starts with the verb.",
+  "kind": "redundancy"
+ },
+ {
+  "level": "B1",
+  "wrong": "Trotzdem es regnete, gingen wir.",
+  "right": "Obwohl es regnete, gingen wir. / Es regnete. Trotzdem gingen wir.",
+  "why": "'trotzdem' is an adverb (verb follows it immediately), 'obwohl' is the subordinating conjunction.",
+  "kind": "conjunction-choice"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich habe mich an das Wetter gewohnt.",
+  "right": "Ich habe mich an das Wetter gewöhnt.",
+  "why": "The verb is 'sich gewöhnen an' (with umlaut); 'gewohnt' is the adjective in 'Ich bin es gewohnt'.",
+  "kind": "verb-preposition"
+ },
+ {
+  "level": "B1",
+  "wrong": "Wenn ich würde mehr Zeit haben, würde ich reisen.",
+  "right": "Wenn ich mehr Zeit hätte, würde ich reisen.",
+  "why": "Verb-final in the wenn clause, and use 'hätte/wäre' instead of 'würde haben/sein'.",
+  "kind": "konjunktiv-2"
+ },
+ {
+  "level": "B1",
+  "wrong": "Können Sie mich das erklären?",
+  "right": "Können Sie mir das erklären?",
+  "why": "'erklären' takes the person in the dative and the thing in the accusative.",
+  "kind": "dative-verb"
+ },
+ {
+  "level": "B1",
+  "wrong": "Das Auto wurde repariert von dem Mechaniker.",
+  "right": "Das Auto wurde vom Mechaniker repariert.",
+  "why": "The participle closes the passive sentence; the agent (von + Dativ, contracted 'vom') stays inside the bracket.",
+  "kind": "bracket"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich bin gewöhnt, früh aufzustehen.",
+  "right": "Ich bin es gewohnt, früh aufzustehen.",
+  "why": "'es gewohnt sein' (no umlaut) + zu-infinitive, or 'Ich habe mich daran gewöhnt, früh aufzustehen'.",
+  "kind": "idiom"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich habe entschieden, Deutsch zu lernen.",
+  "right": "Ich habe mich entschieden, Deutsch zu lernen. / Ich habe beschlossen, Deutsch zu lernen.",
+  "why": "'sich entscheiden' is reflexive; 'beschließen' is not.",
+  "kind": "reflexive"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich erinnere das nicht.",
+  "right": "Ich erinnere mich nicht daran.",
+  "why": "'sich erinnern an' + Akkusativ; the reflexive pronoun is obligatory.",
+  "kind": "reflexive"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich bin auf der Uni.",
+  "right": "Ich bin an der Uni. / Ich studiere an der Universität.",
+  "why": "Institutions of study take 'an': an der Uni, an der Schule. 'auf dem Gymnasium' is colloquial only.",
+  "kind": "place-preposition"
+ },
+ {
+  "level": "B1",
+  "wrong": "Es ist wert, den Film zu sehen.",
+  "right": "Es lohnt sich, den Film zu sehen. / Der Film ist sehenswert.",
+  "why": "'worth doing' is 'sich lohnen'; 'wert' needs a noun in the accusative (das ist nichts wert).",
+  "kind": "word-choice"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich habe kein Idee.",
+  "right": "Ich habe keine Ahnung. / Ich habe keine Idee.",
+  "why": "'die Idee' and 'die Ahnung' are feminine → keine. For 'no idea' the idiom is 'keine Ahnung'.",
+  "kind": "noun-gender"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich bin auf dem Weg nach dem Büro.",
+  "right": "Ich bin auf dem Weg ins Büro.",
+  "why": "Movement into a building uses 'in + Akkusativ'; 'nach' is for cities, countries and 'nach Hause'.",
+  "kind": "place-preposition"
+ },
+ {
+  "level": "B1",
+  "wrong": "Nach der Arbeit, ich gehe meistens joggen.",
+  "right": "Nach der Arbeit gehe ich meistens joggen.",
+  "why": "No comma after a fronted adverbial, and the verb must follow it directly.",
+  "kind": "fronted-adverbial"
+ },
+ {
+  "level": "B1",
+  "wrong": "Er sagte mir, dass er kommt morgen.",
+  "right": "Er sagte mir, dass er morgen kommt.",
+  "why": "Verb-final in the dass clause; adverbs stay before the verb.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich hätte gerne wissen, ob der Kurs stattfindet.",
+  "right": "Ich würde gerne wissen, ob der Kurs stattfindet. / Ich wüsste gerne, ob …",
+  "why": "'hätte gern' goes with a noun (ich hätte gern einen Kaffee); with an infinitive use 'würde gern'.",
+  "kind": "konjunktiv-2"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich habe in Deutschland seit zwei Jahren gelebt.",
+  "right": "Ich lebe seit zwei Jahren in Deutschland.",
+  "why": "A situation that continues into the present takes the Präsens with 'seit'; the Perfekt would imply it is over.",
+  "kind": "tense-seit"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich kenne ihn für drei Jahre.",
+  "right": "Ich kenne ihn seit drei Jahren.",
+  "why": "Duration up to now is 'seit' + Dativ; 'für' only marks a planned future duration (für drei Wochen nach Spanien).",
+  "kind": "tense-seit"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich lerne Deutsch seit ich bin in Berlin.",
+  "right": "Ich lerne Deutsch, seit ich in Berlin bin.",
+  "why": "'seit(dem)' as a conjunction needs a comma and sends the verb to the end.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B1",
+  "wrong": "Dieses Wochenende gehen wir zu Berlin.",
+  "right": "Dieses Wochenende fahren wir nach Berlin.",
+  "why": "Cities take 'nach'; travelling by vehicle is 'fahren', not 'gehen'.",
+  "kind": "place-preposition"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich bin einig mit dir.",
+  "right": "Ich bin mit dir einer Meinung. / Ich stimme dir zu.",
+  "why": "'einig' only survives in 'sich einig sein' (Wir sind uns einig). Agreement is 'zustimmen' + Dativ or 'einer Meinung sein'.",
+  "kind": "idiom"
+ },
+ {
+  "level": "B1",
+  "wrong": "Wegen dem Regen bleiben wir zu Hause.",
+  "right": "Wegen des Regens bleiben wir zu Hause.",
+  "why": "In written standard German 'wegen' takes the genitive; the dative is colloquial.",
+  "kind": "genitive"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich habe den Zug verpasst, weil ich habe verschlafen.",
+  "right": "Ich habe den Zug verpasst, weil ich verschlafen habe.",
+  "why": "Verb-final in the weil clause. (Spoken German tolerates 'weil' + main clause, writing does not.)",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich schlage vor, dass wir treffen uns um acht.",
+  "right": "Ich schlage vor, dass wir uns um acht treffen.",
+  "why": "'sich treffen' is reflexive, and in the dass clause the verb goes to the end.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich bin gestern nicht zur Arbeit gekommen, weil ich war krank.",
+  "right": "Ich bin gestern nicht zur Arbeit gekommen, weil ich krank war.",
+  "why": "Verb-final after 'weil'.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich bin traurig, weil mein Hund ist gestorben.",
+  "right": "Ich bin traurig, weil mein Hund gestorben ist.",
+  "why": "In the weil clause the auxiliary comes last, after the participle.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B1",
+  "wrong": "Das ist der Mann, mit dem ich habe gesprochen.",
+  "right": "Das ist der Mann, mit dem ich gesprochen habe.",
+  "why": "Relative clauses are subordinate: the finite verb goes to the end.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B1",
+  "wrong": "Sie hat mir geraten, dass ich soll mehr schlafen.",
+  "right": "Sie hat mir geraten, mehr zu schlafen. / Sie hat mir geraten, dass ich mehr schlafen soll.",
+  "why": "After 'raten' use an infinitive clause with 'zu', or keep the modal at the end of the dass clause.",
+  "kind": "infinitive-form"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich habe vor, ins Ausland gehen.",
+  "right": "Ich habe vor, ins Ausland zu gehen.",
+  "why": "'vorhaben' introduces an infinitive clause, which needs 'zu'.",
+  "kind": "infinitive-form"
+ },
+ {
+  "level": "B1",
+  "wrong": "Ich mache Sinn, wenn ich sage, dass …",
+  "right": "Es ist sinnvoll, … / Das ergibt Sinn.",
+  "why": "'Sinn machen' is a widespread anglicism; in formal writing prefer 'Sinn ergeben/haben' or 'sinnvoll sein'. A person cannot 'Sinn machen'.",
+  "kind": "word-choice"
+ },
+ {
+  "level": "B2",
+  "wrong": "Der Grund, warum ich schreibe, ist, weil ich eine Frage habe.",
+  "right": "Der Grund, warum ich schreibe, ist, dass ich eine Frage habe.",
+  "why": "After 'Der Grund ist' the content clause is introduced by 'dass', not 'weil'.",
+  "kind": "conjunction-choice"
+ },
+ {
+  "level": "B2",
+  "wrong": "Es handelt sich um eine Frage, die ist schwierig.",
+  "right": "Es handelt sich um eine Frage, die schwierig ist.",
+  "why": "Relative clause → verb at the end.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B2",
+  "wrong": "Ich bewerbe mich für die Stelle.",
+  "right": "Ich bewerbe mich um die Stelle.",
+  "why": "'sich bewerben um' (the position) + Akkusativ, 'bei' (the company), 'als' (the role).",
+  "kind": "verb-preposition"
+ },
+ {
+  "level": "B2",
+  "wrong": "Anbei sende ich Ihnen meinen Lebenslauf im Anhang.",
+  "right": "Anbei sende ich Ihnen meinen Lebenslauf. / Im Anhang finden Sie meinen Lebenslauf.",
+  "why": "'anbei' and 'im Anhang' say the same thing; use one.",
+  "kind": "redundancy"
+ },
+ {
+  "level": "B2",
+  "wrong": "Ich freue mich über Ihre Antwort im Voraus.",
+  "right": "Ich freue mich auf Ihre Antwort.",
+  "why": "Something still to come takes 'sich freuen auf'; 'über' is for something present or past. 'im Voraus' only goes with 'danken'.",
+  "kind": "verb-preposition"
+ },
+ {
+  "level": "B2",
+  "wrong": "Die Anzahl der Studenten haben zugenommen.",
+  "right": "Die Anzahl der Studenten hat zugenommen.",
+  "why": "The subject is 'die Anzahl' (singular); the genitive attribute does not control the verb.",
+  "kind": "agreement"
+ },
+ {
+  "level": "B2",
+  "wrong": "Im Gegensatz zu früher, arbeiten heute mehr Frauen.",
+  "right": "Im Gegensatz zu früher arbeiten heute mehr Frauen.",
+  "why": "German puts no comma after a fronted prepositional phrase.",
+  "kind": "fronted-adverbial"
+ },
+ {
+  "level": "B2",
+  "wrong": "Einerseits ist es teuer, aber andererseits ist es praktisch.",
+  "right": "Einerseits ist es teuer, andererseits ist es praktisch.",
+  "why": "The pair 'einerseits … andererseits' already links the clauses; no 'aber'.",
+  "kind": "redundancy"
+ },
+ {
+  "level": "B2",
+  "wrong": "Je mehr man lernt, man versteht mehr.",
+  "right": "Je mehr man lernt, desto mehr versteht man.",
+  "why": "'je … desto/umso'; in the desto clause the verb comes directly after the 'desto' phrase.",
+  "kind": "verb-second"
+ },
+ {
+  "level": "B2",
+  "wrong": "Es wurde viel diskutiert über das Thema.",
+  "right": "Es wurde viel über das Thema diskutiert. / Über das Thema wurde viel diskutiert.",
+  "why": "Prepositional objects belong inside the sentence bracket, before the participle.",
+  "kind": "bracket"
+ },
+ {
+  "level": "B2",
+  "wrong": "Ich habe mir die Haare schneiden gelassen.",
+  "right": "Ich habe mir die Haare schneiden lassen.",
+  "why": "'lassen' + infinitive keeps the infinitive form in the Perfekt (Ersatzinfinitiv), like the modals.",
+  "kind": "infinitive-form"
+ },
+ {
+  "level": "B2",
+  "wrong": "Trotz dem Regen fand das Konzert statt.",
+  "right": "Trotz des Regens fand das Konzert statt.",
+  "why": "'trotz' takes the genitive in standard written German.",
+  "kind": "genitive"
+ },
+ {
+  "level": "B2",
+  "wrong": "Das ist eine Frage, worauf ich keine Antwort habe.",
+  "right": "Das ist eine Frage, auf die ich keine Antwort habe.",
+  "why": "After a concrete noun use preposition + relative pronoun; 'wo(r)-' forms follow indefinite antecedents (etwas, alles, das) or whole clauses.",
+  "kind": "relative-pronoun"
+ },
+ {
+  "level": "B2",
+  "wrong": "Ich bin nicht einverstanden damit, dass die Studiengebühren zu erhöhen.",
+  "right": "Ich bin nicht damit einverstanden, dass die Studiengebühren erhöht werden.",
+  "why": "A dass clause needs a finite verb – here a passive; 'zu erhöhen' would require an infinitive construction without 'dass'.",
+  "kind": "clause-form"
+ },
+ {
+  "level": "B2",
+  "wrong": "Die Firma hat 200 Mitarbeiter entlassen müssen worden.",
+  "right": "Die Firma hat 200 Mitarbeiter entlassen müssen. / 200 Mitarbeiter mussten entlassen werden.",
+  "why": "Do not mix the active double infinitive with a passive 'worden'; choose one construction.",
+  "kind": "infinitive-form"
+ },
+ {
+  "level": "B2",
+  "wrong": "Ich habe keine Lust mehr, weil es bringt nichts.",
+  "right": "Ich habe keine Lust mehr, weil es nichts bringt.",
+  "why": "Verb-final after 'weil'.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B2",
+  "wrong": "Die Regierung sollte investieren mehr in Bildung.",
+  "right": "Die Regierung sollte mehr in Bildung investieren.",
+  "why": "The infinitive closes the bracket; 'mehr in Bildung' stays inside.",
+  "kind": "bracket"
+ },
+ {
+  "level": "B2",
+  "wrong": "Laut der Studie, die Zahl der Raucher sinkt.",
+  "right": "Laut der Studie sinkt die Zahl der Raucher.",
+  "why": "No comma after 'Laut der Studie', and the verb follows the fronted phrase (inversion).",
+  "kind": "fronted-adverbial"
+ },
+ {
+  "level": "B2",
+  "wrong": "Es ist wichtig, dass man bewegt sich regelmäßig.",
+  "right": "Es ist wichtig, dass man sich regelmäßig bewegt. / Es ist wichtig, sich regelmäßig zu bewegen.",
+  "why": "Verb-final in the dass clause; the reflexive pronoun follows the subject.",
+  "kind": "verb-final"
+ },
+ {
+  "level": "B2",
+  "wrong": "Die Ergebnisse waren enttäuschend, deswegen die Firma hat das Projekt gestoppt.",
+  "right": "Die Ergebnisse waren enttäuschend, deswegen hat die Firma das Projekt gestoppt.",
+  "why": "'deswegen' is a conjunctional adverb in position 1 → verb second, subject third.",
+  "kind": "verb-second"
+ },
+ {
+  "level": "B2",
+  "wrong": "Ich stimme zu mit dir.",
+  "right": "Ich stimme dir zu.",
+  "why": "'zustimmen' + Dativ, no preposition; the prefix 'zu' goes to the end.",
+  "kind": "dative-verb"
+ },
+ {
+  "level": "B2",
+  "wrong": "Die meisten Menschen, die leben in Großstädten, haben kein Auto.",
+  "right": "Die meisten Menschen, die in Großstädten leben, haben kein Auto.",
+  "why": "Relative clause: verb at the end.",
+  "kind": "verb-final"
+ }
+]

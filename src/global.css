@@ -1,0 +1,6 @@
+/* Web only: the app is designed for a phone; on a desktop browser it sits in a phone-width column. */
+html,
+body {
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+}

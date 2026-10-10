@@ -1,0 +1,2836 @@
+{
+  "grammar": {
+    "vokalwechsel": {
+      "title": "现在时的元音变化：er wirft、er sieht、er fährt",
+      "rule": "许多强变化动词在 du 和 er/sie/es 形式中会改变词干元音：e 变 i（werfen: du wirfst, er wirft），e 变 ie（sehen: du siehst, er sieht），a 变 ä（fahren: du fährst, er fährt）。其他形式都保留不定式的元音：ich werfe, wir werfen, ihr werft, sie werfen。所以是 'er wirft'，而不是 'er werft'。",
+      "examples": [
+        "我扔球，你扔球，他扔球。",
+        "你看到那个牌子了吗？是的，我看到了。",
+        "她明天开车去维也纳，我们星期五去。",
+        "他会说三种语言，而且读很多书。"
+      ],
+      "pitfalls": [
+        "'werfen' 在 du 和 er/sie/es 形式中 e 变 i。",
+        "元音变化只发生在 du 和 er/sie/es；ihr 形式保留原元音：ihr fahrt。",
+        "第二、第三人称单数 e → ie：du siehst, er/sie sieht，再加词尾 -t。",
+        "du 和 er/sie/es 时 a → ä：du schläfst, er schläft；ich schlafe, wir schlafen 保留原元音。",
+        "元音变化只发生在 du 和 er/sie/es。wir、ihr、sie 保留词干元音：wir lesen, ihr lest。",
+        "'nehmen' 的 e → i，而且词干缩短：du nimmst, er nimmt（双写 mm）。"
+      ]
+    },
+    "kein-nicht": {
+      "title": "kein 还是 nicht？",
+      "rule": "'Kein' 否定带不定冠词或不带冠词的名词：Ich habe ein Auto → Ich habe kein Auto；Ich habe Zeit → Ich habe keine Zeit。'Nicht' 否定其他一切：动词、形容词、副词，以及带定冠词或物主代词的名词：Das ist nicht mein Auto。'Nicht' 通常放在句末，或直接放在被否定的部分前面。",
+      "examples": [
+        "我没有时间，也没有钱。",
+        "我不明白这个。",
+        "这不是正确的路。",
+        "她今天不来。"
+      ],
+      "pitfalls": [
+        "不带冠词的名词用 'kein' 否定。",
+        "物主代词前用 'nicht'，绝不用 'kein'。",
+        "'kein' 的变格和 'ein' 一样：der Hunger，阳性第四格 → keinen Hunger。",
+        "形容词、动词和副词用 'nicht' 否定；'kein' 只放在名词前。",
+        "不带冠词或带 'ein' 的名词用 'kein' 否定：keinen Kaffee, keine Zeit。",
+        "动词用 'nicht' 否定，'nicht' 尽量靠后放：kommt heute nicht。"
+      ]
+    },
+    "modalverben": {
+      "title": "情态动词",
+      "rule": "情态动词 können、müssen、dürfen、sollen、wollen、mögen（möchte）占据第二位，并把不定式送到句末：Ich muss heute arbeiten。ich 和 er/sie/es 的形式相同：ich kann, er kann；ich muss, sie muss；ich möchte, er möchte。含义：können = 能力或可能，müssen = 必须，dürfen = 允许，sollen = 义务或建议，wollen = 强烈的意愿，möchte = 客气的愿望。",
+      "examples": [
+        "我今天来不了。",
+        "他每天都得早起。",
+        "我可以把车停在这里吗？",
+        "我想要一杯咖啡。"
+      ],
+      "pitfalls": [
+        "情态动词在 er/sie/es 形式中不加 -t：er kann。",
+        "不定式放在句末。",
+        "'möchte' 在第一、第三人称单数中不加 -t：ich möchte, er/sie möchte；ihr möchtet。",
+        "情态动词后的不定式不带 'zu'。",
+        "情态动词在第一、第三人称单数中没有词尾：ich will, er will；ihr wollt。",
+        "ich darf, du darfst, er darf——情态动词单数第一人称不加 -e。"
+      ]
+    },
+    "imperativ": {
+      "title": "命令式：du、ihr、Sie",
+      "rule": "命令式有三种形式。du 形式：动词词干，不带 'du'，通常没有词尾：Komm! 词干以 -t/-d 结尾时加 -e：Warte! e 变 i 的动词保留这一变化：Sprich! Nimm! a 变 ä 的动词则不变：Fahr! ihr 形式：和现在时一样，但不带 'ihr'：Kommt! Wartet! Sie 形式：不定式 + Sie：Kommen Sie bitte! 动词通常放在句首，最多只有 'bitte'、'jetzt' 或 'dann' 这类词放在它前面。'Sein' 很特殊：Sei ruhig! Seid ruhig! Seien Sie ruhig!",
+      "examples": [
+        "请过来帮帮我！",
+        "拿出你们的书，读一读课文！",
+        "请在这里稍等一下。",
+        "请准时！"
+      ],
+      "pitfalls": [
+        "e 变 i 的动词，du 命令式保留元音变化：sprich, nimm, gib。",
+        "du 命令式没有 -st 词尾，也没有变元音：fahr。",
+        "du 命令式没有 -st 词尾：Geh! Komm! Nimm! 代词通常省略，只有 'Sie' 保留：Gehen Sie!",
+        "'sein' 是不规则的：sei（du）、seid（ihr）、seien Sie。",
+        "e → i/ie 的动词在 du 命令式中保留变化：nimm, gib, sprich, lies。",
+        "a → ä 的动词在命令式中去掉变元音：schlaf, fahr, lauf。"
+      ]
+    },
+    "verb-zweitstellung": {
+      "title": "主句：动词放在第二位",
+      "rule": "陈述句中，变位动词始终放在第二位。第一位可以是主语，也可以是时间、地点状语或宾语，这时主语放在动词之后：Morgen fahre ich nach Köln。一般疑问句以动词开头：Kommst du mit? 特殊疑问句（W-疑问句）中，疑问词占第一位，动词占第二位：Wann kommst du?",
+      "examples": [
+        "我明天去科隆。",
+        "明天我去科隆。",
+        "周末我们去看我父母。",
+        "你一起来吗？你什么时候来？"
+      ],
+      "pitfalls": [
+        "时间状语占第一位时，动词放第二位，然后才是主语。",
+        "动词必须留在第二位：besuchen wir。",
+        "时间状语放在句首时，动词放第二位，主语随后：Heute habe ich。",
+        "'dann'、'deshalb'、'trotzdem' 可以占第一位：这时动词紧随其后。",
+        "像 'leider' 这样的副词也算第一位；动词仍在第二位。",
+        "整个介词短语占第一位；动词紧随其后：lerne ich。"
+      ]
+    },
+    "kennen-wissen-koennen": {
+      "title": "kennen、wissen 还是 können？",
+      "rule": "'Kennen' 指认识、熟悉某个人、地方或事物，带直接宾语：Ich kenne die Stadt。'Wissen' 指知道某条信息，后面多接 'dass'、'ob'、疑问词或 'es/das'，否则接事物（die Antwort）：Ich weiß, dass er kommt。'Können' 是表示能力或可能性的情态动词，通常带不定式：Ich kann schwimmen。",
+      "examples": [
+        "我很熟悉柏林。",
+        "我知道她今天来。",
+        "你知道火车站在哪里吗？",
+        "我会说德语。你会游泳吗？"
+      ],
+      "pitfalls": [
+        "认识地方和人用 'kennen'；'wissen' 用于信息：Ich weiß, wo Berlin liegt。",
+        "带疑问词的从句前用 'wissen'。",
+        "熟悉的人、地方和作品用 'kennen'；'wissen' 多接从句（dass、ob、疑问词）或 'es/das/viel/die Antwort' 这类事实。",
+        "带疑问词、'dass' 或 'ob' 的从句前用 'wissen'，绝不用 'kennen'。",
+        "语言和技能用 'können'（Ich kann Deutsch, sie kann schwimmen）。",
+        "带不定式表示能力要用 'können'；'kennen' 只接名词或代词。"
+      ]
+    },
+    "seit-vor-fuer": {
+      "title": "时间表达中用 seit、vor 还是 für？",
+      "rule": "'Seit'（+ 第三格）表示一段至今仍在持续的时间的起点，德语通常用现在时：Ich lerne seit zwei Jahren Deutsch = 我学德语已经两年了。'Vor'（+ 第三格）意为“……以前”：vor zwei Jahren。'Für'（+ 第四格）表示计划中的时长：für zwei Wochen。",
+      "examples": [
+        "我在汉堡住了三年了。",
+        "三年前我搬到了汉堡。",
+        "她要去意大利两个星期。",
+        "你从什么时候开始学德语的？从一月开始。"
+      ],
+      "pitfalls": [
+        "这段时间仍在持续，所以德语用现在时。",
+        "意思是持续到现在的一段时间（我一直在学）：seit + 第三格。",
+        "过去的某个时间点：vor + 第三格。'seit' 表示持续到现在的一段时间。",
+        "'seit' 要求第三格，第三格复数加 -n：seit zwei Jahren。",
+        "计划中的时长（将来）用 für。'seit' 只用于过去开始、至今仍在持续的时间。",
+        "现在时 + 持续到今天的时长要用 'seit'；'vor' 和现在时搭配不合适。"
+      ]
+    },
+    "dass-ob": {
+      "title": "dass 还是 ob？",
+      "rule": "'Dass' 引导陈述内容（“……这件事”）；'ob' 引导间接的一般疑问句（“是否”）。两种从句中动词都放在句末。如果问句带疑问词，就用该疑问词代替 'ob'：Ich weiß nicht, wo er wohnt。",
+      "examples": [
+        "我觉得他明天会来。",
+        "我不知道他明天是否会来。",
+        "她问你有没有时间。"
+      ],
+      "pitfalls": [
+        "间接的一般疑问句（他来还是不来？）要用 'ob'。",
+        "间接问句中表示“是否”要用 'ob'，而不是 'wenn'。",
+        "'hoffen' 引出的是陈述内容：用 dass。'ob' 只用于答案未定的一般疑问句。",
+        "'fragen' 后面接间接的一般疑问句：用 ob（Hast du Zeit? → ob ich Zeit habe）。",
+        "连词 'dass' 写作 ss；'das' 是冠词或关系代词（das Haus, das ich sehe）。",
+        "答案未定（是或否）时用 'ob'；'dass' 把内容当作确定的事实来陈述。"
+      ]
+    },
+    "wechselpraepositionen": {
+      "title": "双格介词：第四格还是第三格？",
+      "rule": "九个双格介词 an、auf、hinter、in、neben、über、unter、vor、zwischen 表示方向或目的地时支配第四格（提问：wohin? 去哪里？），表示位置时支配第三格（提问：wo? 在哪里？）。记忆口诀“静三动四”：朝目标的移动 = 第四格，静止的位置 = 第三格。",
+      "examples": [
+        "我走进厨房。我在厨房里。",
+        "他把书放到桌上。书在桌上。",
+        "我们开车去海边。我们住在海边。"
+      ],
+      "pitfalls": [
+        "'Gehen' 带目的地，提问 'wohin?'，所以用第四格：in die Küche。",
+        "'Liegen' 表示位置，提问 'wo?'，所以用第三格：auf dem Tisch。",
+        "'Essen' 不是朝目标的移动，提问 'wo?'，所以用第三格：in einem Restaurant。",
+        "去哪里？朝目标的移动用第四格：an die Wand。",
+        "在哪里？'sitzen' 表示静止的位置：第三格，auf dem Stuhl。（Sie setzt sich auf den Stuhl.）",
+        "'stellen' 是有目标的移动（去哪里？）：第四格。'Die Flasche steht im Kühlschrank' 则是第三格。",
+        "'warten' 没有位置变化：在哪里？第三格，vor der Schule。"
+      ]
+    },
+    "perfekt-haben-sein": {
+      "title": "Perfekt 用 haben 还是 sein？",
+      "rule": "大多数动词用 'haben' 构成 Perfekt。'Sein' 用于从 A 到 B 的位移动词（gehen、fahren、kommen、fliegen）、状态变化动词（aufwachen、einschlafen、sterben、werden），以及 sein、bleiben、passieren、geschehen。这些用法中动词不带第四格宾语（但：Ich habe das Auto gefahren）。反身动词和情态动词用 'haben'。",
+      "examples": [
+        "我去看电影了。",
+        "我在办公室工作了。",
+        "她六点醒了。",
+        "我们待了两个小时。"
+      ],
+      "pitfalls": [
+        "去某地的位移、不带直接宾语：用 sein。",
+        "状态变化：用 sein。",
+        "'arbeiten' 既不是位移也不是状态变化：Perfekt 用 'haben'。",
+        "'aufstehen' 是状态变化（躺着 → 站着）：Perfekt 用 'sein'。",
+        "从 A 到 B 的位移（gehen、fahren、kommen、fliegen）：用 'sein'。",
+        "'passieren'、'geschehen'、'bleiben'、'sein' 和 'werden' 虽然不是位移，也用 'sein'。"
+      ]
+    },
+    "futur-i": {
+      "title": "Futur I：werden + 不定式",
+      "rule": "Futur I 由 'werden'（现在时）+ 句末的不定式构成：Ich werde morgen arbeiten。带时间状语的计划，德语通常直接用现在时：Morgen fahre ich nach Köln。将来时强调意图、推测或承诺。注意：'würde' 是 Konjunktiv II（“会……”的虚拟语气），不是将来时。",
+      "examples": [
+        "我明天给你打电话。",
+        "明年我们去西班牙。",
+        "他可能还在办公室。"
+      ],
+      "pitfalls": [
+        "关于将来的承诺用 'werde'（我将会）；'würde' 意为“（假如）会……”，是 Konjunktiv II。",
+        "'werden' 之后的不定式放在句末。",
+        "Futur I = werden + 一个不定式。句末再加一个 'werden' 就多余了。",
+        "'werden' 之后的不定式不带 'zu'，和情态动词之后一样。",
+        "不定式放在句末；'werden' 留在第二位。"
+      ]
+    },
+    "trennbare-verben": {
+      "title": "可分动词",
+      "rule": "可分动词有一个重读的前缀（an-、auf-、aus-、ein-、mit-、zu-、ab-、vor-、weg-）。在主句中前缀放到句末：Ich rufe dich an。在从句中动词整体放在句末：..., weil ich dich anrufe。第二分词 = 前缀 + 基础动词的第二分词：an + gerufen = angerufen，aus + probiert = ausprobiert；'zu' 放在中间：anzurufen。不可分前缀（be-、ver-、er-、ent-、zer-、ge-、emp-）从不分开。",
+      "examples": [
+        "我每天七点起床。",
+        "她昨天给我打了电话。",
+        "我知道火车八点出发。",
+        "他听懂了问题并回答了。"
+      ],
+      "pitfalls": [
+        "在主句中前缀分离，放到句末。",
+        "可分动词的第二分词 = 前缀 + 基础动词的第二分词：an + gerufen。",
+        "和情态动词连用时，可分动词作为一个完整的不定式放在句末：ausgehen。",
+        "在从句中动词移到句末，前缀重新和它合在一起：ankommt。",
+        "be-、ver-、er-、ent-、zer- 和 ge- 是不可分且不重读的前缀：第二分词不加 ge-。",
+        "在主句和疑问句中前缀分离，放到句末：fährt ... ab。"
+      ]
+    },
+    "nebensatz-verbende": {
+      "title": "从句：动词放在句末",
+      "rule": "在 weil、dass、wenn、ob、obwohl、als、damit、bevor、nachdem 等从属连词之后，以及间接问句的疑问词之后，变位动词放在从句句末。动词有两个部分时，变位动词放在最后：..., weil ich gestern nicht kommen konnte。从句在前时，主句以动词开头：Weil ich krank bin, bleibe ich zu Hause。",
+      "examples": [
+        "我觉得他今天没有时间。",
+        "因为下雨，我们待在家里。",
+        "她问你明天能不能一起来。"
+      ],
+      "pitfalls": [
+        "在 'dass' 从句中动词放在句末。",
+        "前置的从句占据第一位；动词紧随其后。",
+        "'ob' 之后动词放在从句句末；时间状语留在它前面。",
+        "在从句中情态动词放在最后，在不定式之后：nicht kommen kann。",
+        "在关系从句（一种从句）中助动词放在最后：gesehen habe。"
+      ]
+    },
+    "dativ-plural-n": {
+      "title": "第三格复数：名词加 -n",
+      "rule": "第三格复数中几乎所有名词都加 -n：mit den Kindern, bei meinen Eltern, aus den Häusern。以 -s 结尾的复数（die Autos）、以 -n 结尾的复数（die Frauen）和一些外来词复数（die Praktika）保持不变。冠词类的词也以 -en 结尾：den、meinen、diesen、allen。mit、bei、von、zu、aus、nach、seit 之后始终用第三格。",
+      "examples": [
+        "我和我的孩子们一起去度假。",
+        "她还和父母住在一起。",
+        "我们经常和邻居们聊天。",
+        "他和课程班上的女士们聊天。"
+      ],
+      "pitfalls": [
+        "'mit' 之后要用第三格：meinen Kindern，名词加 -n。",
+        "'bei' 之后要用第三格复数：ihren Eltern。",
+        "'mit' 要求第三格：冠词 'den'，复数名词加 -n：mit den Kindern。",
+        "'von' + 第三格复数：unseren Freunden——冠词类的词以 -en 结尾，名词以 -n 结尾。",
+        "'seit' + 第三格：die Jahre → seit Jahren。第三格复数加 -n，即使没有冠词也一样。",
+        "'aus' + 第三格：die Häuser → aus den Häusern。只有以 -s 或 -n 结尾的复数保持不变。"
+      ]
+    },
+    "reflexive-verben": {
+      "title": "反身动词：mich 还是 mir？",
+      "rule": "反身动词带反身代词：mich、dich、sich、uns、euch、sich。许多动词永远是反身的（sich beeilen、sich irren、sich schämen、sich weigern）。反身代词通常用第四格；句中另有直接宾语时，一般用第三格：Ich wasche mich，但 ich wasche mir die Hände。只有 mir/mich 和 dir/dich 能看出区别。Perfekt 用 haben 构成。",
+      "examples": [
+        "我期待着周末。",
+        "你还记得他吗？",
+        "我洗手。",
+        "我们昨天见面了。"
+      ],
+      "pitfalls": [
+        "有直接宾语（'die Hände'）时，反身代词用第三格：mir。",
+        "'Sich freuen auf' 永远是反身的。",
+        "没有其他宾语时，反身代词多用第四格：ich interessiere mich, du freust dich。",
+        "有第四格宾语（die Hände）时，反身代词用第三格：mir、dir。",
+        "反身代词和主语一致：wir → uns，ihr → euch；'sich' 只用于 er/sie/es/sie/Sie。",
+        "'sich etwas vorstellen'（反身代词第三格）= 想象；'sich vorstellen'（反身代词第四格）= 自我介绍。"
+      ]
+    },
+    "komparativ-superlativ": {
+      "title": "比较级和最高级",
+      "rule": "比较级：形容词 + -er，用 'als' 进行比较：schneller als。最高级：am + 形容词 + -sten，或名词前用 der/die/das + -ste：am schnellsten, der schnellste Zug。许多含 a、o、u 的单音节形容词要变元音：alt, älter, am ältesten；groß, größer, am größten。不规则：gut, besser, am besten；viel, mehr, am meisten；gern, lieber, am liebsten；hoch, höher, am höchsten。同级比较：so ... wie。",
+      "examples": [
+        "柏林比汉堡大。",
+        "ICE 是德国最快的火车。",
+        "比起咖啡我更喜欢茶，最喜欢绿茶。",
+        "我兄弟跟我一样大。"
+      ],
+      "pitfalls": [
+        "比较级加 -er（带变元音：größer），不用 'mehr' + 形容词。",
+        "'Gut' 是不规则的：gut, besser, am besten, der beste。",
+        "比较级之后用 'als'；'wie' 用于同级比较（so groß wie）。",
+        "和动词连用的最高级：am + -sten（am schnellsten, am besten）。",
+        "同级比较：so ... wie。'als' 只用在比较级之后（größer als）。",
+        "比较级用 -er 构成，长形容词也一样：interessanter，绝不说 'mehr interessant'。"
+      ]
+    },
+    "genus-endungen": {
+      "title": "从词尾判断名词的性",
+      "rule": "许多词尾能透露冠词。一定是阴性：-ung、-heit、-keit、-schaft、-tät（die Wohnung, die Freiheit, die Universität）；多为阴性：-ion、-ei、-ie、-ik、-ur（die Nation, die Bäckerei, die Musik）。一定是中性：指小词尾 -chen、-lein 以及名词化的不定式（das Mädchen, das Essen）；多为中性：-um、-ment、-tum（das Museum, das Dokument，但 der Irrtum）。多为阳性：表示人和器具的 -er，以及 -ling、-ismus、-ist、-or（der Lehrer, der Computer, der Motor）。词尾 -e 不可靠：die Lampe，但 das Ende, der Name。其他情况要把冠词和单词一起记。",
+      "examples": [
+        "'Wohnung'、'Freiheit' 和 'Möglichkeit' 是阴性。",
+        "'Mädchen' 和 'Museum' 是中性。",
+        "'Lehrer'、'Computer' 和 'Optimismus' 是阳性。",
+        "电影的结局很伤感。"
+      ],
+      "pitfalls": [
+        "以 -um 结尾的外来词几乎都是中性：das Museum, das Zentrum, das Datum。",
+        "以 -ung 结尾的名词一定是阴性：die Zeitung, die Wohnung, die Übung。",
+        "-heit 和 -keit 使名词成为阴性：die Freiheit, die Gesundheit, die Möglichkeit。",
+        "指小词尾 -chen 一定是中性，指人时也一样：das Mädchen, das Brüderchen。",
+        "以 -er 结尾、表示人和器具的名词多为阳性：der Computer, der Drucker, der Fahrer。",
+        "词尾 -e 不标示性：das Ende, das Auge 是中性，die Lampe 是阴性，der Name 是阳性。要把冠词和单词一起记。",
+        "以 -ion 结尾的外来词几乎都是阴性：die Nation, die Information, die Diskussion。"
+      ]
+    },
+    "als-wenn-wann": {
+      "title": "als、wenn 还是 wann？",
+      "rule": "'Wann' 是询问时间点的疑问词，也引导间接问句：Ich weiß nicht, wann er kommt。'Als' 表示过去一次性的事件或时期（“当……时”）。'Wenn' 用于重复发生的事（“每当”）、现在和将来，以及条件（“如果”）。'als' 和 'wenn' 之后动词放在从句句末。",
+      "examples": [
+        "我十岁的时候，我们搬到了柏林。",
+        "每当我累了，就喝杯咖啡。",
+        "如果他明天来，我们就庆祝。",
+        "你什么时候来？我不知道他什么时候来。"
+      ],
+      "pitfalls": [
+        "过去一次性的时期用 'als'。",
+        "关于时间的间接问句要用疑问词 'wann'。",
+        "过去一次性的时期：用 als。'wann' 是询问时间（Wann kommst du?）。",
+        "现在和将来用 'wenn'；'als' 只用于过去一次性的事件。",
+        "过去反复发生的事（immer、jedes Mal）：用 wenn。'als' 只用于一次性事件。",
+        "关于时间的间接问句用 'wann'；'wenn' 在这里会变成“如果”或“一……就”的意思。"
+      ]
+    },
+    "weil-denn-da": {
+      "title": "weil、denn 还是 da？",
+      "rule": "三个词都表示原因。'Weil' 和 'da' 是从属连词：动词放在从句句末。'Da' 稍正式一些，常放在句首，引出听者已经知道的原因。'Denn' 连接两个主句：后面是正常语序，而且 'denn' 句绝不能放在前面。",
+      "examples": [
+        "我学德语，因为我在柏林工作。",
+        "既然下雨，我们就坐公交车。",
+        "我们早点睡觉，因为明天要出发。"
+      ],
+      "pitfalls": [
+        "'weil' 之后动词放在句末。",
+        "'Denn' 不能引导前置的从句；要用 'da' 或 'weil'。",
+        "'denn' 连接两个主句（占第零位）：动词留在第二位，不放句末。",
+        "'da' 引导从句：变位动词放在最后；从句占据第一位，所以主句动词紧随其后：lerne ich。",
+        "前置的原因要用 'weil' 或 'da'；denn 句要放在它所解释的陈述之后。",
+        "'weil' 之后动词放在最后：助动词 'hat' 收尾。"
+      ]
+    },
+    "trotzdem-obwohl": {
+      "title": "obwohl 还是 trotzdem？",
+      "rule": "两者都表示让步转折（“虽然”“尽管如此”）。'Obwohl' 是从属连词：引导从句，并把动词送到句末。'Trotzdem' 是主句中的副词：放在第一位时动词紧随其后，也可以放在句中：Wir gehen trotzdem spazieren。'obwohl' 从句之后，主句动词紧随其后。",
+      "examples": [
+        "虽然下雨，我们还是去散步。",
+        "下雨了。尽管如此，我们还是去散步。",
+        "他很累，但还是继续工作。"
+      ],
+      "pitfalls": [
+        "前置的 'obwohl' 从句之后动词紧随其后：'..., gehen wir (trotzdem) spazieren'。",
+        "'trotzdem' 占第一位时，动词紧随其后。",
+        "主句中的结果用 'trotzdem'（动词紧随其后）。'obwohl' 引导表示障碍的从句。",
+        "把 'trotzdem' 当从属连词用是口语用法；标准德语中从句要用 'obwohl'。",
+        "'trotzdem' 占第一位，所以动词紧随其后：Trotzdem geht er。"
+      ]
+    },
+    "nachdem-bevor-waehrend": {
+      "title": "nachdem、bevor 还是 während？",
+      "rule": "三个词都引导动词放在句末的从句。'Bevor' = 在……之前：Bevor ich esse, wasche ich mir die Hände。'Während' = 在……的时候：Während ich koche, höre ich Radio。'Nachdem' = 在……之后；'nachdem' 从句中的动词通常比主句早一个时态：Nachdem ich gegessen hatte, ging ich spazieren。",
+      "examples": [
+        "吃饭前我先洗手。",
+        "我一边做饭一边听广播。",
+        "吃完饭后，我去散步了。",
+        "他通过考试之后就庆祝。"
+      ],
+      "pitfalls": [
+        "'nachdem' 之后的动词通常早一个时态：主句用现在时则从句用 Perfekt，主句用过去时则从句用 Plusquamperfekt。",
+        "'bevor' 之后动词放在从句句末。"
+      ]
+    },
+    "praeteritum-perfekt": {
+      "title": "Präteritum 还是 Perfekt？",
+      "rule": "两种时态都用来叙述过去。口语和电子邮件中通常用 Perfekt：Ich habe gestern gearbeitet。Präteritum 用于书面叙述、报告和报刊文章。sein、haben 和情态动词即使在口语中也通常用 Präteritum：Ich war müde, ich hatte Zeit, ich konnte nicht kommen。",
+      "examples": [
+        "昨天我工作了很久，之后很累。",
+        "从前有一位国王，他有三个女儿。",
+        "我本来想打电话，但没有时间。"
+      ],
+      "pitfalls": [
+        "Perfekt = haben/sein + 第二分词；'arbeitete' 是 Präteritum，不是分词。",
+        "'Bleiben' 用 sein 构成 Perfekt。",
+        "情态动词即使在口语中也通常用 Präteritum：konnte、musste、wollte；Perfekt 则是 'habe nicht kommen können'。",
+        "'haben' 和 'sein' 用 Präteritum：hatte、war。Plusquamperfekt 需要有一个更早发生的事件。",
+        "强变化动词改变元音，不加 -te：gehen → ging，kommen → kam，sehen → sah。"
+      ]
+    },
+    "konjunktiv-ii": {
+      "title": "Konjunktiv II：würde 与动词自身的形式",
+      "rule": "Konjunktiv II 表示非现实的情况、愿望和客气的请求。大多数动词用 'würde' + 不定式：Ich würde ein Haus kaufen。少数常用动词有自己的形式：wäre、hätte、könnte、müsste、dürfte、sollte、wollte、käme、ginge、wüsste、gäbe、bliebe、fände、ließe。在 'wenn' 从句末尾优先用这种自身形式，而不是 'würde'；其后的主句以动词开头。",
+      "examples": [
+        "如果我有更多时间，我就会去旅行。",
+        "如果我有更多钱，我很乐意一起去。",
+        "能请你帮我一下吗？",
+        "我想知道火车是否准点。"
+      ],
+      "pitfalls": [
+        "在 'wenn' 从句末尾用自身形式 'hätte'；其后的主句以动词开头：würde ich。",
+        "'Werfte' 这个形式不存在；werfen 用 würde + 不定式（旧形式 'würfe' 很少见）。",
+        "'werfe' 是 Konjunktiv I（间接引语）。强变化动词的 Konjunktiv II 很少用（würfe），所以用 würde + 不定式。",
+        "haben、sein 和情态动词用自身形式（hätte、wäre、könnte），不用 würde。",
+        "非现实条件句的两个部分都用 Konjunktiv II：hätte ... würde kommen。",
+        "前置的 wenn 从句占第一位；动词紧随其后：würde ich。"
+      ]
+    },
+    "adjektivendungen": {
+      "title": "形容词词尾",
+      "rule": "形容词词尾取决于它前面的词。定冠词以及 dieser、jeder、welcher 之后只有 -e 和 -en：der alte Mann, die alten Männer, mit dem alten Mann。ein、kein、mein 之后，冠词没有词尾时由形容词显示性：ein alter Mann, ein altes Haus；阴性 -e（eine alte Frau）；阳性第四格、第三格、第二格和复数用 -en。没有冠词时，形容词带上定冠词本应有的词尾：alter Wein, kaltes Wasser, mit frischer Milch（阳性/中性第二格：-en，guten Weines）。",
+      "examples": [
+        "这只小狗在睡觉。我看见这只小狗。",
+        "一只小狗在睡觉。我有一只小狗。",
+        "我喜欢喝加新鲜薄荷的冷茶。",
+        "我喜欢这辆新车。"
+      ],
+      "pitfalls": [
+        "阳性第四格：einen kleinen Hund。冠词显示格。",
+        "'Plan' 是阳性；'ein' 之后由形容词显示性：ein guter Plan。",
+        "welcher、dieser、jeder 像定冠词一样自身显示性：形容词在第一格单数以及阴性/中性第四格单数中加 -e，其他情况加 -en。",
+        "'dieser' 之后的词尾和 'der' 之后一样：dieser alte Mann, diese alte Frau, dieses alte Haus。",
+        "第三格和第二格中，ein/kein/mein 之后的形容词一律加 -en；'-em' 只出现在冠词类的词上。",
+        "'Auto' 是中性：第四格 'ein' 没有词尾，形容词用 -es 显示性：ein rotes Auto。",
+        "没有冠词时形容词带定冠词的词尾：das Brot → frisches Brot。"
+      ]
+    },
+    "relativpronomen": {
+      "title": "关系从句和关系代词",
+      "rule": "关系从句对名词作进一步说明。关系代词的性和数取决于它所指代的名词，格则取决于它在关系从句中的成分：der Mann, der（第一格）、den（第四格）、dem（第三格）、dessen（第二格）。其形式与定冠词相同，只有 dessen、deren、denen 例外。动词放在句末；介词放在关系代词前面：die Frau, mit der ich arbeite。",
+      "examples": [
+        "这就是住在我隔壁的那个男人。",
+        "这就是我昨天看到的那个男人。",
+        "这就是和我一起工作的那位女士。",
+        "我帮助的那些孩子在学德语。"
+      ],
+      "pitfalls": [
+        "在关系从句中“那个男人”是直接宾语：用 den。",
+        "介词放在关系代词前面，动词放在句末。",
+        "格由关系从句中的动词决定：'helfen' + 第三格 → dem Kind → dem。",
+        "第二格关系代词：阳性和中性用 dessen，阴性和复数用 deren。",
+        "'wo' 只指代发生某事的地点。宾语要用关系代词：das Haus, das。",
+        "'was' 只跟在 alles、etwas、nichts、das 或整个句子之后；这里：den Film → den。"
+      ]
+    },
+    "zu-infinitiv": {
+      "title": "不定式带不带 zu？",
+      "rule": "许多动词、形容词和名词与 'zu' + 不定式搭配：Ich habe vor, morgen zu kommen. Es ist wichtig, pünktlich zu sein. 情态动词、werden（将来时）、lassen、sehen、hören 和 gehen 之后不加 'zu'（Ich gehe schwimmen）。可分动词的 'zu' 放在中间：anzurufen。带 'zu' 的不定式放在句末，前面常有逗号。",
+      "examples": [
+        "我打算夏天去意大利。",
+        "每天练习很重要。",
+        "她忘了给我打电话。",
+        "我今天得工作很久。"
+      ],
+      "pitfalls": [
+        "情态动词之后的不定式不带 'zu'。",
+        "可分动词的 'zu' 放在前缀和动词之间。",
+        "Lust、Zeit、Angst 这类名词之后的不定式带 'zu'。",
+        "'gehen'、'fahren'、'bleiben' 和情态动词接不带 'zu' 的不定式。",
+        "感官动词（hören、sehen）和 'lassen' 接不带 zu 的不定式。",
+        "可分动词的 'zu' 放在前缀和动词之间：wiederzusehen, anzurufen。"
+      ]
+    },
+    "um-zu-damit": {
+      "title": "um ... zu 还是 damit？",
+      "rule": "两者都表示目的（“为了”“以便”）。主句和目的部分主语相同时用 'um ... zu' + 不定式：Ich lerne Deutsch, um in Berlin zu arbeiten。'Damit' 引导有自己主语的从句，主语不同时必须用它：Ich spreche langsam, damit du mich verstehst。",
+      "examples": [
+        "我学德语是为了在柏林工作。",
+        "我说得慢，好让你听懂我。",
+        "她存钱，以便孩子们能上大学。"
+      ],
+      "pitfalls": [
+        "主语不同（ich、du）：用 damit + 从句。",
+        "表示目的（“为了”）用 'um ... zu' + 不定式，不用 'für'。",
+        "'um ... zu' 需要在句末不定式前加 'zu'：um ... zu kaufen。",
+        "主语不同（sie / die Kinder）必须用 'damit' 加从句；'um dass' 这种说法不存在。",
+        "'um' 之后没有主语和变位动词，只有 'zu' + 不定式：um pünktlich zu sein。",
+        "目的用 'um ... zu' 表达，不用 'für'；可分动词的 'zu' 放在中间：einzukaufen。"
+      ]
+    },
+    "n-deklination": {
+      "title": "N-变格（弱变化阳性名词）",
+      "rule": "一些阳性名词除第一格单数外，在所有格中都加 -(e)n：der Student, den Studenten, dem Studenten, des Studenten；复数：die Studenten。这类词包括以 -e 结尾、表示人和动物的阳性名词（der Junge, der Kollege, der Kunde, der Löwe），以 -ent、-ant、-ist、-at 结尾的名词（der Präsident, der Praktikant, der Journalist, der Automat），以及几个短词：der Mensch, der Herr（den Herrn）, der Nachbar（den Nachbarn）, der Bauer（den Bauern）。'Name' 的第二格加 -ns：des Namens。",
+      "examples": [
+        "我向同事询问预约的事。",
+        "你认识这位先生吗？",
+        "我们帮这位学生办理注册。",
+        "那是邻居的车。"
+      ],
+      "pitfalls": [
+        "'Junge' 属于 N-变格：第四格 den Jungen。",
+        "以 -e 结尾、表示人的阳性名词：第三格 dem Kunden。"
+      ]
+    },
+    "lassen": {
+      "title": "动词 lassen",
+      "rule": "'Lassen' 有好几个意思。1. 把东西留下：Ich lasse den Schirm zu Hause。2. 允许：Meine Eltern lassen mich ausgehen。3. 让别人做某事：Ich lasse mein Auto reparieren（不是我自己修）。4. 提议：Lass uns gehen! 带不定式时不加 'zu'，Perfekt 是：Ich habe das Auto reparieren lassen（不是 gelassen）。现在时：ich lasse, du lässt, er lässt。",
+      "examples": [
+        "我让人帮我剪头发。",
+        "让我来解释一下！",
+        "她把手机落在公交车上了。",
+        "我们找人粉刷了公寓。"
+      ],
+      "pitfalls": [
+        "'lassen' 之后的不定式不带 'zu'。",
+        "有第二个不定式时，Perfekt 用 'lassen' 而不是 'gelassen'。"
+      ]
+    },
+    "genitiv": {
+      "title": "第二格（属格）",
+      "rule": "第二格表示所属关系，回答 'wessen?'（谁的？）。冠词：des（阳性、中性），der（阴性、复数）。阳性和中性名词通常加 -s 或 -es：das Auto des Mannes, die Tür des Hauses（弱变化阳性名词加 -(e)n：des Studenten）；阴性和复数名词不加词尾：die Tasche der Frau, die Eltern der Kinder。一些介词要求第二格：wegen、trotz、während、statt、innerhalb、außerhalb。口语中第二格常用 'von' + 第三格代替：das Auto von meinem Bruder。",
+      "examples": [
+        "那是我哥哥的车。",
+        "我喜欢这面墙的颜色。",
+        "因为下雨，我们待在家里。",
+        "尽管天气不好，我们还是去徒步。"
+      ],
+      "pitfalls": [
+        "'Bruder' 在第二格加 -s：meines Bruders。",
+        "阴性第二格：der Frau，名词不加词尾。",
+        "阴性第二格：der（die Lehrerin → der Lehrerin），名词不加 -s。",
+        "阳性和中性名词在第二格单数加 -s 或 -es：des Autos, des Mannes。",
+        "wegen、trotz、während、statt 在书面标准语中支配第二格：wegen des Regens。",
+        "第二格复数：der + 与第一格相同的复数形式：der Kinder（den Kindern 是第三格）。"
+      ]
+    },
+    "typische-fehler-englisch": {
+      "title": "英语母语者的典型错误",
+      "rule": "最常见的错误：1. 语序：主句中动词在第二位（Morgen fahre ich ...），从句中在句末（..., weil ich müde bin）。2. 冷、热、无聊、不舒服用第三格：Mir ist kalt，而不是 'ich bin kalt'。3. 年龄用 sein：Ich bin 20 Jahre alt。4. 假朋友：bekommen = 得到，不是英语的 become（那是 werden）；also = 所以，不是英语的 'also'（那是 auch）。5. wann/wenn/als、kennen/wissen，以及 seit + 现在时：Ich lerne seit zwei Jahren Deutsch。6. 名词首字母大写，并记住每个名词的冠词。",
+      "examples": [
+        "明天我去慕尼黑。",
+        "我冷。你能关上窗户吗？",
+        "我每天收到很多电子邮件。",
+        "我学德语已经两年了。"
+      ],
+      "pitfalls": [
+        "时间状语占第一位时，动词放第二位。",
+        "冷、热、无聊、不舒服用第三格：mir ist kalt。",
+        "德语中年龄用 'sein' + alt。",
+        "'Ich bin langweilig' 的意思是“我这个人很无趣”。感受和状态常用第三格：mir ist langweilig, mir ist kalt。",
+        "'bekommen' = 得到、收到；'werden' = 成为、变得：Ich werde müde, ich werde Lehrer。",
+        "德语用 'wie' 来问：Wie heißt du? Wie ist dein Name? 用 'Was' 听起来像生硬的直译。"
+      ]
+    },
+    "passiv-werden-sein": {
+      "title": "被动态用 werden 还是 sein？",
+      "rule": "过程被动态 'werden' + 第二分词描述正在发生或已经发生的动作：Die Tür wird geschlossen（有人正在关门）。状态被动态 'sein' + 第二分词描述结果，即之后的状态：Die Tür ist geschlossen（门是关着的）。过程被动态的 Perfekt 是 'ist geschlossen worden'。",
+      "examples": [
+        "门正在被关上。",
+        "门是关着的（状态）。",
+        "这封信是昨天写的。现在它已经写好了。",
+        "这座房子建于 1900 年。"
+      ],
+      "pitfalls": [
+        "表达的是事件（她昨天写了），所以用过程被动态；Perfekt 形式：ist ... geschrieben worden。",
+        "被动态 Perfekt 中 'werden' 的分词是 'worden'，不是 'geworden'。",
+        "正在进行的过程：用 'werden' 的过程被动态。'ist gebacken' 表示的是已完成的状态。",
+        "过去时被动态 = wurde + 第二分词。'worden' 属于 Perfekt 和 Plusquamperfekt（ist/war repariert worden），不和 'wurde' 一起用。",
+        "被动态 Perfekt 由 'sein' + 第二分词 + worden 构成，不用 'werden'。"
+      ]
+    },
+    "plusquamperfekt": {
+      "title": "Plusquamperfekt（过去完成时）",
+      "rule": "Plusquamperfekt 描述在过去另一事件之前已经发生的事。构成：hatte/war + 第二分词：Ich hatte gegessen, sie war gegangen。助动词与 Perfekt 相同（haben 或 sein），只是用 Präteritum 形式。它常见于 'nachdem' 从句：Nachdem ich gegessen hatte, ging ich spazieren。如果没有第二个过去的时间点，用 Perfekt 或 Präteritum 就够了。",
+      "examples": [
+        "我到的时候，火车已经开走了。",
+        "她通过考试后，和朋友们庆祝了一番。",
+        "他忘了带钥匙，只好等着。"
+      ],
+      "pitfalls": [
+        "出发发生在到达之前：用 war 构成 Plusquamperfekt。",
+        "主句用 Präteritum 时，'nachdem' 从句用 Plusquamperfekt。"
+      ]
+    },
+    "nominalstil-verbalstil": {
+      "title": "名词化风格与动词风格：用从句还是名词短语？",
+      "rule": "在名词化风格中，动作用名词表达，常常用介词代替从句：用 'wegen der Erhöhung der Preise' 代替 'weil die Preise erhöht wurden'。常见介词：wegen/aufgrund（weil）、trotz（obwohl）、bei/während（als、während）、nach（nachdem）、vor（bevor）、zu/zur/zum（um … zu、damit）、durch（indem、dadurch dass）、bei（wenn）。从句的主语或宾语变成第二格定语或物主词：'weil die Firma umzieht' → 'wegen des Umzugs der Firma'。名词化风格是学术、行政和报刊德语的典型特征；在口语中显得生硬，那里用带从句的动词风格更自然。",
+      "examples": [
+        "尽管天气不好，音乐会还是举行了。= 虽然天气不好，音乐会还是举行了。",
+        "谈判结束后合同签署了。= 谈判结束之后，合同签署了。",
+        "为了降低成本，关闭了两家分店。",
+        "通过使用新软件，公司得以节省时间。"
+      ],
+      "pitfalls": [
+        "书面德语中 'wegen' 支配第二格：wegen der Erhöhung。",
+        "'trotz' 是介词，需要一个名词（trotz seiner Krankheit）；从句则用连词 'obwohl'。",
+        "动词的宾语（die Luftqualität verbessern）在名词化风格中变成第二格定语：die Verbesserung der Luftqualität。",
+        "名词化风格偏好固定名词（Abschluss）加第二格定语（der Verhandlungen），而不是 'von + 第三格'；'nach Abschluss' 之类的固定搭配不带冠词。"
+      ]
+    },
+    "partizipialattribut": {
+      "title": "分词定语：der gestern angekommene Zug",
+      "rule": "分词可以像形容词一样放在名词前，并带上自己的补足成分，把关系从句变成定语：'der Zug, der gestern angekommen ist' → 'der gestern angekommene Zug'。第一分词（steigend、lachend）表示同时发生的主动动作：'die steigenden Preise' = 正在上涨的价格。第二分词在及物动词中表示被动且已完成的动作：'die geschlossene Tür' = 被关上的门；在用 'sein' 构成完成时的动词中表示先前发生的主动动作：'der angekommene Zug' = 已经到达的火车。'zu' + 第一分词表示必要或可能：'die zu erledigende Aufgabe' = 必须完成的任务。所有补足成分都放在冠词和分词之间；分词带正常的形容词词尾。",
+      "examples": [
+        "政府决定的措施于一月生效。",
+        "多年来不断上涨的房租让许多家庭不堪重负。",
+        "尚待澄清的问题列在议程上。",
+        "这家成立于 1990 年的协会如今有 3000 名成员。"
+      ],
+      "pitfalls": [
+        "分词像形容词一样变格：复数 'die' 之后词尾是 -en。",
+        "第一分词（ankommend）表示同时：一列正在进站的火车。表示已完成的动作需要第二分词：angekommen。",
+        "所有补足成分都放在冠词和分词之间；分词紧挨在名词之前。",
+        "'zu' 只与第一分词连用（erledigend）：das zu erledigende Problem = 必须处理的问题。"
+      ]
+    },
+    "passiversatz": {
+      "title": "被动态的替代形式：sich lassen、sein + zu、-bar",
+      "rule": "除了带情态动词的被动态（kann/muss gemacht werden），还有更简短的形式。'sich lassen' + 不定式 = 可以被做：Das Problem lässt sich lösen。'sein' + zu + 不定式 = 必须或可以被做，取决于上下文：Die Rechnung ist bis Freitag zu bezahlen（必须）；Der Fehler ist leicht zu übersehen（可以）。以 -bar、-lich、-fähig 结尾的形容词 = 可以被做：lösbar、verständlich、tragfähig。带副词的反身形式：Das Buch liest sich leicht。'man' + 主动态始终可用：Man kann das Problem lösen。这些形式是学术和行政德语的典型特征；可分动词中 'zu' 放在前缀和动词之间（einzureichen）。",
+      "examples": [
+        "这个问题没那么容易解决。",
+        "申请必须在 3 月 31 日前提交。",
+        "这些数据很难核实。",
+        "这一发展无法预见。"
+      ],
+      "pitfalls": [
+        "'sich lassen' 后接不定式，而不是过去分词。",
+        "形式是 sein + zu + 不定式；可分动词中 'zu' 放在前缀和动词之间：einzureichen。",
+        "'sich lassen' 只表示可能（可以）。表示义务（必须）要用 sein + zu + 不定式，或带 'müssen' 的被动态。",
+        "'vorhersehen' 是可分动词：'zu' 放在 'vorher' 和 'sehen' 之间。"
+      ]
+    },
+    "subjektive-modalverben": {
+      "title": "表示说话人判断的情态动词：Er muss krank sein, er soll reich sein",
+      "rule": "情态动词可以表达说话人的判断，而不是义务或能力。推测，从确定到不确定：muss（我确信）、dürfte（很可能）、könnte/kann（有可能）、mag（也许，表让步）。转述他人的说法：soll = 据说、据称（Er soll sehr reich sein）；will = 他自己声称（Er will nichts gewusst haben）。过去时体现在不定式上，而不是情态动词上：Er muss krank gewesen sein，而不是 'Er musste krank sein'。'werden' + 不定式也表示推测：Sie wird schon im Zug sitzen。情态动词是主观用法还是客观用法由上下文决定。",
+      "examples": [
+        "灯关着；她一定已经睡了。",
+        "火车应该大约十分钟后到。",
+        "据说部长知道这些指控。",
+        "司机声称没有看到停车标志。"
+      ],
+      "pitfalls": [
+        "表示推测时情态动词保持现在时；过去时用完成不定式（gewesen sein）。'Er musste krank sein' 的意思会变成他有义务生病。",
+        "'soll' 转述别人的说法；某人对自己的声称用 'will' 表达。",
+        "不定式（sein）不能省略，而且\"很可能\"的意思已经包含在 'dürfte' 里了。",
+        "情态动词后接不定式；表示过去用完成不定式：angekommen sein。"
+      ]
+    },
+    "konjunktiv-i-redewiedergabe": {
+      "title": "间接引语中的第一虚拟式：Er sagt, er habe keine Zeit",
+      "rule": "在新闻、报告和正式文本中，间接引语用第一虚拟式标记，以明确这是他人的陈述。构成：动词词干 + 带 e 的词尾：ich habe、du habest、er habe、wir haben、ihr habet、sie haben；'sein' 不规则：ich sei、du seist、er sei、wir seien、ihr seiet、sie seien。第三人称单数最常用（er habe、sie komme、es gebe）。当第一虚拟式与直陈式相同时（wir haben、sie kommen），改用第二虚拟式（wir hätten、sie kämen）或 'würde' + 不定式。过去时：haben/sein 的第一虚拟式 + 第二分词：Er sagte, er habe nichts gewusst / er sei zu spät gekommen。将来时：er werde kommen。引述动词保持直陈式；后面接 dass 从句或主句。",
+      "examples": [
+        "部长说，改革是必要的，将在秋天通过。",
+        "发言人说，居民已及时得到通知。",
+        "学生们强调，他们别无选择。",
+        "证人陈述说，他清楚地看到了作案者。"
+      ],
+      "pitfalls": [
+        "正式的间接引语用第一虚拟式（habe）；直陈式只在口语中常见。",
+        "'sie haben' 在第一虚拟式和直陈式中相同，因此改用第二虚拟式：hätten。",
+        "在 dass 从句中变位动词放在句末，第一虚拟式也一样。",
+        "间接引语中的将来时：werde + 不定式。'habe' + 不定式这种形式不存在。",
+        "当第一虚拟式没有歧义时（sei），在正式的间接引语中优先使用；'wäre' 可能被理解为对陈述的怀疑。"
+      ]
+    },
+    "paronyme-scheinbar-anscheinend": {
+      "title": "近音易混词：scheinbar 还是 anscheinend，effektiv 还是 effizient？",
+      "rule": "近音易混词（Paronyme）是读音相近、意义却不同的词，连母语者也会弄混。'anscheinend' 表达一种很可能属实的推测（从种种迹象看）；'scheinbar' 则表示某事只是看起来如此，实际上并非这样：'Er ist anscheinend krank'（大概是）对比 'Sein Interesse war nur scheinbar'（装出来的）。其他词对：effektiv（有效的，能达到目标）和 effizient（高效的，花费少）；formal（与形式有关的）和 formell（讲究礼节的，按规矩办的）；rational（理性的）和 rationell（节省的，合乎效益的）；kindlich（孩子般的，中性）和 kindisch（幼稚的，贬义）；sensibel（敏感的，容易受伤害）和 sensitiv（专业用语：对细微变化有反应的）。拿不准时可以用反义测试：'scheinbar' 后面容得下一个 'aber in Wirklichkeit'（但实际上），'anscheinend' 则不行。",
+      "examples": [
+        "火车大概是晚点了——显示屏上还什么都没有。",
+        "这个看似简单的问题结果是个陷阱。",
+        "这项措施有效但不高效：目标是达到了，代价却极其高昂。",
+        "从形式上看，申请是正确的；至于是否按正式程序提交，则是另一个问题。"
+      ],
+      "pitfalls": [
+        "这里表达的是推测（他大概真的病了），所以用 'anscheinend'；'scheinbar' 会暗示他只是在装病。",
+        "节省时间和金钱是投入多少的问题，也就是效率问题；'effektiv' 只说明目标达到了。",
+        "带贬义的不成熟行为用 'kindisch'；'kindlich' 是中性或褒义的（kindliche Neugier）。"
+      ]
+    },
+    "funktionsverbgefuege": {
+      "title": "功能动词结构：zur Verfügung stellen、in Betracht ziehen、Abhilfe schaffen",
+      "rule": "功能动词结构（Funktionsverbgefüge）由一个承载意义的名词和一个几乎只做语法工作的“功能动词”组成：'eine Entscheidung treffen'（做决定）、'zur Anwendung kommen'（被应用）、'in Kraft treten'（生效）。这类结构是行政、商务和学术德语的典型特征，并能表达细微的区别：'zur Sprache bringen'（主动：提出）对比 'zur Sprache kommen'（近似被动：被提及）；'in Gang setzen'（启动）对比 'in Gang kommen'（开始运转）。动词和名词是固定搭配：冠词、介词和动词都不能替换（'eine Frage stellen'，不是 'machen'；'Abhilfe schaffen'，不是 'geben'）。名词通常位于句末，功能动词位于第二位：'Die Kommission zieht eine Verschiebung in Betracht.' 在口语中堆砌这类结构会显得笨重；那里往往用简单动词更好。",
+      "examples": [
+        "新规定于 1 月 1 日生效。",
+        "我们很乐意把文件提供给您。",
+        "董事会正在考虑推迟该项目。",
+        "这项措施旨在弥补专业人才的短缺。",
+        "这个话题在会议上只被简短地提了一下。"
+      ],
+      "pitfalls": [
+        "功能动词是固定的：决定要用 'getroffen'，而不是 'gemacht'。",
+        "'zur Sprache kommen' 是近似被动的（问题被提到）；主动提出某事的人则是 'bringt' 它 zur Sprache。",
+        "在这个结构中 'Kraft' 不带冠词，而且结构中的名词放在句末。"
+      ]
+    },
+    "stilebenen-register": {
+      "title": "语体层次与语域：典雅、中性、口语",
+      "rule": "每个词都属于某个语体层次：'verscheiden'（典雅）、'sterben'（中性）、'abkratzen'（粗俗）。到了 C2 阶段，任务不再是让人听懂，而是把同一层次贯穿始终。当正式文本中出现口语词（'echt'、'krass'、'hinkriegen'、'Sachen'、'kriegen'、'total'），或者日常对话突然听起来像公文腔（'Ich bitte um Kenntnisnahme'），就出现了语域断裂。正式语域的标志：名词化，被动态及其替代形式，表示礼貌的虚拟式（'Ich wäre Ihnen dankbar, wenn …'），用 'erhalten' 代替 'kriegen'、'bewältigen' 代替 'hinkriegen' 这样的动词，用 'tatsächlich' 代替 'echt'，不用 'halt'、'eh' 之类的情态小品词。口语语域的标志：短主句，小品词（doch、mal、eben），强化词，以及放到框形结构之外的成分。不同的文本类型要求不同的层次：投诉信或鉴定报告用典雅到中性，给同事的邮件用中性，和朋友聊天用口语。",
+      "examples": [
+        "如果您能在星期五之前把文件发给我，我将不胜感激。（正式）",
+        "你能在星期五前把那些东西发给我吗？（口语）",
+        "行政部门此后已处理完积压的事务。/ 他们现在已经搞定了。",
+        "逝者于昨日安详辞世。（典雅）/ 他昨天去世了。（中性）"
+      ],
+      "pitfalls": [
+        "'echt' 和 'hinkriegen' 是口语词，打破了称呼语所设定的正式语域。",
+        "'ersuchen um Übersendung' 是公文腔；在朋友之间听起来像是反讽，或者无意中显得滑稽。",
+        "'total kaputt' 是口语；鉴定报告要求使用精确、中性的词，如 'erheblich beschädigt' 或 'nicht mehr tragfähig'。"
+      ]
+    },
+    "erzaehltempora-erlebte-rede": {
+      "title": "叙述时态与自由间接引语（erlebte Rede）",
+      "rule": "书面叙事的叙述时态是 Präteritum；它标记的不是过去的时间，而是“叙述”本身，因此连 'morgen' 也可以和它并列出现：'Morgen war Weihnachten.' 发生在所叙述情节之前的事用 Plusquamperfekt（先时性）；从人物的角度看尚未到来的事用 'würde' + 不定式（后时性）。Erlebte Rede（自由间接引语）不用引述动词、不加引号地再现人物的想法：人称和时态与叙述者的报道一致（第三人称、Präteritum），而语序、疑问、感叹和小品词则与直接引语一致：'Sie sah auf die Uhr. Warum kam er denn nicht? Er hatte es doch versprochen!' 叙述者的声音与人物的声音由此融为一体；读者得知人物的想法，而这些想法并没有被标记为引用。要与此区分开的是用第一虚拟式（Konjunktiv I）的间接引语（'Sie fragte sich, warum er nicht komme'）以及带引号、用现在时的直接引语。",
+      "examples": [
+        "她到的时候，会议早就开始了。",
+        "他收拾好行李箱。三天后他就会在里斯本了。",
+        "她盯着那封信。这个男人到底想从她这儿得到什么？她根本就不认识他！",
+        "明天就是考试了，而他连一半都还没读完。"
+      ],
+      "pitfalls": [
+        "发生在所叙述情节之前的事用 Plusquamperfekt；Perfekt 属于口语，会打破叙述层面。",
+        "在 erlebte Rede 中，时态保持叙述者的 Präteritum；现在时会标示直接引语，而直接引语需要引号。",
+        "从人物在过去的视角看到的将来，用 'würde' + 不定式表达，而不是用 'wird'。"
+      ]
+    },
+    "gehobene-praepositionen": {
+      "title": "典雅介词：mangels、ungeachtet、zufolge、seitens",
+      "rule": "正式文本用口语中几乎不出现的介词把从句压缩成短语。支配第二格的有：angesichts（鉴于）、infolge（由于……的结果）、mangels（因缺少）、zwecks（为了）、ungeachtet（尽管）、anlässlich（值……之际）、seitens（由……方面）、kraft（凭借）、zugunsten / zuungunsten（有利于 / 不利于）、mittels（借助）、hinsichtlich / bezüglich（关于）、vorbehaltlich（以……为保留条件）、binnen（在……之内；第二格或第三格）。支配第三格的有：gemäß、entsprechend、zuwider 和 zufolge，后两个通常后置于名词：'dem Bericht zufolge'、'dem Gesetz zuwider'。如果复数名词前既没有冠词也没有形容词，第二格就显示不出来，这时改用第三格：'mangels Beweisen'、'zwecks Verhandlungen'（但 'mangels eindeutiger Beweise'）。这些介词属于鉴定报告、合同和公文信函；在口语中它们显得生硬，口语里用从句。",
+      "examples": [
+        "由于缺乏明确证据，诉讼程序被终止。",
+        "尽管有种种抗议，参议院仍坚持该计划。",
+        "据该报告，这些缺陷早在 2019 年就已被查明。",
+        "管理层方面保证不会裁减岗位。",
+        "为澄清事实，我们请求在两周内提交相关文件。"
+      ],
+      "pitfalls": [
+        "'laut' 和 'zufolge' 意思相同，用一个就够了。'zufolge' 位于名词之后，支配第三格。",
+        "'ungeachtet' 支配第二格：ungeachtet der Proteste。",
+        "'gemäß' 虽然听起来很正式，但支配第三格；用第二格是一种常见的矫枉过正。"
+      ]
+    }
+  },
+  "scenes": {
+    "bakery": {
+      "situation": "在面包店买小面包",
+      "role": "店员",
+      "learner": "顾客",
+      "facts": [
+        "小面包",
+        "全麦面包",
+        "营业时间",
+        "碱水面包圈"
+      ],
+      "opening": "早上好！您要点什么？",
+      "beats": [
+        "好的，六个小面包。还需要别的吗？",
+        "全麦面包 3.80 欧元。要帮您切片吗？",
+        "很抱歉，碱水面包圈今天卖完了。要不要换点别的？"
+      ]
+    },
+    "cafe": {
+      "situation": "在咖啡馆点单",
+      "role": "服务员",
+      "learner": "客人",
+      "facts": [
+        "卡布奇诺",
+        "苹果蛋糕",
+        "燕麦奶",
+        "付款"
+      ],
+      "opening": "您好，您想要点什么？",
+      "beats": [
+        "好的，一杯卡布奇诺。要配一块蛋糕吗？",
+        "可以，换燕麦奶不加价。卡布奇诺就这样做吗？",
+        "苹果蛋糕 4.20 欧元一块。要加奶油吗？",
+        "很抱歉，我们只收现金，不能刷卡。您正好有零钱吗？"
+      ]
+    },
+    "doctor_phone": {
+      "situation": "打电话预约看医生",
+      "role": "诊所前台",
+      "learner": "病人",
+      "facts": [
+        "最近的空余预约",
+        "需携带",
+        "今天的门诊时间",
+        "报到"
+      ],
+      "opening": "集市广场诊所，您好。有什么可以帮您？",
+      "beats": [
+        "听到这个我很遗憾。最近的空余预约是星期四 9 点，您方便吗？",
+        "请带上您的医保卡，提前十分钟到。您以前来过我们诊所吗？",
+        "我们今天到下午 5 点都在。还有什么可以帮您的吗？"
+      ]
+    },
+    "train_ticket": {
+      "situation": "在火车站买火车票",
+      "role": "售票员",
+      "learner": "旅客",
+      "facts": [
+        "下一班去汉堡的火车",
+        "单程票价",
+        "换乘",
+        "行程时间"
+      ],
+      "opening": "您好，请问您要去哪里？",
+      "beats": [
+        "下一班去汉堡的火车 14:12 从 7 号站台出发。您要单程票还是往返票？",
+        "单程票 29 欧元。您刷卡还是付现金？",
+        "不用，这班车是直达的，不需要换乘。您还需要订座吗？"
+      ]
+    },
+    "supermarket": {
+      "situation": "在超市收银台付款",
+      "role": "收银员",
+      "learner": "顾客",
+      "facts": [
+        "购物袋",
+        "每瓶押金",
+        "刷卡付款",
+        "退瓶机"
+      ],
+      "opening": "您好！需要袋子吗？",
+      "beats": [
+        "袋子 20 欧分。您有会员卡积分吗？",
+        "可以，5 欧元以上能刷卡。要小票吗？",
+        "退瓶机在入口处，每个瓶子退 25 欧分。您已经有押金凭条了吗？"
+      ]
+    },
+    "hotel_checkin": {
+      "situation": "办理酒店入住",
+      "role": "前台接待",
+      "learner": "客人",
+      "facts": [
+        "房间",
+        "早餐",
+        "Wi-Fi 密码",
+        "退房"
+      ],
+      "opening": "欢迎光临！您有预订吗？",
+      "beats": [
+        "好的。您住二楼的 214 房间，请出示一下您的证件好吗？",
+        "早餐时间是 7 点到 10 点，在底层。要现在就把 Wi-Fi 密码给您吗？",
+        "密码是 hotelgast2026，全部小写。要我带您去电梯吗？",
+        "退房时间是 11 点前。您离店那天需要出租车吗？"
+      ]
+    },
+    "pharmacy": {
+      "situation": "在药店买治咳嗽的药",
+      "role": "药剂师",
+      "learner": "顾客",
+      "facts": [
+        "止咳糖浆",
+        "用量",
+        "处方",
+        "营业时间"
+      ],
+      "opening": "您好，有什么可以帮您？",
+      "beats": [
+        "可以，我推荐一款止咳糖浆，6.95 欧元。您还发烧吗？",
+        "每天三次，每次一勺，最好饭后服用。您还在服用其他药物吗？",
+        "不用，这款止咳糖浆不需要处方。要再给您加一些润喉糖吗？"
+      ]
+    },
+    "restaurant_booking": {
+      "situation": "在餐厅订位",
+      "role": "女服务员",
+      "learner": "客人",
+      "facts": [
+        "空位",
+        "厨房营业时间",
+        "露台",
+        "预订"
+      ],
+      "opening": "Linde 餐厅，晚上好。有什么可以帮您？",
+      "beats": [
+        "好的，星期六晚上 7 点我还有一张四人桌。7 点您方便吗？",
+        "厨房营业到晚上 10 点，所以您有充足的时间。您想坐室内还是露台？",
+        "下雨的话露台很遗憾会关闭，到时给您安排室内的桌子。请问留个什么电话方便联系您？"
+      ]
+    },
+    "directions": {
+      "situation": "问去市政厅的路",
+      "role": "路人",
+      "learner": "游客",
+      "facts": [
+        "去市政厅的路",
+        "步行",
+        "有轨电车",
+        "车票"
+      ],
+      "opening": "嗯？需要帮忙吗？",
+      "beats": [
+        "从这里一直往前走，然后第二个路口左转。您想步行，还是更愿意坐有轨电车？",
+        "步行大约十分钟。您带着行李吗？",
+        "坐 4 路；车站就在马路对面。您已经有车票了吗？"
+      ]
+    },
+    "late_friend": {
+      "situation": "因迟到向朋友道歉",
+      "role": "朋友",
+      "learner": "朋友",
+      "facts": [
+        "电影",
+        "电影票",
+        "碰面地点",
+        "爆米花"
+      ],
+      "opening": "嘿，你在哪儿？电影快开始了！",
+      "beats": [
+        "别着急，电影 8 点才开始。要我先给你买点爆米花吗？",
+        "对，票我已经买好了，我们在第 8 排。你现在到底在哪儿？",
+        "我在入口处等你。你还要点喝的吗？"
+      ]
+    },
+    "taxi": {
+      "situation": "乘坐出租车",
+      "role": "出租车司机",
+      "learner": "乘客",
+      "facts": [
+        "目的地",
+        "大致车费",
+        "行程时间",
+        "付款",
+        "收据"
+      ],
+      "opening": "您好，您要去哪里？",
+      "beats": [
+        "好的，去 Gartenstraße 12 号的 Lindenhof。您有行李要放后备箱吗？",
+        "车程大约 15 分钟。要我把箱子放进后备箱吗？",
+        "大约 18 欧元。您付现金还是刷卡？",
+        "没问题，下车时您会拿到收据。要我把您直接送到酒店门口吗？"
+      ]
+    },
+    "cinema": {
+      "situation": "买电影票",
+      "role": "售票员",
+      "learner": "观众",
+      "facts": [
+        "电影",
+        "成人票",
+        "学生证优惠",
+        "空座",
+        "语言"
+      ],
+      "opening": "晚上好，您想看哪部电影？",
+      "beats": [
+        "好的，两张晚上 8 点的票。一张票 11 欧元，凭学生证 8 欧元；您带学生证了吗？",
+        "谢谢，那就两张优惠票。您想坐哪里，第 7 排中间还是第 12 排后面？",
+        "这部电影是德语原声，配英文字幕。您可以接受吗？",
+        "放映晚上 8 点开始。您知道这部电影是德语放映、配英文字幕吗？"
+      ]
+    },
+    "return_item": {
+      "situation": "退一件衣服",
+      "role": "店员",
+      "learner": "顾客",
+      "facts": [
+        "退货",
+        "退款",
+        "M 码",
+        "代金券有效期"
+      ],
+      "opening": "您好，需要帮忙吗？",
+      "beats": [
+        "没问题，14 天内凭小票可以退货。您带小票了吗？",
+        "退货我们给代金券，不退现金；代金券三年内有效。您要不要把这件衬衫换成别的尺码？",
+        "M 码很遗憾卖完了，不过我们还有 L 码。您想试试 L 码吗？"
+      ]
+    },
+    "bike_rental": {
+      "situation": "租自行车",
+      "role": "租车店员",
+      "learner": "顾客",
+      "facts": [
+        "价格",
+        "押金",
+        "归还",
+        "头盔"
+      ],
+      "opening": "您好！想租一辆自行车吗？",
+      "beats": [
+        "一辆车一天 15 欧元。您大概多高？我好帮您挑合适的车。",
+        "是的，押金 50 欧元，现金或刷卡都可以。您还要一个头盔吗？",
+        "不用，头盔是免费的。您已经想好要骑去哪儿了吗？",
+        "请在晚上 7 点前把车还回来，那时我们关门。要再给您一把车锁吗？"
+      ]
+    },
+    "post_office": {
+      "situation": "寄小包裹到国外",
+      "role": "邮局职员",
+      "learner": "顾客",
+      "facts": [
+        "寄往西班牙的小包裹",
+        "寄送时间",
+        "带追踪的包裹",
+        "海关申报单"
+      ],
+      "opening": "您好，有什么可以帮您？",
+      "beats": [
+        "作为小包裹寄到西班牙是 9.49 欧元。里面有易碎品吗？",
+        "包裹需要四到六个工作日。您要不要改寄带追踪的包裹？",
+        "带追踪是 13.99 欧元，这样您可以在网上查到包裹在哪里。就这样办吗？",
+        "不用，欧盟境内不需要海关申报单。收据您要打印的还是发邮件？"
+      ]
+    },
+    "buergeramt": {
+      "situation": "在市民局登记住址",
+      "role": "办事员",
+      "learner": "市民",
+      "facts": [
+        "登记",
+        "需携带",
+        "期限",
+        "预约"
+      ],
+      "opening": "您好，轮到您了。您要办什么事？",
+      "beats": [
+        "好的，住址登记是免费的。您带身份证和房东确认函了吗？",
+        "那是一份由您房东签字的表格；没有它登记很遗憾办不了。您能网上预约后再来补交吗？",
+        "搬家后您有 14 天时间。您是什么时候搬进去的？"
+      ]
+    },
+    "hairdresser": {
+      "situation": "去理发店",
+      "role": "理发师",
+      "learner": "顾客",
+      "facts": [
+        "剪发",
+        "洗剪",
+        "今日空档",
+        "无预约等候",
+        "付款"
+      ],
+      "opening": "您好，您有预约吗？",
+      "beats": [
+        "没有预约的话大约要等 20 分钟，或者我可以给您约下午 3 点。您想怎么办？",
+        "剪发 24 欧元，含洗发 32 欧元。要先洗头吗？",
+        "好的，两侧我留长一点。上面剪掉多少，大约两厘米？",
+        "可以，现金或刷卡都行。请到前面这边坐；您想喝点什么吗？"
+      ]
+    },
+    "landlord_washing": {
+      "situation": "向楼房管理员询问洗衣房的事",
+      "role": "楼房管理员",
+      "learner": "房客",
+      "facts": [
+        "洗衣机",
+        "洗衣时间",
+        "排班表",
+        "烘干机"
+      ],
+      "opening": "嗨！你是三楼新搬来的房客吧？",
+      "beats": [
+        "地下室有一台洗衣机，洗一次要投 2 欧元硬币。你有地下室钥匙了吗？",
+        "早上 7 点到晚上 9 点可以洗衣服，之后楼里要保持安静。你登记到洗衣排班表上了吗？",
+        "排班表在洗衣房门上，把你的名字写上去就行。你也需要烘干机吗？",
+        "烘干机很遗憾坏了，星期三来修。在那之前你用晾衣架能行吗？"
+      ]
+    },
+    "flatmate_kitchen": {
+      "situation": "和室友商量厨房规则",
+      "role": "室友",
+      "learner": "新室友",
+      "facts": [
+        "厨房清洁",
+        "公共基金",
+        "洗碗机",
+        "客人"
+      ],
+      "opening": "嘿，你来了真好！东西都收拾好了吗？",
+      "beats": [
+        "我们每个星期天打扫厨房，轮流来。你可以吗，还是你星期天一般都忙？",
+        "对，我们有公共基金，每人每月交 10 欧元。你没问题吧？",
+        "洗碗机装满了我们晚上开。对了，你喜欢做饭吗？",
+        "当然可以，提前跟我们说一声就行。明天我们一起做饭？"
+      ]
+    },
+    "lost_property": {
+      "situation": "在失物招领处询问丢失的包",
+      "role": "工作人员",
+      "learner": "失主",
+      "facts": [
+        "已上交",
+        "领取",
+        "费用",
+        "保管期限"
+      ],
+      "opening": "您好，您丢了什么？",
+      "beats": [
+        "昨天的一个黑色的包确实在我们这里。里面有什么？我好核对一下。",
+        "可以，领取的话我只需要您的证件。您带了吗？",
+        "保管费是 5 欧元。您需要收据吗？"
+      ]
+    },
+    "cold_soup": {
+      "situation": "在餐厅投诉汤是凉的",
+      "role": "服务员",
+      "learner": "客人",
+      "facts": [
+        "新的汤",
+        "饮料",
+        "账单",
+        "今日甜点"
+      ],
+      "opening": "这里一切都还好吗？",
+      "beats": [
+        "非常抱歉，我大约五分钟后给您端一份新的汤来。这期间我先给您上一杯饮料，店里请客，好吗？",
+        "不会，这份汤我们当然会从账单上去掉。之后您想看看甜点吗？",
+        "今天有苹果卷，刚出炉的。要我给您上一份配香草酱的吗？"
+      ]
+    },
+    "neighbour_plants": {
+      "situation": "请邻居帮忙浇花",
+      "role": "邻居",
+      "learner": "对门的邻居",
+      "facts": [
+        "邻居自己也要外出",
+        "钥匙",
+        "邮件",
+        "浇水"
+      ],
+      "opening": "晚上好！您有事想问我？",
+      "beats": [
+        "很乐意，不过星期一到星期三我自己也不在。从星期四开始浇可以吗？",
+        "最好星期五把钥匙给我，反正我们那天会见面。要我顺便帮您把邮件拿进去吗？",
+        "我就把邮件放在门厅里，这样您一回来就能看到。多久浇一次，一周两次？"
+      ]
+    },
+    "cafe_job": {
+      "situation": "应聘咖啡馆的工作",
+      "role": "经理",
+      "learner": "应聘者",
+      "facts": [
+        "工作时间",
+        "工资",
+        "试工",
+        "经验"
+      ],
+      "opening": "您好，您能来真好。您对服务员这个职位感兴趣？",
+      "beats": [
+        "我们在找周末的人手，每天 9 点到 3 点。时间上您可以吗？",
+        "时薪 14 欧元，另外还有小费。您以前做过服务员吗？",
+        "不用，不需要经验，我们会教您一切。星期六您有时间来试工吗？"
+      ]
+    },
+    "library": {
+      "situation": "办图书证",
+      "role": "图书管理员",
+      "learner": "读者",
+      "facts": [
+        "年费",
+        "需携带",
+        "借阅期限",
+        "一次可借数量",
+        "开放时间"
+      ],
+      "opening": "您好，有什么可以帮您？",
+      "beats": [
+        "好的，您需要身份证件和住址登记证明。两样都带了吗？",
+        "年费 20 欧元，优惠价 10 欧元。您符合优惠条件吗？",
+        "借阅期限是 4 周，可以续借两次。要现在就给您办证吗？",
+        "一次最多 20 件，我们周一到周六 10 点到 19 点开放。您还有别的问题吗？"
+      ]
+    },
+    "dentist": {
+      "situation": "看牙医",
+      "role": "牙医",
+      "learner": "病人",
+      "facts": [
+        "症状",
+        "检查结果",
+        "麻醉",
+        "费用",
+        "之后注意事项"
+      ],
+      "opening": "您好，请坐。具体是哪里疼？",
+      "beats": [
+        "那我们看看吧，请张大嘴。我按这里的时候疼吗？",
+        "有一个小洞，需要补牙。要今天就做吗？",
+        "别担心，会给您打一针麻药，大约 5 分钟后起效。您对哪种麻醉剂过敏吗？",
+        "不用，这个由医保承担，不需要自付。之后请两小时内不要吃东西；您还有什么问题吗？"
+      ]
+    },
+    "mobile_cancel": {
+      "situation": "解除手机合约",
+      "role": "客服人员",
+      "learner": "客户",
+      "facts": [
+        "解约通知期",
+        "合约结束日",
+        "解约",
+        "保留号码"
+      ],
+      "opening": "您好，这里是客服中心。有什么可以帮您？",
+      "beats": [
+        "我可以为您准备。请问您为什么想解约？",
+        "解约通知期是一个月，所以您的合约会在 3 月 31 日结束。要我按这个日期登记解约吗？",
+        "解约必须以书面形式或通过您的客户账户在线办理；很遗憾，光打电话不够。您能登录客户账户吗？",
+        "携号转网是免费的，您的新运营商直接向我们申请就行。您还需要一份邮件确认吗？"
+      ]
+    },
+    "bank_account": {
+      "situation": "开立活期账户",
+      "role": "银行顾问",
+      "learner": "客户",
+      "facts": [
+        "账户管理费",
+        "需携带",
+        "银行卡",
+        "透支"
+      ],
+      "opening": "您好，请坐。有什么可以为您效劳？",
+      "beats": [
+        "如果每月至少有 700 欧元入账，账户是免费的；否则每月收费 4.90 欧元。您的工资会定期打入这个账户吗？",
+        "我需要您的身份证件和一份最新的住址登记证明。两样您今天都带了吗？",
+        "银行卡五到七天内寄到，PIN 码另外寄。您还要开通网上银行吗？",
+        "工资定期入账三个月后可以办理透支。要我现在就为此预约一个时间吗？"
+      ]
+    },
+    "garage": {
+      "situation": "在修车厂询问汽车维修",
+      "role": "修车师傅",
+      "learner": "顾客",
+      "facts": [
+        "问题",
+        "费用",
+        "修好时间",
+        "代步车"
+      ],
+      "opening": "您好，您是为那辆蓝色旅行车来的吧？",
+      "beats": [
+        "是的，前刹车片磨损了，就是那个声音。您最近在市区开得很多吗？",
+        "零件加人工大约 280 欧元。要我现在就把刹车修了吗？",
+        "车明天下午能好，一修好我就给您打电话。在那之前您没有车能行吗？",
+        "很遗憾现在没有空闲的代步车，都借出去了。要我给您叫辆出租车吗？"
+      ]
+    },
+    "hotel_noise": {
+      "situation": "在酒店投诉噪音",
+      "role": "夜班门房",
+      "learner": "客人",
+      "facts": [
+        "噪音",
+        "换房间",
+        "补偿",
+        "行李"
+      ],
+      "opening": "晚上好，有什么可以帮您？",
+      "beats": [
+        "很抱歉，那是隔壁的工地；很遗憾，施工 7 点就开始。您想换到一个安静点的房间吗？",
+        "可以，五楼的 512 房间空着，在安静的那一侧。要我帮您搬行李吗？",
+        "当然，明天的早餐由酒店请客。还有什么可以帮您的吗？"
+      ]
+    },
+    "sick_call": {
+      "situation": "打电话请病假",
+      "role": "团队主管",
+      "learner": "员工",
+      "facts": [
+        "原因",
+        "预计缺勤时间",
+        "病假条",
+        "待处理的会议",
+        "代班"
+      ],
+      "opening": "嗨，我是 Anna。你听起来状态很不好，怎么了？",
+      "beats": [
+        "哎呀，那你先好好养病。你估计要休息多久？",
+        "从第三天起我们需要病假条；发邮件到 personal@firma.de 就行。你今天去看医生吗？",
+        "星期四 10 点的客户会议由 Sara 接手。你能快速把最新的资料发给她吗？",
+        "好，星期三给我发个消息，说一下星期四能不能回来。你还需要我们做什么吗？"
+      ]
+    },
+    "travel_centre": {
+      "situation": "在旅行中心处理错过的换乘",
+      "role": "旅行中心工作人员",
+      "learner": "旅客",
+      "facts": [
+        "火车晚点",
+        "下一班去汉堡的火车",
+        "车票",
+        "赔偿",
+        "表格"
+      ],
+      "opening": "您好，有什么可以帮您？",
+      "beats": [
+        "很抱歉，下一班去汉堡的火车 17:42 从 9 号站台出发。能让我看一下您的车票吗？",
+        "您的车票仍然有效，指定车次的限制已取消。您今天要一直坐到汉堡吗？",
+        "到达目的地晚点 60 分钟以上，可以退回票价的 25%。您要现在就把乘客权益表格带走吗？",
+        "好的，我在这张表格上为您确认晚点。关于后续行程您还有别的问题吗？"
+      ]
+    },
+    "job_interview": {
+      "situation": "在物流公司面试",
+      "role": "人事主管",
+      "learner": "应聘者",
+      "facts": [
+        "职位",
+        "入职日期",
+        "薪资",
+        "试用期",
+        "居家办公"
+      ],
+      "opening": "下午好，很高兴您能来。先简单介绍一下您自己吧——是什么让您来到我们这里？",
+      "beats": [
+        "这很合适，因为我们正在找一名全职的客服专员。这个职位特别吸引您的是什么？",
+        "这个职位从 3 月 1 日起可以入职，试用期六个月。这个日期您可以吗？",
+        "我们提供每月税前 3,400 欧元，试用期后每周还可以居家办公两天。这符合您的期望吗？",
+        "试用期后您每周可以居家办公两天。您对我们还有什么问题吗？"
+      ]
+    },
+    "flat_viewing": {
+      "situation": "和中介看房",
+      "role": "房产中介",
+      "learner": "有意租房者",
+      "facts": [
+        "净租金",
+        "附加费用",
+        "押金",
+        "可入住日期",
+        "所需材料"
+      ],
+      "opening": "下午好，请进。您对这套房子的第一印象怎么样？",
+      "beats": [
+        "净租金 890 欧元，另加每月 180 欧元的附加费用，含暖气。这符合您的预算吗？",
+        "押金是三个月的租金。您想从什么时候开始入住？",
+        "这套房子从 7 月 1 日起可以入住。您想现在就申请吗？",
+        "我需要您最近三个月的工资证明，以及现任房东开具的无欠租证明。您能把这些材料发邮件给我吗？"
+      ]
+    },
+    "utility_bill": {
+      "situation": "打电话投诉电费账单",
+      "role": "客服人员",
+      "learner": "客户",
+      "facts": [
+        "补缴款",
+        "原因",
+        "重新结算",
+        "期限",
+        "客户号"
+      ],
+      "opening": "市政公用事业公司客服，早上好。有什么可以帮您？",
+      "beats": [
+        "我很乐意帮您查一下。我看到有一笔 412 欧元的补缴款，是按估算的电表读数计算的，因为我们没有收到您的读数。请告诉我您的客户号好吗？",
+        "没错，电表读数是估算的。如果您把当前读数报给我，账单会重新结算。您现在能看到电表吗？",
+        "不用，重新结算之前暂停付款，而且您可以在四周内提出异议。要我把确认函发邮件给您吗？"
+      ]
+    },
+    "immigration_office": {
+      "situation": "在外管局办理居留许可延期",
+      "role": "办案人员",
+      "learner": "申请人",
+      "facts": [
+        "目的",
+        "缺少的材料",
+        "费用",
+        "办理时间",
+        "临时证明"
+      ],
+      "opening": "早上好，您预约的是延长居留许可。您带护照和申请表了吗？",
+      "beats": [
+        "谢谢。办理工作类居留许可的延期，我还需要租房合同和最新的医保证明。这两份材料您能之后补交吗？",
+        "费用是 98 欧元，在底层的自助缴费机上支付。您想在我们办完后马上去付吗？",
+        "办理大约需要六周。在此期间您今天会拿到一份临时证明，在作出决定前一直有效。要我现在就打印出来吗？",
+        "临时证明在作出决定前有效，所以您目前的权利保持不变。关于办理流程您还有别的问题吗？"
+      ]
+    },
+    "parcel_complaint": {
+      "situation": "打电话投诉包裹破损",
+      "role": "客服人员",
+      "learner": "客户",
+      "facts": [
+        "订单号",
+        "损坏情况",
+        "可选方案",
+        "退货",
+        "补偿"
+      ],
+      "opening": "客服中心，您好。有什么可以帮您？",
+      "beats": [
+        "非常抱歉。为了登记这个情况，请告诉我您的订单号好吗？",
+        "谢谢，我找到了订单 771325。我可以在三个工作日内为您补发，或者退款。您更想要哪一种？",
+        "不需要退货，有一张损坏的照片就够了。您能把照片发到我们的客服邮箱吗？",
+        "当然，作为补偿，您下次下单会收到一张 10 欧元的代金券。还有什么可以帮您的吗？"
+      ]
+    },
+    "flat_handover": {
+      "situation": "交房和押金",
+      "role": "物业管理员",
+      "learner": "房客",
+      "facts": [
+        "押金",
+        "退还",
+        "可能扣留的部分",
+        "记录中的瑕疵",
+        "表读数",
+        "钥匙"
+      ],
+      "opening": "您好，那我们一起把房子走一遍吧。所有钥匙都带了吗？",
+      "beats": [
+        "交接记录包括表读数——电表 45210、水表 812——还有钥匙和所有瑕疵。客厅的钻孔您已经填好了吗？",
+        "我马上在入住记录里核对一下；然后我们把这些划痕记为原有的。您同意我们给这两处拍照吗？",
+        "1800 欧元的押金我们会在交房后六周内退还。要转到哪个账户？",
+        "在附加费用结算出来之前，我们可能会扣留一部分，其余的在六周内退还。您想现在签记录，还是先慢慢看一遍？"
+      ]
+    },
+    "internet_hotline": {
+      "situation": "向热线报告网络故障",
+      "role": "热线客服",
+      "learner": "客户",
+      "facts": [
+        "客户号",
+        "故障开始时间",
+        "故障",
+        "工单号",
+        "必要时的技术员上门时间",
+        "替代方案"
+      ],
+      "opening": "您好，这里是客服。您的客户号是多少？",
+      "beats": [
+        "谢谢，我已经看到您的线路了。路由器上的 DSL 灯是红的，还是在闪？",
+        "那就不是您这边的问题：街边的配线箱有一个已知故障，修复安排在明天中午 12 点前。在那之前您需要替代方案吗？",
+        "我免费为您开通 10 GB 的 LTE 流量，接入码会用短信发给您。要我现在就办吗？",
+        "那就请凭工单号 ST-2093 再打回来，我们星期五 8 点到 12 点之间派技术员上门。这个时间段您可以吗？"
+      ]
+    },
+    "salary_negotiation": {
+      "situation": "年度面谈中的薪资谈判",
+      "role": "部门主管",
+      "learner": "员工",
+      "facts": [
+        "调整空间",
+        "更多加薪的条件",
+        "生效日期",
+        "替代方案",
+        "下一步"
+      ],
+      "opening": "很好，我们能抽出时间谈谈。您之前表示想谈谈您的薪资——您想从哪里开始？",
+      "beats": [
+        "您的业绩毋庸置疑，我也是这么看的。不过我们今年的调整空间最多是 5%——您设想的是什么样的幅度？",
+        "只有您接手新客户门户的项目负责工作，才有可能再多一些。您觉得自己能胜任吗？",
+        "调整将从 7 月 1 日起生效，只要预算一获批。这对您来说可以接受吗？",
+        "作为替代方案，我可以给您增加一天年假，外加 1500 欧元的培训预算。要我在本周末前把这两项都写成书面材料给您吗？"
+      ]
+    },
+    "rent_increase": {
+      "situation": "因房租上涨到租户协会咨询",
+      "role": "租户协会的顾问",
+      "learner": "租客",
+      "facts": [
+        "涨幅上限",
+        "形式要求",
+        "租金指数",
+        "同意期限",
+        "会费"
+      ],
+      "opening": "您好，请坐。这么说您收到了房东的来信——具体是多大幅度的涨租？",
+      "beats": [
+        "这听起来超过了上限，因为在本市三年内房租最多只能上涨 15%。上一次涨租是什么时候？",
+        "不行，涨租必须有书面理由，比如依据租金指数或可比的住房；否则无效。您把信带来了吗？",
+        "根据租金指数，您所在位置的当地参考租金是每平方米 9.80 欧元。您现在付多少？",
+        "您只需在下下个月月底前表示同意；在此之前我们会审核这封信。会费每年 90 欧元，含法律保障——您想今天就入会吗？"
+      ]
+    },
+    "town_hall_traffic": {
+      "situation": "关于新交通方案的居民大会",
+      "role": "市政交通规划师",
+      "learner": "居民",
+      "facts": [
+        "交通限速措施",
+        "停车位",
+        "公交服务",
+        "时间表",
+        "异议"
+      ],
+      "opening": "晚上好，感谢各位踊跃到场。我马上介绍方案——在此之前居民有什么问题吗？",
+      "beats": [
+        "好的：方案规划本区所有街道限速 30 公里/小时，并在学校旁加宽人行道。您具体指的是哪条街？",
+        "确实会取消 120 个停车位；作为补偿，将在车站建一座社区立体停车场。您会使用这样的选择吗？",
+        "是的，7 路今后每十分钟一班，周末也一样。这对您的出行够用吗？",
+        "工程计划春季开工，大约持续 18 个月。规划局在 9 月 30 日前接受书面异议——我可以把表格给您带回去吗？"
+      ]
+    },
+    "press_interview_study": {
+      "situation": "就自己的研究接受报纸采访",
+      "role": "记者",
+      "learner": "研究负责人",
+      "facts": [
+        "栏目和刊期",
+        "文章篇幅",
+        "引语审定",
+        "反方声音",
+        "拍照环节"
+      ],
+      "opening": "感谢您抽出时间。在开始提关于这项研究的问题之前，您想先了解一下这次谈话的安排吗？",
+      "beats": [
+        "计划刊登在星期六版的科学版面。我们一开始就先把核心结论理清楚，您看合适吗？",
+        "我们大约有 6,000 个字符的篇幅，另加一个介绍研究方法的信息框。您的数据有哪一项局限是其中绝对不能缺少的？",
+        "当然，直接引语我会发给您审定，不过我需要您在星期四 12 点前给我反馈。这能做到吗？",
+        "是的，不来梅大学的一位统计学家会以批评性的评价出现在文中。您想在谈话中就先对此作出回应吗？",
+        "紧接着我们会在内院拍几张照片，大约需要 15 分钟。时间上您方便吗？"
+      ]
+    },
+    "publishing_contract": {
+      "situation": "就一本非虚构类图书协商出版合同",
+      "role": "编辑",
+      "learner": "作者",
+      "facts": [
+        "预付金",
+        "版税",
+        "交稿日期",
+        "附属权利",
+        "书名决定权"
+      ],
+      "opening": "很高兴您能来，我们非常期待这本书。我带来了合同草案——您想从哪里开始，版税还是时间安排？",
+      "beats": [
+        "我们提供 4,000 欧元的预付金，分两期支付：签约时和交稿时各付一期。这符合您的预期吗？",
+        "我们通常的版税率是净零售价的 10%；销量达到 5,000 册之后，版税率提高到 12%。对这个阶梯您有什么异议吗？",
+        "我们预计 3 月 31 日前交稿，这样这本书才能列入秋季书目出版。这个时间安排对您来说现实吗？",
+        "有声书和电子书的权利归出版社，外语版本的权利则留在您手中。这样您能接受吗？",
+        "书名由我们共同确定，但最终决定权在出版社。这样的安排您能接受吗？"
+      ]
+    },
+    "tax_office_objection": {
+      "situation": "在税务局对纳税通知书提出异议",
+      "role": "经办人员",
+      "learner": "纳税人",
+      "facts": [
+        "差异原因",
+        "异议期限",
+        "补交凭证",
+        "暂缓执行",
+        "处理时长"
+      ],
+      "opening": "下午好，您之前要求就您的纳税通知书面谈。您主要关心的是什么，是补缴税款，还是通知书的理由说明？",
+      "beats": [
+        "交通费只认定了一半，因为缺少下半年的凭证。这些材料您现在有了吗？",
+        "异议期限是通知书送达后一个月，就您的情况而言是到 5 月 14 日。您想今天就把异议记录在案吗？",
+        "最简单的是通过 ELSTER 在线门户，不过您也可以邮寄，只要在期限届满前送达就行。您已经有门户的登录账号了吗？",
+        "异议本身并不推迟付款，但您可以申请暂缓执行，这样 1,240 欧元的补缴款就延期到作出决定为止。要我现在就把这项申请一并记录进去吗？",
+        "根据经验，大约在收到材料后六到八周。收件确认我是寄给您，还是以电子方式发给您？"
+      ]
+    }
+  },
+  "rules": {
+    "age": "年龄用 'sein' 加 'alt'。",
+    "impersonal-dative": "身体感受和状态好坏用第三格表示感受者：mir ist kalt, mir geht es gut。",
+    "preposition-case": "介词决定格：aus、bei、mit、nach、von 和 zu 支配第三格。",
+    "tense-seit": "仍在持续的事用现在时加 'seit'；'seit' 支配第三格：seit drei Jahren。",
+    "accusative-object": "直接宾语用第四格；阳性冠词这时以 -en 结尾：einen Hund, meinen Freund。",
+    "place-preposition": "方向和位置用不同的词：nach Hause / zu Hause，wohin / wo，nach Berlin / in die Schweiz。",
+    "bracket": "分词、不定式和可分前缀放在句末收尾；宾语和状语放在它们前面，即框形结构之内。",
+    "noun-gender": "冠词和词尾取决于名词的性：der Name, die Idee, das Ergebnis。",
+    "idiom": "这是固定表达，不能逐词直译。",
+    "negation": "只否定一次：'nicht' 放在宾语之后，不带冠词的名词用 'kein' 否定。",
+    "dative-verb": "helfen、danken、zustimmen 和 erklären（指人的那个宾语）这类动词支配第三格：mir、dir、meinem Bruder。",
+    "verb-second": "主句中变位动词在第二位，在 dann、deswegen 或 desto 之后也一样。",
+    "verb-final": "在由 dass、weil、wenn、ob、疑问词或关系代词引导的从句中，变位动词放在句末。",
+    "da-compound": "在 dass 从句或不定式结构之前，介词宾语变成 da- 复合词（代副词）：darauf、dafür、darüber。",
+    "verb-preposition": "动词和介词是固定搭配，不能逐词翻译：warten auf、Angst vor、sich bewerben um、sich beschäftigen mit。",
+    "comparison": "比较级加 -er，用 'als' 比较；不用 'mehr' 和 'wie'。同级比较：so … wie。",
+    "konjunktiv-2": "愿望和非现实条件用 Konjunktiv II：名词前用 'hätte gern'，不定式前用 'würde gern'，用 'hätte' 和 'wäre' 代替 'würde haben' 和 'würde sein'。",
+    "konjunktiv-1": "间接引语用 Konjunktiv I（sei、habe、komme），不用 Konjunktiv II；在 dass 从句中动词放在句末。",
+    "infinitive-form": "情态动词和 'lassen' 接不带 zu 的不定式（Perfekt 中也一样：musste, schneiden lassen），其他动词接 'zu' + 不定式；多余的第二个助动词如 'worden' 或 'wird' 要去掉。",
+    "word-choice": "这里需要换一个词，意思不能直接从母语照搬：interessant、wissen、sich lohnen、sinnvoll。",
+    "tekamolo": "状语的顺序是：时间、原因、方式、地点（TeKaMoLo）。",
+    "relative-pronoun": "关系代词的性取决于名词，格取决于关系从句中的动词或介词：der Mann, den ich sah；die Frage, auf die ich keine Antwort habe。",
+    "redundancy": "一个连接词就够了：有 obwohl 就不用 aber，有 einerseits 就不用 aber，有 anbei 就不用 im Anhang，有 deshalb 就不用 aus diesem Grund。",
+    "conjunction-choice": "'obwohl' 引导从句，'trotzdem' 引导主句；'Der Grund ist' 之后用 'dass'，不用 'weil'。",
+    "reflexive": "这个动词是反身动词：sich entscheiden、sich erinnern an、sich konzentrieren auf、sich beeilen、sich erkälten。",
+    "fronted-adverbial": "前置的状语占据第一位：动词紧随其后，中间不加逗号。",
+    "genitive": "'wegen'、'trotz' 和 'während' 支配第二格（wegen des Regens）；'der Meinung sein' 也是第二格。",
+    "agreement": "动词和词尾要与主语一致：'die Anzahl' 是单数（hat）；名词前的形容词要带相应的词尾（die geplanten Maßnahmen）。",
+    "clause-form": "'damit einverstanden sein' 后面接带变位动词的 dass 从句，而不是不定式：…, dass die Gebühren erhöht werden。",
+    "passive": "被动态只用一个助动词：过去时 'wurden … geschlossen' 或 Perfekt 'sind … geschlossen worden'，不能两者都用。",
+    "style-chain": "连串的 dass 从句和 was 从句很累赘；用一个带名词短语或 'und damit' 的主句表达更简洁。"
+  },
+  "ruleTitles": {
+    "verb-second": "动词在第二位",
+    "verb-final": "动词放在句末",
+    "preposition-case": "介词决定格",
+    "accusative-preposition": "介词支配第四格",
+    "two-way-preposition": "在哪里还是去哪里？",
+    "accusative-object": "直接宾语用第四格",
+    "perfekt-auxiliary": "Perfekt 用 haben 还是 sein",
+    "tense-seit": "seit 搭配现在时",
+    "noun-gender": "名词的性",
+    "negation": "用 kein 否定",
+    "bracket": "框形结构",
+    "dative-verb": "支配第三格的动词",
+    "capitalisation": "名词首字母大写",
+    "age": "说年龄",
+    "impersonal-dative": "表达感受：mir ist …",
+    "place-preposition": "在哪里还是去哪里？"
+  },
+  "lexicon": {
+    "Abend": "晚上",
+    "Abholzung": "滥伐森林",
+    "Abhängigkeit": "依赖",
+    "Abitur": "高中毕业考试",
+    "Abkürzung": "缩写",
+    "Abreise": "出发，启程",
+    "Absage": "拒绝",
+    "Abschiedsparty": "告别聚会",
+    "Abschluss": "学位，毕业",
+    "Absteige": "破旅馆",
+    "Achtung": "尊重",
+    "Adventskranz": "降临节花环",
+    "Aktie": "股票",
+    "Allegorie": "讽喻",
+    "Allergie": "过敏",
+    "Altersgrenze": "年龄限制",
+    "Analogie": "类比",
+    "Anbeginn": "开端",
+    "Anerkennung": "认可",
+    "Anmeldeformular": "登记表",
+    "Anmeldung": "登记，报名",
+    "Anrede": "称呼",
+    "Anreise": "到达，抵达",
+    "Antibiotikum": "抗生素",
+    "Anzug": "西装",
+    "Anästhesie": "麻醉",
+    "App": "应用程序",
+    "Arbeit": "工作",
+    "Arbeitserlaubnis": "工作许可",
+    "Arbeitsplatz": "工作岗位",
+    "Arbeitsumfeld": "工作环境",
+    "Arbeitsvertrag": "劳动合同",
+    "Archiv": "档案馆",
+    "Arm": "手臂",
+    "Artenschutz": "物种保护",
+    "Artikulation": "吐字发音",
+    "Arzt": "医生",
+    "Arzthelferin": "医生助理（女）",
+    "Arzttermin": "看病预约",
+    "Assistent": "助理",
+    "Assistentin": "助理（女）",
+    "Atom": "原子",
+    "Attraktion": "景点",
+    "Aufbau": "结构",
+    "Aufenthaltsgenehmigung": "居留许可",
+    "Aufgabe": "任务，作业",
+    "Aufklärung": "启蒙运动",
+    "Aufrichtigkeit": "真诚",
+    "Aufsatz": "作文",
+    "Auftreten": "出现",
+    "Aufzug": "电梯",
+    "Auge": "眼睛",
+    "Augenbraue": "眉毛",
+    "Ausbildung": "职业培训",
+    "Ausgangssprache": "源语言",
+    "Ausgleich": "平衡，补偿",
+    "Auslandspraktikum": "海外实习",
+    "Ausrede": "借口",
+    "Ausrichtung": "定位，方向",
+    "Ausrottung": "灭绝",
+    "Ausrüstung": "装备",
+    "Aussehen": "外表",
+    "Ausstellungsbehörde": "签发机关",
+    "Ausstellungsort": "签发地点",
+    "Auswirkung": "影响",
+    "Autokratie": "专制",
+    "Automat": "自动售票机",
+    "Automatisierung": "自动化",
+    "Außenwerbung": "户外广告",
+    "Backware": "烘焙食品",
+    "Badeanzug": "泳衣",
+    "Badehose": "泳裤",
+    "Badewanne": "浴缸",
+    "Bahnhof": "火车站",
+    "Balkendiagramm": "条形图",
+    "Balkon": "阳台",
+    "Bargeld": "现金",
+    "Bart": "胡子",
+    "Bauch": "肚子",
+    "Baustelle": "工地",
+    "Befreiung": "解放",
+    "Begierde": "欲望",
+    "Begrenzung": "限制",
+    "Bein": "腿",
+    "Beitrag": "贡献",
+    "Beleg": "凭证，收据",
+    "Bequemlichkeit": "便利",
+    "Beruf": "职业",
+    "Berufserfahrung": "工作经验",
+    "Berufsschule": "职业学校",
+    "Berufstherapeut": "职业治疗师",
+    "Beschäftigung": "就业，工作",
+    "Besprechung": "会议，讨论",
+    "Betriebsunfall": "工伤事故",
+    "Bewegungslinie": "运动轨迹",
+    "Bewerbung": "求职申请",
+    "Bewerbungsverfahren": "申请流程",
+    "Bewertung": "评价，评分",
+    "Bewässerung": "灌溉",
+    "Bier": "啤酒",
+    "Biodiversität": "生物多样性",
+    "Bioladen": "有机食品店",
+    "Blaubeere": "蓝莓",
+    "Blick": "目光，视野",
+    "Blindenhund": "导盲犬",
+    "Blume": "花",
+    "Bluse": "女式衬衫",
+    "Bodenerosion": "土壤侵蚀",
+    "Botanik": "植物学",
+    "Botschaft": "信息",
+    "Bourgeoisie": "资产阶级",
+    "Brainteaser": "脑筋急转弯",
+    "Bratwurst": "德式煎香肠",
+    "Brauch": "习俗",
+    "Brauchtum": "风俗",
+    "Brautkleid": "婚纱",
+    "Brett": "木板",
+    "Brettspiel": "桌游",
+    "Brezel": "碱水面包圈",
+    "Brief": "信",
+    "Briefanfang": "信的开头",
+    "Briefende": "信的结尾",
+    "Briefkopf": "信头",
+    "Briefumschlag": "信封",
+    "Brot": "面包",
+    "Brotteller": "面包盘",
+    "Bruchbude": "破房子",
+    "Bruchteil": "一小部分",
+    "Bruttoinlandsprodukt": "国内生产总值（GDP）",
+    "Brüderlichkeit": "兄弟情谊",
+    "Buchhaltung": "会计",
+    "Budget": "预算",
+    "Bushaltestelle": "公交车站",
+    "Büro": "办公室",
+    "Bürokratie": "官僚主义",
+    "Cartoon": "漫画",
+    "Chef": "老板，上司",
+    "Computerspiel": "电脑游戏",
+    "Containern": "捡拾废弃食品",
+    "Couchsurfing": "沙发客",
+    "Croissant": "羊角面包",
+    "Cyberaktivismus": "网络行动主义",
+    "Date": "约会",
+    "Datenmenge": "数据量",
+    "Datensatz": "数据记录",
+    "Dauer": "持续时间",
+    "Debatte": "辩论",
+    "Dekoration": "装饰",
+    "Demographie": "人口学",
+    "Demokratie": "民主",
+    "Diagnose": "诊断",
+    "Dialekt": "方言",
+    "Digitalisierung": "数字化",
+    "Ding": "东西",
+    "Diskriminierung": "歧视",
+    "Diversität": "多样性",
+    "Dokumentarfilm": "纪录片",
+    "Dose": "罐头，罐",
+    "Drache": "龙",
+    "Drohne": "无人机",
+    "Durchbruch": "突破",
+    "Durchführung": "实施",
+    "Durchsetzung": "贯彻执行",
+    "Dürre": "干旱",
+    "Echtzeit": "实时",
+    "Eigenschaft": "特性，品质",
+    "Eigentum": "财产",
+    "Einbauküche": "整体厨房",
+    "Eindruck": "印象",
+    "Einhaltung": "遵守",
+    "Einladung": "邀请",
+    "Einleitung": "引言",
+    "Einleitungssatz": "开头句",
+    "Einrichtungsstil": "装修风格",
+    "Einsamkeit": "孤独",
+    "Einschränkung": "限制",
+    "Einsprachigkeit": "单语",
+    "Einstellung": "录用",
+    "Einwand": "异议",
+    "Einwohnerin": "居民（女）",
+    "Einwohnermeldeamt": "户籍登记处",
+    "Einzelkind": "独生子女",
+    "Elterngeneration": "父母一代",
+    "Elternschaft": "为人父母",
+    "Emoji": "表情符号",
+    "Empathie": "同理心",
+    "Empfang": "接待处",
+    "Empörung": "愤慨",
+    "Ende": "结尾，末端",
+    "Energieerzeugung": "能源生产",
+    "Energieversorgung": "能源供应",
+    "Entdeckung": "发现",
+    "Entstehung": "起源，形成",
+    "Entwaldung": "毁林",
+    "Epoche": "时代",
+    "Erdbeere": "草莓",
+    "Erderwärmung": "全球变暖",
+    "Erdgeschoss": "底层，一楼",
+    "Erfahrung": "经验",
+    "Erfindung": "发明",
+    "Ergebnis": "结果",
+    "Erlebnis": "经历",
+    "Erleichterung": "宽慰",
+    "Ernte": "收获",
+    "Ernährungsplan": "饮食计划",
+    "Erstsprache": "第一语言",
+    "Erwachsenenalter": "成年期",
+    "Essgewohnheit": "饮食习惯",
+    "Ethik": "伦理学",
+    "Ethnie": "族群",
+    "Etymologie": "词源学",
+    "Fachhochschule": "应用技术大学",
+    "Fachkräftemangel": "技术人才短缺",
+    "Fachoberschule": "高级专科学校",
+    "Fahrrad": "自行车",
+    "Fahrt": "行程，乘车",
+    "Familienstand": "婚姻状况",
+    "Fangfrage": "刁钻问题",
+    "Fantasie": "幻想",
+    "Fassade": "外立面",
+    "Faszination": "魅力",
+    "Feedback": "反馈",
+    "Feierabend": "下班时间",
+    "Feierabendbier": "下班后的啤酒",
+    "Feingefühl": "分寸感",
+    "Ferienhaus": "度假屋",
+    "Ferienort": "度假地",
+    "Ferienwohnung": "度假公寓",
+    "Fernsehprogramm": "电视节目表",
+    "Fernsehwerbespot": "电视广告",
+    "Fernunterricht": "远程教学",
+    "Fernweh": "对远方的向往",
+    "Film": "电影",
+    "Fingerspitzengefühl": "敏锐的分寸感",
+    "Firma": "公司",
+    "Flagge": "旗帜",
+    "Flaute": "萧条，不景气",
+    "Flohmarkt": "跳蚤市场",
+    "Floß": "木筏",
+    "Flucht": "逃亡",
+    "Fluchtweg": "逃生路线",
+    "Flughafen": "机场",
+    "Flur": "走廊，门厅",
+    "Form": "形式",
+    "Fortbildung": "进修",
+    "Fortschritt": "进步",
+    "Fortsetzung": "延续",
+    "Freibad": "露天游泳池",
+    "Freizeit": "业余时间",
+    "Fremdsprache": "外语",
+    "Fruchtbarkeit": "生育力",
+    "Frühbucherrabatt": "早订优惠",
+    "Frühling": "春天",
+    "Fuß": "脚",
+    "Fußballspiel": "足球比赛",
+    "Fußgängerzone": "步行街",
+    "Fähigkeit": "能力",
+    "Führerschein": "驾照",
+    "Füllwort": "填充词",
+    "Gang": "过道",
+    "Garage": "车库",
+    "Garten": "花园",
+    "Gartenzaun": "花园栅栏",
+    "Gast": "客人",
+    "Gattung": "属",
+    "Geburt": "出生",
+    "Gebühr": "费用",
+    "Geduld": "耐心",
+    "Gedöns": "零碎玩意儿",
+    "Gefahr": "危险",
+    "Gefährdung": "危害",
+    "Gegenseitigkeit": "互惠",
+    "Gegenwart": "现在，当下",
+    "Gegenwehr": "抵抗",
+    "Gehalt": "工资，薪水",
+    "Gehaltsvorschlag": "薪资建议",
+    "Gehaltsvorstellung": "期望薪资",
+    "Geist": "精神",
+    "Gelegenheitsjob": "零工",
+    "Gemeinschaft": "共同体，社群",
+    "Gemeinschaftsraum": "公共活动室",
+    "Genom": "基因组",
+    "Gericht": "菜肴",
+    "Geruch": "气味",
+    "Gerät": "设备，器具",
+    "Gesamtschule": "综合中学",
+    "Geschenkesystem": "送礼制度",
+    "Geschicklichkeit": "灵巧",
+    "Geschmack": "味道，品味",
+    "Geschmacksrichtung": "口味",
+    "Gesicht": "脸",
+    "Gesichtsausdruck": "面部表情",
+    "Gestik": "手势",
+    "Girokonto": "活期账户",
+    "Gitarre": "吉他",
+    "Globalisierung": "全球化",
+    "Glück": "运气，幸福",
+    "Glücksspiel": "赌博",
+    "Glühwein": "热红酒",
+    "Goldmedaille": "金牌",
+    "Gramm": "克",
+    "Grausamkeit": "残忍",
+    "Grenze": "边界",
+    "Grundriss": "平面图",
+    "Grundschule": "小学",
+    "Grundsteuer": "房产税",
+    "Grundstück": "地块，地产",
+    "Gruppendynamik": "团体动力",
+    "Grußformel": "结尾问候语",
+    "Gymnasium": "文理中学",
+    "Gültigkeitsdatum": "有效期",
+    "Hals": "脖子",
+    "Haltestelle": "公交站",
+    "Hamsterrad": "疲于奔命的生活",
+    "Hand": "手",
+    "Handwerk": "手工业，手艺",
+    "Hashtag": "话题标签",
+    "Hauptschule": "主干中学",
+    "Hauptteil": "主体部分",
+    "Hauptverkehrszeit": "交通高峰期",
+    "Hausfrau": "家庭主妇",
+    "Haushalt": "家庭，预算",
+    "Hausmann": "家庭主夫",
+    "Heiligabend": "平安夜",
+    "Heimat": "家乡",
+    "Heimweh": "思乡",
+    "Heimwerken": "家庭手工",
+    "Herausforderung": "挑战",
+    "Herbst": "秋天",
+    "Herd": "炉灶",
+    "Historiolinguistik": "历史语言学",
+    "Hitze": "炎热",
+    "Hobby": "爱好",
+    "Hochkonjunktur": "经济繁荣",
+    "Hochschule": "高等院校",
+    "Hochzeit": "婚礼",
+    "Hof": "院子",
+    "Hoheitsgewalt": "主权",
+    "Holzkiste": "木箱",
+    "Hose": "裤子",
+    "Hostel": "青年旅舍",
+    "Hurrikan": "飓风",
+    "Hut": "帽子",
+    "Hymne": "国歌",
+    "Hypothek": "抵押贷款",
+    "Idealbild": "理想形象",
+    "Idealismus": "理想主义",
+    "Imitation": "模仿",
+    "Immersion": "沉浸",
+    "Impfung": "疫苗接种",
+    "Industrialisierung": "工业化",
+    "Inflation": "通货膨胀",
+    "Informationsflut": "信息过载",
+    "Ingenieur": "工程师",
+    "Insel": "岛",
+    "Inspiration": "灵感",
+    "Interkulturalität": "跨文化性",
+    "Interpretation": "解读",
+    "Investition": "投资",
+    "Jacke": "夹克，外套",
+    "Jahr": "年",
+    "Jahreszeit": "季节",
+    "Jahrhundert": "世纪",
+    "Jetlag": "时差反应",
+    "Jeton": "筹码",
+    "Job": "工作",
+    "Jugend": "青年时期",
+    "Juwelier": "珠宝商",
+    "Kampagne": "宣传活动",
+    "Kampagnenziel": "活动目标",
+    "Kanalisation": "下水道系统",
+    "Kapazität": "容量",
+    "Kapitalismus": "资本主义",
+    "Karte": "卡",
+    "Kasse": "收银台",
+    "Kernfusion": "核聚变",
+    "Kerze": "蜡烛",
+    "Kilogramm": "千克",
+    "Kindergarten": "幼儿园",
+    "Kindertageseinrichtung": "日托机构",
+    "Kindheit": "童年",
+    "Kinn": "下巴",
+    "Kita": "托儿所",
+    "Klamotte": "衣服（口语）",
+    "Klavier": "钢琴",
+    "Kleid": "连衣裙",
+    "Kleidung": "衣服",
+    "Kleidungsstück": "一件衣服",
+    "Klischee": "陈词滥调",
+    "Kneipenquiz": "酒吧问答",
+    "Koalition": "联合政府",
+    "Koch": "厨师",
+    "Kochrezept": "烹饪食谱",
+    "Kochtopf": "锅",
+    "Kollision": "碰撞",
+    "Kompetenz": "能力",
+    "Komödie": "喜剧",
+    "Konditorei": "糕点店",
+    "Konkurrenzprodukt": "竞争产品",
+    "Konnotation": "内涵意义",
+    "Konservendose": "罐头",
+    "Konsum": "消费",
+    "Kontrollpunkt": "检查站",
+    "Konzert": "音乐会",
+    "Kopf": "头",
+    "Korb": "篮子",
+    "Krankschreibung": "病假条",
+    "Kredit": "贷款",
+    "Kreisdiagramm": "饼图",
+    "Krimi": "侦探小说",
+    "Kulturhoheit": "文化主权",
+    "Kunde": "顾客",
+    "Kurvendiagramm": "曲线图",
+    "Kurzgeschichte": "短篇小说",
+    "Kuss": "吻",
+    "Käfig": "笼子",
+    "Kälte": "寒冷",
+    "Körpersprache": "肢体语言",
+    "Körperteil": "身体部位",
+    "Küche": "厨房",
+    "Küchenwaage": "厨房秤",
+    "Kühlschrank": "冰箱",
+    "Kündigungsfrist": "解约通知期",
+    "Land": "国家",
+    "Lawine": "雪崩",
+    "Lebensabschnitt": "人生阶段",
+    "Lebensgefährte": "伴侣（男）",
+    "Lebensgefährtin": "伴侣（女）",
+    "Lebenslauf": "简历",
+    "Lebensqualität": "生活质量",
+    "Lebensraum": "栖息地",
+    "Lebenstraum": "毕生梦想",
+    "Lehre": "学徒培训",
+    "Leibeigenschaft": "农奴制",
+    "Leidenschaft": "激情",
+    "Leistung": "成绩，表现",
+    "Leistungskurs": "高级课程",
+    "Leistungspunkt": "学分",
+    "Lektor": "编辑（男）",
+    "Lektorin": "编辑（女）",
+    "Lichtgeschwindigkeit": "光速",
+    "Lichtstrahl": "光线",
+    "Lichtung": "林间空地",
+    "Liebesbrief": "情书",
+    "Liedtext": "歌词",
+    "Liga": "联赛",
+    "Lobeshymne": "赞歌",
+    "Lohn": "工资",
+    "Luftverschmutzung": "空气污染",
+    "Lüge": "谎言",
+    "Magnet": "磁铁",
+    "Manifest": "宣言",
+    "Manipulation": "操纵",
+    "Mannschaft": "球队，团队",
+    "Manufaktur": "手工工场",
+    "Marketing": "市场营销",
+    "Marketingstrategie": "营销策略",
+    "Marmeladenglas": "果酱瓶",
+    "Masse": "质量，大众",
+    "Massenflucht": "大规模出逃",
+    "Material": "材料",
+    "Mauer": "围墙",
+    "Maßnahme": "措施",
+    "Mediation": "语言中介",
+    "Meeting": "会议",
+    "Mehrheit": "多数",
+    "Mehrsprachigkeit": "多语",
+    "Meisterschaft": "锦标赛",
+    "Melodie": "旋律",
+    "Menschenrechtsverletzung": "侵犯人权",
+    "Mentalität": "心态",
+    "Merkmal": "特征",
+    "Messlatte": "标杆",
+    "Metapher": "隐喻",
+    "Milchprodukt": "乳制品",
+    "Million": "百万",
+    "Mimik": "面部表情",
+    "Minderheit": "少数群体",
+    "Minnesang": "宫廷恋歌",
+    "Misshandlung": "虐待",
+    "Missverständnis": "误会",
+    "Mist": "糟糕（口语）",
+    "Mittag": "中午",
+    "Mittagspause": "午休",
+    "Mittelteil": "中间部分",
+    "Modetrend": "时尚潮流",
+    "Monarchie": "君主制",
+    "Monitor": "显示器",
+    "Moos": "苔藓",
+    "Moral": "道德",
+    "Motorrad": "摩托车",
+    "Mund": "嘴",
+    "Musikgeschmack": "音乐品味",
+    "Mutationsrate": "突变率",
+    "Muttersprache": "母语",
+    "Männerdomäne": "男性领域",
+    "Möbelgeschäft": "家具店",
+    "Nachbarschaft": "邻里",
+    "Nachkriegszeit": "战后时期",
+    "Nachmittag": "下午",
+    "Nachmittagssonne": "午后阳光",
+    "Nachname": "姓",
+    "Nachtflohmarkt": "夜间跳蚤市场",
+    "Nachtleben": "夜生活",
+    "Nachwelt": "后世",
+    "Nahrungsmittelknappheit": "食物短缺",
+    "Nase": "鼻子",
+    "Nationalismus": "民族主义",
+    "Naturkatastrophe": "自然灾害",
+    "Naturschutzgebiet": "自然保护区",
+    "Neutronenstern": "中子星",
+    "Nichtregierungsorganisation": "非政府组织",
+    "Obstkiste": "水果箱",
+    "Ohr": "耳朵",
+    "Ohrwurm": "洗脑神曲",
+    "Onlineshopping": "网购",
+    "Opposition": "反对党",
+    "Optimierungsbestreben": "追求优化",
+    "Optimierungsstreben": "自我优化的追求",
+    "Option": "选项",
+    "Orkan": "强风暴",
+    "Ort": "地点，地方",
+    "Paket": "包裹",
+    "Panne": "故障，抛锚",
+    "Partei": "政党",
+    "Partnersuche": "寻找伴侣",
+    "Pension": "家庭旅馆",
+    "Personal": "员工",
+    "Personalausweis": "身份证",
+    "Petition": "请愿",
+    "Pfanne": "平底锅",
+    "Piercing": "穿孔饰品",
+    "Platz": "位置，广场",
+    "Polizei": "警察",
+    "Polizist": "警察（男）",
+    "Poncho": "斗篷",
+    "Pool": "游泳池",
+    "Portion": "一份",
+    "Porto": "邮资",
+    "Post": "邮政，邮件",
+    "Potenzial": "潜力",
+    "Praline": "夹心巧克力",
+    "Praxis": "诊所",
+    "Preis": "价格",
+    "Printwerbung": "平面广告",
+    "Probezeit": "试用期",
+    "Produkt": "产品",
+    "Profi": "专业人士",
+    "Profilbild": "头像",
+    "Profispielerin": "职业选手（女）",
+    "Prognose": "预测",
+    "Programmiersprache": "编程语言",
+    "Promocode": "优惠码",
+    "Proviant": "干粮",
+    "Präsentation": "演示",
+    "Präsenzunterricht": "线下课程",
+    "Präzision": "精确",
+    "Punkt": "点",
+    "Pünktlichkeit": "守时",
+    "Radiowerbung": "广播广告",
+    "Radtour": "骑行",
+    "Rasse": "种族",
+    "Rationalismus": "理性主义",
+    "Raum": "空间，房间",
+    "Raumanzug": "宇航服",
+    "Raumfahrt": "航天",
+    "Raumschiff": "宇宙飞船",
+    "Raumzeit": "时空",
+    "Rausch": "迷醉",
+    "Realitätsflucht": "逃避现实",
+    "Realschule": "实科中学",
+    "Recherche": "调研",
+    "Rechnung": "账单",
+    "Refrain": "副歌",
+    "Regal": "架子，书架",
+    "Regenwald": "雨林",
+    "Regierung": "政府",
+    "Region": "地区",
+    "Reim": "韵",
+    "Reisebüro": "旅行社",
+    "Reisepass": "护照",
+    "Reiseziel": "旅行目的地",
+    "Relativitätstheorie": "相对论",
+    "Renovieren": "翻新",
+    "Rente": "养老金",
+    "Rezept": "处方",
+    "Rezeption": "前台",
+    "Rezession": "经济衰退",
+    "Richtung": "方向",
+    "Rock": "裙子",
+    "Rohstoff": "原材料",
+    "Rose": "玫瑰",
+    "Ruhestand": "退休",
+    "Rundreise": "环游",
+    "Sache": "事情",
+    "Sage": "传说",
+    "Sandale": "凉鞋",
+    "Sandkorn": "沙粒",
+    "Sandsturm": "沙尘暴",
+    "Satz": "句子",
+    "Schalk": "顽皮",
+    "Schallplatte": "黑胶唱片",
+    "Schar": "一群",
+    "Schattenseite": "阴暗面",
+    "Schaubild": "图表",
+    "Schild": "路牌",
+    "Schlafsaal": "集体宿舍",
+    "Schlussfolgerung": "结论",
+    "Schlüsselfigur": "关键人物",
+    "Schmeichelei": "奉承",
+    "Schmerz": "疼痛",
+    "Schmetterling": "蝴蝶",
+    "Schnee": "雪",
+    "Schrank": "柜子",
+    "Schreck": "惊吓",
+    "Schreibtisch": "书桌",
+    "Schriftverkehr": "书信往来",
+    "Schuh": "鞋",
+    "Schuhkarton": "鞋盒",
+    "Schulsystem": "学校体系",
+    "Schultüte": "入学礼物袋",
+    "Schulzeit": "学生时代",
+    "Schwerpunkt": "重点",
+    "Schwierigkeit": "困难",
+    "Schwimmbad": "游泳馆",
+    "Schwäche": "弱点",
+    "Schüssel": "碗",
+    "See": "湖",
+    "Seele": "灵魂",
+    "Sehnsucht": "渴望",
+    "Sekundarschule": "中学",
+    "Selbermachen": "自己动手",
+    "Selbstakzeptanz": "自我接纳",
+    "Selbstbestimmung": "自决",
+    "Selbstbild": "自我形象",
+    "Selbstregierung": "自治",
+    "Selbstversorger": "自给自足者",
+    "Selbstversorgerin": "自给自足者（女）",
+    "Selbstverwirklichung": "自我实现",
+    "Selbstwertgefühl": "自尊",
+    "Semesterticket": "学期票",
+    "Sendung": "节目",
+    "Shoppingcenter": "购物中心",
+    "Sicherheitslücke": "安全漏洞",
+    "Sieg": "胜利",
+    "Siegertreppchen": "领奖台",
+    "Simulation": "模拟",
+    "Singularität": "奇点",
+    "Sinneswahrnehmung": "感官知觉",
+    "Sitte": "习俗",
+    "Slogan": "标语",
+    "Socke": "袜子",
+    "Sofa": "沙发",
+    "Solidargemeinschaft": "互助共同体",
+    "Sonderanfertigung": "定制",
+    "Sonne": "太阳",
+    "Sonntag": "星期日",
+    "Sparkonto": "储蓄账户",
+    "Sparschwein": "存钱罐",
+    "Spende": "捐款",
+    "Sphäre": "领域",
+    "Spielstein": "棋子",
+    "Spielzeug": "玩具",
+    "Spirale": "螺旋",
+    "Sport": "体育运动",
+    "Sprache": "语言",
+    "Sprachfamilie": "语系",
+    "Sprachgeschichte": "语言史",
+    "Sprachmittlung": "语言中介",
+    "Sprachwissenschaft": "语言学",
+    "Sprechstunde": "门诊时间",
+    "Sprechstundenhilfe": "诊所前台",
+    "Stall": "畜棚",
+    "Stammzelle": "干细胞",
+    "Stand": "摊位",
+    "Station": "车站",
+    "Statistik": "统计",
+    "Stelle": "职位",
+    "Sterilisation": "绝育",
+    "Stillstand": "停滞",
+    "Stipendium": "奖学金",
+    "Stock": "楼层",
+    "Stockwerk": "楼层",
+    "Stoff": "布料",
+    "Strand": "海滩",
+    "Strategiespiel": "策略游戏",
+    "Strecke": "路线，路程",
+    "Stress": "压力",
+    "Strömung": "潮流",
+    "Student": "大学生",
+    "Stunde": "小时",
+    "Stundenplan": "课程表",
+    "Sturm": "风暴",
+    "Stärke": "优点，力量",
+    "Stück": "块，件",
+    "Suchmaschine": "搜索引擎",
+    "Suchmaschinenoptimierung": "搜索引擎优化",
+    "Sucht": "成瘾",
+    "Superintelligenz": "超级智能",
+    "Supermarkt": "超市",
+    "Supernova": "超新星",
+    "Suppe": "汤",
+    "Surrogat": "替代品",
+    "Symbiose": "共生",
+    "Symptom": "症状",
+    "Säugling": "婴儿",
+    "Säulendiagramm": "柱状图",
+    "Süßigkeit": "糖果",
+    "Tagesablauf": "日常作息",
+    "Tagesordnung": "议程",
+    "Taktik": "战术",
+    "Tannenbaum": "圣诞树",
+    "Tauschhandel": "以物易物",
+    "Taxi": "出租车",
+    "Taxistand": "出租车站",
+    "Teamarbeit": "团队合作",
+    "Teamgeist": "团队精神",
+    "Teilung": "分裂，分割",
+    "Ticket": "票",
+    "Tiefsee": "深海",
+    "Tierquälerei": "虐待动物",
+    "Tierschutzgesetz": "动物保护法",
+    "Tinte": "墨水",
+    "Tischtuch": "桌布",
+    "Tod": "死亡",
+    "Tor": "大门",
+    "Tornado": "龙卷风",
+    "Totschlagargument": "压倒性论据",
+    "Tourismus": "旅游业",
+    "Tourist": "游客",
+    "Touristin": "游客（女）",
+    "Training": "训练",
+    "Treibhauseffekt": "温室效应",
+    "Treibstoff": "燃料",
+    "Trennung": "分离，分手",
+    "Trinkgeld": "小费",
+    "Trumpf": "王牌",
+    "Trödelmarkt": "旧货市场",
+    "Trümmerliteratur": "废墟文学",
+    "Tugend": "美德",
+    "Tulpe": "郁金香",
+    "Turnier": "锦标赛",
+    "Tätowierung": "纹身",
+    "Uhr": "钟，表",
+    "Umbruch": "剧变",
+    "Umgangssprache": "口语",
+    "Umgebung": "周边环境",
+    "Umweltproblem": "环境问题",
+    "Umweltschutz": "环境保护",
+    "Umweltschutzverein": "环保协会",
+    "Umweltverschmutzung": "环境污染",
+    "Umzug": "搬家",
+    "Unbehagen": "不适",
+    "Unikat": "独一无二的物品",
+    "Universität": "大学",
+    "Universum": "宇宙",
+    "Unterbrechung": "中断",
+    "Unterhaltung": "娱乐",
+    "Unterkunft": "住宿",
+    "Unterkühlung": "体温过低",
+    "Unternehmensbindung": "企业归属感",
+    "Unterwelt": "地下世界",
+    "Upcycling": "升级再造",
+    "Urlaubstag": "休假日",
+    "Ursprache": "原始语言",
+    "Ursprung": "起源",
+    "Urwald": "原始森林",
+    "Valentinstag": "情人节",
+    "Verfallsdatum": "保质期",
+    "Verfassung": "宪法",
+    "Vergangenheit": "过去",
+    "Vergreisung": "老龄化",
+    "Verkehr": "交通",
+    "Verkettung": "连锁",
+    "Verkörperung": "化身",
+    "Verlauf": "过程",
+    "Verlust": "损失",
+    "Vermutung": "猜测",
+    "Vermüllung": "乱扔垃圾",
+    "Vernunft": "理性",
+    "Verpflichtung": "义务",
+    "Verriss": "严厉的批评",
+    "Verschmutzung": "污染",
+    "Versichertenkarte": "医保卡",
+    "Version": "版本",
+    "Vertrag": "合同",
+    "Veränderung": "变化",
+    "Veröffentlichung": "发表，出版",
+    "Vielfalt": "多样性",
+    "Visum": "签证",
+    "Volksabstimmung": "全民公投",
+    "Volkslied": "民歌",
+    "Vollkommenheit": "完美",
+    "Vorbedingung": "前提条件",
+    "Vorbild": "榜样",
+    "Vorhersage": "预测",
+    "Vormittag": "上午",
+    "Vorname": "名",
+    "Vorrat": "储备",
+    "Vorreiterrolle": "先锋作用",
+    "Vorsprung": "领先优势",
+    "Vorstellungsgespräch": "面试",
+    "Vorteil": "优点",
+    "Vorzeit": "史前时代",
+    "Vulkanausbruch": "火山爆发",
+    "Wahlkampf": "竞选",
+    "Waldbrand": "森林火灾",
+    "Wand": "墙",
+    "Wanderlust": "漫游欲",
+    "Wanderschuh": "登山鞋",
+    "Wanderung": "徒步",
+    "Wartung": "维护",
+    "Wechselkurs": "汇率",
+    "Weihnachtsmarkt": "圣诞市场",
+    "Weinflasche": "酒瓶",
+    "Weinkiste": "酒箱",
+    "Weißbrot": "白面包",
+    "Weltall": "宇宙",
+    "Weltherrschaft": "世界霸权",
+    "Weltkulturerbe": "世界文化遗产",
+    "Weltraum": "太空",
+    "Weltraumforschung": "太空探索",
+    "Werbeagentur": "广告公司",
+    "Werbekampagne": "广告宣传活动",
+    "Werbemittel": "宣传材料",
+    "Werbespot": "广告片",
+    "Werbetreibenden": "广告主",
+    "Werbung": "广告",
+    "Wertvorstellung": "价值观",
+    "Wettbewerb": "竞赛，竞争",
+    "Wettervorhersage": "天气预报",
+    "Wettkampf": "比赛",
+    "Wiederbelebung": "复兴，复苏",
+    "Wiedervereinigung": "重新统一",
+    "Wind": "风",
+    "Winterjacke": "冬季外套",
+    "Wissenssendung": "科普节目",
+    "Wohlbefinden": "幸福感",
+    "Wohnungssuche": "找房",
+    "Wolke": "云",
+    "Wunschtraum": "白日梦",
+    "Wurmloch": "虫洞",
+    "Wärme": "温暖",
+    "Wörterbuch": "词典",
+    "Zahn": "牙齿",
+    "Zeitplan": "时间表",
+    "Zeitraum": "时间段",
+    "Zeitschrift": "杂志，期刊",
+    "Zelt": "帐篷",
+    "Zeltplatz": "露营地",
+    "Zentrum": "中心",
+    "Zerstörung": "破坏",
+    "Zeugnis": "证书，成绩单",
+    "Ziel": "目标",
+    "Zielgruppe": "目标群体",
+    "Zielsprache": "目标语言",
+    "Zoobesuch": "参观动物园",
+    "Zukunft": "未来",
+    "Zunge": "舌头",
+    "Zuwachs": "增长",
+    "Zwirn": "线",
+    "Öffentlichkeit": "公众",
+    "Überfischung": "过度捕捞",
+    "Überfluss": "过剩，富足",
+    "Übergang": "过渡",
+    "Übergangsbereich": "过渡区域",
+    "Überinvestition": "过度投资",
+    "Überlebenschance": "生存几率",
+    "Überlegenheit": "优越性",
+    "Übernachtung": "过夜，住宿",
+    "Überraschung": "惊喜",
+    "Übersetzungstätigkeit": "翻译工作",
+    "Übersicht": "概览",
+    "Überstunde": "加班",
+    "Überwachungsstaat": "监控国家",
+    "Überzeugung": "信念",
+    "sein": "是",
+    "haben": "有",
+    "werden": "成为，变成",
+    "können": "能，会",
+    "müssen": "必须",
+    "wollen": "想要",
+    "dürfen": "可以，被允许",
+    "sollen": "应该",
+    "mögen": "喜欢",
+    "wissen": "知道（事实）",
+    "denken": "想，思考",
+    "bringen": "带来",
+    "kennen": "认识，熟悉",
+    "nennen": "称呼，叫",
+    "rennen": "奔跑",
+    "brennen": "燃烧",
+    "senden": "发送",
+    "wenden": "转向",
+    "anfangen": "开始",
+    "ankommen": "到达",
+    "anrufen": "打电话",
+    "aufstehen": "起床",
+    "aufwachsen": "长大",
+    "ausziehen": "搬出；脱（衣服）",
+    "backen": "烤",
+    "befehlen": "命令",
+    "beginnen": "开始",
+    "beißen": "咬",
+    "bekommen": "得到，收到",
+    "bewegen": "移动（某物）",
+    "bieten": "提供",
+    "binden": "绑，系",
+    "bitten": "请求",
+    "bleiben": "留下，停留",
+    "braten": "煎，烤",
+    "brechen": "打破，折断",
+    "einladen": "邀请",
+    "einschlafen": "入睡",
+    "empfehlen": "推荐",
+    "entscheiden": "决定",
+    "entstehen": "产生，形成",
+    "erfahren": "得知；经历",
+    "erhalten": "收到（正式）",
+    "erscheinen": "出现，出版",
+    "erschrecken": "受惊",
+    "essen": "吃",
+    "fahren": "开车，乘车去",
+    "fallen": "落下，摔倒",
+    "fangen": "抓住",
+    "fernsehen": "看电视",
+    "finden": "找到",
+    "fliegen": "飞",
+    "fliehen": "逃跑",
+    "fließen": "流动",
+    "frieren": "感到冷，结冰",
+    "gebären": "生育",
+    "geben": "给",
+    "gefallen": "让……喜欢",
+    "gehen": "走，去",
+    "gelingen": "成功",
+    "gelten": "有效，算数",
+    "genießen": "享受",
+    "geschehen": "发生（正式）",
+    "gewinnen": "赢",
+    "greifen": "抓，伸手拿",
+    "halten": "拿着，停下",
+    "hängen": "挂着",
+    "heben": "举起",
+    "heißen": "叫作，意思是",
+    "helfen": "帮助",
+    "kommen": "来",
+    "laden": "装载",
+    "lassen": "让，留下；让人做",
+    "laufen": "跑，走",
+    "leiden": "受苦",
+    "leihen": "借给；借用",
+    "lesen": "读",
+    "liegen": "躺着，位于",
+    "lügen": "撒谎",
+    "messen": "测量",
+    "nehmen": "拿，取",
+    "passieren": "发生",
+    "folgen": "跟随",
+    "begegnen": "偶遇",
+    "aufwachen": "醒来",
+    "raten": "建议；猜",
+    "reiten": "骑马",
+    "riechen": "闻，散发气味",
+    "rufen": "叫，喊",
+    "schaffen": "创造",
+    "scheinen": "照耀；似乎",
+    "schieben": "推",
+    "schießen": "射击",
+    "schlafen": "睡觉",
+    "schlagen": "打，击",
+    "schließen": "关闭",
+    "schneiden": "切，剪",
+    "schreiben": "写",
+    "schreien": "尖叫",
+    "schweigen": "沉默",
+    "schwimmen": "游泳",
+    "sehen": "看见",
+    "singen": "唱歌",
+    "sinken": "下沉（不及物）",
+    "sitzen": "坐着",
+    "sprechen": "说话",
+    "springen": "跳",
+    "stattfinden": "举行",
+    "stehen": "站着",
+    "stehlen": "偷",
+    "steigen": "攀登，上升",
+    "sterben": "死",
+    "stoßen": "推，撞",
+    "streiten": "争吵",
+    "tragen": "搬，提；穿戴",
+    "treffen": "遇见；击中",
+    "treten": "踩；踢",
+    "trinken": "喝",
+    "tun": "做",
+    "umziehen": "搬家",
+    "unterbrechen": "打断",
+    "unterscheiden": "区分",
+    "vergessen": "忘记",
+    "vergleichen": "比较",
+    "verlassen": "离开（地方/人）",
+    "verlieren": "丢失，输",
+    "vermeiden": "避免",
+    "verschwinden": "消失",
+    "versprechen": "承诺",
+    "verstehen": "理解，听懂",
+    "wachsen": "生长",
+    "waschen": "洗",
+    "werfen": "扔",
+    "wiegen": "称重",
+    "ziehen": "拉；搬迁",
+    "zwingen": "强迫",
+    "bestehen": "通过（考试）；由……组成；坚持",
+    "beschreiben": "描述",
+    "beweisen": "证明",
+    "bewerben": "申请（工作）",
+    "erkennen": "认出",
+    "verbringen": "度过（时间）",
+    "mitbringen": "带来，随身带",
+    "widersprechen": "反驳",
+    "zunehmen": "增加；长胖",
+    "erwerben": "获得",
+    "betrügen": "欺骗",
+    "verzeihen": "原谅",
+    "stinken": "发臭",
+    "stechen": "刺，蜇",
+    "kriechen": "爬行",
+    "schmelzen": "融化",
+    "reißen": "撕",
+    "pfeifen": "吹口哨",
+    "gleichen": "相像",
+    "meiden": "回避",
+    "reiben": "擦，磨",
+    "schleichen": "蹑手蹑脚地走",
+    "schmeißen": "扔（口语）",
+    "saufen": "饮水（动物）；酗酒（人）",
+    "salzen": "加盐",
+    "spalten": "劈开，分裂",
+    "hauen": "打，砍",
+    "wägen": "权衡（正式）",
+    "Hund": "狗",
+    "Katze": "猫",
+    "Apfel": "苹果",
+    "Schule": "学校",
+    "Auto": "汽车",
+    "Zug": "火车",
+    "Fenster": "窗户",
+    "Wasser": "水",
+    "Winter": "冬天",
+    "Geschenk": "礼物",
+    "Urlaub": "假期",
+    "Bibliothek": "图书馆",
+    "Krankenhaus": "医院",
+    "Schlüssel": "钥匙",
+    "Wohnung": "公寓",
+    "Frühstück": "早餐",
+    "Regenschirm": "雨伞",
+    "Stau": "交通堵塞",
+    "Verspätung": "延误",
+    "Gewitter": "雷雨",
+    "Nachbar": "邻居",
+    "Gewohnheit": "习惯",
+    "Ehrenamt": "志愿服务",
+    "Klimawandel": "气候变化",
+    "Verantwortung": "责任",
+    "Vertrauen": "信任",
+    "Kompromiss": "妥协",
+    "Nachhaltigkeit": "可持续性",
+    "Vorurteil": "偏见",
+    "Gewaltenteilung": "三权分立",
+    "Pressefreiheit": "新闻自由",
+    "Generationenvertrag": "代际契约",
+    "Ehrenwort": "名誉保证",
+    "Schadenfreude": "幸灾乐祸",
+    "Sachverhalt": "事实情况",
+    "Gewissen": "良心",
+    "Zivilcourage": "公民勇气",
+    "Gratwanderung": "走钢丝，艰难的平衡",
+    "Zwickmühle": "两难境地，进退维谷",
+    "Sündenbock": "替罪羊",
+    "Vergangenheitsbewältigung": "历史反思与清算",
+    "Zeitgeist": "时代精神",
+    "Weltanschauung": "世界观，意识形态",
+    "Elfenbeinturm": "象牙塔",
+    "Verschlimmbesserung": "越改越糟的改进，弄巧成拙",
+    "Torschlusspanik": "怕错失良机，末班车恐慌",
+    "Schlupfloch": "漏洞，空子"
+  },
+  "levels": {
+    "A1": {
+      "name": "入门",
+      "canDo": "能自我介绍、点餐，并询问价格和时间等简单问题。",
+      "exampleGloss": "我叫 Sam，住在科隆。"
+    },
+    "A2": {
+      "name": "初级",
+      "canDo": "能谈论自己的一天和上个周末、约定时间、写简短的消息。",
+      "exampleGloss": "周末我和朋友们去看了电影。"
+    },
+    "B1": {
+      "name": "中级",
+      "canDo": "能独立应对日常情境、说明理由和看法、撰写私人邮件和简单的正式邮件。",
+      "exampleGloss": "我没能来，因为我得加班。"
+    },
+    "B2": {
+      "name": "中高级",
+      "canDo": "能讨论抽象话题、正反论证、撰写清晰的正式投诉信和申请信。",
+      "exampleGloss": "虽然房租涨了，我还是想继续租这套房子。"
+    },
+    "C1": {
+      "name": "高级",
+      "canDo": "能理解有难度的文章和演讲，能有分寸地论证立场，能写出结构清晰的论文、报告和正式的立场声明。",
+      "exampleGloss": "面对不断上涨的房租，许多人要求加快住房建设。"
+    },
+    "C2": {
+      "name": "精通",
+      "canDo": "能理解几乎所有读到或听到的内容，能权衡多个来源的论点，能在任何语域中——从正式异议书到评论——表达细微的意义差别。",
+      "exampleGloss": "妥协方案刚一公布，就又受到质疑，而质疑者正是当初谈成它的那些成员。"
+    }
+  },
+  "writing": {
+    "a1-cafe-invite": {
+      "title": "给朋友的消息",
+      "prompt": "给你的朋友 Lena 写一条简短的消息：你正在咖啡馆 \"Lindenblatt\"。问她想不想来，说你会待到几点，以及你在喝什么。",
+      "points": [
+        "问她来不来",
+        "你待到几点",
+        "你在喝什么"
+      ]
+    },
+    "a1-hotel-form": {
+      "title": "给酒店的邮件",
+      "prompt": "给 Hotel Seeblick 写一封简短的邮件：你想从星期五起订一间单人间，住两晚。询问价格，以及是否含早餐。",
+      "points": [
+        "房间和日期",
+        "询问价格",
+        "询问是否含早餐"
+      ]
+    },
+    "a2-birthday": {
+      "title": "生日邀请",
+      "prompt": "给一位朋友写一封简短的邮件：邀请对方参加你星期六的生日聚会。说明几点开始、在哪里举行，以及要带什么。30-40 个词。",
+      "points": [
+        "几点开始",
+        "在哪里举行",
+        "要带什么"
+      ]
+    },
+    "a2-sick-course": {
+      "title": "缺课请假",
+      "prompt": "给你的老师 Herr Klein 写信：你生病了，明天不能来上德语课。说明你得了什么病，并询问作业是什么。30-40 个词。",
+      "points": [
+        "你不能来",
+        "你得了什么病",
+        "询问作业"
+      ]
+    },
+    "a2-new-flat": {
+      "title": "你的新公寓",
+      "prompt": "给你的朋友 Jonas 写信：你有了一套新公寓。描述一下这套公寓，说说你喜欢它哪里，并邀请他来做客。",
+      "points": [
+        "描述公寓",
+        "你喜欢什么",
+        "邀请他来"
+      ]
+    },
+    "b1-missed-party": {
+      "title": "抱歉错过了你的聚会",
+      "prompt": "给一位朋友写一封邮件（约 80 个词）：你错过了对方上周末的聚会。表示道歉，解释你为什么没能来，并提议再约一次见面。",
+      "points": [
+        "道歉",
+        "解释原因",
+        "提议新的见面"
+      ]
+    },
+    "b1-teacher-absent": {
+      "title": "给老师的邮件",
+      "prompt": "给你的德语老师 Frau Weber 写一封正式邮件（约 40 个词）：你不能参加下一节课。说明原因，并询问作业。",
+      "points": [
+        "原因",
+        "询问作业"
+      ]
+    },
+    "b1-forum-homeoffice": {
+      "title": "论坛帖子：居家办公",
+      "prompt": "写一篇论坛帖子（约 80 个词）：居家办公是个好主意吗？给出你的看法、一个优点、一个缺点，以及一个来自你生活中的例子。",
+      "points": [
+        "你的看法",
+        "一个优点",
+        "一个缺点",
+        "一个例子"
+      ]
+    },
+    "b2-course-complaint": {
+      "title": "给语言学校的投诉信",
+      "prompt": "给一所语言学校写一封正式投诉信（约 150 个词）：你的课程有三次课没有老师。描述发生了什么，说明你期望学校怎么做，并为对方的答复设定一个期限。",
+      "points": [
+        "描述发生了什么",
+        "说明你的期望",
+        "设定期限"
+      ]
+    },
+    "b2-application": {
+      "title": "实习申请信",
+      "prompt": "为 Hamburg 一家博物馆的实习岗位写一封正式申请信（约 150 个词）：说明你为什么感兴趣、你有哪些经验，以及你什么时候有空。",
+      "points": [
+        "你为什么感兴趣",
+        "你的经验",
+        "你什么时候有空"
+      ]
+    },
+    "c1-letter-to-editor": {
+      "title": "关于四天工作制的读者来信",
+      "prompt": "一家报纸刊登了一篇文章，声称四天工作制会损害经济。写一封读者来信（约 200 个词）：提及这篇文章，用两个论据表明明确立场，回应一个反方观点，最后以一条建议或呼吁结尾。",
+      "points": [
+        "提及这篇文章",
+        "你的立场和两个论据",
+        "你回应的一个反方观点",
+        "结尾处的建议或呼吁"
+      ]
+    },
+    "c1-statement-management": {
+      "title": "就居家办公致管理层的立场声明",
+      "prompt": "你的公司想完全取消居家办公。作为团队代表，写一份致管理层的正式立场声明（约 220 个词）：描述现行安排，说明该计划对团队的影响，提出一个折中方案，并请求安排一次会谈。",
+      "points": [
+        "现行安排",
+        "对团队的影响",
+        "一个折中方案",
+        "请求安排会谈"
+      ]
+    },
+    "c2-objection-bank-fees": {
+      "title": "就不合法的账户费用致银行的异议书",
+      "prompt": "你的银行两年前未经你明确同意就提高了账户费用，现在以你“默示同意”为由拒绝退还。写一份致银行的正式异议书（约 260 个词）：陈述事实并注明日期和金额，说明你所依据的法律基础和判决，要求限期退款，并说明如果银行不照办你将采取的步骤。",
+      "points": [
+        "附日期和金额的事实陈述",
+        "所依据的法律基础和判决",
+        "限期退款的要求",
+        "银行不照办时你将采取的步骤"
+      ]
+    },
+    "c2-expert-statement-council": {
+      "title": "就无车市中心致市议会的专家意见书",
+      "prompt": "市议会邀请你作为专家，就一项让老城区禁行汽车的计划提交书面意见。写一份致市议会的正式意见书（约 280 个词）：权衡该计划的各项预期影响，援引你所依据的证据或经验，回应最有力的反对意见，最后提出一条附带条件的建议。",
+      "points": [
+        "对各项预期影响的权衡",
+        "所依据的证据或经验",
+        "对最有力反对意见的回应",
+        "一条附带条件的建议"
+      ]
+    }
+  }
+}
