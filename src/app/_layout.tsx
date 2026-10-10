@@ -23,6 +23,8 @@ import { useEffect, useMemo, useState } from "react";
 import { AppState, Platform, useColorScheme, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
+import { useAccessBind } from "@/features/accessBind";
+import { useAccess } from "@/features/access";
 import { useModelBoot } from "@/features/modelBoot";
 import { maybeAskForReview } from "@/features/review";
 import { bindLanguage } from "@/i18n/bind";
@@ -40,17 +42,19 @@ const SPLASH_MAX_MS = 2500;
 
 function useHydrated() {
   const [done, setDone] = useState(() =>
-    [useSettings, useProgress, useDeck].every((s) => s.persist.hasHydrated()),
+    [useSettings, useProgress, useDeck, useAccess].every((s) =>
+      s.persist.hasHydrated(),
+    ),
   );
   useEffect(() => {
     if (done) return;
     const check = () =>
       setDone(
-        [useSettings, useProgress, useDeck].every((s) =>
+        [useSettings, useProgress, useDeck, useAccess].every((s) =>
           s.persist.hasHydrated(),
         ),
       );
-    const unsubs = [useSettings, useProgress, useDeck].map((s) =>
+    const unsubs = [useSettings, useProgress, useDeck, useAccess].map((s) =>
       s.persist.onFinishHydration(check),
     );
     check();
@@ -120,6 +124,8 @@ export default function RootLayout() {
   useEffect(() => (hydrated ? bindLanguage() : undefined), [hydrated]);
   // the on-phone translator follows the app language and its own switch
   useEffect(() => (hydrated ? bindTranslator() : undefined), [hydrated]);
+  // the access lock first, so the model boot below finds the flag in place
+  useAccessBind(hydrated);
   useModelBoot(hydrated);
   const update = useUpdateVerdict(hydrated);
   useReviewPrompt(hydrated);
@@ -239,6 +245,16 @@ export default function RootLayout() {
                 />
                 <Stack.Screen
                   name="model"
+                  options={{
+                    presentation: "formSheet",
+                    sheetAllowedDetents: [0.75, 1],
+                    sheetGrabberVisible: true,
+                    sheetCornerRadius: 24,
+                    contentStyle: { backgroundColor: theme.c.sheet },
+                  }}
+                />
+                <Stack.Screen
+                  name="unlock"
                   options={{
                     presentation: "formSheet",
                     sheetAllowedDetents: [0.75, 1],

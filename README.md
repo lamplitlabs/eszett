@@ -479,7 +479,7 @@ zh). The pieces:
 - `src/i18n/index.ts` — `t(key, vars)`, `tIn(lang, key, vars)`, `useI18n()`; flat catalogs, `{placeholders}`, plural
   objects picked by `vars.count` with the CLDR rules in `plural.ts` (pl/ru/uk have one/few/many, ar six forms, zh one).
   Missing keys fall back to English, then to the key (one warning per key in `__DEV__`). Pure TypeScript, tested in Node.
-- `src/i18n/locales/<lang>.json` — the UI catalogs (787 keys; `en.json` is the reference).
+- `src/i18n/locales/<lang>.json` — the UI catalogs (904 keys; `en.json` is the reference).
   `node scripts/i18n-ui-check.mjs <lang>` checks keys, placeholders and plural categories.
 - `src/data/i18n/<lang>.json` — the content overlays: grammar cards, scenes, rule sentences and titles, the core
   lexicon's meanings plus the bundled Taboo cards' (so the guesser's gloss reads in the app's language), level
@@ -648,6 +648,42 @@ appears for builds installed from the Play Store) after `REVIEW_RULES` in `revie
 five finished activities, at most three asks, 120 days apart. The Me screen's "Rate Eszett" row opens the store
 page directly.
 
+## Free week and full access
+
+Everything is open for seven days from the first start; after that the tutor model needs a one-time purchase (no
+subscription). The drills, rule cards, word lookups and the pass-and-play games stay free for good — the gate is
+only on the model.
+
+- `src/features/accessRules.ts` (pure, tested) holds the rules: `TRIAL_DAYS = 7`, `PRODUCT_ID =
+  'eszett_full_access'`, `evaluateAccess(record, now)` → `paid` / `trial` (with `daysLeft`) / `ended`. The clock
+  used is `max(now, lastSeenAt)`, so a phone set back in time does not get its week again.
+- `src/features/access.ts` is the persisted store (`eszett.access`): when the app was first opened, the latest
+  clock reading, the purchase once there is one. `useAccessView()` is the hook screens read.
+- `src/features/accessBind.ts` runs in the root layout **before** the model boot: it notes the time at every start
+  and return to the front, sets a timer for the minute the week ends, and calls `useModel.setLocked(…)`.
+- `src/model/runtime.ts` has the status `locked`: the GGUF stays on the phone but is unloaded from memory, `load()`
+  parks the file until `setLocked(false)` lets it in, `isReady()` is false, so every prompt path (chat, drills,
+  lesson planner, authoring) shows its not-ready note (`model.noteLocked`). A download that is running carries on.
+- `src/features/purchases.ts` talks to the store through `expo-iap` (StoreKit 2 / Google Play Billing): connect,
+  fetch the price, buy, restore, finish every transaction (Android refunds unacknowledged purchases after three
+  days; iOS replays unfinished ones at launch). At every launch `getAvailablePurchases()` quietly restores a
+  purchase made on another phone or before a reinstall. `purchases.web.ts` answers "not available".
+- `src/app/unlock.tsx` is the **Me › Full access** sheet (also reached from the Tutor tab and the model sheet when
+  locked): days left / ended / paid, the pitch, "Unlock for {price}" with the store's own price string, Restore,
+  the legal line. In a dev build a row of pills ends the week, resets it, marks paid, clears the purchase.
+
+**Store setup (once, by hand):** create a non-consumable in-app purchase with product id `eszett_full_access` in
+App Store Connect and a one-time (non-consumable) product with the same id in the Play Console, and attach it to
+the app. The price is read from the store; nothing in the app needs to change for a price change. `expo-iap` is a
+native module, so the first build with it must be a fresh native build (`npx expo run:android` / `run:ios`, or
+EAS); its config plugin is already in `app.json`. Test with sandbox testers (iOS) / licence testers (Play).
+
+**Limitations, on purpose:** there is no server and no receipt verification — the device's own StoreKit / Play
+Billing state is trusted, the same way the rest of the app trusts the phone. A reinstall starts a new week (the
+trial record lives in AsyncStorage); a rooted phone can edit it. The purchase itself is tied to the store account
+and comes back through Restore on any phone. Learners who update from a version without the gate get seven days
+from the first start of the new version.
+
 ## Practising together
 
 The card at the top of **Scenes** opens `/together`: two people share one phone and practise German with each
@@ -793,6 +829,7 @@ src/app/                 screens (Expo Router)
   _layout.tsx            fonts, theme, the boot hook (loads the model once settings are hydrated, rescans on foreground), the splash timeout
   (tabs)/                Today (index), Tutor, Practice, Scenes, Me
   model.tsx              Me › Your tutor: edition, download / pause / resume, files on the phone, download source, stream test
+  unlock.tsx             Me › Full access: the free week, the one-time purchase, restore (see "Free week and full access")
   onboarding.tsx, review.tsx, words.tsx, drill/, grammar/ ([key] and new), scene/, word/, write/ ([id] and new)
   together/              practising together: index (hub), talk, duel, taboo, story, scrabble, wordle (see "Practising together")
 src/model/
@@ -801,7 +838,7 @@ src/model/
   engine.ts              llama.rn: load, metadata, cache primes (home prefix, typing-time prepare), greedy streaming generation, the queue; engine.web.ts stub
   runtime.ts             zustand store: status machine, boot (auto-download), download (size check), useLocal (header check), remove; the Tutor instance
 src/harness/             prompts, grounding, parsers, lexicon, engines, rules, role-play, writing, authoring (model-written scenes, tasks, cards, topics), together (talking points, Taboo, story chain, duel), template renderer
-src/features/            lesson planning, chat, scene icons, AuthorBox (the "your tutor writes it" box), modelStatus (status wording), release + releaseRules (the update check), review + reviewRules (the store-review ask), together (the two names, sessions played), the self-test battery
+src/features/            lesson planning, chat, scene icons, AuthorBox (the "your tutor writes it" box), modelStatus (status wording), access + accessRules + accessBind + purchases (the free week and the one-time purchase), release + releaseRules (the update check), review + reviewRules (the store-review ask), together (the two names, sessions played), the self-test battery
 src/i18n/                t()/tIn()/useI18n, languages, plural rules, catalogs, bind (device locale, RTL, explainIn), content (localised cards, scenes, rules, lexicon, levels, writing tasks), locales/<lang>.json
 src/mt/                  translation on this phone (ML Kit): store (one language pack, session cache), bind, languages (who it is for, when a question is translated), markdown (German-protecting line translation), question (German-protecting question translation), glossary, useTranslated
 modules/eszett-translate/  the local Expo module over ML Kit Translate: Kotlin (android/), Swift + podspec (ios/), index.ts

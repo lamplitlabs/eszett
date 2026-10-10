@@ -75,7 +75,7 @@ export default function Today() {
           <Pill label={`${level} ${localizeLevel(LEVEL_INFO[level], lang).name}`} tone="royal" onPress={() => router.navigate('/me')} />
           {streak > 0 ? <Pill label={t('home.days', { count: streak })} icon={Flame} tone="amber" /> : null}
         </View>
-        <Press onPress={() => router.push('/model')} scaleTo={0.99} accessibilityLabel={tutorLine(connection, pct, lang)}>
+        <Press onPress={() => router.push(connection === 'locked' ? '/unlock' : '/model')} scaleTo={0.99} accessibilityLabel={tutorLine(connection, pct, lang)}>
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.s, marginTop: space.l, marginBottom: space.xxl }}>
             <StatusLight connection={connection} />
             <Txt variant="small" color="inkSoft">

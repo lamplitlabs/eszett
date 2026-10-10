@@ -1,6 +1,6 @@
 import * as Device from 'expo-device';
 import { router, useLocalSearchParams } from 'expo-router';
-import { Activity, Check, ChevronDown, ChevronRight, Download, FolderOpen, Pause, Play, Trash2, X } from 'lucide-react-native';
+import { Activity, Check, ChevronDown, ChevronRight, Download, FolderOpen, KeyRound, Pause, Play, Trash2, X } from 'lucide-react-native';
 import { useEffect, useRef, useState } from 'react';
 import { Alert, Platform, ScrollView, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-screens/experimental';
@@ -142,7 +142,7 @@ export default function ModelSheet() {
 
   const pct = pctOf(progress);
   const inFlight = status === 'downloading' || status === 'paused' || status === 'loading';
-  const settled = status === 'absent' || status === 'ready' || status === 'paused' || status === 'error';
+  const settled = status === 'absent' || status === 'ready' || status === 'paused' || status === 'error' || status === 'locked';
   const free = status === 'absent' ? freeOnPhone() : null;
   const need = estimatedBytes(pick);
   const tight = free !== null && free < need + SPARE_BYTES;
@@ -228,6 +228,13 @@ export default function ModelSheet() {
           <Txt variant="small" color="inkSoft">
             {t('model.unavailable')}
           </Txt>
+        ) : null}
+
+        {status === 'locked' ? (
+          <Paper tone="amber" style={{ gap: space.m }}>
+            <Txt variant="small">{t('model.noteLocked')}</Txt>
+            <Button label={t('unlock.open')} icon={KeyRound} size="medium" onPress={() => router.push('/unlock')} />
+          </Paper>
         ) : null}
 
         {status === 'absent' ? (
