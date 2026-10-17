@@ -29,7 +29,7 @@ describe('checkForUpdate', () => {
   });
 
   it('skips a check made within a day unless forced', async () => {
-    const fetchImpl = vi.fn(respond(200, info));
+    const fetchImpl = vi.fn(respond(200, info)) as unknown as typeof fetch & ReturnType<typeof vi.fn>;
     useRelease.getState().set({ checkedAt: T });
     expect(await checkForUpdate({ now: T + CHECK_EVERY_MS - 1, fetchImpl })).toBe('skipped');
     expect(fetchImpl).not.toHaveBeenCalled();
