@@ -16,22 +16,26 @@
   "check.lexicon": "词库：{expected}",
   "check.lexiconDetail": "导师写的是“{claimed}”。{note}",
   "check.nounsMatch": {
+    "one": "{count} 个名词与词库一致",
     "other": "{count} 个名词与词库一致"
   },
   "check.quotesExact": "逐字引用了参考资料",
   "check.quotesRestored": "引用已还原为笔记原文",
   "check.quotesRestoredDetail": {
+    "one": "导师误引了规则笔记中的 {count} 行；这里显示的是笔记原文。",
     "other": "导师误引了规则笔记中的 {count} 行；这里显示的是笔记原文。"
   },
   "check.ruleNote": "规则笔记：{title}",
   "check.ruleNoteDetail": "已附在问题中，让导师依据已核验的笔记作答。",
   "check.summaryChecked": "已核验",
   "check.summaryDiffers": {
+    "one": "{count} 处与已核验数据不符",
     "other": "{count} 处与已核验数据不符"
   },
   "check.summaryEngine": "与规则引擎一致",
   "check.summaryGrounded": "依据规则笔记作答",
   "check.summaryNouns": {
+    "one": "已核验 {count} 个名词",
     "other": "已核验 {count} 个名词"
   },
   "check.summaryQuote": "引用已还原",
@@ -154,11 +158,13 @@
   "grammar.finish": "完成",
   "grammar.fixTheSentence": "改正句子",
   "grammar.fixedSummary": {
+    "one": "你改对了 {count} 个句子中的 {score} 个。",
     "other": "你改对了 {count} 个句子中的 {score} 个。"
   },
   "grammar.inEnglish": "用英语",
   "grammar.inGerman": "Auf Deutsch",
   "grammar.leftOutExamples": {
+    "one": "省略了 {count} 个与词库不符的例句（{why}）。",
     "other": "省略了 {count} 个与词库不符的例句（{why}）。"
   },
   "grammar.moreExamples": "导师的更多例句",
@@ -185,9 +191,11 @@
   "home.askTutor": "问导师",
   "home.continueLesson": "继续课程",
   "home.days": {
+    "one": "连续 {count} 天",
     "other": "连续 {count} 天"
   },
   "home.due": {
+    "one": "{count} 个单词待复习",
     "other": "{count} 个单词待复习"
   },
   "home.lessonDone": "课程已完成。再练一练",
@@ -199,6 +207,7 @@
   "home.plural": "复数",
   "home.reviewBody": "几分钟就能让它们留在记忆里。",
   "home.reviewLabel": {
+    "one": "复习 {count} 个单词",
     "other": "复习 {count} 个单词"
   },
   "home.reviewTitle": "复习",
@@ -241,9 +250,11 @@
   "me.aboutText": "基于 {repo}（{student}）构建，这是一个由 SmolLM3-3B（Apache-2.0）微调而来的 3B 德语导师模型。模型在这部手机上运行，你写的句子不会离开你的手机。",
   "me.accuracyEmpty": "做过几组练习后，这里会显示你在各个领域的正确率。",
   "me.accuracyOf": {
+    "one": "{percent}%，共 {count} 题",
     "other": "{percent}%，共 {count} 题"
   },
   "me.answered": {
+    "one": "已答 {count} 题",
     "other": "已答 {count} 题"
   },
   "me.appSection": "语言与外观",
@@ -266,9 +277,11 @@
   "me.checkUpdates": "检查更新",
   "me.checkingUpdates": "正在检查…",
   "me.dayItems": {
+    "one": "{day}：{count} 项",
     "other": "{day}：{count} 项"
   },
   "me.daysInARow": {
+    "one": "连续学习天数",
     "other": "连续学习天数"
   },
   "me.explainFallback": "辅导模型暂时还不能用{lang}讲解；在下一版本推出前，你的辅导老师用{name}讲解。",
@@ -293,12 +306,14 @@
   "me.readAloudDetail": "情景中对方的话会被读出来",
   "me.restartForDirection": "关闭并重新打开 Eszett 以切换界面布局方向。",
   "me.reviewDue": {
+    "one": "复习 {count} 个到期单词",
     "other": "复习 {count} 个到期单词"
   },
   "me.reviewMyWords": "复习我的单词",
   "me.runsOnCpu": "{model}，在这部手机的 CPU 上运行",
   "me.runsOnGpu": "{model}，在这部手机的 GPU 上运行",
   "me.savedWords": {
+    "one": "已保存的单词",
     "other": "已保存的单词"
   },
   "me.speakingSpeed": "语速",
@@ -406,6 +421,7 @@
   "model.removeTitle": "移除模型？",
   "model.resume": "继续",
   "model.retired": {
+    "one": "此次更新替换了导师模型：{files} 已从这部手机移除。",
     "other": "此次更新替换了导师模型：{files} 已从这部手机移除。"
   },
   "model.retryDownload": "重新下载",
@@ -426,6 +442,7 @@
   "model.testDoneIn": "{seconds} 秒完成",
   "model.testFirstAfter": "首个片段 {seconds} 秒后",
   "model.testPieces": {
+    "one": "{count} 个流式片段",
     "other": "{count} 个流式片段"
   },
   "model.testTutor": "测试导师",
@@ -479,9 +496,11 @@
   "practice.datesTitle": "日期",
   "practice.doneMark": "已完成",
   "practice.dueCount": {
+    "one": "{count} 个待复习",
     "other": "{count} 个待复习"
   },
   "practice.exerciseCount": {
+    "one": "{count} 道题",
     "other": "{count} 道题"
   },
   "practice.formal": "正式",
@@ -507,6 +526,7 @@
   "practice.pricesTitle": "价格",
   "practice.rowLabel": "{title}。{detail}",
   "practice.savedCount": {
+    "one": "已保存 {count} 个",
     "other": "已保存 {count} 个"
   },
   "practice.sentenceDetail": "翻译一个约定",
@@ -535,6 +555,7 @@
   "review.remove": "移除 {word}",
   "review.showMeaning": "显示词义",
   "review.summary": {
+    "one": "你记住了 {total} 个中的 {count} 个。没记住的单词十分钟后会再次出现。",
     "other": "你记住了 {total} 个中的 {count} 个。没记住的单词十分钟后会再次出现。"
   },
   "scene.again": "再来一次",
@@ -556,10 +577,12 @@
   "scene.savePhraseA11y": "保存这个短语",
   "scene.showBrief": "显示简介",
   "scene.summary": {
+    "one": "你用 {count} 句话问出了 {total} 条事实中的 {found} 条。",
     "other": "你用 {count} 句话问出了 {total} 条事实中的 {found} 条。"
   },
   "scene.summaryAllCorrect": "每一句都正确。",
   "scene.summaryCorrected": {
+    "one": "有 {count} 句话得到了批改。",
     "other": "有 {count} 句话得到了批改。"
   },
   "scene.thinkingOfLine": "正在想下一句…",
@@ -615,6 +638,7 @@
   "together.gamesTitle": "游戏",
   "together.go": "开始吧",
   "together.gotThisTurn": {
+    "one": "本轮 {count} 个词",
     "other": "本轮 {count} 个词"
   },
   "together.guessed": "猜中了",
@@ -636,6 +660,7 @@
   "together.ownWriting": "导师正在写你们的问题",
   "together.passPhone": "把手机递给 {name}",
   "together.played": {
+    "one": "已一起练习 {count} 次",
     "other": "已一起练习 {count} 次"
   },
   "together.playerN": "玩家 {n}",
@@ -643,12 +668,14 @@
   "together.restartTitle": "重新开始？",
   "together.resume": "对局进行中 · {a} {sa} : {sb} {b}",
   "together.roundsEach": {
+    "one": "每人 {count} 轮",
     "other": "每人 {count} 轮"
   },
   "together.score": "{a} {sa} · {b} {sb}，共 {total} 题",
   "together.scrabbleAccept": "认可",
   "together.scrabbleAcceptedBy": "由 {name} 认可",
   "together.scrabbleBag": {
+    "one": "袋中还有 {count} 张牌",
     "other": "袋中还有 {count} 张牌"
   },
   "together.scrabbleBingo": "七张牌全部用完：+{bonus}",
@@ -674,6 +701,7 @@
   "together.scrabblePlural": "复数",
   "together.scrabblePluralOf": "{lemma} 的复数",
   "together.scrabblePoints": {
+    "one": "{count} 分",
     "other": "{count} 分"
   },
   "together.scrabbleRecall": "收回字母牌",
@@ -684,16 +712,19 @@
   "together.scrabbleShuffle": "打乱牌架",
   "together.scrabbleSwap": "换牌",
   "together.scrabbleSwapConfirm": {
+    "one": "换 {count} 张牌",
     "other": "换 {count} 张牌"
   },
   "together.scrabbleSwapHint": "选择要换的牌；换牌后轮到对方。",
   "together.scrabbleSwapUnavailable": "袋中至少还有七张牌时才能换牌",
   "together.scrabbleSwapped": {
+    "one": "{name} 换了 {count} 张牌",
     "other": "{name} 换了 {count} 张牌"
   },
   "together.scrabbleTitle": "字母拼词",
   "together.scrabbleTooShort": "单词至少要有两个字母",
   "together.scrabbleUnknownAsk": {
+    "one": "{name}，词典不认识这个词。你认可吗？",
     "other": "{name}，词典不认识这个词。你认可吗？"
   },
   "together.scrabbleWordsPlayed": "摆出的单词",
@@ -703,9 +734,11 @@
   "together.storyCorrections": "导师的修改",
   "together.storyDetail": "每人一句，一起编故事；导师随时批改。",
   "together.storyDoneDetail": {
+    "one": "{count} 句，全部正确。",
     "other": "{count} 句，全部正确。"
   },
   "together.storyDoneFixed": {
+    "one": "{count} 句；导师批改了其中 {fixed} 句。",
     "other": "{count} 句；导师批改了其中 {fixed} 句。"
   },
   "together.storyDoneTitle": "故事讲完了",
@@ -727,6 +760,7 @@
   "together.tabooTitle": "禁忌词",
   "together.talkDetail": "互相提问的问题，附有会用到的词汇。",
   "together.talkDoneDetail": {
+    "one": "关于“{topic}”的 {count} 个问题。聊得愉快！",
     "other": "关于“{topic}”的 {count} 个问题。聊得愉快！"
   },
   "together.talkDoneTitle": "聊得真好",
@@ -750,6 +784,7 @@
   "together.wordleDetail": "轮流猜一个五个字母的德语单词，六次机会。",
   "together.wordleEnter": "提交猜测",
   "together.wordleFound": {
+    "one": "{name}用{count}次猜中",
     "other": "{name}用{count}次猜中"
   },
   "together.wordleGiveUp": "揭晓单词",
@@ -775,6 +810,7 @@
   "together.wordleWordOf": "第{n}个词，共{total}个",
   "together.wordleWordsTitle": "这些词",
   "together.wordsGuessed": {
+    "one": "{name} 让对方猜中了 {count} 个词。",
     "other": "{name} 让对方猜中了 {count} 个词。"
   },
   "topics.career": "工作与职业",
@@ -906,6 +942,7 @@
   "unlock.trialEnded": "你的免费一周已结束",
   "unlock.trialEndedDetail": "练习、规则卡片和词库仍可使用。解锁 Eszett 后，你的导师即刻回归。",
   "unlock.trialLeft": {
+    "one": "免费一周还剩 {count} 天",
     "other": "免费一周还剩 {count} 天"
   },
   "update.body": "版本 {version} 已在应用商店上架。",
@@ -929,6 +966,7 @@
   "words.anotherTopic": "换个主题",
   "words.choosing": "导师正在挑选单词",
   "words.confirmed": {
+    "one": "{count} 个单词中有 {verified} 个经词库确认。",
     "other": "{count} 个单词中有 {verified} 个经词库确认。"
   },
   "words.fixedArticle": "导师写的是“{wrong}”；词库给出的是“{right}”。",
@@ -980,6 +1018,7 @@
   "write.tutorReading": "导师正在阅读你的文章",
   "write.tutorWriting": "导师正在写作",
   "write.wordCount": {
+    "one": "{count} 个词（目标 {lo}-{hi}）",
     "other": "{count} 个词（目标 {lo}-{hi}）"
   },
   "write.wordRange": "{lo}-{hi} 个词",
