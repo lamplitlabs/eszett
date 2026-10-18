@@ -790,9 +790,10 @@ the twelve catalogs. Tests: `src/harness/__tests__/together.test.ts`.
 ## Tests
 
 ```bash
-npx vitest run                  # harness tests, the chat-template renderer, the model manifest, i18n, the on-phone translator's masking, release and review rules, practising together (Node, no React Native)
-npx tsc --noEmit
-npx expo lint
+sh scripts/verify.sh            # typecheck + tests: the entry point the scheduled check runs; exits 0 when both pass
+npx vitest run                  # npm test — harness tests, the chat-template renderer, the model manifest, i18n, the on-phone translator's masking, release and review rules, practising together (Node, no React Native)
+npx tsc --noEmit                # npm run typecheck
+npx expo lint                   # npm run lint
 node scripts/i18n-ui-check.mjs de fr es it pt pl ru uk tr ar zh        # the UI catalogs against en.json
 for l in fr es it pt pl ru uk tr ar zh; do node scripts/i18n-content-check.mjs $l; done   # the content overlays
 ```
