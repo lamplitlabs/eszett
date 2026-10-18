@@ -2,7 +2,7 @@
 
 The Expo app of Eszett, the German tutor built around `lamplitlabs/licht-german-tutor`. The 3B model runs on the
 phone through [llama.rn](https://github.com/mybigday/llama.rn) (llama.cpp) from a GGUF file; there is no server.
-See the [README in the project root](../README.md) for what the app does and how the model editions were chosen.
+See the sections below for what the app does and how the model editions were chosen.
 
 ## Prerequisites
 
