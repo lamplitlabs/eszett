@@ -791,6 +791,7 @@ the twelve catalogs. Tests: `src/harness/__tests__/together.test.ts`.
 
 ```bash
 sh scripts/verify.sh            # typecheck + tests: the entry point the scheduled check runs; exits 0 when both pass
+sh scripts/audit.sh             # dependency audit: fails on a high or critical vulnerability
 npx vitest run                  # npm test — harness tests, the chat-template renderer, the model manifest, i18n, the on-phone translator's masking, release and review rules, practising together (Node, no React Native)
 npx tsc --noEmit                # npm run typecheck
 npx expo lint                   # npm run lint
@@ -868,8 +869,12 @@ src/ui/                  theme, type, red pen, check footers, Markdown, Mark (th
 src/data/                grounding.json, lexicon-core.json, model.json (prompt, template, GGUF editions), scenes, grammar, rules, together.json (talking points); i18n/<lang>.json content overlays (+ en.source.json, generated)
 assets/images, assets/brand   the icons and the mark's SVG source
 scripts/build-data.mjs   rebuilds src/data from the Hub and the export manifest in our storage
+scripts/build-words.mjs  rebuilds src/data/words.json from the content data and model-words.json (see "The word list")
+scripts/model-words.mjs  asks the release GGUF for the game words: writes src/data/model-words.json (see "The word list")
 scripts/make-icons.py    rebuilds assets/images from the mark (fonttools, pillow, rsvg-convert)
 scripts/i18n-*.mjs       i18n-content-source (en.source.json from the data files), i18n-content-check <lang>, i18n-ui-check <lang…>
+scripts/verify.sh        typecheck + tests; the entry point the scheduled check runs (see "Tests")
+scripts/audit.sh         dependency audit: exits non-zero on a high or critical vulnerability
 release.json             the published store-version file (see "Update and review prompts")
 ```
 
