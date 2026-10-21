@@ -121,8 +121,9 @@ const freshStats = (): EngineStats => ({
 function stop(context: LlamaContext) {
   try {
     void Promise.resolve(context.stopCompletion()).catch(() => undefined);
-  } catch {
+  } catch (e) {
     // the context is gone already
+    console.warn('[model] could not stop the completion; the context is gone already:', e);
   }
 }
 
@@ -546,7 +547,8 @@ export async function inspectModelFile(uri: string): Promise<{ name: string; ver
     const name = metaString(meta, 'general.name');
     if (!name) return null;
     return { name, version: metaString(meta, 'general.version') };
-  } catch {
+  } catch (e) {
+    console.warn('[model] could not inspect the model file:', e);
     return null;
   }
 }
