@@ -9,7 +9,7 @@ import type { RuleHit } from '@/harness/rules';
 import { detectLang, route, translationTarget, type FactAnswer, type Lang } from '@/harness/route';
 import type { AnswerChecks } from '@/harness/verify';
 import { getLanguage } from '@/i18n';
-import { describeError, isReady, tutor } from '@/model/runtime';
+import { describeError, isReady, logPrimeFailure, tutor } from '@/model/runtime';
 import { needsQuestionTranslation, translateQuestion, translateText, translating } from '@/mt';
 import { useProgress } from '@/state/progress';
 import { useSettings } from '@/state/settings';
@@ -80,7 +80,9 @@ export function prepare(raw: string, mode: Mode): void {
   const text = raw.trim();
   const { resolved, body } = resolveMode(text, mode);
   const { level, explainIn } = useSettings.getState();
-  void tutor.prepare(resolved === 'translate' ? translationBody(body) : body, { level, lang: explainIn }, resolved).catch(() => undefined);
+  // a failed prime does not block the reply, but it must not be silent: the generate it warmed meets the same
+  // failure, and an unlogged tutor that suddenly cannot answer is the worst kind of bug report
+  void tutor.prepare(resolved === 'translate' ? translationBody(body) : body, { level, lang: explainIn }, resolved).catch((e) => logPrimeFailure('chat', e));
 }
 
 export const useChat = create<ChatState>()(

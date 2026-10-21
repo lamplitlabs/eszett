@@ -470,7 +470,11 @@ class Engine {
         this.recordPrompt(result, 'partial');
         this.cached = '';
       }
-    } catch {
+    } catch (error) {
+      // A prime that dies (the context died evaluating the prompt, or could not be made at all) must not pass
+      // for a prime that finished: the reply that follows it fails the same way, and the learner would see a
+      // tutor that just stops answering. Log it with the reason; the settled 'stall' outcome marks the miss.
+      console.warn('[model] the cache prime failed:', error);
       this.cached = '';
     } finally {
       cancelWatchdog();

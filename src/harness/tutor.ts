@@ -211,6 +211,8 @@ export class Tutor {
       cards: GrammarCard[];
       /** Optional: the model host's cache prime, for evaluating the next prompt's known beginning early. */
       prime?: Prime;
+      /** Optional: told when the cache prime fails, so the failure is logged and not mistaken for a warmed cache. */
+      onPrimeError?: (error: unknown) => void;
     },
   ) {}
 
@@ -271,7 +273,9 @@ export class Tutor {
       const { prompt, keys } = intent === 'check' ? this.correctionPrompt(t, ctx) : { prompt: P.askPrompt(t, ctx.level, detectLang(t, ctx.lang)), keys: null };
       start = notePrefix(this.deps.grounding, this.notesFor(prompt, keys), this.layout);
     }
-    return prime(this.prefixText(start));
+    // a failed prime is not fatal - the reply is generated without the warm cache - but it must be reported,
+    // not swallowed, or the tutor looks fine until the generate that fails the same way
+    return prime(this.prefixText(start)).catch((e) => this.deps.onPrimeError?.(e));
   }
 
   private async run(userText: string, ctx: Ctx, maxNewTokens: number, extra: Partial<GenerateOptions> = {}, ground = true, keys: string[] | null = null) {

@@ -45,6 +45,7 @@ export const groundingPack = grounding as unknown as GroundingPack;
 export const tutor = new Tutor({
   generate: engine.generate,
   prime: (prompt) => engine.prime(prompt),
+  onPrimeError: (e) => logPrimeFailure('typing ahead', e),
   systemPrompt: SYSTEM_PROMPT,
   grounding: groundingPack,
   lex: coreLexicon,
@@ -92,6 +93,8 @@ export interface ModelState {
   resume: () => Promise<void>;
   cancel: () => Promise<void>;
   useLocal: (m: LocalModel) => Promise<void>;
+  /** Reloads the chosen model file, surfacing a failed GGUF load to the caller (the error screen can retry). */
+  reload: (uri: string, edition?: Edition) => Promise<void>;
   importFile: () => Promise<void>;
   remove: () => Promise<void>;
   rescan: () => void;
@@ -212,7 +215,7 @@ async function loadFullLexicon() {
 function load(uri: string, edition: Edition): Promise<void> {
   const seq = ++loadSeq;
   current = { uri, edition };
-  const run = loading.then(async () => {
+  const run = loading.then(async (): Promise<void> => {
     if (seq !== loadSeq) return;
     if (locked) {
       // the week is over and nothing was bought: the file waits on the phone, out of memory, until setLocked(false)
@@ -233,8 +236,13 @@ function load(uri: string, edition: Edition): Promise<void> {
       void loadFullLexicon();
     } catch (e) {
       if (seq !== loadSeq) return;
+      // A failed GGUF load (a truncated file, a format llama.cpp rejects, not enough memory for the context)
+      // must be diagnosable: keep the reason in the log with the file it came from, and hand the caller a
+      // retryable failure it can await instead of a run that resolves while the store says 'error'.
+      console.warn(`[model] loading ${basename(uri)} failed:`, e);
       const text = describeError(e);
       useModel.setState({ status: 'error', progress: 0, detail: text, error: text, info: null });
+      throw e instanceof ModelError ? e : new ModelError(message(e), 'failed');
     }
   });
   loading = run.catch(() => undefined);
@@ -373,7 +381,8 @@ export const useModel = create<ModelState>()((set, get) => ({
       const chosen = chosenLocal(local, settings.modelFile);
       const found = chosen ?? installedModel(settings.edition);
       if (found) {
-        await load(found.uri, found.edition ?? settings.edition);
+        // already logged and in the store as 'error' when the load fails: the Your-tutor sheet shows it from there
+        await load(found.uri, found.edition ?? settings.edition).catch(() => undefined);
         return;
       }
 
@@ -427,7 +436,7 @@ export const useModel = create<ModelState>()((set, get) => ({
     useSettings.getState().setModelFile('');
     const installed = installedModel(edition);
     if (installed) {
-      await load(installed.uri, edition);
+      await load(installed.uri, edition).catch(() => undefined); // logged and in the store as 'error' by load()
       return;
     }
 
@@ -496,7 +505,10 @@ export const useModel = create<ModelState>()((set, get) => ({
       return;
     }
     useSettings.getState().setModelFile(m.uri);
-    await load(m.uri, edition);
+    await load(m.uri, edition).catch(() => undefined); // logged and in the store as 'error' by load()
+  },
+  reload: async (uri, edition = get().edition) => {
+    await load(uri, edition);
   },
 
   importFile: async () => {
@@ -560,12 +572,22 @@ export const useModel = create<ModelState>()((set, get) => ({
       return;
     }
     if (status !== 'locked') return;
-    if (current) await load(current.uri, current.edition);
+    if (current) await load(current.uri, current.edition).catch(() => undefined); // logged and in the store as 'error' by load()
     else set({ status: 'absent', detail: detailOf('absent'), progress: 0, bytes: 0, total: -1, local: findLocalModels() });
   },
 }));
 
 export const isReady = () => useModel.getState().status === 'ready';
+
+/**
+ * Notes a cache-prime that failed. A failed prime is not fatal by itself - the reply is generated without the
+ * warm cache - but it must not vanish silently: a model whose context dies on evaluation fails the reply the
+ * same way right after, and the learner would see a tutor that simply never answers. The scope says where the
+ * prime came from; the surface carrying the failure to the learner is the generate that follows it.
+ */
+export function logPrimeFailure(scope: string, error: unknown): void {
+  console.warn(`[model] could not prime the prompt cache (${scope}):`, error);
+}
 
 /** Friendly description of a failed request, for inline errors. */
 export function describeError(e: unknown): string {
