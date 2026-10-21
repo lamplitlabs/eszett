@@ -55,6 +55,7 @@
     "lint": "expo lint",
     "build-data": "node scripts/build-data.mjs",
     "build-words": "node scripts/build-words.mjs",
+    "i18n-check": "node scripts/i18n-ui-check.mjs de fr es it pt pl ru uk tr ar zh && node scripts/i18n-content-check.mjs fr es it pt pl ru uk tr ar zh",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },

@@ -790,13 +790,14 @@ the twelve catalogs. Tests: `src/harness/__tests__/together.test.ts`.
 ## Tests
 
 ```bash
-sh scripts/verify.sh            # typecheck + tests: the entry point the scheduled check runs; exits 0 when both pass
+sh scripts/verify.sh            # typecheck + tests + i18n check: the entry point the scheduled check runs; exits 0 when all pass
 sh scripts/audit.sh             # dependency audit: fails on a high or critical vulnerability
 npx vitest run                  # npm test — harness tests, the chat-template renderer, the model manifest, i18n, the on-phone translator's masking, release and review rules, practising together (Node, no React Native)
 npx tsc --noEmit                # npm run typecheck
 npx expo lint                   # npm run lint
-node scripts/i18n-ui-check.mjs de fr es it pt pl ru uk tr ar zh        # the UI catalogs against en.json
-for l in fr es it pt pl ru uk tr ar zh; do node scripts/i18n-content-check.mjs $l; done   # the content overlays
+npm run i18n-check              # the UI catalogs against en.json and the content overlays against en.source.json
+node scripts/i18n-ui-check.mjs de fr es it pt pl ru uk tr ar zh        # the UI catalogs on their own
+node scripts/i18n-content-check.mjs fr es it pt pl ru uk tr ar zh      # the content overlays on their own
 ```
 
 - `src/harness/__tests__/fixtures/chat-template.json` holds prompts rendered with transformers.js from the Hub's

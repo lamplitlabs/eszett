@@ -1,6 +1,6 @@
 #!/bin/sh
-# Typecheck and run the tests. Used by the scheduled check (SCHED-016) and
-# by hand: `sh scripts/verify.sh`.
+# Typecheck, run the tests, and check the translation catalogs. Used by the
+# scheduled check (SCHED-016) and by hand: `sh scripts/verify.sh`.
 set -e
 cd "$(dirname "$0")/.."
 
@@ -14,3 +14,4 @@ fi
 
 npm run typecheck
 npm test
+npm run i18n-check
