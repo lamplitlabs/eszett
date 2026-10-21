@@ -29,7 +29,8 @@ const EDITION_KEYS: Record<Edition, { name: string; detail: string }> = {
 function freeOnPhone(): number | null {
   try {
     return freeBytes();
-  } catch {
+  } catch (e) {
+    console.warn('[model] could not read free disk space:', e);
     return null;
   }
 }
