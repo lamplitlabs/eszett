@@ -874,7 +874,7 @@ scripts/build-words.mjs  rebuilds src/data/words.json from the content data and 
 scripts/model-words.mjs  asks the release GGUF for the game words: writes src/data/model-words.json (see "The word list")
 scripts/make-icons.py    rebuilds assets/images from the mark (fonttools, pillow, rsvg-convert)
 scripts/i18n-*.mjs       i18n-content-source (en.source.json from the data files), i18n-content-check <lang>, i18n-ui-check <lang…>
-scripts/verify.sh        typecheck + tests; the entry point the scheduled check runs (see "Tests")
+scripts/verify.sh        typecheck + tests + i18n check; the entry point the scheduled check runs (see "Tests")
 scripts/audit.sh         dependency audit: exits non-zero on a high or critical vulnerability
 release.json             the published store-version file (see "Update and review prompts")
 ```
