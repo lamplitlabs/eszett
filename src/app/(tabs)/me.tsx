@@ -1,9 +1,10 @@
 import { router } from 'expo-router';
-import { ChevronRight, RefreshCw, Repeat, Star } from 'lucide-react-native';
+import { ChevronRight, KeyRound, RefreshCw, Repeat, Star } from 'lucide-react-native';
 import { useState, type ReactNode } from 'react';
-import { Switch, View } from 'react-native';
+import { Platform, Switch, View } from 'react-native';
 
 import modelInfo from '@/data/model.json';
+import { useAccessView } from '@/features/access';
 import { modelTitle, statusLabel, useModelPercent } from '@/features/modelStatus';
 import { checkForUpdate, useRelease, type CheckOutcome } from '@/features/release';
 import { openStorePage, storePageUrl } from '@/features/review';
@@ -107,6 +108,7 @@ export default function Me() {
   const info = useModel((h) => h.info);
   const detail = useModel((h) => h.detail);
   const pct = useModelPercent();
+  const access = useAccessView();
   const [updateCheck, setUpdateCheck] = useState<'idle' | 'busy' | CheckOutcome>('idle');
   const update = useUpdateVerdict(false);
   const streak = streakOf(days);
@@ -320,6 +322,23 @@ export default function Me() {
           </Paper>
         </Press>
       </Section>
+
+      {Platform.OS === 'web' ? null : (
+        <Section title={t('me.fullAccess')}>
+          <Press onPress={() => router.push('/unlock')} scaleTo={0.99} accessibilityLabel={t('me.fullAccess')}>
+            <Paper style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
+              <KeyRound size={18} color={access.kind === 'ended' ? c.amberInk : c.royal} />
+              <View style={{ flex: 1 }}>
+                <Txt variant="bodyStrong">{access.kind === 'paid' ? t('unlock.paid') : access.kind === 'ended' ? t('unlock.trialEnded') : t('unlock.trialLeft', { count: access.daysLeft })}</Txt>
+                <Txt variant="small" color="inkSoft" numberOfLines={2}>
+                  {access.kind === 'paid' ? t('unlock.paidDetail') : t('unlock.rowDetail')}
+                </Txt>
+              </View>
+              <ChevronRight size={18} color={c.inkFaint} />
+            </Paper>
+          </Press>
+        </Section>
+      )}
 
       <Section title={t('me.about')}>
         <Paper tone="alt" style={{ gap: space.s }}>

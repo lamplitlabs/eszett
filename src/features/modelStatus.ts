@@ -17,6 +17,7 @@ const STATUS_KEY: Record<ModelStatus, string> = {
   ready: 'model.statusReady',
   error: 'model.statusError',
   unavailable: 'model.statusUnavailable',
+  locked: 'model.statusLocked',
 };
 
 /** A 0..1 progress as whole percent, so screens re-render once per percent and not once per chunk. */
@@ -45,6 +46,7 @@ const TUTOR_LINE_KEY: Record<ModelStatus, string> = {
   loading: 'model.tutorLineLoading',
   error: 'model.tutorLineError',
   unavailable: 'model.tutorLineUnavailable',
+  locked: 'model.tutorLineLocked',
 };
 
 export function tutorLine(status: ModelStatus, pct = 0, lang: AppLang = getLanguage()): string {
@@ -60,6 +62,7 @@ const NOT_READY_NOTE_KEY: Record<Exclude<ModelStatus, 'ready'>, string> = {
   loading: 'model.noteLoading',
   error: 'model.noteError',
   unavailable: 'model.noteUnavailable',
+  locked: 'model.noteLocked',
 };
 
 export function notReadyNote(status: ModelStatus, pct = 0, lang: AppLang = getLanguage()): string {

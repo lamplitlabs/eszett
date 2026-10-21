@@ -75,7 +75,8 @@
           "supportsOpeningDocumentsInPlace": true
         }
       ],
-      "expo-localization"
+      "expo-localization",
+      "expo-iap"
     ],
     "experiments": {
       "typedRoutes": true,

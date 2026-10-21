@@ -317,9 +317,15 @@ function Empty({ onPick }: { onPick: (text: string, mode: Mode, label: string) =
               ? t('tutor.downloadNote', { size: describeBytes(estimatedBytes(edition)) })
               : connection === 'unavailable'
                 ? t('tutor.unavailableNote')
-                : t('tutor.notReadyNote')}
+                : connection === 'locked'
+                  ? t('model.noteLocked')
+                  : t('tutor.notReadyNote')}
           </Txt>
-          {connection !== 'unavailable' ? <Button label={connection === 'absent' ? t('tutor.getTutor') : t('tutor.seeProgress')} kind="secondary" size="medium" onPress={() => router.push('/model')} /> : null}
+          {connection === 'locked' ? (
+            <Button label={t('unlock.open')} size="medium" onPress={() => router.push('/unlock')} />
+          ) : connection !== 'unavailable' ? (
+            <Button label={connection === 'absent' ? t('tutor.getTutor') : t('tutor.seeProgress')} kind="secondary" size="medium" onPress={() => router.push('/model')} />
+          ) : null}
         </Paper>
       ) : null}
       <View style={{ gap: space.s }}>

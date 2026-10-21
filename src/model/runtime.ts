@@ -2,6 +2,8 @@
 // Documents/models: downloaded here from our storage (started by itself on first open, pausable, resumed across
 // launches, checked for size at the end), dropped in via the Files app, or picked with the system picker (only
 // files whose header names the tutor); once a file is there the engine loads it and the status goes 'ready'.
+// While the learner's access is locked (the free week is over and nothing was bought, see src/features/access.ts)
+// the file stays on the phone but is not loaded: the status is 'locked' until setLocked(false) lets it in.
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { DownloadPauseState, DownloadTask, File } from 'expo-file-system';
@@ -60,7 +62,7 @@ engine.setHomePrefix(() => tutor.prefixText());
 // for a comparison.
 tutor.setLayout('before');
 
-export type ModelStatus = 'checking' | 'absent' | 'downloading' | 'paused' | 'loading' | 'ready' | 'error' | 'unavailable';
+export type ModelStatus = 'checking' | 'absent' | 'downloading' | 'paused' | 'loading' | 'ready' | 'error' | 'unavailable' | 'locked';
 /** Kept for src/ui/Lamp.tsx. */
 export type Connection = ModelStatus;
 
@@ -94,6 +96,8 @@ export interface ModelState {
   remove: () => Promise<void>;
   rescan: () => void;
   refreshStats: () => void;
+  /** Locks the tutor out of memory (the file stays) or lets it back in; src/features/accessBind.ts calls this. */
+  setLocked: (on: boolean) => Promise<void>;
 }
 
 const DOWNLOAD_KEY = 'eszett.download';
@@ -112,6 +116,7 @@ const DETAIL_KEY: Record<Exclude<ModelStatus, 'downloading' | 'paused' | 'error'
   loading: 'model.detailLoading',
   ready: 'model.detailReady',
   unavailable: 'model.errWeb',
+  locked: 'model.detailLocked',
 };
 const detailOf = (status: keyof typeof DETAIL_KEY) => t(DETAIL_KEY[status]);
 
@@ -126,6 +131,9 @@ let bootPromise: Promise<void> | null = null;
 let lexiconLoad: Promise<void> | null = null;
 let loadSeq = 0;
 let loading: Promise<void> = Promise.resolve();
+// The access lock (src/features/access.ts) and the file load() was last asked for, so the lock can let it back in.
+let locked = false;
+let current: { uri: string; edition: Edition } | null = null;
 
 async function readSaved(): Promise<SavedDownload | null> {
   try {
@@ -137,13 +145,21 @@ async function readSaved(): Promise<SavedDownload | null> {
     // a download of another file (the previous student's, before an app update) cannot be resumed into this one
     if (basename(state.url.split(/[?#]/)[0]) !== editionInfo(saved.edition).file) return null;
     return { edition: saved.edition, state };
-  } catch {
+  } catch (e) {
+    // A corrupt record would silently look like "no download to resume"; keep the reason in the log.
+    console.warn('[model] saved download state unreadable, ignoring it:', e);
     return null;
   }
 }
 
-const writeSaved = (saved: SavedDownload) => AsyncStorage.setItem(DOWNLOAD_KEY, JSON.stringify(saved)).catch(() => undefined);
-const clearSaved = () => AsyncStorage.removeItem(DOWNLOAD_KEY).catch(() => undefined);
+const writeSaved = (saved: SavedDownload) =>
+  AsyncStorage.setItem(DOWNLOAD_KEY, JSON.stringify(saved)).catch((e: unknown) => {
+    console.warn('[model] could not persist download state; this download will not resume after a restart:', e);
+  });
+const clearSaved = () =>
+  AsyncStorage.removeItem(DOWNLOAD_KEY).catch((e: unknown) => {
+    console.warn('[model] could not clear the saved download state:', e);
+  });
 
 function deletePart(edition: Edition) {
   try {
@@ -171,6 +187,10 @@ async function modelName(uri: string): Promise<string | null> {
   }
 }
 
+/**
+ * Loads the full lexicon in the background. A failure used to vanish without a trace: the app would stay on the
+ * small core lexicon (checking stays false) forever. Log the reason and clear lexiconLoad so the next load retries.
+ */
 async function loadFullLexicon() {
   lexiconLoad ??= (async () => {
     let data = await readLexicon();
@@ -181,8 +201,9 @@ async function loadFullLexicon() {
     if (!data) throw new Error(t('model.errLexicon'));
     tutor.setLexicon(new LexiconIndex(data));
     useModel.setState({ checking: true });
-  })().catch(() => {
+  })().catch((e: unknown) => {
     lexiconLoad = null;
+    console.warn('[model] full lexicon failed to load; answers are checked against the core lexicon:', e);
   });
   return lexiconLoad;
 }
@@ -190,8 +211,14 @@ async function loadFullLexicon() {
 /** Loads a model file; a later call supersedes an earlier one (the engine keeps one model). */
 function load(uri: string, edition: Edition): Promise<void> {
   const seq = ++loadSeq;
+  current = { uri, edition };
   const run = loading.then(async () => {
     if (seq !== loadSeq) return;
+    if (locked) {
+      // the week is over and nothing was bought: the file waits on the phone, out of memory, until setLocked(false)
+      useModel.setState({ status: 'locked', progress: 0, detail: detailOf('locked'), error: null, info: null, edition });
+      return;
+    }
     useModel.setState({ status: 'loading', progress: 0, detail: detailOf('loading'), error: null, info: null, edition });
     try {
       let shown = -1;
@@ -363,7 +390,9 @@ export const useModel = create<ModelState>()((set, get) => ({
           set({ edition: saved.edition, bytes: 0, total: -1, progress: 0 });
           await runTask(restored, saved.edition, 'resume');
           return;
-        } catch {
+        } catch (e) {
+          // without the log this looks exactly like "the download never existed" on the next launch
+          console.warn('[model] could not resume the saved download; starting without it:', e);
           await clearSaved();
           deletePart(saved.edition);
         }
@@ -490,6 +519,7 @@ export const useModel = create<ModelState>()((set, get) => ({
   remove: async () => {
     if (web) return;
     loadSeq += 1;
+    current = null;
     await engine.unload();
     if (task) await get().cancel();
     const settings = useSettings.getState();
@@ -501,8 +531,9 @@ export const useModel = create<ModelState>()((set, get) => ({
         const file = finalFile(edition);
         if (file.exists) file.delete();
       }
-    } catch {
-      // the file is already gone
+    } catch (e) {
+      // A delete that fails would silently leave the model on the phone; keep the reason in the log.
+      console.warn('[model] could not delete the model file:', e);
     }
     deletePart(edition);
     settings.setModelFile('');
@@ -514,6 +545,24 @@ export const useModel = create<ModelState>()((set, get) => ({
   rescan: () => set({ local: findLocalModels() }),
 
   refreshStats: () => set({ stats: engine.stats }),
+
+  setLocked: async (on) => {
+    if (on === locked) return;
+    locked = on;
+    if (web) return;
+    const { status } = get();
+    if (on) {
+      // a download or an error carries on as it is; load() will see the flag when the file is next asked for
+      if (status !== 'ready' && status !== 'loading') return;
+      loadSeq += 1;
+      await engine.unload();
+      set({ status: 'locked', progress: 0, detail: detailOf('locked'), error: null, info: null });
+      return;
+    }
+    if (status !== 'locked') return;
+    if (current) await load(current.uri, current.edition);
+    else set({ status: 'absent', detail: detailOf('absent'), progress: 0, bytes: 0, total: -1, local: findLocalModels() });
+  },
 }));
 
 export const isReady = () => useModel.getState().status === 'ready';
@@ -535,6 +584,8 @@ export function describeError(e: unknown): string {
           return t('model.errLoading');
         case 'unavailable':
           return t('model.errWeb');
+        case 'locked':
+          return t('model.errLocked');
         default:
           return e.message;
       }
