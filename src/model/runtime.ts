@@ -145,13 +145,21 @@ async function readSaved(): Promise<SavedDownload | null> {
     // a download of another file (the previous student's, before an app update) cannot be resumed into this one
     if (basename(state.url.split(/[?#]/)[0]) !== editionInfo(saved.edition).file) return null;
     return { edition: saved.edition, state };
-  } catch {
+  } catch (e) {
+    // A corrupt record would silently look like "no download to resume"; keep the reason in the log.
+    console.warn('[model] saved download state unreadable, ignoring it:', e);
     return null;
   }
 }
 
-const writeSaved = (saved: SavedDownload) => AsyncStorage.setItem(DOWNLOAD_KEY, JSON.stringify(saved)).catch(() => undefined);
-const clearSaved = () => AsyncStorage.removeItem(DOWNLOAD_KEY).catch(() => undefined);
+const writeSaved = (saved: SavedDownload) =>
+  AsyncStorage.setItem(DOWNLOAD_KEY, JSON.stringify(saved)).catch((e: unknown) => {
+    console.warn('[model] could not persist download state; this download will not resume after a restart:', e);
+  });
+const clearSaved = () =>
+  AsyncStorage.removeItem(DOWNLOAD_KEY).catch((e: unknown) => {
+    console.warn('[model] could not clear the saved download state:', e);
+  });
 
 function deletePart(edition: Edition) {
   try {
@@ -179,6 +187,10 @@ async function modelName(uri: string): Promise<string | null> {
   }
 }
 
+/**
+ * Loads the full lexicon in the background. A failure used to vanish without a trace: the app would stay on the
+ * small core lexicon (checking stays false) forever. Log the reason and clear lexiconLoad so the next load retries.
+ */
 async function loadFullLexicon() {
   lexiconLoad ??= (async () => {
     let data = await readLexicon();
@@ -189,8 +201,9 @@ async function loadFullLexicon() {
     if (!data) throw new Error(t('model.errLexicon'));
     tutor.setLexicon(new LexiconIndex(data));
     useModel.setState({ checking: true });
-  })().catch(() => {
+  })().catch((e: unknown) => {
     lexiconLoad = null;
+    console.warn('[model] full lexicon failed to load; answers are checked against the core lexicon:', e);
   });
   return lexiconLoad;
 }
@@ -377,7 +390,9 @@ export const useModel = create<ModelState>()((set, get) => ({
           set({ edition: saved.edition, bytes: 0, total: -1, progress: 0 });
           await runTask(restored, saved.edition, 'resume');
           return;
-        } catch {
+        } catch (e) {
+          // without the log this looks exactly like "the download never existed" on the next launch
+          console.warn('[model] could not resume the saved download; starting without it:', e);
           await clearSaved();
           deletePart(saved.edition);
         }
@@ -516,8 +531,9 @@ export const useModel = create<ModelState>()((set, get) => ({
         const file = finalFile(edition);
         if (file.exists) file.delete();
       }
-    } catch {
-      // the file is already gone
+    } catch (e) {
+      // A delete that fails would silently leave the model on the phone; keep the reason in the log.
+      console.warn('[model] could not delete the model file:', e);
     }
     deletePart(edition);
     settings.setModelFile('');
