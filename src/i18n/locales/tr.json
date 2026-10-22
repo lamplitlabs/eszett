@@ -900,6 +900,7 @@
   "tutor.suggestTranslateTo": "{name} söyle: {text}",
   "tutor.title": "Öğretmen",
   "tutor.translatedFrom": "Bu telefonda İngilizceden çevrildi",
+  "tutor.translationFailed": "Çevirmen bu soruyu öğretmeninize iletemedi. Tekrar deneyin.",
   "tutor.turnOnTranslation": "Öğretmenini {name} dilinde oku: çeviriyi aç",
   "tutor.tutor": "Öğretmen",
   "tutor.unavailableNote": "Öğretmen modeli telefonda çalışır. Alıştırmalar, kural kartları ve sözlük burada çalışır.",

@@ -45,6 +45,18 @@ export interface TutorMessage {
 
 export type Message = LearnerMessage | TutorMessage;
 
+// The translator could not turn the learner's question into English for the tutor. Thrown by send() so the
+// caller can revert the send and show a retryable error instead of the message: without it the screen would
+// have to guess why nothing arrived.
+export class QuestionTranslationError extends Error {
+  constructor(readonly question: string) {
+    super('question translation failed');
+    this.name = 'QuestionTranslationError';
+    // Restore the prototype chain the ES5 build target breaks, or `instanceof QuestionTranslationError` is false.
+    Object.setPrototypeOf(this, new.target.prototype);
+  }
+}
+
 interface ChatState {
   messages: Message[];
   busy: boolean;
@@ -125,7 +137,11 @@ export const useChat = create<ChatState>()(
             try {
               body = await translateQuestion(typed, app, (s) => translateText(s, app, 'en'));
             } catch {
-              body = typed;
+              // Never ask the tutor in a language it does not read: the question goes nowhere instead of going
+              // out untranslated. The optimistic pair comes back off and the caller restores the draft, so
+              // Try again is one tap and the reply can never answer a different sentence than the one shown.
+              set((s) => ({ messages: s.messages.slice(0, -2), busy: false }));
+              throw new QuestionTranslationError(typed);
             }
           }
           // a translation comes back in the other language

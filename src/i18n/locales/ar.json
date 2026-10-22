@@ -1044,6 +1044,7 @@
   "tutor.suggestTranslateTo": "قلها بلغة {name}: {text}",
   "tutor.title": "المعلّم",
   "tutor.translatedFrom": "مترجَم من الإنجليزية على هذا الهاتف",
+  "tutor.translationFailed": "تعذّر على المترجم إيصال هذا السؤال إلى معلّمك. حاول مرة أخرى.",
   "tutor.turnOnTranslation": "اقرأ معلّمك باللغة {name}: فعّل الترجمة",
   "tutor.tutor": "المعلّم",
   "tutor.unavailableNote": "نموذج المعلّم يعمل على الهاتف. التمارين وبطاقات القواعد والمعجم تعمل هنا.",

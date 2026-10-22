@@ -900,6 +900,7 @@
   "tutor.suggestTranslateTo": "Diga em {name}: {text}",
   "tutor.title": "Tutor",
   "tutor.translatedFrom": "Traduzido do inglês neste telemóvel",
+  "tutor.translationFailed": "O tradutor não conseguiu levar esta pergunta ao seu tutor. Tente novamente.",
   "tutor.turnOnTranslation": "Ler o seu tutor em {name}: ativar a tradução",
   "tutor.tutor": "Tutor",
   "tutor.unavailableNote": "O modelo do tutor roda em um celular. Os treinos, os cartões de regra e o léxico funcionam aqui.",

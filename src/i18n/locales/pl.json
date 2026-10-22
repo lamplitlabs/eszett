@@ -972,6 +972,7 @@
   "tutor.suggestTranslateTo": "Powiedz to w języku {name}: {text}",
   "tutor.title": "Korepetytor",
   "tutor.translatedFrom": "Przetłumaczono z angielskiego na tym telefonie",
+  "tutor.translationFailed": "Tłumacz nie mógł przekazać tego pytania twojemu tutorowi. Spróbuj ponownie.",
   "tutor.turnOnTranslation": "Czytaj korepetytora w języku {name}: włącz tłumaczenie",
   "tutor.tutor": "Korepetytor",
   "tutor.unavailableNote": "Model korepetytora działa na telefonie. Tutaj działają ćwiczenia, karty gramatyczne i leksykon.",

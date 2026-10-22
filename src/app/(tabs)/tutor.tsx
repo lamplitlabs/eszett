@@ -7,7 +7,7 @@ import Animated, { FadeIn, FadeInDown } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-screens/experimental';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { prepare, useChat, type Message, type Mode, type TutorMessage } from '@/features/chat';
+import { prepare, QuestionTranslationError, useChat, type Message, type Mode, type TutorMessage } from '@/features/chat';
 import { statusLabel, tutorLine, useModelPercent } from '@/features/modelStatus';
 import type { Level } from '@/harness/levels';
 import { detectLang, translationTarget, type Lang } from '@/harness/route';
@@ -364,6 +364,9 @@ export default function TutorScreen() {
   const pct = useModelPercent();
   const [text, setText] = useState('');
   const [mode, setMode] = useState<Mode>('auto');
+  // The last question the translator refused to carry: kept as a draft, not sent. The banner over the composer
+  // explains what happened and Try again re-sends it verbatim; clearing the conversation clears it too.
+  const [failedQuestion, setFailedQuestion] = useState<string | null>(null);
   const input = useRef<TextInput>(null);
   // While the learner types, the model gets a head start on the part of the prompt that is already known.
   useEffect(() => {
@@ -373,7 +376,21 @@ export default function TutorScreen() {
   }, [text, mode, connection, busy]);
   const submit = (value = text, m = mode, shown?: string) => {
     if (!value.trim()) return;
-    void send(value, m, shown);
+    setFailedQuestion(null);
+    send(value, m, shown)
+      .then(() => {
+        // A retry still runs while the error banner is up: keep the draft until this send actually went out.
+        if (failedQuestion === value) setFailedQuestion(null);
+      })
+      .catch((e) => {
+        if (e instanceof QuestionTranslationError) {
+          // send() already took the half-sent pair off the conversation; put the draft back so Try again is one tap.
+          setFailedQuestion(e.question);
+          setText(e.question);
+          return;
+        }
+        throw e;
+      });
     setText('');
   };
   const current = MODES.find((x) => x.mode === mode) ?? MODES[0];
@@ -427,10 +444,31 @@ export default function TutorScreen() {
             german={mode === 'check'}
             placeholder={t(current.placeholder, { name: LANGUAGE_NAMES[translationTarget(explainIn)] })}
             above={
-              <View style={{ flexDirection: 'row', gap: space.s }}>
-                {MODES.map((x) => (
-                  <Pill key={x.mode} label={t(x.label)} selected={mode === x.mode} onPress={() => setMode(x.mode)} />
-                ))}
+              <View style={{ gap: space.s }}>
+                {failedQuestion !== null ? (
+                  <Paper tone="red" style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
+                    <Txt variant="small" color="red" style={{ flex: 1 }}>
+                      {t('tutor.translationFailed')}
+                    </Txt>
+                    <Press
+                      onPress={() => {
+                        const q = failedQuestion;
+                        setText(q);
+                        submit(q, 'ask');
+                      }}
+                      accessibilityLabel={t('common.retry')}
+                    >
+                      <Txt variant="small" color="red" style={{ fontWeight: '600' }}>
+                        {t('common.retry')}
+                      </Txt>
+                    </Press>
+                  </Paper>
+                ) : null}
+                <View style={{ flexDirection: 'row', gap: space.s }}>
+                  {MODES.map((x) => (
+                    <Pill key={x.mode} label={t(x.label)} selected={mode === x.mode} onPress={() => setMode(x.mode)} />
+                  ))}
+                </View>
               </View>
             }
           />

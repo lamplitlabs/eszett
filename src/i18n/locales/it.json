@@ -900,6 +900,7 @@
   "tutor.suggestTranslateTo": "Dillo in {name}: {text}",
   "tutor.title": "Tutor",
   "tutor.translatedFrom": "Tradotto dall’inglese su questo telefono",
+  "tutor.translationFailed": "Il traduttore non è riuscito a portare questa domanda al tuo tutor. Riprova.",
   "tutor.turnOnTranslation": "Leggi il tuo tutor in {name}: attiva la traduzione",
   "tutor.tutor": "Tutor",
   "tutor.unavailableNote": "Il modello del tutor gira su un telefono. Qui funzionano gli esercizi, le schede delle regole e il lessico.",

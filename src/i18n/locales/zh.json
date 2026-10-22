@@ -864,6 +864,7 @@
   "tutor.suggestTranslateTo": "用 {name} 怎么说：{text}",
   "tutor.title": "导师",
   "tutor.translatedFrom": "已在本机上从英文翻译",
+  "tutor.translationFailed": "翻译器无法把这个问题带给你的导师。请重试。",
   "tutor.turnOnTranslation": "用{name}阅读辅导老师的回答：开启翻译",
   "tutor.tutor": "导师",
   "tutor.unavailableNote": "导师模型需要在手机上运行。练习、规则卡片和词库在这里可以使用。",

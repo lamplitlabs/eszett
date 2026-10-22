@@ -900,6 +900,7 @@
   "tutor.suggestTranslateTo": "Say it in {name}: {text}",
   "tutor.title": "Tutor",
   "tutor.translatedFrom": "Translated from English on this phone",
+  "tutor.translationFailed": "The translator could not carry this one to your tutor. Try again.",
   "tutor.turnOnTranslation": "Read your tutor in {name}: turn on translation",
   "tutor.tutor": "Tutor",
   "tutor.unavailableNote": "The tutor model runs on a phone. The drills, rule cards and the lexicon work here.",
