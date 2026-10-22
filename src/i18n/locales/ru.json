@@ -596,6 +596,7 @@
   "review.removeConfirm": "Удалить",
   "review.removeMessage": "«{word}» и прогресс по ячейкам будут удалены из сохранённых слов. Отменить нельзя.",
   "review.removeTitle": "Удалить {word}?",
+  "review.share": "Поделиться списком (CSV)",
   "review.showMeaning": "Показать значение",
   "review.summary": {
     "one": "Ты помнишь {count} из {total}. Забытые слова вернутся через десять минут.",

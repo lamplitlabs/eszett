@@ -1,4 +1,7 @@
-// When the app may ask for a store review. Pure: tested in node; src/features/review.ts makes the call.
+// Review-screen rules. Pure: tested in node; the UI (src/app/review.tsx) and src/features/review.ts
+// do the platform calls.
+//
+// When the app may ask for a store review:
 
 export const REVIEW_RULES = {
   /** Days with at least one exercise before the first ask. */
@@ -30,4 +33,22 @@ export function shouldAskForReview(e: Engagement, state: { askedAt: number | nul
   if (state.asks >= REVIEW_RULES.maxAsks) return false;
   if (state.askedAt !== null && now - state.askedAt < REVIEW_RULES.minGapMs) return false;
   return true;
+}
+
+// Exporting "My words" as CSV: a learner can share the list out of the app (mail, files, a
+// spreadsheet) without losing the Leitner box each word sits in. One row per word:
+// word, translation, box — the word as shown on the card front, its meaning in the learner's
+// language, and the box number the review screen prints.
+
+export const CSV_HEADER = 'word,translation,box';
+
+/** A field per RFC 4180: quote when it holds a comma, quote or line break; quotes inside double. */
+function csvField(value: string): string {
+  if (/[",\r\n]/.test(value)) return `"${value.replace(/"/g, '""')}"`;
+  return value;
+}
+
+/** The saved words as a CSV document, ready to share. Empty deck: header only. */
+export function formatDeckWordsCsv(words: Pick<import('@/state/deck').DeckWord, 'german' | 'meaning' | 'box'>[]): string {
+  return [CSV_HEADER, ...words.map((w) => [csvField(w.german), csvField(w.meaning), String(w.box)].join(','))].join('\n');
 }

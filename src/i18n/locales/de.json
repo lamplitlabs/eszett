@@ -556,6 +556,7 @@
   "review.removeConfirm": "Entfernen",
   "review.removeMessage": "{word} und der Box-Fortschritt werden aus deinen gespeicherten Wörtern gelöscht. Das lässt sich nicht rückgängig machen.",
   "review.removeTitle": "{word} entfernen?",
+  "review.share": "Liste teilen (CSV)",
   "review.showMeaning": "Bedeutung zeigen",
   "review.summary": {
     "one": "Du hast {count} von {total} gewusst. Was du nicht wusstest, kommt in zehn Minuten wieder.",

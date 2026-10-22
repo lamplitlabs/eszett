@@ -556,6 +556,7 @@
   "review.removeConfirm": "Retirer",
   "review.removeMessage": "{word} et sa progression dans les boîtes seront supprimés de vos mots enregistrés. Cette action est irréversible.",
   "review.removeTitle": "Retirer {word} ?",
+  "review.share": "Partager la liste (CSV)",
   "review.showMeaning": "Voir le sens",
   "review.summary": {
     "one": "Tu as retenu {count} mot sur {total}. Les mots ratés reviennent dans dix minutes.",
