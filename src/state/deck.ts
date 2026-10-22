@@ -1,6 +1,8 @@
 // "My words": words the learner saves, and nouns they got wrong in a drill. Reviewed with a five-box
 // Leitner schedule: a word you remember moves up a box and comes back later; one you miss starts over.
 
+import { Alert } from 'react-native';
+
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
@@ -46,6 +48,24 @@ export interface Deck {
 }
 
 export const nounKey = (lemma: string) => `noun:${lemma}`;
+
+/** A saved word is deleted only after the learner confirms; a mis-tap must not lose its box progress. */
+export type RemoveConfirmStrings = {
+  title: string;
+  message: string;
+  confirm: string;
+  cancel: string;
+};
+
+/**
+ * Ask before removing a saved word. The word (and its box progress) survives untouched until the
+ * learner taps the destructive confirm button; cancel or dismiss leaves the deck unchanged.
+ */
+export const confirmRemoveWord = (strings: RemoveConfirmStrings, remove: (key: string) => void, key: string) =>
+  Alert.alert(strings.title, strings.message, [
+    { text: strings.cancel, style: 'cancel' },
+    { text: strings.confirm, style: 'destructive', onPress: () => remove(key) },
+  ]);
 
 export const useDeck = create<Deck>()(
   persist(

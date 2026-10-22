@@ -553,6 +553,9 @@
   "review.progress": "{current} / {total}",
   "review.question": "Ne anlama geldiğini hatırlıyor musun?",
   "review.remove": "{word} kelimesini kaldır",
+  "review.removeConfirm": "Kaldır",
+  "review.removeMessage": "{word} ve kutu ilerlemesi kayıtlı kelimelerden silinecek. Bu geri alınamaz.",
+  "review.removeTitle": "{word} kaldırılsın mı?",
   "review.showMeaning": "Anlamı göster",
   "review.summary": {
     "one": "{total} kelimeden {count} tanesini hatırladın. Kaçırdıkların on dakika sonra geri gelir.",

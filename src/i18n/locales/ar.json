@@ -633,6 +633,9 @@
   "review.progress": "{current} من {total}",
   "review.question": "هل تتذكّر معناها؟",
   "review.remove": "إزالة {word}",
+  "review.removeConfirm": "إزالة",
+  "review.removeMessage": "ستُحذف «{word}» وتقدّم صناديقها من كلماتك المحفوظة. لا يمكن التراجع عن ذلك.",
+  "review.removeTitle": "إزالة {word}؟",
   "review.showMeaning": "إظهار المعنى",
   "review.summary": {
     "zero": "تذكّرت {count} من {total}. الكلمات التي فاتتك تعود بعد عشر دقائق.",

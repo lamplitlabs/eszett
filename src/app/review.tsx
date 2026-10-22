@@ -7,7 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useI18n } from '@/i18n';
 import { wordMeaning } from '@/i18n/content';
-import { dueWords, sourceLabel, useDeck, type DeckWord } from '@/state/deck';
+import { confirmRemoveWord, dueWords, sourceLabel, useDeck, type DeckWord } from '@/state/deck';
 import { useProgress } from '@/state/progress';
 import { Button, GenderChip, IconButton, Paper, ProgressBar, SpeakButton } from '@/ui/controls';
 import { haptic } from '@/ui/haptics';
@@ -37,7 +37,23 @@ function AllWords() {
           <Txt variant="caption" color="inkFaint">
             {t('review.box', { box: w.box })}
           </Txt>
-          <IconButton icon={Trash2} label={t('review.remove', { word: w.german })} size={32} onPress={() => remove(w.key)} />
+          <IconButton
+            icon={Trash2}
+            label={t('review.remove', { word: w.german })}
+            size={32}
+            onPress={() =>
+              confirmRemoveWord(
+                {
+                  title: t('review.removeTitle'),
+                  message: t('review.removeMessage', { word: w.german }),
+                  confirm: t('review.removeConfirm'),
+                  cancel: t('common.cancel'),
+                },
+                remove,
+                w.key,
+              )
+            }
+          />
         </View>
       ))}
     </Paper>

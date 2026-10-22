@@ -553,6 +553,9 @@
   "review.progress": "{current} di {total}",
   "review.question": "Ti ricordi cosa significa?",
   "review.remove": "Rimuovi {word}",
+  "review.removeConfirm": "Rimuovi",
+  "review.removeMessage": "{word} e i suoi progressi nei box verranno eliminati dalle parole salvate. Non si può annullare.",
+  "review.removeTitle": "Rimuovere {word}?",
   "review.showMeaning": "Mostra il significato",
   "review.summary": {
     "one": "Ne hai ricordata {count} su {total}. Le parole sbagliate tornano tra dieci minuti.",

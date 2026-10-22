@@ -553,6 +553,9 @@
   "review.progress": "{current} de {total}",
   "review.question": "Você lembra o que significa?",
   "review.remove": "Remover {word}",
+  "review.removeConfirm": "Remover",
+  "review.removeMessage": "{word} e o progresso nas caixas serão eliminados das palavras guardadas. Esta ação não pode ser anulada.",
+  "review.removeTitle": "Remover {word}?",
   "review.showMeaning": "Mostrar o significado",
   "review.summary": {
     "one": "Você lembrou {count} de {total}. As palavras erradas voltam em dez minutos.",

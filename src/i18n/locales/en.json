@@ -553,6 +553,9 @@
   "review.progress": "{current} of {total}",
   "review.question": "Do you remember what it means?",
   "review.remove": "Remove {word}",
+  "review.removeConfirm": "Remove",
+  "review.removeMessage": "{word} and its box progress will be deleted from your saved words. This cannot be undone.",
+  "review.removeTitle": "Remove {word}?",
   "review.showMeaning": "Show the meaning",
   "review.summary": {
     "one": "You remembered {count} of {total}. Missed words come back in ten minutes.",

@@ -593,6 +593,9 @@
   "review.progress": "{current} z {total}",
   "review.question": "Pamiętasz, co to znaczy?",
   "review.remove": "Usuń {word}",
+  "review.removeConfirm": "Usuń",
+  "review.removeMessage": "{word} i postęp w pudełkach zostaną usunięte z zapisanych słów. Tego nie można cofnąć.",
+  "review.removeTitle": "Usunąć {word}?",
   "review.showMeaning": "Pokaż znaczenie",
   "review.summary": {
     "one": "Udało Ci się przypomnieć sobie {count} z {total}. Słówka, które umknęły, wracają za dziesięć minut.",

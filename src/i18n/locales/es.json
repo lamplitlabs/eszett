@@ -553,6 +553,9 @@
   "review.progress": "{current} de {total}",
   "review.question": "¿Recuerdas qué significa?",
   "review.remove": "Quitar {word}",
+  "review.removeConfirm": "Eliminar",
+  "review.removeMessage": "{word} y su progreso de cajas se eliminarán de tus palabras guardadas. No se puede deshacer.",
+  "review.removeTitle": "¿Eliminar {word}?",
   "review.showMeaning": "Mostrar el significado",
   "review.summary": {
     "one": "Recordaste {count} de {total}. Las palabras falladas vuelven en diez minutos.",

@@ -553,6 +553,9 @@
   "review.progress": "{current} sur {total}",
   "review.question": "Tu te souviens de ce que ça veut dire ?",
   "review.remove": "Retirer {word}",
+  "review.removeConfirm": "Retirer",
+  "review.removeMessage": "{word} et sa progression dans les boîtes seront supprimés de vos mots enregistrés. Cette action est irréversible.",
+  "review.removeTitle": "Retirer {word} ?",
   "review.showMeaning": "Voir le sens",
   "review.summary": {
     "one": "Tu as retenu {count} mot sur {total}. Les mots ratés reviennent dans dix minutes.",
