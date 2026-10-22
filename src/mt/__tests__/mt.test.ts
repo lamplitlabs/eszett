@@ -285,6 +285,15 @@ describe('translateQuestion', () => {
     const mangling = async (s: string) => (s.includes('[') ? 'LOST' : s.toUpperCase().replace('TROTZDEM', 'TROTZZZTE'));
     expect(await translateQuestion('Co to znaczy trotzdem?', 'pl', mangling)).toBe('Co to znaczy trotzdem?');
   });
+  it('lets a translator failure reach the caller, so the chat can retry instead of sending untranslated text', async () => {
+    // chat.send() turns this throw into a retryable error; a caught-and-resolved question would reach the
+    // tutor in a language it does not read.
+    const failing = async () => {
+      throw new Error('pack not installed');
+    };
+    await expect(translateQuestion('Co to znaczy trotzdem?', 'pl', failing)).rejects.toThrow('pack not installed');
+    await expect(translateQuestion('Co to znaczy trotzdem?', 'pl', failing)).rejects.toThrow(Error);
+  });
 });
 
 describe('readsEnglish', () => {
