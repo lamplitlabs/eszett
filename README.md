@@ -879,6 +879,13 @@ scripts/audit.sh         dependency audit: exits non-zero on a high or critical 
 release.json             the published store-version file (see "Update and review prompts")
 ```
 
+The review screen (`src/app/review.tsx`, reached from Practice › My words, Me › My words and Today's due card)
+drills the saved words and lists them under **All words**; the list header's share button ("Share list (CSV)")
+sends the deck to the phone's share sheet as CSV — one row per word, columns `word,translation,box` (the card
+front, its meaning in the learner's language and the box number the screen prints), RFC 4180-quoted by
+`formatDeckWordsCsv` (`src/features/reviewRules.ts`). When the deck is empty the CSV is the header row only (and
+the button hides).
+
 ### Name and mark
 
 The app is **Eszett**, after the ß, the one letter only German has (the model and the toolkit it came from keep
