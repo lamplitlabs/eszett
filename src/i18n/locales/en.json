@@ -557,6 +557,8 @@
   "review.removeMessage": "{word} and its box progress will be deleted from your saved words. This cannot be undone.",
   "review.removeTitle": "Remove {word}?",
   "review.share": "Share list (CSV)",
+  "review.shareFailedTitle": "Export failed",
+  "review.shareFailedMessage": "The words list could not be shared. Try again?",
   "review.showMeaning": "Show the meaning",
   "review.summary": {
     "one": "You remembered {count} of {total}. Missed words come back in ten minutes.",

@@ -597,6 +597,8 @@
   "review.removeMessage": "«{word}» і прогрес за комірками буде видалено зі збережених слів. Це не можна скасувати.",
   "review.removeTitle": "Видалити {word}?",
   "review.share": "Поділитися списком (CSV)",
+  "review.shareFailedTitle": "Не вдалося експортувати",
+  "review.shareFailedMessage": "Не вдалося поділитися списком слів. Спробувати ще раз?",
   "review.showMeaning": "Показати значення",
   "review.summary": {
     "one": "Ти пам’ятаєш {count} з {total}. Забуті слова повернуться за десять хвилин.",

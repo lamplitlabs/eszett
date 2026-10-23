@@ -1,13 +1,14 @@
 import { router } from 'expo-router';
 import { Check, RotateCcw, Share2, Trash2, X } from 'lucide-react-native';
 import { useMemo, useState } from 'react';
-import { ScrollView, Share, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import Animated, { FadeIn, FadeInDown } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useI18n } from '@/i18n';
 import { wordMeaning } from '@/i18n/content';
 import { formatDeckWordsCsv } from '@/features/reviewRules';
+import { shareWordsCsv } from '@/features/reviewCsv';
 import { confirmRemoveWord, dueWords, sourceLabel, useDeck, type DeckWord } from '@/state/deck';
 import { useProgress } from '@/state/progress';
 import { Button, GenderChip, IconButton, Paper, ProgressBar, SpeakButton } from '@/ui/controls';
@@ -31,12 +32,15 @@ function AllWords() {
           label={t('review.share')}
           size={36}
           onPress={() =>
-            Share.share({
-              title: t('review.share'),
-              message: formatDeckWordsCsv(
-                list.map((w) => ({ german: w.german, meaning: wordMeaning(w.lemma ?? w.german, w.meaning, lang), box: w.box })),
-              ),
-            }).catch(() => {})
+            shareWordsCsv(
+              formatDeckWordsCsv(list.map((w) => ({ german: w.german, meaning: wordMeaning(w.lemma ?? w.german, w.meaning, lang), box: w.box }))),
+              {
+                title: t('review.shareFailedTitle'),
+                message: t('review.shareFailedMessage'),
+                retry: t('common.retry'),
+                cancel: t('common.cancel'),
+              },
+            )
           }
         />
       </View>

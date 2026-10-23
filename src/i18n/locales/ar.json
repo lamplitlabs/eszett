@@ -637,6 +637,8 @@
   "review.removeMessage": "ستُحذف «{word}» وتقدّم صناديقها من كلماتك المحفوظة. لا يمكن التراجع عن ذلك.",
   "review.removeTitle": "إزالة {word}؟",
   "review.share": "مشاركة القائمة (CSV)",
+  "review.shareFailedTitle": "فشل التصدير",
+  "review.shareFailedMessage": "تعذّرت مشاركة قائمة الكلمات. المحاولة مرة أخرى؟",
   "review.showMeaning": "إظهار المعنى",
   "review.summary": {
     "zero": "تذكّرت {count} من {total}. الكلمات التي فاتتك تعود بعد عشر دقائق.",

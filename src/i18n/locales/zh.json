@@ -537,6 +537,8 @@
   "review.removeMessage": "{word} 及其盒子进度将从你已保存的单词中删除，无法撤销。",
   "review.removeTitle": "移除 {word}？",
   "review.share": "分享列表（CSV）",
+  "review.shareFailedTitle": "导出失败",
+  "review.shareFailedMessage": "无法分享单词列表。重试？",
   "review.showMeaning": "显示词义",
   "review.summary": {
     "other": "你记住了 {total} 个中的 {count} 个。没记住的单词十分钟后会再次出现。"

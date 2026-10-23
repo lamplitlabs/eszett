@@ -597,6 +597,8 @@
   "review.removeMessage": "{word} i postęp w pudełkach zostaną usunięte z zapisanych słów. Tego nie można cofnąć.",
   "review.removeTitle": "Usunąć {word}?",
   "review.share": "Udostępnij listę (CSV)",
+  "review.shareFailedTitle": "Eksport nie powiódł się",
+  "review.shareFailedMessage": "Nie udało się udostępnić listy słów. Spróbować ponownie?",
   "review.showMeaning": "Pokaż znaczenie",
   "review.summary": {
     "one": "Udało Ci się przypomnieć sobie {count} z {total}. Słówka, które umknęły, wracają za dziesięć minut.",

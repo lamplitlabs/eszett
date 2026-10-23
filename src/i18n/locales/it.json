@@ -557,6 +557,8 @@
   "review.removeMessage": "{word} e i suoi progressi nei box verranno eliminati dalle parole salvate. Non si può annullare.",
   "review.removeTitle": "Rimuovere {word}?",
   "review.share": "Condividi elenco (CSV)",
+  "review.shareFailedTitle": "Esportazione non riuscita",
+  "review.shareFailedMessage": "Impossibile condividere l’elenco delle parole. Riprovare?",
   "review.showMeaning": "Mostra il significato",
   "review.summary": {
     "one": "Ne hai ricordata {count} su {total}. Le parole sbagliate tornano tra dieci minuti.",

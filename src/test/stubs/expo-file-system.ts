@@ -5,6 +5,7 @@ export class File {
   size = 0;
   exists = true;
   uri = '';
+  write(_contents: string): void {}
 }
 export class Directory {
   exists = false;
@@ -14,5 +15,5 @@ export class Directory {
   }
 }
 export class DownloadTask {}
-export const Paths = { document: '/tmp' };
+export const Paths = { document: '/tmp', cache: '/tmp' };
 export type DownloadPauseState = { pausedAt?: number };

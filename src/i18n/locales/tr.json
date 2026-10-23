@@ -557,6 +557,8 @@
   "review.removeMessage": "{word} ve kutu ilerlemesi kayıtlı kelimelerden silinecek. Bu geri alınamaz.",
   "review.removeTitle": "{word} kaldırılsın mı?",
   "review.share": "Listeyi paylaş (CSV)",
+  "review.shareFailedTitle": "Dışa aktarma başarısız",
+  "review.shareFailedMessage": "Kelime listesi paylaşılamadı. Tekrar denensin mi?",
   "review.showMeaning": "Anlamı göster",
   "review.summary": {
     "one": "{total} kelimeden {count} tanesini hatırladın. Kaçırdıkların on dakika sonra geri gelir.",

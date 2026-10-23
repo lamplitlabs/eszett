@@ -10,6 +10,7 @@ export default defineConfig({
       // the app's `@/` alias (tsconfig paths), so tests can import modules that reach the stores
       '@': fileURLToPath(new URL('./src', import.meta.url)),
       // expo-file-system pulls in expo's winter runtime, which cannot load under node; swap in the stub.
+      'expo-file-system/legacy': fileURLToPath(new URL('./src/test/stubs/expo-file-system.ts', import.meta.url)),
       'expo-file-system': fileURLToPath(new URL('./src/test/stubs/expo-file-system.ts', import.meta.url)),
     },
   },

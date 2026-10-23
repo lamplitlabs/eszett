@@ -557,6 +557,8 @@
   "review.removeMessage": "{word} e o progresso nas caixas serão eliminados das palavras guardadas. Esta ação não pode ser anulada.",
   "review.removeTitle": "Remover {word}?",
   "review.share": "Partilhar lista (CSV)",
+  "review.shareFailedTitle": "Falha na exportação",
+  "review.shareFailedMessage": "Não foi possível partilhar a lista de palavras. Tentar novamente?",
   "review.showMeaning": "Mostrar o significado",
   "review.summary": {
     "one": "Você lembrou {count} de {total}. As palavras erradas voltam em dez minutos.",
