@@ -907,6 +907,7 @@
   "tutor.title": "Tutor",
   "tutor.translatedFrom": "Auf diesem Handy aus dem Englischen übersetzt",
   "tutor.translationFailed": "Der Übersetzer konnte diese Frage nicht zu deinem Tutor bringen. Versuch es erneut.",
+  "tutor.answerTranslationFailed": "Der Übersetzer konnte diese Antwort nicht zu dir bringen. Versuch es noch einmal.",
   "tutor.turnOnTranslation": "Deinen Tutor auf {name} lesen: Übersetzung einschalten",
   "tutor.tutor": "Tutor",
   "tutor.unavailableNote": "Das Tutor-Modell läuft auf einem Handy. Die Übungen, Regelkarten und das Lexikon funktionieren hier.",

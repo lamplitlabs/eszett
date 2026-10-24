@@ -168,6 +168,8 @@ function TutorBubble({ m }: { m: TutorMessage }) {
   const text = useTranslated(m.text, { from: m.lang, to: lang, streaming: m.status === 'streaming', enabled: !original });
   const explanation = useTranslated(m.explanation, { from: m.lang, to: lang, enabled: !original });
   const translatable = text.available || explanation.available;
+  // the translator failed on this answer: show a retryable error, never the raw English
+  const failed = text.failed && done && Boolean(m.text);
   return (
     <Animated.View entering={FadeIn.duration(250)} style={{ marginVertical: space.m, gap: space.s }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.s }}>
@@ -220,9 +222,20 @@ function TutorBubble({ m }: { m: TutorMessage }) {
         ) : null}
 
         {(m.kind === 'answer' && m.text && m.status !== 'error') || (m.kind === 'correction' && m.status === 'streaming') ? (
-          <Markdown text={text.text} lang={m.lang} streaming={m.status === 'streaming'} onWord={onWord} />
+          failed ? (
+            <Paper tone="red" style={{ paddingVertical: space.m }}>
+              <Txt variant="small" style={{ color: c.red }}>
+                {t('tutor.answerTranslationFailed')}
+              </Txt>
+              <View style={{ marginTop: space.s, alignSelf: 'flex-start' }}>
+                <Button label={t('common.retry')} onPress={text.retry} kind="secondary" size="small" />
+              </View>
+            </Paper>
+          ) : (
+            <Markdown text={text.text} lang={m.lang} streaming={m.status === 'streaming'} onWord={onWord} />
+          )
         ) : null}
-        {translatable && done ? (
+        {translatable && !failed && done ? (
           <Press onPress={() => setOriginal((o) => !o)} accessibilityLabel={original ? t('tutor.showTranslation') : t('tutor.showOriginal')} style={{ marginTop: space.xs }}>
             <Txt variant="caption" color="inkFaint">
               {t('tutor.translatedFrom')} · <Txt variant="caption" color="royal">{original ? t('tutor.showTranslation') : t('tutor.showOriginal')}</Txt>

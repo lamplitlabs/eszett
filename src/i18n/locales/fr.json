@@ -907,6 +907,7 @@
   "tutor.title": "Tuteur",
   "tutor.translatedFrom": "Traduit de l’anglais sur ce téléphone",
   "tutor.translationFailed": "Le traducteur n’a pas pu transmettre cette question à ton tuteur. Réessaie.",
+  "tutor.answerTranslationFailed": "Le traducteur n’a pas pu vous apporter cette réponse. Réessayez.",
   "tutor.turnOnTranslation": "Lire ton tuteur en {name} : activer la traduction",
   "tutor.tutor": "Tuteur",
   "tutor.unavailableNote": "Le modèle tuteur fonctionne sur un téléphone. Ici, les exercices, les fiches de règles et le lexique fonctionnent.",
