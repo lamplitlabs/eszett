@@ -1,7 +1,7 @@
 // "My words": words the learner saves, and nouns they got wrong in a drill. Reviewed with a five-box
 // Leitner schedule: a word you remember moves up a box and comes back later; one you miss starts over.
 
-import { Alert } from 'react-native';
+import { Alert, type AlertButton } from 'react-native';
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
@@ -9,6 +9,7 @@ import { persist } from 'zustand/middleware';
 import type { Vars } from '@/i18n';
 import type { Article } from '@/harness/lexicon';
 
+import { buildRemoveWordAlert, type RemoveWordAlert, type RemoveWordCopy } from '@/features/reviewRules';
 import { storage } from './storage';
 
 export interface DeckWord {
@@ -50,22 +51,23 @@ export interface Deck {
 export const nounKey = (lemma: string) => `noun:${lemma}`;
 
 /** A saved word is deleted only after the learner confirms; a mis-tap must not lose its box progress. */
-export type RemoveConfirmStrings = {
-  title: string;
-  message: string;
-  confirm: string;
-  cancel: string;
-};
+export type { RemoveWordCopy, RemoveWordAlert } from '@/features/reviewRules';
+
+/** Alert buttons for the remove-word confirmation: cancel keeps the word, confirm deletes it. */
+export const removeAlertButtons = (alert: RemoveWordAlert): AlertButton[] => [
+  { text: alert.cancel, style: 'cancel' },
+  { text: alert.confirm, style: 'destructive', onPress: alert.action },
+];
 
 /**
  * Ask before removing a saved word. The word (and its box progress) survives untouched until the
  * learner taps the destructive confirm button; cancel or dismiss leaves the deck unchanged.
+ * The what-to-say part is pure in reviewRules (buildRemoveWordAlert); only this shows the Alert.
  */
-export const confirmRemoveWord = (strings: RemoveConfirmStrings, remove: (key: string) => void, key: string) =>
-  Alert.alert(strings.title, strings.message, [
-    { text: strings.cancel, style: 'cancel' },
-    { text: strings.confirm, style: 'destructive', onPress: () => remove(key) },
-  ]);
+export const confirmRemoveWord = (copy: RemoveWordCopy, remove: (key: string) => void, key: string) => {
+  const alert = buildRemoveWordAlert(copy, () => remove(key));
+  Alert.alert(alert.title, alert.message, removeAlertButtons(alert));
+};
 
 export const useDeck = create<Deck>()(
   persist(

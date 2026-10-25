@@ -52,3 +52,50 @@ function csvField(value: string): string {
 export function formatDeckWordsCsv(words: Pick<import('@/state/deck').DeckWord, 'german' | 'meaning' | 'box'>[]): string {
   return [CSV_HEADER, ...words.map((w) => [csvField(w.german), csvField(w.meaning), String(w.box)].join(','))].join('\n');
 }
+
+// Removing a saved word throws away its Leitner box — the progress the learner built reviewing it.
+// So the trash button never deletes on a single tap: the app asks first, with the word's name in
+// the question. These rules build what the confirmation says and does, without touching the UI.
+
+export interface RemoveWordCopy {
+  /** Alert title with the word's name already filled in by the caller. */
+  title: string;
+  /** Alert body with the word's name already filled in by the caller. */
+  message: string;
+  /** Label of the button that deletes the word. */
+  confirm: string;
+  /** Label of the button that keeps it. */
+  cancel: string;
+}
+
+export interface RemoveWordAlert {
+  /** Title with the word filled in. */
+  title: string;
+  /** Body with the word filled in. */
+  message: string;
+  /** Labels for the two buttons. */
+  confirm: string;
+  cancel: string;
+  /** Run this to actually delete the word (box progress lost). */
+  action: () => void;
+}
+
+/** Interpolate one `{name}` placeholder; templates that miss it pass through unchanged. */
+export function fillTemplate(template: string, name: string, value: string): string {
+  return template.split(`{${name}}`).join(value);
+}
+
+/**
+ * The confirmation for deleting one saved word: the texts (already word-named by the caller)
+ * plus the removal to run only when the learner confirms. Pure — the UI (src/state/deck.ts)
+ * turns the result into a React Native Alert.
+ */
+export function buildRemoveWordAlert(copy: RemoveWordCopy, remove: () => void): RemoveWordAlert {
+  return {
+    title: copy.title,
+    message: copy.message,
+    confirm: copy.confirm,
+    cancel: copy.cancel,
+    action: remove,
+  };
+}

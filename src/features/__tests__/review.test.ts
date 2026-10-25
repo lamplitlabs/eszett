@@ -1,9 +1,37 @@
 import { describe, expect, it } from 'vitest';
 
-import { engagementOf, REVIEW_RULES, shouldAskForReview } from '../reviewRules';
+import { buildRemoveWordAlert, engagementOf, fillTemplate, REVIEW_RULES, shouldAskForReview } from '../reviewRules';
 
 const DAY = 86_400_000;
 const used = { '2026-10-01': 2, '2026-10-02': 2, '2026-10-04': 1 };
+
+describe('buildRemoveWordAlert', () => {
+  const copy = { title: 'Remove der Apfel?', message: 'der Apfel and its review progress will be deleted.', confirm: 'Remove', cancel: 'Cancel' };
+
+  it('defers the deletion: building the alert runs nothing until the learner confirms', () => {
+    const removed: string[] = [];
+    const alert = buildRemoveWordAlert(copy, () => removed.push('noun:Apfel'));
+    expect(removed).toEqual([]); // the word (and its box) survives until confirmed
+    alert.action();
+    expect(removed).toEqual(['noun:Apfel']);
+  });
+
+  it('keeps the word-named texts and both button labels the screen passed', () => {
+    const alert = buildRemoveWordAlert(copy, () => {});
+    expect(alert.title).toBe('Remove der Apfel?');
+    expect(alert.message).toBe('der Apfel and its review progress will be deleted.');
+    expect(alert.confirm).toBe('Remove');
+    expect(alert.cancel).toBe('Cancel');
+  });
+});
+
+describe('fillTemplate', () => {
+  it('swaps every occurrence of the placeholder', () => {
+    expect(fillTemplate('Remove {word}?', 'word', 'die Abfahrt')).toBe('Remove die Abfahrt?');
+    expect(fillTemplate('{a} and {a}', 'a', 'x')).toBe('x and x');
+    expect(fillTemplate('plain', 'word', 'x')).toBe('plain');
+  });
+});
 
 describe('review prompt rules', () => {
   it('sums active days and completions', () => {
