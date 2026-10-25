@@ -652,6 +652,7 @@
   },
   "scene.thinkingOfLine": "Добирає репліку…",
   "scene.translate": "Перекласти",
+  "scene.glossFailed": "Не вдалося перекласти цей рядок. Спробуйте ще раз.",
   "scene.translateA11y": "Перекласти цю репліку",
   "scene.translating": "Перекладаємо",
   "scene.tutorAbsent": "Твого репетитора ще немає на цьому телефоні",

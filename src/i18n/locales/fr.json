@@ -604,6 +604,7 @@
   },
   "scene.thinkingOfLine": "Recherche d’une réplique…",
   "scene.translate": "Traduire",
+  "scene.glossFailed": "Impossible de traduire cette ligne. Réessaie.",
   "scene.translateA11y": "Traduire cette réplique",
   "scene.translating": "Traduction en cours",
   "scene.tutorAbsent": "Ton tuteur n’est pas encore sur ce téléphone",

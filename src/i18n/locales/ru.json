@@ -652,6 +652,7 @@
   },
   "scene.thinkingOfLine": "Придумываем реплику…",
   "scene.translate": "Перевести",
+  "scene.glossFailed": "Не удалось перевести эту строку. Попробуйте ещё раз.",
   "scene.translateA11y": "Перевести эту реплику",
   "scene.translating": "Переводим",
   "scene.tutorAbsent": "Репетитора ещё нет на этом телефоне",

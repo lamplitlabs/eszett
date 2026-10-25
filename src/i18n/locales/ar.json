@@ -700,6 +700,7 @@
   },
   "scene.thinkingOfLine": "يفكّر في ردّ…",
   "scene.translate": "ترجمة",
+  "scene.glossFailed": "تعذّرت ترجمة هذا السطر. حاول مرة أخرى.",
   "scene.translateA11y": "ترجمة هذه الجملة",
   "scene.translating": "جارٍ الترجمة",
   "scene.tutorAbsent": "معلّمك ليس على هذا الهاتف بعد",

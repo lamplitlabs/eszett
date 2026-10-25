@@ -604,6 +604,7 @@
   },
   "scene.thinkingOfLine": "Dein Tutor überlegt eine Antwort…",
   "scene.translate": "Übersetzen",
+  "scene.glossFailed": "Diese Zeile ließ sich nicht übersetzen. Versuch es erneut.",
   "scene.translateA11y": "Diese Zeile übersetzen",
   "scene.translating": "Wird übersetzt",
   "scene.tutorAbsent": "Dein Tutor ist noch nicht auf diesem Handy",

@@ -604,6 +604,7 @@
   },
   "scene.thinkingOfLine": "Sta pensando a una battuta…",
   "scene.translate": "Traduci",
+  "scene.glossFailed": "Impossibile tradurre questa riga. Riprova.",
   "scene.translateA11y": "Traduci questa battuta",
   "scene.translating": "Traduzione in corso",
   "scene.tutorAbsent": "Il tuo tutor non è ancora su questo telefono",

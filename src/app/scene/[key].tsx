@@ -6,6 +6,7 @@ import Animated, { FadeIn, FadeInDown, LinearTransition } from 'react-native-rea
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { lessonKey, scenes } from '@/features/lesson';
+import { glossInAppLanguage } from '@/features/sceneGloss';
 import { SceneIcon } from '@/features/sceneIcons';
 import type { DiffOp } from '@/harness/diff';
 import type { Phrase } from '@/harness/parse';
@@ -14,7 +15,7 @@ import { translationTarget } from '@/harness/route';
 import { useI18n } from '@/i18n';
 import { localizeScene } from '@/i18n/content';
 import { describeError, isReady, tutor, useModel } from '@/model/runtime';
-import { translateText, useTranslator } from '@/mt';
+import { useTranslator } from '@/mt';
 import { useAuthored } from '@/state/authored';
 import { useDeck } from '@/state/deck';
 import { useProgress } from '@/state/progress';
@@ -49,6 +50,8 @@ interface Turn {
   gloss: string | null;
   status: 'thinking' | 'streaming' | 'done' | 'error';
   error?: string;
+  /** The last tap-to-translate of this line failed; the learner can retry it. */
+  glossError?: boolean;
   check?: LineCheck;
   /** The model's reply needed another frame (it broke character the first time). */
   retried?: boolean;
@@ -104,14 +107,7 @@ export default function SceneScreen() {
   // an English gloss is translated into the app language on this phone when the learner turned that on
   const mtReady = useTranslator((s) => s.status === 'ready' && s.lang === lang);
   const glossVia = help && glossTo === 'en' && lang !== 'en' && mtReady ? lang : null;
-  const inAppLanguage = async (gloss: string | null) => {
-    if (!gloss || !glossVia) return gloss;
-    try {
-      return await translateText(gloss, 'en', glossVia);
-    } catch {
-      return gloss;
-    }
-  };
+  const inAppLanguage = (gloss: string | null) => glossInAppLanguage(gloss, glossVia);
 
   const opening: Turn = { id: 'opening', who: 'them', german: card.opening, gloss: shown.opening_gloss, status: 'done' };
   const [turns, setTurns] = useState<Turn[]>([opening]);
@@ -137,9 +133,13 @@ export default function SceneScreen() {
     setGlossing(turn.id);
     try {
       const g = await inAppLanguage(await tutor.gloss(turn.german, { level, lang: glossTo }));
-      update(turn.id, { gloss: g || fallback });
+      if (g) update(turn.id, { gloss: g, glossError: false });
+      else if (fallback) update(turn.id, { gloss: fallback, glossError: false });
+      else update(turn.id, { glossError: true });
     } catch {
-      if (fallback) update(turn.id, { gloss: fallback });
+      // no translated gloss to show: surface a retryable error rather than the raw English
+      if (fallback) update(turn.id, { gloss: fallback, glossError: false });
+      else update(turn.id, { glossError: true });
     } finally {
       setGlossing(null);
     }
@@ -378,7 +378,17 @@ export default function SceneScreen() {
                     {turn.gloss}
                   </Txt>
                 ) : null}
-                {turn.status === 'done' && !turn.gloss && (!help || glossing === turn.id) ? (
+                {turn.glossError && glossing !== turn.id ? (
+                  <Press onPress={() => void glossLine(turn)} accessibilityLabel={t('scene.translateA11y')} hitSlop={6} style={{ alignSelf: 'flex-start' }}>
+                    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
+                      <RotateCcw size={13} color={c.red} />
+                      <Txt variant="caption" style={{ color: c.red }}>
+                        {t('scene.glossFailed')}
+                      </Txt>
+                    </View>
+                  </Press>
+                ) : null}
+                {turn.status === 'done' && !turn.gloss && !turn.glossError && (!help || glossing === turn.id) ? (
                   <Press onPress={() => void glossLine(turn)} accessibilityLabel={t('scene.translateA11y')} hitSlop={6} style={{ alignSelf: 'flex-start' }}>
                     <View style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
                       <Languages size={13} color={c.royal} />

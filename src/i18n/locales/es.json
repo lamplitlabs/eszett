@@ -604,6 +604,7 @@
   },
   "scene.thinkingOfLine": "Pensando qué decir…",
   "scene.translate": "Traducir",
+  "scene.glossFailed": "No se pudo traducir esta línea. Inténtalo de nuevo.",
   "scene.translateA11y": "Traducir esta frase",
   "scene.translating": "Traduciendo",
   "scene.tutorAbsent": "Tu tutor todavía no está en este teléfono",

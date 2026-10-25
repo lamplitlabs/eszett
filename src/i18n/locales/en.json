@@ -604,6 +604,7 @@
   },
   "scene.thinkingOfLine": "Thinking of a line…",
   "scene.translate": "Translate",
+  "scene.glossFailed": "Couldn’t translate this line. Try again.",
   "scene.translateA11y": "Translate this line",
   "scene.translating": "Translating",
   "scene.tutorAbsent": "Your tutor isn’t on this phone yet",

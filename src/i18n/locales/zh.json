@@ -580,6 +580,7 @@
   },
   "scene.thinkingOfLine": "正在想下一句…",
   "scene.translate": "翻译",
+  "scene.glossFailed": "无法翻译这一行。请重试。",
   "scene.translateA11y": "翻译这句话",
   "scene.translating": "正在翻译",
   "scene.tutorAbsent": "你的导师尚未下载到这部手机",

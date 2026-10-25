@@ -604,6 +604,7 @@
   },
   "scene.thinkingOfLine": "Bir replik düşünülüyor…",
   "scene.translate": "Çevir",
+  "scene.glossFailed": "Bu satır çevrilemedi. Tekrar deneyin.",
   "scene.translateA11y": "Bu repliği çevir",
   "scene.translating": "Çevriliyor",
   "scene.tutorAbsent": "Öğretmenin henüz bu telefonda değil",

@@ -652,6 +652,7 @@
   },
   "scene.thinkingOfLine": "Wymyślam kwestię…",
   "scene.translate": "Przetłumacz",
+  "scene.glossFailed": "Nie udało się przetłumaczyć tego wiersza. Spróbuj ponownie.",
   "scene.translateA11y": "Przetłumacz tę kwestię",
   "scene.translating": "Tłumaczenie",
   "scene.tutorAbsent": "Twojego korepetytora nie ma jeszcze na tym telefonie",
