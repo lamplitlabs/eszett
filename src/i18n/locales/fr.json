@@ -557,6 +557,17 @@
   "review.removeMessage": "{word} et sa progression dans les boîtes seront supprimés de vos mots enregistrés. Cette action est irréversible.",
   "review.removeTitle": "Retirer {word} ?",
   "review.share": "Partager la liste (CSV)",
+  "review.import": "Importer les mots (CSV)",
+  "review.imported": "Liste importée",
+  "review.importEmptyTitle": "Rien à importer",
+  "review.importEmptyMessage": "Le presse-papiers ne contient pas de liste de mots. Copie le fichier CSV que tu as partagé depuis cet écran, puis réessaie.",
+  "review.importDuplicatesTitle": "Rien de nouveau",
+  "review.importDuplicatesMessage": "Tous les mots de cette liste sont déjà enregistrés.",
+  "review.importDoneTitle": "Mots importés",
+  "review.importDoneMessage": {
+    "one": "{count} mot ajouté. Les mots que tu avais déjà gardent leur progression.",
+    "other": "{count} mots ajoutés. Les mots que tu avais déjà gardent leur progression."
+  },
   "review.shareFailedTitle": "Échec de l’export",
   "review.shareFailedMessage": "La liste de mots n’a pas pu être partagée. Réessayer ?",
   "review.showMeaning": "Voir le sens",

@@ -557,6 +557,17 @@
   "review.removeMessage": "{word} e o progresso nas caixas serão eliminados das palavras guardadas. Esta ação não pode ser anulada.",
   "review.removeTitle": "Remover {word}?",
   "review.share": "Partilhar lista (CSV)",
+  "review.import": "Importar palavras (CSV)",
+  "review.imported": "Lista importada",
+  "review.importEmptyTitle": "Nada para importar",
+  "review.importEmptyMessage": "A área de transferência não tem uma lista de palavras. Copia o ficheiro CSV que partilhaste a partir deste ecrã e tenta novamente.",
+  "review.importDuplicatesTitle": "Nada de novo",
+  "review.importDuplicatesMessage": "Todas as palavras dessa lista já estão guardadas.",
+  "review.importDoneTitle": "Palavras importadas",
+  "review.importDoneMessage": {
+    "one": "{count} palavra adicionada. As palavras que já tinhas mantêm o progresso.",
+    "other": "{count} palavras adicionadas. As palavras que já tinhas mantêm o progresso."
+  },
   "review.shareFailedTitle": "Falha na exportação",
   "review.shareFailedMessage": "Não foi possível partilhar a lista de palavras. Tentar novamente?",
   "review.showMeaning": "Mostrar o significado",

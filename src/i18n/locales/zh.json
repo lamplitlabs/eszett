@@ -537,6 +537,16 @@
   "review.removeMessage": "{word} 及其盒子进度将从你已保存的单词中删除，无法撤销。",
   "review.removeTitle": "移除 {word}？",
   "review.share": "分享列表（CSV）",
+  "review.import": "导入单词（CSV）",
+  "review.imported": "已导入的列表",
+  "review.importEmptyTitle": "没有可导入的内容",
+  "review.importEmptyMessage": "剪贴板中没有单词列表。请复制你在此屏幕分享的 CSV 文件，然后重试。",
+  "review.importDuplicatesTitle": "没有新内容",
+  "review.importDuplicatesMessage": "该列表中的每个单词都已保存。",
+  "review.importDoneTitle": "单词已导入",
+  "review.importDoneMessage": {
+    "other": "已添加 {count} 个单词。你已有的单词保留其复习进度。"
+  },
   "review.shareFailedTitle": "导出失败",
   "review.shareFailedMessage": "无法分享单词列表。重试？",
   "review.showMeaning": "显示词义",

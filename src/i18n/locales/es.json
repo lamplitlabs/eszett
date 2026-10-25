@@ -557,6 +557,17 @@
   "review.removeMessage": "{word} y su progreso de cajas se eliminarán de tus palabras guardadas. No se puede deshacer.",
   "review.removeTitle": "¿Eliminar {word}?",
   "review.share": "Compartir lista (CSV)",
+  "review.import": "Importar palabras (CSV)",
+  "review.imported": "Lista importada",
+  "review.importEmptyTitle": "Nada que importar",
+  "review.importEmptyMessage": "El portapapeles no tiene una lista de palabras. Copia el archivo CSV que compartiste desde esta pantalla y vuelve a intentarlo.",
+  "review.importDuplicatesTitle": "Nada nuevo",
+  "review.importDuplicatesMessage": "Todas las palabras de esa lista ya están guardadas.",
+  "review.importDoneTitle": "Palabras importadas",
+  "review.importDoneMessage": {
+    "one": "{count} palabra añadida. Las palabras que ya tenías conservan su progreso.",
+    "other": "{count} palabras añadidas. Las palabras que ya tenías conservan su progreso."
+  },
   "review.shareFailedTitle": "Error al exportar",
   "review.shareFailedMessage": "No se pudo compartir la lista de palabras. ¿Reintentar?",
   "review.showMeaning": "Mostrar el significado",

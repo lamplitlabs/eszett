@@ -557,6 +557,17 @@
   "review.removeMessage": "{word} e i suoi progressi nei box verranno eliminati dalle parole salvate. Non si può annullare.",
   "review.removeTitle": "Rimuovere {word}?",
   "review.share": "Condividi elenco (CSV)",
+  "review.import": "Importa parole (CSV)",
+  "review.imported": "Elenco importato",
+  "review.importEmptyTitle": "Niente da importare",
+  "review.importEmptyMessage": "Gli appunti non contengono un elenco di parole. Copia il file CSV che hai condiviso da questa schermata e riprova.",
+  "review.importDuplicatesTitle": "Niente di nuovo",
+  "review.importDuplicatesMessage": "Tutte le parole di quell’elenco sono già salvate.",
+  "review.importDoneTitle": "Parole importate",
+  "review.importDoneMessage": {
+    "one": "{count} parola aggiunta. Le parole che avevi già conservano i loro progressi.",
+    "other": "{count} parole aggiunte. Le parole che avevi già conservano i loro progressi."
+  },
   "review.shareFailedTitle": "Esportazione non riuscita",
   "review.shareFailedMessage": "Impossibile condividere l’elenco delle parole. Riprovare?",
   "review.showMeaning": "Mostra il significato",
