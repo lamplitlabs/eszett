@@ -479,7 +479,7 @@ zh). The pieces:
 - `src/i18n/index.ts` — `t(key, vars)`, `tIn(lang, key, vars)`, `useI18n()`; flat catalogs, `{placeholders}`, plural
   objects picked by `vars.count` with the CLDR rules in `plural.ts` (pl/ru/uk have one/few/many, ar six forms, zh one).
   Missing keys fall back to English, then to the key (one warning per key in `__DEV__`). Pure TypeScript, tested in Node.
-- `src/i18n/locales/<lang>.json` — the UI catalogs (907 keys; `en.json` is the reference).
+- `src/i18n/locales/<lang>.json` — the UI catalogs (923 keys; `en.json` is the reference).
   `node scripts/i18n-ui-check.mjs <lang>` checks keys, placeholders and plural categories.
 - `src/data/i18n/<lang>.json` — the content overlays: grammar cards, scenes, rule sentences and titles, the core
   lexicon's meanings plus the bundled Taboo cards' (so the guesser's gloss reads in the app's language), level
@@ -883,8 +883,11 @@ The review screen (`src/app/review.tsx`, reached from Practice › My words, Me 
 drills the saved words and lists them under **All words**; the list header's share button ("Share list (CSV)")
 sends the deck to the phone's share sheet as CSV — one row per word, columns `word,translation,box` (the card
 front, its meaning in the learner's language and the box number the screen prints), RFC 4180-quoted by
-`formatDeckWordsCsv` (`src/features/reviewRules.ts`). When the deck is empty the CSV is the header row only (and
-the button hides).
+`formatDeckWordsCsv` (`src/features/reviewRules.ts`). When the deck is empty the CSV is the header row only.
+The header's paste button ("Import words (CSV)") goes the other way: it reads the clipboard, parses it with
+`parseDeckWordsCsv` and merges it with `mergeDeckWords` (same file) — words already saved keep the Leitner box
+the learner reviewed them into, new words start in box 1 (`src/state/deck.ts` `importWords`). That is how a
+list moves to a new phone or comes back after a reinstall.
 
 ### Name and mark
 

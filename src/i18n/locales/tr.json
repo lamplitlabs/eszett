@@ -556,6 +556,17 @@
   "review.removeConfirm": "Kaldır",
   "review.removeMessage": "{word} ve kutu ilerlemesi kayıtlı kelimelerden silinecek. Bu geri alınamaz.",
   "review.removeTitle": "{word} kaldırılsın mı?",
+  "review.import": "Kelimeleri içe aktar (CSV)",
+  "review.imported": "İçe aktarılan liste",
+  "review.importEmptyTitle": "İçe aktarılacak bir şey yok",
+  "review.importEmptyMessage": "Panoda kelime listesi yok. Bu ekrandan paylaştığın CSV dosyasını kopyalayıp tekrar dene.",
+  "review.importDuplicatesTitle": "Yeni bir şey yok",
+  "review.importDuplicatesMessage": "O listedeki her kelime zaten kayıtlı.",
+  "review.importDoneTitle": "Kelimeler içe aktarıldı",
+  "review.importDoneMessage": {
+    "one": "{count} kelime eklendi. Zaten sende olan kelimeler tekrar ilerlemelerini korudu.",
+    "other": "{count} kelime eklendi. Zaten sende olan kelimeler tekrar ilerlemelerini korudu."
+  },
   "review.share": "Listeyi paylaş (CSV)",
   "review.shareFailedTitle": "Dışa aktarma başarısız",
   "review.shareFailedMessage": "Kelime listesi paylaşılamadı. Tekrar denensin mi?",

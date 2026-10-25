@@ -1,13 +1,14 @@
 import { router } from 'expo-router';
-import { Check, RotateCcw, Share2, Trash2, X } from 'lucide-react-native';
+import * as Clipboard from 'expo-clipboard';
+import { Check, ClipboardPaste, RotateCcw, Share2, Trash2, X } from 'lucide-react-native';
 import { useMemo, useState } from 'react';
-import { ScrollView, View } from 'react-native';
+import { Alert, ScrollView, View } from 'react-native';
 import Animated, { FadeIn, FadeInDown } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useI18n } from '@/i18n';
 import { wordMeaning } from '@/i18n/content';
-import { formatDeckWordsCsv } from '@/features/reviewRules';
+import { formatDeckWordsCsv, mergeDeckWords, parseDeckWordsCsv } from '@/features/reviewRules';
 import { shareWordsCsv } from '@/features/reviewCsv';
 import { confirmRemoveWord, dueWords, sourceLabel, useDeck, type DeckWord } from '@/state/deck';
 import { useProgress } from '@/state/progress';
@@ -22,11 +23,43 @@ function AllWords() {
   const { t, lang } = useI18n();
   const words = useDeck((s) => s.words);
   const remove = useDeck((s) => s.remove);
+  const importWords = useDeck((s) => s.importWords);
   const list = Object.values(words).sort((a, b) => b.added - a.added);
-  if (!list.length) return null;
+
+  // Import the words a shared CSV holds: paste the clipboard text, keep the box progress of the
+  // words already saved, and add the rest. Needs no picker — the clipboard is enough.
+  const importFromClipboard = async () => {
+    const text = (await Clipboard.getStringAsync()).trim();
+    if (!text) return;
+    const parsed = parseDeckWordsCsv(text);
+    if (parsed.empty) {
+      Alert.alert(t('review.importEmptyTitle'), t('review.importEmptyMessage'), [{ text: t('common.done') }]);
+      return;
+    }
+    const { added } = mergeDeckWords(list, parsed.words);
+    if (!added.length) {
+      Alert.alert(t('review.importDuplicatesTitle'), t('review.importDuplicatesMessage'), [{ text: t('common.done') }]);
+      return;
+    }
+    const count = importWords(
+      added.map((w) => ({ key: `phrase:${w.german}`, kind: 'phrase' as const, german: w.german, meaning: w.meaning, box: w.box ?? 1, sourceKey: 'review.imported' })),
+    );
+    Alert.alert(t('review.importDoneTitle'), t('review.importDoneMessage', { count }), [{ text: t('common.done') }]);
+  };
+
+  const importButton = <IconButton icon={ClipboardPaste} label={t('review.import')} size={36} onPress={() => void importFromClipboard()} />;
+
+  if (!list.length) {
+    return (
+      <Paper style={{ padding: 0 }}>
+        <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end', paddingHorizontal: space.s, paddingVertical: space.s }}>{importButton}</View>
+      </Paper>
+    );
+  }
   return (
     <Paper style={{ padding: 0 }}>
-      <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end', paddingHorizontal: space.s, paddingTop: space.s }}>
+      <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end', gap: space.xs, paddingHorizontal: space.s, paddingTop: space.s }}>
+        {importButton}
         <IconButton
           icon={Share2}
           label={t('review.share')}

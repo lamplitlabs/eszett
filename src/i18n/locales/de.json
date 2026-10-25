@@ -556,6 +556,17 @@
   "review.removeConfirm": "Entfernen",
   "review.removeMessage": "{word} und der Box-Fortschritt werden aus deinen gespeicherten Wörtern gelöscht. Das lässt sich nicht rückgängig machen.",
   "review.removeTitle": "{word} entfernen?",
+  "review.import": "Wörter importieren (CSV)",
+  "review.imported": "Importierte Liste",
+  "review.importEmptyTitle": "Nichts zu importieren",
+  "review.importEmptyMessage": "In der Zwischenablage liegt keine Wortliste. Kopiere die CSV-Datei, die du auf diesem Bildschirm geteilt hast, und versuche es erneut.",
+  "review.importDuplicatesTitle": "Nichts Neues",
+  "review.importDuplicatesMessage": "Jedes Wort dieser Liste ist bereits gespeichert.",
+  "review.importDoneTitle": "Wörter importiert",
+  "review.importDoneMessage": {
+    "one": "{count} Wort hinzugefügt. Wörter, die du schon hattest, behalten ihren Lernstand.",
+    "other": "{count} Wörter hinzugefügt. Wörter, die du schon hattest, behalten ihren Lernstand."
+  },
   "review.share": "Liste teilen (CSV)",
   "review.shareFailedTitle": "Export fehlgeschlagen",
   "review.shareFailedMessage": "Die Wortliste konnte nicht geteilt werden. Erneut versuchen?",

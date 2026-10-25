@@ -80,4 +80,23 @@ describe('deck', () => {
     confirm?.onPress?.();
     expect(useDeck.getState().words['noun:Apfel']).toBeUndefined();
   });
+
+  it('imports words without touching the ones already saved', () => {
+    const deck = useDeck.getState();
+    deck.add({ key: 'phrase:gehen', kind: 'phrase', german: 'gehen', meaning: 'to go', sourceKey: 'review.imported' });
+    deck.grade('phrase:gehen', true); // existing progress that the import must keep
+
+    const added = useDeck.getState().importWords([
+      { key: 'phrase:gehen', kind: 'phrase', german: 'gehen', meaning: 'changed meaning', box: 5, sourceKey: 'review.imported' },
+      { key: 'phrase:die Abfahrt', kind: 'phrase', german: 'die Abfahrt', meaning: 'departure', box: 3, sourceKey: 'review.imported' },
+      { key: 'phrase:aus', kind: 'phrase', german: 'aus', meaning: 'out', box: 9, sourceKey: 'review.imported' },
+    ]);
+
+    expect(added).toBe(2);
+    const state = useDeck.getState().words;
+    expect(state['phrase:gehen']).toMatchObject({ box: 2, meaning: 'to go' }); // kept, not overwritten
+    expect(state['phrase:die Abfahrt']).toMatchObject({ box: 3, meaning: 'departure' });
+    expect(state['phrase:aus']?.box).toBe(5); // out-of-range box clamped to the Leitner range
+    expect(dueWords(state).some((w) => w.key === 'phrase:die Abfahrt')).toBe(true);
+  });
 });

@@ -44,6 +44,8 @@ export const BOX_DAYS = [0, 0, 1, 3, 7, 21];
 export interface Deck {
   words: Record<string, DeckWord>;
   add: (w: Omit<DeckWord, 'added' | 'box' | 'due' | 'lapses'>) => boolean;
+  /** Saves imported words the deck does not already have (by key); returns how many were added. Existing words keep their box progress. */
+  importWords: (ws: Omit<DeckWord, 'added' | 'due' | 'lapses'>[]) => number;
   remove: (key: string) => void;
   grade: (key: string, remembered: boolean) => void;
 }
@@ -77,6 +79,18 @@ export const useDeck = create<Deck>()(
         if (get().words[w.key]) return false;
         set((s) => ({ words: { ...s.words, [w.key]: { ...w, added: Date.now(), box: 1, due: Date.now(), lapses: 0 } } }));
         return true;
+      },
+      importWords: (ws) => {
+        const existing = get().words;
+        const now = Date.now();
+        const fresh: DeckWord[] = [];
+        for (const w of ws) {
+          if (existing[w.key]) continue;
+          fresh.push({ ...w, box: Math.min(Math.max(w.box, 1), 5), added: now, due: now, lapses: 0 });
+        }
+        if (!fresh.length) return 0;
+        set((s) => ({ words: { ...s.words, ...Object.fromEntries(fresh.map((w) => [w.key, w])) } }));
+        return fresh.length;
       },
       remove: (key) =>
         set((s) => {

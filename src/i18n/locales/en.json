@@ -556,6 +556,17 @@
   "review.removeConfirm": "Remove",
   "review.removeMessage": "{word} and its box progress will be deleted from your saved words. This cannot be undone.",
   "review.removeTitle": "Remove {word}?",
+  "review.import": "Import words (CSV)",
+  "review.imported": "Imported list",
+  "review.importEmptyTitle": "Nothing to import",
+  "review.importEmptyMessage": "The clipboard does not hold a word list. Copy the CSV file you shared from this screen and try again.",
+  "review.importDuplicatesTitle": "Nothing new",
+  "review.importDuplicatesMessage": "Every word in that list is already saved.",
+  "review.importDoneTitle": "Words imported",
+  "review.importDoneMessage": {
+    "one": "{count} word added. Words you already had kept their review progress.",
+    "other": "{count} words added. Words you already had kept their review progress."
+  },
   "review.share": "Share list (CSV)",
   "review.shareFailedTitle": "Export failed",
   "review.shareFailedMessage": "The words list could not be shared. Try again?",
