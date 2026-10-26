@@ -7,8 +7,8 @@ import type { Connection } from '@/model/runtime';
 
 import { useTheme } from './theme';
 
-/** The lamp is off while there is no model to light it. */
-const isOff = (s: Connection) => s === 'absent' || s === 'error' || s === 'unavailable';
+/** The lamp is off while there is no model to light it (or the week is over and it waits for the purchase). */
+const isOff = (s: Connection) => s === 'absent' || s === 'error' || s === 'unavailable' || s === 'locked';
 /** It breathes while something is on its way. */
 const isBusy = (s: Connection) => s === 'checking' || s === 'downloading' || s === 'loading';
 

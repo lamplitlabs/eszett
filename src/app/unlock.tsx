@@ -1,0 +1,121 @@
+// The Full-access sheet: where the learner stands (the free week, its end, or paid), what the one-time purchase
+// is, and the two store actions (buy, restore). The rules live in src/features/accessRules.ts, the store calls in
+// src/features/purchases.ts; this file only words them. In development a row of pills moves the week around so
+// every state can be seen without waiting seven days or paying.
+import { router } from 'expo-router';
+import { Check, KeyRound, MessageCircle, ShieldCheck, Sparkles, X } from 'lucide-react-native';
+import { useEffect } from 'react';
+import { Platform, ScrollView, View } from 'react-native';
+import { SafeAreaView } from 'react-native-screens/experimental';
+
+import { PRODUCT_ID, simulateTrialEnded, useAccess, useAccessView } from '@/features/access';
+import { usePurchases } from '@/features/purchases';
+import { useI18n } from '@/i18n';
+import { Button, IconButton, Paper, Pill } from '@/ui/controls';
+import { Txt } from '@/ui/Text';
+import { gutter, space, useTheme } from '@/ui/theme';
+
+const STORE_NAME = Platform.OS === 'ios' ? 'App Store' : 'Google Play';
+
+export default function UnlockScreen() {
+  const { c } = useTheme();
+  const { t } = useI18n();
+  const access = useAccessView();
+  const store = usePurchases();
+
+  // a fresh clock reading for the days left, and the store's price if it has not been fetched yet
+  useEffect(() => {
+    useAccess.getState().touch();
+    void usePurchases.getState().connect();
+    return () => usePurchases.getState().settle();
+  }, []);
+
+  const close = () => (router.canGoBack() ? router.back() : router.replace('/'));
+  const paid = access.kind === 'paid';
+  const canBuy = store.status === 'ready' && store.price !== null && store.busy === null;
+  const buyLabel = store.status === 'ready' && store.price ? t('unlock.buy', { price: store.price }) : store.status === 'unavailable' ? t('unlock.buyUnavailable') : t('unlock.buyPending');
+  const noteText = store.note === 'pending' ? t('unlock.pending') : store.note === 'restored' ? t('unlock.restored') : store.note === 'restoreNone' ? t('unlock.restoreNone') : null;
+
+  const bullets: [typeof Sparkles, string][] = [
+    [MessageCircle, t('unlock.bullet1')],
+    [Sparkles, t('unlock.bullet2')],
+    [ShieldCheck, t('unlock.bullet3')],
+  ];
+
+  return (
+    <SafeAreaView edges={{ top: true }} style={{ flex: 1, backgroundColor: c.sheet }}>
+      <ScrollView style={{ flex: 1, backgroundColor: c.sheet }} contentContainerStyle={{ padding: gutter, paddingTop: space.x3, gap: space.l }} keyboardShouldPersistTaps="handled">
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
+          <Txt variant="title" style={{ flex: 1 }} accessibilityRole="header">
+            {t('unlock.title')}
+          </Txt>
+          <IconButton icon={X} label={t('common.close')} tone="sheet" size={34} onPress={close} />
+        </View>
+
+        <Paper tone={paid ? 'green' : access.kind === 'ended' ? 'amber' : 'alt'} style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
+          {paid ? <Check size={20} color={c.green} strokeWidth={2.4} /> : <KeyRound size={20} color={access.kind === 'ended' ? c.amberInk : c.royal} />}
+          <View style={{ flex: 1, gap: 2 }}>
+            <Txt variant="bodyStrong">{paid ? t('unlock.paid') : access.kind === 'ended' ? t('unlock.trialEnded') : t('unlock.trialLeft', { count: access.daysLeft })}</Txt>
+            <Txt variant="small" color="inkSoft">
+              {paid ? t('unlock.paidDetail') : access.kind === 'ended' ? t('unlock.trialEndedDetail') : t('unlock.trialDetail')}
+            </Txt>
+          </View>
+        </Paper>
+
+        <View style={{ gap: space.m }}>
+          <Txt variant="body">{t('unlock.pitch')}</Txt>
+          <View style={{ gap: space.s }}>
+            {bullets.map(([Icon, text]) => (
+              <View key={text} style={{ flexDirection: 'row', alignItems: 'flex-start', gap: space.m }}>
+                <Icon size={18} color={c.royal} style={{ marginTop: 2 }} />
+                <Txt variant="small" style={{ flex: 1 }}>
+                  {text}
+                </Txt>
+              </View>
+            ))}
+          </View>
+        </View>
+
+        {paid ? null : (
+          <View style={{ gap: space.s }}>
+            <Button label={buyLabel} icon={KeyRound} loading={store.busy === 'buy'} disabled={!canBuy && store.busy !== 'buy'} onPress={() => void store.buy()} accessibilityHint={t('unlock.buyHint')} />
+            <Button label={store.busy === 'restore' ? t('unlock.restoring') : t('unlock.restore')} kind="quiet" size="medium" loading={store.busy === 'restore'} disabled={store.busy !== null || store.status === 'unavailable'} onPress={() => void store.restore()} />
+            {store.status === 'unavailable' ? (
+              <Txt variant="small" color="inkSoft" center>
+                {t('unlock.errUnavailable')}
+              </Txt>
+            ) : null}
+            {noteText ? (
+              <Txt variant="small" color="inkSoft" center>
+                {noteText}
+              </Txt>
+            ) : null}
+            {store.error ? (
+              <Txt variant="small" center style={{ color: c.red }}>
+                {store.error}
+              </Txt>
+            ) : null}
+          </View>
+        )}
+
+        <Txt variant="caption" color="inkFaint" center>
+          {t('unlock.legal', { store: STORE_NAME })}
+        </Txt>
+
+        {__DEV__ ? (
+          <View style={{ gap: space.s, marginTop: space.m }}>
+            <Txt variant="caption" color="inkFaint">
+              Development · {PRODUCT_ID}
+            </Txt>
+            <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.s }}>
+              <Pill label="End the week" tone="amber" onPress={() => simulateTrialEnded()} />
+              <Pill label="Week from now" onPress={() => useAccess.getState().setTrialStartedAt(Date.now())} />
+              <Pill label="Mark paid" tone="green" onPress={() => useAccess.getState().setPurchase({ productId: PRODUCT_ID, transactionId: 'dev', purchasedAt: Date.now(), store: 'dev' })} />
+              <Pill label="Clear purchase" tone="red" onPress={() => useAccess.getState().setPurchase(null)} />
+            </View>
+          </View>
+        ) : null}
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

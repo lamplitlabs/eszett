@@ -2,7 +2,7 @@
 
 The Expo app of Eszett, the German tutor built around `lamplitlabs/licht-german-tutor`. The 3B model runs on the
 phone through [llama.rn](https://github.com/mybigday/llama.rn) (llama.cpp) from a GGUF file; there is no server.
-See the [README in the project root](../README.md) for what the app does and how the model editions were chosen.
+See the sections below for what the app does and how the model editions were chosen.
 
 ## Prerequisites
 
@@ -479,7 +479,7 @@ zh). The pieces:
 - `src/i18n/index.ts` — `t(key, vars)`, `tIn(lang, key, vars)`, `useI18n()`; flat catalogs, `{placeholders}`, plural
   objects picked by `vars.count` with the CLDR rules in `plural.ts` (pl/ru/uk have one/few/many, ar six forms, zh one).
   Missing keys fall back to English, then to the key (one warning per key in `__DEV__`). Pure TypeScript, tested in Node.
-- `src/i18n/locales/<lang>.json` — the UI catalogs (787 keys; `en.json` is the reference).
+- `src/i18n/locales/<lang>.json` — the UI catalogs (907 keys; `en.json` is the reference).
   `node scripts/i18n-ui-check.mjs <lang>` checks keys, placeholders and plural categories.
 - `src/data/i18n/<lang>.json` — the content overlays: grammar cards, scenes, rule sentences and titles, the core
   lexicon's meanings plus the bundled Taboo cards' (so the guesser's gloss reads in the app's language), level
@@ -558,10 +558,10 @@ model, its prompts and its parsers are untouched: the tutor still writes English
 - `modules/eszett-translate/` — a local Expo module with the same five functions on both platforms
   (`downloadedModels`, `downloadModel(tag, allowCellular)`, `deleteModel`, `translate(text, from, to)`):
   Kotlin over `com.google.mlkit:translate:17.0.3` (verified on the phone) and Swift over `GoogleMLKit/Translate`
-  9.0.0 (`ios/EszettTranslate.podspec`, iOS 16.4 like `ExpoModulesCore`, `static_framework`). The iOS side has not
-  been built here: the pod graph resolves (MLKitTranslate 8.0.0, MLKitNaturalLanguage 10, MLKitCommon 14,
-  11 pods) and every ML Kit call in the Swift file type-checks against those frameworks for arm64 iOS 16.4; the
-  Expo DSL calls match `expo-modules-core`'s sources. Two iOS caveats: ML Kit's frameworks carry
+  9.0.0 (`ios/EszettTranslate.podspec`, iOS 16.4 like `ExpoModulesCore`, `static_framework`). The iOS side
+  compiles (the whole app, `xcodebuild -sdk iphoneos` with Xcode 27 after `expo prebuild`: the pod graph resolves
+  with MLKitTranslate 8.0.0, MLKitNaturalLanguage 10, MLKitCommon 14, and the Swift module builds for arm64
+  iOS 16.4) but has not run on an iPhone yet. Two iOS caveats: ML Kit's frameworks carry
   `EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64`, so the simulator needs a Rosetta destination (a device is fine),
   and the `SafeAreaView edges={{ bottom: Platform.OS === 'ios' }}` on the Tutor screen (Android's tab bar already
   ends the screen; iOS lays content under it) is reasoned, not seen on an iPhone. A translator kept alive holds
@@ -647,6 +647,62 @@ the note and the card appeared on the phone and went away again once the real fi
 appears for builds installed from the Play Store) after `REVIEW_RULES` in `reviewRules.ts`: three active days and
 five finished activities, at most three asks, 120 days apart. The Me screen's "Rate Eszett" row opens the store
 page directly.
+
+## Free week and full access
+
+Everything is open for seven days from the first start; after that the tutor model needs a one-time purchase (no
+subscription). The drills, rule cards, word lookups and the pass-and-play games stay free for good — the gate is
+only on the model.
+
+- `src/features/accessRules.ts` (pure, tested) holds the rules: `TRIAL_DAYS = 7`, `PRODUCT_ID =
+  'eszett_full_access'`, `evaluateAccess(record, now)` → `paid` / `trial` (with `daysLeft`) / `ended`. The clock
+  used is `max(now, lastSeenAt)`, so a phone set back in time does not get its week again.
+- `src/features/access.ts` is the persisted store (`eszett.access`): when the app was first opened, the latest
+  clock reading, the purchase once there is one. `useAccessView()` is the hook screens read.
+- `src/features/accessBind.ts` runs in the root layout **before** the model boot: it notes the time at every start
+  and return to the front, sets a timer for the minute the week ends, and calls `useModel.setLocked(…)`.
+- `src/model/runtime.ts` has the status `locked`: the GGUF stays on the phone but is unloaded from memory, `load()`
+  parks the file until `setLocked(false)` lets it in, `isReady()` is false, so every prompt path (chat, drills,
+  lesson planner, authoring) shows its not-ready note (`model.noteLocked`). A download that is running carries on.
+- `src/features/purchases.ts` talks to the store through `expo-iap` (StoreKit 2 / Google Play Billing): connect,
+  fetch the price, buy, restore, finish every transaction (Android refunds unacknowledged purchases after three
+  days; iOS replays unfinished ones at launch). At every launch `getAvailablePurchases()` quietly restores a
+  purchase made on another phone or before a reinstall. `purchases.web.ts` answers "not available".
+- `src/app/unlock.tsx` is the **Me › Full access** sheet (also reached from the Tutor tab and the model sheet when
+  locked): days left / ended / paid, the pitch, "Unlock for {price}" with the store's own price string, Restore,
+  the legal line. In a dev build a row of pills ends the week, resets it, marks paid, clears the purchase.
+- The welcome screen's third point (`onboarding.freeWeek`) says, before the week starts, how long it lasts, what
+  stops working afterwards and what the purchase costs (the store's price once it has been fetched). App Store
+  guideline 3.1.1 asks for exactly that from a non-subscription trial.
+
+**Store setup (once, by hand).** The price is read from the store; nothing in the app changes for a price change.
+`expo-iap` is a native module, so the first build with it must be a fresh native build (`npx expo run:android` /
+`run:ios`, or EAS); its config plugin is already in `app.json`.
+
+- **App Store.** In App Store Connect sign the Paid Apps agreement (Agreements, Tax, and Banking — until it is
+  active `fetchProducts` returns nothing and the button says the store is not available), then under the app's
+  In-App Purchases add a **Non-Consumable** with product id `eszett_full_access`, a price, the display name and
+  description in the app's languages, and a screenshot of the unlock sheet for review. The first in-app purchase
+  has to be submitted together with an app version (pick it on the version page). No capability or entitlement is
+  needed: In-App Purchase is on for every App ID, and `expo-iap` uses StoreKit 2 (iOS 15+; the app is iOS 16.4+).
+  Apple's review wants a visible Restore button (it is there) and the disclosure above. Apple's own recipe for a
+  trial is a free non-consumable named "7-day Trial" that the learner "buys" first; Eszett starts the week on the
+  first launch instead so it also works offline — if a reviewer insists on the recipe, that is the fallback.
+  "Ask to Buy" purchases arrive as `pending`; the sheet says so and the unlock comes through the purchase listener
+  when the parent approves, even on a later launch. Test on a device signed in with a Sandbox Apple Account
+  (Settings › Developer › Sandbox Apple Account); App Store Connect › Users and Access › Sandbox › Clear Purchase
+  History lets a tester buy again. In the simulator use a StoreKit Configuration file (Xcode: File › New › StoreKit
+  Configuration File, add the non-consumable `eszett_full_access`, pick it in Product › Scheme › Edit Scheme › Run
+  › Options); `ios/` is generated, so redo that after a `prebuild --clean`. Or just use the dev pills.
+- **Google Play.** Play Console › Monetize › Products › In-app products: product id `eszett_full_access`, one-time,
+  active. Purchases only work for builds signed with the upload/app signing key that Play knows (an internal
+  testing track is enough) and for accounts listed as licence testers.
+
+**Limitations, on purpose:** there is no server and no receipt verification — the device's own StoreKit / Play
+Billing state is trusted, the same way the rest of the app trusts the phone. A reinstall starts a new week (the
+trial record lives in AsyncStorage); a rooted phone can edit it. The purchase itself is tied to the store account
+and comes back through Restore on any phone. Learners who update from a version without the gate get seven days
+from the first start of the new version.
 
 ## Practising together
 
@@ -734,9 +790,11 @@ the twelve catalogs. Tests: `src/harness/__tests__/together.test.ts`.
 ## Tests
 
 ```bash
-npx vitest run                  # harness tests, the chat-template renderer, the model manifest, i18n, the on-phone translator's masking, release and review rules, practising together (Node, no React Native)
-npx tsc --noEmit
-npx expo lint
+sh scripts/verify.sh            # typecheck + tests: the entry point the scheduled check runs; exits 0 when both pass
+sh scripts/audit.sh             # dependency audit: fails on a high or critical vulnerability
+npx vitest run                  # npm test — harness tests, the chat-template renderer, the model manifest, i18n, the on-phone translator's masking, release and review rules, practising together (Node, no React Native)
+npx tsc --noEmit                # npm run typecheck
+npx expo lint                   # npm run lint
 node scripts/i18n-ui-check.mjs de fr es it pt pl ru uk tr ar zh        # the UI catalogs against en.json
 for l in fr es it pt pl ru uk tr ar zh; do node scripts/i18n-content-check.mjs $l; done   # the content overlays
 ```
@@ -793,6 +851,7 @@ src/app/                 screens (Expo Router)
   _layout.tsx            fonts, theme, the boot hook (loads the model once settings are hydrated, rescans on foreground), the splash timeout
   (tabs)/                Today (index), Tutor, Practice, Scenes, Me
   model.tsx              Me › Your tutor: edition, download / pause / resume, files on the phone, download source, stream test
+  unlock.tsx             Me › Full access: the free week, the one-time purchase, restore (see "Free week and full access")
   onboarding.tsx, review.tsx, words.tsx, drill/, grammar/ ([key] and new), scene/, word/, write/ ([id] and new)
   together/              practising together: index (hub), talk, duel, taboo, story, scrabble, wordle (see "Practising together")
 src/model/
@@ -801,7 +860,7 @@ src/model/
   engine.ts              llama.rn: load, metadata, cache primes (home prefix, typing-time prepare), greedy streaming generation, the queue; engine.web.ts stub
   runtime.ts             zustand store: status machine, boot (auto-download), download (size check), useLocal (header check), remove; the Tutor instance
 src/harness/             prompts, grounding, parsers, lexicon, engines, rules, role-play, writing, authoring (model-written scenes, tasks, cards, topics), together (talking points, Taboo, story chain, duel), template renderer
-src/features/            lesson planning, chat, scene icons, AuthorBox (the "your tutor writes it" box), modelStatus (status wording), release + releaseRules (the update check), review + reviewRules (the store-review ask), together (the two names, sessions played), the self-test battery
+src/features/            lesson planning, chat, scene icons, AuthorBox (the "your tutor writes it" box), modelStatus (status wording), access + accessRules + accessBind + purchases (the free week and the one-time purchase), release + releaseRules (the update check), review + reviewRules (the store-review ask), together (the two names, sessions played), the self-test battery
 src/i18n/                t()/tIn()/useI18n, languages, plural rules, catalogs, bind (device locale, RTL, explainIn), content (localised cards, scenes, rules, lexicon, levels, writing tasks), locales/<lang>.json
 src/mt/                  translation on this phone (ML Kit): store (one language pack, session cache), bind, languages (who it is for, when a question is translated), markdown (German-protecting line translation), question (German-protecting question translation), glossary, useTranslated
 modules/eszett-translate/  the local Expo module over ML Kit Translate: Kotlin (android/), Swift + podspec (ios/), index.ts
@@ -810,8 +869,12 @@ src/ui/                  theme, type, red pen, check footers, Markdown, Mark (th
 src/data/                grounding.json, lexicon-core.json, model.json (prompt, template, GGUF editions), scenes, grammar, rules, together.json (talking points); i18n/<lang>.json content overlays (+ en.source.json, generated)
 assets/images, assets/brand   the icons and the mark's SVG source
 scripts/build-data.mjs   rebuilds src/data from the Hub and the export manifest in our storage
+scripts/build-words.mjs  rebuilds src/data/words.json from the content data and model-words.json (see "The word list")
+scripts/model-words.mjs  asks the release GGUF for the game words: writes src/data/model-words.json (see "The word list")
 scripts/make-icons.py    rebuilds assets/images from the mark (fonttools, pillow, rsvg-convert)
 scripts/i18n-*.mjs       i18n-content-source (en.source.json from the data files), i18n-content-check <lang>, i18n-ui-check <lang…>
+scripts/verify.sh        typecheck + tests; the entry point the scheduled check runs (see "Tests")
+scripts/audit.sh         dependency audit: exits non-zero on a high or critical vulnerability
 release.json             the published store-version file (see "Update and review prompts")
 ```
 
