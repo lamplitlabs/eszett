@@ -479,7 +479,7 @@ zh). The pieces:
 - `src/i18n/index.ts` — `t(key, vars)`, `tIn(lang, key, vars)`, `useI18n()`; flat catalogs, `{placeholders}`, plural
   objects picked by `vars.count` with the CLDR rules in `plural.ts` (pl/ru/uk have one/few/many, ar six forms, zh one).
   Missing keys fall back to English, then to the key (one warning per key in `__DEV__`). Pure TypeScript, tested in Node.
-- `src/i18n/locales/<lang>.json` — the UI catalogs (923 keys; `en.json` is the reference).
+- `src/i18n/locales/<lang>.json` — the UI catalogs (924 keys; `en.json` is the reference).
   `node scripts/i18n-ui-check.mjs <lang>` checks keys, placeholders and plural categories.
 - `src/data/i18n/<lang>.json` — the content overlays: grammar cards, scenes, rule sentences and titles, the core
   lexicon's meanings plus the bundled Taboo cards' (so the guesser's gloss reads in the app's language), level
