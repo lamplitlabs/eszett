@@ -35,6 +35,42 @@ export interface Translated {
   retry: () => void;
 }
 
+/** What a finished translation attempt produced, kept beside the source it came from. */
+interface Done {
+  source: string;
+  text: string;
+  available: boolean;
+}
+
+interface DeriveInput {
+  /** The text the tutor wrote (the source, still English). */
+  text: string | undefined;
+  /** True once the translator is ready and the text is English to be translated. */
+  active: boolean;
+  /** False shows the source while keeping the translation at hand. */
+  enabled: boolean;
+  /** The translated head of the text, once the translator finished. */
+  done: Done | null;
+  /** The source a translation attempt failed on; null when there is no failure. */
+  failedSource: string | null;
+  /** Retries a failed translation. */
+  retry: () => void;
+}
+
+/**
+ * Folds the translator's state into what the screen shows. Pure, so the retryable-error contract is testable in Node:
+ * a failure flags `failed` and keeps the source out of the translated field, so the screen shows the error instead of
+ * quietly falling back to English; `retry` clears the failure so the translator runs again.
+ */
+export function toTranslated({ text, active, enabled, done, failedSource, retry }: DeriveInput): Translated {
+  const failed = failedSource !== null && (text ?? '').startsWith(failedSource);
+  const plain: Translated = { text: text ?? '', translated: false, available: false, failed, retry };
+  if (!active || !text || !done || !text.startsWith(done.source)) return plain;
+  if (!enabled || !done.available) return { ...plain, available: done.available };
+  // the translation is of a head of the text; what came after it is still English
+  return { ...plain, text: done.text + text.slice(done.source.length), translated: true, available: done.available };
+}
+
 /** The finished part of a streaming answer: every line but the one still being written. */
 const head = (text: string, streaming: boolean | undefined) => (streaming ? text.split('\n').slice(0, -1).join('\n') : text);
 
@@ -43,7 +79,7 @@ export function useTranslated(text: string | undefined, { from, to, streaming, e
   // the tutor was asked in English, but what it wrote has to read as English too
   const english = useMemo(() => Boolean(text) && from === 'en' && readsEnglish(text ?? ''), [text, from]);
   const active = ready && english && to !== 'en';
-  const [done, setDone] = useState<{ source: string; text: string; available: boolean } | null>(null);
+  const [done, setDone] = useState<Done | null>(null);
   const [failedSource, setFailedSource] = useState<string | null>(null);
   // bumps when the learner asks for another try after a failure
   const [attempt, setAttempt] = useState(0);
@@ -70,9 +106,5 @@ export function useTranslated(text: string | undefined, { from, to, streaming, e
     setAttempt((n) => n + 1);
   }, []);
 
-  const plain: Translated = { text: text ?? '', translated: false, available: false, failed, retry };
-  if (!active || !text || !done || !text.startsWith(done.source)) return plain;
-  if (!enabled || !done.available) return { ...plain, available: done.available };
-  // the translation is of a head of the text; what came after it is still English
-  return { ...plain, text: done.text + text.slice(done.source.length), translated: true, available: done.available };
+  return toTranslated({ text, active, enabled, done, failedSource, retry });
 }

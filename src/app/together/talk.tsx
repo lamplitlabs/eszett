@@ -86,8 +86,11 @@ export default function TalkScreen() {
   const words = point ? keyWords(point, lex) : [];
   const gloss = point ? pointGloss(point, lang) : null;
   // an English gloss is translated on this phone when the learner turned that on; the bundled fr/es/it glosses show as they are
-  const shown = useTranslated(gloss?.lang === 'en' && lang !== 'en' ? gloss.text : undefined, { from: 'en', to: lang });
-  const glossText = gloss ? (gloss.lang === 'en' && lang !== 'en' ? shown.text || gloss.text : gloss.text) : null;
+  const glossEn = Boolean(gloss && gloss.lang === 'en' && lang !== 'en');
+  const shown = useTranslated(glossEn ? gloss?.text : undefined, { from: 'en', to: lang });
+  // the translator failed on this gloss: show a retryable error, never the raw English
+  const glossFailed = glossEn && shown.failed;
+  const glossText = gloss ? (glossEn ? shown.text : gloss.text) : null;
 
   const next = () => {
     haptic.tap();
@@ -204,7 +207,16 @@ export default function TalkScreen() {
             </De>
             <SpeakButton text={point.q} />
           </View>
-          {glossText ? (
+          {glossFailed ? (
+            <Press onPress={shown.retry} accessibilityLabel={t('common.retry')} style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space.m }}>
+              <Txt variant="caption" color="red" style={{ flex: 1 }}>
+                {t('tutor.answerTranslationFailed')}
+              </Txt>
+              <Txt variant="smallStrong" color="royal">
+                {t('common.retry')}
+              </Txt>
+            </Press>
+          ) : glossText ? (
             <Txt variant="body" color="inkSoft">
               {glossText}
             </Txt>
