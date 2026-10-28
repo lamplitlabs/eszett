@@ -109,9 +109,9 @@ describe('the C1 lexicon tier', () => {
 });
 
 describe('C1 content', () => {
-  it('has five grammar cards with examples, each translated', () => {
+  it('has seven grammar cards with examples, each translated (five from v23, two from the learning path)', () => {
     const c1 = grammar.filter((c) => c.level === 'C1');
-    expect(c1.map((c) => c.key).sort()).toEqual(['konjunktiv-i-redewiedergabe', 'nominalstil-verbalstil', 'partizipialattribut', 'passiversatz', 'subjektive-modalverben']);
+    expect(c1.map((c) => c.key).sort()).toEqual(['konjunktiv-i-redewiedergabe', 'nominalstil-verbalstil', 'partizipialattribut', 'partizipialsaetze', 'passiversatz', 'subjektive-modalverben', 'textkonnektoren-kohaerenz']);
     for (const card of c1) {
       expect(card.examples.length).toBeGreaterThanOrEqual(3);
       expect(card.items.length).toBeGreaterThanOrEqual(2);
@@ -137,9 +137,9 @@ describe('C1 content', () => {
       expect(tr.opening).toBe(card.opening);
     }
   });
-  it('has two formal C1 writing tasks whose precheck accepts the formal Ihr/Ihnen', () => {
+  it('has three formal C1 writing tasks whose precheck accepts the formal Ihr/Ihnen', () => {
     const c1 = tasksFor('C1');
-    expect(c1.map((t) => t.id)).toEqual(['c1-letter-to-editor', 'c1-statement-management']);
+    expect(c1.map((t) => t.id)).toEqual(['c1-letter-to-editor', 'c1-statement-management', 'c1-graph-commuting']);
     expect(c1.every((t) => t.register === 'formal' && t.words[0] >= 180)).toBe(true);
     expect(WRITE_TASKS.filter((t) => t.level === 'C1')).toEqual(c1);
     const task = c1[1];
@@ -170,9 +170,9 @@ describe('C1 content', () => {
 });
 
 describe('C2 content', () => {
-  it('has five grammar cards on register, paronyms and formal syntax, each translated', () => {
+  it('has seven grammar cards on register, paronyms and formal syntax, each translated (five from v25, two from the learning path)', () => {
     const c2 = grammar.filter((c) => c.level === 'C2');
-    expect(c2.map((c) => c.key).sort()).toEqual(['erzaehltempora-erlebte-rede', 'funktionsverbgefuege', 'gehobene-praepositionen', 'paronyme-scheinbar-anscheinend', 'stilebenen-register']);
+    expect(c2.map((c) => c.key).sort()).toEqual(['erzaehltempora-erlebte-rede', 'es-als-platzhalter-korrelat', 'funktionsverbgefuege', 'gehobene-praepositionen', 'nachfeld-ausklammerung', 'paronyme-scheinbar-anscheinend', 'stilebenen-register']);
     for (const card of c2) {
       expect(card.examples.length).toBeGreaterThanOrEqual(3);
       expect(card.pitfalls.length).toBeGreaterThanOrEqual(2);
@@ -206,9 +206,9 @@ describe('C2 content', () => {
       }
     }
   });
-  it('has two long formal C2 writing tasks: an objection and an expert statement', () => {
+  it('has three long formal C2 writing tasks: an objection, an expert statement and an open letter', () => {
     const c2 = tasksFor('C2');
-    expect(c2.map((t) => t.id)).toEqual(['c2-objection-bank-fees', 'c2-expert-statement-council']);
+    expect(c2.map((t) => t.id)).toEqual(['c2-objection-bank-fees', 'c2-expert-statement-council', 'c2-open-letter-museum']);
     expect(c2.every((t) => t.register === 'formal' && t.words[0] >= 220)).toBe(true);
     const task = c2[0];
     const body = [

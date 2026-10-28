@@ -10,6 +10,7 @@ import {
   ListChecks,
   NotebookPen,
   Repeat,
+  Route,
   Shapes,
   Sparkles,
   WholeWord,
@@ -19,8 +20,10 @@ import { View } from 'react-native';
 
 import type { DrillCategory } from '@/harness/drills';
 import { atOrBelow, LEVELS } from '@/harness/levels';
+import { levelProgress, nextStep } from '@/harness/path';
 import { tasksFor } from '@/harness/writing';
 import { WORD_TOPICS, wordTopicLabel } from '@/features/lesson';
+import { stepLabel } from '@/features/path';
 import { useI18n } from '@/i18n';
 import { localizeGrammar, localizeWriting } from '@/i18n/content';
 import { cards } from '@/model/runtime';
@@ -112,6 +115,20 @@ export default function Practice() {
   // a comma-separated run of facts about a card or task, each already in the app language
   const facts = (parts: (string | false)[]) => parts.filter((p): p is string => Boolean(p)).join(t('practice.listSeparator'));
 
+  const course = levelProgress(level, done);
+  const courseStep = course.current ? nextStep(course.current, done) : null;
+  const courseRows: Row[] = [
+    {
+      title: t('path.practiceTitle', { level }),
+      detail: course.current
+        ? t('path.practiceDetail', { done: course.finished, total: course.units.length, title: courseStep !== null ? stepLabel(course.current, courseStep, lang).title : course.current.title_de })
+        : t('path.practiceDetailDone', { total: course.units.length }),
+      icon: Route,
+      tone: 'royal',
+      tint: 'royalTint',
+      href: course.current ? `/path/${course.current.key}` : '/path',
+    },
+  ];
   const wordRows: Row[] = [
     { title: t('practice.articleTitle'), detail: t('practice.articleDetail', { level }), icon: Shapes, tone: 'die', tint: 'dieTint', href: drill('article'), area: 'article' },
     { title: t('practice.pluralTitle'), detail: t('practice.pluralDetail'), icon: Layers, tone: 'der', tint: 'derTint', href: drill('plural'), area: 'plural' },
@@ -167,6 +184,9 @@ export default function Practice() {
 
   return (
     <Screen title={t('practice.title')} subtitle={t('practice.subtitle', { level })}>
+      <Section title={t('path.title')}>
+        <List rows={courseRows} />
+      </Section>
       <Section title={t('practice.words')}>
         <List rows={wordRows} />
       </Section>

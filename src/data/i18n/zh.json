@@ -90,6 +90,102 @@
         "整个介词短语占第一位；动词紧随其后：lerne ich。"
       ]
     },
+    "sein-haben-praesens": {
+      "title": "sein、haben 与现在时词尾",
+      "rule": "大多数动词的现在时由词干加固定词尾构成：ich wohn-e, du wohn-st, er/sie/es wohn-t, wir wohn-en, ihr wohn-t, sie/Sie wohn-en。最重要的两个动词是不规则的，必须背下来：sein – ich bin, du bist, er ist, wir sind, ihr seid, sie sind；haben – ich habe, du hast, er hat, wir haben, ihr habt, sie haben。'Sein' 说明某人是谁或怎么样（Ich bin Lehrerin, ich bin müde），'haben' 说明某人拥有什么或有什么感觉（Ich habe ein Auto, ich habe Hunger）。尊称 'Sie' 始终用复数形式：Sie sind, Sie haben, Sie wohnen。",
+      "examples": [
+        "我叫 Ana，来自葡萄牙。",
+        "你累了吗？——不，我饿了。",
+        "我们住在汉堡，在一家银行工作。",
+        "您有孩子吗？——有，我有两个女儿。"
+      ],
+      "pitfalls": [
+        "德语里饥饿、口渴、时间和兴致都用 'haben'（“有”）来表达；年龄、职业和特性则用 'sein'。",
+        "'haben' 是不规则的：du hast, er/sie/es hat——b 脱落了。",
+        "尊称 'Sie' 始终用以 -en 结尾的复数形式：Sie kommen, Sie sind, Sie haben。",
+        "'sein' 的 ihr 形式是 'seid'（带 d）；'sind' 属于 wir 和 sie。"
+      ]
+    },
+    "w-fragen-ja-nein-fragen": {
+      "title": "W-疑问句与一般疑问句",
+      "rule": "W-疑问句以疑问词开头，动词放在第二位：Wo wohnst du? Was machen Sie? 主要的疑问词：wer（人）、was（物）、wo（地点）、woher（来源）、wohin（目的地）、wann（时间）、wie（方式，也用于：Wie heißt du? Wie alt bist du? Wie viel kostet das?）、warum（原因）、welche/welcher/welches（选择）。一般疑问句直接以动词开头，主语随后：Wohnst du in Berlin? Sind Sie Frau Meier? 回答用 ja、nein——以及用 'doch' 反驳否定的提问：Kommst du nicht? – Doch!",
+      "examples": [
+        "你叫什么名字，来自哪里？",
+        "你住在哪里？——在科隆，大教堂附近。",
+        "您会说英语吗？——会，会一点。",
+        "你没有时间吗？——不，我有时间。"
+      ],
+      "pitfalls": [
+        "动词紧跟在疑问词之后，然后才是主语：Wo wohnst du?",
+        "一般疑问句以动词开头。陈述句加问号只是口语用法，用于表示惊讶的确认。",
+        "问来源用 'woher'；'wo' 问地点，'wohin' 问目的地。",
+        "否定的提问，如果答案是肯定的，就用 'doch' 回答。"
+      ]
+    },
+    "artikel-nominativ-akkusativ": {
+      "title": "der、die、das：第一格与第四格",
+      "rule": "每个名词都有性：阳性 der/ein，阴性 die/eine，中性 das/ein；复数始终是 die（而且没有不定冠词：Ich habe Kinder）。第一格用于主语，即做出动作的人或物：Der Kaffee ist heiß。第四格用于直接宾语，即某人拥有、购买、看到或想要的东西：Ich trinke den Kaffee。第四格中只有阳性冠词变化：der → den，ein → einen；die、das、eine、ein 保持不变。'es gibt' 之后以及介词 für、ohne、durch、gegen、um 之后也用第四格：Es gibt einen Park. Das ist für den Lehrer.",
+      "examples": [
+        "茶凉了，但我还是要把这杯茶喝掉。",
+        "我有一个哥哥和一个妹妹。",
+        "我们要这个面包和这些西红柿。",
+        "这里有超市吗？——有，就在拐角处。"
+      ],
+      "pitfalls": [
+        "'haben' 支配第四格；Hund 是阳性，所以是 einen Hund。",
+        "这里 der Mann 是直接宾语（第四格）：der 变成 den。",
+        "Suppe 是阴性：die Suppe。名词的性要查词典，并和单词一起记。",
+        "'für' 之后始终用第四格：für meinen Vater。"
+      ]
+    },
+    "possessivartikel": {
+      "title": "物主代词：mein、dein、sein、ihr……",
+      "rule": "物主代词说明某物属于谁：ich → mein，du → dein，er/es → sein，sie（单数）→ ihr，wir → unser，ihr → euer，sie（复数）→ ihr，Sie → Ihr。它们的词尾和 'ein'、'kein' 一样：mein Bruder（阳性）、meine Schwester（阴性）、mein Kind（中性）、meine Eltern（复数）。第四格中只有阳性加 -en：Ich sehe meinen Bruder。选哪个词看物主，加什么词尾看名词：sein Auto（他的车）、ihr Auto（她的车）。'euer' 加词尾时去掉第二个 e：eure Kinder。",
+      "examples": [
+        "这是我母亲，这是我父亲。",
+        "你姐姐叫什么名字？——她叫 Lea。",
+        "Peter 在找他的钥匙。",
+        "这些是你们的孩子吗？——是的，我们的孩子都已经很大了。"
+      ],
+      "pitfalls": [
+        "词尾跟随名词：Bruder 是阳性，所以是不带 -e 的 mein Bruder。",
+        "物主是 Anna（她）→ ihr；Hund 在第四格 → ihren Hund。",
+        "第四格中阳性加 -en：deinen Vater。",
+        "'euer' 加词尾时失去第二个 e：eure, euren, eurem。"
+      ]
+    },
+    "pluralformen": {
+      "title": "复数形式：-e、-(e)n、-er、-s 或不加词尾",
+      "rule": "复数中冠词始终是 'die'，但名词的词尾要和单词一起记。五种模式几乎涵盖一切：-e，常带变元音（der Tisch – die Tische, der Stuhl – die Stühle）；-(e)n，阴性名词的典型形式（die Frau – die Frauen, die Lampe – die Lampen）；-er，通常带变元音，用于短的中性名词（das Kind – die Kinder, das Buch – die Bücher）；-s，用于外来词和以元音结尾的词（das Auto – die Autos, das Hotel – die Hotels）；不加词尾，用于以 -er、-el、-en 结尾的名词，常带变元音（der Lehrer – die Lehrer, der Apfel – die Äpfel）。以 -chen 和 -lein 结尾的名词不变：das Mädchen – die Mädchen。",
+      "examples": [
+        "我需要两把椅子和一张桌子。",
+        "孩子们在读书。",
+        "请给我三个苹果、四个西红柿和六个鸡蛋。",
+        "城里的酒店很贵。"
+      ],
+      "pitfalls": [
+        "Kind 的复数加 -er：die Kinder。-s 词尾在德语中很少见。",
+        "以 -el 结尾的名词常常不加词尾，但带变元音：der Apfel – die Äpfel。",
+        "以元音结尾的词和外来词加 -s：Autos, Hotels, Handys。",
+        "复数中冠词始终是 'die'，不论名词是什么性。"
+      ]
+    },
+    "zeit-und-ortsangaben": {
+      "title": "时间和地点表达：um、am、im、von … bis；in、nach、zu、bei",
+      "rule": "时间：'um' 用于钟点（um acht Uhr），'am' 用于星期几和一天中的时段（am Montag, am Morgen, am Wochenende——但：in der Nacht），'im' 用于月份和季节（im Mai, im Winter），'von … bis' 用于一段时间（von neun bis fünf），'ab' 用于起点（ab morgen）。地点，回答 'wo?'：'in' 用于城市、国家和房间（in Berlin, in der Küche），'bei' 用于人和公司（bei meiner Oma, bei Siemens），'zu Hause'。目的地，回答 'wohin?'：'nach' 用于不带冠词的城市和国家以及 'nach Hause'（nach Wien, nach Hause），'in' + 第四格用于带冠词的国家和房间（in die Schweiz, in die Küche），'zu' + 第三格用于人、商店和约会（zum Arzt, zur Arbeit, zu Lisa）。",
+      "examples": [
+        "课程在星期二六点半。",
+        "八月我们去意大利。",
+        "我星期一到星期五在一家小公司工作。",
+        "你今天去看医生吗？——不，我待在家里。"
+      ],
+      "pitfalls": [
+        "钟点用 'um'；'am' 搭配星期几（am Montag）和一天中的时段（am Abend）。",
+        "不带冠词的城市和国家用 'nach'：nach Berlin, nach Spanien。",
+        "'nach Hause' 是方向（去哪里？），'zu Hause' 是地点（在哪里？）。",
+        "人用 'bei'（beim Arzt, bei Anna）；'in' 用于房间和场所（in der Praxis）。"
+      ]
+    },
     "kennen-wissen-koennen": {
       "title": "kennen、wissen 还是 können？",
       "rule": "'Kennen' 指认识、熟悉某个人、地方或事物，带直接宾语：Ich kenne die Stadt。'Wissen' 指知道某条信息，后面多接 'dass'、'ob'、疑问词或 'es/das'，否则接事物（die Antwort）：Ich weiß, dass er kommt。'Können' 是表示能力或可能性的情态动词，通常带不定式：Ich kann schwimmen。",
@@ -300,6 +396,70 @@
         "以 -er 结尾、表示人和器具的名词多为阳性：der Computer, der Drucker, der Fahrer。",
         "词尾 -e 不标示性：das Ende, das Auge 是中性，die Lampe 是阴性，der Name 是阳性。要把冠词和单词一起记。",
         "以 -ion 结尾的外来词几乎都是阴性：die Nation, die Information, die Diskussion。"
+      ]
+    },
+    "personalpronomen-akkusativ-dativ": {
+      "title": "人称代词的第四格和第三格：mich/mir、dich/dir、ihn/ihm……",
+      "rule": "第一格：ich, du, er, sie, es, wir, ihr, sie/Sie。第四格（直接宾语；für、ohne、um 之后）：mich, dich, ihn, sie, es, uns, euch, sie/Sie。第三格（间接宾语——给谁？；mit、bei、von、zu 之后，以及 helfen、gefallen、danken、gehören 等动词之后）：mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen。注意：只有 ich、du 和 er/sie/es 的第四格和第三格形式不同；uns 和 euch 两个格相同。句中有两个代词时，第四格在第三格之前：Ich gebe es dir。",
+      "examples": [
+        "你能帮我吗？——能，我很乐意帮你。",
+        "我明天给他打电话问他。",
+        "这份礼物是给你的。你喜欢吗？",
+        "我们感谢您的邀请。"
+      ],
+      "pitfalls": [
+        "'helfen' 始终支配第三格：mir, dir, ihm, ihr, uns, euch, ihnen。",
+        "'lieben' 带第四格直接宾语：dich, ihn, sie, euch。",
+        "'gehören' 要求第三格：ihm, ihr, ihnen。",
+        "两个代词：第四格（es）在第三格（dir）之前。"
+      ]
+    },
+    "praeteritum-sein-haben-modalverben": {
+      "title": "sein、haben 和情态动词的 Präteritum：war、hatte、konnte",
+      "rule": "口语中叙述过去大多用 Perfekt——但 'sein'、'haben' 和情态动词例外，它们即使在口语中也用 Präteritum。sein：ich war, du warst, er war, wir waren, ihr wart, sie waren。haben：ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten。情态动词去掉变元音并加 -te：können → konnte，müssen → musste，dürfen → durfte，sollen → sollte，wollen → wollte，mögen → mochte；不定式放到句末：Ich musste gestern arbeiten。ich 和 er/sie/es 在 Präteritum 中没有词尾：ich war, er hatte, sie konnte。",
+      "examples": [
+        "你昨天在哪里？——我病了，发烧了。",
+        "我们没能来，因为我们没有时间。",
+        "小时候我想当飞行员。",
+        "你不得不等了很久，对吧？"
+      ],
+      "pitfalls": [
+        "sein 和 haben 通常用 Präteritum，即使在对话中也是如此；而且动词必须保持在第二位。",
+        "'könnte' 是 Konjunktiv II（客气、非现实）；过去时是不带变元音的 'konnte'。",
+        "不定式放到句末，在 Präteritum 中也一样：musste … arbeiten。",
+        "er/sie/es 在 Präteritum 中不加词尾：sie hatte, er war, es konnte。"
+      ]
+    },
+    "hoefliche-bitten-konjunktiv-ii": {
+      "title": "客气的请求：Könnten Sie …? Würden Sie …? Ich hätte gern …",
+      "rule": "客气的请求和愿望用三个动词的 Konjunktiv II：könnte（来自 können）、hätte（来自 haben）、würde（来自 werden）——再加上 'wäre'（来自 sein）和 'möchte'。'Könnten Sie mir helfen?' 比 'Können Sie mir helfen?' 更客气；'Würden Sie bitte das Fenster schließen?' 比命令式更客气。点餐和购物时：'Ich hätte gern einen Kaffee'、'Ich möchte zwei Brötchen'。形式：ich könnte, du könntest, er könnte, wir könnten, Sie könnten；ich hätte, du hättest, er hätte；ich würde, du würdest, er würde, wir würden。'bitte' 和 'gern' 能让请求更加友好。",
+      "examples": [
+        "您能再说一遍吗？",
+        "我想要一公斤苹果和两个小面包。",
+        "您能帮我一下吗？",
+        "您星期五有时间吗？——那太好了。"
+      ],
+      "pitfalls": [
+        "点餐要说 'Ich hätte gern'（Konjunktiv II）；'Ich habe gern' 的意思是“我喜欢”。",
+        "不定式放到句末：Könnten Sie mir helfen?",
+        "接受东西的人用第三格：mir。",
+        "'konnte' 是过去时；客气的请求要用带变元音的 'könnte'，而且疑问句中动词放在句首。"
+      ]
+    },
+    "dativ-verben-praepositionen": {
+      "title": "第三格：helfen、gefallen、gehören 等动词和介词 aus、bei、mit、nach、seit、von、zu",
+      "rule": "第三格回答 'wem?'（给谁）。第三格的冠词：dem（阳性和中性）、der（阴性）、den + -n（复数）：mit dem Bus, bei der Arbeit, von den Kindern；不定冠词：einem, einer, einem；物主代词：meinem, meiner, meinen。有些动词始终把人放在第三格：helfen, danken, gefallen, gehören, antworten, gratulieren, schmecken, passen, fehlen, wehtun：Das Kleid gefällt mir. Der Rücken tut ihm weh. 介词 aus、bei、mit、nach、seit、von、zu（以及 gegenüber、ab）之后始终用第三格：aus der Schweiz, seit einem Jahr, zu meiner Oma。缩合形式：zum（zu dem）、zur（zu der）、beim（bei dem）、vom（von dem）。",
+      "examples": [
+        "我骑自行车上班。",
+        "孩子们不喜欢这汤。",
+        "祝你生日快乐！（我们祝贺你的生日。）",
+        "我在姨妈家住了一个月了。"
+      ],
+      "pitfalls": [
+        "'mit' 始终支配第三格：der Bus → mit dem Bus。'den' 会是第四格。",
+        "'gefallen' 是支配第三格的动词：事物让人（mir, dir, ihm）喜欢。",
+        "'helfen' 要求第三格：ihrer Mutter，而不是 ihre Mutter。",
+        "'aus' 之后用第三格，而且 Türkei 带冠词：aus der Türkei。"
       ]
     },
     "als-wenn-wann": {
@@ -537,6 +697,69 @@
         "德语用 'wie' 来问：Wie heißt du? Wie ist dein Name? 用 'Was' 听起来像生硬的直译。"
       ]
     },
+    "indirekte-fragen": {
+      "title": "间接问句：Weißt du, wann der Zug fährt? Können Sie mir sagen, ob …?",
+      "rule": "间接问句依附于一个引导句，如 'Weißt du, …'、'Können Sie mir sagen, …'、'Ich frage mich, …'、'Ich möchte wissen, …'。它是从句：变位动词放在句末。W-疑问句变成带同一个疑问词的从句：Wann fährt der Zug? → Weißt du, wann der Zug fährt? 一般疑问句变成带 'ob' 的从句：Kommt er? → Ich weiß nicht, ob er kommt。间接问句听起来比直接问句更客气，在柜台、电话和电子邮件中很常见。标点跟随主句：'Weißt du, …?' 之后用问号，'Ich weiß nicht, ….' 之后用句号。",
+      "examples": [
+        "您能告诉我火车站在哪里吗？",
+        "我不知道商店今天开不开门。",
+        "你知道这张票多少钱吗？",
+        "我想知道为什么货还没有送到。"
+      ],
+      "pitfalls": [
+        "间接问句是从句：动词放在句末。",
+        "间接的一般疑问句由 'ob' 引导；'wenn' 的意思是“如果”或“每当”。",
+        "疑问句（Hält der Bus hier?）需要 'ob'；'dass' 转述陈述句。"
+      ]
+    },
+    "verben-mit-praepositionen-da-wo": {
+      "title": "带介词的动词和 da(r)-/wo(r)- 复合词：warten auf、darauf、worauf",
+      "rule": "许多动词有固定的介词和固定的格，要和动词一起记：warten auf + 第四格，sich freuen auf（将来）/ über（现在）+ 第四格，denken an + 第四格，sich interessieren für + 第四格，sich ärgern über + 第四格，sich kümmern um + 第四格，sich bewerben um + 第四格，teilnehmen an + 第三格，sich beschäftigen mit + 第三格，träumen von + 第三格，Angst haben vor + 第三格，fragen nach + 第三格。指事物时用 wo(r)- 提问，用 da(r)- 回答：Worauf wartest du? – Darauf. Wofür interessierst du dich? – Dafür. 介词以元音开头时加 r（darauf, worüber, daran），否则不加（dafür, womit, davon）。指人时保留介词和代词：Auf wen wartest du? – Auf ihn. da(r)- 复合词也可以指向整个从句：Ich freue mich darauf, dass du kommst。",
+      "examples": [
+        "我等公交车已经等了一个小时。",
+        "你们聊了什么？——聊了那部新电影。",
+        "你对政治感兴趣吗？——是的，我对此很感兴趣。",
+        "我期待着我们很快见面。"
+      ],
+      "pitfalls": [
+        "'warten' 搭配 'auf' + 第四格，而不是像英语里那样用 'für'。",
+        "指事物时用 wo(r)- 复合词提问：worauf, womit, wofür。'Auf was' 只是口语说法。",
+        "指事物的代词和介词合并成 da(r)- 复合词：daran, davon, damit。",
+        "'sich freuen auf' 指向将来（期待），'sich freuen über' 指已经存在的事。"
+      ]
+    },
+    "zweiteilige-konnektoren": {
+      "title": "成对连词：nicht nur … sondern auch、entweder … oder、weder … noch、zwar … aber、je … desto",
+      "rule": "成对连词连接句子的两个部分或两个分句，并把它们之间的关系说清楚：nicht nur … sondern auch（带强调的递进）、sowohl … als auch（两者都）、entweder … oder（二选一）、weder … noch（两者都不——本身已是否定，不再加 'nicht'）、zwar … aber（让步）、je … desto/umso（两件事同步增减）。语序：'sondern auch'、'aber' 和 'oder' 不改变语序；'weder'、'zwar' 和 'entweder' 可以占第一位，动词随后；'je' 之后是动词放句末的从句，'desto' 之后紧接比较级，然后是动词：Je mehr ich übe, desto besser spreche ich。",
+      "examples": [
+        "她不仅会说德语，还会说土耳其语和阿拉伯语。",
+        "我们要么坐火车，要么坐公交车去。",
+        "我既没有时间，也没有兴致。",
+        "我在德国住得越久，就越理解这里的人。"
+      ],
+      "pitfalls": [
+        "'weder … noch' 本身已是否定；再加 'nicht' 就错了。",
+        "'desto' 之后先是比较级，然后是动词，再是主语。",
+        "'zwar' 只属于第一部分；第二部分以 'aber' 开头。",
+        "'nicht nur' 要用 'sondern auch' 接续，而不是 'aber auch'。"
+      ]
+    },
+    "passiv-praesens": {
+      "title": "现在时和 Präteritum 的被动态：Das Brot wird gebacken, das Haus wurde gebaut",
+      "rule": "当动作比做动作的人更重要时用被动态：In der Bäckerei wird das Brot morgens gebacken。构成：werden（变位）+ 句末的第二分词。现在时：ich werde gefragt, du wirst gefragt, er/sie/es wird gefragt, wir werden gefragt, ihr werdet gefragt, sie werden gefragt。Präteritum：wurde, wurdest, wurde, wurden, wurdet, wurden：Das Haus wurde 1990 gebaut。主动句的第四格宾语变成被动句的主语：Man repariert das Auto → Das Auto wird repariert。如果要说出动作的执行者，用 'von' + 第三格：Das Auto wird von einem Mechaniker repariert。没有宾语时，由 'es' 或一个状语开头：Hier wird nicht geraucht。",
+      "examples": [
+        "账单在月底支付。",
+        "账户是昨天开的。",
+        "许多汽车是在德国制造的。",
+        "包裹由邮局投递。"
+      ],
+      "pitfalls": [
+        "过程（有人在烤它）用 'werden' 的被动态；'ist gebacken' 只描述完成后的状态。",
+        "'von' 支配第三格（von dem / vom Mechaniker），分词放在句末。",
+        "'werden' 要和主语一致：die Häuser（复数）→ wurden。",
+        "主语是 'keine Fotos'（复数）：werden … gemacht。"
+      ]
+    },
     "passiv-werden-sein": {
       "title": "被动态用 werden 还是 sein？",
       "rule": "过程被动态 'werden' + 第二分词描述正在发生或已经发生的动作：Die Tür wird geschlossen（有人正在关门）。状态被动态 'sein' + 第二分词描述结果，即之后的状态：Die Tür ist geschlossen（门是关着的）。过程被动态的 Perfekt 是 'ist geschlossen worden'。",
@@ -565,6 +788,147 @@
       "pitfalls": [
         "出发发生在到达之前：用 war 构成 Plusquamperfekt。",
         "主句用 Präteritum 时，'nachdem' 从句用 Plusquamperfekt。"
+      ]
+    },
+    "konjunktiv-ii-vergangenheit": {
+      "title": "过去的 Konjunktiv II：hätte … gemacht、wäre … gegangen",
+      "rule": "对于非现实的过去情况——本可能发生却没有发生的事——Konjunktiv II 由 hätte 或 wäre + 第二分词构成：Ich hätte dich angerufen. Wir wären gern gekommen. 选 hätte 还是 wäre 跟随 Perfekt（habe gemacht → hätte gemacht；bin gegangen → wäre gegangen）。典型用法：非现实条件（Wenn ich das gewusst hätte, wäre ich früher gegangen）、愿望（Hätte ich doch mehr gelernt!）、责备和事后反思（Du hättest mich fragen können）。带情态动词时句末是双重不定式，而在从句中 'hätte' 移到它们前面：…, weil ich hätte arbeiten müssen。过去没有 'würde' 形式。",
+      "examples": [
+        "如果我早知道这一点，我就不会来了。",
+        "要是我早点开始上德语课就好了！",
+        "你本来可以给我打电话的。",
+        "没有你的帮助，我们永远找不到这套房子。"
+      ],
+      "pitfalls": [
+        "前置从句之后，主句以动词开头：…, wäre ich gekommen。",
+        "'fahren' 用 sein 构成 Perfekt（ich bin gefahren），所以是 wäre gefahren。",
+        "过去的 Konjunktiv II 由 hätte/wäre + 第二分词构成，不用 'würde'。",
+        "带双重不定式时，从句中 'hätte' 放在两个不定式之前。"
+      ]
+    },
+    "irreale-vergleiche-als-ob": {
+      "title": "非现实比较：als ob、als wenn、als + Konjunktiv II",
+      "rule": "非现实比较描述某事看起来怎样，尽管实际并非如此：Er tut so, als ob er alles wüsste。'als ob' 和 'als wenn' 之后是从句，动词放在句末并用 Konjunktiv II（wüsste, hätte, wäre, würde … machen；过去：hätte … gemacht, wäre … gewesen）。更简短、更书面的是单用 'als'：这时动词紧随其后：Er tut so, als wüsste er alles。典型的开头：so tun, als ob；es scheint, als ob；es sieht aus, als ob；sich fühlen, als ob；so klingen, als ob。虚拟式的时态跟随比较的内容：同时发生 → 现在形式（als ob er krank wäre），更早发生 → 过去形式（als ob er nie krank gewesen wäre）。",
+      "examples": [
+        "她装作不认识我的样子。",
+        "看起来好像下了一整夜的雨。",
+        "他说话的样子好像他是老板似的。",
+        "我感觉好像一个星期没睡觉似的。"
+      ],
+      "pitfalls": [
+        "'als ob' 之后动词放在句末并用 Konjunktiv II：wäre。",
+        "用 'als' 而不带 'ob' 时，变位动词紧跟在 'als' 之后。",
+        "非现实比较用 'als ob'（或 'als wenn'、'als'），绝不用 'wie ob'。"
+      ]
+    },
+    "passiv-mit-modalverben": {
+      "title": "带情态动词的被动态：muss repariert werden、konnte nicht geöffnet werden",
+      "rule": "带情态动词的被动态是：情态动词（变位）+ 第二分词 + 句末的 werden（不定式）：Das Auto muss repariert werden. Die Rechnung kann online bezahlt werden. Präteritum 中只有情态动词变化：Die Tür konnte nicht geöffnet werden。Perfekt 中会出现带 haben 的双重不定式：Die Rechnung hat bezahlt werden müssen——实际上几乎总是改用 Präteritum。在从句中情态动词放在最末：…, weil das Auto repariert werden muss。带情态动词的被动态也可以换成：man muss … reparieren、… ist zu reparieren、… lässt sich reparieren。",
+      "examples": [
+        "电表必须在星期五之前抄读。",
+        "包裹昨天没能投递。",
+        "投诉也可以通过电子邮件提交。",
+        "我打电话是因为账单必须更正。"
+      ],
+      "pitfalls": [
+        "句末先是第二分词，然后是 'werden'：repariert werden。",
+        "意思是动作（有人必须填写它）：用 'werden' 的过程被动态。'muss ausgefüllt sein' 的意思会是它必须处于已填好的状态。",
+        "在从句中变位的情态动词放在最末。",
+        "情态动词之后是不定式 'werden'，而不是分词。"
+      ]
+    },
+    "partizip-i-ii-als-adjektiv": {
+      "title": "第一分词和第二分词作形容词：das weinende Kind、das reparierte Auto",
+      "rule": "两种分词都可以放在名词前，这时像形容词一样变格。第一分词（不定式 + d：weinend, steigend, kommend）描述正在发生、主动且同时的事：das weinende Kind（正在哭的孩子）、die steigenden Mieten（正在上涨的房租）。第二分词（gemacht, repariert, gebaut）描述已完成、通常是被动的事：das reparierte Auto（被修好的车）、die renovierte Wohnung。词尾遵循形容词规则：mit dem lachenden Mann, ein frisch gestrichenes Zimmer。只有用 sein 构成 Perfekt 的动词才能构成主动意义的第二分词：der angekommene Zug（已经到达的火车）。带 'zu' 的第一分词表示必要或可能：die zu zahlende Miete（应付的房租）。",
+      "examples": [
+        "不断上涨的房租是这座城市最大的问题。",
+        "我们看了一套刚翻新过、带阳台的公寓。",
+        "房产中介带我们看了新建的房子。",
+        "请在星期一之前转账应付的押金。"
+      ],
+      "pitfalls": [
+        "正在发生的事需要第一分词：weinen + d + 词尾 = weinende。",
+        "机器被修好了（被动、已完成）：第二分词。'reparierend' 的意思会是它自己在修理什么东西。",
+        "只有用 sein 构成 Perfekt 的动词才能构成主动意义的第二分词（der Gast ist gekommen）；'der gegessene Gast' 会是一位被人吃掉的客人。",
+        "分词像形容词一样变格：'dem' 之后词尾是 -en。"
+      ]
+    },
+    "genitivpraepositionen": {
+      "title": "支配第二格的介词：wegen、trotz、während、innerhalb、aufgrund、anstelle",
+      "rule": "标准德语中有些介词支配第二格：wegen（原因）、trotz（尽管）、während（期间）、innerhalb/außerhalb（空间和时间）、aufgrund（原因，正式）、anstelle/(an)statt（代替）、infolge（由于……的结果）、mithilfe（借助）、bezüglich/hinsichtlich（关于，正式）。第二格形式：des Wetters, der Arbeit, des Jahres, der Kinder——阳性和中性名词单数加 -s 或 -es。搭配代词时，'wegen mir' 是口语；书面语用 meinetwegen, deinetwegen, seinetwegen, unseretwegen。口语中 wegen 和 trotz 之后常用第三格（wegen dem Regen）；在信件、考试和报告中要用第二格。复数名词不带冠词时，改用 'von'：wegen Bauarbeiten, innerhalb von zwei Wochen。",
+      "examples": [
+        "由于罢工，今天没有火车运行。",
+        "尽管等了很久，这次面谈还是很成功。",
+        "读大学期间她在一家咖啡馆打工。",
+        "申请必须在一个月内提交。"
+      ],
+      "pitfalls": [
+        "在书面语和正式场合 'wegen' 支配第二格：des schlechten Wetters。第三格是口语用法。",
+        "阳性和中性名词在第二格单数加 -s/-es：des Regens。",
+        "作为介词 'während' 支配第二格：während der Prüfung。（作为连词 'während' 引导从句：Während ich lerne, …）",
+        "没有冠词时第二格复数显示不出来；这时用 'innerhalb von' + 第三格。"
+      ]
+    },
+    "relativsaetze-praepositionen-wo-was": {
+      "title": "带介词、wo、was 和 wer 的关系从句：der Freund, mit dem …；alles, was …",
+      "rule": "如果关系从句的动词依赖某个介词，介词就放在关系代词之前并决定格：der Freund, mit dem ich wohne（wohnen mit + 第三格）；die Firma, für die sie arbeitet（arbeiten für + 第四格）；das Thema, über das wir gesprochen haben。指地点时可以用 'wo'（位置）、'wohin'（方向）或 'woher'（来源）：die Stadt, in der ich wohne = die Stadt, wo ich wohne；城市名之后只能用 'wo'：Berlin, wo ich studiert habe。'was' 跟在 alles、nichts、etwas、vieles、das、名词化的最高级以及整个句子之后：alles, was ich weiß；das Beste, was passieren konnte；Er kam zu spät, was mich geärgert hat。带介词时变成 wo(r)- 复合词：etwas, worauf ich mich freue。没有先行词的 'wer …, der …' 意思是“凡是……的人”：Wer zu spät kommt, (der) bekommt keinen Platz。",
+      "examples": [
+        "这就是和我一起负责这个项目的同事。",
+        "我长大的那座城市变化很大。",
+        "这个提案有很多可以批评的地方。",
+        "不了解法律的人也无法遵守它。"
+      ],
+      "pitfalls": [
+        "介词和关系代词一起放在关系从句的开头：mit dem。",
+        "'alles'、'nichts'、'etwas' 和 'das' 之后关系代词用 'was'。",
+        "介词决定格：'für' + 第四格 → für die (Firma)。",
+        "关系从句指代整个句子时，用 'was'。"
+      ]
+    },
+    "modalpartikeln": {
+      "title": "情态小品词：doch、mal、ja、eben、halt、denn、eigentlich",
+      "rule": "情态小品词是句子中间不重读的小词，给句子添上一种态度——它们让口语德语显得自然，而且几乎无法翻译。'doch'：请求，或提醒对方已知的事（Komm doch mit! Das weißt du doch.）；'mal'：让请求显得随意（Kannst du mal kommen?）；'ja'：某事众所周知或令人意外（Das ist ja toll! Du weißt ja, wie er ist.）；'eben'/'halt'：只能接受（Dann müssen wir eben warten.）；'denn'：让问题显得友好、有兴趣（Wie heißt du denn? Was ist denn los?）；'eigentlich'：随口一问，或有所保留（Wo wohnst du eigentlich? Eigentlich wollte ich früher gehen.）；'schon'：安慰或让步（Das wird schon klappen.）；'wohl'：推测（Er ist wohl krank.）。它们位于动词和代词之后，通常在补足成分之前，而且几乎只用在主句和疑问句中，不用在正式信件里。",
+      "examples": [
+        "快请坐！要来杯咖啡吗？",
+        "到底出什么事了？你脸色都发白了。",
+        "你能过来帮我一下吗？",
+        "火车开走了。那我们就坐下一班吧。"
+      ],
+      "pitfalls": [
+        "情态小品词位于句子中间、动词之后，绝不在第一位（在那里 'doch' 会是重读的反驳）。",
+        "'doch mal' 是熟人之间的谈话风格；在正式信件中不合适。",
+        "友好的提问用 'denn'；'eben' 表示某事只能接受。"
+      ]
+    },
+    "konnektoren-indem-sodass-ohne-dass": {
+      "title": "表示方式、结果和相反情况的连词：indem、dadurch dass、sodass、ohne dass / ohne … zu、(an)statt dass / (an)statt … zu",
+      "rule": "这些从属连词说明某事如何发生以及由此产生什么结果；变位动词放在句末。方式：'indem' 和 'dadurch, dass'（Sie lernt Vokabeln, indem sie Karten schreibt.——怎么学？通过写卡片）。结果：'sodass' 或 'so …, dass'（Es regnete stark, sodass das Fest ausfiel. Es regnete so stark, dass das Fest ausfiel）。预期的事没有发生：'ohne dass'（Er ging, ohne dass jemand es merkte）——主语相同时用更简短的 'ohne … zu' + 不定式（Er ging, ohne sich zu verabschieden）。替代：'(an)statt dass'——主语相同时用 '(an)statt … zu'（Statt zu arbeiten, surft er im Internet）。同样的还有 'um … zu'（目的）以及 'zu + 形容词' 之后的 'als dass'（Er ist zu müde, als dass er noch fahren könnte）。'ohne … zu' 和 'statt … zu' 只有在两部分主语相同时才能用。",
+      "examples": [
+        "把设备完全关掉，就能省电。",
+        "信号太差，以至于通话中断了。",
+        "他没看说明就安装了更新。",
+        "公司非但不回复，反而只发自动邮件。"
+      ],
+      "pitfalls": [
+        "'indem' 引导从句：动词放在句末。",
+        "要么 'ohne dass' + 变位动词，要么 'ohne … zu' + 不定式——不能两者兼用。",
+        "'so + 形容词' 之后用 'dass'；主句中没有 'so' 时用 'sodass'：Es war kalt, sodass wir drinnen blieben。",
+        "在不定式结构中 'zu + 不定式' 放在最末：statt uns zu helfen。"
+      ]
+    },
+    "futur-vermutung": {
+      "title": "用 Futur I 和 Futur II 表示推测：Er wird wohl krank sein. Sie wird den Zug verpasst haben.",
+      "rule": "'werden' + 不定式（Futur I）不仅表示将来，还常常表示对现在的推测：Er wird wohl krank sein（= 他大概病了）。对过去的推测用 Futur II：werden + 第二分词 + haben/sein：Sie wird den Zug verpasst haben（= 她大概错过了火车）。Er wird schon angekommen sein。wohl、sicher、bestimmt、wahrscheinlich、vermutlich 等小品词标示推测；'wohl' 最典型。Futur II 也可以表示将来某时已完成的事：Bis Freitag werde ich den Bericht geschrieben haben。在从句中 'werden' 放在句末：…, weil er den Zug verpasst haben wird。带时间状语的单纯将来陈述，通常用现在时就够了：Morgen fahre ich nach Bonn。",
+      "examples": [
+        "灯关着——他们大概已经睡了。",
+        "公交车还没来。它肯定是堵在路上了。",
+        "你没收到那封邮件？那它八成是进了垃圾邮件文件夹。",
+        "到 2030 年，这座城市将完成扩建。"
+      ],
+      "pitfalls": [
+        "对过去的推测需要 Futur II：werden + 第二分词 + haben/sein。",
+        "助动词跟随 Perfekt：er ist angekommen → wird angekommen sein。",
+        "在从句中变位的 'werden' 放在最末。"
       ]
     },
     "nominalstil-verbalstil": {
@@ -648,6 +1012,38 @@
         "当第一虚拟式没有歧义时（sei），在正式的间接引语中优先使用；'wäre' 可能被理解为对陈述的怀疑。"
       ]
     },
+    "textkonnektoren-kohaerenz": {
+      "title": "篇章连接词：hingegen、allerdings、demnach、infolgedessen、zumal、wenngleich、gleichwohl、insofern",
+      "rule": "较长的文章和演讲靠超出 'aber'、'deshalb' 和 'obwohl' 的连接词把论证串在一起。对比：hingegen, dagegen, demgegenüber（Die Stadt wächst, das Umland hingegen verliert Einwohner）；保留：allerdings, jedoch, freilich, gleichwohl（… ist allerdings teuer）；结果/结论：demnach, demzufolge, infolgedessen, mithin, somit（Demnach ist der Vorschlag abzulehnen）；额外的、分量特别重的理由：zumal（…, zumal die Kosten steigen）；让步：wenngleich, obgleich, obschon（Wenngleich der Plan teuer ist, …）；条件/方面：insofern (als), sofern（Das stimmt insofern, als …）。语序：hingegen、allerdings、jedoch、demnach、infolgedessen、somit 是副词——它们占第一位（动词随后）或位于句子中间；zumal、wenngleich、obgleich、sofern、insofern als 引导从句（动词放句末）。要用得节制：一句话一个连接词就够了，而 'hingegen' 或 'jedoch' 喜欢跟在被强调的成分之后。",
+      "examples": [
+        "工业界要求降低能源价格；环保团体则呼吁更快地退出煤电。",
+        "扩建风电是有意义的，何况这项技术近年来已经便宜了许多。",
+        "这项研究在方法上有缺陷；因此它的结果只能部分采信。",
+        "尽管这项措施短期内会产生成本，但从长远看是值得的。"
+      ],
+      "pitfalls": [
+        "'hingegen' 是副词，跟在被强调的成分之后，或占第一位并由动词紧随（Hingegen verliert das Umland …），而不是放在主语之前的连词位置。",
+        "'zumal' 引导从句：动词放在句末。",
+        "'insofern' 给出的不是原因，而是方面或条件（'insofern, als …'）；说明原因要用 'da' 或 'weil'。",
+        "两个表示限制的连接词并排是多余的；一个就够了。"
+      ]
+    },
+    "partizipialsaetze": {
+      "title": "分词短语：In Berlin angekommen, …；Lächelnd betrat sie den Saal.",
+      "rule": "分词短语把从句压缩成一个带补足成分的分词；它没有自己的主语——与主句共用主语——并用逗号隔开。第一分词表示同时：Laut singend fuhr er durch die Stadt（= 他一边大声唱歌一边……）。第二分词表示先时或被动：In Berlin angekommen, suchte sie zuerst ein Hotel（= 她到达之后）；Von allen Seiten kritisiert, zog der Minister den Entwurf zurück（= 他受到批评之后）。分词位于其词组的末尾。固定短语：genau genommen, streng genommen, ehrlich gesagt, offen gestanden, grob geschätzt, verglichen mit, abgesehen von, vorausgesetzt (, dass)。这种风格属于书面语和典雅语体：报纸、文学、报告；口语中则用从句。",
+      "examples": [
+        "受第一部小说成功的鼓舞，她立刻开始写第二部。",
+        "目光紧盯着大海，老人在窗边一坐就是几个小时。",
+        "严格说来，这不是一篇评论，而是一篇随笔。",
+        "与前作相比，续集显得安静而富于反思。"
+      ],
+      "pitfalls": [
+        "分词短语需要和主句相同的主语；'es'（regnete）并没有到达柏林。",
+        "分词收尾其词组：补足成分放在它前面。",
+        "同时且主动：第一分词（singend）。第二分词的意思会是他被人唱了。",
+        "固定短语是 'ehrlich gesagt'（第二分词）；同样还有 offen gestanden, genau genommen。"
+      ]
+    },
     "paronyme-scheinbar-anscheinend": {
       "title": "近音易混词：scheinbar 还是 anscheinend，effektiv 还是 effizient？",
       "rule": "近音易混词（Paronyme）是读音相近、意义却不同的词，连母语者也会弄混。'anscheinend' 表达一种很可能属实的推测（从种种迹象看）；'scheinbar' 则表示某事只是看起来如此，实际上并非这样：'Er ist anscheinend krank'（大概是）对比 'Sein Interesse war nur scheinbar'（装出来的）。其他词对：effektiv（有效的，能达到目标）和 effizient（高效的，花费少）；formal（与形式有关的）和 formell（讲究礼节的，按规矩办的）；rational（理性的）和 rationell（节省的，合乎效益的）；kindlich（孩子般的，中性）和 kindisch（幼稚的，贬义）；sensibel（敏感的，容易受伤害）和 sensitiv（专业用语：对细微变化有反应的）。拿不准时可以用反义测试：'scheinbar' 后面容得下一个 'aber in Wirklichkeit'（但实际上），'anscheinend' 则不行。",
@@ -723,6 +1119,38 @@
         "'laut' 和 'zufolge' 意思相同，用一个就够了。'zufolge' 位于名词之后，支配第三格。",
         "'ungeachtet' 支配第二格：ungeachtet der Proteste。",
         "'gemäß' 虽然听起来很正式，但支配第三格；用第二格是一种常见的矫枉过正。"
+      ]
+    },
+    "es-als-platzhalter-korrelat": {
+      "title": "'es' 作占位词和关联词：Es wurde viel gelacht. Ich halte es für geboten, dass …",
+      "rule": "除了作代词（Das Buch? Ich habe es gelesen）和作无人称动词的固定 'es'（es regnet, es gibt, es geht um, es handelt sich um, mir ist es kalt）之外，'es' 还有两项标志着精准文笔的功能。第一，作第一位的占位词：当主语要后移以增加分量时，它占住句首的位置——Es wurde viel gelacht. Es kamen mehr Gäste als erwartet. Es bleibt die Frage, ob … 一旦有别的成分放在句首，这个 'es' 就无影无踪地消失：Gestern wurde viel gelacht。它不与动词一致：Es kamen（复数！）mehr Gäste。第二，作预告从句或不定式结构的关联词：Ich halte es für geboten, dass …；Sie hat es abgelehnt, den Vertrag zu unterschreiben；Es freut mich, dass … 对于 bedauern、ablehnen、begrüßen、vermeiden、es für richtig halten 这类动词，句中的关联词是必需的（Ich bedaure es, dass …）；对于另一些动词（wissen、glauben、sagen）则没有：Ich weiß, dass …（不是：Ich weiß es, dass …）。从句本身放在句首时，句首的关联词 'es' 就消失：Dass er absagt, überrascht mich——而不是：Dass er absagt, es überrascht mich。",
+      "examples": [
+        "谈判持续到深夜，却没有达成协议。",
+        "收到的反对意见远比董事会预想的多。",
+        "市议会认为必须推迟这项决定。",
+        "这项研究从未发表，这一点说明了很多问题。"
+      ],
+      "pitfalls": [
+        "占位词 'es' 只存在于第一位；那里有别的成分时，它就消失。",
+        "占位词 'es' 不是主语；动词与 'mehr Gäste'（复数）一致。",
+        "wissen、glauben、sagen、hoffen 之后，dass 从句前面不加关联词。",
+        "从句放在句首时，它自己填满了句首位置；再加一个 'es' 就成了动词前的第二个成分。"
+      ]
+    },
+    "nachfeld-ausklammerung": {
+      "title": "Nachfeld 与外置：…, als wir dachten. Er hat lange gewartet – auf eine Antwort, die nie kam.",
+      "rule": "德语句子是一个框形结构：变位动词和谓语的其余部分（分词、不定式、前缀）把中场夹在中间——Er hat … gewartet。位于右框之后的成分就在 Nachfeld（后场）里。从句和不定式结构天然属于那里（Er hat versprochen, dass er kommt），带 'als' 和 'wie' 的比较（Es ist später geworden, als wir dachten）以及补充说明（Sie hat alles verkauft, sogar die Bücher）也是如此。外置是指有意把一个本来也可以放在框内的成分放到框后：Er hat lange gewartet – auf eine Antwort, die nie kam。它减轻长而重的成分（尤其是带关系从句的介词短语）的负担，突出被移出的部分，并让框形结构保持简短，使听者不必等到二十个词之后才听到动词。不外置的有：单独的第四格宾语、代词和短副词——'Er hat gelesen das Buch' 是错的，即使在口语中也是如此。在行政和学术文体中，闭合的框形结构是常规；在演讲、新闻和文学中，有意的外置是一种修辞手段——有意为之，而非习惯使然。",
+      "examples": [
+        "这次展览的规模超出了策展人当初的任何设想。",
+        "导演讲了两个小时——讲的是一段你绝对想象不到的童年。",
+        "她卖掉了一切，连祖母的钢琴也卖了。",
+        "我读了那篇评论，越读越不安。"
+      ],
+      "pitfalls": [
+        "单独的第四格宾语留在框内；被外置的是沉重的介词短语、比较和补充说明。",
+        "带 'als' 的比较属于 Nachfeld，放在分词之后。",
+        "代词副词（darauf、damit）和代词不外置。",
+        "在公函中闭合的框形结构是常规；破折号加补充说明是演讲和文艺版面的手法。"
       ]
     }
   },
@@ -2720,6 +3148,15 @@
         "询问是否含早餐"
       ]
     },
+    "a1-postcard-holiday": {
+      "title": "度假时寄的明信片",
+      "prompt": "在海边度假时给你的朋友 Tom 写一张明信片：说说你在哪里、天气怎么样，以及你一整天都做些什么。",
+      "points": [
+        "你在哪里",
+        "天气",
+        "你一整天做什么"
+      ]
+    },
     "a2-birthday": {
       "title": "生日邀请",
       "prompt": "给一位朋友写一封简短的邮件：邀请对方参加你星期六的生日聚会。说明几点开始、在哪里举行，以及要带什么。30-40 个词。",
@@ -2745,6 +3182,15 @@
         "描述公寓",
         "你喜欢什么",
         "邀请他来"
+      ]
+    },
+    "a2-heating-broken": {
+      "title": "暖气坏了",
+      "prompt": "给你的房东 Herr Krause 写一条简短的正式消息：你公寓里的暖气从星期一起就不工作了。说明问题是什么、从什么时候开始的，请他尽快派人来，并说明你什么时候在家。",
+      "points": [
+        "问题以及从什么时候开始",
+        "请他派人来",
+        "你什么时候在家"
       ]
     },
     "b1-missed-party": {
@@ -2774,6 +3220,15 @@
         "一个例子"
       ]
     },
+    "b1-complaint-online-order": {
+      "title": "对网购订单的投诉",
+      "prompt": "你在网上订购了一盏台灯（订单号 48213）。三个星期后才送到，而且玻璃碎了。给商店写一封正式邮件：描述问题，说明你想要什么（换货还是退款），并询问如何把台灯寄回。",
+      "points": [
+        "描述问题",
+        "你想要什么",
+        "询问如何寄回"
+      ]
+    },
     "b2-course-complaint": {
       "title": "给语言学校的投诉信",
       "prompt": "给一所语言学校写一封正式投诉信（约 150 个词）：你的课程有三次课没有老师。描述发生了什么，说明你期望学校怎么做，并为对方的答复设定一个期限。",
@@ -2790,6 +3245,16 @@
         "你为什么感兴趣",
         "你的经验",
         "你什么时候有空"
+      ]
+    },
+    "b2-forum-smartphones-school": {
+      "title": "论坛帖子：学校里的智能手机",
+      "prompt": "在一个网络论坛上，家长们正在讨论学校是否应该禁止智能手机。写一篇帖子（约 170 个词）：说出你的看法，给出正反两方面的论据，描述一次你自己的经历，并提出一条建议。",
+      "points": [
+        "你的看法",
+        "正反两方面的论据",
+        "一次你自己的经历",
+        "一条建议"
       ]
     },
     "c1-letter-to-editor": {
@@ -2812,6 +3277,16 @@
         "请求安排会谈"
       ]
     },
+    "c1-graph-commuting": {
+      "title": "关于通勤数据的报告",
+      "prompt": "你的部门主管 Frau Dr. Neumann 请你为市政出行报告总结一项调查。数据：2015 年，61% 的通勤者开车上班，22% 使用公共交通，9% 骑自行车；2025 年这三项比例分别为 48%、29% 和 17%；平均通勤距离从 16 公里增至 19 公里。给她写一封正式邮件（约 230 个词）：描述主要变化，比较数据，给出可能的原因，并为市政府推荐一项措施。",
+      "points": [
+        "对主要变化的描述",
+        "对数据的比较",
+        "可能的原因",
+        "推荐的一项措施"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "就不合法的账户费用致银行的异议书",
       "prompt": "你的银行两年前未经你明确同意就提高了账户费用，现在以你“默示同意”为由拒绝退还。写一份致银行的正式异议书（约 260 个词）：陈述事实并注明日期和金额，说明你所依据的法律基础和判决，要求限期退款，并说明如果银行不照办你将采取的步骤。",
@@ -2830,6 +3305,659 @@
         "所依据的证据或经验",
         "对最有力反对意见的回应",
         "一条附带条件的建议"
+      ]
+    },
+    "c2-open-letter-museum": {
+      "title": "就新展览致博物馆馆长的公开信",
+      "prompt": "市立博物馆开设了一个关于本市历史的新常设展览，却略去了城市的工业历史，并且用屏幕代替实物展品。给馆长 Frau Dr. Berger 写一封公开信（约 280 个词）：评价展览的构思，有理有据地批评两项策展决定，肯定做得好的地方，并提出具体的修改建议。",
+      "points": [
+        "对构思的评价",
+        "有理有据地批评的两项决定",
+        "对做得好之处的肯定",
+        "提出的具体修改建议"
+      ]
+    }
+  },
+  "path": {
+    "a1-01": {
+      "title": "你好！我叫……",
+      "goal": "问候和道别，自我介绍，说明你来自哪里、会说哪些语言，并向别人提同样的问题。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "我该怎样用德语做自我介绍，正式和非正式的说法分别是什么？",
+        "上班第一天遇到新同事并做自我介绍"
+      ]
+    },
+    "a1-02": {
+      "title": "我和我的家人",
+      "goal": "谈论你的家人和朋友，说出他们的年龄和职业，并询问别人的家庭情况。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "我该怎样介绍我的家人：名字、年龄和职业？",
+        "给朋友看你的家庭照片"
+      ]
+    },
+    "a1-03": {
+      "title": "祝你用餐愉快！",
+      "goal": "在咖啡馆或餐厅点餐点饮料，说出你喜欢什么，询问价格并付款。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-04": {
+      "title": "购物",
+      "goal": "购买食品和衣服，询问尺码、颜色和数量，听懂价格，并说明你不需要什么。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-05": {
+      "title": "我的一天",
+      "goal": "报时间，描述你的日常作息和一周安排，约定或更改约会时间。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "我该怎样描述我的一天，从起床到睡觉？"
+      ]
+    },
+    "a1-06": {
+      "title": "在家",
+      "goal": "描述你的住处和家具，说出东西在哪里、你喜欢住处的哪些方面，并看懂租房广告。",
+      "steps": [
+        null,
+        null,
+        null,
+        "就你想租的公寓向房东提问",
+        "我该怎样描述我的住处和家具的位置？"
+      ]
+    },
+    "a1-07": {
+      "title": "在城里出行",
+      "goal": "问路和指路，乘坐公交车、火车和出租车，说出城里各个地点的名称。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-08": {
+      "title": "业余时间与相约见面",
+      "goal": "谈论你的爱好，说出你会做什么、想做什么，邀请别人并约定日期和时间。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "我该怎样邀请朋友，并提议时间和地点？"
+      ]
+    },
+    "a1-09": {
+      "title": "健康",
+      "goal": "说出身体部位的名称，说哪里疼，预约医生，并听懂简单的建议。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-10": {
+      "title": "旅行与天气",
+      "goal": "买票，办理酒店入住，谈论天气，并用 Perfekt 讲述旅途中做了什么。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-01": {
+      "title": "周末过得怎么样？",
+      "goal": "讲述你周末或假期做了什么、感觉如何，并询问别人的过去。",
+      "steps": [
+        null,
+        null,
+        null,
+        "我该怎样讲述上个周末的事？说话时该用哪种过去时态？",
+        "星期一早上向同事讲述你的周末"
+      ]
+    },
+    "a2-02": {
+      "title": "节庆与邀请",
+      "goal": "邀请别人，接受或谢绝邀请，谈论礼物和庆祝活动，并写一封邀请函。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "和朋友一起策划一场惊喜派对"
+      ]
+    },
+    "a2-03": {
+      "title": "共同生活",
+      "goal": "描述你的住处和家务，与合租室友和邻居商定规则，并向楼房管理员或房东提出请求。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-04": {
+      "title": "购物与投诉",
+      "goal": "比较商品和价格，礼貌地请求帮助，换货或退货，并对一顿饭提出投诉。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-05": {
+      "title": "保持健康",
+      "goal": "描述症状，听懂医生的嘱咐，谈论健康的生活方式，并在生病时请假。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-06": {
+      "title": "政府机关与服务",
+      "goal": "在市民服务中心登记住址，寄包裹，报失物品，填写表格，并写一条简短的正式消息。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-07": {
+      "title": "工作与职业",
+      "goal": "谈论你的工作和工作时间，说出你从什么时候起、做了多久某件事，并申请一份简单的工作。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "我该怎样谈论我的工作，并说明我为什么喜欢它？"
+      ]
+    },
+    "a2-08": {
+      "title": "出行与度假",
+      "goal": "计划一次旅行，租自行车或买票，描述一次假期，并说说你明年夏天要做什么。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "在旅游咨询处询问城里有什么值得看的"
+      ]
+    },
+    "a2-09": {
+      "title": "学习与媒体",
+      "goal": "谈论你怎样学习、使用哪些媒体，借一本书，并说出你知道什么、会做什么、熟悉什么。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "听不懂或需要对方重复某个词时，我可以说什么？"
+      ]
+    },
+    "a2-10": {
+      "title": "人物、情感与外貌",
+      "goal": "描述人物、他们的性格和感受，解释你为什么喜欢某人，并在理发店谈论你的外貌。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "向朋友讲述你认识的一个人以及他是什么样的人"
+      ]
+    },
+    "b1-01": {
+      "title": "人生故事",
+      "goal": "用过去时态讲述你和他人的人生经历，谈论人际关系和家庭生活，并书面道歉。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "和多年未见的老同学叙旧"
+      ]
+    },
+    "b1-02": {
+      "title": "工作与职业发展",
+      "goal": "描述你的工作和目标，请病假，讨论居家办公，并说明原因和目的。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-03": {
+      "title": "住房与邻居",
+      "goal": "详细描述你的住处和社区，理解租房合同的要点，并用关系从句连接句子。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "和邻居谈深夜噪音的问题",
+        "德语租房合同里最重要的词有哪些，它们是什么意思？"
+      ]
+    },
+    "b1-04": {
+      "title": "健康与营养",
+      "goal": "谈论健康饮食、运动和压力，准确描述症状，并表达对比和让步。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "和医生谈因久坐办公引起的背痛"
+      ]
+    },
+    "b1-05": {
+      "title": "消费与合同",
+      "goal": "比较报价，看懂广告，解除合同，并用正式信函对订单提出投诉。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-06": {
+      "title": "金钱与银行",
+      "goal": "开立账户，谈论储蓄和消费，并用被动态描述事情是怎么办理的。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "谈论金钱需要哪些动词：付款、转账、取款、储蓄、借款？"
+      ]
+    },
+    "b1-07": {
+      "title": "出行与旅行",
+      "goal": "应对汽车维修和错过的转乘，在酒店投诉，并讲述旅行之前、期间和之后发生的事。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-08": {
+      "title": "媒体与数字世界",
+      "goal": "谈论新闻、社交媒体和屏幕时间，说出你在等什么、为什么而恼火，并在论坛上发表看法。",
+      "steps": [
+        null,
+        null,
+        null,
+        "和朋友讨论孩子该不该有智能手机",
+        "我该怎样用德语发表看法，并礼貌地表示同意或反对？"
+      ]
+    },
+    "b1-09": {
+      "title": "教育与学习",
+      "goal": "谈论学校、职业培训和你的学习目标，给老师写信，并表达愿望和非现实的条件。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "lernen、studieren 和 üben 有什么区别？"
+      ]
+    },
+    "b1-10": {
+      "title": "环境、节日与社会",
+      "goal": "讨论环境和日常生活中的气候保护，描述节日和传统，并用成对连词连接你的论点。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "向德国朋友介绍你们国家的一个节日",
+        "我该怎样说出我在日常生活中为环保做了什么？"
+      ]
+    },
+    "b2-01": {
+      "title": "职场与求职",
+      "goal": "在面试中介绍自己，写求职信，谈论工作条件以及本来可以有什么不同。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-02": {
+      "title": "城市生活",
+      "goal": "看房、退房并讨论押金，比较城市和乡村，并用分词描述人和事物。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-03": {
+      "title": "消费者与合同",
+      "goal": "通过电话和书面方式对账单、送货或服务提出投诉，并用被动态说明必须、可以或应该做什么。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-04": {
+      "title": "技术与数字化",
+      "goal": "报告故障，讨论新技术的利弊，并在论坛帖子中论证你的立场。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-05": {
+      "title": "移民与共同生活",
+      "goal": "应对外国人管理局的预约，谈论移民、融入和身份认同，并用支配第二格的介词说明原因。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "我该怎样谈论自己移居新国家的经历？"
+      ]
+    },
+    "b2-06": {
+      "title": "社会与政治",
+      "goal": "跟上关于社会或政治问题的讨论，陈述正反论据，并用关系从句准确地指代所说的内容。",
+      "steps": [
+        null,
+        null,
+        null,
+        "和邻居讨论你们街上新修的自行车道",
+        "我该怎样用德语组织论证：引言、正方、反方、结论？"
+      ]
+    },
+    "b2-07": {
+      "title": "气候与环境",
+      "goal": "讨论气候变化以及个人和政府能做什么，对未来作出推测，并理解带数据的报告。",
+      "steps": [
+        null,
+        null,
+        null,
+        "和同事谈你们公司怎样才能减少浪费",
+        "我该怎样用德语描述图表或统计数据？"
+      ]
+    },
+    "b2-08": {
+      "title": "心理与个性",
+      "goal": "描述性格、情感和行为，比较表象与实际，并用情态小品词缓和或加强语气。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "就工作压力给朋友提建议"
+      ]
+    },
+    "b2-09": {
+      "title": "文化与科学",
+      "goal": "谈论书籍、电影和展览，用浅显的语言解释一项科学发现，并转述他人的话。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "向朋友推荐一部电影或一本书，并说明理由"
+      ]
+    },
+    "b2-10": {
+      "title": "法律与全球化",
+      "goal": "谈论规则、犯罪和司法，讨论全球化和贸易，并清晰地概括一篇文章。",
+      "steps": [
+        null,
+        null,
+        null,
+        "在警察局报案自行车被盗",
+        "我该怎样用德语写出清晰的文章摘要？需要哪些表达？"
+      ]
+    },
+    "c1-01": {
+      "title": "工作与谈判",
+      "goal": "谈判你的薪资，以书面形式向管理层论证立场，并在名词化风格和动词风格之间自如切换。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-02": {
+      "title": "住房与法律",
+      "goal": "就房租上涨寻求咨询，理解法律和行政语言，并把关系从句压缩成分词定语。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "我该怎样读懂德国机关的公函？那些典型的套话是什么意思？"
+      ]
+    },
+    "c1-03": {
+      "title": "政治与媒体",
+      "goal": "跟上政治辩论和新闻分析，用表示说话人判断的情态动词转述说法和推测，并写一封读者来信。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-04": {
+      "title": "科研与科学",
+      "goal": "理解学术文章和讲座，展示研究结果和数据，并使用科学德语中被动态的替代形式。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "向团队展示一项调查的结果并回答提问"
+      ]
+    },
+    "c1-05": {
+      "title": "环境与能源",
+      "goal": "细致入微地讨论能源政策和环境问题，用篇章连接词组织较长的论证，并权衡各方立场。",
+      "steps": [
+        null,
+        null,
+        null,
+        "一场关于在你们村附近建风力发电机的小组讨论",
+        "我该怎样用德语权衡两种立场并得出结论？"
+      ]
+    },
+    "c1-06": {
+      "title": "文学与艺术",
+      "goal": "谈论文学、电影和艺术，用分词短语描述事情的经过，并用语言表达作品的风格和氛围。",
+      "steps": [
+        null,
+        null,
+        null,
+        "在读书会上讨论一部小说",
+        "我该怎样用德语描述一本书或一部电影的风格和氛围？"
+      ]
+    },
+    "c1-07": {
+      "title": "变化中的社会",
+      "goal": "讨论人口结构变化和人工智能，转述专家的观点，并清楚地解释复杂的关联。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "一次关于你的职业将如何因 AI 而改变的电台采访"
+      ]
+    },
+    "c1-08": {
+      "title": "塑造未来",
+      "goal": "讨论交通、城市和福利国家的未来，正式地提出一项方案，并回应反对意见。",
+      "steps": [
+        null,
+        null,
+        null,
+        "向持怀疑态度的店主介绍无车市中心方案",
+        "我该怎样在会议上正式提出方案并回应反对意见？"
+      ]
+    },
+    "c2-01": {
+      "title": "公众面前的科学",
+      "goal": "向记者解释你自己的研究，精确区分近义词，并从容应对尖锐的提问。",
+      "steps": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-02": {
+      "title": "谈判与合同",
+      "goal": "逐条谈判合同条款，自然地使用商务德语的功能动词结构，并以书面形式对一项决定提出异议。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-03": {
+      "title": "机关与异议",
+      "goal": "在税务局提出异议，读写行政德语，并使用正式文本中的典雅介词。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "我该怎样提出正式异议（Einspruch 或 Widerspruch），需要哪些表达？"
+      ]
+    },
+    "c2-04": {
+      "title": "语域与风格",
+      "goal": "为任何场合选择合适的语域，从正式异议书到闲聊，并识别和避免语体断裂。",
+      "steps": [
+        null,
+        null,
+        null,
+        "和编辑讨论你文章的语气",
+        "同一个请求，我该怎样用三种语域表达：对朋友、对同事、对机关？"
+      ]
+    },
+    "c2-05": {
+      "title": "叙述与回忆",
+      "goal": "讲述和分析故事，使用叙述时态和自由间接引语，并讨论历史与记忆。",
+      "steps": [
+        null,
+        null,
+        null,
+        "和祖母的邻居聊这座城镇自 20 世纪 60 年代以来的变化"
+      ]
+    },
+    "c2-06": {
+      "title": "论证与修辞",
+      "goal": "构建无懈可击的论证，精确使用作占位词和关联词的 'es'，并撰写专家意见书。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "德语演讲中哪些修辞手法有效？我该怎样使用它们而不显得浮夸？"
+      ]
+    },
+    "c2-07": {
+      "title": "艺术与评论",
+      "goal": "评论一场展览、一本书或一场演出，用 Nachfeld 和外置来强调，并表达细微的评判差别。",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "在剧院总监面前为你的尖锐评论辩护"
+      ]
+    },
+    "c2-08": {
+      "title": "哲学与外交",
+      "goal": "精确而得体地讨论伦理问题和国际关系，并权衡来自多个来源的论点。",
+      "steps": [
+        null,
+        null,
+        null,
+        "在两位对项目意见不合的同事之间调解",
+        "我该怎样用德语有分寸地表示异议，又不显得软弱？"
       ]
     }
   }

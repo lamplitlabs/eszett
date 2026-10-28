@@ -407,7 +407,7 @@ re-run (a rerun replays the cached answers in `.model-cache/` and needs no serve
 `cefrOf` (reads the lexicon's sublevels, `B2.1` → `B2`, and returns null for anything outside the list), the order
 helpers `atOrBelow` / `atLeast`, and `levelSentence`, which states the level the way the training prompts do
 ("I'm at C2 level."). Every per-level table is typed `Record<Level, …>`, so adding a level is a compile error
-until each pool has its entry: `SUGGESTIONS` (Tutor), `WORD_TOPICS` and `WORD_TOPIC_KEY` (lesson, with a
+until each pool has its entry: `SUGGESTIONS` (Tutor), `WORD_TOPICS` and `WORD_TOPIC_KEY` (`src/features/topics.ts`, with a
 `topics.*` catalog key each), `VERB_LEVEL_POOL` (drills), `WORDS_FOR_LEVEL` (authoring), `STORY_OPENERS` and the
 talking points (`together.json` is checked to hold topics × levels × 3), the `levels.<L>` block of every content
 overlay. The authored store's `topics` is keyed by level too; `migrateAuthored` (`src/state/authoredMigration.ts`,
@@ -470,6 +470,48 @@ What **C2** rests on:
 - *Model*: the gate suite's C2 battery (97 scenarios) stands at 0.43 all-ok, facts 0.67, shape 0.69 — the same
   order as C1 (0.42 / 0.70 / 0.88) — so expect the same kind of slips: a detail wrong in an explanation, an
   invented figure in a role-play line (the scene reader drops those), a gloss inside an example sentence.
+
+## The learning path
+
+**Today › Your course** (and the first row of Practice) is a guided course for the learner's level: `src/data/path.json`
+holds 56 units — ten each for A1, A2, B1 and B2, eight each for C1 and C2 — and `src/harness/path.ts` reads them.
+A unit is a German title, a can-do goal and four to eight ordered steps, and every step opens a screen the app
+already has: a word list (`/words?topic=`), a grammar card, a drill, a scene, a writing task, a question for the
+Tutor tab (`/tutor?q=`, prefilled in the composer, sent in the tutor's language and shown in the app's) or a scene the
+tutor writes for a given situation (`/scenes?own=`, the own-scene box prefilled). Each route carries
+`path=<unit>:<step>`, and the screen marks `path:<unit>:<step>` done in the progress store the way it marks the daily
+lesson's activities (the drill's last item, the card's exercises, the scene's end, the sent text, the finished list,
+the question sent, the scene written). A grammar card, scene or task finished outside the course counts for its
+step too (`stepDone`), so nothing is asked twice. Nothing is locked: the course screen (`src/app/path/index.tsx`)
+marks the first unfinished unit as current, the unit screen (`src/app/path/[unit].tsx`) its first unfinished step,
+and when every unit of a level is done the course offers to move the level up (C2 ends with a bow). The Today card
+(`src/features/CourseCard.tsx`) shows the current unit and its next step.
+
+The sequence is the one the published syllabi and course books share, written for this app rather than copied
+from any of them: the topic areas and task types of the Goethe-Institut exam descriptions (Prüfungsziele /
+Testbeschreibung for Start Deutsch 1, A2, B2, C1 and C2, and the A1–B1 Wortlisten), the Handlungsfelder of the
+BAMF Rahmencurriculum für Integrationskurse (A1–B1), the CEFR global scale, DW's Nicos Weg (A1–B1), and the chapter
+progressions of Netzwerk neu, Menschen, Schritte international Neu and Studio [21] (A1–B1), Aspekte neu, Sicher! and
+Weitblick (B1+–C1) and Erkundungen (B2–C2). The openly licensed first-year courses (COERLL's Deutsch im Blick and
+Grimm Grammar, Open Education Alberta's Willkommen: Deutsch für alle, Grenzenlos Deutsch) were checked for the A1–A2
+order; there is no open course book above A2. Lingoda publishes no per-level lesson list, only sample chapters.
+Every unit's steps point at bundled content, which `src/harness/__tests__/path.test.ts` checks (every card, scene,
+task and topic exists, every scene and task is used, no card is repeated within a level, a card sits within one
+level of its unit, every unit is translated).
+
+What the course added to the content: 27 grammar cards that the syllabi expect and the pools did not have — at A1
+the basics (sein/haben and the present endings, W-questions, der/die/das in nominative and accusative, the
+possessive articles, the plural patterns, um/am/im and in/nach/zu/bei), at A2 the pronouns in accusative and dative,
+the Präteritum of sein/haben/modals, polite Könnten Sie/hätte gern, the dative verbs and prepositions, at B1
+indirect questions, verbs with prepositions and da(r)-/wo(r)- words, the two-part connectors and the passive in
+present and Präteritum, at B2 (which had two cards) the past Konjunktiv II, als ob, the passive with modals,
+participles as adjectives, the genitive prepositions, relative clauses with prepositions/wo/was, the modal particles,
+indem/sodass/ohne dass and Futur I/II as assumption, at C1 text connectors and participle clauses, at C2 es as
+placeholder and correlate and Nachfeld/extraposition (`levels.test.ts` pins the C1 and C2 sets); six writing tasks
+in the Goethe/telc shapes (an A1 postcard, an A2 note to the landlord, a B1 complaint about an order, a B2 forum
+post, a C1 report on figures, a C2 open letter); and 33 word-list topics (`src/features/topics.ts`, where the
+topic tables now live). All of it is in the ten content overlays and the twelve UI catalogs (the `path` section of
+`en.source.json`: a unit's title, goal and, per step, the question or situation it carries).
 
 ## Languages
 
@@ -854,20 +896,21 @@ src/app/                 screens (Expo Router)
   model.tsx              Me › Your tutor: edition, download / pause / resume, files on the phone, download source, stream test
   unlock.tsx             Me › Full access: the free week, the one-time purchase, restore (see "Free week and full access")
   onboarding.tsx, review.tsx, words.tsx, drill/, grammar/ ([key] and new), scene/, word/, write/ ([id] and new)
+  path/                  the course: index (the level's units) and [unit] (a unit's steps); see "The learning path"
   together/              practising together: index (hub), talk, duel, taboo, story, scrabble, wordle (see "Practising together")
 src/model/
   manifest.ts            editions (Q5_K_M, Q8_0), sizes, the storage URLs, "does this edition fit this phone", "is this our model" (pure TS, tested)
   files.ts               Documents/models, download tasks (pause state persisted), sideload scan, picker, lexicon file
   engine.ts              llama.rn: load, metadata, cache primes (home prefix, typing-time prepare), greedy streaming generation, the queue; engine.web.ts stub
   runtime.ts             zustand store: status machine, boot (auto-download), download (size check), useLocal (header check), remove; the Tutor instance
-src/harness/             prompts, grounding, parsers, lexicon, engines, rules, role-play, writing, authoring (model-written scenes, tasks, cards, topics), together (talking points, Taboo, story chain, duel), template renderer
-src/features/            lesson planning, chat, scene icons, AuthorBox (the "your tutor writes it" box), modelStatus (status wording), access + accessRules + accessBind + purchases (the free week and the one-time purchase), release + releaseRules (the update check), review + reviewRules (the store-review ask), together (the two names, sessions played), the self-test battery
+src/harness/             prompts, grounding, parsers, lexicon, engines, rules, role-play, writing, authoring (model-written scenes, tasks, cards, topics), together (talking points, Taboo, story chain, duel), template renderer, path (the course's units, progress and routes; pure, tested)
+src/features/            lesson planning, topics (the word-list topics per level), path + CourseCard (the course's labels, routes and the Today card), chat, scene icons, AuthorBox (the "your tutor writes it" box), modelStatus (status wording), access + accessRules + accessBind + purchases (the free week and the one-time purchase), release + releaseRules (the update check), review + reviewRules (the store-review ask), together (the two names, sessions played), the self-test battery
 src/i18n/                t()/tIn()/useI18n, languages, plural rules, catalogs, bind (device locale, RTL, explainIn), content (localised cards, scenes, rules, lexicon, levels, writing tasks), locales/<lang>.json
 src/mt/                  translation on this phone (ML Kit): store (one language pack, session cache), bind, languages (who it is for, when a question is translated), markdown (German-protecting line translation), question (German-protecting question translation), glossary, useTranslated
 modules/eszett-translate/  the local Expo module over ML Kit Translate: Kotlin (android/), Swift + podspec (ios/), index.ts
 src/state/               settings (edition, download source, chosen file, automatic download, language, explainIn; migrations in settingsMigration.ts), progress, saved words, authored (content the model wrote on this phone)
 src/ui/                  theme, type, red pen, check footers, Markdown, Mark (the ß), the lamp glow (model status), DrillAnswer (article buttons, choices, answer field shared by the drills and the duel), KeyboardAvoider (keeps composers above the keyboard; Android is edge-to-edge, so adjustResize alone does nothing)
-src/data/                grounding.json, lexicon-core.json, model.json (prompt, template, GGUF editions), scenes, grammar, rules, together.json (talking points); i18n/<lang>.json content overlays (+ en.source.json, generated)
+src/data/                grounding.json, lexicon-core.json, model.json (prompt, template, GGUF editions), scenes, grammar, rules, path.json (the course's units), together.json (talking points); i18n/<lang>.json content overlays (+ en.source.json, generated)
 assets/images, assets/brand   the icons and the mark's SVG source
 scripts/build-data.mjs   rebuilds src/data from the Hub and the export manifest in our storage
 scripts/build-words.mjs  rebuilds src/data/words.json from the content data and model-words.json (see "The word list")

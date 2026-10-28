@@ -6,6 +6,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
+import { WORD_TOPICS, wordTopicLabel } from '@/features/topics';
 import type { DrillCategory } from '@/harness/drills';
 import { atOrBelow, type Level } from '@/harness/levels';
 import { sceneTitle, type SceneCard } from '@/harness/roleplay';
@@ -18,6 +19,9 @@ import scenesData from '@/data/scenes.json';
 import { authoredCards, authoredScenes, authoredTasks, topicsFor, useAuthored } from '@/state/authored';
 import { accuracy, type Area, useProgress } from '@/state/progress';
 import { dayKey, storage } from '@/state/storage';
+
+// the topics moved to src/features/topics.ts (pure, so the learning path and the tests can read them); kept here for the screens
+export { WORD_TOPICS, wordTopicLabel } from '@/features/topics';
 
 export const scenes = scenesData as unknown as SceneCard[];
 
@@ -61,62 +65,6 @@ const DRILL: Partial<Record<ActivityType, { category: DrillCategory; title: stri
   dates: { category: 'dates', title: 'lesson.datesTitle', detail: 'lesson.datesDetail' },
   prices: { category: 'prices', title: 'lesson.pricesTitle', detail: 'lesson.pricesDetail' },
 };
-
-/** Vocabulary topics, in English: they go to the model as written and name the list in `/words?topic=`. */
-export const WORD_TOPICS: Record<Level, string[]> = {
-  A1: ['food and drink', 'the family', 'the flat', 'clothes', 'the weather', 'the city'],
-  A2: ['shopping', 'health and the doctor', 'travelling by train', 'work', 'free time', 'the post office and the bank'],
-  B1: ['work and career', 'housing and renting', 'the environment', 'media and news', 'education', 'health'],
-  B2: ['society and politics', 'technology', 'the economy', 'culture and art', 'science', 'the workplace'],
-  C1: ['politics and the media', 'research and science', 'law and bureaucracy', 'the world of work', 'literature and the arts', 'the environment and energy'],
-  C2: ['philosophy and ethics', 'finance and markets', 'medicine and bioethics', 'language and linguistics', 'history and remembrance', 'diplomacy and international relations'],
-};
-
-// the bundled topics stay English identifiers (routes, lesson plans, progress); this says each one in the app language
-const WORD_TOPIC_KEY: Record<string, string> = {
-  'food and drink': 'topics.food',
-  'the family': 'topics.family',
-  'the flat': 'topics.flat',
-  clothes: 'topics.clothes',
-  'the weather': 'topics.weather',
-  'the city': 'topics.city',
-  shopping: 'topics.shopping',
-  'health and the doctor': 'topics.healthDoctor',
-  'travelling by train': 'topics.train',
-  work: 'topics.work',
-  'free time': 'topics.freeTime',
-  'the post office and the bank': 'topics.postBank',
-  'work and career': 'topics.career',
-  'housing and renting': 'topics.housing',
-  'the environment': 'topics.environment',
-  'media and news': 'topics.media',
-  education: 'topics.education',
-  health: 'topics.health',
-  'society and politics': 'topics.society',
-  technology: 'topics.technology',
-  'the economy': 'topics.economy',
-  'culture and art': 'topics.culture',
-  science: 'topics.science',
-  'the workplace': 'topics.workplace',
-  'politics and the media': 'topics.politicsMedia',
-  'research and science': 'topics.research',
-  'law and bureaucracy': 'topics.law',
-  'the world of work': 'topics.worldOfWork',
-  'literature and the arts': 'topics.literature',
-  'the environment and energy': 'topics.energy',
-  'philosophy and ethics': 'topics.philosophy',
-  'finance and markets': 'topics.finance',
-  'medicine and bioethics': 'topics.medicine',
-  'language and linguistics': 'topics.linguistics',
-  'history and remembrance': 'topics.history',
-  'diplomacy and international relations': 'topics.diplomacy',
-};
-
-/** A word-list topic as the learner reads it: bundled ones translated, ones the tutor named kept as it said them. */
-export function wordTopicLabel(topic: string, lang: AppLang = getLanguage()): string {
-  const key = WORD_TOPIC_KEY[topic];
-  return key ? tIn(lang, key) : topic;
-}
 
 const AREA_OF: Partial<Record<ActivityType, Area>> = { articles: 'article', plurals: 'plural', meanings: 'meaning', verbs: 'verbs', numbers: 'numbers', clock: 'clock', dates: 'dates', prices: 'prices' };
 

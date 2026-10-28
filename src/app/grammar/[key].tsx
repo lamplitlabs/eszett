@@ -8,6 +8,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { lessonKey } from '@/features/lesson';
 import { notReadyNote, useModelPercent } from '@/features/modelStatus';
 import { compact } from '@/harness/engines';
+import { pathDoneKey } from '@/harness/path';
 import type { Lang } from '@/harness/route';
 import type { CorrectionResult } from '@/harness/tutor';
 import type { AnswerChecks } from '@/harness/verify';
@@ -63,7 +64,7 @@ function ModelBlock({ state, lang }: { state: Stream; lang: Lang }) {
 }
 
 export default function GrammarScreen() {
-  const { key, lesson } = useLocalSearchParams<{ key: string; lesson?: string }>();
+  const { key, lesson, path } = useLocalSearchParams<{ key: string; lesson?: string; path?: string }>();
   const own = useAuthored((s) => s.cards[key]);
   const removeCard = useAuthored((s) => s.removeCard);
   const card = own ?? cards.find((k) => k.key === key) ?? cards[0];
@@ -141,6 +142,7 @@ export default function GrammarScreen() {
       setFinished(true);
       markDone(`grammar:${card.key}`);
       if (lesson !== undefined) markDone(lessonKey(Number(lesson)));
+      if (path) markDone(pathDoneKey(path));
       return;
     }
     setEx(n);

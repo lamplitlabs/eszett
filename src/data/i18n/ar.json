@@ -90,6 +90,102 @@
         "شبه الجملة بحرف الجر كاملةً تشغل الموضع الأول؛ ويليها الفعل مباشرةً: lerne ich."
       ]
     },
+    "sein-haben-praesens": {
+      "title": "sein و haben ونهايات المضارع",
+      "rule": "تكوّن معظم الأفعال المضارع بنهايات ثابتة تُلحق بجذع الفعل: ich wohn-e, du wohn-st, er/sie/es wohn-t, wir wohn-en, ihr wohn-t, sie/Sie wohn-en. أمّا الفعلان الأهمّ فشاذّان ويجب حفظهما عن ظهر قلب: sein – ich bin, du bist, er ist, wir sind, ihr seid, sie sind؛ haben – ich habe, du hast, er hat, wir haben, ihr habt, sie haben. يقول 'Sein' من يكون الشخص أو كيف حاله (Ich bin Lehrerin, ich bin müde)، ويقول 'haben' ما يملكه الشخص أو ما يشعر به (Ich habe ein Auto, ich habe Hunger). وصيغة التهذيب 'Sie' تأخذ دائمًا صيغة الجمع: Sie sind, Sie haben, Sie wohnen.",
+      "examples": [
+        "أنا آنا، وأنا من البرتغال.",
+        "هل أنت متعب؟ – لا، أنا جائع.",
+        "نسكن في هامبورغ ونعمل في بنك.",
+        "هل لديك أطفال؟ – نعم، لديّ ابنتان."
+      ],
+      "pitfalls": [
+        "في الألمانية «تملك» الجوع والعطش والوقت والرغبة (haben)؛ أمّا 'sein' فيأتي مع العمر والمهنة والصفات.",
+        "'haben' فعل شاذّ: du hast, er/sie/es hat – يسقط حرف الـ b.",
+        "صيغة التهذيب 'Sie' تأخذ دائمًا صيغة الجمع المنتهية بـ -en: Sie kommen, Sie sind, Sie haben.",
+        "صيغة ihr من 'sein' هي 'seid' (بحرف d)؛ أمّا 'sind' فتخصّ wir و sie."
+      ]
+    },
+    "w-fragen-ja-nein-fragen": {
+      "title": "الأسئلة بأدوات الاستفهام (W-Fragen) وأسئلة نعم/لا",
+      "rule": "يبدأ السؤال بأداة الاستفهام (W-Frage) بالأداة ويأتي الفعل في الموضع الثاني: Wo wohnst du? Was machen Sie? وأهمّ أدوات الاستفهام: wer (شخص)، was (شيء)، wo (مكان)، woher (أصل)، wohin (وجهة)، wann (زمان)، wie (كيفية، وأيضًا: Wie heißt du? Wie alt bist du? Wie viel kostet das?)، warum (سبب)، welche/welcher/welches (اختيار). أمّا سؤال نعم/لا فيبدأ بالفعل نفسه ويليه الفاعل: Wohnst du in Berlin? Sind Sie Frau Meier? والأجوبة: ja، nein – و 'doch' للردّ بالإيجاب على سؤال منفي: Kommst du nicht? – Doch!",
+      "examples": [
+        "ما اسمك ومن أين أنت؟",
+        "أين تسكن؟ – في كولونيا، قرب الكاتدرائية.",
+        "هل تتكلّم الإنجليزية؟ – نعم، قليلًا.",
+        "أليس لديك وقت؟ – بلى، لديّ وقت."
+      ],
+      "pitfalls": [
+        "يأتي الفعل مباشرةً بعد أداة الاستفهام، ثم الفاعل: Wo wohnst du?",
+        "يبدأ سؤال نعم/لا بالفعل. أمّا الجملة الخبرية بعلامة استفهام فعامّية فقط، للاستفسار المتعجّب.",
+        "يُسأل عن الأصل بـ 'woher'؛ أمّا 'wo' فتسأل عن المكان، و 'wohin' عن الوجهة.",
+        "السؤال المنفي يُجاب عنه بـ 'doch' عندما يكون الجواب بالإيجاب."
+      ]
+    },
+    "artikel-nominativ-akkusativ": {
+      "title": "der, die, das: حالة الرفع وحالة النصب",
+      "rule": "لكلّ اسم جنس: المذكر der/ein، والمؤنث die/eine، والمحايد das/ein؛ والجمع دائمًا die (وليس له أداة تنكير: Ich habe Kinder). حالة الرفع (Nominativ) للفاعل، أي من يقوم بالفعل: Der Kaffee ist heiß. وحالة النصب (Akkusativ) للمفعول به المباشر، أي ما يملكه أحدهم أو يشتريه أو يراه أو يريده: Ich trinke den Kaffee. ولا تتغيّر في حالة النصب إلا أداة المذكر: der → den، ein → einen؛ أمّا die, das, eine, ein فتبقى كما هي. وتأتي حالة النصب أيضًا بعد 'es gibt' وبعد حروف الجر für, ohne, durch, gegen, um: Es gibt einen Park. Das ist für den Lehrer.",
+      "examples": [
+        "الشاي بارد، لكنني سأشرب الشاي على أي حال.",
+        "لديّ أخ وأخت.",
+        "سنأخذ الخبز والطماطم.",
+        "هل يوجد سوبرماركت هنا؟ – نعم، عند الزاوية."
+      ],
+      "pitfalls": [
+        "'haben' يأخذ حالة النصب؛ و Hund اسم مذكر، فإذًا einen Hund.",
+        "هنا der Mann هو المفعول به المباشر (حالة النصب): فتتحوّل der إلى den.",
+        "Suppe اسم مؤنث: die Suppe. الجنس مذكور في القاموس ويُحفظ مع الكلمة.",
+        "'für' يتبعها دائمًا حالة النصب: für meinen Vater."
+      ]
+    },
+    "possessivartikel": {
+      "title": "ضمائر الملكية: mein, dein, sein, ihr …",
+      "rule": "تقول ضمائر الملكية لمن يعود الشيء: ich → mein، du → dein، er/es → sein، sie (مفرد) → ihr، wir → unser، ihr → euer، sie (جمع) → ihr، Sie → Ihr. وتأخذ النهايات نفسها التي تأخذها 'ein' و 'kein': mein Bruder (مذكر)، meine Schwester (مؤنث)، mein Kind (محايد)، meine Eltern (جمع). وفي حالة النصب لا يأخذ -en إلا المذكر: Ich sehe meinen Bruder. يُختار الضمير بحسب المالك، والنهاية بحسب الاسم: sein Auto (سيارته هو)، ihr Auto (سيارتها هي). وتسقط من 'euer' الـ e الثانية قبل النهاية: eure Kinder.",
+      "examples": [
+        "هذه أمي وهذا أبي.",
+        "ما اسم أختك؟ – اسمها ليا.",
+        "بيتر يبحث عن مفتاحه.",
+        "هل هؤلاء أطفالكم؟ – نعم، أطفالنا كبار بالفعل."
+      ],
+      "pitfalls": [
+        "النهاية تتبع الاسم: Bruder مذكر، فإذًا mein Bruder بلا -e.",
+        "المالكة هي Anna (هي) → ihr؛ و Hund في حالة النصب → ihren Hund.",
+        "في حالة النصب يأخذ المذكر -en: deinen Vater.",
+        "قبل النهاية تفقد 'euer' الـ e الثانية: eure, euren, eurem."
+      ]
+    },
+    "pluralformen": {
+      "title": "صيغ الجمع: -e أو -(e)n أو -er أو -s أو بلا نهاية",
+      "rule": "في الجمع تكون الأداة دائمًا 'die'، لكن نهاية الاسم يجب حفظها مع الكلمة. وخمسة أنماط تغطّي كل شيء تقريبًا: -e، كثيرًا مع الأوملاوت (der Tisch – die Tische, der Stuhl – die Stühle)؛ -(e)n، وهي نموذجية للأسماء المؤنثة (die Frau – die Frauen, die Lampe – die Lampen)؛ -er، عادةً مع الأوملاوت، للأسماء المحايدة القصيرة (das Kind – die Kinder, das Buch – die Bücher)؛ -s للكلمات الأجنبية والكلمات المنتهية بحرف علّة (das Auto – die Autos, das Hotel – die Hotels)؛ وبلا نهاية للأسماء المنتهية بـ -er و -el و -en، كثيرًا مع الأوملاوت (der Lehrer – die Lehrer, der Apfel – die Äpfel). والأسماء المنتهية بـ -chen و -lein لا تتغيّر: das Mädchen – die Mädchen.",
+      "examples": [
+        "أحتاج إلى كرسيَّين وطاولة.",
+        "الأطفال يقرؤون كتبًا.",
+        "ثلاث تفاحات وأربع حبات طماطم وست بيضات، من فضلك.",
+        "الفنادق في المدينة غالية."
+      ],
+      "pitfalls": [
+        "Kind يكوّن جمعه بـ -er: die Kinder. أمّا النهاية -s فنادرة في الألمانية.",
+        "الأسماء المنتهية بـ -el كثيرًا ما تأتي بلا نهاية لكن مع الأوملاوت: der Apfel – die Äpfel.",
+        "الكلمات المنتهية بحرف علّة والكلمات الأجنبية تأخذ -s: Autos, Hotels, Handys.",
+        "في الجمع تكون الأداة دائمًا 'die'، أيًّا كان الجنس."
+      ]
+    },
+    "zeit-und-ortsangaben": {
+      "title": "عبارات الزمان والمكان: um, am, im, von … bis؛ in, nach, zu, bei",
+      "rule": "الزمان: 'um' للساعات (um acht Uhr)، و 'am' للأيام وأجزاء اليوم (am Montag, am Morgen, am Wochenende – لكن: in der Nacht)، و 'im' للشهور والفصول (im Mai, im Winter)، و 'von … bis' للمدة (von neun bis fünf)، و 'ab' لنقطة البداية (ab morgen). المكان، جوابًا عن 'wo?': 'in' للمدن والبلدان والغرف (in Berlin, in der Küche)، و 'bei' للأشخاص والشركات (bei meiner Oma, bei Siemens)، و 'zu Hause'. الوجهة، جوابًا عن 'wohin?': 'nach' للمدن والبلدان التي بلا أداة ولعبارة 'nach Hause' (nach Wien, nach Hause)، و 'in' + حالة النصب للبلدان التي لها أداة وللغرف (in die Schweiz, in die Küche)، و 'zu' + حالة الجر للأشخاص والمحلات والمواعيد (zum Arzt, zur Arbeit, zu Lisa).",
+      "examples": [
+        "الدورة يوم الثلاثاء في الساعة السادسة والنصف.",
+        "في أغسطس سنسافر إلى إيطاليا.",
+        "أعمل من الاثنين إلى الجمعة في شركة صغيرة.",
+        "هل ستذهب إلى الطبيب اليوم؟ – لا، سأبقى في البيت."
+      ],
+      "pitfalls": [
+        "الساعات تأخذ 'um'؛ أمّا 'am' فتأتي مع الأيام (am Montag) وأجزاء اليوم (am Abend).",
+        "المدن والبلدان التي بلا أداة تأخذ 'nach': nach Berlin, nach Spanien.",
+        "'nach Hause' للاتجاه (إلى أين؟)، و 'zu Hause' للمكان (أين؟).",
+        "الأشخاص يأخذون 'bei' (beim Arzt, bei Anna)؛ أمّا 'in' فللغرف والأماكن (in der Praxis)."
+      ]
+    },
     "kennen-wissen-koennen": {
       "title": "kennen أم wissen أم können؟",
       "rule": "'Kennen' تعني معرفة شخص أو مكان أو شيء والاطّلاع عليه، وتأخذ مفعولًا به مباشرًا: Ich kenne die Stadt. 'Wissen' تعني امتلاك معلومة؛ ويأتي بعدها غالبًا 'dass' أو 'ob' أو أداة استفهام أو 'es/das'، وإلا فشيء مثل (die Antwort): Ich weiß, dass er kommt. أمّا 'Können' فهي الفعل المساعد الناقص للقدرة أو الإمكانية، وتأتي عادةً مع مصدر: Ich kann schwimmen.",
@@ -300,6 +396,70 @@
         "الأشخاص والأجهزة المنتهية أسماؤهم بـ -er مذكرة غالبًا: der Computer, der Drucker, der Fahrer.",
         "النهاية -e لا تدلّ على جنس: das Ende, das Auge محايدان، و die Lampe مؤنث، و der Name مذكر. احفظ أداة التعريف مع الكلمة.",
         "الكلمات الدخيلة المنتهية بـ -ion مؤنثة في الغالب الأعمّ: die Nation, die Information, die Diskussion."
+      ]
+    },
+    "personalpronomen-akkusativ-dativ": {
+      "title": "الضمائر الشخصية في حالتَي النصب والجر: mich/mir, dich/dir, ihn/ihm …",
+      "rule": "حالة الرفع: ich, du, er, sie, es, wir, ihr, sie/Sie. حالة النصب (المفعول به المباشر؛ وبعد für, ohne, um): mich, dich, ihn, sie, es, uns, euch, sie/Sie. حالة الجر (المفعول به غير المباشر – لمن؟؛ وبعد mit, bei, von, zu وبعد أفعال مثل helfen, gefallen, danken, gehören): mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. لاحظ: لا تختلف صيغتا النصب والجر إلا مع ich و du و er/sie/es؛ أمّا uns و euch فمتطابقتان في الحالتين. وعند وجود ضميرين في الجملة يأتي ضمير النصب قبل ضمير الجر: Ich gebe es dir.",
+      "examples": [
+        "هل يمكنك مساعدتي؟ – نعم، أساعدك بكل سرور.",
+        "سأتصل به غدًا وأسأله.",
+        "الهدية لك. هل تعجبك؟",
+        "نشكركم على الدعوة."
+      ],
+      "pitfalls": [
+        "'helfen' يأخذ دائمًا حالة الجر: mir, dir, ihm, ihr, uns, euch, ihnen.",
+        "'lieben' له مفعول به مباشر في حالة النصب: dich, ihn, sie, euch.",
+        "'gehören' يتطلّب حالة الجر: ihm, ihr, ihnen.",
+        "ضميران: النصب (es) قبل الجر (dir)."
+      ]
+    },
+    "praeteritum-sein-haben-modalverben": {
+      "title": "الـ Präteritum لـ sein و haben والأفعال المساعدة الناقصة: war, hatte, konnte",
+      "rule": "في الكلام يُروى الماضي غالبًا بالـ Perfekt – إلا مع 'sein' و 'haben' والأفعال المساعدة الناقصة، فهي تأخذ الـ Präteritum حتى في الكلام. sein: ich war, du warst, er war, wir waren, ihr wart, sie waren. haben: ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten. وتفقد الأفعال المساعدة الناقصة الأوملاوت وتضيف -te: können → konnte، müssen → musste، dürfen → durfte، sollen → sollte، wollen → wollte، mögen → mochte؛ ويذهب المصدر إلى نهاية الجملة: Ich musste gestern arbeiten. ولا تأخذ ich و er/sie/es نهاية في الـ Präteritum: ich war, er hatte, sie konnte.",
+      "examples": [
+        "أين كنت أمس؟ – كنت مريضًا وكانت عندي حمّى.",
+        "لم نستطع المجيء لأنه لم يكن لدينا وقت.",
+        "عندما كنت طفلًا أردت أن أصبح طيّارًا.",
+        "اضطُررت إلى الانتظار طويلًا، أليس كذلك؟"
+      ],
+      "pitfalls": [
+        "مع sein و haben يكون الـ Präteritum هو الخيار المعتاد، حتى في المحادثة؛ ويجب أن يبقى الفعل في الموضع الثاني.",
+        "'könnte' هي Konjunktiv II (للتهذيب وغير الواقعي)؛ أمّا الماضي فهو 'konnte' بلا أوملاوت.",
+        "يذهب المصدر إلى نهاية الجملة، في الـ Präteritum أيضًا: musste … arbeiten.",
+        "er/sie/es لا تأخذ نهاية في الـ Präteritum: sie hatte, er war, es konnte."
+      ]
+    },
+    "hoefliche-bitten-konjunktiv-ii": {
+      "title": "الطلبات المهذّبة: Könnten Sie …? Würden Sie …? Ich hätte gern …",
+      "rule": "تستخدم الطلبات والأمنيات المهذّبة صيغة Konjunktiv II لثلاثة أفعال: könnte (من können)، hätte (من haben)، würde (من werden) – إضافةً إلى 'wäre' (من sein) و 'möchte'. 'Könnten Sie mir helfen?' أكثر تهذيبًا من 'Können Sie mir helfen?'؛ و 'Würden Sie bitte das Fenster schließen?' أكثر تهذيبًا من صيغة الأمر. وعند الطلب في المطعم والتسوّق: 'Ich hätte gern einen Kaffee'، 'Ich möchte zwei Brötchen'. الصيغ: ich könnte, du könntest, er könnte, wir könnten, Sie könnten؛ ich hätte, du hättest, er hätte؛ ich würde, du würdest, er würde, wir würden. وتزيد 'bitte' و 'gern' الطلب لطفًا.",
+      "examples": [
+        "هل يمكنك أن تكرّر ذلك من فضلك؟",
+        "أودّ كيلو تفاح وقطعتَي خبز صغيرتين.",
+        "هل لك أن تساعدني لحظةً؟",
+        "هل سيكون لديك وقت يوم الجمعة؟ – سيكون ذلك رائعًا."
+      ],
+      "pitfalls": [
+        "صيغة الطلب هي 'Ich hätte gern' (Konjunktiv II)؛ أمّا 'Ich habe gern' فتعني «أحبّ».",
+        "يذهب المصدر إلى النهاية: Könnten Sie mir helfen?",
+        "الشخص الذي يتلقّى شيئًا يكون في حالة الجر: mir.",
+        "'konnte' صيغة الماضي؛ أمّا الطلب المهذّب فيحتاج إلى 'könnte' مع الأوملاوت، ويأتي الفعل أولًا في السؤال."
+      ]
+    },
+    "dativ-verben-praepositionen": {
+      "title": "حالة الجر: أفعال مثل helfen, gefallen, gehören وحروف الجر aus, bei, mit, nach, seit, von, zu",
+      "rule": "تجيب حالة الجر (Dativ) عن 'wem?' (لمن). الأدوات في حالة الجر: dem (للمذكر والمحايد)، der (للمؤنث)، den + -n (للجمع): mit dem Bus, bei der Arbeit, von den Kindern؛ وأدوات التنكير: einem, einer, einem؛ وضمائر الملكية: meinem, meiner, meinen. بعض الأفعال تضع الشخص دائمًا في حالة الجر: helfen, danken, gefallen, gehören, antworten, gratulieren, schmecken, passen, fehlen, wehtun: Das Kleid gefällt mir. Der Rücken tut ihm weh. وحروف الجر aus, bei, mit, nach, seit, von, zu (وكذلك gegenüber و ab) يتبعها دائمًا حالة الجر: aus der Schweiz, seit einem Jahr, zu meiner Oma. والصيغ المدمجة: zum (zu dem)، zur (zu der)، beim (bei dem)، vom (von dem).",
+      "examples": [
+        "أذهب إلى العمل بالدراجة.",
+        "الحساء لا يعجب الأطفال.",
+        "عيد ميلاد سعيد! (نهنّئك بعيد ميلادك.)",
+        "أسكن عند عمّتي منذ شهر."
+      ],
+      "pitfalls": [
+        "'mit' تأخذ دائمًا حالة الجر: der Bus → mit dem Bus. أمّا 'den' فستكون حالة النصب.",
+        "'gefallen' فعل يأخذ حالة الجر: الشيء يعجب الشخص (mir, dir, ihm).",
+        "'helfen' يتطلّب حالة الجر: ihrer Mutter، لا ihre Mutter.",
+        "'aus' يتبعها حالة الجر، و Türkei لها أداة تعريف: aus der Türkei."
       ]
     },
     "als-wenn-wann": {
@@ -537,6 +697,69 @@
         "الألمانية تسأل بـ 'wie': Wie heißt du? Wie ist dein Name? أمّا 'Was' فتبدو كترجمة حرفية."
       ]
     },
+    "indirekte-fragen": {
+      "title": "الأسئلة غير المباشرة: Weißt du, wann der Zug fährt? Können Sie mir sagen, ob …?",
+      "rule": "يتعلّق السؤال غير المباشر بجملة تمهيدية مثل 'Weißt du, …'، 'Können Sie mir sagen, …'، 'Ich frage mich, …'، 'Ich möchte wissen, …'. وهو جملة ثانوية: يذهب الفعل المصرَّف إلى النهاية. يتحوّل السؤال بأداة الاستفهام إلى جملة ثانوية بالأداة نفسها: Wann fährt der Zug? → Weißt du, wann der Zug fährt? ويتحوّل سؤال نعم/لا إلى جملة بـ 'ob': Kommt er? → Ich weiß nicht, ob er kommt. تبدو الأسئلة غير المباشرة أكثر تهذيبًا من المباشرة، وهي نموذجية عند الشبابيك وعلى الهاتف وفي الرسائل الإلكترونية. وتتبع علامات الترقيم الجملة الرئيسية: علامة استفهام بعد 'Weißt du, …?'، ونقطة بعد 'Ich weiß nicht, ….'",
+      "examples": [
+        "هل يمكنك أن تقول لي أين المحطة؟",
+        "لا أعرف ما إذا كان المتجر مفتوحًا اليوم.",
+        "هل تعرف كم تكلّف التذكرة؟",
+        "أودّ أن أعرف لماذا لم تصل الشحنة بعد."
+      ],
+      "pitfalls": [
+        "السؤال غير المباشر جملة ثانوية: يذهب الفعل إلى النهاية.",
+        "سؤال نعم/لا غير المباشر تُدخله 'ob'؛ أمّا 'wenn' فتعني «إذا (في حال)» أو «كلّما».",
+        "السؤال (Hält der Bus hier?) يحتاج إلى 'ob'؛ أمّا 'dass' فتنقل جملة خبرية."
+      ]
+    },
+    "verben-mit-praepositionen-da-wo": {
+      "title": "الأفعال مع حروف الجر وكلمات da(r)-/wo(r)-: warten auf, darauf, worauf",
+      "rule": "لكثير من الأفعال حرف جر ثابت بحالة إعرابية ثابتة، يُحفظ مع الفعل: warten auf + نصب، sich freuen auf (للمستقبل) / über (للحاضر) + نصب، denken an + نصب، sich interessieren für + نصب، sich ärgern über + نصب، sich kümmern um + نصب، sich bewerben um + نصب، teilnehmen an + جر، sich beschäftigen mit + جر، träumen von + جر، Angst haben vor + جر، fragen nach + جر. وعن الشيء تسأل بـ wo(r)- وتجيب بـ da(r)-: Worauf wartest du? – Darauf. Wofür interessierst du dich? – Dafür. ويظهر حرف الـ r عندما يبدأ حرف الجر بحرف علّة (darauf, worüber, daran)، وإلا فلا (dafür, womit, davon). أمّا عن الشخص فيبقى حرف الجر والضمير: Auf wen wartest du? – Auf ihn. ويمكن لكلمة da(r)- أن تشير أيضًا إلى جملة كاملة: Ich freue mich darauf, dass du kommst.",
+      "examples": [
+        "أنتظر الحافلة منذ ساعة.",
+        "عمّ تحدّثتم؟ – عن الفيلم الجديد.",
+        "هل تهتمّ بالسياسة؟ – نعم، أهتمّ بها كثيرًا.",
+        "أتطلّع إلى أن نلتقي قريبًا."
+      ],
+      "pitfalls": [
+        "'warten' يأتي مع 'auf' + حالة النصب، لا مع 'für' كما في الإنجليزية.",
+        "عن الأشياء تسأل بكلمة wo(r)-: worauf, womit, wofür. أمّا 'Auf was' فعامّية فقط.",
+        "الضمير الذي يعود على شيء يندمج مع حرف الجر في كلمة da(r)-: daran, davon, damit.",
+        "'sich freuen auf' تتطلّع إلى الأمام (ترقّب)، أمّا 'sich freuen über' فتخصّ ما هو موجود بالفعل."
+      ]
+    },
+    "zweiteilige-konnektoren": {
+      "title": "أدوات الربط الثنائية: nicht nur … sondern auch, entweder … oder, weder … noch, zwar … aber, je … desto",
+      "rule": "تربط أدوات الربط الثنائية جزأين من الجملة أو جملتين وتوضّح العلاقة بينهما: nicht nur … sondern auch (إضافة مع توكيد)، sowohl … als auch (كلاهما)، entweder … oder (أحد خيارين)، weder … noch (لا هذا ولا ذاك – وهي منفية أصلًا، فلا 'nicht' إضافية)، zwar … aber (استدراك)، je … desto/umso (شيئان يزدادان معًا). ترتيب الكلمات: 'sondern auch' و 'aber' و 'oder' لا تغيّره؛ أمّا 'weder' و 'zwar' و 'entweder' فيمكن أن تحتلّ الموضع الأول ويليها الفعل؛ وبعد 'je' تأتي جملة ثانوية فعلها في النهاية، وبعد 'desto' تأتي صيغة المقارنة مباشرةً ثم الفعل: Je mehr ich übe, desto besser spreche ich.",
+      "examples": [
+        "هي لا تتكلّم الألمانية فحسب، بل التركية والعربية أيضًا.",
+        "سنذهب إمّا بالقطار وإمّا بالحافلة.",
+        "ليس لديّ الوقت ولا الرغبة.",
+        "كلّما طالت إقامتي في ألمانيا، فهمت الناس أفضل."
+      ],
+      "pitfalls": [
+        "'weder … noch' منفية أصلًا؛ وإضافة 'nicht' خطأ.",
+        "بعد 'desto' تأتي صيغة المقارنة أولًا، ثم الفعل، ثم الفاعل.",
+        "'zwar' تخصّ الجزء الأول فقط؛ ويبدأ الجزء الثاني بـ 'aber'.",
+        "'nicht nur' تُكمَل بـ 'sondern auch'، لا بـ 'aber auch'."
+      ]
+    },
+    "passiv-praesens": {
+      "title": "المبني للمجهول في المضارع والـ Präteritum: Das Brot wird gebacken, das Haus wurde gebaut",
+      "rule": "يُستخدم المبني للمجهول عندما يكون الحدث أهمّ ممّن يقوم به: In der Bäckerei wird das Brot morgens gebacken. التكوين: werden (مصرَّفًا) + اسم المفعول في نهاية الجملة. المضارع: ich werde gefragt, du wirst gefragt, er/sie/es wird gefragt, wir werden gefragt, ihr werdet gefragt, sie werden gefragt. الـ Präteritum: wurde, wurdest, wurde, wurden, wurdet, wurden: Das Haus wurde 1990 gebaut. يصبح المفعول به في حالة النصب في الجملة المبنية للمعلوم فاعلًا في الجملة المبنية للمجهول: Man repariert das Auto → Das Auto wird repariert. ويُذكر الفاعل الحقيقي – إن ذُكر أصلًا – بـ 'von' + حالة الجر: Das Auto wird von einem Mechaniker repariert. وبلا مفعول به تبدأ الجملة بـ 'es' أو بظرف: Hier wird nicht geraucht.",
+      "examples": [
+        "تُدفع الفاتورة في نهاية الشهر.",
+        "فُتح الحساب أمس.",
+        "تُصنع سيارات كثيرة في ألمانيا.",
+        "تُسلَّم الطرود من قِبل البريد."
+      ],
+      "pitfalls": [
+        "الحدث (شخص ما يخبزه) يأخذ المبني للمجهول مع 'werden'؛ أمّا 'ist gebacken' فلا تصف إلا الحالة المنتهية.",
+        "'von' تأخذ حالة الجر (von dem / vom Mechaniker)، ويذهب اسم المفعول إلى النهاية.",
+        "'werden' يطابق الفاعل: die Häuser (جمع) → wurden.",
+        "الفاعل هو 'keine Fotos' (جمع): werden … gemacht."
+      ]
+    },
     "passiv-werden-sein": {
       "title": "المبني للمجهول مع werden أم sein؟",
       "rule": "المبني للمجهول الحدثي 'werden' + اسم المفعول يصف فعلًا يجري أو جرى: Die Tür wird geschlossen (شخص ما يغلقه). أمّا المبني للمجهول الحالي 'sein' + اسم المفعول فيصف النتيجة، أي الحالة بعد ذلك: Die Tür ist geschlossen (إنه مغلق). والـ Perfekt للمبني للمجهول الحدثي هو 'ist geschlossen worden'.",
@@ -565,6 +788,147 @@
       "pitfalls": [
         "المغادرة سبقت الوصول: Plusquamperfekt مع war.",
         "مع الـ Präteritum في الجملة الرئيسية تأخذ جملة 'nachdem' الـ Plusquamperfekt."
+      ]
+    },
+    "konjunktiv-ii-vergangenheit": {
+      "title": "Konjunktiv II في الماضي: hätte … gemacht, wäre … gegangen",
+      "rule": "للمواقف غير الواقعية في الماضي – ما كان يمكن أن يحدث ولم يحدث – تُكوَّن صيغة Konjunktiv II بـ hätte أو wäre + اسم المفعول: Ich hätte dich angerufen. Wir wären gern gekommen. ويتبع الاختيار بين hätte و wäre الـ Perfekt (habe gemacht → hätte gemacht؛ bin gegangen → wäre gegangen). الاستعمالات النموذجية: الشروط غير الواقعية (Wenn ich das gewusst hätte, wäre ich früher gegangen)، والأمنيات (Hätte ich doch mehr gelernt!)، واللوم والحكم بأثر رجعي (Du hättest mich fragen können). ومع الفعل المساعد الناقص يقف مصدر مزدوج في النهاية، وفي الجملة الثانوية تنتقل 'hätte' إلى ما قبله: …, weil ich hätte arbeiten müssen. ولا توجد صيغة بـ 'würde' للماضي.",
+      "examples": [
+        "لو كنت أعرف ذلك، لما أتيت.",
+        "ليتني بدأت دورة الألمانية أبكر!",
+        "كان بإمكانك أن تتصل بي.",
+        "لولا مساعدتك لما وجدنا الشقة أبدًا."
+      ],
+      "pitfalls": [
+        "بعد الجملة الثانوية المتقدّمة تبدأ الجملة الرئيسية بالفعل: …, wäre ich gekommen.",
+        "'fahren' يكوّن الـ Perfekt بـ sein (ich bin gefahren)، فإذًا wäre gefahren.",
+        "يُكوَّن Konjunktiv II في الماضي بـ hätte/wäre + اسم المفعول، لا بـ 'würde'.",
+        "مع المصدر المزدوج تأتي 'hätte' قبل المصدرين في الجملة الثانوية."
+      ]
+    },
+    "irreale-vergleiche-als-ob": {
+      "title": "المقارنات غير الواقعية: als ob, als wenn, als + Konjunktiv II",
+      "rule": "تصف المقارنة غير الواقعية كيف يبدو شيء ما، مع أنه ليس كذلك: Er tut so, als ob er alles wüsste. بعد 'als ob' و 'als wenn' تأتي جملة ثانوية فعلها في النهاية بصيغة Konjunktiv II (wüsste, hätte, wäre, würde … machen؛ وفي الماضي: hätte … gemacht, wäre … gewesen). والأقصر والأكثر كتابيةً هي 'als' وحدها: وعندها يأتي الفعل مباشرةً بعدها: Er tut so, als wüsste er alles. العبارات التمهيدية النموذجية: so tun, als ob؛ es scheint, als ob؛ es sieht aus, als ob؛ sich fühlen, als ob؛ so klingen, als ob. ويتبع زمن الـ Konjunktiv المقارنة: التزامن → صيغة الحاضر (als ob er krank wäre)، والأسبقية → صيغة الماضي (als ob er nie krank gewesen wäre).",
+      "examples": [
+        "تتصرّف كأنها لا تعرفني.",
+        "يبدو كأنها أمطرت طوال الليل.",
+        "يتكلّم كأنه المدير.",
+        "أشعر كأنني لم أنم منذ أسبوع."
+      ],
+      "pitfalls": [
+        "بعد 'als ob' يذهب الفعل إلى النهاية وبصيغة Konjunktiv II: wäre.",
+        "مع 'als' بلا 'ob' يأتي الفعل المصرَّف مباشرةً بعد 'als'.",
+        "المقارنة غير الواقعية هي 'als ob' (أو 'als wenn' أو 'als')، وليست 'wie ob' أبدًا."
+      ]
+    },
+    "passiv-mit-modalverben": {
+      "title": "المبني للمجهول مع الأفعال المساعدة الناقصة: muss repariert werden, konnte nicht geöffnet werden",
+      "rule": "مع الفعل المساعد الناقص يكون المبني للمجهول: الفعل المساعد الناقص (مصرَّفًا) + اسم المفعول + werden (مصدرًا) في نهاية الجملة: Das Auto muss repariert werden. Die Rechnung kann online bezahlt werden. وفي الـ Präteritum لا يتغيّر إلا الفعل المساعد الناقص: Die Tür konnte nicht geöffnet werden. وفي الـ Perfekt يظهر مصدر مزدوج مع haben: Die Rechnung hat bezahlt werden müssen – وعمليًّا يُستخدم الـ Präteritum بدلًا منه في كل الأحوال تقريبًا. وفي الجملة الثانوية يذهب الفعل المساعد الناقص إلى أقصى النهاية: …, weil das Auto repariert werden muss. وبدلًا من المبني للمجهول مع فعل مساعد ناقص يمكنك أن تقول أيضًا: man muss … reparieren، … ist zu reparieren، … lässt sich reparieren.",
+      "examples": [
+        "يجب قراءة العدّاد حتى يوم الجمعة.",
+        "لم يكن بالإمكان تسليم الطرد أمس.",
+        "يمكن تقديم الشكاوى بالبريد الإلكتروني أيضًا.",
+        "أتصل لأن الفاتورة يجب تصحيحها."
+      ],
+      "pitfalls": [
+        "في النهاية يأتي اسم المفعول أولًا، ثم 'werden': repariert werden.",
+        "المعنى هو الحدث (على أحدهم أن يملأها): المبني للمجهول الحدثي مع 'werden'. أمّا 'muss ausgefüllt sein' فستعني أنها يجب أن تكون في حالة مملوءة.",
+        "في الجملة الثانوية يذهب الفعل المساعد الناقص المصرَّف إلى أقصى النهاية.",
+        "بعد الفعل المساعد الناقص يأتي المصدر 'werden'، لا اسم المفعول."
+      ]
+    },
+    "partizip-i-ii-als-adjektiv": {
+      "title": "Partizip I و Partizip II كصفتين: das weinende Kind, das reparierte Auto",
+      "rule": "يمكن لكلا الـ Partizip أن يقف قبل الاسم، وعندها يُصرَّف مثل الصفة. يصف Partizip I (المصدر + d: weinend, steigend, kommend) شيئًا يحدث الآن، مبنيًّا للمعلوم ومتزامنًا: das weinende Kind (الطفل الذي يبكي)، die steigenden Mieten (الإيجارات التي ترتفع). ويصف Partizip II (gemacht, repariert, gebaut) شيئًا مكتملًا، مبنيًّا للمجهول عادةً: das reparierte Auto (السيارة التي أُصلحت)، die renovierte Wohnung. وتتبع النهايات قواعد الصفات: mit dem lachenden Mann, ein frisch gestrichenes Zimmer. ولا تكوّن Partizip II مبنيًّا للمعلوم إلا الأفعال التي تُصرَّف في الـ Perfekt بـ sein: der angekommene Zug (القطار الذي وصل). ويعبّر Partizip I مع 'zu' عن الضرورة أو الإمكان: die zu zahlende Miete (الإيجار الذي يجب دفعه).",
+      "examples": [
+        "الإيجارات الآخذة في الارتفاع هي أكبر مشكلات المدينة.",
+        "عاينّا شقة مجدَّدة حديثًا ذات شرفة.",
+        "أرانا السمسار العقاري البيت المبنيّ حديثًا.",
+        "يُرجى تحويل مبلغ التأمين المستحقّ حتى يوم الاثنين."
+      ],
+      "pitfalls": [
+        "ما يحدث الآن يحتاج إلى Partizip I: weinen + d + النهاية = weinende.",
+        "الآلة أُصلحت (مبني للمجهول، مكتمل): Partizip II. أمّا 'reparierend' فستعني أنها تصلح شيئًا بنفسها.",
+        "لا تكوّن Partizip II مبنيًّا للمعلوم إلا الأفعال التي تأخذ sein في الـ Perfekt (der Gast ist gekommen)؛ أمّا 'der gegessene Gast' فسيكون ضيفًا أكله أحدهم.",
+        "يُصرَّف الـ Partizip مثل الصفة: بعد 'dem' تكون النهاية -en."
+      ]
+    },
+    "genitivpraepositionen": {
+      "title": "حروف الجر مع حالة الإضافة: wegen, trotz, während, innerhalb, aufgrund, anstelle",
+      "rule": "بعض حروف الجر تأخذ حالة الإضافة (Genitiv) في الألمانية الفصيحة: wegen (السبب)، trotz (رغم)، während (المدة)، innerhalb/außerhalb (المكان والزمان)، aufgrund (السبب، رسمي)، anstelle/(an)statt (بدلًا من)، infolge (نتيجةً لـ)، mithilfe (بواسطة)، bezüglich/hinsichtlich (فيما يتعلق بـ، رسمي). صيغ حالة الإضافة: des Wetters, der Arbeit, des Jahres, der Kinder – تأخذ الأسماء المذكرة والمحايدة -s أو -es في المفرد. ومع الضمائر تكون 'wegen mir' عامّية؛ أمّا في الكتابة فهي meinetwegen, deinetwegen, seinetwegen, unseretwegen. وفي الكلام كثيرًا ما يتبع wegen و trotz حالة الجر (wegen dem Regen)؛ أمّا في الرسائل والامتحانات والتقارير فحالة الإضافة هي المعتمدة. وحيث يأتي اسم في الجمع بلا أداة تحلّ 'von' محلّها: wegen Bauarbeiten, innerhalb von zwei Wochen.",
+      "examples": [
+        "بسبب الإضراب لا تسير القطارات اليوم.",
+        "رغم الانتظار الطويل كان الموعد ناجحًا.",
+        "أثناء دراستها عملت في مقهى.",
+        "يجب تقديم الطلب في غضون شهر."
+      ],
+      "pitfalls": [
+        "في الكتابة والاستعمال الرسمي تأخذ 'wegen' حالة الإضافة: des schlechten Wetters. أمّا حالة الجر فعامّية.",
+        "تأخذ الأسماء المذكرة والمحايدة -s/-es في حالة الإضافة للمفرد: des Regens.",
+        "'während' بوصفها حرف جر تأخذ حالة الإضافة: während der Prüfung. (أمّا بوصفها أداة ربط فتفتح 'während' جملة: Während ich lerne, …)",
+        "بلا أداة لا تظهر حالة الإضافة للجمع؛ وعندها تكون 'innerhalb von' + حالة الجر."
+      ]
+    },
+    "relativsaetze-praepositionen-wo-was": {
+      "title": "جمل الصلة مع حرف جر، و wo و was و wer: der Freund, mit dem …؛ alles, was …",
+      "rule": "إذا كان فعل جملة الصلة يتعلّق بحرف جر، وقف حرف الجر قبل ضمير الوصل وحدّد الحالة الإعرابية: der Freund, mit dem ich wohne (wohnen mit + حالة الجر)؛ die Firma, für die sie arbeitet (arbeiten für + حالة النصب)؛ das Thema, über das wir gesprochen haben. وللأماكن يمكن استخدام 'wo' (الموضع) أو 'wohin' (الاتجاه) أو 'woher' (الأصل): die Stadt, in der ich wohne = die Stadt, wo ich wohne؛ ومع أسماء المدن 'wo' فقط: Berlin, wo ich studiert habe. وتأتي 'was' بعد alles و nichts و etwas و vieles و das وبعد صيغة تفضيل مستعملة اسمًا وبعد جملة كاملة: alles, was ich weiß؛ das Beste, was passieren konnte؛ Er kam zu spät, was mich geärgert hat. ومع حرف الجر تصبح كلمة wo(r)-: etwas, worauf ich mich freue. أمّا 'wer …, der …' بلا اسم سابق فتعني «كلّ من»: Wer zu spät kommt, (der) bekommt keinen Platz.",
+      "examples": [
+        "هذا هو الزميل الذي أدير معه المشروع.",
+        "المدينة التي نشأت فيها تغيّرت كثيرًا.",
+        "في هذا الاقتراح الكثير ممّا يمكن انتقاده.",
+        "من لا يعرف القانون لا يستطيع الالتزام به أيضًا."
+      ],
+      "pitfalls": [
+        "يقف حرف الجر وضمير الوصل معًا في بداية جملة الصلة: mit dem.",
+        "بعد 'alles' و 'nichts' و 'etwas' و 'das' يكون ضمير الوصل 'was'.",
+        "حرف الجر يحدّد الحالة الإعرابية: 'für' + حالة النصب → für die (Firma).",
+        "عندما تعود جملة الصلة على الجملة كلها، استخدم 'was'."
+      ]
+    },
+    "modalpartikeln": {
+      "title": "أدوات التلوين (Modalpartikeln): doch, mal, ja, eben, halt, denn, eigentlich",
+      "rule": "أدوات التلوين كلمات صغيرة غير منبورة تقع في وسط الجملة وتضفي عليها موقفًا – وهي تجعل الألمانية المحكية طبيعية ولا تكاد تُترجم. 'doch': طلب أو تذكير بشيء معروف (Komm doch mit! Das weißt du doch.)؛ 'mal': تجعل الطلب عفويًّا (Kannst du mal kommen?)؛ 'ja': شيء معروف أو مفاجئ (Das ist ja toll! Du weißt ja, wie er ist.)؛ 'eben'/'halt': لا بدّ من القبول به (Dann müssen wir eben warten.)؛ 'denn': تجعل السؤال ودّيًّا ومهتمًّا (Wie heißt du denn? Was ist denn los?)؛ 'eigentlich': سؤال عفوي أو تحفّظ (Wo wohnst du eigentlich? Eigentlich wollte ich früher gehen.)؛ 'schon': تطمئن أو تسلّم بشيء (Das wird schon klappen.)؛ 'wohl': افتراض (Er ist wohl krank.). تأتي بعد الفعل والضمائر، وقبل المتمّمات عادةً، وتكاد تقتصر على الجمل الرئيسية والأسئلة، ولا ترد في الرسائل الرسمية.",
+      "examples": [
+        "تفضّل بالجلوس! هل تودّ قهوة؟",
+        "ما الذي حدث يا ترى؟ تبدو شاحبًا تمامًا.",
+        "هل يمكنك أن تساعدني لحظة فقط؟",
+        "فات القطار. إذًا سنأخذ القطار التالي، لا بأس."
+      ],
+      "pitfalls": [
+        "تقع أدوات التلوين في وسط الجملة بعد الفعل، ولا تأتي أبدًا في الموضع الأول (فهناك ستكون 'doch' تعارضًا منبورًا).",
+        "'doch mal' أسلوب محادثة بين أشخاص يعرف بعضهم بعضًا؛ وفي الرسالة الرسمية لا محلّ لها.",
+        "الأسئلة الودّية تأخذ 'denn'؛ أمّا 'eben' فتعبّر عن أن شيئًا ما لا بدّ من القبول به."
+      ]
+    },
+    "konnektoren-indem-sodass-ohne-dass": {
+      "title": "أدوات الربط للوسيلة والنتيجة والعكس: indem, dadurch dass, sodass, ohne dass / ohne … zu, (an)statt dass / (an)statt … zu",
+      "rule": "تقول أدوات الربط الثانوية هذه كيف يحدث شيء ما وما يترتّب عليه؛ ويذهب الفعل المصرَّف إلى النهاية. الوسيلة: 'indem' و 'dadurch, dass' (Sie lernt Vokabeln, indem sie Karten schreibt. – كيف؟ بكتابة البطاقات). النتيجة: 'sodass' أو 'so …, dass' (Es regnete stark, sodass das Fest ausfiel. Es regnete so stark, dass das Fest ausfiel). شيء متوقَّع لا يحدث: 'ohne dass' (Er ging, ohne dass jemand es merkte) – ومع الفاعل نفسه الصيغة الأقصر 'ohne … zu' + المصدر (Er ging, ohne sich zu verabschieden). الاستبدال: '(an)statt dass' – ومع الفاعل نفسه '(an)statt … zu' (Statt zu arbeiten, surft er im Internet). وكذلك 'um … zu' (الغرض) و 'als dass' بعد 'zu + صفة' (Er ist zu müde, als dass er noch fahren könnte). ولا تصلح 'ohne … zu' و 'statt … zu' إلا عندما يشترك الجزآن في الفاعل نفسه.",
+      "examples": [
+        "توفّر الكهرباء بإطفاء الأجهزة تمامًا.",
+        "كان الاتصال سيئًا جدًّا حتى انقطعت المكالمة.",
+        "ثبّت التحديث من دون أن يقرأ الملاحظات.",
+        "بدلًا من أن تردّ الشركة، لا ترسل إلا رسائل إلكترونية آلية."
+      ],
+      "pitfalls": [
+        "'indem' تفتح جملة ثانوية: يذهب الفعل إلى النهاية.",
+        "إمّا 'ohne dass' + فعل مصرَّف وإمّا 'ohne … zu' + مصدر – لا كلاهما معًا.",
+        "بعد 'so + صفة' تأتي 'dass'؛ وتُستخدم 'sodass' عندما تخلو الجملة الرئيسية من 'so': Es war kalt, sodass wir drinnen blieben.",
+        "في جملة المصدر يذهب 'zu + المصدر' إلى أقصى النهاية: statt uns zu helfen."
+      ]
+    },
+    "futur-vermutung": {
+      "title": "الافتراض بـ Futur I و Futur II: Er wird wohl krank sein. Sie wird den Zug verpasst haben.",
+      "rule": "لا يعبّر 'werden' + المصدر (Futur I) عن المستقبل فحسب، بل كثيرًا عن افتراض بشأن الحاضر: Er wird wohl krank sein (= هو مريض على الأرجح). أمّا الافتراض بشأن الماضي فيأخذ الـ Futur II: werden + اسم المفعول + haben/sein: Sie wird den Zug verpasst haben (= فاتها القطار على الأرجح). Er wird schon angekommen sein. وتدلّ على الافتراض كلمات مثل wohl و sicher و bestimmt و wahrscheinlich و vermutlich؛ و 'wohl' هي النموذجية. ويمكن أن يدلّ الـ Futur II أيضًا على مستقبل مكتمل: Bis Freitag werde ich den Bericht geschrieben haben. وفي الجملة الثانوية يذهب 'werden' إلى النهاية: …, weil er den Zug verpasst haben wird. وللجمل المستقبلية البسيطة المقترنة بعبارة زمنية يكفي المضارع عادةً: Morgen fahre ich nach Bonn.",
+      "examples": [
+        "الضوء مطفأ – لا بدّ أنهم نائمون بالفعل.",
+        "لم تصل الحافلة بعد. لا بدّ أنها عالقة في الزحام.",
+        "لم تصلك الرسالة الإلكترونية؟ إذًا لا بدّ أنها انتهت في مجلد الرسائل غير المرغوب فيها.",
+        "بحلول عام 2030 ستكون المدينة قد أتمّت التوسعة."
+      ],
+      "pitfalls": [
+        "الافتراض بشأن الماضي يحتاج إلى الـ Futur II: werden + اسم المفعول + haben/sein.",
+        "الفعل المساعد يتبع الـ Perfekt: er ist angekommen → wird angekommen sein.",
+        "في الجملة الثانوية يذهب 'werden' المصرَّف إلى أقصى النهاية."
       ]
     },
     "nominalstil-verbalstil": {
@@ -648,6 +1012,38 @@
         "عندما يكون Konjunktiv I غير ملتبس (sei) تكون له الأولوية في الكلام المنقول الرسمي؛ وقد يُفهم 'wäre' على أنه تشكيك في القول."
       ]
     },
+    "textkonnektoren-kohaerenz": {
+      "title": "أدوات ربط النص: hingegen, allerdings, demnach, infolgedessen, zumal, wenngleich, gleichwohl, insofern",
+      "rule": "تتماسك حجّة النصوص والمحاضرات الطويلة بأدوات ربط تتجاوز 'aber' و 'deshalb' و 'obwohl'. التباين: hingegen, dagegen, demgegenüber (Die Stadt wächst, das Umland hingegen verliert Einwohner)؛ التحفّظ: allerdings, jedoch, freilich, gleichwohl (… ist allerdings teuer)؛ النتيجة/الاستنتاج: demnach, demzufolge, infolgedessen, mithin, somit (Demnach ist der Vorschlag abzulehnen)؛ سبب إضافي ذو وزن خاص: zumal (…, zumal die Kosten steigen)؛ الاستدراك: wenngleich, obgleich, obschon (Wenngleich der Plan teuer ist, …)؛ الشرط/الاعتبار: insofern (als)، sofern (Das stimmt insofern, als …). ترتيب الكلمات: hingegen و allerdings و jedoch و demnach و infolgedessen و somit ظروف – تحتلّ الموضع الأول (ويليها الفعل) أو تقف في وسط الجملة؛ أمّا zumal و wenngleich و obgleich و sofern و insofern als فتفتح جملًا ثانوية (الفعل في النهاية). استخدمها باعتدال: أداة ربط واحدة في الجملة تكفي، و 'hingegen' أو 'jedoch' تفضّل أن تأتي بعد العنصر المنبور.",
+      "examples": [
+        "تطالب الصناعة بخفض أسعار الطاقة؛ أمّا الجمعيات البيئية فتدعو في المقابل إلى تسريع التخلّي عن الفحم.",
+        "التوسّع في طاقة الرياح أمر معقول، لا سيّما أن التقنية أصبحت أرخص بكثير في السنوات الأخيرة.",
+        "في الدراسة عيوب منهجية؛ وبالتالي فإن نتائجها ليست موثوقة إلا جزئيًّا.",
+        "مع أن الإجراء يسبّب تكاليف على المدى القصير، فإنه يؤتي ثماره على المدى الطويل."
+      ],
+      "pitfalls": [
+        "'hingegen' ظرف يأتي بعد العنصر المنبور أو يحتلّ الموضع الأول ويليه الفعل (Hingegen verliert das Umland …)، ولا يشغل موضع أداة الربط قبل الفاعل.",
+        "'zumal' تفتح جملة ثانوية: يذهب الفعل إلى النهاية.",
+        "'insofern' لا تقدّم سببًا بل اعتبارًا أو شرطًا ('insofern, als …')؛ أمّا السبب فيحتاج إلى 'da' أو 'weil'.",
+        "أداتا تحفّظ متجاورتان حشو؛ وواحدة تكفي."
+      ]
+    },
+    "partizipialsaetze": {
+      "title": "جمل الـ Partizip: In Berlin angekommen, …؛ Lächelnd betrat sie den Saal.",
+      "rule": "تختصر جملة الـ Partizip جملة ثانوية إلى Partizip مع متمّماته؛ وليس لها فاعل خاص بها – بل تشترك مع الجملة الرئيسية في فاعلها – وتُفصل بفواصل. يعبّر Partizip I عن التزامن: Laut singend fuhr er durch die Stadt (= بينما كان يغنّي بصوت عالٍ). ويعبّر Partizip II عن الأسبقية أو المبني للمجهول: In Berlin angekommen, suchte sie zuerst ein Hotel (= بعد أن وصلت)؛ Von allen Seiten kritisiert, zog der Minister den Entwurf zurück (= بعد أن انتُقد). ويقف الـ Partizip في نهاية مجموعته. العبارات الثابتة: genau genommen, streng genommen, ehrlich gesagt, offen gestanden, grob geschätzt, verglichen mit, abgesehen von, vorausgesetzt (, dass). والأسلوب كتابي رفيع: الصحف والأدب والتقارير؛ أمّا في المحادثة فتُستخدم الجملة الثانوية بدلًا منها.",
+      "examples": [
+        "وقد شجّعها نجاح روايتها الأولى، بدأت الثانية على الفور.",
+        "جلس الرجل العجوز عند النافذة ساعات، ونظره مثبَّت على البحر.",
+        "بالمعنى الدقيق، هذه ليست مراجعة نقدية بل مقالة.",
+        "مقارنةً بسابقه، يبدو الجزء الثاني هادئًا وتأمّليًّا."
+      ],
+      "pitfalls": [
+        "تحتاج جملة الـ Partizip إلى فاعل الجملة الرئيسية نفسه؛ و 'es' (regnete) لم تصل إلى برلين.",
+        "يختم الـ Partizip مجموعته: يأتي المتمّم قبله.",
+        "متزامن ومبني للمعلوم: Partizip I (singend). أمّا Partizip II فسيعني أنه هو الذي غُنّي.",
+        "العبارة الثابتة هي 'ehrlich gesagt' (Partizip II)؛ وكذلك offen gestanden, genau genommen."
+      ]
+    },
     "paronyme-scheinbar-anscheinend": {
       "title": "الكلمات المتشابهة لفظًا: scheinbar أم anscheinend، effektiv أم effizient؟",
       "rule": "الكلمات المتشابهة لفظًا (Paronyme) كلمات متقاربة في النطق مختلفة في المعنى، يخلط بينها حتى الناطقون بالألمانية أنفسهم. تعبّر 'anscheinend' عن افتراض يُرجَّح أنه صحيح (بحسب الظاهر)؛ أمّا 'scheinbar' فتقول إن الشيء يبدو كذلك فقط، وهو في الحقيقة خلاف ذلك: 'Er ist anscheinend krank' (على الأرجح) مقابل 'Sein Interesse war nur scheinbar' (مصطنع). أزواج أخرى: effektiv (فعّال، يحقّق الهدف) و effizient (كفء، بأقل جهد)؛ formal (متعلق بالشكل) و formell (رسمي، وفق الأصول)؛ rational (عقلاني) و rationell (اقتصادي، عملي)؛ kindlich (طفولي، محايد) و kindisch (صبياني، تحقيري)؛ sensibel (حسّاس، سريع التأثر) و sensitiv (مصطلح تقني: يستجيب لأدنى التغيّرات). وعند الشك يفيد اختبار النقيض: 'scheinbar' تحتمل إضافة 'aber in Wirklichkeit'، أمّا 'anscheinend' فلا.",
@@ -723,6 +1119,38 @@
         "'laut' و'zufolge' بمعنى واحد؛ ويكفي أحدهما. تأتي 'zufolge' بعد الاسم وتأخذ حالة الجر (Dativ).",
         "'ungeachtet' تأخذ حالة الإضافة (Genitiv): ungeachtet der Proteste.",
         "'gemäß' تأخذ حالة الجر (Dativ) وإن بدت رسمية؛ أمّا حالة الإضافة معها فتصحيح مفرط شائع."
+      ]
+    },
+    "es-als-platzhalter-korrelat": {
+      "title": "'es' شاغلةً للموضع وضميرَ إحالة: Es wurde viel gelacht. Ich halte es für geboten, dass …",
+      "rule": "إلى جانب الضمير (Das Buch? Ich habe es gelesen) و 'es' الثابتة مع الأفعال غير الشخصية (es regnet, es gibt, es geht um, es handelt sich um, mir ist es kalt)، لـ 'es' وظيفتان تميّزان النثر الدقيق. الأولى: شاغل موضع (Platzhalter) في الموضع الأول: تشغل الموضع الأمامي عندما يُراد تأخير الفاعل لإعطائه ثقلًا – Es wurde viel gelacht. Es kamen mehr Gäste als erwartet. Es bleibt die Frage, ob … وما إن يتقدّم عنصر آخر حتى تختفي هذه الـ 'es' بلا أثر: Gestern wurde viel gelacht. وهي لا تطابق الفعل: Es kamen (جمع!) mehr Gäste. الثانية: ضمير إحالة (Korrelat) يمهّد لجملة ثانوية أو جملة مصدرية: Ich halte es für geboten, dass …؛ Sie hat es abgelehnt, den Vertrag zu unterschreiben؛ Es freut mich, dass … ومع أفعال مثل bedauern و ablehnen و begrüßen و vermeiden و es für richtig halten يكون ضمير الإحالة في وسط الجملة إلزاميًّا (Ich bedaure es, dass …)؛ ومع غيرها (wissen, glauben, sagen) يغيب: Ich weiß, dass … (لا: Ich weiß es, dass …). وتختفي 'es' الإحالية من الموضع الأمامي عندما تتقدّم الجملة التابعة نفسها: Dass er absagt, überrascht mich – لا: Dass er absagt, es überrascht mich.",
+      "examples": [
+        "استمرّت المفاوضات حتى ساعة متأخّرة من الليل من دون التوصّل إلى اتفاق.",
+        "وردت اعتراضات أكثر بكثير ممّا توقّع مجلس الإدارة.",
+        "يرى المجلس أن من الضروري تأجيل القرار.",
+        "كون الدراسة لم تُنشر قطّ يفسّر الكثير."
+      ],
+      "pitfalls": [
+        "'es' شاغلة الموضع لا توجد إلا في الموضع الأول؛ وعندما يشغله شيء آخر تختفي.",
+        "'es' شاغلة الموضع ليست الفاعل؛ فالفعل يطابق 'mehr Gäste' (جمع).",
+        "مع wissen و glauben و sagen و hoffen لا يسبق جملةَ dass ضميرُ إحالة.",
+        "عندما تتقدّم الجملة التابعة تشغل الموضع الأمامي بنفسها؛ و 'es' إضافية ستكون عنصرًا ثانيًا قبل الفعل."
+      ]
+    },
+    "nachfeld-ausklammerung": {
+      "title": "ما بعد القوس الفعلي (Nachfeld) والإخراج من القوس (Ausklammerung): …, als wir dachten. Er hat lange gewartet – auf eine Antwort, die nie kam.",
+      "rule": "الجملة الألمانية قوس: يحيط الفعل المصرَّف وبقية المسند (اسم المفعول أو المصدر أو السابقة) بالحقل الأوسط – Er hat … gewartet. وكل ما يقف بعد طرف القوس الأيمن يقع في ما بعد القوس الفعلي (Nachfeld). تنتمي إليه بطبيعتها الجمل الثانوية وجمل المصدر (Er hat versprochen, dass er kommt)، وكذلك المقارنات بـ 'als' و 'wie' (Es ist später geworden, als wir dachten) والإضافات اللاحقة (Sie hat alles verkauft, sogar die Bücher). أمّا الإخراج من القوس (Ausklammerung) فيعني أن تضع عمدًا بعد القوس عنصرًا كان يمكن أن يقع داخله أيضًا: Er hat lange gewartet – auf eine Antwort, die nie kam. وهو يخفّف العناصر الطويلة أو الثقيلة (خاصةً شبه الجملة بحرف الجر مع جملة صلة)، ويبرز ما أُخرج، ويبقي القوس قصيرًا، فلا يصل السامع إلى الفعل بعد عشرين كلمة. ولا يُخرج من القوس: المفعول به المجرّد في حالة النصب والضمائر والظروف القصيرة – فـ 'Er hat gelesen das Buch' خطأ، حتى في الكلام. وفي النثر الإداري والأكاديمي يكون القوس المغلق هو القاعدة؛ أمّا في الخطب والصحافة والأدب فالإخراج المقصود من القوس أداة أسلوبية – مقصودة، لا عادة.",
+      "examples": [
+        "أصبح المعرض أكبر ممّا خطّط له القيّمون عليه يومًا.",
+        "قضى المخرج ساعتين يحكي – عن طفولة لا يمكن أن تخمّنها أبدًا.",
+        "باعت كل شيء، حتى بيانو جدّتها.",
+        "قرأت المراجعة النقدية، بقلق متزايد."
+      ],
+      "pitfalls": [
+        "يبقى المفعول به المجرّد في حالة النصب داخل القوس؛ وما يُخرج هو أشباه الجمل الثقيلة بحروف الجر والمقارنات والإضافات اللاحقة.",
+        "المقارنة بـ 'als' مكانها ما بعد القوس الفعلي (Nachfeld)، بعد اسم المفعول.",
+        "الظروف الضميرية (darauf, damit) والضمائر لا تُخرج من القوس.",
+        "في الرسالة الرسمية يكون القوس المغلق هو القاعدة؛ أمّا الشرطة مع الإضافة اللاحقة فأداة للخطب وصفحات الثقافة والفنون."
       ]
     }
   },
@@ -2720,6 +3148,15 @@
         "سؤالك عن الفطور"
       ]
     },
+    "a1-postcard-holiday": {
+      "title": "بطاقة بريدية من عطلتك",
+      "prompt": "اكتب بطاقة بريدية إلى صديقك Tom من عطلتك على البحر: اذكر أين أنت، وكيف الطقس، وماذا تفعل طوال اليوم.",
+      "points": [
+        "أين أنت",
+        "الطقس",
+        "ماذا تفعل طوال اليوم"
+      ]
+    },
     "a2-birthday": {
       "title": "دعوة إلى عيد ميلاد",
       "prompt": "اكتب رسالة إلكترونية قصيرة إلى صديق: ادعُه إلى حفلة عيد ميلادك يوم السبت. اذكر متى تبدأ، وأين تُقام، وما الذي ينبغي أن يُحضره معه. 30-40 كلمة.",
@@ -2745,6 +3182,15 @@
         "كيف تبدو الشقة",
         "ما الذي يعجبك فيها",
         "دعوته إلى زيارتك"
+      ]
+    },
+    "a2-heating-broken": {
+      "title": "التدفئة معطّلة",
+      "prompt": "اكتب رسالة رسمية قصيرة إلى مالك شقتك Herr Krause: التدفئة في شقتك لا تعمل منذ يوم الاثنين. اذكر ما المشكلة ومنذ متى، واطلب منه أن يرسل أحدًا بسرعة، واذكر متى تكون في البيت.",
+      "points": [
+        "المشكلة ومنذ متى",
+        "طلبك أن يرسل أحدًا",
+        "متى تكون في البيت"
       ]
     },
     "b1-missed-party": {
@@ -2774,6 +3220,15 @@
         "مثالًا من حياتك"
       ]
     },
+    "b1-complaint-online-order": {
+      "title": "شكوى بشأن طلب عبر الإنترنت",
+      "prompt": "طلبت مصباحًا عبر الإنترنت (رقم الطلب 48213). وصل بعد ثلاثة أسابيع، وزجاجه مكسور. اكتب رسالة إلكترونية رسمية إلى المتجر: صِف المشكلة، واذكر ما تريده (بديلًا أو استرداد نقودك)، واسأل كيف تعيد المصباح.",
+      "points": [
+        "وصف المشكلة",
+        "ما تريده",
+        "سؤالك كيف تعيده"
+      ]
+    },
     "b2-course-complaint": {
       "title": "شكوى إلى مدرسة لغات",
       "prompt": "اكتب شكوى رسمية (نحو 150 كلمة) إلى مدرسة لغات: بقيت دورتك من دون معلّم في ثلاث حصص. صِف ما حدث، واذكر ما الذي تتوقّع أن تفعله المدرسة، وحدّد مهلة للردّ.",
@@ -2790,6 +3245,16 @@
         "سبب اهتمامك",
         "خبرتك",
         "متى تكون متاحًا"
+      ]
+    },
+    "b2-forum-smartphones-school": {
+      "title": "مشاركة في منتدى: الهواتف الذكية في المدرسة",
+      "prompt": "في منتدى على الإنترنت يناقش أولياء الأمور ما إذا كان ينبغي حظر الهواتف الذكية في المدارس. اكتب مشاركة (نحو 170 كلمة): اذكر رأيك، وقدّم حججًا مؤيّدة ومعارضة، وصِف تجربة من تجاربك، وقدّم اقتراحًا.",
+      "points": [
+        "رأيك",
+        "حجج مؤيّدة ومعارضة",
+        "تجربة من تجاربك",
+        "اقتراح"
       ]
     },
     "c1-letter-to-editor": {
@@ -2812,6 +3277,16 @@
         "طلب عقد اجتماع"
       ]
     },
+    "c1-graph-commuting": {
+      "title": "تقرير عن أرقام التنقّل اليومي إلى العمل",
+      "prompt": "طلبت منك رئيسة قسمك Frau Dr. Neumann تلخيص استطلاع لتقرير التنقّل في المدينة. الأرقام: في عام 2015 كان 61 % من المتنقّلين يذهبون إلى العمل بالسيارة، و22 % يستخدمون المواصلات العامة، و9 % يركبون الدراجة؛ وفي عام 2025 كانت النسب 48 % و29 % و17 %؛ وارتفع متوسط مسافة التنقّل من 16 إلى 19 كم. اكتب لها رسالة إلكترونية رسمية (نحو 230 كلمة): صِف التطورات الرئيسية، وقارن بين الأرقام، واذكر الأسباب المحتملة، وأوصِ بإجراء واحد للمدينة.",
+      "points": [
+        "وصف التطورات الرئيسية",
+        "المقارنة بين الأرقام",
+        "الأسباب المحتملة",
+        "التوصية بإجراء واحد"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "اعتراض إلى مصرف على رسوم حساب غير قانونية",
       "prompt": "رفع مصرفك رسوم الحساب قبل سنتين دون موافقتك الصريحة، ويرفض الآن ردّها متذرّعًا بـ \"قبولك الضمني\". اكتب اعتراضًا رسميًا إلى المصرف (نحو 260 كلمة): اعرض الوقائع مع التواريخ والمبالغ، واذكر الأساس القانوني والحكم القضائي الذي تستند إليه، وطالب بردّ المبالغ مع تحديد مهلة، وأعلن الخطوات التي ستتخذها إذا لم يمتثل المصرف.",
@@ -2830,6 +3305,659 @@
         "الأدلة أو الخبرات التي تستند إليها",
         "أقوى اعتراض تتناوله",
         "توصية مقترنة بشروط"
+      ]
+    },
+    "c2-open-letter-museum": {
+      "title": "رسالة مفتوحة إلى مديرة متحف حول المعرض الجديد",
+      "prompt": "افتتح متحف المدينة معرضًا دائمًا جديدًا عن تاريخ المدينة يغفل ماضيها الصناعي ويعتمد على الشاشات بدلًا من القطع المعروضة. اكتب رسالة مفتوحة إلى المديرة Frau Dr. Berger (نحو 280 كلمة): قيّم مفهوم المعرض، وانتقد قرارين من قرارات القيّمين عليه مع ذكر الأسباب، وأقرّ بما هو ناجح فيه، واقترح تغييرات ملموسة.",
+      "points": [
+        "تقييم المفهوم",
+        "انتقاد قرارين مع ذكر الأسباب",
+        "الإقرار بما هو ناجح",
+        "اقتراح تغييرات ملموسة"
+      ]
+    }
+  },
+  "path": {
+    "a1-01": {
+      "title": "مرحبًا! اسمي …",
+      "goal": "تحية الناس وتوديعهم، وتقديم نفسك، وذكر من أين أنت وأي اللغات تتكلّم، وسؤال الآخرين عن الشيء نفسه.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "كيف أقدّم نفسي بالألمانية، بصيغة رسمية وغير رسمية؟",
+        "لقاء زميل جديد في يومك الأول وتقديم نفسك"
+      ]
+    },
+    "a1-02": {
+      "title": "عائلتي وأنا",
+      "goal": "التحدّث عن عائلتك وأصدقائك، وذكر أعمار الناس وما يعملون، والسؤال عن عائلة أحدهم.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "كيف أتحدّث عن عائلتي: الأسماء والأعمار والمهن؟",
+        "عرض صور عائلتك على صديق"
+      ]
+    },
+    "a1-03": {
+      "title": "بالهناء والشفاء!",
+      "goal": "طلب الطعام والشراب في مقهى أو مطعم، وذكر ما تحبّه، والسؤال عن سعر شيء ما والدفع.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-04": {
+      "title": "التسوّق",
+      "goal": "شراء الطعام والملابس، والسؤال عن المقاسات والألوان والكميات، وفهم الأسعار، وذكر ما لا تحتاج إليه.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-05": {
+      "title": "يومي",
+      "goal": "قراءة الساعة، ووصف روتينك اليومي وأسبوعك، وتحديد المواعيد أو تغييرها.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "كيف أصف روتيني اليومي، من الاستيقاظ إلى النوم؟"
+      ]
+    },
+    "a1-06": {
+      "title": "في البيت",
+      "goal": "وصف شقتك وأثاثك، وذكر أين توجد الأشياء وما يعجبك في مكان سكنك، وفهم إعلان عن شقة.",
+      "steps": [
+        null,
+        null,
+        null,
+        "طرح أسئلة على مالك شقة تريد استئجارها",
+        "كيف أصف شقتي وأين يوجد الأثاث؟"
+      ]
+    },
+    "a1-07": {
+      "title": "التجوّل في المدينة",
+      "goal": "السؤال عن الطريق ووصفه، واستخدام الحافلات والقطارات وسيارات الأجرة، وتسمية الأماكن في المدينة.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-08": {
+      "title": "وقت الفراغ واللقاءات",
+      "goal": "التحدّث عن هواياتك، وذكر ما تستطيع وما تريد فعله، ودعوة شخص ما والاتفاق على يوم ووقت.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "كيف أدعو صديقًا وأقترح وقتًا ومكانًا؟"
+      ]
+    },
+    "a1-09": {
+      "title": "الصحة",
+      "goal": "تسمية أجزاء الجسم، وذكر ما يؤلمك، وحجز موعد عند الطبيب، وفهم النصائح البسيطة.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-10": {
+      "title": "السفر والطقس",
+      "goal": "شراء تذكرة، وتسجيل الوصول في فندق، والتحدّث عن الطقس، وذكر ما فعلته في رحلة بصيغة الـ Perfekt.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-01": {
+      "title": "كيف كانت عطلة نهاية الأسبوع؟",
+      "goal": "رواية ما فعلته في عطلة نهاية الأسبوع أو في الإجازة، وذكر كيف كانت، وسؤال الآخرين عن ماضيهم.",
+      "steps": [
+        null,
+        null,
+        null,
+        "كيف أروي ما حدث في عطلة نهاية الأسبوع الماضية؟ وأي زمن ماضٍ أستخدم عندما أتكلّم؟",
+        "إخبار زميل صباح الاثنين عن عطلة نهاية أسبوعك"
+      ]
+    },
+    "a2-02": {
+      "title": "الاحتفالات والدعوات",
+      "goal": "دعوة الناس، وقبول دعوة أو رفضها، والتحدّث عن الهدايا والاحتفالات، وكتابة دعوة.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "التخطيط لحفلة مفاجئة مع صديق"
+      ]
+    },
+    "a2-03": {
+      "title": "العيش معًا",
+      "goal": "وصف بيتك وشؤونه المنزلية، والاتفاق على قواعد مع شركاء السكن والجيران، وطلب شيء من حارس المبنى أو المالك.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-04": {
+      "title": "التسوّق والشكوى",
+      "goal": "مقارنة المنتجات والأسعار، وطلب المساعدة بتهذيب، واستبدال شيء أو إرجاعه، والشكوى من وجبة.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-05": {
+      "title": "المحافظة على الصحة",
+      "goal": "وصف الأعراض، وفهم تعليمات الطبيب، والتحدّث عن نمط حياة صحي، والاعتذار عند المرض.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-06": {
+      "title": "الدوائر الرسمية والخدمات",
+      "goal": "تسجيل العنوان في مكتب خدمة المواطنين، وإرسال طرد، والإبلاغ عن شيء مفقود، وملء استمارة، وكتابة رسالة رسمية قصيرة.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-07": {
+      "title": "العمل والمهن",
+      "goal": "التحدّث عن عملك وساعات عملك، وذكر منذ متى ومنذ كم من الوقت تفعل شيئًا ما، والتقدّم لوظيفة بسيطة.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "كيف أتحدّث عن عملي وأذكر لماذا يعجبني؟"
+      ]
+    },
+    "a2-08": {
+      "title": "في السفر وفي العطلة",
+      "goal": "التخطيط لرحلة، واستئجار دراجة أو شراء تذكرة، ووصف عطلة، وذكر ما ستفعله في الصيف القادم.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "السؤال في مكتب المعلومات السياحية عمّا يستحقّ المشاهدة في المدينة"
+      ]
+    },
+    "a2-09": {
+      "title": "التعلّم والإعلام",
+      "goal": "التحدّث عن كيف تتعلّم وأي وسائل الإعلام تستخدم، واستعارة كتاب، والتعبير عمّا تعرفه وما تُحسن فعله وما أنت على معرفة به.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "ماذا أقول عندما لا أفهم شيئًا أو أحتاج إلى تكرار كلمة؟"
+      ]
+    },
+    "a2-10": {
+      "title": "الناس والمشاعر والمظهر",
+      "goal": "وصف الناس وشخصياتهم ومشاعرهم، وشرح لماذا يعجبك شخص ما، والتحدّث عن مظهرك عند الحلّاق.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "إخبار صديق عن شخص قابلته وكيف هي شخصيته"
+      ]
+    },
+    "b1-01": {
+      "title": "سِيَر الحياة",
+      "goal": "رواية سيرة حياتك وسِيَر الآخرين بأزمنة الماضي، والتحدّث عن العلاقات والحياة الأسرية، والاعتذار كتابيًّا.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "تبادل الأخبار مع زميل دراسة قديم لم تره منذ سنوات"
+      ]
+    },
+    "b1-02": {
+      "title": "العمل والمسار المهني",
+      "goal": "وصف عملك وأهدافك، والإبلاغ عن المرض هاتفيًّا، ومناقشة العمل من المنزل، وتقديم الأسباب والأغراض.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-03": {
+      "title": "السكن والجيران",
+      "goal": "وصف بيتك وحيّك بالتفصيل، وفهم النقاط الرئيسية في عقد الإيجار، وربط جملك بجمل الصلة.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "محادثة مع جار عن الضجيج في وقت متأخّر من الليل",
+        "ما أهمّ الكلمات في عقد الإيجار الألماني، وماذا تعني؟"
+      ]
+    },
+    "b1-04": {
+      "title": "الصحة والتغذية",
+      "goal": "التحدّث عن الأكل الصحي والرياضة والتوتّر، ووصف الأعراض بدقة، والتعبير عن التباين والاستدراك.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "التحدّث مع طبيب عن آلام الظهر الناتجة عن الجلوس إلى المكتب"
+      ]
+    },
+    "b1-05": {
+      "title": "الاستهلاك والعقود",
+      "goal": "مقارنة العروض، وفهم الإعلانات، وإلغاء عقد، والشكوى من طلب في رسالة رسمية.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-06": {
+      "title": "المال والبنوك",
+      "goal": "فتح حساب، والتحدّث عن الادّخار والإنفاق، ووصف ما يُفعل بصيغة المبني للمجهول.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "أي الأفعال أحتاج إليها للتحدّث عن المال: يدفع، يحوّل، يسحب، يدّخر، يقترض؟"
+      ]
+    },
+    "b1-07": {
+      "title": "التنقّل والسفر",
+      "goal": "التعامل مع إصلاح سيارة وتفويت رحلة متّصلة، والشكوى في فندق، ورواية ما حدث قبل الرحلة وأثناءها وبعدها.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-08": {
+      "title": "الإعلام والعالم الرقمي",
+      "goal": "التحدّث عن الأخبار ووسائل التواصل الاجتماعي ووقت الشاشة، والتعبير عمّا تنتظره وما يزعجك، وإبداء رأيك في منتدى.",
+      "steps": [
+        null,
+        null,
+        null,
+        "نقاش مع صديق حول ما إذا كان ينبغي أن يمتلك الأطفال هواتف ذكية",
+        "كيف أبدي رأيي وأوافق أو أخالف بتهذيب بالألمانية؟"
+      ]
+    },
+    "b1-09": {
+      "title": "التعليم والتعلّم",
+      "goal": "التحدّث عن المدرسة والتدريب المهني وأهدافك التعليمية، والكتابة إلى معلّمك، والتعبير عن الأمنيات والشروط غير الواقعية.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "ما الفرق بين lernen و studieren و üben؟"
+      ]
+    },
+    "b1-10": {
+      "title": "البيئة والأعياد والمجتمع",
+      "goal": "مناقشة البيئة وحماية المناخ في الحياة اليومية، ووصف الأعياد والتقاليد، وربط حججك بأدوات الربط الثنائية.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "شرح عيد من بلدك لصديق ألماني",
+        "كيف أعبّر عمّا أفعله من أجل البيئة في حياتي اليومية؟"
+      ]
+    },
+    "b2-01": {
+      "title": "عالم العمل وطلبات التوظيف",
+      "goal": "تقديم نفسك في مقابلة عمل، وكتابة طلب توظيف، والتحدّث عن ظروف العمل وعمّا كان يمكن أن يجري على نحو مختلف.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-02": {
+      "title": "العيش في المدينة",
+      "goal": "معاينة شقة وتسليمها ومناقشة مبلغ التأمين، والمقارنة بين المدينة والريف، ووصف الأشخاص والأشياء بالـ Partizip.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-03": {
+      "title": "المستهلكون والعقود",
+      "goal": "الشكوى من فاتورة أو شحنة أو خدمة هاتفيًّا وكتابيًّا، والتعبير عمّا يجب أو يمكن أو ينبغي فعله بصيغة المبني للمجهول.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-04": {
+      "title": "التكنولوجيا والرقمنة",
+      "goal": "الإبلاغ عن عطل، ومناقشة مزايا التكنولوجيا الجديدة وعيوبها، والدفاع عن موقفك في مشاركة في منتدى.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-05": {
+      "title": "الهجرة والعيش المشترك",
+      "goal": "التعامل مع موعد في دائرة شؤون الأجانب، والتحدّث عن الهجرة والاندماج والهوية، وتقديم الأسباب بحروف الجر التي تأخذ حالة الإضافة.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "كيف أتحدّث عن تجربتي في الانتقال إلى بلد جديد؟"
+      ]
+    },
+    "b2-06": {
+      "title": "المجتمع والسياسة",
+      "goal": "متابعة نقاش حول مسألة اجتماعية أو سياسية، وعرض الحجج المؤيّدة والمعارضة، والإحالة بدقة إلى ما قيل بجمل الصلة.",
+      "steps": [
+        null,
+        null,
+        null,
+        "نقاش مع جار حول مسار جديد للدراجات في شارعك",
+        "كيف أبني حجّة بالألمانية: مقدّمة، ومزايا، وعيوب، وخاتمة؟"
+      ]
+    },
+    "b2-07": {
+      "title": "المناخ والبيئة",
+      "goal": "مناقشة تغيّر المناخ وما يمكن للأفراد والحكومات فعله، ووضع افتراضات بشأن المستقبل، وفهم تقرير يتضمّن أرقامًا.",
+      "steps": [
+        null,
+        null,
+        null,
+        "التحدّث مع زميل عن كيف يمكن لشركتكم أن تقلّل الهدر",
+        "كيف أصف رسمًا بيانيًّا أو إحصاءات بالألمانية؟"
+      ]
+    },
+    "b2-08": {
+      "title": "علم النفس والشخصية",
+      "goal": "وصف الشخصية والمشاعر والسلوك، والمقارنة بين ما تبدو عليه الأشياء وما هي عليه فعلًا، وتلطيف كلامك أو تشديده بأدوات التلوين.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "تقديم نصيحة لصديق بشأن التوتّر في العمل"
+      ]
+    },
+    "b2-09": {
+      "title": "الثقافة والعلوم",
+      "goal": "التحدّث عن الكتب والأفلام والمعارض، وشرح نتيجة علمية بكلمات بسيطة، ونقل ما قاله الآخرون.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "التوصية بفيلم أو كتاب لصديق وشرح السبب"
+      ]
+    },
+    "b2-10": {
+      "title": "القانون والعولمة",
+      "goal": "التحدّث عن القواعد والجريمة والعدالة، ومناقشة العولمة والتجارة، وتلخيص نص بوضوح.",
+      "steps": [
+        null,
+        null,
+        null,
+        "الإبلاغ عن سرقة دراجة في مركز الشرطة",
+        "كيف أكتب تلخيصًا واضحًا لنص بالألمانية؟ وأي العبارات أحتاج إليها؟"
+      ]
+    },
+    "c1-01": {
+      "title": "العمل والتفاوض",
+      "goal": "التفاوض على راتبك، والدفاع عن موقف أمام الإدارة كتابيًّا، والتنقّل بين الأسلوب الاسمي والأسلوب الفعلي.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-02": {
+      "title": "السكن والقانون",
+      "goal": "الحصول على استشارة بشأن زيادة الإيجار، وفهم اللغة القانونية والإدارية، واختصار جمل الصلة إلى صفات اشتقاقية موسّعة.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "كيف أقرأ رسالة رسمية من دائرة حكومية ألمانية؟ وماذا تعني العبارات النموذجية فيها؟"
+      ]
+    },
+    "c1-03": {
+      "title": "السياسة والإعلام",
+      "goal": "متابعة النقاش السياسي وتحليل الأخبار، ونقل الادّعاءات والافتراضات بالأفعال المساعدة الناقصة في استعمالها التقديري، وكتابة رسالة إلى المحرر.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-04": {
+      "title": "البحث والعلوم",
+      "goal": "فهم النصوص والمحاضرات الأكاديمية، وعرض النتائج والأرقام، واستخدام بدائل المبني للمجهول في الألمانية العلمية.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "عرض نتائج استطلاع على فريقك والردّ على الأسئلة"
+      ]
+    },
+    "c1-05": {
+      "title": "البيئة والطاقة",
+      "goal": "مناقشة سياسة الطاقة والبيئة بدقة في الفروق، وبناء حجج أطول بأدوات ربط النص، والموازنة بين المواقف.",
+      "steps": [
+        null,
+        null,
+        null,
+        "حلقة نقاش حول توربينات الرياح قرب قريتك",
+        "كيف أوازن بين موقفين وأصل إلى خلاصة بالألمانية؟"
+      ]
+    },
+    "c1-06": {
+      "title": "الأدب والفنون",
+      "goal": "التحدّث عن الأدب والسينما والفنون، ووصف كيف حدث شيء ما بجمل الـ Partizip، والتعبير بالكلمات عن أسلوب عمل ما وأجوائه.",
+      "steps": [
+        null,
+        null,
+        null,
+        "مناقشة رواية في نادٍ للقراءة",
+        "كيف أصف أسلوب كتاب أو فيلم وأجواءه بالألمانية؟"
+      ]
+    },
+    "c1-07": {
+      "title": "مجتمع يتغيّر",
+      "goal": "مناقشة التحوّل الديموغرافي والذكاء الاصطناعي، ونقل ما يقوله الخبراء، وشرح العلاقات المعقّدة بوضوح.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "مقابلة إذاعية عن كيف ستتغيّر مهنتك مع الذكاء الاصطناعي"
+      ]
+    },
+    "c1-08": {
+      "title": "صناعة المستقبل",
+      "goal": "مناقشة مستقبل المواصلات والمدن ودولة الرفاه، وعرض اقتراح بصيغة رسمية، والردّ على الاعتراضات.",
+      "steps": [
+        null,
+        null,
+        null,
+        "عرض خطة لمركز مدينة خالٍ من السيارات على صاحب متجر متشكّك",
+        "كيف أقدّم اقتراحًا رسميًّا في اجتماع وأردّ على الاعتراضات؟"
+      ]
+    },
+    "c2-01": {
+      "title": "العلم أمام الجمهور",
+      "goal": "شرح بحثك لصحفي، والتمييز بدقة بين الكلمات المتقاربة في المعنى، والتعامل بسلاسة مع الأسئلة النقدية.",
+      "steps": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-02": {
+      "title": "التفاوض والعقود",
+      "goal": "التفاوض على عقد بندًا بندًا، واستخدام تراكيب الأفعال الوظيفية (Funktionsverbgefüge) في ألمانية الأعمال بطبيعية، والاعتراض كتابيًّا على قرار.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-03": {
+      "title": "الدوائر الرسمية والاعتراضات",
+      "goal": "تقديم اعتراض لدى مكتب الضرائب، وقراءة الألمانية الإدارية وكتابتها، واستخدام حروف الجر الرفيعة في النصوص الرسمية.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "كيف أقدّم اعتراضًا رسميًّا (Einspruch أو Widerspruch)، وأي العبارات يحتاج إليها؟"
+      ]
+    },
+    "c2-04": {
+      "title": "السجل اللغوي والأسلوب",
+      "goal": "اختيار السجل اللغوي المناسب لأي موقف، من اعتراض رسمي إلى دردشة، وتمييز كسر السجل وتجنّبه.",
+      "steps": [
+        null,
+        null,
+        null,
+        "محادثة مع محرر عن نبرة مقالك",
+        "كيف أصوغ الطلب نفسه بثلاثة سجلّات: لصديق، ولزميل، ولدائرة رسمية؟"
+      ]
+    },
+    "c2-05": {
+      "title": "السرد والتذكّر",
+      "goal": "رواية القصص وتحليلها، واستخدام أزمنة السرد والكلام غير المباشر الحر، ومناقشة التاريخ والذاكرة.",
+      "steps": [
+        null,
+        null,
+        null,
+        "محادثة مع جارة جدّتك عن كيف تغيّرت المدينة منذ ستينيات القرن الماضي"
+      ]
+    },
+    "c2-06": {
+      "title": "الحِجاج والخطابة",
+      "goal": "بناء حجّة محكمة، واستخدام 'es' شاغلةً للموضع وضميرَ إحالة بدقة، وكتابة بيان خبير.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "أي الأساليب البلاغية تنجح في الخطب الألمانية، وكيف أستخدمها من دون أن أبدو متكلّفًا؟"
+      ]
+    },
+    "c2-07": {
+      "title": "الفن والنقد",
+      "goal": "كتابة مراجعة نقدية لمعرض أو كتاب أو عرض، واستخدام ما بعد القوس الفعلي (Nachfeld) والإخراج من القوس للتوكيد، والتعبير عن أدق ظلال الحكم.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "الدفاع عن مراجعتك النقدية القاسية أمام مدير المسرح"
+      ]
+    },
+    "c2-08": {
+      "title": "الفلسفة والدبلوماسية",
+      "goal": "مناقشة المسائل الأخلاقية والعلاقات الدولية بدقة ولباقة، والموازنة بين حجج من مصادر عدة.",
+      "steps": [
+        null,
+        null,
+        null,
+        "التوسّط بين زميلين مختلفين حول مشروع",
+        "كيف أخالف شخصًا ما بدبلوماسية بالألمانية من دون أن أبدو ضعيفًا؟"
       ]
     }
   }

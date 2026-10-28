@@ -10,6 +10,7 @@ import { glossInAppLanguage } from '@/features/sceneGloss';
 import { SceneIcon } from '@/features/sceneIcons';
 import type { DiffOp } from '@/harness/diff';
 import type { Phrase } from '@/harness/parse';
+import { pathDoneKey } from '@/harness/path';
 import { factsRevealed, sceneTitle, speakerLabel, type TranscriptLine } from '@/harness/roleplay';
 import { translationTarget } from '@/harness/route';
 import { useI18n } from '@/i18n';
@@ -82,7 +83,7 @@ function WithGerman({ text, de }: { text: string; de: string }) {
 }
 
 export default function SceneScreen() {
-  const { key, lesson } = useLocalSearchParams<{ key: string; lesson?: string }>();
+  const { key, lesson, path } = useLocalSearchParams<{ key: string; lesson?: string; path?: string }>();
   const own = useAuthored((s) => s.scenes[key]);
   const removeScene = useAuthored((s) => s.removeScene);
   const card = own ?? scenes.find((s) => s.key === key) ?? scenes[0];
@@ -222,6 +223,7 @@ export default function SceneScreen() {
     setEnded(true);
     markDone(`scene:${card.key}`);
     if (lesson !== undefined) markDone(lessonKey(Number(lesson)));
+    if (path) markDone(pathDoneKey(path));
     setTimeout(() => scroll.current?.scrollToEnd({ animated: true }), 120);
   };
 

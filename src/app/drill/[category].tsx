@@ -8,6 +8,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { lessonKey } from '@/features/lesson';
 import { buildDrillSet, checkDrill, makeRng, type Drill, type DrillCategory, type DrillResult } from '@/harness/drills';
 import { GENUS_ARTICLE } from '@/harness/lexicon';
+import { pathDoneKey } from '@/harness/path';
 import type { AnswerChecks } from '@/harness/verify';
 import { useI18n } from '@/i18n';
 import { wordMeaning } from '@/i18n/content';
@@ -46,7 +47,7 @@ interface Outcome {
 }
 
 export default function DrillScreen() {
-  const { category, lesson } = useLocalSearchParams<{ category: DrillCategory; lesson?: string }>();
+  const { category, lesson, path } = useLocalSearchParams<{ category: DrillCategory; lesson?: string; path?: string }>();
   const { c } = useTheme();
   const { t, lang } = useI18n();
   const insets = useSafeAreaInsets();
@@ -138,7 +139,10 @@ export default function DrillScreen() {
     setShowHint(false);
     setWhy({ status: 'idle', text: '' });
     setSaved(false);
-    if (index + 1 >= drills.length && lesson !== undefined) markDone(lessonKey(Number(lesson)));
+    if (index + 1 >= drills.length) {
+      if (lesson !== undefined) markDone(lessonKey(Number(lesson)));
+      if (path) markDone(pathDoneKey(path));
+    }
   };
 
   const explain = async () => {

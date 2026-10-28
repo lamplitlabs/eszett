@@ -1,4 +1,4 @@
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { BookOpen, Calculator, ChevronRight, Copy, PenLine, SquarePen } from 'lucide-react-native';
 import * as Clipboard from 'expo-clipboard';
 import { useEffect, useRef, useState } from 'react';
@@ -10,6 +10,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { prepare, QuestionTranslationError, useChat, type Message, type Mode, type TutorMessage } from '@/features/chat';
 import { statusLabel, tutorLine, useModelPercent } from '@/features/modelStatus';
 import type { Level } from '@/harness/levels';
+import { pathDoneKey } from '@/harness/path';
 import { detectLang, translationTarget, type Lang } from '@/harness/route';
 import { tIn, useI18n } from '@/i18n';
 import { localizeGrammar } from '@/i18n/content';
@@ -17,6 +18,7 @@ import { LANGUAGE_NAMES } from '@/i18n/languages';
 import { describeBytes, estimatedBytes } from '@/model/manifest';
 import { cards, tutor, useModel } from '@/model/runtime';
 import { isMtLang, useTranslated, useTranslator } from '@/mt';
+import { useProgress } from '@/state/progress';
 import { useSettings } from '@/state/settings';
 import { CheckFooter } from '@/ui/CheckFooter';
 import { Composer } from '@/ui/Composer';
@@ -381,6 +383,18 @@ export default function TutorScreen() {
   // explains what happened and Try again re-sends it verbatim; clearing the conversation clears it too.
   const [failedQuestion, setFailedQuestion] = useState<string | null>(null);
   const input = useRef<TextInput>(null);
+  // A question handed over by the course (a unit's "ask" step): it lands in the composer, in the tutor's language,
+  // with `shown` as the learner reads it; sending it marks the step done. Each handover is consumed once.
+  const params = useLocalSearchParams<{ q?: string; shown?: string; path?: string }>();
+  const markDone = useProgress((s) => s.markDone);
+  const handover = useRef<{ q: string; shown?: string; path?: string } | null>(null);
+  useEffect(() => {
+    if (!params.q || handover.current?.q === params.q) return;
+    handover.current = { q: params.q, shown: params.shown, path: params.path };
+    setText(params.q);
+    setMode('ask');
+    setTimeout(() => input.current?.focus(), 350);
+  }, [params.q, params.shown, params.path]);
   // While the learner types, the model gets a head start on the part of the prompt that is already known.
   useEffect(() => {
     if (connection !== 'ready' || busy) return;
@@ -390,6 +404,12 @@ export default function TutorScreen() {
   const submit = (value = text, m = mode, shown?: string) => {
     if (!value.trim()) return;
     setFailedQuestion(null);
+    const fromCourse = handover.current && value.trim() === handover.current.q.trim() ? handover.current : null;
+    if (fromCourse) {
+      shown ??= fromCourse.shown;
+      if (fromCourse.path) markDone(pathDoneKey(fromCourse.path));
+      handover.current = { q: fromCourse.q };
+    }
     send(value, m, shown)
       .then(() => {
         // A retry still runs while the error banner is up: keep the draft until this send actually went out.

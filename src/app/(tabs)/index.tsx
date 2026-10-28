@@ -4,6 +4,7 @@ import { useEffect, useMemo } from 'react';
 import { View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 
+import { CourseCard } from '@/features/CourseCard';
 import { activityLabel, lessonKey, useLesson } from '@/features/lesson';
 import { tutorLine, useModelPercent } from '@/features/modelStatus';
 import { GENUS_ARTICLE, nounsUpTo } from '@/harness/lexicon';
@@ -84,6 +85,10 @@ export default function Today() {
           </View>
         </Press>
       </Animated.View>
+
+      <Section title={t('path.title')}>
+        <CourseCard level={level} />
+      </Section>
 
       <Section
         title={t('home.lessonTitle')}

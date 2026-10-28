@@ -90,6 +90,102 @@
         "Un intero complemento preposizionale occupa la prima posizione; il verbo segue subito: lerne ich."
       ]
     },
+    "sein-haben-praesens": {
+      "title": "sein, haben e le desinenze del presente",
+      "rule": "La maggior parte dei verbi forma il presente con desinenze fisse aggiunte alla radice: ich wohn-e, du wohn-st, er/sie/es wohn-t, wir wohn-en, ihr wohn-t, sie/Sie wohn-en. I due verbi più importanti sono irregolari e vanno imparati a memoria: sein – ich bin, du bist, er ist, wir sind, ihr seid, sie sind; haben – ich habe, du hast, er hat, wir haben, ihr habt, sie haben. 'Sein' dice chi o come è qualcuno (Ich bin Lehrerin, ich bin müde), 'haben' dice che cosa qualcuno ha o sente (Ich habe ein Auto, ich habe Hunger). Il 'Sie' di cortesia prende sempre la forma plurale: Sie sind, Sie haben, Sie wohnen.",
+      "examples": [
+        "Sono Ana e vengo dal Portogallo.",
+        "Sei stanco? – No, ho fame.",
+        "Abitiamo ad Amburgo e lavoriamo in una banca.",
+        "Hai figli? – Sì, ho due figlie."
+      ],
+      "pitfalls": [
+        "In tedesco si 'ha' fame, sete, tempo e voglia; 'sein' si usa con l'età, la professione e le qualità.",
+        "'haben' è irregolare: du hast, er/sie/es hat – la b cade.",
+        "Il 'Sie' di cortesia prende sempre la forma plurale in -en: Sie kommen, Sie sind, Sie haben.",
+        "La forma di ihr di 'sein' è 'seid' (con la d); 'sind' appartiene a wir e sie."
+      ]
+    },
+    "w-fragen-ja-nein-fragen": {
+      "title": "W-Fragen e domande sì/no",
+      "rule": "Una W-Frage inizia con una parola interrogativa e il verbo occupa la seconda posizione: Wo wohnst du? Was machen Sie? Le parole interrogative principali: wer (persona), was (cosa), wo (luogo), woher (provenienza), wohin (destinazione), wann (tempo), wie (modo, e anche: Wie heißt du? Wie alt bist du? Wie viel kostet das?), warum (motivo), welche/welcher/welches (scelta). Una domanda sì/no inizia con il verbo stesso, seguito dal soggetto: Wohnst du in Berlin? Sind Sie Frau Meier? Risposte: ja, nein – e 'doch' per contraddire una domanda negativa: Kommst du nicht? – Doch!",
+      "examples": [
+        "Come ti chiami e da dove vieni?",
+        "Dove abiti? – A Colonia, vicino al duomo.",
+        "Parli inglese? – Sì, un po'.",
+        "Non hai tempo? – Sì che ho tempo."
+      ],
+      "pitfalls": [
+        "Il verbo viene subito dopo la parola interrogativa, poi il soggetto: Wo wohnst du?",
+        "Una domanda sì/no inizia con il verbo. Un'affermazione con il punto interrogativo è solo colloquiale, per chiedere conferma con sorpresa.",
+        "La provenienza si chiede con 'woher'; 'wo' chiede un luogo, 'wohin' una destinazione.",
+        "A una domanda negativa si risponde 'doch' quando la risposta è positiva."
+      ]
+    },
+    "artikel-nominativ-akkusativ": {
+      "title": "der, die, das: nominativo e accusativo",
+      "rule": "Ogni sostantivo ha un genere: maschile der/ein, femminile die/eine, neutro das/ein; il plurale è sempre die (e non ha articolo indeterminativo: Ich habe Kinder). Il nominativo è per il soggetto, chi fa qualcosa: Der Kaffee ist heiß. L'accusativo è per il complemento oggetto, ciò che qualcuno ha, compra, vede o vuole: Ich trinke den Kaffee. All'accusativo cambia solo l'articolo maschile: der → den, ein → einen; die, das, eine, ein restano uguali. L'accusativo segue anche 'es gibt' e le preposizioni für, ohne, durch, gegen, um: Es gibt einen Park. Das ist für den Lehrer.",
+      "examples": [
+        "Il tè è freddo, ma il tè lo bevo lo stesso.",
+        "Ho un fratello e una sorella.",
+        "Prendiamo il pane e i pomodori.",
+        "C'è un supermercato qui? – Sì, dietro l'angolo."
+      ],
+      "pitfalls": [
+        "'haben' regge l'accusativo; Hund è maschile, quindi einen Hund.",
+        "Qui der Mann è il complemento oggetto (accusativo): der diventa den.",
+        "Suppe è femminile: die Suppe. Il genere si trova nel dizionario e si impara insieme alla parola.",
+        "'für' è sempre seguito dall'accusativo: für meinen Vater."
+      ]
+    },
+    "possessivartikel": {
+      "title": "Articoli possessivi: mein, dein, sein, ihr …",
+      "rule": "Gli articoli possessivi dicono a chi appartiene qualcosa: ich → mein, du → dein, er/es → sein, sie (singolare) → ihr, wir → unser, ihr → euer, sie (plurale) → ihr, Sie → Ihr. Prendono le stesse desinenze di 'ein' e 'kein': mein Bruder (maschile), meine Schwester (femminile), mein Kind (neutro), meine Eltern (plurale). All'accusativo solo il maschile prende -en: Ich sehe meinen Bruder. La parola la sceglie il possessore, la desinenza il sostantivo: sein Auto (la sua auto, di lui), ihr Auto (la sua auto, di lei). 'euer' perde la seconda e davanti a una desinenza: eure Kinder.",
+      "examples": [
+        "Questa è mia madre e questo è mio padre.",
+        "Come si chiama tua sorella? – Si chiama Lea.",
+        "Peter cerca la sua chiave.",
+        "Sono i vostri figli? – Sì, i nostri figli sono già grandi."
+      ],
+      "pitfalls": [
+        "La desinenza segue il sostantivo: Bruder è maschile, quindi mein Bruder senza -e.",
+        "Il possessore è Anna (lei) → ihr; Hund all'accusativo → ihren Hund.",
+        "All'accusativo il maschile prende -en: deinen Vater.",
+        "Davanti a una desinenza 'euer' perde la seconda e: eure, euren, eurem."
+      ]
+    },
+    "pluralformen": {
+      "title": "Le forme del plurale: -e, -(e)n, -er, -s o nessuna desinenza",
+      "rule": "Al plurale l'articolo è sempre 'die', ma la desinenza del sostantivo va imparata insieme alla parola. Cinque modelli coprono quasi tutto: -e, spesso con Umlaut (der Tisch – die Tische, der Stuhl – die Stühle); -(e)n, tipico dei sostantivi femminili (die Frau – die Frauen, die Lampe – die Lampen); -er, di solito con Umlaut, per i sostantivi neutri brevi (das Kind – die Kinder, das Buch – die Bücher); -s per le parole straniere e quelle che finiscono in vocale (das Auto – die Autos, das Hotel – die Hotels); nessuna desinenza per i sostantivi in -er, -el, -en, spesso con Umlaut (der Lehrer – die Lehrer, der Apfel – die Äpfel). I sostantivi in -chen e -lein non cambiano: das Mädchen – die Mädchen.",
+      "examples": [
+        "Mi servono due sedie e un tavolo.",
+        "I bambini leggono libri.",
+        "Tre mele, quattro pomodori e sei uova, per favore.",
+        "Gli hotel in città sono cari."
+      ],
+      "pitfalls": [
+        "Kind forma il plurale con -er: die Kinder. La desinenza -s è rara in tedesco.",
+        "I sostantivi in -el spesso non prendono desinenza ma l'Umlaut: der Apfel – die Äpfel.",
+        "Le parole che finiscono in vocale e le parole straniere prendono -s: Autos, Hotels, Handys.",
+        "Al plurale l'articolo è sempre 'die', qualunque sia il genere."
+      ]
+    },
+    "zeit-und-ortsangaben": {
+      "title": "Espressioni di tempo e di luogo: um, am, im, von … bis; in, nach, zu, bei",
+      "rule": "Tempo: 'um' per le ore (um acht Uhr), 'am' per i giorni e le parti del giorno (am Montag, am Morgen, am Wochenende – ma: in der Nacht), 'im' per i mesi e le stagioni (im Mai, im Winter), 'von … bis' per un intervallo (von neun bis fünf), 'ab' per un punto di partenza (ab morgen). Luogo, in risposta a 'wo?': 'in' per città, paesi e stanze (in Berlin, in der Küche), 'bei' per persone e aziende (bei meiner Oma, bei Siemens), 'zu Hause'. Destinazione, in risposta a 'wohin?': 'nach' per città e paesi senza articolo e per 'nach Hause' (nach Wien, nach Hause), 'in' + accusativo per i paesi con articolo e per le stanze (in die Schweiz, in die Küche), 'zu' + dativo per persone, negozi e appuntamenti (zum Arzt, zur Arbeit, zu Lisa).",
+      "examples": [
+        "Il corso è martedì alle sei e mezza.",
+        "Ad agosto andiamo in Italia.",
+        "Lavoro dal lunedì al venerdì in una piccola azienda.",
+        "Oggi vai dal medico? – No, resto a casa."
+      ],
+      "pitfalls": [
+        "Le ore vogliono 'um'; 'am' va con i giorni (am Montag) e le parti del giorno (am Abend).",
+        "Città e paesi senza articolo vogliono 'nach': nach Berlin, nach Spanien.",
+        "'nach Hause' è la direzione (verso dove?), 'zu Hause' il luogo (dove?).",
+        "Con le persone si usa 'bei' (beim Arzt, bei Anna); 'in' è per stanze e luoghi (in der Praxis)."
+      ]
+    },
     "kennen-wissen-koennen": {
       "title": "kennen, wissen o können?",
       "rule": "'Kennen' significa conoscere una persona, un luogo o una cosa; regge un complemento oggetto: Ich kenne die Stadt. 'Wissen' significa sapere un'informazione; è seguito per lo più da 'dass', 'ob', una parola interrogativa o 'es/das', altrimenti da una cosa (die Antwort): Ich weiß, dass er kommt. 'Können' è il verbo modale della capacità o possibilità, di solito con un infinito: Ich kann schwimmen.",
@@ -300,6 +396,70 @@
         "Persone e apparecchi in -er sono per lo più maschili: der Computer, der Drucker, der Fahrer.",
         "La desinenza -e non indica il genere: das Ende, das Auge sono neutri, die Lampe femminile, der Name maschile. Impara l'articolo insieme alla parola.",
         "Le parole di origine straniera in -ion sono quasi sempre femminili: die Nation, die Information, die Diskussion."
+      ]
+    },
+    "personalpronomen-akkusativ-dativ": {
+      "title": "I pronomi personali all'accusativo e al dativo: mich/mir, dich/dir, ihn/ihm …",
+      "rule": "Nominativo: ich, du, er, sie, es, wir, ihr, sie/Sie. Accusativo (complemento oggetto; dopo für, ohne, um): mich, dich, ihn, sie, es, uns, euch, sie/Sie. Dativo (complemento di termine – a chi?; dopo mit, bei, von, zu e dopo verbi come helfen, gefallen, danken, gehören): mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. Attenzione: solo ich, du ed er/sie/es hanno forme diverse per accusativo e dativo; uns ed euch sono uguali in entrambi. Con due pronomi nella frase l'accusativo viene prima del dativo: Ich gebe es dir.",
+      "examples": [
+        "Puoi aiutarmi? – Sì, ti aiuto volentieri.",
+        "Domani lo chiamo e glielo chiedo.",
+        "Il regalo è per te. Ti piace?",
+        "Vi ringraziamo per l'invito."
+      ],
+      "pitfalls": [
+        "'helfen' regge sempre il dativo: mir, dir, ihm, ihr, uns, euch, ihnen.",
+        "'lieben' ha un complemento oggetto all'accusativo: dich, ihn, sie, euch.",
+        "'gehören' richiede il dativo: ihm, ihr, ihnen.",
+        "Due pronomi: accusativo (es) prima del dativo (dir)."
+      ]
+    },
+    "praeteritum-sein-haben-modalverben": {
+      "title": "Il Präteritum di sein, haben e dei verbi modali: war, hatte, konnte",
+      "rule": "Nel parlato il passato si racconta per lo più al Perfekt – tranne con 'sein', 'haben' e i verbi modali, che vanno al Präteritum anche quando si parla. sein: ich war, du warst, er war, wir waren, ihr wart, sie waren. haben: ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten. I modali perdono l'Umlaut e aggiungono -te: können → konnte, müssen → musste, dürfen → durfte, sollen → sollte, wollen → wollte, mögen → mochte; l'infinito va alla fine della frase: Ich musste gestern arbeiten. Ich ed er/sie/es non hanno desinenza al Präteritum: ich war, er hatte, sie konnte.",
+      "examples": [
+        "Dov'eri ieri? – Ero malato e avevo la febbre.",
+        "Non siamo potuti venire perché non avevamo tempo.",
+        "Da bambino volevo diventare pilota.",
+        "Hai dovuto aspettare a lungo, vero?"
+      ],
+      "pitfalls": [
+        "Con sein e haben il Präteritum è la scelta normale, anche nella conversazione; e il verbo deve restare in seconda posizione.",
+        "'könnte' è il Konjunktiv II (cortese, irreale); il passato è 'konnte' senza Umlaut.",
+        "L'infinito va alla fine della frase, anche al Präteritum: musste … arbeiten.",
+        "er/sie/es non prende desinenza al Präteritum: sie hatte, er war, es konnte."
+      ]
+    },
+    "hoefliche-bitten-konjunktiv-ii": {
+      "title": "Richieste cortesi: Könnten Sie …? Würden Sie …? Ich hätte gern …",
+      "rule": "Le richieste cortesi e i desideri usano il Konjunktiv II di tre verbi: könnte (da können), hätte (da haben), würde (da werden) – più 'wäre' (da sein) e 'möchte'. 'Könnten Sie mir helfen?' è più cortese di 'Können Sie mir helfen?'; 'Würden Sie bitte das Fenster schließen?' è più cortese dell'imperativo. Quando si ordina o si fa la spesa: 'Ich hätte gern einen Kaffee', 'Ich möchte zwei Brötchen'. Forme: ich könnte, du könntest, er könnte, wir könnten, Sie könnten; ich hätte, du hättest, er hätte; ich würde, du würdest, er würde, wir würden. 'bitte' e 'gern' rendono la richiesta ancora più gentile.",
+      "examples": [
+        "Potrebbe ripetere, per favore?",
+        "Vorrei un chilo di mele e due panini.",
+        "Mi aiuterebbe un momento?",
+        "Avresti tempo venerdì? – Sarebbe fantastico."
+      ],
+      "pitfalls": [
+        "L'ordinazione è 'Ich hätte gern' (Konjunktiv II); 'Ich habe gern' significa «mi piace».",
+        "L'infinito va alla fine: Könnten Sie mir helfen?",
+        "La persona che riceve qualcosa è al dativo: mir.",
+        "'konnte' è passato; la richiesta cortese richiede 'könnte' con l'Umlaut, e in una domanda il verbo va per primo."
+      ]
+    },
+    "dativ-verben-praepositionen": {
+      "title": "Il dativo: verbi come helfen, gefallen, gehören e le preposizioni aus, bei, mit, nach, seit, von, zu",
+      "rule": "Il dativo risponde a 'wem?' («a chi?»). Articoli al dativo: dem (maschile e neutro), der (femminile), den + -n (plurale): mit dem Bus, bei der Arbeit, von den Kindern; indeterminativi: einem, einer, einem; possessivi: meinem, meiner, meinen. Alcuni verbi mettono sempre la persona al dativo: helfen, danken, gefallen, gehören, antworten, gratulieren, schmecken, passen, fehlen, wehtun: Das Kleid gefällt mir. Der Rücken tut ihm weh. E le preposizioni aus, bei, mit, nach, seit, von, zu (e gegenüber, ab) sono sempre seguite dal dativo: aus der Schweiz, seit einem Jahr, zu meiner Oma. Contrazioni: zum (zu dem), zur (zu der), beim (bei dem), vom (von dem).",
+      "examples": [
+        "Vado al lavoro in bicicletta.",
+        "Ai bambini la zuppa non piace.",
+        "Tanti auguri di buon compleanno! (Ci congratuliamo con te per il tuo compleanno.)",
+        "Da un mese abito da mia zia."
+      ],
+      "pitfalls": [
+        "'mit' regge sempre il dativo: der Bus → mit dem Bus. 'den' sarebbe accusativo.",
+        "'gefallen' è un verbo con il dativo: la cosa piace alla persona (mir, dir, ihm).",
+        "'helfen' richiede il dativo: ihrer Mutter, non ihre Mutter.",
+        "'aus' è seguito dal dativo, e Türkei ha l'articolo: aus der Türkei."
       ]
     },
     "als-wenn-wann": {
@@ -537,6 +697,69 @@
         "Il tedesco chiede con 'wie': Wie heißt du? Wie ist dein Name? 'Was' suona come una traduzione letterale."
       ]
     },
+    "indirekte-fragen": {
+      "title": "Domande indirette: Weißt du, wann der Zug fährt? Können Sie mir sagen, ob …?",
+      "rule": "Una domanda indiretta dipende da una frase introduttiva come 'Weißt du, …', 'Können Sie mir sagen, …', 'Ich frage mich, …', 'Ich möchte wissen, …'. È una frase subordinata: il verbo coniugato va alla fine. Una W-Frage diventa una subordinata con la stessa parola interrogativa: Wann fährt der Zug? → Weißt du, wann der Zug fährt? Una domanda sì/no diventa una frase con 'ob': Kommt er? → Ich weiß nicht, ob er kommt. Le domande indirette suonano più cortesi di quelle dirette e sono tipiche agli sportelli, al telefono e nelle e-mail. La punteggiatura segue la frase principale: punto interrogativo dopo 'Weißt du, …?', punto fermo dopo 'Ich weiß nicht, ….'",
+      "examples": [
+        "Può dirmi dov'è la stazione?",
+        "Non so se il negozio è aperto oggi.",
+        "Sai quanto costa il biglietto?",
+        "Vorrei sapere perché la consegna non è ancora arrivata."
+      ],
+      "pitfalls": [
+        "La domanda indiretta è una frase subordinata: il verbo va alla fine.",
+        "Una domanda indiretta sì/no è introdotta da 'ob'; 'wenn' significa «se (nel caso in cui)» o «ogni volta che».",
+        "Una domanda (Hält der Bus hier?) richiede 'ob'; 'dass' riporta un'affermazione."
+      ]
+    },
+    "verben-mit-praepositionen-da-wo": {
+      "title": "Verbi con preposizione e parole in da(r)-/wo(r)-: warten auf, darauf, worauf",
+      "rule": "Molti verbi hanno una preposizione fissa con un caso fisso, da imparare insieme al verbo: warten auf + acc., sich freuen auf (futuro) / über (presente) + acc., denken an + acc., sich interessieren für + acc., sich ärgern über + acc., sich kümmern um + acc., sich bewerben um + acc., teilnehmen an + dat., sich beschäftigen mit + dat., träumen von + dat., Angst haben vor + dat., fragen nach + dat. Per una cosa si chiede con wo(r)- e si risponde con da(r)-: Worauf wartest du? – Darauf. Wofür interessierst du dich? – Dafür. La r compare quando la preposizione inizia per vocale (darauf, worüber, daran), altrimenti no (dafür, womit, davon). Per una persona restano la preposizione e il pronome: Auf wen wartest du? – Auf ihn. Una parola in da(r)- può anche rimandare a un'intera frase: Ich freue mich darauf, dass du kommst.",
+      "examples": [
+        "Aspetto l'autobus da un'ora.",
+        "Di cosa avete parlato? – Del nuovo film.",
+        "Ti interessi di politica? – Sì, mi interessa molto.",
+        "Non vedo l'ora che ci vediamo presto."
+      ],
+      "pitfalls": [
+        "'warten' si usa con 'auf' + accusativo, non con 'für' (come l'inglese «wait for»).",
+        "Per le cose si chiede con la parola in wo(r)-: worauf, womit, wofür. 'Auf was' è solo colloquiale.",
+        "Un pronome che indica una cosa si fonde con la preposizione in una parola in da(r)-: daran, davon, damit.",
+        "'sich freuen auf' guarda avanti (attesa), 'sich freuen über' riguarda ciò che c'è già."
+      ]
+    },
+    "zweiteilige-konnektoren": {
+      "title": "Connettori a due parti: nicht nur … sondern auch, entweder … oder, weder … noch, zwar … aber, je … desto",
+      "rule": "I connettori a due parti collegano due parti di una frase o due frasi e rendono esplicita la relazione: nicht nur … sondern auch (aggiunta con enfasi), sowohl … als auch (entrambi), entweder … oder (una di due opzioni), weder … noch (né … né – già negativo, niente 'nicht' in più), zwar … aber (concessione), je … desto/umso (due cose crescono insieme). Ordine delle parole: 'sondern auch', 'aber' e 'oder' non lo cambiano; 'weder', 'zwar' ed 'entweder' possono occupare la prima posizione, con il verbo subito dopo; dopo 'je' viene una subordinata con il verbo alla fine, dopo 'desto' viene subito il comparativo e poi il verbo: Je mehr ich übe, desto besser spreche ich.",
+      "examples": [
+        "Parla non solo tedesco, ma anche turco e arabo.",
+        "Andiamo o in treno o in autobus.",
+        "Non ho né il tempo né la voglia.",
+        "Più a lungo vivo in Germania, meglio capisco le persone."
+      ],
+      "pitfalls": [
+        "'weder … noch' è già negativo; un 'nicht' in più è sbagliato.",
+        "Dopo 'desto' viene prima il comparativo, poi il verbo, poi il soggetto.",
+        "'zwar' appartiene solo alla prima parte; la seconda inizia con 'aber'.",
+        "'nicht nur' continua con 'sondern auch', non con 'aber auch'."
+      ]
+    },
+    "passiv-praesens": {
+      "title": "Il passivo al presente e al Präteritum: Das Brot wird gebacken, das Haus wurde gebaut",
+      "rule": "Il passivo si usa quando l'azione conta più di chi la compie: In der Bäckerei wird das Brot morgens gebacken. Formazione: werden (coniugato) + participio passato alla fine della frase. Presente: ich werde gefragt, du wirst gefragt, er/sie/es wird gefragt, wir werden gefragt, ihr werdet gefragt, sie werden gefragt. Präteritum: wurde, wurdest, wurde, wurden, wurdet, wurden: Das Haus wurde 1990 gebaut. Il complemento oggetto all'accusativo della frase attiva diventa il soggetto della frase passiva: Man repariert das Auto → Das Auto wird repariert. Chi compie l'azione viene nominato – se mai – con 'von' + dativo: Das Auto wird von einem Mechaniker repariert. Senza complemento oggetto, la frase si apre con 'es' o con un'espressione avverbiale: Hier wird nicht geraucht.",
+      "examples": [
+        "La bolletta viene pagata a fine mese.",
+        "Il conto è stato aperto ieri.",
+        "In Germania vengono costruite molte auto.",
+        "I pacchi vengono consegnati dalla posta."
+      ],
+      "pitfalls": [
+        "Il processo (qualcuno lo cuoce) richiede il passivo con 'werden'; 'ist gebacken' descrive solo lo stato finale.",
+        "'von' regge il dativo (von dem / vom Mechaniker), e il participio va alla fine.",
+        "'werden' concorda con il soggetto: die Häuser (plurale) → wurden.",
+        "Il soggetto è 'keine Fotos' (plurale): werden … gemacht."
+      ]
+    },
     "passiv-werden-sein": {
       "title": "Il passivo con werden o sein?",
       "rule": "Il passivo d'azione 'werden' + participio passato descrive un'azione che avviene o è avvenuta: Die Tür wird geschlossen (qualcuno la sta chiudendo). Il passivo di stato 'sein' + participio passato descrive il risultato, lo stato successivo: Die Tür ist geschlossen (è chiusa). Il Perfekt del passivo d'azione è 'ist geschlossen worden'.",
@@ -565,6 +788,147 @@
       "pitfalls": [
         "La partenza è avvenuta prima dell'arrivo: Plusquamperfekt con war.",
         "Con il Präteritum nella frase principale, la frase con 'nachdem' richiede il Plusquamperfekt."
+      ]
+    },
+    "konjunktiv-ii-vergangenheit": {
+      "title": "Il Konjunktiv II del passato: hätte … gemacht, wäre … gegangen",
+      "rule": "Per le situazioni irreali nel passato – ciò che sarebbe potuto essere ma non è stato – il Konjunktiv II si forma con hätte o wäre + participio passato: Ich hätte dich angerufen. Wir wären gern gekommen. La scelta tra hätte e wäre segue il Perfekt (habe gemacht → hätte gemacht; bin gegangen → wäre gegangen). Usi tipici: condizioni irreali (Wenn ich das gewusst hätte, wäre ich früher gegangen), desideri (Hätte ich doch mehr gelernt!), rimproveri e senno di poi (Du hättest mich fragen können). Con un verbo modale alla fine sta un doppio infinito, e nella subordinata 'hätte' si sposta davanti a esso: …, weil ich hätte arbeiten müssen. Per il passato non esiste una forma con 'würde'.",
+      "examples": [
+        "Se l'avessi saputo, non sarei venuto.",
+        "Se solo avessi iniziato prima il corso di tedesco!",
+        "Avresti potuto chiamarmi.",
+        "Senza il tuo aiuto non avremmo mai trovato l'appartamento."
+      ],
+      "pitfalls": [
+        "Dopo una subordinata anteposta la frase principale inizia con il verbo: …, wäre ich gekommen.",
+        "'fahren' forma il Perfekt con sein (ich bin gefahren), quindi wäre gefahren.",
+        "Il Konjunktiv II del passato si forma con hätte/wäre + participio passato, non con 'würde'.",
+        "Con un doppio infinito, nella subordinata 'hätte' viene prima dei due infiniti."
+      ]
+    },
+    "irreale-vergleiche-als-ob": {
+      "title": "Paragoni irreali: als ob, als wenn, als + Konjunktiv II",
+      "rule": "Un paragone irreale descrive come qualcosa sembra, anche se non è così: Er tut so, als ob er alles wüsste. Dopo 'als ob' e 'als wenn' viene una subordinata con il verbo alla fine al Konjunktiv II (wüsste, hätte, wäre, würde … machen; passato: hätte … gemacht, wäre … gewesen). Più breve e più scritto è 'als' da solo: allora il verbo segue subito: Er tut so, als wüsste er alles. Aperture tipiche: so tun, als ob; es scheint, als ob; es sieht aus, als ob; sich fühlen, als ob; so klingen, als ob. Il tempo del Konjunktiv segue il paragone: simultaneo → forma del presente (als ob er krank wäre), anteriore → forma del passato (als ob er nie krank gewesen wäre).",
+      "examples": [
+        "Fa come se non mi conoscesse.",
+        "Sembra che abbia piovuto tutta la notte.",
+        "Parla come se fosse lui il capo.",
+        "Mi sento come se non dormissi da una settimana."
+      ],
+      "pitfalls": [
+        "Dopo 'als ob' il verbo va alla fine e al Konjunktiv II: wäre.",
+        "Con 'als' senza 'ob' il verbo coniugato viene subito dopo 'als'.",
+        "Il paragone irreale è 'als ob' (o 'als wenn', 'als'), mai 'wie ob'."
+      ]
+    },
+    "passiv-mit-modalverben": {
+      "title": "Il passivo con i verbi modali: muss repariert werden, konnte nicht geöffnet werden",
+      "rule": "Con un verbo modale il passivo è: modale (coniugato) + participio passato + werden (infinito) alla fine della frase: Das Auto muss repariert werden. Die Rechnung kann online bezahlt werden. Al Präteritum cambia solo il modale: Die Tür konnte nicht geöffnet werden. Al Perfekt compare un doppio infinito con haben: Die Rechnung hat bezahlt werden müssen – in pratica, al suo posto si usa quasi sempre il Präteritum. Nella subordinata il modale va proprio alla fine: …, weil das Auto repariert werden muss. Invece del passivo con il modale puoi anche dire: man muss … reparieren, … ist zu reparieren, … lässt sich reparieren.",
+      "examples": [
+        "Il contatore deve essere letto entro venerdì.",
+        "Ieri il pacco non ha potuto essere consegnato.",
+        "I reclami possono essere presentati anche per e-mail.",
+        "Chiamo perché la fattura deve essere corretta."
+      ],
+      "pitfalls": [
+        "Alla fine vengono prima il participio passato, poi 'werden': repariert werden.",
+        "Il significato è l'azione (qualcuno deve compilarlo): passivo d'azione con 'werden'. 'muss ausgefüllt sein' significherebbe che deve trovarsi nello stato di compilato.",
+        "Nella subordinata il modale coniugato va proprio alla fine.",
+        "Dopo il modale viene l'infinito 'werden', non un participio."
+      ]
+    },
+    "partizip-i-ii-als-adjektiv": {
+      "title": "Partizip I e II come aggettivi: das weinende Kind, das reparierte Auto",
+      "rule": "Entrambi i participi possono stare davanti a un sostantivo e allora si declinano come aggettivi. Il Partizip I (infinito + d: weinend, steigend, kommend) descrive qualcosa che avviene adesso, attivo e simultaneo: das weinende Kind (il bambino che piange), die steigenden Mieten (gli affitti che salgono). Il Partizip II (gemacht, repariert, gebaut) descrive qualcosa di concluso, di solito passivo: das reparierte Auto (l'auto che è stata riparata), die renovierte Wohnung. Le desinenze seguono le regole dell'aggettivo: mit dem lachenden Mann, ein frisch gestrichenes Zimmer. Solo i verbi con il Perfekt in sein formano Partizip II attivi: der angekommene Zug (il treno che è arrivato). Un Partizip I con 'zu' esprime necessità o possibilità: die zu zahlende Miete (l'affitto che deve essere pagato).",
+      "examples": [
+        "Gli affitti in aumento sono il problema più grande della città.",
+        "Abbiamo visitato un appartamento appena ristrutturato con balcone.",
+        "L'agente immobiliare ci ha mostrato la casa appena costruita.",
+        "Si prega di bonificare entro lunedì la cauzione da versare."
+      ],
+      "pitfalls": [
+        "Qualcosa che sta avvenendo adesso richiede il Partizip I: weinen + d + desinenza = weinende.",
+        "La macchina è stata riparata (passivo, concluso): Partizip II. 'reparierend' significherebbe che sta riparando qualcosa lei stessa.",
+        "Solo i verbi con il Perfekt in sein formano un Partizip II attivo (der Gast ist gekommen); 'der gegessene Gast' sarebbe un ospite che qualcuno ha mangiato.",
+        "I participi si declinano come aggettivi: dopo 'dem' la desinenza è -en."
+      ]
+    },
+    "genitivpraepositionen": {
+      "title": "Preposizioni con il genitivo: wegen, trotz, während, innerhalb, aufgrund, anstelle",
+      "rule": "Alcune preposizioni reggono il genitivo nel tedesco standard: wegen (causa), trotz (nonostante), während (durata), innerhalb/außerhalb (spazio e tempo), aufgrund (causa, formale), anstelle/(an)statt (invece di), infolge (in seguito a), mithilfe (per mezzo di), bezüglich/hinsichtlich (riguardo a, formale). Forme del genitivo: des Wetters, der Arbeit, des Jahres, der Kinder – i sostantivi maschili e neutri prendono -s o -es al singolare. Con i pronomi, 'wegen mir' è colloquiale; nello scritto si usa meinetwegen, deinetwegen, seinetwegen, unseretwegen. Nel parlato wegen e trotz sono spesso seguiti dal dativo (wegen dem Regen); nelle lettere, negli esami e nelle relazioni vale il genitivo. Quando un sostantivo plurale è senza articolo, subentra 'von': wegen Bauarbeiten, innerhalb von zwei Wochen.",
+      "examples": [
+        "A causa dello sciopero oggi non circolano treni.",
+        "Nonostante la lunga attesa, l'appuntamento è stato un successo.",
+        "Durante gli studi ha lavorato in un caffè.",
+        "La domanda deve essere presentata entro un mese."
+      ],
+      "pitfalls": [
+        "Nello scritto e nell'uso formale 'wegen' regge il genitivo: des schlechten Wetters. Il dativo è colloquiale.",
+        "I sostantivi maschili e neutri prendono -s/-es al genitivo singolare: des Regens.",
+        "Come preposizione 'während' regge il genitivo: während der Prüfung. (Come congiunzione 'während' apre una frase: Während ich lerne, …)",
+        "Senza articolo il genitivo plurale non è riconoscibile; allora si usa 'innerhalb von' + dativo."
+      ]
+    },
+    "relativsaetze-praepositionen-wo-was": {
+      "title": "Frasi relative con preposizione, wo, was e wer: der Freund, mit dem …; alles, was …",
+      "rule": "Se il verbo della frase relativa dipende da una preposizione, la preposizione sta davanti al pronome relativo e ne determina il caso: der Freund, mit dem ich wohne (wohnen mit + dativo); die Firma, für die sie arbeitet (arbeiten für + accusativo); das Thema, über das wir gesprochen haben. Per i luoghi si possono usare 'wo' (stato in luogo), 'wohin' (direzione) o 'woher' (provenienza): die Stadt, in der ich wohne = die Stadt, wo ich wohne; con i nomi di città solo 'wo': Berlin, wo ich studiert habe. 'was' segue alles, nichts, etwas, vieles, das, un superlativo sostantivato e un'intera frase: alles, was ich weiß; das Beste, was passieren konnte; Er kam zu spät, was mich geärgert hat. Con una preposizione diventa una parola in wo(r)-: etwas, worauf ich mich freue. 'wer …, der …' senza antecedente significa «chiunque»: Wer zu spät kommt, (der) bekommt keinen Platz.",
+      "examples": [
+        "È il collega con cui gestisco il progetto.",
+        "La città in cui sono cresciuto è cambiata molto.",
+        "C'è molto che si può criticare in questa proposta.",
+        "Chi non conosce la legge non può nemmeno rispettarla."
+      ],
+      "pitfalls": [
+        "Preposizione e pronome relativo stanno insieme all'inizio della frase relativa: mit dem.",
+        "Dopo 'alles', 'nichts', 'etwas' e 'das' il pronome relativo è 'was'.",
+        "La preposizione determina il caso: 'für' + accusativo → für die (Firma).",
+        "Quando la frase relativa si riferisce all'intera frase, usa 'was'."
+      ]
+    },
+    "modalpartikeln": {
+      "title": "Particelle modali: doch, mal, ja, eben, halt, denn, eigentlich",
+      "rule": "Le particelle modali sono piccole parole atone in mezzo alla frase che le danno un atteggiamento – rendono naturale il tedesco parlato e sono quasi intraducibili. 'doch': una richiesta o un richiamo a qualcosa di noto (Komm doch mit! Das weißt du doch.); 'mal': rende una richiesta informale (Kannst du mal kommen?); 'ja': qualcosa è noto o sorprendente (Das ist ja toll! Du weißt ja, wie er ist.); 'eben'/'halt': bisogna accettarlo (Dann müssen wir eben warten.); 'denn': rende una domanda gentile e interessata (Wie heißt du denn? Was ist denn los?); 'eigentlich': una domanda casuale o una riserva (Wo wohnst du eigentlich? Eigentlich wollte ich früher gehen.); 'schon': rassicura o concede (Das wird schon klappen.); 'wohl': supposizione (Er ist wohl krank.). Stanno dopo il verbo e i pronomi, di solito prima del complemento, e quasi solo nelle frasi principali e nelle domande, non nelle lettere formali.",
+      "examples": [
+        "Siediti pure! Vuoi un caffè?",
+        "Ma cos'è successo? Sei tutto pallido.",
+        "Puoi darmi una mano un attimo?",
+        "Il treno è partito. Pazienza, prendiamo il prossimo."
+      ],
+      "pitfalls": [
+        "Le particelle modali stanno in mezzo alla frase dopo il verbo, mai in prima posizione (lì 'doch' sarebbe una contraddizione accentata).",
+        "'doch mal' è stile colloquiale tra persone che si conoscono; in una lettera formale è fuori luogo.",
+        "Le domande gentili vogliono 'denn'; 'eben' esprime che qualcosa va accettato."
+      ]
+    },
+    "konnektoren-indem-sodass-ohne-dass": {
+      "title": "Connettori di mezzo, conseguenza e contrario: indem, dadurch dass, sodass, ohne dass / ohne … zu, (an)statt dass / (an)statt … zu",
+      "rule": "Questi connettori subordinanti dicono come avviene qualcosa e cosa ne consegue; il verbo coniugato va alla fine. Mezzo: 'indem' e 'dadurch, dass' (Sie lernt Vokabeln, indem sie Karten schreibt. – Come? Scrivendo schede). Conseguenza: 'sodass' o 'so …, dass' (Es regnete stark, sodass das Fest ausfiel. Es regnete so stark, dass das Fest ausfiel). Qualcosa di atteso non avviene: 'ohne dass' (Er ging, ohne dass jemand es merkte) – con lo stesso soggetto il più breve 'ohne … zu' + infinito (Er ging, ohne sich zu verabschieden). Sostituzione: '(an)statt dass' – con lo stesso soggetto '(an)statt … zu' (Statt zu arbeiten, surft er im Internet). Allo stesso modo 'um … zu' (scopo) e 'als dass' dopo 'zu + aggettivo' (Er ist zu müde, als dass er noch fahren könnte). 'ohne … zu' e 'statt … zu' funzionano solo quando le due parti hanno lo stesso soggetto.",
+      "examples": [
+        "Risparmi corrente spegnendo completamente gli apparecchi.",
+        "La connessione era così cattiva che la chiamata è caduta.",
+        "Ha installato l'aggiornamento senza leggere le note.",
+        "Invece di rispondere, l'azienda manda solo e-mail automatiche."
+      ],
+      "pitfalls": [
+        "'indem' apre una subordinata: il verbo va alla fine.",
+        "O 'ohne dass' + verbo coniugato o 'ohne … zu' + infinito – non entrambi.",
+        "Dopo 'so + aggettivo' viene 'dass'; 'sodass' si usa quando la frase principale non ha 'so': Es war kalt, sodass wir drinnen blieben.",
+        "In una frase infinitiva 'zu + infinito' va proprio alla fine: statt uns zu helfen."
+      ]
+    },
+    "futur-vermutung": {
+      "title": "Supposizioni con il Futur I e II: Er wird wohl krank sein. Sie wird den Zug verpasst haben.",
+      "rule": "'werden' + infinito (Futur I) esprime non solo il futuro ma spesso una supposizione sul presente: Er wird wohl krank sein (= probabilmente è malato). Una supposizione sul passato richiede il Futur II: werden + participio passato + haben/sein: Sie wird den Zug verpasst haben (= probabilmente l'ha perso). Er wird schon angekommen sein. Particelle come wohl, sicher, bestimmt, wahrscheinlich, vermutlich segnalano la supposizione; 'wohl' è tipica. Il Futur II può anche indicare un futuro compiuto: Bis Freitag werde ich den Bericht geschrieben haben. Nella subordinata 'werden' va alla fine: …, weil er den Zug verpasst haben wird. Per semplici affermazioni sul futuro con un'espressione di tempo basta di solito il presente: Morgen fahre ich nach Bonn.",
+      "examples": [
+        "La luce è spenta – staranno già dormendo.",
+        "L'autobus non è ancora arrivato. Sarà bloccato nel traffico.",
+        "Non hai ricevuto l'e-mail? Allora sarà finita nello spam.",
+        "Entro il 2030 la città avrà completato l'ampliamento."
+      ],
+      "pitfalls": [
+        "Una supposizione sul passato richiede il Futur II: werden + participio passato + haben/sein.",
+        "L'ausiliare segue il Perfekt: er ist angekommen → wird angekommen sein.",
+        "Nella subordinata il 'werden' coniugato va proprio alla fine."
       ]
     },
     "nominalstil-verbalstil": {
@@ -648,6 +1012,38 @@
         "Quando il Konjunktiv I è inequivocabile (sei), ha la precedenza nel discorso indiretto formale; 'wäre' può essere letto come un dubbio sull’affermazione."
       ]
     },
+    "textkonnektoren-kohaerenz": {
+      "title": "Connettori testuali: hingegen, allerdings, demnach, infolgedessen, zumal, wenngleich, gleichwohl, insofern",
+      "rule": "I testi e gli interventi più lunghi tengono insieme l'argomentazione con connettori che vanno oltre 'aber', 'deshalb' e 'obwohl'. Contrasto: hingegen, dagegen, demgegenüber (Die Stadt wächst, das Umland hingegen verliert Einwohner); riserva: allerdings, jedoch, freilich, gleichwohl (… ist allerdings teuer); conseguenza/conclusione: demnach, demzufolge, infolgedessen, mithin, somit (Demnach ist der Vorschlag abzulehnen); un motivo in più, particolarmente importante: zumal (…, zumal die Kosten steigen); concessione: wenngleich, obgleich, obschon (Wenngleich der Plan teuer ist, …); condizione/punto di vista: insofern (als), sofern (Das stimmt insofern, als …). Ordine delle parole: hingegen, allerdings, jedoch, demnach, infolgedessen, somit sono avverbi – occupano la prima posizione (il verbo segue) o stanno in mezzo alla frase; zumal, wenngleich, obgleich, sofern, insofern als aprono subordinate (verbo alla fine). Usali con parsimonia: un connettore per frase basta, e 'hingegen' o 'jedoch' stanno volentieri dopo l'elemento accentato.",
+      "examples": [
+        "L'industria chiede prezzi dell'energia più bassi; le associazioni ambientaliste, al contrario, chiedono un'uscita più rapida dal carbone.",
+        "Ampliare l'eolico ha senso, tanto più che negli ultimi anni la tecnologia è diventata molto più economica.",
+        "Lo studio ha difetti metodologici; di conseguenza i suoi risultati sono solo in parte attendibili.",
+        "Sebbene la misura comporti costi nel breve periodo, nel lungo periodo ripaga."
+      ],
+      "pitfalls": [
+        "'hingegen' è un avverbio e segue l'elemento accentato oppure occupa la prima posizione con il verbo subito dopo (Hingegen verliert das Umland …), non il posto di una congiunzione davanti al soggetto.",
+        "'zumal' apre una subordinata: il verbo va alla fine.",
+        "'insofern' non indica una causa ma un punto di vista o una condizione ('insofern, als …'); una causa richiede 'da' o 'weil'.",
+        "Due connettori restrittivi uno accanto all'altro sono ridondanti; ne basta uno."
+      ]
+    },
+    "partizipialsaetze": {
+      "title": "Frasi participiali: In Berlin angekommen, …; Lächelnd betrat sie den Saal.",
+      "rule": "Una frase participiale riduce una subordinata a un participio con i suoi complementi; non ha un soggetto proprio – condivide quello della frase principale – ed è separata da virgole. Il Partizip I esprime simultaneità: Laut singend fuhr er durch die Stadt (= mentre cantava a voce alta). Il Partizip II esprime anteriorità o il passivo: In Berlin angekommen, suchte sie zuerst ein Hotel (= dopo che era arrivata); Von allen Seiten kritisiert, zog der Minister den Entwurf zurück (= dopo che era stato criticato). Il participio sta alla fine del suo gruppo. Espressioni fisse: genau genommen, streng genommen, ehrlich gesagt, offen gestanden, grob geschätzt, verglichen mit, abgesehen von, vorausgesetzt (, dass). Lo stile è scritto ed elevato: giornali, letteratura, relazioni; nella conversazione si usa invece la subordinata.",
+      "examples": [
+        "Incoraggiata dal successo del suo primo romanzo, iniziò subito il secondo.",
+        "Con lo sguardo fisso sul mare, il vecchio rimase per ore seduto alla finestra.",
+        "A rigore, questa non è una recensione ma un saggio.",
+        "Rispetto al suo predecessore, il seguito appare quieto e riflessivo."
+      ],
+      "pitfalls": [
+        "La frase participiale richiede lo stesso soggetto della principale; 'es' (regnete) non è arrivato a Berlino.",
+        "Il participio chiude il suo gruppo: il complemento viene prima.",
+        "Simultaneo e attivo: Partizip I (singend). Il Partizip II significherebbe che lui era stato cantato.",
+        "L'espressione fissa è 'ehrlich gesagt' (Partizip II); allo stesso modo offen gestanden, genau genommen."
+      ]
+    },
     "paronyme-scheinbar-anscheinend": {
       "title": "Paronimi: scheinbar o anscheinend, effektiv o effizient?",
       "rule": "I paronimi sono parole dal suono simile ma dal significato diverso, che confondono persino i madrelingua. 'anscheinend' esprime una supposizione che probabilmente è vera (a quanto pare); 'scheinbar' dice che qualcosa sembra soltanto così, ma in realtà è diverso: 'Er ist anscheinend krank' (probabilmente) contro 'Sein Interesse war nur scheinbar' (simulato). Altre coppie: effektiv (efficace, che raggiunge lo scopo) ed effizient (efficiente, con poco sforzo); formal (relativo alla forma) e formell (cerimonioso, secondo le regole); rational (ragionevole) e rationell (economico, funzionale); kindlich (da bambino, neutro) e kindisch (puerile, spregiativo); sensibel (sensibile, che si ferisce facilmente) e sensitiv (termine tecnico: che reagisce a piccole variazioni). Nel dubbio aiuta la prova con il contrario: 'scheinbar' tollera un 'aber in Wirklichkeit', 'anscheinend' no.",
@@ -723,6 +1119,38 @@
         "'laut' e 'zufolge' significano la stessa cosa; ne basta uno. 'zufolge' segue il nome e regge il dativo.",
         "'ungeachtet' regge il genitivo: ungeachtet der Proteste.",
         "'gemäß' regge il dativo anche se suona formale; il genitivo è un’ipercorrezione molto diffusa."
+      ]
+    },
+    "es-als-platzhalter-korrelat": {
+      "title": "'es' come segnaposto e correlato: Es wurde viel gelacht. Ich halte es für geboten, dass …",
+      "rule": "Oltre al pronome (Das Buch? Ich habe es gelesen) e all'uso fisso di 'es' con i verbi impersonali (es regnet, es gibt, es geht um, es handelt sich um, mir ist es kalt), 'es' ha due funzioni che distinguono una prosa precisa. Primo, come segnaposto in prima posizione: occupa il posto iniziale quando il soggetto va spostato indietro per dargli peso – Es wurde viel gelacht. Es kamen mehr Gäste als erwartet. Es bleibt die Frage, ob … Appena un altro elemento viene per primo, questo 'es' sparisce senza lasciare traccia: Gestern wurde viel gelacht. Non concorda con il verbo: Es kamen (plurale!) mehr Gäste. Secondo, come correlato che annuncia una subordinata o una frase infinitiva: Ich halte es für geboten, dass …; Sie hat es abgelehnt, den Vertrag zu unterschreiben; Es freut mich, dass … Con verbi come bedauern, ablehnen, begrüßen, vermeiden, es für richtig halten il correlato in mezzo alla frase è obbligatorio (Ich bedaure es, dass …); con altri (wissen, glauben, sagen) manca: Ich weiß, dass … (non: Ich weiß es, dass …). Un 'es' correlato in prima posizione sparisce quando la frase stessa viene per prima: Dass er absagt, überrascht mich – non: Dass er absagt, es überrascht mich.",
+      "examples": [
+        "Si è trattato fino a notte fonda senza che si raggiungesse un accordo.",
+        "Sono arrivate molte più obiezioni di quante il consiglio si aspettasse.",
+        "Il consiglio ritiene indispensabile rinviare la decisione.",
+        "Che lo studio non sia mai stato pubblicato spiega molte cose."
+      ],
+      "pitfalls": [
+        "Il segnaposto 'es' esiste solo in prima posizione; quando lì c'è qualcos'altro, sparisce.",
+        "Il segnaposto 'es' non è il soggetto; il verbo concorda con 'mehr Gäste' (plurale).",
+        "Con wissen, glauben, sagen, hoffen nessun correlato precede la frase con dass.",
+        "Quando la frase viene per prima, occupa lei stessa il posto iniziale; un 'es' in più sarebbe un secondo elemento davanti al verbo."
+      ]
+    },
+    "nachfeld-ausklammerung": {
+      "title": "Il Nachfeld e l'estraposizione: …, als wir dachten. Er hat lange gewartet – auf eine Antwort, die nie kam.",
+      "rule": "La frase tedesca è una parentesi: il verbo coniugato e il resto del predicato (participio, infinito, prefisso) racchiudono la parte centrale – Er hat … gewartet. Tutto ciò che sta dopo la parentesi destra è nel Nachfeld. Le subordinate e le frasi infinitive ci stanno per natura (Er hat versprochen, dass er kommt), come i paragoni con 'als' e 'wie' (Es ist später geworden, als wir dachten) e le aggiunte a posteriori (Sie hat alles verkauft, sogar die Bücher). L'estraposizione consiste nel collocare di proposito dopo la parentesi un elemento che starebbe anche dentro: Er hat lange gewartet – auf eine Antwort, die nie kam. Alleggerisce gli elementi lunghi o pesanti (soprattutto i complementi preposizionali con una frase relativa), mette in rilievo ciò che viene spostato fuori e tiene corta la parentesi, così chi ascolta non arriva al verbo solo dopo venti parole. Non si estrapone: un semplice complemento oggetto all'accusativo, i pronomi e gli avverbi brevi – 'Er hat gelesen das Buch' è sbagliato, anche nel parlato. Nella prosa amministrativa e accademica la parentesi chiusa è la norma; nei discorsi, nel giornalismo e nella letteratura l'estraposizione voluta è un mezzo stilistico – voluta, non abituale.",
+      "examples": [
+        "La mostra è diventata più grande di quanto i suoi curatori avessero mai previsto.",
+        "Il regista ha raccontato per due ore – di un'infanzia che nessuno immaginerebbe.",
+        "Ha venduto tutto, perfino il pianoforte della nonna.",
+        "Ho letto la recensione, con crescente disagio."
+      ],
+      "pitfalls": [
+        "Un semplice complemento oggetto all'accusativo resta dentro la parentesi; si estrapongono i complementi preposizionali pesanti, i paragoni e le aggiunte a posteriori.",
+        "Il paragone con 'als' va nel Nachfeld, dopo il participio.",
+        "Gli avverbi pronominali (darauf, damit) e i pronomi non si estrapongono.",
+        "In una lettera ufficiale la parentesi chiusa è la norma; il trattino con un'aggiunta a posteriori è un mezzo per i discorsi e le pagine culturali."
       ]
     }
   },
@@ -2720,6 +3148,15 @@
         "che vuoi sapere se la colazione è inclusa"
       ]
     },
+    "a1-postcard-holiday": {
+      "title": "Una cartolina dalle vacanze",
+      "prompt": "Scrivi una cartolina al tuo amico Tom dalle tue vacanze al mare: di' dove sei, che tempo fa e cosa fai tutto il giorno.",
+      "points": [
+        "dove sei",
+        "il tempo",
+        "cosa fai tutto il giorno"
+      ]
+    },
     "a2-birthday": {
       "title": "Un invito di compleanno",
       "prompt": "Scrivi una breve e-mail a un amico: invitalo alla tua festa di compleanno sabato. Di' quando inizia, dove si svolge e cosa deve portare. 30-40 parole.",
@@ -2745,6 +3182,15 @@
         "com'è l'appartamento",
         "cosa ti piace",
         "che deve venire a trovarti"
+      ]
+    },
+    "a2-heating-broken": {
+      "title": "Il riscaldamento è rotto",
+      "prompt": "Scrivi un breve messaggio formale al tuo padrone di casa, Herr Krause: il riscaldamento del tuo appartamento non funziona da lunedì. Di' qual è il problema e da quando, chiedigli di mandare presto qualcuno e di' quando sei a casa.",
+      "points": [
+        "il problema e da quando",
+        "che deve mandare qualcuno",
+        "quando sei a casa"
       ]
     },
     "b1-missed-party": {
@@ -2774,6 +3220,15 @@
         "un esempio"
       ]
     },
+    "b1-complaint-online-order": {
+      "title": "Un reclamo per un ordine online",
+      "prompt": "Hai ordinato una lampada online (numero d'ordine 48213). È arrivata dopo tre settimane e il vetro è rotto. Scrivi un'e-mail formale al negozio: descrivi il problema, di' cosa vuoi (una sostituzione o il rimborso) e chiedi come rispedire la lampada.",
+      "points": [
+        "il problema",
+        "cosa vuoi",
+        "che vuoi sapere come rispedirla"
+      ]
+    },
     "b2-course-complaint": {
       "title": "Un reclamo a una scuola di lingue",
       "prompt": "Scrivi un reclamo formale (circa 150 parole) a una scuola di lingue: il tuo corso è rimasto senza insegnante per tre lezioni. Descrivi cos'è successo, di' cosa ti aspetti che faccia la scuola e fissa una scadenza per la risposta.",
@@ -2790,6 +3245,16 @@
         "perché ti interessa",
         "la tua esperienza",
         "quando sei disponibile"
+      ]
+    },
+    "b2-forum-smartphones-school": {
+      "title": "Un post sul forum: smartphone a scuola",
+      "prompt": "In un forum online alcuni genitori discutono se gli smartphone debbano essere vietati a scuola. Scrivi un post (circa 170 parole): di' cosa ne pensi, porta argomenti pro e contro, descrivi un'esperienza personale e fai una proposta.",
+      "points": [
+        "la tua opinione",
+        "argomenti pro e contro",
+        "un'esperienza personale",
+        "una proposta"
       ]
     },
     "c1-letter-to-editor": {
@@ -2812,6 +3277,16 @@
         "una richiesta di incontro"
       ]
     },
+    "c1-graph-commuting": {
+      "title": "Una relazione sui dati del pendolarismo",
+      "prompt": "La tua responsabile del reparto, Frau Dr. Neumann, ti ha chiesto di riassumere un'indagine per il rapporto sulla mobilità della città. I dati: nel 2015 il 61 % dei pendolari andava al lavoro in auto, il 22 % usava i mezzi pubblici e il 9 % la bicicletta; nel 2025 le quote erano del 48 %, 29 % e 17 %; il tragitto medio è passato da 16 a 19 km. Scrivile un'e-mail formale (circa 230 parole): descrivi gli sviluppi principali, confronta i dati, indica le possibili cause e raccomanda una misura per la città.",
+      "points": [
+        "gli sviluppi principali descritti",
+        "i dati messi a confronto",
+        "le possibili cause",
+        "una misura raccomandata"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "Un reclamo a una banca per spese di conto corrente illegittime",
       "prompt": "Due anni fa la tua banca ha aumentato le spese di conto corrente senza il tuo consenso esplicito e ora si rifiuta di rimborsarle, appellandosi alla tua \"accettazione tacita\". Scrivi un reclamo formale alla banca (circa 260 parole): esponi i fatti con date e importi, indica la base giuridica e la sentenza a cui ti richiami, chiedi il rimborso fissando una scadenza e annuncia i passi che intraprenderai se la banca non adempie.",
@@ -2830,6 +3305,659 @@
         "i dati o le esperienze su cui ti basi",
         "l’obiezione più forte, affrontata",
         "una raccomandazione legata a condizioni"
+      ]
+    },
+    "c2-open-letter-museum": {
+      "title": "Una lettera aperta alla direttrice di un museo sulla nuova mostra",
+      "prompt": "Il museo civico ha inaugurato una nuova esposizione permanente sulla storia della città che tralascia il passato industriale e punta sugli schermi invece che sugli oggetti. Scrivi una lettera aperta alla direttrice, Frau Dr. Berger (circa 280 parole): valuta il concetto della mostra, critica due scelte curatoriali motivandole, riconosci ciò che funziona e proponi cambiamenti concreti.",
+      "points": [
+        "il concetto valutato",
+        "due scelte criticate con motivazioni",
+        "ciò che funziona, riconosciuto",
+        "cambiamenti concreti proposti"
+      ]
+    }
+  },
+  "path": {
+    "a1-01": {
+      "title": "Ciao! Mi chiamo …",
+      "goal": "Salutare e congedarti, presentarti, dire da dove vieni e quali lingue parli, e chiedere lo stesso agli altri.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Come mi presento in tedesco, in modo formale e informale?",
+        "conoscere un nuovo collega il primo giorno di lavoro e presentarti"
+      ]
+    },
+    "a1-02": {
+      "title": "La mia famiglia e io",
+      "goal": "Parlare della tua famiglia e dei tuoi amici, dire quanti anni hanno le persone e cosa fanno, e fare domande sulla famiglia di qualcuno.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Come parlo della mia famiglia: nomi, età e lavori?",
+        "mostrare a un amico le foto della tua famiglia"
+      ]
+    },
+    "a1-03": {
+      "title": "Buon appetito!",
+      "goal": "Ordinare da mangiare e da bere al bar o al ristorante, dire cosa ti piace, chiedere quanto costa qualcosa e pagare.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-04": {
+      "title": "Fare acquisti",
+      "goal": "Comprare cibo e vestiti, chiedere taglie, colori e quantità, capire i prezzi e dire cosa non ti serve.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-05": {
+      "title": "La mia giornata",
+      "goal": "Dire l'ora, descrivere la tua routine quotidiana e la tua settimana, e fissare o spostare appuntamenti.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Come descrivo la mia giornata, da quando mi alzo a quando vado a letto?"
+      ]
+    },
+    "a1-06": {
+      "title": "A casa",
+      "goal": "Descrivere il tuo appartamento e i tuoi mobili, dire dove sono le cose e cosa ti piace di dove abiti, e capire un annuncio immobiliare.",
+      "steps": [
+        null,
+        null,
+        null,
+        "fare domande a un padrone di casa su un appartamento che vuoi affittare",
+        "Come descrivo il mio appartamento e dove si trovano i mobili?"
+      ]
+    },
+    "a1-07": {
+      "title": "In giro per la città",
+      "goal": "Chiedere e dare indicazioni stradali, usare autobus, treni e taxi, e nominare i luoghi di una città.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-08": {
+      "title": "Tempo libero e appuntamenti",
+      "goal": "Parlare dei tuoi hobby, dire cosa sai e cosa vuoi fare, invitare qualcuno e accordarti su un giorno e un'ora.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Come invito un amico e propongo un orario e un luogo?"
+      ]
+    },
+    "a1-09": {
+      "title": "Salute",
+      "goal": "Nominare le parti del corpo, dire cosa ti fa male, prendere un appuntamento dal medico e capire consigli semplici.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-10": {
+      "title": "Viaggi e tempo",
+      "goal": "Comprare un biglietto, fare il check-in in hotel, parlare del tempo e raccontare al Perfekt cosa hai fatto in viaggio.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-01": {
+      "title": "Com'è andato il fine settimana?",
+      "goal": "Raccontare cosa hai fatto nel fine settimana o in vacanza, dire com'è stato e chiedere agli altri del loro passato.",
+      "steps": [
+        null,
+        null,
+        null,
+        "Come racconto lo scorso fine settimana? Quale tempo passato uso quando parlo?",
+        "raccontare a un collega il lunedì mattina il tuo fine settimana"
+      ]
+    },
+    "a2-02": {
+      "title": "Feste e inviti",
+      "goal": "Invitare qualcuno, accettare o rifiutare un invito, parlare di regali e feste, e scrivere un invito.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "organizzare una festa a sorpresa con un amico"
+      ]
+    },
+    "a2-03": {
+      "title": "Vivere insieme",
+      "goal": "Descrivere la tua casa e le faccende domestiche, accordarti sulle regole con coinquilini e vicini, e chiedere qualcosa al custode o al padrone di casa.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-04": {
+      "title": "Acquisti e reclami",
+      "goal": "Confrontare prodotti e prezzi, chiedere aiuto con cortesia, cambiare o restituire qualcosa e lamentarti di un pasto.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-05": {
+      "title": "Restare in salute",
+      "goal": "Descrivere i sintomi, capire le indicazioni del medico, parlare di vita sana e giustificarti quando sei malato.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-06": {
+      "title": "Uffici e servizi",
+      "goal": "Registrarti all'ufficio anagrafe, spedire un pacco, denunciare uno smarrimento, compilare un modulo e scrivere un breve messaggio formale.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-07": {
+      "title": "Lavoro e professioni",
+      "goal": "Parlare del tuo lavoro e dei tuoi orari, dire da quando e per quanto tempo fai qualcosa, e candidarti per un lavoro semplice.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Come parlo del mio lavoro e dico perché mi piace?"
+      ]
+    },
+    "a2-08": {
+      "title": "In viaggio e in vacanza",
+      "goal": "Pianificare un viaggio, noleggiare una bici o comprare un biglietto, descrivere una vacanza e dire cosa farai la prossima estate.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "chiedere all'ufficio turistico cosa vedere in una città"
+      ]
+    },
+    "a2-09": {
+      "title": "Imparare e media",
+      "goal": "Parlare di come impari e di quali media usi, prendere in prestito un libro, e dire cosa sai, cosa sai fare e cosa conosci.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Cosa posso dire quando non capisco qualcosa o ho bisogno che mi ripetano una parola?"
+      ]
+    },
+    "a2-10": {
+      "title": "Persone, sentimenti e aspetto",
+      "goal": "Descrivere le persone, il loro carattere e come si sentono, spiegare perché qualcuno ti piace, e parlare del tuo aspetto dal parrucchiere.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "raccontare a un amico di una persona che hai conosciuto e di com'è"
+      ]
+    },
+    "b1-01": {
+      "title": "Storie di vita",
+      "goal": "Raccontare la tua storia e quella degli altri con i tempi del passato, parlare di relazioni e vita familiare, e scusarti per iscritto.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "ritrovare un vecchio compagno di scuola che non vedi da anni"
+      ]
+    },
+    "b1-02": {
+      "title": "Lavoro e carriera",
+      "goal": "Descrivere il tuo lavoro e i tuoi obiettivi, darti malato, discutere del lavoro da casa ed esprimere cause e scopi.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-03": {
+      "title": "Casa e vicini",
+      "goal": "Descrivere nel dettaglio la tua casa e il tuo quartiere, capire i punti principali di un contratto d'affitto, e collegare le frasi con le relative.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "una conversazione con un vicino sul rumore a tarda notte",
+        "Quali sono le parole più importanti in un contratto d'affitto tedesco e cosa significano?"
+      ]
+    },
+    "b1-04": {
+      "title": "Salute e alimentazione",
+      "goal": "Parlare di alimentazione sana, sport e stress, descrivere i sintomi con precisione, ed esprimere contrasto e concessione.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "parlare con un medico del mal di schiena dovuto al lavoro alla scrivania"
+      ]
+    },
+    "b1-05": {
+      "title": "Consumi e contratti",
+      "goal": "Confrontare offerte, capire la pubblicità, disdire un contratto e reclamare per un ordine con una lettera formale.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-06": {
+      "title": "Denaro e banca",
+      "goal": "Aprire un conto, parlare di risparmi e spese, e descrivere con il passivo ciò che viene fatto.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Quali verbi mi servono per parlare di soldi: pagare, bonificare, prelevare, risparmiare, prendere in prestito?"
+      ]
+    },
+    "b1-07": {
+      "title": "Mobilità e viaggi",
+      "goal": "Gestire una riparazione dell'auto e una coincidenza persa, reclamare in hotel, e raccontare cos'è successo prima, durante e dopo un viaggio.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-08": {
+      "title": "Media e mondo digitale",
+      "goal": "Parlare di notizie, social media e tempo davanti allo schermo, dire cosa aspetti e cosa ti infastidisce, e dare la tua opinione in un forum.",
+      "steps": [
+        null,
+        null,
+        null,
+        "una discussione con un amico sul fatto che i bambini debbano avere uno smartphone",
+        "Come esprimo la mia opinione e come sono d'accordo o in disaccordo con cortesia in tedesco?"
+      ]
+    },
+    "b1-09": {
+      "title": "Istruzione e apprendimento",
+      "goal": "Parlare di scuola, formazione e dei tuoi obiettivi di apprendimento, scrivere al tuo insegnante, ed esprimere desideri e condizioni irreali.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Qual è la differenza tra lernen, studieren e üben?"
+      ]
+    },
+    "b1-10": {
+      "title": "Ambiente, feste e società",
+      "goal": "Discutere di ambiente e di tutela del clima nel quotidiano, descrivere feste e tradizioni, e collegare i tuoi argomenti con i connettori a due parti.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "spiegare una festa del tuo paese a un amico tedesco",
+        "Come dico cosa faccio per l'ambiente nella mia vita quotidiana?"
+      ]
+    },
+    "b2-01": {
+      "title": "Il mondo del lavoro e le candidature",
+      "goal": "Presentarti a un colloquio di lavoro, scrivere una candidatura, e parlare delle condizioni di lavoro e di cosa sarebbe potuto andare diversamente.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-02": {
+      "title": "Vivere in città",
+      "goal": "Visitare un appartamento, riconsegnarlo e discutere della cauzione, confrontare città e campagna, e descrivere persone e cose con i participi.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-03": {
+      "title": "Consumatori e contratti",
+      "goal": "Reclamare per una fattura, una consegna o un servizio al telefono e per iscritto, e dire con il passivo cosa deve, può o dovrebbe essere fatto.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-04": {
+      "title": "Tecnologia e digitalizzazione",
+      "goal": "Segnalare un guasto, discutere i pro e i contro delle nuove tecnologie, e sostenere la tua posizione in un post sul forum.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-05": {
+      "title": "Migrazione e convivenza",
+      "goal": "Gestire un appuntamento all'ufficio immigrazione, parlare di migrazione, integrazione e identità, e indicare le cause con le preposizioni che reggono il genitivo.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Come parlo della mia esperienza di trasferimento in un nuovo paese?"
+      ]
+    },
+    "b2-06": {
+      "title": "Società e politica",
+      "goal": "Seguire una discussione su una questione sociale o politica, presentare argomenti pro e contro, e riferirti con precisione a ciò che è stato detto usando le relative.",
+      "steps": [
+        null,
+        null,
+        null,
+        "una discussione con un vicino su una nuova pista ciclabile nella tua via",
+        "Come strutturo un'argomentazione in tedesco: introduzione, pro, contro, conclusione?"
+      ]
+    },
+    "b2-07": {
+      "title": "Clima e ambiente",
+      "goal": "Discutere del cambiamento climatico e di cosa possono fare i singoli e i governi, fare supposizioni sul futuro, e capire un rapporto con dei dati.",
+      "steps": [
+        null,
+        null,
+        null,
+        "parlare con un collega di come la vostra azienda potrebbe sprecare meno",
+        "Come descrivo un grafico o una statistica in tedesco?"
+      ]
+    },
+    "b2-08": {
+      "title": "Psicologia e personalità",
+      "goal": "Descrivere carattere, sentimenti e comportamento, confrontare come le cose sembrano con come sono, e attenuare o rafforzare ciò che dici con le particelle modali.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "dare consigli a un amico sullo stress al lavoro"
+      ]
+    },
+    "b2-09": {
+      "title": "Cultura e scienza",
+      "goal": "Parlare di libri, film e mostre, spiegare una scoperta scientifica in parole semplici, e riferire ciò che hanno detto gli altri.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "consigliare un film o un libro a un amico e spiegare perché"
+      ]
+    },
+    "b2-10": {
+      "title": "Diritto e globalizzazione",
+      "goal": "Parlare di regole, criminalità e giustizia, discutere di globalizzazione e commercio, e riassumere un testo in modo chiaro.",
+      "steps": [
+        null,
+        null,
+        null,
+        "denunciare il furto di una bicicletta alla polizia",
+        "Come scrivo un riassunto chiaro di un testo in tedesco? Quali espressioni mi servono?"
+      ]
+    },
+    "c1-01": {
+      "title": "Lavoro e negoziazione",
+      "goal": "Negoziare lo stipendio, sostenere per iscritto una posizione davanti alla direzione, e passare dallo stile nominale a quello verbale e viceversa.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-02": {
+      "title": "Casa e diritto",
+      "goal": "Farti consigliare su un aumento dell'affitto, capire il linguaggio giuridico e amministrativo, e ridurre le frasi relative a participi attributivi.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Come leggo una lettera ufficiale di un'autorità tedesca? Cosa significano le formule tipiche?"
+      ]
+    },
+    "c1-03": {
+      "title": "Politica e media",
+      "goal": "Seguire il dibattito politico e l'analisi delle notizie, riferire affermazioni e supposizioni con i verbi modali in senso soggettivo, e scrivere una lettera al direttore.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-04": {
+      "title": "Ricerca e scienza",
+      "goal": "Capire testi e interventi accademici, presentare risultati e dati, e usare le alternative al passivo del tedesco scientifico.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "presentare i risultati di un sondaggio al tuo team e rispondere alle domande"
+      ]
+    },
+    "c1-05": {
+      "title": "Ambiente ed energia",
+      "goal": "Discutere con sfumature di politica energetica e ambiente, strutturare argomentazioni più lunghe con i connettori testuali, e soppesare posizioni.",
+      "steps": [
+        null,
+        null,
+        null,
+        "una tavola rotonda sulle pale eoliche vicino al tuo paese",
+        "Come soppeso due posizioni e arrivo a una conclusione in tedesco?"
+      ]
+    },
+    "c1-06": {
+      "title": "Letteratura e arti",
+      "goal": "Parlare di letteratura, cinema e arti, descrivere con le frasi participiali come è avvenuto qualcosa, e mettere in parole lo stile e l'atmosfera di un'opera.",
+      "steps": [
+        null,
+        null,
+        null,
+        "discutere di un romanzo in un gruppo di lettura",
+        "Come descrivo in tedesco lo stile e l'atmosfera di un libro o di un film?"
+      ]
+    },
+    "c1-07": {
+      "title": "Una società che cambia",
+      "goal": "Discutere di cambiamento demografico e intelligenza artificiale, riferire ciò che dicono gli esperti, e spiegare con chiarezza nessi complessi.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "un'intervista radiofonica su come la tua professione cambierà con l'IA"
+      ]
+    },
+    "c1-08": {
+      "title": "Costruire il futuro",
+      "goal": "Discutere del futuro dei trasporti, delle città e dello stato sociale, presentare una proposta in modo formale, e rispondere alle obiezioni.",
+      "steps": [
+        null,
+        null,
+        null,
+        "presentare un piano per un centro città senza auto a un negoziante scettico",
+        "Come faccio una proposta formale in una riunione e rispondo alle obiezioni?"
+      ]
+    },
+    "c2-01": {
+      "title": "La scienza in pubblico",
+      "goal": "Spiegare la tua ricerca a un giornalista, distinguere con precisione i quasi sinonimi, e gestire con disinvoltura le domande critiche.",
+      "steps": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-02": {
+      "title": "Trattative e contratti",
+      "goal": "Negoziare un contratto clausola per clausola, usare con naturalezza le costruzioni a verbo supporto del tedesco commerciale, e opporti per iscritto a una decisione.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-03": {
+      "title": "Autorità e ricorsi",
+      "goal": "Presentare un ricorso all'ufficio delle imposte, leggere e scrivere il tedesco amministrativo, e usare le preposizioni del registro elevato dei testi formali.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Come presento un ricorso formale (Einspruch o Widerspruch) e quali formule servono?"
+      ]
+    },
+    "c2-04": {
+      "title": "Registro e stile",
+      "goal": "Scegliere il registro giusto per ogni situazione, da un reclamo formale a una chat, e riconoscere ed evitare una rottura di registro.",
+      "steps": [
+        null,
+        null,
+        null,
+        "una conversazione con un redattore sul tono del tuo articolo",
+        "Come faccio la stessa richiesta in tre registri: a un amico, a un collega e a un'autorità?"
+      ]
+    },
+    "c2-05": {
+      "title": "Narrare e ricordare",
+      "goal": "Raccontare e analizzare storie, usare i tempi della narrazione e il discorso indiretto libero, e discutere di storia e memoria.",
+      "steps": [
+        null,
+        null,
+        null,
+        "una conversazione con la vicina di tua nonna su come la città è cambiata dagli anni Sessanta"
+      ]
+    },
+    "c2-06": {
+      "title": "Argomentazione e retorica",
+      "goal": "Costruire un'argomentazione a prova di obiezione, usare con precisione 'es' come segnaposto e correlato, e scrivere un parere di esperto.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Quali figure retoriche funzionano nei discorsi in tedesco, e come le uso senza sembrare pomposo?"
+      ]
+    },
+    "c2-07": {
+      "title": "Arte e critica",
+      "goal": "Recensire una mostra, un libro o uno spettacolo, usare il Nachfeld e l'estraposizione per dare enfasi, ed esprimere sottili sfumature di giudizio.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "difendere la tua recensione severa davanti al direttore del teatro"
+      ]
+    },
+    "c2-08": {
+      "title": "Filosofia e diplomazia",
+      "goal": "Discutere di questioni etiche e relazioni internazionali con precisione e tatto, e soppesare argomenti provenienti da più fonti.",
+      "steps": [
+        null,
+        null,
+        null,
+        "mediare tra due colleghi in disaccordo su un progetto",
+        "Come esprimo disaccordo in tedesco con diplomazia, senza sembrare debole?"
       ]
     }
   }

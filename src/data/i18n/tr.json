@@ -90,6 +90,102 @@
         "Edat öbeğinin tamamı 1. sıradır; fiil hemen ardından gelir: lerne ich."
       ]
     },
+    "sein-haben-praesens": {
+      "title": "sein, haben ve şimdiki zaman ekleri",
+      "rule": "Çoğu fiil şimdiki zamanı köke eklenen sabit eklerle kurar: ich wohn-e, du wohn-st, er/sie/es wohn-t, wir wohn-en, ihr wohn-t, sie/Sie wohn-en. En önemli iki fiil düzensizdir ve ezberlenmesi gerekir: sein – ich bin, du bist, er ist, wir sind, ihr seid, sie sind; haben – ich habe, du hast, er hat, wir haben, ihr habt, sie haben. 'Sein' birinin kim ya da nasıl olduğunu söyler (Ich bin Lehrerin, ich bin müde), 'haben' birinin neye sahip olduğunu ya da ne hissettiğini söyler (Ich habe ein Auto, ich habe Hunger). Kibar 'Sie' her zaman çoğul biçimi alır: Sie sind, Sie haben, Sie wohnen.",
+      "examples": [
+        "Ben Ana'yım ve Portekiz'den geliyorum.",
+        "Yorgun musun? – Hayır, açım.",
+        "Hamburg'da yaşıyoruz ve bir bankada çalışıyoruz.",
+        "Çocuğunuz var mı? – Evet, iki kızım var."
+      ],
+      "pitfalls": [
+        "Almancada açlık, susuzluk, zaman ve istek 'haben' ile söylenir (onlara sahip olunur); 'sein' yaş, meslek ve niteliklerle kullanılır.",
+        "'haben' düzensizdir: du hast, er/sie/es hat – b harfi düşer.",
+        "Kibar 'Sie' her zaman -en'li çoğul biçimi alır: Sie kommen, Sie sind, Sie haben.",
+        "'sein' fiilinin ihr biçimi 'seid'dir (d ile); 'sind' wir ve sie'ye aittir."
+      ]
+    },
+    "w-fragen-ja-nein-fragen": {
+      "title": "W-soruları ve evet/hayır soruları",
+      "rule": "W-sorusu bir soru kelimesiyle başlar ve fiil 2. sırada gelir: Wo wohnst du? Was machen Sie? Başlıca soru kelimeleri: wer (kişi), was (şey), wo (yer), woher (köken), wohin (hedef), wann (zaman), wie (nasıl; ayrıca: Wie heißt du? Wie alt bist du? Wie viel kostet das?), warum (neden), welche/welcher/welches (seçim). Evet/hayır sorusu doğrudan fiille başlar, özne onu izler: Wohnst du in Berlin? Sind Sie Frau Meier? Cevaplar: ja, nein – ve olumsuz bir soruya karşı çıkmak için 'doch': Kommst du nicht? – Doch!",
+      "examples": [
+        "Adın ne ve nerelisin?",
+        "Nerede yaşıyorsun? – Köln'de, katedralin yakınında.",
+        "İngilizce konuşuyor musunuz? – Evet, biraz.",
+        "Zamanın yok mu? – Var, zamanım var."
+      ],
+      "pitfalls": [
+        "Fiil soru kelimesinin hemen ardından gelir, sonra özne: Wo wohnst du?",
+        "Evet/hayır sorusu fiille başlar. Soru işaretli bir düz cümle yalnızca konuşma dilinde, şaşkınlıkla teyit etmek için kullanılır.",
+        "Köken 'woher' ile sorulur; 'wo' yeri, 'wohin' hedefi sorar.",
+        "Olumsuz bir soruya cevap olumluysa 'doch' denir."
+      ]
+    },
+    "artikel-nominativ-akkusativ": {
+      "title": "der, die, das: yalın hal ve -i hali",
+      "rule": "Her ismin bir cinsi vardır: eril der/ein, dişil die/eine, nötr das/ein; çoğul her zaman die'dir (ve belirsiz artikeli yoktur: Ich habe Kinder). Yalın hal özne, yani bir şeyi yapan içindir: Der Kaffee ist heiß. -i hali doğrudan nesne, yani birinin sahip olduğu, satın aldığı, gördüğü ya da istediği şey içindir: Ich trinke den Kaffee. -i halinde yalnızca eril artikel değişir: der → den, ein → einen; die, das, eine, ein aynı kalır. 'es gibt' ifadesinden ve für, ohne, durch, gegen, um edatlarından sonra da -i hali gelir: Es gibt einen Park. Das ist für den Lehrer.",
+      "examples": [
+        "Çay soğuk ama çayı yine de içeceğim.",
+        "Bir erkek kardeşim ve bir kız kardeşim var.",
+        "Ekmeği ve domatesleri alıyoruz.",
+        "Burada bir süpermarket var mı? – Evet, köşeyi dönünce."
+      ],
+      "pitfalls": [
+        "'haben' -i hali alır; Hund erildir, bu yüzden einen Hund.",
+        "Burada der Mann doğrudan nesnedir (-i hali): der, den olur.",
+        "Suppe dişildir: die Suppe. Cins sözlükte yazar ve kelimeyle birlikte öğrenilir.",
+        "'für' edatından sonra her zaman -i hali gelir: für meinen Vater."
+      ]
+    },
+    "possessivartikel": {
+      "title": "İyelik sıfatları: mein, dein, sein, ihr …",
+      "rule": "İyelik sıfatları bir şeyin kime ait olduğunu söyler: ich → mein, du → dein, er/es → sein, sie (tekil) → ihr, wir → unser, ihr → euer, sie (çoğul) → ihr, Sie → Ihr. 'ein' ve 'kein' ile aynı ekleri alırlar: mein Bruder (eril), meine Schwester (dişil), mein Kind (nötr), meine Eltern (çoğul). -i halinde yalnızca eril -en alır: Ich sehe meinen Bruder. Kelimeyi sahip, eki isim belirler: sein Auto (onun arabası, sahibi erkek), ihr Auto (onun arabası, sahibi kadın). 'euer' bir ekten önce ikinci e'sini düşürür: eure Kinder.",
+      "examples": [
+        "Bu annem, bu da babam.",
+        "Kız kardeşinin adı ne? – Adı Lea.",
+        "Peter anahtarını arıyor.",
+        "Bunlar sizin çocuklarınız mı? – Evet, çocuklarımız artık büyüdü."
+      ],
+      "pitfalls": [
+        "Ek isme uyar: Bruder erildir, bu yüzden -e'siz mein Bruder.",
+        "Sahip Anna'dır (o, kadın) → ihr; -i halinde Hund → ihren Hund.",
+        "-i halinde eril -en alır: deinen Vater.",
+        "Bir ekten önce 'euer' ikinci e'sini kaybeder: eure, euren, eurem."
+      ]
+    },
+    "pluralformen": {
+      "title": "Çoğul biçimleri: -e, -(e)n, -er, -s ya da eksiz",
+      "rule": "Çoğulda artikel her zaman 'die'dir, ama ismin eki kelimeyle birlikte öğrenilmelidir. Beş kalıp hemen her şeyi kapsar: -e, çoğunlukla umlaut ile (der Tisch – die Tische, der Stuhl – die Stühle); -(e)n, dişil isimlere özgü (die Frau – die Frauen, die Lampe – die Lampen); -er, genellikle umlaut ile, kısa nötr isimler için (das Kind – die Kinder, das Buch – die Bücher); -s, yabancı kelimeler ve ünlüyle bitenler için (das Auto – die Autos, das Hotel – die Hotels); -er, -el, -en ile biten isimlerde ek yok, çoğunlukla umlaut ile (der Lehrer – die Lehrer, der Apfel – die Äpfel). -chen ve -lein ile biten isimler değişmez: das Mädchen – die Mädchen.",
+      "examples": [
+        "İki sandalyeye ve bir masaya ihtiyacım var.",
+        "Çocuklar kitap okuyor.",
+        "Üç elma, dört domates ve altı yumurta, lütfen.",
+        "Şehirdeki oteller pahalı."
+      ],
+      "pitfalls": [
+        "Kind çoğulunu -er ile kurar: die Kinder. -s eki Almancada nadirdir.",
+        "-el ile biten isimler çoğunlukla ek almaz ama umlaut alır: der Apfel – die Äpfel.",
+        "Ünlüyle biten kelimeler ve yabancı kelimeler -s alır: Autos, Hotels, Handys.",
+        "Çoğulda artikel, cins ne olursa olsun her zaman 'die'dir."
+      ]
+    },
+    "zeit-und-ortsangaben": {
+      "title": "Zaman ve yer ifadeleri: um, am, im, von … bis; in, nach, zu, bei",
+      "rule": "Zaman: saatler için 'um' (um acht Uhr), günler ve günün bölümleri için 'am' (am Montag, am Morgen, am Wochenende – ama: in der Nacht), aylar ve mevsimler için 'im' (im Mai, im Winter), bir zaman aralığı için 'von … bis' (von neun bis fünf), başlangıç noktası için 'ab' (ab morgen). Yer, 'wo?' sorusuna cevap: şehirler, ülkeler ve odalar için 'in' (in Berlin, in der Küche), kişiler ve şirketler için 'bei' (bei meiner Oma, bei Siemens), 'zu Hause'. Hedef, 'wohin?' sorusuna cevap: artikelsiz şehirler ve ülkeler ile 'nach Hause' için 'nach' (nach Wien, nach Hause), artikelli ülkeler ve odalar için 'in' + -i hali (in die Schweiz, in die Küche), kişiler, dükkânlar ve randevular için 'zu' + -e hali (zum Arzt, zur Arbeit, zu Lisa).",
+      "examples": [
+        "Kurs salı günü saat altı buçukta.",
+        "Ağustosta İtalya'ya gidiyoruz.",
+        "Pazartesiden cumaya küçük bir şirkette çalışıyorum.",
+        "Bugün doktora gidiyor musun? – Hayır, evde kalıyorum."
+      ],
+      "pitfalls": [
+        "Saatler 'um' alır; 'am' günlerle (am Montag) ve günün bölümleriyle (am Abend) kullanılır.",
+        "Artikelsiz şehirler ve ülkeler 'nach' alır: nach Berlin, nach Spanien.",
+        "'nach Hause' yöndür (nereye?), 'zu Hause' yerdir (nerede?).",
+        "Kişiler 'bei' alır (beim Arzt, bei Anna); 'in' odalar ve yerler içindir (in der Praxis)."
+      ]
+    },
     "kennen-wissen-koennen": {
       "title": "kennen mi, wissen mi, können mi?",
       "rule": "'Kennen' bir kişiyi, yeri ya da şeyi tanımak, ona aşina olmak demektir; doğrudan nesne alır: Ich kenne die Stadt. 'Wissen' bir bilgiye sahip olmak demektir; çoğunlukla ardından 'dass', 'ob', bir soru kelimesi ya da 'es/das' gelir, yoksa bir şey (die Antwort): Ich weiß, dass er kommt. 'Können' yetenek ya da olasılık bildiren kiplik fiildir, genellikle mastarla kullanılır: Ich kann schwimmen.",
@@ -300,6 +396,70 @@
         "-er ile biten kişiler ve aletler çoğunlukla erildir: der Computer, der Drucker, der Fahrer.",
         "-e eki cins belirtmez: das Ende, das Auge nötr, die Lampe dişil, der Name erildir. Artikeli kelimeyle birlikte öğren.",
         "-ion ile biten alıntı kelimeler neredeyse her zaman dişildir: die Nation, die Information, die Diskussion."
+      ]
+    },
+    "personalpronomen-akkusativ-dativ": {
+      "title": "-i ve -e halinde kişi zamirleri: mich/mir, dich/dir, ihn/ihm …",
+      "rule": "Yalın hal: ich, du, er, sie, es, wir, ihr, sie/Sie. -i hali (doğrudan nesne; für, ohne, um'dan sonra): mich, dich, ihn, sie, es, uns, euch, sie/Sie. -e hali (dolaylı nesne – kime?; mit, bei, von, zu'dan ve helfen, gefallen, danken, gehören gibi fiillerden sonra): mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. Dikkat: yalnızca ich, du ve er/sie/es'in -i ve -e hali biçimleri farklıdır; uns ve euch ikisinde de aynıdır. Cümlede iki zamir varsa -i hali -e halinden önce gelir: Ich gebe es dir.",
+      "examples": [
+        "Bana yardım edebilir misin? – Evet, sana seve seve yardım ederim.",
+        "Onu yarın arayıp ona sorarım.",
+        "Hediye senin için. Beğendin mi?",
+        "Davet için size teşekkür ederiz."
+      ],
+      "pitfalls": [
+        "'helfen' her zaman -e hali alır: mir, dir, ihm, ihr, uns, euch, ihnen.",
+        "'lieben' -i halinde doğrudan nesne alır: dich, ihn, sie, euch.",
+        "'gehören' -e hali ister: ihm, ihr, ihnen.",
+        "İki zamir: -i hali (es) -e halinden (dir) önce."
+      ]
+    },
+    "praeteritum-sein-haben-modalverben": {
+      "title": "sein, haben ve kiplik fiillerin Präteritum'u: war, hatte, konnte",
+      "rule": "Konuşmada geçmiş çoğunlukla Perfekt ile anlatılır – konuşurken bile Präteritum alan 'sein', 'haben' ve kiplik fiiller hariç. sein: ich war, du warst, er war, wir waren, ihr wart, sie waren. haben: ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten. Kiplik fiiller umlaut'unu kaybeder ve -te alır: können → konnte, müssen → musste, dürfen → durfte, sollen → sollte, wollen → wollte, mögen → mochte; mastar cümlenin sonuna gider: Ich musste gestern arbeiten. Präteritum'da ich ve er/sie/es ek almaz: ich war, er hatte, sie konnte.",
+      "examples": [
+        "Dün neredeydin? – Hastaydım ve ateşim vardı.",
+        "Gelemedik, çünkü zamanımız yoktu.",
+        "Çocukken pilot olmak istiyordum.",
+        "Uzun süre beklemek zorunda kaldınız, değil mi?"
+      ],
+      "pitfalls": [
+        "sein ve haben ile Präteritum, konuşmada bile normal seçimdir; fiil de 2. sırada kalmalıdır.",
+        "'könnte' Konjunktiv II'dir (kibar, gerçek dışı); geçmiş zaman umlaut'suz 'konnte'dir.",
+        "Mastar, Präteritum'da da cümlenin sonuna gider: musste … arbeiten.",
+        "er/sie/es Präteritum'da ek almaz: sie hatte, er war, es konnte."
+      ]
+    },
+    "hoefliche-bitten-konjunktiv-ii": {
+      "title": "Kibar ricalar: Könnten Sie …? Würden Sie …? Ich hätte gern …",
+      "rule": "Kibar ricalar ve dilekler üç fiilin Konjunktiv II'sini kullanır: könnte (können'den), hätte (haben'den), würde (werden'den) – artı 'wäre' (sein'dan) ve 'möchte'. 'Könnten Sie mir helfen?', 'Können Sie mir helfen?'den daha kibardır; 'Würden Sie bitte das Fenster schließen?' emir kipinden daha kibardır. Sipariş verirken ve alışverişte: 'Ich hätte gern einen Kaffee', 'Ich möchte zwei Brötchen'. Biçimler: ich könnte, du könntest, er könnte, wir könnten, Sie könnten; ich hätte, du hättest, er hätte; ich würde, du würdest, er würde, wir würden. 'bitte' ve 'gern' ricayı daha da nazik yapar.",
+      "examples": [
+        "Bunu tekrar edebilir misiniz lütfen?",
+        "Bir kilo elma ve iki küçük ekmek istiyorum.",
+        "Bana bir dakika yardım eder misiniz?",
+        "Cuma günü vaktiniz olur mu? – Harika olurdu."
+      ],
+      "pitfalls": [
+        "Sipariş 'Ich hätte gern' ile verilir (Konjunktiv II); 'Ich habe gern' \"severim\" demektir.",
+        "Mastar sona gider: Könnten Sie mir helfen?",
+        "Bir şeyi alan kişi -e halindedir: mir.",
+        "'konnte' geçmiş zamandır; kibar rica umlaut'lu 'könnte' gerektirir ve soruda fiil başa gelir."
+      ]
+    },
+    "dativ-verben-praepositionen": {
+      "title": "-e hali: helfen, gefallen, gehören gibi fiiller ve aus, bei, mit, nach, seit, von, zu edatları",
+      "rule": "-e hali 'wem?' (kime?) sorusuna cevap verir. -e halinde artikeller: dem (eril ve nötr), der (dişil), den + -n (çoğul): mit dem Bus, bei der Arbeit, von den Kindern; belirsiz: einem, einer, einem; iyelik: meinem, meiner, meinen. Bazı fiiller kişiyi her zaman -e haline koyar: helfen, danken, gefallen, gehören, antworten, gratulieren, schmecken, passen, fehlen, wehtun: Das Kleid gefällt mir. Der Rücken tut ihm weh. aus, bei, mit, nach, seit, von, zu (ve gegenüber, ab) edatlarından sonra da her zaman -e hali gelir: aus der Schweiz, seit einem Jahr, zu meiner Oma. Kaynaşmış biçimler: zum (zu dem), zur (zu der), beim (bei dem), vom (von dem).",
+      "examples": [
+        "İşe bisikletle gidiyorum.",
+        "Çocuklar çorbayı beğenmiyor.",
+        "Doğum günün kutlu olsun! (Doğum günün için seni kutluyoruz.)",
+        "Bir aydır teyzemin yanında yaşıyorum."
+      ],
+      "pitfalls": [
+        "'mit' her zaman -e hali alır: der Bus → mit dem Bus. 'den' -i hali olurdu.",
+        "'gefallen' bir -e hali fiilidir: şey, kişinin (mir, dir, ihm) hoşuna gider.",
+        "'helfen' -e hali ister: ihrer Mutter, ihre Mutter değil.",
+        "'aus' edatından sonra -e hali gelir ve Türkei artikellidir: aus der Türkei."
       ]
     },
     "als-wenn-wann": {
@@ -537,6 +697,69 @@
         "Almanca 'wie' ile sorar: Wie heißt du? Wie ist dein Name? 'Was' çeviri kokar."
       ]
     },
+    "indirekte-fragen": {
+      "title": "Dolaylı sorular: Weißt du, wann der Zug fährt? Können Sie mir sagen, ob …?",
+      "rule": "Dolaylı soru, 'Weißt du, …', 'Können Sie mir sagen, …', 'Ich frage mich, …', 'Ich möchte wissen, …' gibi bir giriş cümlesine bağlanır. Bir yan cümledir: çekimli fiil sona gider. W-sorusu, aynı soru kelimesiyle bir yan cümleye dönüşür: Wann fährt der Zug? → Weißt du, wann der Zug fährt? Evet/hayır sorusu 'ob'lu bir cümleye dönüşür: Kommt er? → Ich weiß nicht, ob er kommt. Dolaylı sorular doğrudan sorulardan daha kibar tınlar ve gişelerde, telefonda ve e-postalarda tipiktir. Noktalama ana cümleye uyar: 'Weißt du, …?' sonrasında soru işareti, 'Ich weiß nicht, ….' sonrasında nokta.",
+      "examples": [
+        "Garın nerede olduğunu söyleyebilir misiniz?",
+        "Dükkânın bugün açık olup olmadığını bilmiyorum.",
+        "Biletin ne kadar olduğunu biliyor musun?",
+        "Teslimatın neden hâlâ gelmediğini öğrenmek istiyorum."
+      ],
+      "pitfalls": [
+        "Dolaylı soru bir yan cümledir: fiil sona gider.",
+        "Dolaylı evet/hayır sorusu 'ob' ile başlar; 'wenn' \"eğer\" ya da \"her -dığında\" demektir.",
+        "Bir soru (Hält der Bus hier?) 'ob' gerektirir; 'dass' bir ifadeyi aktarır."
+      ]
+    },
+    "verben-mit-praepositionen-da-wo": {
+      "title": "Edatlı fiiller ve da(r)-/wo(r)- kelimeleri: warten auf, darauf, worauf",
+      "rule": "Birçok fiilin, fiille birlikte öğrenilen sabit bir edatı ve sabit bir hali vardır: warten auf + -i hali, sich freuen auf (gelecek) / über (şimdi) + -i hali, denken an + -i hali, sich interessieren für + -i hali, sich ärgern über + -i hali, sich kümmern um + -i hali, sich bewerben um + -i hali, teilnehmen an + -e hali, sich beschäftigen mit + -e hali, träumen von + -e hali, Angst haben vor + -e hali, fragen nach + -e hali. Bir şey için wo(r)- ile sorulur, da(r)- ile cevap verilir: Worauf wartest du? – Darauf. Wofür interessierst du dich? – Dafür. r harfi, edat ünlüyle başlıyorsa gelir (darauf, worüber, daran), yoksa gelmez (dafür, womit, davon). Bir kişi için edat ve zamir kalır: Auf wen wartest du? – Auf ihn. Bir da(r)- kelimesi bütün bir cümleyi de işaret edebilir: Ich freue mich darauf, dass du kommst.",
+      "examples": [
+        "Bir saattir otobüsü bekliyorum.",
+        "Ne hakkında konuştunuz? – Yeni film hakkında.",
+        "Siyasetle ilgileniyor musun? – Evet, onunla çok ilgileniyorum.",
+        "Yakında görüşmemizi dört gözle bekliyorum."
+      ],
+      "pitfalls": [
+        "'warten', İngilizcedeki gibi 'für' ile değil, 'auf' + -i hali ile kullanılır.",
+        "Şeyler için wo(r)- kelimesiyle sorulur: worauf, womit, wofür. 'Auf was' yalnızca konuşma dilidir.",
+        "Bir şeyi karşılayan zamir, edatla birleşip da(r)- kelimesi olur: daran, davon, damit.",
+        "'sich freuen auf' ileriye bakar (bekleyiş), 'sich freuen über' zaten var olan bir şeyle ilgilidir."
+      ]
+    },
+    "zweiteilige-konnektoren": {
+      "title": "İki parçalı bağlaçlar: nicht nur … sondern auch, entweder … oder, weder … noch, zwar … aber, je … desto",
+      "rule": "İki parçalı bağlaçlar cümlenin iki parçasını ya da iki cümleyi bağlar ve ilişkiyi açıkça gösterir: nicht nur … sondern auch (vurgulu ekleme), sowohl … als auch (hem … hem de), entweder … oder (iki seçenekten biri), weder … noch (ne … ne de – zaten olumsuzdur, ayrıca 'nicht' gelmez), zwar … aber (ödünleme), je … desto/umso (iki şey birlikte artar). Sözcük dizilişi: 'sondern auch', 'aber' ve 'oder' dizilişi değiştirmez; 'weder', 'zwar' ve 'entweder' 1. sırayı alabilir, fiil hemen ardından gelir; 'je'den sonra fiili sonda olan bir yan cümle, 'desto'dan sonra hemen Komparativ ve ardından fiil gelir: Je mehr ich übe, desto besser spreche ich.",
+      "examples": [
+        "Yalnızca Almanca değil, Türkçe ve Arapça da konuşuyor.",
+        "Ya trenle ya da otobüsle gideceğiz.",
+        "Ne zamanım var ne de isteğim.",
+        "Almanya'da ne kadar uzun yaşarsam insanları o kadar iyi anlıyorum."
+      ],
+      "pitfalls": [
+        "'weder … noch' zaten olumsuzdur; fazladan bir 'nicht' yanlıştır.",
+        "'desto'dan sonra önce Komparativ, sonra fiil, sonra özne gelir.",
+        "'zwar' yalnızca ilk parçaya aittir; ikinci parça 'aber' ile başlar.",
+        "'nicht nur', 'aber auch' ile değil 'sondern auch' ile sürer."
+      ]
+    },
+    "passiv-praesens": {
+      "title": "Şimdiki zamanda ve Präteritum'da edilgen: Das Brot wird gebacken, das Haus wurde gebaut",
+      "rule": "Edilgen, eylem onu yapan kişiden daha önemli olduğunda kullanılır: In der Bäckerei wird das Brot morgens gebacken. Kuruluş: werden (çekimli) + cümle sonunda Partizip II. Şimdiki zaman: ich werde gefragt, du wirst gefragt, er/sie/es wird gefragt, wir werden gefragt, ihr werdet gefragt, sie werden gefragt. Präteritum: wurde, wurdest, wurde, wurden, wurdet, wurden: Das Haus wurde 1990 gebaut. Etken cümlenin -i halindeki nesnesi edilgen cümlenin öznesi olur: Man repariert das Auto → Das Auto wird repariert. Eylemi yapan – belirtilecekse – 'von' + -e hali ile belirtilir: Das Auto wird von einem Mechaniker repariert. Nesne yoksa cümleyi 'es' ya da bir zarf tümleci açar: Hier wird nicht geraucht.",
+      "examples": [
+        "Fatura ay sonunda ödenir.",
+        "Hesap dün açıldı.",
+        "Almanya'da birçok araba üretiliyor.",
+        "Paketler posta tarafından teslim edilir."
+      ],
+      "pitfalls": [
+        "Süreç (biri onu pişiriyor) 'werden'li edilgen alır; 'ist gebacken' yalnızca tamamlanmış durumu anlatır.",
+        "'von' -e hali alır (von dem / vom Mechaniker) ve ortaç sona gider.",
+        "'werden' özneye uyar: die Häuser (çoğul) → wurden.",
+        "Özne 'keine Fotos'tur (çoğul): werden … gemacht."
+      ]
+    },
     "passiv-werden-sein": {
       "title": "Edilgen: werden mi, sein mi?",
       "rule": "'werden' + geçmiş zaman ortacı (Partizip II) ile kurulan süreç edilgeni, yapılmakta ya da yapılmış olan bir eylemi anlatır: Die Tür wird geschlossen (biri onu kapatıyor). 'sein' + Partizip II ile kurulan durum edilgeni, sonucu, sonraki durumu anlatır: Die Tür ist geschlossen (kapalı). Süreç edilgeninin Perfekt'i 'ist geschlossen worden'dır.",
@@ -565,6 +788,147 @@
       "pitfalls": [
         "Kalkış, varıştan önceydi: war ile Plusquamperfekt.",
         "Ana cümlede Präteritum varsa 'nachdem' yan cümlesi Plusquamperfekt alır."
+      ]
+    },
+    "konjunktiv-ii-vergangenheit": {
+      "title": "Geçmiş zaman Konjunktiv II: hätte … gemacht, wäre … gegangen",
+      "rule": "Geçmişteki gerçek dışı durumlar – olabilecek ama olmamış şeyler – için Konjunktiv II, hätte ya da wäre + Partizip II ile kurulur: Ich hätte dich angerufen. Wir wären gern gekommen. hätte ile wäre arasındaki seçim Perfekt'e uyar (habe gemacht → hätte gemacht; bin gegangen → wäre gegangen). Tipik kullanımlar: gerçek dışı koşullar (Wenn ich das gewusst hätte, wäre ich früher gegangen), dilekler (Hätte ich doch mehr gelernt!), sitem ve sonradan gelen akıl (Du hättest mich fragen können). Kiplik fiille birlikte sonda çift mastar durur ve yan cümlede 'hätte' onun önüne geçer: …, weil ich hätte arbeiten müssen. Geçmiş için 'würde' biçimi yoktur.",
+      "examples": [
+        "Bunu bilseydim gelmezdim.",
+        "Keşke Almanca kursuna daha erken başlasaydım!",
+        "Beni arayabilirdin.",
+        "Senin yardımın olmasa daireyi asla bulamazdık."
+      ],
+      "pitfalls": [
+        "Başa alınan yan cümleden sonra ana cümle fiille başlar: …, wäre ich gekommen.",
+        "'fahren' Perfekt'ini sein ile kurar (ich bin gefahren), bu yüzden wäre gefahren.",
+        "Geçmiş zaman Konjunktiv II, hätte/wäre + Partizip II ile kurulur, 'würde' ile değil.",
+        "Çift mastarla yan cümlede 'hätte' iki mastarın önüne gelir."
+      ]
+    },
+    "irreale-vergleiche-als-ob": {
+      "title": "Gerçek dışı karşılaştırmalar: als ob, als wenn, als + Konjunktiv II",
+      "rule": "Gerçek dışı karşılaştırma, bir şeyin öyle olmadığı hâlde nasıl göründüğünü anlatır: Er tut so, als ob er alles wüsste. 'als ob' ve 'als wenn'den sonra fiili sonda ve Konjunktiv II'de olan bir yan cümle gelir (wüsste, hätte, wäre, würde … machen; geçmiş: hätte … gemacht, wäre … gewesen). Daha kısa ve daha yazılı olan tek başına 'als'tır: o zaman fiil hemen ardından gelir: Er tut so, als wüsste er alles. Tipik girişler: so tun, als ob; es scheint, als ob; es sieht aus, als ob; sich fühlen, als ob; so klingen, als ob. Konjunktiv'in zamanı karşılaştırmaya uyar: eş zamanlı → şimdiki zaman biçimi (als ob er krank wäre), daha önce → geçmiş zaman biçimi (als ob er nie krank gewesen wäre).",
+      "examples": [
+        "Beni tanımıyormuş gibi davranıyor.",
+        "Bütün gece yağmur yağmış gibi görünüyor.",
+        "Patronmuş gibi konuşuyor.",
+        "Bir haftadır uyumamışım gibi hissediyorum."
+      ],
+      "pitfalls": [
+        "'als ob'dan sonra fiil sona gider ve Konjunktiv II'ye girer: wäre.",
+        "'ob'suz 'als' ile çekimli fiil doğrudan 'als'ın ardından gelir.",
+        "Gerçek dışı karşılaştırma 'als ob' (ya da 'als wenn', 'als') ile kurulur, asla 'wie ob' ile değil."
+      ]
+    },
+    "passiv-mit-modalverben": {
+      "title": "Kiplik fiillerle edilgen: muss repariert werden, konnte nicht geöffnet werden",
+      "rule": "Kiplik fiille edilgen şöyledir: kiplik fiil (çekimli) + Partizip II + cümle sonunda werden (mastar): Das Auto muss repariert werden. Die Rechnung kann online bezahlt werden. Präteritum'da yalnızca kiplik fiil değişir: Die Tür konnte nicht geöffnet werden. Perfekt'te haben ile çift mastar ortaya çıkar: Die Rechnung hat bezahlt werden müssen – pratikte onun yerine neredeyse her zaman Präteritum kullanılır. Yan cümlede kiplik fiil en sona gider: …, weil das Auto repariert werden muss. Kiplik fiilli edilgen yerine şöyle de denebilir: man muss … reparieren, … ist zu reparieren, … lässt sich reparieren.",
+      "examples": [
+        "Sayaç cumaya kadar okunmalı.",
+        "Paket dün teslim edilemedi.",
+        "Şikâyetler e-postayla da iletilebilir.",
+        "Arıyorum, çünkü faturanın düzeltilmesi gerekiyor."
+      ],
+      "pitfalls": [
+        "Sonda önce Partizip II, sonra 'werden' gelir: repariert werden.",
+        "Anlam eylemdir (birinin onu doldurması gerekiyor): 'werden'li süreç edilgeni. 'muss ausgefüllt sein' doldurulmuş durumda olması gerektiği anlamına gelirdi.",
+        "Yan cümlede çekimli kiplik fiil en sona gider.",
+        "Kiplik fiilden sonra mastar 'werden' gelir, ortaç değil."
+      ]
+    },
+    "partizip-i-ii-als-adjektiv": {
+      "title": "Sıfat olarak Partizip I ve II: das weinende Kind, das reparierte Auto",
+      "rule": "Her iki ortaç da ismin önünde durabilir ve o zaman sıfat gibi çekimlenir. Partizip I (mastar + d: weinend, steigend, kommend) şu anda olan, etken ve eş zamanlı bir şeyi anlatır: das weinende Kind (ağlamakta olan çocuk), die steigenden Mieten (yükselmekte olan kiralar). Partizip II (gemacht, repariert, gebaut) tamamlanmış, genellikle edilgen bir şeyi anlatır: das reparierte Auto (tamir edilmiş araba), die renovierte Wohnung. Ekler sıfat kurallarına uyar: mit dem lachenden Mann, ein frisch gestrichenes Zimmer. Yalnızca Perfekt'i sein ile kurulan fiiller etken Partizip II oluşturur: der angekommene Zug (gelmiş olan tren). 'zu'lu Partizip I zorunluluk ya da olanak bildirir: die zu zahlende Miete (ödenmesi gereken kira).",
+      "examples": [
+        "Yükselen kiralar şehrin en büyük sorunu.",
+        "Yeni yenilenmiş, balkonlu bir daireye baktık.",
+        "Emlakçı bize yeni inşa edilmiş evi gösterdi.",
+        "Lütfen pazartesiye kadar ödenmesi gereken depozitoyu havale edin."
+      ],
+      "pitfalls": [
+        "Şu anda olan bir şey Partizip I gerektirir: weinen + d + ek = weinende.",
+        "Makine tamir edildi (edilgen, tamamlanmış): Partizip II. 'reparierend' makinenin kendisinin bir şeyi tamir ettiği anlamına gelirdi.",
+        "Yalnızca Perfekt'i sein ile kurulan fiiller etken Partizip II oluşturur (der Gast ist gekommen); 'der gegessene Gast' birinin yediği bir misafir olurdu.",
+        "Ortaçlar sıfat gibi çekimlenir: 'dem'den sonra ek -en'dir."
+      ]
+    },
+    "genitivpraepositionen": {
+      "title": "-in hali alan edatlar: wegen, trotz, während, innerhalb, aufgrund, anstelle",
+      "rule": "Standart Almancada bazı edatlar -in hali alır: wegen (neden), trotz (-e rağmen), während (süre), innerhalb/außerhalb (yer ve zaman), aufgrund (neden, resmî), anstelle/(an)statt (yerine), infolge (sonucunda), mithilfe (yardımıyla), bezüglich/hinsichtlich (-e ilişkin, resmî). -in hali biçimleri: des Wetters, der Arbeit, des Jahres, der Kinder – eril ve nötr isimler tekilde -s ya da -es alır. Zamirlerle 'wegen mir' konuşma dilidir; yazıda meinetwegen, deinetwegen, seinetwegen, unseretwegen kullanılır. Konuşmada wegen ve trotz'tan sonra çoğunlukla -e hali gelir (wegen dem Regen); mektuplarda, sınavlarda ve raporlarda -in hali geçerlidir. Çoğul bir isim artikelsizse devreye 'von' girer: wegen Bauarbeiten, innerhalb von zwei Wochen.",
+      "examples": [
+        "Grev yüzünden bugün hiç tren çalışmıyor.",
+        "Uzun bekleyişe rağmen randevu başarılı geçti.",
+        "Üniversite yıllarında bir kafede çalıştı.",
+        "Başvuru bir ay içinde yapılmalı."
+      ],
+      "pitfalls": [
+        "Yazıda ve resmî kullanımda 'wegen' -in hali alır: des schlechten Wetters. -e hali konuşma dilidir.",
+        "Eril ve nötr isimler -in hali tekilde -s/-es alır: des Regens.",
+        "Edat olarak 'während' -in hali alır: während der Prüfung. (Bağlaç olarak 'während' bir yan cümle açar: Während ich lerne, …)",
+        "Artikelsiz kullanımda -in hali çoğulu görünmez; o zaman 'innerhalb von' + -e hali kullanılır."
+      ]
+    },
+    "relativsaetze-praepositionen-wo-was": {
+      "title": "Edatlı, wo'lu, was'lı ve wer'li ilgi cümleleri: der Freund, mit dem …; alles, was …",
+      "rule": "İlgi cümlesinin fiili bir edata bağlıysa edat ilgi zamirinin önünde durur ve hali belirler: der Freund, mit dem ich wohne (wohnen mit + -e hali); die Firma, für die sie arbeitet (arbeiten für + -i hali); das Thema, über das wir gesprochen haben. Yerler için 'wo' (konum), 'wohin' (yön) ya da 'woher' (köken) kullanılabilir: die Stadt, in der ich wohne = die Stadt, wo ich wohne; şehir adlarıyla yalnızca 'wo': Berlin, wo ich studiert habe. 'was', alles, nichts, etwas, vieles, das'tan, isim olarak kullanılan bir Superlativ'den ve bütün bir cümleden sonra gelir: alles, was ich weiß; das Beste, was passieren konnte; Er kam zu spät, was mich geärgert hat. Edatla birlikte bu bir wo(r)- kelimesine dönüşür: etwas, worauf ich mich freue. Öncülü olmayan 'wer …, der …' \"her kim … -se\" demektir: Wer zu spät kommt, (der) bekommt keinen Platz.",
+      "examples": [
+        "Bu, projeyi birlikte yürüttüğüm meslektaşım.",
+        "Büyüdüğüm şehir çok değişti.",
+        "Bu öneride eleştirilebilecek çok şey var.",
+        "Yasayı bilmeyen ona uyamaz da."
+      ],
+      "pitfalls": [
+        "Edat ve ilgi zamiri ilgi cümlesinin başında birlikte durur: mit dem.",
+        "'alles', 'nichts', 'etwas' ve 'das'tan sonra ilgi zamiri 'was'tır.",
+        "Hali edat belirler: 'für' + -i hali → für die (Firma).",
+        "İlgi cümlesi bütün cümleye gönderme yapıyorsa 'was' kullan."
+      ]
+    },
+    "modalpartikeln": {
+      "title": "Kiplik parçacıkları: doch, mal, ja, eben, halt, denn, eigentlich",
+      "rule": "Kiplik parçacıkları, cümlenin ortasında duran ve cümleye bir tutum katan küçük vurgusuz kelimelerdir – konuşulan Almancayı doğal kılarlar ve neredeyse çevrilemezler. 'doch': rica ya da bilinen bir şeyi hatırlatma (Komm doch mit! Das weißt du doch.); 'mal': ricayı rahat bir havaya sokar (Kannst du mal kommen?); 'ja': bilinen ya da şaşırtıcı bir şey (Das ist ja toll! Du weißt ja, wie er ist.); 'eben'/'halt': kabullenmek gerekir (Dann müssen wir eben warten.); 'denn': soruyu dostça ve ilgili kılar (Wie heißt du denn? Was ist denn los?); 'eigentlich': rahat bir soru ya da bir çekince (Wo wohnst du eigentlich? Eigentlich wollte ich früher gehen.); 'schon': güven verir ya da kabul eder (Das wird schon klappen.); 'wohl': tahmin (Er ist wohl krank.). Fiilden ve zamirlerden sonra, genellikle tümleçten önce gelirler ve neredeyse yalnızca ana cümlelerde ve sorularda kullanılırlar, resmî mektuplarda değil.",
+      "examples": [
+        "Otursana! Bir kahve ister misin?",
+        "Ne oldu ki? Bembeyaz görünüyorsun.",
+        "Bana bir saniye yardım ediversene?",
+        "Tren gitti. O zaman bir sonrakine bineriz artık."
+      ],
+      "pitfalls": [
+        "Kiplik parçacıkları cümlenin ortasında, fiilden sonra durur, asla 1. sırada değil (orada 'doch' vurgulu bir karşı çıkış olurdu).",
+        "'doch mal' birbirini tanıyan kişiler arasındaki sohbet üslubudur; resmî bir mektupta yersiz durur.",
+        "Dostça sorular 'denn' alır; 'eben' bir şeyin kabullenilmesi gerektiğini ifade eder."
+      ]
+    },
+    "konnektoren-indem-sodass-ohne-dass": {
+      "title": "Araç, sonuç ve karşıt durum bağlaçları: indem, dadurch dass, sodass, ohne dass / ohne … zu, (an)statt dass / (an)statt … zu",
+      "rule": "Bu yan cümle bağlaçları bir şeyin nasıl olduğunu ve bundan neyin çıktığını söyler; çekimli fiil sona gider. Araç: 'indem' ve 'dadurch, dass' (Sie lernt Vokabeln, indem sie Karten schreibt. – Nasıl? Kart yazarak). Sonuç: 'sodass' ya da 'so …, dass' (Es regnete stark, sodass das Fest ausfiel. Es regnete so stark, dass das Fest ausfiel). Beklenen bir şeyin olmaması: 'ohne dass' (Er ging, ohne dass jemand es merkte) – özne aynıysa daha kısa olan 'ohne … zu' + mastar (Er ging, ohne sich zu verabschieden). Yerine geçme: '(an)statt dass' – özne aynıysa '(an)statt … zu' (Statt zu arbeiten, surft er im Internet). Aynı şekilde 'um … zu' (amaç) ve 'zu + sıfat'tan sonra 'als dass' (Er ist zu müde, als dass er noch fahren könnte). 'ohne … zu' ve 'statt … zu' yalnızca iki parçanın öznesi ortaksa işler.",
+      "examples": [
+        "Cihazları tamamen kapatarak elektrik tasarrufu yaparsın.",
+        "Bağlantı o kadar kötüydü ki görüşme kesildi.",
+        "Güncellemeyi notları okumadan yükledi.",
+        "Şirket cevap vermek yerine yalnızca otomatik e-postalar gönderiyor."
+      ],
+      "pitfalls": [
+        "'indem' bir yan cümle açar: fiil sona gider.",
+        "Ya 'ohne dass' + çekimli fiil ya da 'ohne … zu' + mastar – ikisi birden değil.",
+        "'so + sıfat'tan sonra 'dass' gelir; 'sodass' ana cümlede 'so' yoksa kullanılır: Es war kalt, sodass wir drinnen blieben.",
+        "Mastar cümlesinde 'zu + mastar' en sona gider: statt uns zu helfen."
+      ]
+    },
+    "futur-vermutung": {
+      "title": "Futur I ve II ile tahmin: Er wird wohl krank sein. Sie wird den Zug verpasst haben.",
+      "rule": "'werden' + mastar (Futur I) yalnızca geleceği değil, çoğu zaman şimdiyle ilgili bir tahmini de ifade eder: Er wird wohl krank sein (= muhtemelen hasta). Geçmişle ilgili bir tahmin Futur II alır: werden + Partizip II + haben/sein: Sie wird den Zug verpasst haben (= muhtemelen treni kaçırdı). Er wird schon angekommen sein. wohl, sicher, bestimmt, wahrscheinlich, vermutlich gibi parçacıklar tahmine işaret eder; 'wohl' tipiktir. Futur II tamamlanmış bir gelecek de anlatabilir: Bis Freitag werde ich den Bericht geschrieben haben. Yan cümlede 'werden' sona gider: …, weil er den Zug verpasst haben wird. Zaman ifadesi içeren düz gelecek zaman cümleleri için genellikle şimdiki zaman yeterlidir: Morgen fahre ich nach Bonn.",
+      "examples": [
+        "Işık kapalı – muhtemelen çoktan uyuyorlardır.",
+        "Otobüs hâlâ gelmedi. Trafiğe takılmış olmalı.",
+        "E-postayı almadın mı? O zaman spam klasörüne düşmüştür.",
+        "2030'a kadar şehir genişletmeyi tamamlamış olacak."
+      ],
+      "pitfalls": [
+        "Geçmişle ilgili bir tahmin Futur II gerektirir: werden + Partizip II + haben/sein.",
+        "Yardımcı fiil Perfekt'e uyar: er ist angekommen → wird angekommen sein.",
+        "Yan cümlede çekimli 'werden' en sona gider."
       ]
     },
     "nominalstil-verbalstil": {
@@ -648,6 +1012,38 @@
         "Konjunktiv I belirsizlik taşımıyorsa (sei), resmî dolaylı anlatımda önceliklidir; 'wäre' ifadeden şüphe duyulduğu şeklinde okunabilir."
       ]
     },
+    "textkonnektoren-kohaerenz": {
+      "title": "Metin bağlaçları: hingegen, allerdings, demnach, infolgedessen, zumal, wenngleich, gleichwohl, insofern",
+      "rule": "Uzun metinler ve konuşmalar, savlarını 'aber', 'deshalb' ve 'obwohl'un ötesine geçen bağlaçlarla bir arada tutar. Karşıtlık: hingegen, dagegen, demgegenüber (Die Stadt wächst, das Umland hingegen verliert Einwohner); çekince: allerdings, jedoch, freilich, gleichwohl (… ist allerdings teuer); sonuç/çıkarım: demnach, demzufolge, infolgedessen, mithin, somit (Demnach ist der Vorschlag abzulehnen); ek, özellikle ağırlıklı bir neden: zumal (…, zumal die Kosten steigen); ödünleme: wenngleich, obgleich, obschon (Wenngleich der Plan teuer ist, …); koşul/bakım: insofern (als), sofern (Das stimmt insofern, als …). Sözcük dizilişi: hingegen, allerdings, jedoch, demnach, infolgedessen, somit zarftır – 1. sırayı alırlar (fiil ardından gelir) ya da cümlenin ortasında dururlar; zumal, wenngleich, obgleich, sofern, insofern als yan cümle açar (fiil sonda). Bunları ölçülü kullan: cümle başına bir bağlaç yeter ve 'hingegen' ya da 'jedoch' vurgulanan ögenin ardından gelmeyi sever.",
+      "examples": [
+        "Sanayi daha düşük enerji fiyatları talep ediyor; çevre dernekleri ise buna karşılık kömürden daha hızlı çıkış çağrısı yapıyor.",
+        "Rüzgâr enerjisini yaygınlaştırmak mantıklı, hele teknoloji son yıllarda hatırı sayılır ölçüde ucuzlamışken.",
+        "Çalışmanın yöntemsel kusurları var; dolayısıyla sonuçları yalnızca kısmen güvenilir.",
+        "Önlem kısa vadede maliyet yaratsa da uzun vadede kendini amorti ediyor."
+      ],
+      "pitfalls": [
+        "'hingegen' bir zarftır; vurgulanan ögenin ardından gelir ya da 1. sırayı alır ve fiil onu izler (Hingegen verliert das Umland …), öznenin önünde bir bağlaç yeri tutmaz.",
+        "'zumal' bir yan cümle açar: fiil sona gider.",
+        "'insofern' neden değil, bir bakım ya da koşul bildirir ('insofern, als …'); neden için 'da' ya da 'weil' gerekir.",
+        "Yan yana iki sınırlayıcı bağlaç fazladır; biri yeter."
+      ]
+    },
+    "partizipialsaetze": {
+      "title": "Ortaç cümlecikleri: In Berlin angekommen, …; Lächelnd betrat sie den Saal.",
+      "rule": "Ortaç cümleciği, bir yan cümleyi tümleçleriyle birlikte bir ortaca kısaltır; kendi öznesi yoktur – ana cümlenin öznesini paylaşır – ve virgüllerle ayrılır. Partizip I eş zamanlılık anlatır: Laut singend fuhr er durch die Stadt (= yüksek sesle şarkı söylerken). Partizip II öncelik ya da edilgenlik anlatır: In Berlin angekommen, suchte sie zuerst ein Hotel (= vardıktan sonra); Von allen Seiten kritisiert, zog der Minister den Entwurf zurück (= eleştirildikten sonra). Ortaç, öbeğinin sonunda durur. Kalıp ifadeler: genau genommen, streng genommen, ehrlich gesagt, offen gestanden, grob geschätzt, verglichen mit, abgesehen von, vorausgesetzt (, dass). Üslup yazılı ve yüksektir: gazeteler, edebiyat, raporlar; konuşmada bunun yerine yan cümle kullanılır.",
+      "examples": [
+        "İlk romanının başarısından cesaret alarak hemen ikincisine başladı.",
+        "Gözlerini denize dikmiş, yaşlı adam saatlerce pencerede oturdu.",
+        "Kesin konuşmak gerekirse bu bir eleştiri değil, bir deneme.",
+        "Öncekiyle karşılaştırıldığında devam filmi sakin ve düşünceli görünüyor."
+      ],
+      "pitfalls": [
+        "Ortaç cümleciği ana cümleyle aynı özneyi gerektirir; Berlin'e varan 'es' (regnete) değildi.",
+        "Ortaç öbeğini kapatır: tümleç ondan önce gelir.",
+        "Eş zamanlı ve etken: Partizip I (singend). Partizip II, onun şarkı olarak söylendiği anlamına gelirdi.",
+        "Kalıp ifade 'ehrlich gesagt'tır (Partizip II); aynı şekilde offen gestanden, genau genommen."
+      ]
+    },
     "paronyme-scheinbar-anscheinend": {
       "title": "Paronimler: scheinbar mı, anscheinend mi; effektiv mi, effizient mi?",
       "rule": "Paronimler, ana dili konuşanların bile birbirine karıştırdığı, benzer sesli ama farklı anlamlı sözcüklerdir. 'anscheinend' büyük olasılıkla doğru olan bir tahmini ifade eder (görünüşe bakılırsa); 'scheinbar' ise bir şeyin yalnızca öyle göründüğünü, gerçekteyse farklı olduğunu söyler: 'Er ist anscheinend krank' (muhtemelen) karşısında 'Sein Interesse war nur scheinbar' (yapmacık). Diğer çiftler: effektiv (etkili, hedefe ulaşan) ve effizient (verimli, az çabayla); formal (biçime ilişkin) ve formell (resmî, kurallara uygun); rational (akılcı) ve rationell (tutumlu, amaca uygun); kindlich (çocuksu, nötr) ve kindisch (çocukça, aşağılayıcı); sensibel (duyarlı, kolay incinen) ve sensitiv (teknik dilde: küçük değişimlere tepki veren). Şüphede kalınca karşıtıyla sınamak yardımcı olur: 'scheinbar' bir 'aber in Wirklichkeit' kaldırır, 'anscheinend' kaldırmaz.",
@@ -723,6 +1119,38 @@
         "'laut' ve 'zufolge' aynı anlama gelir; biri yeter. 'zufolge' ismin arkasına gelir ve -e hâli alır.",
         "'ungeachtet' -in hâli alır: ungeachtet der Proteste.",
         "'gemäß' resmî tınlasa da -e hâli alır; -in hâli yaygın bir aşırı düzeltmedir."
+      ]
+    },
+    "es-als-platzhalter-korrelat": {
+      "title": "Yer tutucu ve korelat olarak 'es': Es wurde viel gelacht. Ich halte es für geboten, dass …",
+      "rule": "Zamir olarak (Das Buch? Ich habe es gelesen) ve kişisiz fiillerin sabit 'es'i olarak (es regnet, es gibt, es geht um, es handelt sich um, mir ist es kalt) kullanımının yanında 'es'in, özenli düzyazının işareti olan iki görevi daha vardır. Birincisi, 1. sırada yer tutucu olarak: özne ağırlık kazanması için geriye alınacağında ön alanı doldurur – Es wurde viel gelacht. Es kamen mehr Gäste als erwartet. Es bleibt die Frage, ob … Başa başka bir öge geldiği anda bu 'es' iz bırakmadan kaybolur: Gestern wurde viel gelacht. Fiille uyuşmaz: Es kamen (çoğul!) mehr Gäste. İkincisi, bir yan cümleyi ya da mastar cümlesini haber veren korelat olarak: Ich halte es für geboten, dass …; Sie hat es abgelehnt, den Vertrag zu unterschreiben; Es freut mich, dass … bedauern, ablehnen, begrüßen, vermeiden, es für richtig halten gibi fiillerle orta alandaki korelat zorunludur (Ich bedaure es, dass …); başkalarıyla (wissen, glauben, sagen) hiç kullanılmaz: Ich weiß, dass … ('Ich weiß es, dass …' değil). Ön alandaki korelat 'es', yan cümlenin kendisi başa gelince kaybolur: Dass er absagt, überrascht mich – 'Dass er absagt, es überrascht mich' değil.",
+      "examples": [
+        "Görüşmeler bir anlaşmaya varılamadan gece boyunca sürdü.",
+        "Yönetim kurulunun beklediğinden çok daha fazla itiraz geldi.",
+        "Meclis kararın ertelenmesini zorunlu görüyor.",
+        "Çalışmanın hiç yayımlanmamış olması pek çok şeyi açıklıyor."
+      ],
+      "pitfalls": [
+        "Yer tutucu 'es' yalnızca 1. sırada bulunur; orada başka bir şey varsa kaybolur.",
+        "Yer tutucu 'es' özne değildir; fiil 'mehr Gäste' (çoğul) ile uyuşur.",
+        "wissen, glauben, sagen, hoffen ile dass cümlesinin önünde korelat bulunmaz.",
+        "Yan cümle başa gelince ön alanı kendisi doldurur; fazladan bir 'es' fiilin önünde ikinci bir öge olurdu."
+      ]
+    },
+    "nachfeld-ausklammerung": {
+      "title": "Nachfeld ve parantez dışına çıkarma: …, als wir dachten. Er hat lange gewartet – auf eine Antwort, die nie kam.",
+      "rule": "Almanca cümle bir parantezdir: çekimli fiil ile yüklemin geri kalanı (ortaç, mastar, ön ek) orta alanı kuşatır – Er hat … gewartet. Sağ parantezden sonra duran her şey Nachfeld'dedir. Yan cümleler ve mastar cümleleri doğası gereği oraya aittir (Er hat versprochen, dass er kommt); 'als' ve 'wie' ile kurulan karşılaştırmalar (Es ist später geworden, als wir dachten) ve sonradan eklenen düşünceler de (Sie hat alles verkauft, sogar die Bücher). Parantez dışına çıkarma (Ausklammerung), parantezin içine de sığacak bir ögeyi bilinçli olarak parantezden sonraya koymak demektir: Er hat lange gewartet – auf eine Antwort, die nie kam. Uzun ya da ağır ögeleri (özellikle ilgi cümleli edat öbeklerini) hafifletir, dışarı alınanı vurgular ve parantezi kısa tutar, böylece dinleyici fiile ancak yirmi kelime sonra ulaşmak zorunda kalmaz. Dışarı çıkarılmayanlar: yalın bir -i hali nesnesi, zamirler ve kısa zarflar – 'Er hat gelesen das Buch' konuşmada bile yanlıştır. İdari ve akademik düzyazıda kapalı parantez kuraldır; konuşmalarda, gazetecilikte ve edebiyatta bilinçli parantez dışına çıkarma bir üslup aracıdır – bilinçli, alışkanlık değil.",
+      "examples": [
+        "Sergi, küratörlerinin planladığından çok daha büyük oldu.",
+        "Yönetmen iki saat boyunca anlattı – asla tahmin edemeyeceğiniz bir çocukluğu.",
+        "Her şeyi sattı, büyükannesinin piyanosunu bile.",
+        "Eleştiriyi okudum, giderek artan bir huzursuzlukla."
+      ],
+      "pitfalls": [
+        "Yalın bir -i hali nesnesi parantezin içinde kalır; dışarı çıkarılanlar ağır edat öbekleri, karşılaştırmalar ve sonradan eklenen düşüncelerdir.",
+        "'als'lı karşılaştırma Nachfeld'e, ortaçtan sonraya aittir.",
+        "Zamir zarfları (darauf, damit) ve zamirler parantez dışına çıkarılmaz.",
+        "Resmî bir yazıda kapalı parantez kuraldır; sonradan eklenen düşünceyle birlikte uzun çizgi, konuşmaların ve kültür-sanat sayfalarının aracıdır."
       ]
     }
   },
@@ -2720,6 +3148,15 @@
         "kahvaltıyı sor"
       ]
     },
+    "a1-postcard-holiday": {
+      "title": "Tatilden bir kartpostal",
+      "prompt": "Deniz kenarındaki tatilinden arkadaşın Tom'a bir kartpostal yaz: nerede olduğunu, havanın nasıl olduğunu ve bütün gün ne yaptığını söyle.",
+      "points": [
+        "nerede olduğun",
+        "hava durumu",
+        "bütün gün ne yaptığın"
+      ]
+    },
     "a2-birthday": {
       "title": "Doğum günü daveti",
       "prompt": "Bir arkadaşına kısa bir e-posta yaz: onu cumartesi günkü doğum günü partine davet et. Ne zaman başladığını, nerede olduğunu ve ne getirmesi gerektiğini söyle. 30-40 kelime.",
@@ -2745,6 +3182,15 @@
         "daireyi tarif et",
         "neyi sevdiğini söyle",
         "onu davet et"
+      ]
+    },
+    "a2-heating-broken": {
+      "title": "Kalorifer bozuk",
+      "prompt": "Ev sahibin Herr Krause'ye kısa, resmî bir mesaj yaz: dairendeki kalorifer pazartesiden beri çalışmıyor. Sorunun ne olduğunu ve ne zamandan beri sürdüğünü söyle, hemen birini göndermesini iste ve ne zaman evde olduğunu belirt.",
+      "points": [
+        "sorun ve ne zamandan beri sürdüğü",
+        "birini göndermesini iste",
+        "ne zaman evde olduğun"
       ]
     },
     "b1-missed-party": {
@@ -2774,6 +3220,15 @@
         "bir örnek ver"
       ]
     },
+    "b1-complaint-online-order": {
+      "title": "Bir internet siparişi hakkında şikâyet",
+      "prompt": "İnternetten bir lamba sipariş ettin (sipariş numarası 48213). Üç hafta sonra geldi ve camı kırık. Mağazaya resmî bir e-posta yaz: sorunu anlat, ne istediğini söyle (yenisi ya da paranın iadesi) ve lambayı nasıl geri göndereceğini sor.",
+      "points": [
+        "sorunu anlat",
+        "ne istediğin",
+        "nasıl geri göndereceğini sor"
+      ]
+    },
     "b2-course-complaint": {
       "title": "Bir dil okuluna şikâyet",
       "prompt": "Bir dil okuluna resmî bir şikâyet yazısı (yaklaşık 150 kelime) yaz: kursunda üç ders boyunca öğretmen yoktu. Ne olduğunu anlat, okuldan ne yapmasını beklediğini söyle ve cevap için bir son tarih belirle.",
@@ -2790,6 +3245,16 @@
         "neden ilgilendiğini söyle",
         "deneyimini anlat",
         "ne zaman müsait olduğunu söyle"
+      ]
+    },
+    "b2-forum-smartphones-school": {
+      "title": "Forum yazısı: okulda akıllı telefon",
+      "prompt": "Bir internet forumunda veliler, akıllı telefonların okullarda yasaklanıp yasaklanmaması gerektiğini tartışıyor. Bir yazı yaz (yaklaşık 170 kelime): ne düşündüğünü söyle, lehte ve aleyhte savlar ileri sür, kendi yaşadığın bir deneyimi anlat ve bir öneride bulun.",
+      "points": [
+        "görüşün",
+        "lehte ve aleyhte savlar",
+        "kendi deneyimin",
+        "bir öneri"
       ]
     },
     "c1-letter-to-editor": {
@@ -2812,6 +3277,16 @@
         "bir görüşme talebi"
       ]
     },
+    "c1-graph-commuting": {
+      "title": "İşe gidiş geliş verileri üzerine bir rapor",
+      "prompt": "Bölüm müdürün Frau Dr. Neumann, şehrin ulaşım raporu için bir anketi özetlemeni istedi. Veriler: 2015'te işe gidenlerin %61'i arabayla gidiyor, %22'si toplu taşıma kullanıyor ve %9'u bisiklete biniyordu; 2025'te bu paylar %48, %29 ve %17 oldu; ortalama işe gidiş mesafesi 16 km'den 19 km'ye çıktı. Ona resmî bir e-posta yaz (yaklaşık 230 kelime): başlıca gelişmeleri anlat, verileri karşılaştır, olası nedenleri belirt ve şehir için bir önlem öner.",
+      "points": [
+        "anlatılmış başlıca gelişmeler",
+        "karşılaştırılmış veriler",
+        "olası nedenler",
+        "önerilmiş bir önlem"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "Hukuka aykırı hesap ücretleri konusunda bir bankaya itiraz",
       "prompt": "Bankan iki yıl önce hesap ücretlerini senin açık onayın olmadan artırdı ve şimdi \"zımni kabulünü\" gerekçe göstererek bunları iade etmeyi reddediyor. Bankaya resmî bir itiraz yazısı yaz (yaklaşık 260 kelime): olayları tarih ve tutarlarıyla ortaya koy, dayandığın hukuki temeli ve mahkeme kararını belirt, bir süre vererek iadeyi talep et ve banka buna uymazsa atacağın adımları bildir.",
@@ -2830,6 +3305,659 @@
         "dayandığın kanıtlar ya da deneyimler",
         "ele alınmış en güçlü itiraz",
         "koşullara bağlı bir öneri"
+      ]
+    },
+    "c2-open-letter-museum": {
+      "title": "Yeni sergi hakkında bir müze müdürüne açık mektup",
+      "prompt": "Kent müzesi, şehrin tarihi üzerine, sanayi geçmişini dışarıda bırakan ve nesneler yerine ekranlara dayanan yeni bir kalıcı sergi açtı. Müdür Frau Dr. Berger'e açık bir mektup yaz (yaklaşık 280 kelime): serginin konseptini değerlendir, iki küratöryel kararı gerekçeleriyle eleştir, işleyen yanları teslim et ve somut değişiklikler öner.",
+      "points": [
+        "değerlendirilmiş konsept",
+        "gerekçeleriyle eleştirilmiş iki karar",
+        "teslim edilmiş işleyen yanlar",
+        "önerilmiş somut değişiklikler"
+      ]
+    }
+  },
+  "path": {
+    "a1-01": {
+      "title": "Merhaba! Benim adım …",
+      "goal": "İnsanları selamlayıp vedalaşabilir, kendini tanıtabilir, nereli olduğunu ve hangi dilleri konuştuğunu söyleyebilir ve başkalarına da aynı soruları sorabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Almancada kendimi resmî ve samimi bir şekilde nasıl tanıtırım?",
+        "ilk iş gününde yeni bir meslektaşla tanışıp kendini tanıtmak"
+      ]
+    },
+    "a1-02": {
+      "title": "Ailem ve ben",
+      "goal": "Ailen ve arkadaşların hakkında konuşabilir, insanların kaç yaşında olduğunu ve ne iş yaptığını söyleyebilir ve birinin ailesini sorabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Ailemden nasıl söz ederim: isimler, yaşlar ve meslekler?",
+        "bir arkadaşına aile fotoğraflarını göstermek"
+      ]
+    },
+    "a1-03": {
+      "title": "Afiyet olsun!",
+      "goal": "Bir kafede ya da restoranda yiyecek ve içecek sipariş edebilir, neyi sevdiğini söyleyebilir, bir şeyin fiyatını sorabilir ve hesabı ödeyebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-04": {
+      "title": "Alışveriş",
+      "goal": "Yiyecek ve kıyafet satın alabilir, beden, renk ve miktar sorabilir, fiyatları anlayabilir ve neye ihtiyacın olmadığını söyleyebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-05": {
+      "title": "Günüm",
+      "goal": "Saati söyleyebilir, günlük rutinini ve haftanı anlatabilir, randevu alabilir ya da değiştirebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Günlük rutinimi, kalkıştan yatışa kadar nasıl anlatırım?"
+      ]
+    },
+    "a1-06": {
+      "title": "Evde",
+      "goal": "Daireni ve mobilyalarını tarif edebilir, eşyaların nerede olduğunu ve yaşadığın yerin nesini sevdiğini söyleyebilir ve bir kiralık daire ilanını anlayabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "kiralamak istediğin bir daire hakkında ev sahibine sorular sormak",
+        "Dairemi ve mobilyaların nerede olduğunu nasıl anlatırım?"
+      ]
+    },
+    "a1-07": {
+      "title": "Şehirde dolaşırken",
+      "goal": "Yol sorabilir ve tarif edebilir, otobüs, tren ve taksi kullanabilir ve bir şehirdeki yerlerin adlarını söyleyebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-08": {
+      "title": "Boş zaman ve buluşma",
+      "goal": "Hobilerinden söz edebilir, ne yapabildiğini ve ne yapmak istediğini söyleyebilir, birini davet edebilir ve bir gün ile saat üzerinde anlaşabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Bir arkadaşımı nasıl davet eder, bir saat ve yer nasıl öneririm?"
+      ]
+    },
+    "a1-09": {
+      "title": "Sağlık",
+      "goal": "Vücudun bölümlerini adlandırabilir, nerenin ağrıdığını söyleyebilir, doktordan randevu alabilir ve basit tavsiyeleri anlayabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-10": {
+      "title": "Seyahat ve hava durumu",
+      "goal": "Bilet alabilir, otele giriş yapabilir, hava durumundan söz edebilir ve bir gezide ne yaptığını Perfekt ile anlatabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-01": {
+      "title": "Hafta sonun nasıldı?",
+      "goal": "Hafta sonu ya da tatilde ne yaptığını anlatabilir, nasıl geçtiğini söyleyebilir ve başkalarına geçmişlerini sorabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "Geçen hafta sonunu nasıl anlatırım? Konuşurken hangi geçmiş zamanı kullanırım?",
+        "pazartesi sabahı bir meslektaşına hafta sonunu anlatmak"
+      ]
+    },
+    "a2-02": {
+      "title": "Kutlamalar ve davetler",
+      "goal": "İnsanları davet edebilir, bir daveti kabul edebilir ya da geri çevirebilir, hediyeler ve kutlamalar hakkında konuşabilir ve bir davetiye yazabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "bir arkadaşınla sürpriz parti planlamak"
+      ]
+    },
+    "a2-03": {
+      "title": "Birlikte yaşamak",
+      "goal": "Evini ve ev düzenini anlatabilir, ev arkadaşlarınla ve komşularınla kurallar üzerinde anlaşabilir ve kapıcıdan ya da ev sahibinden bir şey isteyebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-04": {
+      "title": "Alışveriş ve şikâyet",
+      "goal": "Ürünleri ve fiyatları karşılaştırabilir, kibarca yardım isteyebilir, bir şeyi değiştirebilir ya da iade edebilir ve bir yemekten şikâyet edebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-05": {
+      "title": "Sağlıklı kalmak",
+      "goal": "Belirtileri anlatabilir, doktorun talimatlarını anlayabilir, sağlıklı yaşam hakkında konuşabilir ve hastayken mazeret bildirebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-06": {
+      "title": "Resmî daireler ve hizmetler",
+      "goal": "Vatandaş bürosunda kayıt yaptırabilir, paket gönderebilir, kayıp bildiriminde bulunabilir, bir form doldurabilir ve kısa, resmî bir mesaj yazabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-07": {
+      "title": "İş ve meslekler",
+      "goal": "İşin ve çalışma saatlerin hakkında konuşabilir, bir şeyi ne zamandan beri ve ne kadar süredir yaptığını söyleyebilir ve basit bir işe başvurabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "İşimden nasıl söz eder ve onu neden sevdiğimi nasıl söylerim?"
+      ]
+    },
+    "a2-08": {
+      "title": "Yolda ve tatilde",
+      "goal": "Bir gezi planlayabilir, bisiklet kiralayabilir ya da bilet alabilir, bir tatili anlatabilir ve gelecek yaz ne yapacağını söyleyebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "turizm danışmada bir şehirde nelerin görülebileceğini sormak"
+      ]
+    },
+    "a2-09": {
+      "title": "Öğrenme ve medya",
+      "goal": "Nasıl öğrendiğinden ve hangi medyayı kullandığından söz edebilir, kitap ödünç alabilir ve neyi bildiğini, neyi yapabildiğini ve neyi tanıdığını söyleyebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Bir şeyi anlamadığımda ya da bir kelimenin tekrarlanmasına ihtiyaç duyduğumda ne diyebilirim?"
+      ]
+    },
+    "a2-10": {
+      "title": "İnsanlar, duygular ve dış görünüş",
+      "goal": "İnsanları, karakterlerini ve nasıl hissettiklerini anlatabilir, birini neden sevdiğini açıklayabilir ve kuaförde dış görünüşün hakkında konuşabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "bir arkadaşına tanıştığın bir kişiyi ve nasıl biri olduğunu anlatmak"
+      ]
+    },
+    "b1-01": {
+      "title": "Hayat hikâyeleri",
+      "goal": "Kendi hayat hikâyeni ve başkalarınınkini geçmiş zamanlarla anlatabilir, ilişkiler ve aile hayatı hakkında konuşabilir ve yazılı olarak özür dileyebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "yıllardır görmediğin eski bir okul arkadaşınla hasret gidermek"
+      ]
+    },
+    "b1-02": {
+      "title": "İş ve kariyer",
+      "goal": "İşini ve hedeflerini anlatabilir, hastalık bildirimi yapabilir, evden çalışmayı tartışabilir ve neden ile amaç belirtebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-03": {
+      "title": "Konut ve komşular",
+      "goal": "Evini ve mahalleni ayrıntılı olarak anlatabilir, bir kira sözleşmesinin ana noktalarını anlayabilir ve cümlelerini ilgi cümleleriyle bağlayabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "gece geç saatteki gürültü hakkında bir komşuyla konuşma",
+        "Almanca bir kira sözleşmesindeki en önemli kelimeler hangileri ve ne anlama geliyorlar?"
+      ]
+    },
+    "b1-04": {
+      "title": "Sağlık ve beslenme",
+      "goal": "Sağlıklı beslenme, spor ve stres hakkında konuşabilir, belirtileri tam olarak anlatabilir ve karşıtlık ile ödünleme (-e rağmen) ifade edebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "masa başında oturmaktan kaynaklanan sırt ağrısı hakkında bir doktorla konuşmak"
+      ]
+    },
+    "b1-05": {
+      "title": "Tüketim ve sözleşmeler",
+      "goal": "Teklifleri karşılaştırabilir, reklamları anlayabilir, bir sözleşmeyi feshedebilir ve bir siparişten resmî bir mektupla şikâyet edebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-06": {
+      "title": "Para ve bankacılık",
+      "goal": "Hesap açabilir, biriktirme ve harcama hakkında konuşabilir ve ne yapıldığını edilgen çatıyla anlatabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Para hakkında konuşmak için hangi fiillere ihtiyacım var: ödemek, havale etmek, para çekmek, biriktirmek, borç almak?"
+      ]
+    },
+    "b1-07": {
+      "title": "Ulaşım ve seyahat",
+      "goal": "Bir araba tamiriyle ve kaçırılan bir aktarmayla başa çıkabilir, otelde şikâyette bulunabilir ve bir geziden önce, gezi sırasında ve sonrasında ne olduğunu anlatabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-08": {
+      "title": "Medya ve dijital dünya",
+      "goal": "Haberler, sosyal medya ve ekran süresi hakkında konuşabilir, neyi beklediğini ve neye sinirlendiğini söyleyebilir ve bir forumda görüşünü bildirebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "çocukların akıllı telefonu olup olmaması gerektiği hakkında bir arkadaşla tartışma",
+        "Almancada görüşümü nasıl bildirir, kibarca nasıl katılır ya da karşı çıkarım?"
+      ]
+    },
+    "b1-09": {
+      "title": "Eğitim ve öğrenme",
+      "goal": "Okul, meslek eğitimi ve öğrenme hedeflerin hakkında konuşabilir, öğretmenine yazabilir ve dilekler ile gerçek dışı koşullar ifade edebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "lernen, studieren ve üben arasındaki fark nedir?"
+      ]
+    },
+    "b1-10": {
+      "title": "Çevre, bayramlar ve toplum",
+      "goal": "Çevreyi ve günlük hayatta iklimi korumayı tartışabilir, bayramları ve gelenekleri anlatabilir ve savlarını iki parçalı bağlaçlarla bağlayabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "ülkendeki bir bayramı Alman bir arkadaşına anlatmak",
+        "Günlük hayatımda çevre için ne yaptığımı nasıl anlatırım?"
+      ]
+    },
+    "b2-01": {
+      "title": "İş dünyası ve başvurular",
+      "goal": "Bir iş görüşmesinde kendini tanıtabilir, bir başvuru yazısı yazabilir ve çalışma koşulları ile nelerin farklı gidebileceği hakkında konuşabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-02": {
+      "title": "Şehirde yaşamak",
+      "goal": "Bir daireye bakabilir, daireyi teslim edip depozitoyu görüşebilir, şehir ile kırsalı karşılaştırabilir ve insanları ve nesneleri ortaçlarla tanımlayabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-03": {
+      "title": "Tüketiciler ve sözleşmeler",
+      "goal": "Bir fatura, teslimat ya da hizmetten telefonla ve yazılı olarak şikâyet edebilir ve neyin yapılması gerektiğini, yapılabileceğini ya da yapılmasının uygun olacağını edilgen çatıyla söyleyebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-04": {
+      "title": "Teknoloji ve dijitalleşme",
+      "goal": "Bir arıza bildirebilir, yeni teknolojinin artılarını ve eksilerini tartışabilir ve bir forum yazısında tutumunu savunabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-05": {
+      "title": "Göç ve birlikte yaşam",
+      "goal": "Yabancılar dairesindeki bir randevuyu halledebilir, göç, uyum ve kimlik hakkında konuşabilir ve -in hali alan edatlarla neden belirtebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Yeni bir ülkeye taşınma deneyimimi nasıl anlatırım?"
+      ]
+    },
+    "b2-06": {
+      "title": "Toplum ve siyaset",
+      "goal": "Toplumsal ya da siyasi bir konudaki tartışmayı takip edebilir, lehte ve aleyhte savlar sunabilir ve söylenenlere ilgi cümleleriyle tam olarak gönderme yapabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "sokağındaki yeni bisiklet yolu hakkında bir komşuyla tartışma",
+        "Almancada bir savı nasıl yapılandırırım: giriş, artılar, eksiler, sonuç?"
+      ]
+    },
+    "b2-07": {
+      "title": "İklim ve çevre",
+      "goal": "İklim değişikliğini ve bireylerin ile hükûmetlerin neler yapabileceğini tartışabilir, gelecek hakkında tahminlerde bulunabilir ve rakamlı bir raporu anlayabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "şirketinin nasıl daha az israf edebileceği hakkında bir meslektaşla konuşmak",
+        "Almancada bir grafiği ya da istatistiği nasıl anlatırım?"
+      ]
+    },
+    "b2-08": {
+      "title": "Psikoloji ve kişilik",
+      "goal": "Karakteri, duyguları ve davranışları anlatabilir, görüneni gerçekle karşılaştırabilir ve söylediklerini kiplik parçacıklarıyla yumuşatabilir ya da keskinleştirebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "bir arkadaşına iş stresi hakkında tavsiye vermek"
+      ]
+    },
+    "b2-09": {
+      "title": "Kültür ve bilim",
+      "goal": "Kitaplar, filmler ve sergiler hakkında konuşabilir, bilimsel bir bulguyu basit bir dille açıklayabilir ve başkalarının söylediklerini aktarabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "bir arkadaşına bir film ya da kitap önerip nedenini açıklamak"
+      ]
+    },
+    "b2-10": {
+      "title": "Hukuk ve küreselleşme",
+      "goal": "Kurallar, suç ve adalet hakkında konuşabilir, küreselleşmeyi ve ticareti tartışabilir ve bir metni açık biçimde özetleyebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "karakolda bir bisiklet hırsızlığını bildirmek",
+        "Almancada bir metnin açık bir özetini nasıl yazarım? Hangi kalıplara ihtiyacım var?"
+      ]
+    },
+    "c1-01": {
+      "title": "İş ve müzakere",
+      "goal": "Maaşını müzakere edebilir, bir tutumu yönetime karşı yazılı olarak savunabilir ve ad stili ile fiil stili arasında geçiş yapabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-02": {
+      "title": "Konut ve hukuk",
+      "goal": "Bir kira artışı konusunda danışmanlık alabilir, hukuk ve idare dilini anlayabilir ve ilgi cümlelerini ortaç sıfatlara kısaltabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Bir Alman resmî kurumundan gelen yazıyı nasıl okurum? Tipik kalıplar ne anlama geliyor?"
+      ]
+    },
+    "c1-03": {
+      "title": "Siyaset ve medya",
+      "goal": "Siyasi tartışmaları ve haber analizlerini takip edebilir, iddiaları ve varsayımları öznel kiplik fiillerle aktarabilir ve bir okur mektubu yazabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-04": {
+      "title": "Araştırma ve bilim",
+      "goal": "Akademik metinleri ve konuşmaları anlayabilir, bulguları ve rakamları sunabilir ve bilim Almancasının edilgen çatı alternatiflerini kullanabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "bir anketin sonuçlarını ekibine sunup soruları yanıtlamak"
+      ]
+    },
+    "c1-05": {
+      "title": "Çevre ve enerji",
+      "goal": "Enerji politikasını ve çevreyi ince ayrımlarla tartışabilir, uzun savları metin bağlaçlarıyla yapılandırabilir ve tutumları tartabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "köyünün yakınındaki rüzgâr türbinleri üzerine bir panel tartışması",
+        "Almancada iki tutumu nasıl tartar ve bir sonuca nasıl varırım?"
+      ]
+    },
+    "c1-06": {
+      "title": "Edebiyat ve sanat",
+      "goal": "Edebiyat, sinema ve sanat hakkında konuşabilir, bir şeyin nasıl olduğunu ortaç cümlecikleriyle anlatabilir ve bir eserin üslubunu ve atmosferini sözcüklere dökebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "bir okuma kulübünde bir romanı tartışmak",
+        "Almancada bir kitabın ya da filmin üslubunu ve atmosferini nasıl anlatırım?"
+      ]
+    },
+    "c1-07": {
+      "title": "Değişen bir toplum",
+      "goal": "Demografik değişimi ve yapay zekâyı tartışabilir, uzmanların söylediklerini aktarabilir ve karmaşık bağlantıları açık biçimde açıklayabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "mesleğinin yapay zekâyla nasıl değişeceği üzerine bir radyo röportajı"
+      ]
+    },
+    "c1-08": {
+      "title": "Geleceği biçimlendirmek",
+      "goal": "Ulaşımın, şehirlerin ve sosyal devletin geleceğini tartışabilir, bir öneriyi resmî biçimde sunabilir ve itirazlara yanıt verebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "arabasız şehir merkezi planını kuşkucu bir dükkân sahibine sunmak",
+        "Bir toplantıda resmî bir öneriyi nasıl sunar ve itirazlara nasıl yanıt veririm?"
+      ]
+    },
+    "c2-01": {
+      "title": "Kamuoyu önünde bilim",
+      "goal": "Kendi araştırmanı bir gazeteciye açıklayabilir, yakın anlamlı sözcükleri kesin biçimde ayırt edebilir ve eleştirel sorularla rahatlıkla başa çıkabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-02": {
+      "title": "Müzakere ve sözleşmeler",
+      "goal": "Bir sözleşmeyi madde madde müzakere edebilir, iş Almancasının işlev fiili yapılarını doğal biçimde kullanabilir ve bir karara yazılı olarak itiraz edebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-03": {
+      "title": "Resmî kurumlar ve itirazlar",
+      "goal": "Vergi dairesine itirazda bulunabilir, idare Almancasını okuyup yazabilir ve resmî metinlerin yüksek üslup edatlarını kullanabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Resmî bir itirazı (Einspruch ya da Widerspruch) nasıl yaparım ve hangi kalıplar gerekir?"
+      ]
+    },
+    "c2-04": {
+      "title": "Dil kaydı ve üslup",
+      "goal": "Resmî bir itirazdan sohbete kadar her durum için doğru dil kaydını seçebilir, üslup kırılmasını tanıyabilir ve ondan kaçınabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "makalenin tonu hakkında bir editörle konuşma",
+        "Aynı ricayı üç dil kaydında nasıl dile getiririm: bir arkadaşa, bir meslektaşa ve bir resmî kuruma?"
+      ]
+    },
+    "c2-05": {
+      "title": "Anlatmak ve hatırlamak",
+      "goal": "Hikâyeler anlatıp çözümleyebilir, anlatı zamanlarını ve serbest dolaylı anlatımı kullanabilir ve tarih ile toplumsal hafıza üzerine tartışabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "büyükannenin komşusuyla şehrin 1960'lardan bu yana nasıl değiştiği hakkında konuşma"
+      ]
+    },
+    "c2-06": {
+      "title": "Argümantasyon ve retorik",
+      "goal": "Açık vermeyen bir sav kurabilir, yer tutucu ve korelat olarak 'es'i kesin biçimde kullanabilir ve bir uzman görüşü yazabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Almanca konuşmalarda hangi retorik araçlar işe yarar ve bunları tumturaklı durmadan nasıl kullanırım?"
+      ]
+    },
+    "c2-07": {
+      "title": "Sanat ve eleştiri",
+      "goal": "Bir sergiyi, kitabı ya da gösteriyi eleştirebilir, vurgu için Nachfeld'i ve parantez dışına çıkarmayı kullanabilir ve yargının ince tonlarını ifade edebilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "sert eleştirini tiyatronun yönetmenine karşı savunmak"
+      ]
+    },
+    "c2-08": {
+      "title": "Felsefe ve diplomasi",
+      "goal": "Etik soruları ve uluslararası ilişkileri kesinlik ve incelikle tartışabilir ve birden çok kaynaktaki savları tartabilirsin.",
+      "steps": [
+        null,
+        null,
+        null,
+        "bir proje konusunda anlaşamayan iki meslektaş arasında arabuluculuk yapmak",
+        "Almancada birine zayıf görünmeden diplomatik biçimde nasıl karşı çıkarım?"
       ]
     }
   }

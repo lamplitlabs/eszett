@@ -90,6 +90,102 @@
         "Ціла прийменникова група займає перше місце; дієслово йде одразу за нею: lerne ich."
       ]
     },
+    "sein-haben-praesens": {
+      "title": "sein, haben і закінчення теперішнього часу",
+      "rule": "Більшість дієслів утворюють теперішній час за допомогою сталих закінчень, що додаються до основи: ich wohn-e, du wohn-st, er/sie/es wohn-t, wir wohn-en, ihr wohn-t, sie/Sie wohn-en. Два найважливіші дієслова неправильні, і їх треба вивчити напам’ять: sein – ich bin, du bist, er ist, wir sind, ihr seid, sie sind; haben – ich habe, du hast, er hat, wir haben, ihr habt, sie haben. 'Sein' каже, хто людина або яка вона (Ich bin Lehrerin, ich bin müde), 'haben' — що в людини є або що вона відчуває (Ich habe ein Auto, ich habe Hunger). Ввічливе 'Sie' завжди бере форму множини: Sie sind, Sie haben, Sie wohnen.",
+      "examples": [
+        "Я Ана, і я родом з Португалії.",
+        "Ти втомлений? — Ні, я голодний.",
+        "Ми живемо в Гамбурзі і працюємо в банку.",
+        "У вас є діти? — Так, у мене дві доньки."
+      ],
+      "pitfalls": [
+        "У німецькій голод, спрагу, час і бажання «мають» (haben); 'sein' уживається з віком, професією та якостями.",
+        "'haben' неправильне: du hast, er/sie/es hat — b випадає.",
+        "Ввічливе 'Sie' завжди бере форму множини на -en: Sie kommen, Sie sind, Sie haben.",
+        "Форма 'sein' для ihr — 'seid' (з d); 'sind' належить wir і sie."
+      ]
+    },
+    "w-fragen-ja-nein-fragen": {
+      "title": "Питання з питальним словом і питання «так/ні»",
+      "rule": "Питання з питальним словом (W-Frage) починається з питального слова, а дієслово стоїть на другому місці: Wo wohnst du? Was machen Sie? Головні питальні слова: wer (особа), was (річ), wo (місце), woher (походження), wohin (напрямок), wann (час), wie (спосіб, а також: Wie heißt du? Wie alt bist du? Wie viel kostet das?), warum (причина), welche/welcher/welches (вибір). Питання «так/ні» починається з самого дієслова, далі йде підмет: Wohnst du in Berlin? Sind Sie Frau Meier? Відповіді: ja, nein — і 'doch', щоб заперечити питання із запереченням: Kommst du nicht? – Doch!",
+      "examples": [
+        "Як тебе звати і звідки ти?",
+        "Де ти живеш? — У Кельні, біля собору.",
+        "Ви розмовляєте англійською? — Так, трохи.",
+        "У тебе немає часу? — Та ні, час у мене є."
+      ],
+      "pitfalls": [
+        "Дієслово стоїть одразу після питального слова, потім підмет: Wo wohnst du?",
+        "Питання «так/ні» починається з дієслова. Розповідне речення зі знаком питання — лише розмовний варіант для здивованого перепитування.",
+        "Про походження питають через 'woher'; 'wo' питає про місце, 'wohin' — про напрямок.",
+        "На питання із запереченням відповідають 'doch', якщо відповідь ствердна."
+      ]
+    },
+    "artikel-nominativ-akkusativ": {
+      "title": "der, die, das: називний і знахідний відмінки",
+      "rule": "Кожен іменник має рід: чоловічий der/ein, жіночий die/eine, середній das/ein; множина завжди die (і не має неозначеного артикля: Ich habe Kinder). Називний відмінок — для підмета, того, хто щось робить: Der Kaffee ist heiß. Знахідний — для прямого додатка, того, що хтось має, купує, бачить або хоче: Ich trinke den Kaffee. У знахідному змінюється лише артикль чоловічого роду: der → den, ein → einen; die, das, eine, ein залишаються без змін. Знахідний також стоїть після 'es gibt' і прийменників für, ohne, durch, gegen, um: Es gibt einen Park. Das ist für den Lehrer.",
+      "examples": [
+        "Чай холодний, але я все одно його вип’ю.",
+        "У мене є брат і сестра.",
+        "Ми візьмемо хліб і помідори.",
+        "Тут є супермаркет? — Так, за рогом."
+      ],
+      "pitfalls": [
+        "'haben' вимагає знахідного; Hund — чоловічого роду, тому einen Hund.",
+        "Тут der Mann — прямий додаток (знахідний): der стає den.",
+        "Suppe — жіночого роду: die Suppe. Рід є в словнику, і його вчать разом зі словом.",
+        "Після 'für' завжди стоїть знахідний: für meinen Vater."
+      ]
+    },
+    "possessivartikel": {
+      "title": "Присвійні артиклі: mein, dein, sein, ihr …",
+      "rule": "Присвійні артиклі кажуть, кому щось належить: ich → mein, du → dein, er/es → sein, sie (однина) → ihr, wir → unser, ihr → euer, sie (множина) → ihr, Sie → Ihr. Вони беруть ті самі закінчення, що 'ein' і 'kein': mein Bruder (чоловічий рід), meine Schwester (жіночий рід), mein Kind (середній рід), meine Eltern (множина). У знахідному лише чоловічий рід отримує -en: Ich sehe meinen Bruder. Слово вибирає власник, а закінчення — іменник: sein Auto (його машина), ihr Auto (її машина). 'euer' втрачає друге e перед закінченням: eure Kinder.",
+      "examples": [
+        "Це моя мама, а це мій тато.",
+        "Як звати твою сестру? — Її звати Леа.",
+        "Петер шукає свій ключ.",
+        "Це ваші діти? — Так, наші діти вже великі."
+      ],
+      "pitfalls": [
+        "Закінчення залежить від іменника: Bruder — чоловічого роду, тому mein Bruder без -e.",
+        "Власниця — Anna (вона) → ihr; Hund у знахідному → ihren Hund.",
+        "У знахідному чоловічий рід отримує -en: deinen Vater.",
+        "Перед закінченням 'euer' втрачає друге e: eure, euren, eurem."
+      ]
+    },
+    "pluralformen": {
+      "title": "Форми множини: -e, -(e)n, -er, -s або без закінчення",
+      "rule": "У множині артикль завжди 'die', але закінчення іменника треба вчити разом зі словом. П’ять моделей охоплюють майже все: -e, часто з умлаутом (der Tisch – die Tische, der Stuhl – die Stühle); -(e)n, типове для іменників жіночого роду (die Frau – die Frauen, die Lampe – die Lampen); -er, зазвичай з умлаутом, для коротких іменників середнього роду (das Kind – die Kinder, das Buch – die Bücher); -s для іншомовних слів і слів на голосний (das Auto – die Autos, das Hotel – die Hotels); без закінчення для іменників на -er, -el, -en, часто з умлаутом (der Lehrer – die Lehrer, der Apfel – die Äpfel). Іменники на -chen і -lein не змінюються: das Mädchen – die Mädchen.",
+      "examples": [
+        "Мені потрібні два стільці і стіл.",
+        "Діти читають книжки.",
+        "Три яблука, чотири помідори і шість яєць, будь ласка.",
+        "Готелі в місті дорогі."
+      ],
+      "pitfalls": [
+        "Kind утворює множину на -er: die Kinder. Закінчення -s у німецькій рідкісне.",
+        "Іменники на -el часто не отримують закінчення, але отримують умлаут: der Apfel – die Äpfel.",
+        "Слова на голосний та іншомовні слова беруть -s: Autos, Hotels, Handys.",
+        "У множині артикль завжди 'die', незалежно від роду."
+      ]
+    },
+    "zeit-und-ortsangaben": {
+      "title": "Обставини часу й місця: um, am, im, von … bis; in, nach, zu, bei",
+      "rule": "Час: 'um' для години (um acht Uhr), 'am' для днів і частин доби (am Montag, am Morgen, am Wochenende — але: in der Nacht), 'im' для місяців і пір року (im Mai, im Winter), 'von … bis' для проміжку (von neun bis fünf), 'ab' для початкової точки (ab morgen). Місце, відповідь на 'wo?': 'in' для міст, країн і приміщень (in Berlin, in der Küche), 'bei' для людей і фірм (bei meiner Oma, bei Siemens), 'zu Hause'. Напрямок, відповідь на 'wohin?': 'nach' для міст і країн без артикля та для 'nach Hause' (nach Wien, nach Hause), 'in' + знахідний для країн з артиклем і для приміщень (in die Schweiz, in die Küche), 'zu' + давальний для людей, крамниць і призначених зустрічей (zum Arzt, zur Arbeit, zu Lisa).",
+      "examples": [
+        "Курс у вівторок о пів на сьому.",
+        "У серпні ми їдемо до Італії.",
+        "Я працюю з понеділка по п’ятницю в невеликій фірмі.",
+        "Ти сьогодні йдеш до лікаря? — Ні, я залишаюся вдома."
+      ],
+      "pitfalls": [
+        "Година вимагає 'um'; 'am' уживається з днями (am Montag) і частинами доби (am Abend).",
+        "Міста і країни без артикля беруть 'nach': nach Berlin, nach Spanien.",
+        "'nach Hause' — це напрямок (куди?), 'zu Hause' — місце (де?).",
+        "З людьми вживають 'bei' (beim Arzt, bei Anna); 'in' — для приміщень і місць (in der Praxis)."
+      ]
+    },
     "kennen-wissen-koennen": {
       "title": "kennen, wissen чи können?",
       "rule": "'Kennen' означає бути знайомим з людиною, місцем або річчю; воно має прямий додаток: Ich kenne die Stadt. 'Wissen' означає володіти інформацією; після нього здебільшого йде 'dass', 'ob', питальне слово або 'es/das', інакше — якась річ (die Antwort): Ich weiß, dass er kommt. 'Können' — модальне дієслово для вміння чи можливості, зазвичай з інфінітивом: Ich kann schwimmen.",
@@ -300,6 +396,70 @@
         "Люди й прилади на -er здебільшого чоловічого роду: der Computer, der Drucker, der Fahrer.",
         "Закінчення -e не вказує на рід: das Ende, das Auge — середнього роду, die Lampe — жіночого, der Name — чоловічого. Учи артикль разом зі словом.",
         "Запозичення на -ion майже завжди жіночого роду: die Nation, die Information, die Diskussion."
+      ]
+    },
+    "personalpronomen-akkusativ-dativ": {
+      "title": "Особові займенники в знахідному й давальному: mich/mir, dich/dir, ihn/ihm …",
+      "rule": "Називний: ich, du, er, sie, es, wir, ihr, sie/Sie. Знахідний (прямий додаток; після für, ohne, um): mich, dich, ihn, sie, es, uns, euch, sie/Sie. Давальний (непрямий додаток — кому?; після mit, bei, von, zu і після дієслів на кшталт helfen, gefallen, danken, gehören): mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. Зверни увагу: лише ich, du та er/sie/es мають різні форми для знахідного й давального; uns і euch однакові в обох. Якщо в реченні два займенники, знахідний стоїть перед давальним: Ich gebe es dir.",
+      "examples": [
+        "Ти можеш мені допомогти? — Так, я охоче тобі допоможу.",
+        "Я зателефоную йому завтра і запитаю його.",
+        "Подарунок для тебе. Він тобі подобається?",
+        "Ми дякуємо вам за запрошення."
+      ],
+      "pitfalls": [
+        "'helfen' завжди вимагає давального: mir, dir, ihm, ihr, uns, euch, ihnen.",
+        "'lieben' має прямий додаток у знахідному: dich, ihn, sie, euch.",
+        "'gehören' вимагає давального: ihm, ihr, ihnen.",
+        "Два займенники: знахідний (es) перед давальним (dir)."
+      ]
+    },
+    "praeteritum-sein-haben-modalverben": {
+      "title": "Präteritum дієслів sein, haben і модальних: war, hatte, konnte",
+      "rule": "В усному мовленні про минуле здебільшого розповідають у Perfekt — крім 'sein', 'haben' і модальних дієслів, які навіть у розмові стоять у Präteritum. sein: ich war, du warst, er war, wir waren, ihr wart, sie waren. haben: ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten. Модальні дієслова втрачають умлаут і додають -te: können → konnte, müssen → musste, dürfen → durfte, sollen → sollte, wollen → wollte, mögen → mochte; інфінітив іде в кінець речення: Ich musste gestern arbeiten. Ich та er/sie/es у Präteritum не мають закінчення: ich war, er hatte, sie konnte.",
+      "examples": [
+        "Де ти був учора? — Я хворів і мав температуру.",
+        "Ми не змогли прийти, бо не мали часу.",
+        "У дитинстві я хотів стати пілотом.",
+        "Тобі довелося довго чекати, правда?"
+      ],
+      "pitfalls": [
+        "Із sein і haben Präteritum — звичайний вибір навіть у розмові; і дієслово має залишатися на другому місці.",
+        "'könnte' — це Konjunktiv II (ввічливість, нереальність); минулий час — 'konnte' без умлаута.",
+        "Інфінітив іде в кінець речення, у Präteritum теж: musste … arbeiten.",
+        "er/sie/es у Präteritum не має закінчення: sie hatte, er war, es konnte."
+      ]
+    },
+    "hoefliche-bitten-konjunktiv-ii": {
+      "title": "Ввічливі прохання: Könnten Sie …? Würden Sie …? Ich hätte gern …",
+      "rule": "Ввічливі прохання й побажання використовують Konjunktiv II трьох дієслів: könnte (від können), hätte (від haben), würde (від werden) — а також 'wäre' (від sein) і 'möchte'. 'Könnten Sie mir helfen?' ввічливіше, ніж 'Können Sie mir helfen?'; 'Würden Sie bitte das Fenster schließen?' ввічливіше за наказовий спосіб. У замовленнях і покупках: 'Ich hätte gern einen Kaffee', 'Ich möchte zwei Brötchen'. Форми: ich könnte, du könntest, er könnte, wir könnten, Sie könnten; ich hätte, du hättest, er hätte; ich würde, du würdest, er würde, wir würden. 'bitte' і 'gern' роблять прохання ще приязнішим.",
+      "examples": [
+        "Не могли б ви повторити, будь ласка?",
+        "Мені, будь ласка, кілограм яблук і дві булочки.",
+        "Ви не допомогли б мені на хвилинку?",
+        "У вас був би час у п’ятницю? — Це було б чудово."
+      ],
+      "pitfalls": [
+        "Замовляють через 'Ich hätte gern' (Konjunktiv II); 'Ich habe gern' означає «мені подобається».",
+        "Інфінітив іде в кінець: Könnten Sie mir helfen?",
+        "Той, хто щось отримує, стоїть у давальному: mir.",
+        "'konnte' — це минулий час; ввічливе прохання потребує 'könnte' з умлаутом, а дієслово в питанні стоїть на першому місці."
+      ]
+    },
+    "dativ-verben-praepositionen": {
+      "title": "Давальний відмінок: дієслова на кшталт helfen, gefallen, gehören і прийменники aus, bei, mit, nach, seit, von, zu",
+      "rule": "Давальний відповідає на питання 'wem?' (кому?). Артиклі в давальному: dem (чоловічий і середній рід), der (жіночий рід), den + -n (множина): mit dem Bus, bei der Arbeit, von den Kindern; неозначені: einem, einer, einem; присвійні: meinem, meiner, meinen. Деякі дієслова завжди ставлять особу в давальний: helfen, danken, gefallen, gehören, antworten, gratulieren, schmecken, passen, fehlen, wehtun: Das Kleid gefällt mir. Der Rücken tut ihm weh. А після прийменників aus, bei, mit, nach, seit, von, zu (а також gegenüber, ab) завжди стоїть давальний: aus der Schweiz, seit einem Jahr, zu meiner Oma. Злиття: zum (zu dem), zur (zu der), beim (bei dem), vom (von dem).",
+      "examples": [
+        "Я їжджу на роботу велосипедом.",
+        "Дітям не смакує суп.",
+        "З днем народження! (Ми вітаємо тебе з днем народження.)",
+        "Я вже місяць живу у своєї тітки."
+      ],
+      "pitfalls": [
+        "'mit' завжди вимагає давального: der Bus → mit dem Bus. 'den' був би знахідним.",
+        "'gefallen' — дієслово з давальним: річ подобається особі (mir, dir, ihm).",
+        "'helfen' вимагає давального: ihrer Mutter, а не ihre Mutter.",
+        "Після 'aus' стоїть давальний, а Türkei має артикль: aus der Türkei."
       ]
     },
     "als-wenn-wann": {
@@ -537,6 +697,69 @@
         "Німецька запитує через 'wie': Wie heißt du? Wie ist dein Name? 'Was' звучить як дослівний переклад."
       ]
     },
+    "indirekte-fragen": {
+      "title": "Непрямі питання: Weißt du, wann der Zug fährt? Können Sie mir sagen, ob …?",
+      "rule": "Непряме питання приєднується до вставного речення на кшталт 'Weißt du, …', 'Können Sie mir sagen, …', 'Ich frage mich, …', 'Ich möchte wissen, …'. Це підрядне речення: відмінюване дієслово йде в кінець. Питання з питальним словом стає підрядним із тим самим питальним словом: Wann fährt der Zug? → Weißt du, wann der Zug fährt? Питання «так/ні» стає підрядним з 'ob': Kommt er? → Ich weiß nicht, ob er kommt. Непрямі питання звучать ввічливіше за прямі й типові біля віконець, по телефону і в електронних листах. Розділовий знак залежить від головного речення: знак питання після 'Weißt du, …?', крапка після 'Ich weiß nicht, ….'",
+      "examples": [
+        "Чи не могли б ви сказати, де вокзал?",
+        "Я не знаю, чи відчинена сьогодні крамниця.",
+        "Ти знаєш, скільки коштує квиток?",
+        "Я хотів би знати, чому доставка ще не прибула."
+      ],
+      "pitfalls": [
+        "Непряме питання — це підрядне речення: дієслово йде в кінець.",
+        "Непряме питання «так/ні» вводиться через 'ob'; 'wenn' означає «якщо» або «коли (щоразу)».",
+        "Питання (Hält der Bus hier?) потребує 'ob'; 'dass' передає твердження."
+      ]
+    },
+    "verben-mit-praepositionen-da-wo": {
+      "title": "Дієслова з прийменниками та слова з da(r)-/wo(r)-: warten auf, darauf, worauf",
+      "rule": "Багато дієслів мають сталий прийменник зі сталим відмінком, і їх учать разом із дієсловом: warten auf + знах., sich freuen auf (майбутнє) / über (теперішнє) + знах., denken an + знах., sich interessieren für + знах., sich ärgern über + знах., sich kümmern um + знах., sich bewerben um + знах., teilnehmen an + дав., sich beschäftigen mit + дав., träumen von + дав., Angst haben vor + дав., fragen nach + дав. Про річ питають через wo(r)-, а відповідають через da(r)-: Worauf wartest du? – Darauf. Wofür interessierst du dich? – Dafür. Літера r з’являється, коли прийменник починається з голосного (darauf, worüber, daran), інакше — ні (dafür, womit, davon). Для особи прийменник і займенник залишаються: Auf wen wartest du? – Auf ihn. Слово з da(r)- може також вказувати на ціле речення: Ich freue mich darauf, dass du kommst.",
+      "examples": [
+        "Я вже годину чекаю на автобус.",
+        "Про що ви говорили? — Про новий фільм.",
+        "Ти цікавишся політикою? — Так, я дуже нею цікавлюся.",
+        "Я дуже тішуся, що ми скоро побачимося."
+      ],
+      "pitfalls": [
+        "'warten' уживається з 'auf' + знахідний, а не з 'für' за зразком англійського for.",
+        "Про речі питають словом з wo(r)-: worauf, womit, wofür. 'Auf was' — лише розмовне.",
+        "Займенник, що позначає річ, зливається з прийменником у слово з da(r)-: daran, davon, damit.",
+        "'sich freuen auf' дивиться вперед (очікування), 'sich freuen über' — про те, що вже є."
+      ]
+    },
+    "zweiteilige-konnektoren": {
+      "title": "Парні сполучники: nicht nur … sondern auch, entweder … oder, weder … noch, zwar … aber, je … desto",
+      "rule": "Парні сполучники поєднують дві частини речення або два речення і роблять зв’язок між ними явним: nicht nur … sondern auch (додавання з наголосом), sowohl … als auch (і те, й те), entweder … oder (один із двох варіантів), weder … noch (ні те, ні те — уже заперечення, додаткове 'nicht' не потрібне), zwar … aber (поступка), je … desto/umso (дві речі зростають разом). Порядок слів: 'sondern auch', 'aber' і 'oder' його не змінюють; 'weder', 'zwar' і 'entweder' можуть займати перше місце, і тоді за ними йде дієслово; після 'je' іде підрядне речення з дієсловом у кінці, після 'desto' одразу стоїть вищий ступінь, а потім дієслово: Je mehr ich übe, desto besser spreche ich.",
+      "examples": [
+        "Вона розмовляє не лише німецькою, а й турецькою та арабською.",
+        "Ми поїдемо або потягом, або автобусом.",
+        "У мене немає ні часу, ні бажання.",
+        "Що довше я живу в Німеччині, то краще розумію людей."
+      ],
+      "pitfalls": [
+        "'weder … noch' уже містить заперечення; додаткове 'nicht' — помилка.",
+        "Після 'desto' спочатку стоїть вищий ступінь, потім дієслово, потім підмет.",
+        "'zwar' належить лише до першої частини; друга частина починається з 'aber'.",
+        "'nicht nur' продовжується через 'sondern auch', а не 'aber auch'."
+      ]
+    },
+    "passiv-praesens": {
+      "title": "Пасив у теперішньому часі та Präteritum: Das Brot wird gebacken, das Haus wurde gebaut",
+      "rule": "Пасив уживають, коли дія важливіша за того, хто її виконує: In der Bäckerei wird das Brot morgens gebacken. Форма: werden (відмінюване) + дієприкметник минулого часу в кінці речення. Теперішній час: ich werde gefragt, du wirst gefragt, er/sie/es wird gefragt, wir werden gefragt, ihr werdet gefragt, sie werden gefragt. Präteritum: wurde, wurdest, wurde, wurden, wurdet, wurden: Das Haus wurde 1990 gebaut. Додаток у знахідному з активного речення стає підметом пасивного: Man repariert das Auto → Das Auto wird repariert. Виконавця називають — якщо взагалі називають — через 'von' + давальний: Das Auto wird von einem Mechaniker repariert. Без додатка речення відкриває 'es' або обставина: Hier wird nicht geraucht.",
+      "examples": [
+        "Рахунок оплачують наприкінці місяця.",
+        "Банківський рахунок було відкрито вчора.",
+        "У Німеччині виробляють багато автомобілів.",
+        "Посилки доставляє пошта."
+      ],
+      "pitfalls": [
+        "Процес (хтось його пече) вимагає пасиву з 'werden'; 'ist gebacken' описує лише готовий стан.",
+        "'von' вимагає давального (von dem / vom Mechaniker), а дієприкметник іде в кінець.",
+        "'werden' узгоджується з підметом: die Häuser (множина) → wurden.",
+        "Підмет — 'keine Fotos' (множина): werden … gemacht."
+      ]
+    },
     "passiv-werden-sein": {
       "title": "Пасив із werden чи sein?",
       "rule": "Пасив дії 'werden' + дієприкметник минулого часу описує дію, яка відбувається або відбулася: Die Tür wird geschlossen (хтось її зачиняє). Пасив стану 'sein' + дієприкметник минулого часу описує результат, стан після дії: Die Tür ist geschlossen (вона зачинена). Perfekt пасиву дії — 'ist geschlossen worden'.",
@@ -565,6 +788,147 @@
       "pitfalls": [
         "Відправлення сталося до прибуття: Plusquamperfekt із war.",
         "Якщо в головному реченні Präteritum, підрядне з 'nachdem' стоїть у Plusquamperfekt."
+      ]
+    },
+    "konjunktiv-ii-vergangenheit": {
+      "title": "Konjunktiv II минулого часу: hätte … gemacht, wäre … gegangen",
+      "rule": "Для нереальних ситуацій у минулому — того, що могло б бути, але не сталося, — Konjunktiv II утворюється з hätte або wäre + дієприкметник минулого часу: Ich hätte dich angerufen. Wir wären gern gekommen. Вибір між hätte і wäre такий самий, як у Perfekt (habe gemacht → hätte gemacht; bin gegangen → wäre gegangen). Типові вживання: нереальні умови (Wenn ich das gewusst hätte, wäre ich früher gegangen), бажання (Hätte ich doch mehr gelernt!), докори й запізнілі висновки (Du hättest mich fragen können). З модальним дієсловом у кінці стоїть подвійний інфінітив, а в підрядному реченні 'hätte' переходить перед нього: …, weil ich hätte arbeiten müssen. Форми з 'würde' для минулого не існує.",
+      "examples": [
+        "Якби я це знав, я б не прийшов.",
+        "Якби ж я раніше почав курс німецької!",
+        "Ти міг би мені зателефонувати.",
+        "Без твоєї допомоги ми б ніколи не знайшли цю квартиру."
+      ],
+      "pitfalls": [
+        "Після винесеного наперед підрядного речення головне починається з дієслова: …, wäre ich gekommen.",
+        "'fahren' утворює Perfekt із sein (ich bin gefahren), тому wäre gefahren.",
+        "Konjunktiv II минулого часу будується з hätte/wäre + дієприкметник минулого часу, а не з 'würde'.",
+        "При подвійному інфінітиві в підрядному реченні 'hätte' стоїть перед обома інфінітивами."
+      ]
+    },
+    "irreale-vergleiche-als-ob": {
+      "title": "Нереальні порівняння: als ob, als wenn, als + Konjunktiv II",
+      "rule": "Нереальне порівняння описує, яким щось здається, хоча насправді це не так: Er tut so, als ob er alles wüsste. Після 'als ob' і 'als wenn' іде підрядне речення з дієсловом у кінці в Konjunktiv II (wüsste, hätte, wäre, würde … machen; минуле: hätte … gemacht, wäre … gewesen). Коротший і більш книжний варіант — саме 'als': тоді дієслово йде одразу за ним: Er tut so, als wüsste er alles. Типові зачини: so tun, als ob; es scheint, als ob; es sieht aus, als ob; sich fühlen, als ob; so klingen, als ob. Час Konjunktiv залежить від порівняння: одночасність → теперішня форма (als ob er krank wäre), передування → минула форма (als ob er nie krank gewesen wäre).",
+      "examples": [
+        "Вона поводиться так, ніби мене не знає.",
+        "Виглядає так, ніби дощ ішов усю ніч.",
+        "Він говорить так, ніби він тут начальник.",
+        "Я почуваюся так, ніби не спав тиждень."
+      ],
+      "pitfalls": [
+        "Після 'als ob' дієслово йде в кінець і стоїть у Konjunktiv II: wäre.",
+        "З 'als' без 'ob' відмінюване дієслово стоїть одразу після 'als'.",
+        "Нереальне порівняння — це 'als ob' (або 'als wenn', 'als'), ніколи не 'wie ob'."
+      ]
+    },
+    "passiv-mit-modalverben": {
+      "title": "Пасив із модальними дієсловами: muss repariert werden, konnte nicht geöffnet werden",
+      "rule": "З модальним дієсловом пасив виглядає так: модальне дієслово (відмінюване) + дієприкметник минулого часу + werden (інфінітив) у кінці речення: Das Auto muss repariert werden. Die Rechnung kann online bezahlt werden. У Präteritum змінюється лише модальне дієслово: Die Tür konnte nicht geöffnet werden. У Perfekt з’являється подвійний інфінітив із haben: Die Rechnung hat bezahlt werden müssen — на практиці замість нього майже завжди вживають Präteritum. У підрядному реченні модальне дієслово йде в самий кінець: …, weil das Auto repariert werden muss. Замість пасиву з модальним дієсловом можна також сказати: man muss … reparieren, … ist zu reparieren, … lässt sich reparieren.",
+      "examples": [
+        "Показники лічильника треба зняти до п’ятниці.",
+        "Учора посилку не вдалося доставити.",
+        "Скарги можна подавати також електронною поштою.",
+        "Я телефоную, бо рахунок потрібно виправити."
+      ],
+      "pitfalls": [
+        "У кінці спочатку стоїть дієприкметник минулого часу, потім 'werden': repariert werden.",
+        "Ідеться про дію (хтось має його заповнити): пасив дії з 'werden'. 'muss ausgefüllt sein' означало б, що він має бути в заповненому стані.",
+        "У підрядному реченні відмінюване модальне дієслово йде в самий кінець.",
+        "Після модального дієслова стоїть інфінітив 'werden', а не дієприкметник."
+      ]
+    },
+    "partizip-i-ii-als-adjektiv": {
+      "title": "Partizip I і II як прикметники: das weinende Kind, das reparierte Auto",
+      "rule": "Обидва дієприкметники можуть стояти перед іменником і тоді відмінюються як прикметники. Partizip I (інфінітив + d: weinend, steigend, kommend) описує те, що відбувається зараз, активне й одночасне: das weinende Kind (дитина, яка плаче), die steigenden Mieten (орендна плата, яка зростає). Partizip II (gemacht, repariert, gebaut) описує завершене, зазвичай пасивне: das reparierte Auto (машина, яку відремонтували), die renovierte Wohnung. Закінчення — за правилами для прикметників: mit dem lachenden Mann, ein frisch gestrichenes Zimmer. Лише дієслова з Perfekt на sein утворюють активний Partizip II: der angekommene Zug (потяг, який прибув). Partizip I із 'zu' виражає необхідність або можливість: die zu zahlende Miete (орендна плата, яку треба сплатити).",
+      "examples": [
+        "Орендна плата, яка зростає, — найбільша проблема міста.",
+        "Ми оглянули щойно відремонтовану квартиру з балконом.",
+        "Ріелтор показав нам новозбудований будинок.",
+        "Будь ласка, перекажіть заставу, яку належить сплатити до понеділка."
+      ],
+      "pitfalls": [
+        "Те, що відбувається саме зараз, потребує Partizip I: weinen + d + закінчення = weinende.",
+        "Машину відремонтували (пасивне, завершене): Partizip II. 'reparierend' означало б, що вона сама щось ремонтує.",
+        "Лише дієслова з Perfekt на sein утворюють активний Partizip II (der Gast ist gekommen); 'der gegessene Gast' був би гостем, якого хтось з’їв.",
+        "Дієприкметники відмінюються як прикметники: після 'dem' закінчення -en."
+      ]
+    },
+    "genitivpraepositionen": {
+      "title": "Прийменники з родовим відмінком: wegen, trotz, während, innerhalb, aufgrund, anstelle",
+      "rule": "Деякі прийменники в стандартній німецькій вимагають родового: wegen (причина), trotz (попри), während (тривалість), innerhalb/außerhalb (простір і час), aufgrund (причина, офіційно), anstelle/(an)statt (замість), infolge (внаслідок), mithilfe (за допомогою), bezüglich/hinsichtlich (щодо, офіційно). Форми родового: des Wetters, der Arbeit, des Jahres, der Kinder — іменники чоловічого й середнього роду в однині отримують -s або -es. Із займенниками 'wegen mir' — розмовне; на письмі це meinetwegen, deinetwegen, seinetwegen, unseretwegen. В усному мовленні після wegen і trotz часто стоїть давальний (wegen dem Regen); у листах, на іспитах і у звітах діє родовий. Якщо іменник у множині стоїть без артикля, на допомогу приходить 'von': wegen Bauarbeiten, innerhalb von zwei Wochen.",
+      "examples": [
+        "Через страйк сьогодні не ходять потяги.",
+        "Попри довге очікування зустріч була успішною.",
+        "Під час навчання вона працювала в кафе.",
+        "Заяву треба подати протягом місяця."
+      ],
+      "pitfalls": [
+        "На письмі та в офіційному вжитку 'wegen' вимагає родового: des schlechten Wetters. Давальний — розмовний.",
+        "Іменники чоловічого й середнього роду в родовому однини отримують -s/-es: des Regens.",
+        "Як прийменник 'während' вимагає родового: während der Prüfung. (Як сполучник 'während' відкриває підрядне речення: Während ich lerne, …)",
+        "Без артикля родовий множини не видно; тоді вживається 'innerhalb von' + давальний."
+      ]
+    },
+    "relativsaetze-praepositionen-wo-was": {
+      "title": "Відносні речення з прийменником, wo, was і wer: der Freund, mit dem …; alles, was …",
+      "rule": "Якщо дієслово відносного речення керує прийменником, прийменник стоїть перед відносним займенником і визначає відмінок: der Freund, mit dem ich wohne (wohnen mit + давальний); die Firma, für die sie arbeitet (arbeiten für + знахідний); das Thema, über das wir gesprochen haben. Для місць можна вживати 'wo' (місцезнаходження), 'wohin' (напрямок) або 'woher' (походження): die Stadt, in der ich wohne = die Stadt, wo ich wohne; з назвами міст — лише 'wo': Berlin, wo ich studiert habe. 'was' стоїть після alles, nichts, etwas, vieles, das, субстантивованого найвищого ступеня та цілого речення: alles, was ich weiß; das Beste, was passieren konnte; Er kam zu spät, was mich geärgert hat. З прийменником це стає словом з wo(r)-: etwas, worauf ich mich freue. 'wer …, der …' без опорного слова означає «кожен, хто»: Wer zu spät kommt, (der) bekommt keinen Platz.",
+      "examples": [
+        "Це колега, з яким я веду проєкт.",
+        "Місто, в якому я виріс, дуже змінилося.",
+        "У цій пропозиції є багато такого, що можна критикувати.",
+        "Хто не знає закону, той не може його й дотримуватися."
+      ],
+      "pitfalls": [
+        "Прийменник і відносний займенник стоять разом на початку відносного речення: mit dem.",
+        "Після 'alles', 'nichts', 'etwas' і 'das' відносний займенник — 'was'.",
+        "Прийменник визначає відмінок: 'für' + знахідний → für die (Firma).",
+        "Якщо відносне речення стосується всього речення, уживай 'was'."
+      ]
+    },
+    "modalpartikeln": {
+      "title": "Модальні частки: doch, mal, ja, eben, halt, denn, eigentlich",
+      "rule": "Модальні частки — це короткі ненаголошені слова всередині речення, які надають йому певного ставлення; вони роблять усну німецьку природною, і їх майже неможливо перекласти. 'doch': прохання або нагадування про відоме (Komm doch mit! Das weißt du doch.); 'mal': робить прохання невимушеним (Kannst du mal kommen?); 'ja': щось відоме або несподіване (Das ist ja toll! Du weißt ja, wie er ist.); 'eben'/'halt': із цим доводиться змиритися (Dann müssen wir eben warten.); 'denn': робить питання приязним і зацікавленим (Wie heißt du denn? Was ist denn los?); 'eigentlich': невимушене питання або застереження (Wo wohnst du eigentlich? Eigentlich wollte ich früher gehen.); 'schon': заспокоює або поступається (Das wird schon klappen.); 'wohl': припущення (Er ist wohl krank.). Вони стоять після дієслова й займенників, зазвичай перед доповненням, і майже виключно в головних реченнях і питаннях, а не в офіційних листах.",
+      "examples": [
+        "Та сідайте ж! Бажаєте кави?",
+        "Що ж таке сталося? Ти геть блідий.",
+        "Можеш на секунду мені допомогти?",
+        "Потяг пішов. Ну що ж, поїдемо наступним."
+      ],
+      "pitfalls": [
+        "Модальні частки стоять усередині речення після дієслова, ніколи на першому місці (там 'doch' було б наголошеним запереченням).",
+        "'doch mal' — розмовний стиль між знайомими людьми; в офіційному листі це недоречно.",
+        "Приязні питання беруть 'denn'; 'eben' виражає, що з чимось доводиться змиритися."
+      ]
+    },
+    "konnektoren-indem-sodass-ohne-dass": {
+      "title": "Сполучники способу, наслідку й протилежного: indem, dadurch dass, sodass, ohne dass / ohne … zu, (an)statt dass / (an)statt … zu",
+      "rule": "Ці підрядні сполучники кажуть, як щось відбувається і що з цього випливає; відмінюване дієслово йде в кінець. Спосіб: 'indem' і 'dadurch, dass' (Sie lernt Vokabeln, indem sie Karten schreibt. — Як? Пишучи картки). Наслідок: 'sodass' або 'so …, dass' (Es regnete stark, sodass das Fest ausfiel. Es regnete so stark, dass das Fest ausfiel). Очікуване не відбувається: 'ohne dass' (Er ging, ohne dass jemand es merkte) — при спільному підметі коротше 'ohne … zu' + інфінітив (Er ging, ohne sich zu verabschieden). Заміна: '(an)statt dass' — при спільному підметі '(an)statt … zu' (Statt zu arbeiten, surft er im Internet). Так само 'um … zu' (мета) і 'als dass' після 'zu + прикметник' (Er ist zu müde, als dass er noch fahren könnte). 'ohne … zu' і 'statt … zu' працюють лише тоді, коли обидві частини мають спільний підмет.",
+      "examples": [
+        "Ти економиш електроенергію, повністю вимикаючи пристрої.",
+        "Зв’язок був такий поганий, що дзвінок обірвався.",
+        "Він установив оновлення, не прочитавши приміток.",
+        "Замість того щоб відповісти, фірма надсилає лише автоматичні листи."
+      ],
+      "pitfalls": [
+        "'indem' відкриває підрядне речення: дієслово йде в кінець.",
+        "Або 'ohne dass' + відмінюване дієслово, або 'ohne … zu' + інфінітив — не обидва разом.",
+        "Після 'so + прикметник' іде 'dass'; 'sodass' уживається, коли в головному реченні немає 'so': Es war kalt, sodass wir drinnen blieben.",
+        "В інфінітивному звороті 'zu + інфінітив' іде в самий кінець: statt uns zu helfen."
+      ]
+    },
+    "futur-vermutung": {
+      "title": "Припущення з Futur I і II: Er wird wohl krank sein. Sie wird den Zug verpasst haben.",
+      "rule": "'werden' + інфінітив (Futur I) виражає не лише майбутнє, а часто й припущення про теперішнє: Er wird wohl krank sein (= він, мабуть, хворий). Припущення про минуле вимагає Futur II: werden + дієприкметник минулого часу + haben/sein: Sie wird den Zug verpasst haben (= вона, мабуть, на нього спізнилася). Er wird schon angekommen sein. Частки wohl, sicher, bestimmt, wahrscheinlich, vermutlich сигналізують про припущення; 'wohl' — найтиповіша. Futur II може також означати завершене майбутнє: Bis Freitag werde ich den Bericht geschrieben haben. У підрядному реченні 'werden' іде в кінець: …, weil er den Zug verpasst haben wird. Для простих тверджень про майбутнє з обставиною часу зазвичай достатньо теперішнього: Morgen fahre ich nach Bonn.",
+      "examples": [
+        "Світло вимкнене — вони, мабуть, уже сплять.",
+        "Автобуса ще немає. Він, напевно, застряг у заторі.",
+        "Ти не отримав листа? Тоді він, мабуть, потрапив у спам.",
+        "До 2030 року місто завершить розширення."
+      ],
+      "pitfalls": [
+        "Припущення про минуле вимагає Futur II: werden + дієприкметник минулого часу + haben/sein.",
+        "Допоміжне дієслово таке ж, як у Perfekt: er ist angekommen → wird angekommen sein.",
+        "У підрядному реченні відмінюване 'werden' іде в самий кінець."
       ]
     },
     "nominalstil-verbalstil": {
@@ -648,6 +1012,38 @@
         "Якщо Konjunktiv I однозначний (sei), в офіційній непрямій мові він має пріоритет; 'wäre' можуть сприйняти як сумнів у висловлюванні."
       ]
     },
+    "textkonnektoren-kohaerenz": {
+      "title": "Текстові конектори: hingegen, allerdings, demnach, infolgedessen, zumal, wenngleich, gleichwohl, insofern",
+      "rule": "Довші тексти й доповіді тримають аргументацію вкупі за допомогою конекторів, що виходять за межі 'aber', 'deshalb' і 'obwohl'. Протиставлення: hingegen, dagegen, demgegenüber (Die Stadt wächst, das Umland hingegen verliert Einwohner); застереження: allerdings, jedoch, freilich, gleichwohl (… ist allerdings teuer); наслідок/висновок: demnach, demzufolge, infolgedessen, mithin, somit (Demnach ist der Vorschlag abzulehnen); додаткова, особливо вагома причина: zumal (…, zumal die Kosten steigen); поступка: wenngleich, obgleich, obschon (Wenngleich der Plan teuer ist, …); умова/аспект: insofern (als), sofern (Das stimmt insofern, als …). Порядок слів: hingegen, allerdings, jedoch, demnach, infolgedessen, somit — прислівники: вони займають перше місце (далі йде дієслово) або стоять усередині речення; zumal, wenngleich, obgleich, sofern, insofern als відкривають підрядні речення (дієслово в кінці). Уживай їх ощадливо: одного конектора на речення достатньо, а 'hingegen' чи 'jedoch' охоче стають після наголошеного елемента.",
+      "examples": [
+        "Промисловість вимагає нижчих цін на енергію; екологічні об’єднання, навпаки, закликають швидше відмовитися від вугілля.",
+        "Розбудова вітроенергетики має сенс, тим більше що за останні роки технологія значно подешевшала.",
+        "Дослідження має методологічні вади; відповідно, його результати лише частково надійні.",
+        "Хоча цей захід у короткостроковій перспективі спричиняє витрати, у довгостроковій він окуповується."
+      ],
+      "pitfalls": [
+        "'hingegen' — прислівник: він стоїть після наголошеного елемента або займає перше місце з дієсловом одразу за ним (Hingegen verliert das Umland …), а не місце сполучника перед підметом.",
+        "'zumal' відкриває підрядне речення: дієслово йде в кінець.",
+        "'insofern' указує не на причину, а на аспект чи умову ('insofern, als …'); для причини потрібне 'da' або 'weil'.",
+        "Два обмежувальні конектори поруч — надлишок; достатньо одного."
+      ]
+    },
+    "partizipialsaetze": {
+      "title": "Дієприкметникові звороти: In Berlin angekommen, …; Lächelnd betrat sie den Saal.",
+      "rule": "Дієприкметниковий зворот скорочує підрядне речення до дієприкметника з його залежними словами; він не має власного підмета — у нього спільний підмет із головним реченням — і виділяється комами. Partizip I виражає одночасність: Laut singend fuhr er durch die Stadt (= поки він голосно співав). Partizip II виражає передування або пасив: In Berlin angekommen, suchte sie zuerst ein Hotel (= після того як вона прибула); Von allen Seiten kritisiert, zog der Minister den Entwurf zurück (= після того як його розкритикували). Дієприкметник стоїть у кінці своєї групи. Сталі звороти: genau genommen, streng genommen, ehrlich gesagt, offen gestanden, grob geschätzt, verglichen mit, abgesehen von, vorausgesetzt (, dass). Стиль письмовий і піднесений: газети, література, звіти; у розмові замість нього вживають підрядне речення.",
+      "examples": [
+        "Підбадьорена успіхом свого першого роману, вона одразу взялася за другий.",
+        "Утупивши погляд у море, старий годинами сидів біля вікна.",
+        "Строго кажучи, це не рецензія, а есе.",
+        "Порівняно з попередником, продовження здається тихим і задумливим."
+      ],
+      "pitfalls": [
+        "Дієприкметниковий зворот потребує того самого підмета, що й головне речення; 'es' (regnete) до Берліна не прибувало.",
+        "Дієприкметник закриває свою групу: залежні слова стоять перед ним.",
+        "Одночасне й активне: Partizip I (singend). Partizip II означав би, що його самого заспівали.",
+        "Сталий зворот — 'ehrlich gesagt' (Partizip II); так само offen gestanden, genau genommen."
+      ]
+    },
     "paronyme-scheinbar-anscheinend": {
       "title": "Пароніми: scheinbar чи anscheinend, effektiv чи effizient?",
       "rule": "Пароніми — це схожі за звучанням слова з різним значенням, які плутають навіть носії мови. 'anscheinend' виражає припущення, яке, найімовірніше, відповідає дійсності (судячи з усього); 'scheinbar' каже, що щось лише так виглядає, а насправді є інакшим: 'Er ist anscheinend krank' (імовірно) на противагу 'Sein Interesse war nur scheinbar' (удаваний). Інші пари: effektiv (дієвий, результативний — такий, що досягає мети) та effizient (ефективний, економний — з малими затратами); formal (такий, що стосується форми) та formell (формальний, церемонний, за правилами); rational (розумний, розважливий) та rationell (ощадливий, доцільний); kindlich (як у дитини, нейтрально) та kindisch (дитинний, незрілий, зневажливо); sensibel (чутливий, вразливий) та sensitiv (фаховий термін: такий, що реагує на найменші зміни). У разі сумніву допомагає перевірка протилежним: 'scheinbar' допускає додаток 'aber in Wirklichkeit' («але насправді»), 'anscheinend' — ні.",
@@ -723,6 +1119,38 @@
         "'laut' і 'zufolge' означають те саме; достатньо одного. 'zufolge' стоїть після іменника й вимагає давального відмінка.",
         "'ungeachtet' вимагає родового відмінка: ungeachtet der Proteste.",
         "'gemäß' вимагає давального, хоч і звучить офіційно; родовий тут — поширена гіперкорекція."
+      ]
+    },
+    "es-als-platzhalter-korrelat": {
+      "title": "'es' як заповнювач першого місця та корелят: Es wurde viel gelacht. Ich halte es für geboten, dass …",
+      "rule": "Окрім займенника (Das Buch? Ich habe es gelesen) і сталого 'es' безособових дієслів (es regnet, es gibt, es geht um, es handelt sich um, mir ist es kalt), 'es' має ще дві функції, які відрізняють точну прозу. По-перше, як заповнювач першого місця: воно займає передню позицію, коли підмет треба відсунути назад заради ваги — Es wurde viel gelacht. Es kamen mehr Gäste als erwartet. Es bleibt die Frage, ob … Щойно на перше місце стає інший елемент, це 'es' безслідно зникає: Gestern wurde viel gelacht. Воно не узгоджується з дієсловом: Es kamen (множина!) mehr Gäste. По-друге, як корелят, що анонсує підрядне речення або інфінітивний зворот: Ich halte es für geboten, dass …; Sie hat es abgelehnt, den Vertrag zu unterschreiben; Es freut mich, dass … З дієсловами на кшталт bedauern, ablehnen, begrüßen, vermeiden, es für richtig halten корелят усередині речення обов’язковий (Ich bedaure es, dass …); з іншими (wissen, glauben, sagen) його немає: Ich weiß, dass … (не: Ich weiß es, dass …). Корелят 'es' на першому місці зникає, коли підрядне речення саме стоїть першим: Dass er absagt, überrascht mich — не: Dass er absagt, es überrascht mich.",
+      "examples": [
+        "Переговори тривали до ночі, але згоди так і не досягли.",
+        "Заперечень надійшло значно більше, ніж очікувало правління.",
+        "Рада вважає за необхідне відкласти рішення.",
+        "Те, що дослідження так і не опублікували, багато що пояснює."
+      ],
+      "pitfalls": [
+        "Заповнювач 'es' існує лише на першому місці; коли там стоїть щось інше, воно зникає.",
+        "Заповнювач 'es' — не підмет; дієслово узгоджується з 'mehr Gäste' (множина).",
+        "Із wissen, glauben, sagen, hoffen перед підрядним із dass корелят не ставиться.",
+        "Коли підрядне речення стоїть першим, воно саме заповнює перше місце; додаткове 'es' було б другим елементом перед дієсловом."
+      ]
+    },
+    "nachfeld-ausklammerung": {
+      "title": "Nachfeld і винесення за рамку: …, als wir dachten. Er hat lange gewartet – auf eine Antwort, die nie kam.",
+      "rule": "Німецьке речення — це рамка: відмінюване дієслово й решта присудка (дієприкметник, інфінітив, префікс) охоплюють середнє поле — Er hat … gewartet. Усе, що стоїть після правої частини рамки, перебуває в Nachfeld. Підрядні речення та інфінітивні звороти належать туди за своєю природою (Er hat versprochen, dass er kommt), як і порівняння з 'als' і 'wie' (Es ist später geworden, als wir dachten) та додані навздогін думки (Sie hat alles verkauft, sogar die Bücher). Винесення за рамку (Ausklammerung) означає свідомо поставити після рамки елемент, який міг би стояти і всередині: Er hat lange gewartet – auf eine Antwort, die nie kam. Воно розвантажує довгі або важкі елементи (особливо прийменникові групи з відносним реченням), наголошує на винесеному й тримає рамку короткою, щоб слухач не доходив до дієслова лише після двадцяти слів. Не виносять: простий додаток у знахідному, займенники й короткі прислівники — 'Er hat gelesen das Buch' неправильно навіть у розмові. В адміністративній і науковій прозі замкнена рамка — норма; у промовах, журналістиці та літературі свідоме винесення за рамку — стилістичний прийом: свідомий, а не звичний.",
+      "examples": [
+        "Виставка стала більшою, ніж будь-коли планували її куратори.",
+        "Режисер розповідав дві години — про дитинство, якого ні за що не вгадаєш.",
+        "Вона продала все, навіть бабусине піаніно.",
+        "Я прочитав рецензію — з дедалі більшим неспокоєм."
+      ],
+      "pitfalls": [
+        "Простий додаток у знахідному залишається всередині рамки; за рамку виносять важкі прийменникові групи, порівняння та додані навздогін думки.",
+        "Порівняння з 'als' належить до Nachfeld, після дієприкметника.",
+        "Займенникові прислівники (darauf, damit) і займенники за рамку не виносять.",
+        "В офіційному листі замкнена рамка — норма; тире з доданою навздогін думкою — прийом для промов і сторінок культури."
       ]
     }
   },
@@ -2720,6 +3148,15 @@
         "запитання про сніданок"
       ]
     },
+    "a1-postcard-holiday": {
+      "title": "Листівка з відпустки",
+      "prompt": "Напиши листівку своєму другові Tom з відпустки на морі: розкажи, де ти, яка погода і що ти робиш цілий день.",
+      "points": [
+        "де ти перебуваєш",
+        "погода",
+        "що ти робиш цілий день"
+      ]
+    },
     "a2-birthday": {
       "title": "Запрошення на день народження",
       "prompt": "Напиши короткий електронний лист другові чи подрузі: запроси на свою вечірку з нагоди дня народження в суботу. Напиши, коли вона починається, де відбудеться і що принести. 30-40 слів.",
@@ -2745,6 +3182,15 @@
         "опис квартири",
         "про те, що тобі подобається",
         "запрошення в гості"
+      ]
+    },
+    "a2-heating-broken": {
+      "title": "Зламалося опалення",
+      "prompt": "Напиши коротке офіційне повідомлення своєму орендодавцю, Herr Krause: опалення у твоїй квартирі не працює з понеділка. Напиши, у чому проблема і відколи вона виникла, попроси його швидко когось прислати і вкажи, коли ти вдома.",
+      "points": [
+        "проблема і відколи вона виникла",
+        "прохання прислати когось",
+        "коли ти вдома"
       ]
     },
     "b1-missed-party": {
@@ -2774,6 +3220,15 @@
         "приклад"
       ]
     },
+    "b1-complaint-online-order": {
+      "title": "Скарга на онлайн-замовлення",
+      "prompt": "Твоє онлайн-замовлення — лампа (номер замовлення 48213) — прийшло через три тижні, і скло розбите. Напиши офіційний електронний лист до магазину: опиши проблему, напиши, чого ти хочеш (заміну чи повернення грошей), і запитай, як відправити лампу назад.",
+      "points": [
+        "опис проблеми",
+        "чого ти хочеш",
+        "запитання, як відправити її назад"
+      ]
+    },
     "b2-course-complaint": {
       "title": "Скарга до мовної школи",
       "prompt": "Напиши офіційну скаргу (близько 150 слів) до мовної школи: на твоєму курсі три заняття не було викладача. Опиши, що сталося, напиши, чого ти очікуєш від школи, і вкажи термін для відповіді.",
@@ -2790,6 +3245,16 @@
         "про те, чому тобі це цікаво",
         "свій досвід",
         "про те, коли ти можеш почати"
+      ]
+    },
+    "b2-forum-smartphones-school": {
+      "title": "Допис на форумі: смартфони в школі",
+      "prompt": "На онлайн-форумі батьки обговорюють, чи варто заборонити смартфони в школах. Напиши допис (близько 170 слів): вислови свою думку, наведи аргументи за і проти, опиши власний досвід і внеси пропозицію.",
+      "points": [
+        "твоя думка",
+        "аргументи за і проти",
+        "власний досвід",
+        "пропозиція"
       ]
     },
     "c1-letter-to-editor": {
@@ -2812,6 +3277,16 @@
         "прохання про зустріч"
       ]
     },
+    "c1-graph-commuting": {
+      "title": "Звіт про поїздки на роботу",
+      "prompt": "Твоя керівниця відділу, Frau Dr. Neumann, попросила тебе підсумувати результати опитування для міського звіту про мобільність. Дані: у 2015 році 61 % людей добиралися на роботу автомобілем, 22 % користувалися громадським транспортом і 9 % їздили велосипедом; у 2025 році ці частки становили 48 %, 29 % і 17 %; середня відстань до роботи зросла з 16 до 19 км. Напиши їй офіційний електронний лист (близько 230 слів): опиши основні тенденції, порівняй показники, назви можливі причини й порекомендуй місту один захід.",
+      "points": [
+        "опис основних тенденцій",
+        "порівняння показників",
+        "можливі причини",
+        "рекомендація одного заходу"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "Претензія до банку щодо неправомірних комісій за ведення рахунку",
       "prompt": "Твій банк два роки тому підвищив комісії за ведення рахунку без твоєї явної згоди, а тепер відмовляється їх повернути, посилаючись на твою «мовчазну згоду». Напиши офіційну претензію до банку (близько 260 слів): виклади факти з датами й сумами, назви правову підставу та судове рішення, на які спираєшся, вимагай повернення коштів із зазначенням строку і повідом, яких кроків ти вживеш, якщо банк не виконає вимогу.",
@@ -2830,6 +3305,659 @@
         "докази або досвід, на які ти спираєшся",
         "найвагоміше заперечення та відповідь на нього",
         "рекомендація, пов'язана з умовами"
+      ]
+    },
+    "c2-open-letter-museum": {
+      "title": "Відкритий лист директорці музею про нову виставку",
+      "prompt": "Міський музей відкрив нову постійну експозицію з історії міста, яка оминає його індустріальне минуле й замість експонатів покладається на екрани. Напиши відкритий лист директорці, Frau Dr. Berger (близько 280 слів): оціни концепцію виставки, обґрунтовано розкритикуй два кураторські рішення, визнай те, що вдалося, і запропонуй конкретні зміни.",
+      "points": [
+        "оцінка концепції",
+        "два розкритиковані рішення з обґрунтуванням",
+        "визнання того, що вдалося",
+        "пропозиція конкретних змін"
+      ]
+    }
+  },
+  "path": {
+    "a1-01": {
+      "title": "Привіт! Мене звати …",
+      "goal": "Вітатися і прощатися, представлятися, казати, звідки ти і якими мовами розмовляєш, і питати про те саме інших.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Як представитися німецькою — офіційно і неофіційно?",
+        "зустріч із новим колегою в перший робочий день і знайомство з ним"
+      ]
+    },
+    "a1-02": {
+      "title": "Моя сім’я і я",
+      "goal": "Розповідати про свою сім’ю і друзів, казати, скільки людям років і чим вони займаються, і розпитувати про чиюсь сім’ю.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Як розповісти про свою сім’ю: імена, вік і професії?",
+        "показ другові фотографій своєї сім’ї"
+      ]
+    },
+    "a1-03": {
+      "title": "Смачного!",
+      "goal": "Замовляти їжу й напої в кафе чи ресторані, казати, що тобі подобається, питати, скільки щось коштує, і розраховуватися.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-04": {
+      "title": "Покупки",
+      "goal": "Купувати продукти й одяг, питати про розміри, кольори й кількість, розуміти ціни й казати, що тобі не потрібно.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-05": {
+      "title": "Мій день",
+      "goal": "Називати час, описувати свій розпорядок дня і свій тиждень, домовлятися про зустрічі й переносити їх.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Як описати свій розпорядок дня — від підйому до сну?"
+      ]
+    },
+    "a1-06": {
+      "title": "Удома",
+      "goal": "Описувати свою квартиру й меблі, казати, де що стоїть і що тобі подобається у твоєму житлі, і розуміти оголошення про оренду квартири.",
+      "steps": [
+        null,
+        null,
+        null,
+        "запитання до орендодавця про квартиру, яку ти хочеш винайняти",
+        "Як описати свою квартиру і те, де стоять меблі?"
+      ]
+    },
+    "a1-07": {
+      "title": "У місті",
+      "goal": "Питати дорогу й пояснювати її, користуватися автобусами, потягами й таксі та називати місця в місті.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-08": {
+      "title": "Вільний час і зустрічі",
+      "goal": "Розповідати про свої хобі, казати, що ти вмієш і хочеш робити, запрошувати когось і домовлятися про день і час.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Як запросити друга і запропонувати час і місце?"
+      ]
+    },
+    "a1-09": {
+      "title": "Здоров’я",
+      "goal": "Називати частини тіла, казати, що болить, записуватися до лікаря і розуміти прості поради.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-10": {
+      "title": "Подорожі та погода",
+      "goal": "Купувати квиток, заселятися в готель, говорити про погоду й розповідати в Perfekt, як минула поїздка.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-01": {
+      "title": "Як минули вихідні?",
+      "goal": "Розповідати, як минули вихідні чи відпустка, казати, як усе було, і розпитувати інших про їхнє минуле.",
+      "steps": [
+        null,
+        null,
+        null,
+        "Як розповісти про минулі вихідні? Який минулий час уживати в розмові?",
+        "розповідь колезі в понеділок уранці про свої вихідні"
+      ]
+    },
+    "a2-02": {
+      "title": "Свята і запрошення",
+      "goal": "Запрошувати людей, приймати чи відхиляти запрошення, говорити про подарунки та свята і писати запрошення.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "планування вечірки-сюрпризу разом із другом"
+      ]
+    },
+    "a2-03": {
+      "title": "Жити разом",
+      "goal": "Описувати своє житло й домашнє господарство, домовлятися про правила із сусідами по квартирі й по будинку і звертатися з проханням до двірника чи орендодавця.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-04": {
+      "title": "Покупки і скарги",
+      "goal": "Порівнювати товари й ціни, ввічливо просити про допомогу, обмінювати чи повертати річ і скаржитися на страву.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-05": {
+      "title": "Дбати про здоров’я",
+      "goal": "Описувати симптоми, розуміти вказівки лікаря, говорити про здоровий спосіб життя і відпрошуватися, коли ти хворієш.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-06": {
+      "title": "Установи й послуги",
+      "goal": "Реєструвати місце проживання в міській управі, надсилати посилку, заявляти про загублену річ, заповнювати формуляр і писати коротке офіційне повідомлення.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-07": {
+      "title": "Робота і професії",
+      "goal": "Говорити про свою роботу й робочий час, казати, відколи і як довго ти щось робиш, і подавати заявку на просту роботу.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Як розповісти про свою роботу і пояснити, чому вона мені подобається?"
+      ]
+    },
+    "a2-08": {
+      "title": "У дорозі й у відпустці",
+      "goal": "Планувати поїздку, брати напрокат велосипед чи купувати квиток, описувати відпустку й казати, що ти робитимеш наступного літа.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "запитання в туристичному інформаційному центрі, що подивитися в місті"
+      ]
+    },
+    "a2-09": {
+      "title": "Навчання і медіа",
+      "goal": "Говорити про те, як ти вчишся і якими медіа користуєшся, брати книжку в бібліотеці й казати, що ти знаєш, що вмієш і що тобі знайоме.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Що сказати, коли я чогось не розумію або мені треба, щоб слово повторили?"
+      ]
+    },
+    "a2-10": {
+      "title": "Люди, почуття і зовнішність",
+      "goal": "Описувати людей, їхній характер і самопочуття, пояснювати, чому тобі хтось подобається, і говорити про свою зовнішність у перукарні.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "розповідь другові про нове знайомство і про те, яка ця людина"
+      ]
+    },
+    "b1-01": {
+      "title": "Історії життя",
+      "goal": "Розповідати свою історію життя та історії інших людей у минулих часах, говорити про стосунки й сімейне життя і письмово вибачатися.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "зустріч із давнім шкільним другом після багатьох років розлуки"
+      ]
+    },
+    "b1-02": {
+      "title": "Робота і кар’єра",
+      "goal": "Описувати свою роботу й цілі, повідомляти про хворобу на роботі, обговорювати роботу з дому й називати причини та мету.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-03": {
+      "title": "Житло і сусіди",
+      "goal": "Докладно описувати своє житло й район, розуміти основні пункти договору оренди і пов’язувати речення відносними реченнями.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "розмова із сусідом про шум пізно ввечері",
+        "Які найважливіші слова в німецькому договорі оренди і що вони означають?"
+      ]
+    },
+    "b1-04": {
+      "title": "Здоров’я і харчування",
+      "goal": "Говорити про здорове харчування, спорт і стрес, точно описувати симптоми й висловлювати протиставлення та поступку.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "розмова з лікарем про біль у спині від сидячої роботи"
+      ]
+    },
+    "b1-05": {
+      "title": "Споживання і договори",
+      "goal": "Порівнювати пропозиції, розуміти рекламу, розривати договір і скаржитися на замовлення в офіційному листі.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-06": {
+      "title": "Гроші і банк",
+      "goal": "Відкривати рахунок, говорити про заощадження й витрати та описувати за допомогою пасиву, що робиться.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Які дієслова потрібні, щоб говорити про гроші: платити, переказувати, знімати, заощаджувати, позичати?"
+      ]
+    },
+    "b1-07": {
+      "title": "Мобільність і подорожі",
+      "goal": "Давати раду з ремонтом автомобіля і пропущеною пересадкою, скаржитися в готелі й розповідати, що сталося до, під час і після поїздки.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-08": {
+      "title": "Медіа і цифровий світ",
+      "goal": "Говорити про новини, соцмережі й час перед екраном, казати, на що ти чекаєш і що тебе дратує, і висловлювати свою думку на форумі.",
+      "steps": [
+        null,
+        null,
+        null,
+        "дискусія з другом про те, чи варто дітям мати смартфони",
+        "Як висловити свою думку і ввічливо погодитися чи не погодитися німецькою?"
+      ]
+    },
+    "b1-09": {
+      "title": "Освіта і навчання",
+      "goal": "Говорити про школу, професійне навчання і свої навчальні цілі, писати своєму викладачеві й висловлювати бажання та нереальні умови.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Яка різниця між lernen, studieren і üben?"
+      ]
+    },
+    "b1-10": {
+      "title": "Довкілля, свята і суспільство",
+      "goal": "Обговорювати довкілля і захист клімату в повсякденні, описувати свята й традиції та пов’язувати свої аргументи парними сполучниками.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "пояснення німецькому другові свята зі своєї країни",
+        "Як сказати, що я роблю для довкілля у своєму повсякденному житті?"
+      ]
+    },
+    "b2-01": {
+      "title": "Світ праці та працевлаштування",
+      "goal": "Представляти себе на співбесіді, писати заяву про прийняття на роботу і говорити про умови праці та про те, що могло б піти інакше.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-02": {
+      "title": "Життя в місті",
+      "goal": "Оглядати квартиру, здавати її і обговорювати заставу, порівнювати місто й село та описувати людей і речі за допомогою дієприкметників.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-03": {
+      "title": "Споживачі й договори",
+      "goal": "Скаржитися на рахунок, доставку чи послугу по телефону й письмово та казати за допомогою пасиву, що треба, можна чи слід зробити.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-04": {
+      "title": "Технології та цифровізація",
+      "goal": "Повідомляти про несправність, обговорювати переваги й недоліки нових технологій та відстоювати свою позицію в дописі на форумі.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-05": {
+      "title": "Міграція і життя разом",
+      "goal": "Давати раду на прийомі у відомстві у справах іноземців, говорити про міграцію, інтеграцію та ідентичність і називати причини за допомогою прийменників, що вимагають родового відмінка.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Як розповісти про свій досвід переїзду в нову країну?"
+      ]
+    },
+    "b2-06": {
+      "title": "Суспільство і політика",
+      "goal": "Стежити за дискусією на суспільну чи політичну тему, наводити аргументи за і проти та точно посилатися на сказане за допомогою відносних речень.",
+      "steps": [
+        null,
+        null,
+        null,
+        "дискусія із сусідом про нову велодоріжку на твоїй вулиці",
+        "Як побудувати аргументацію німецькою: вступ, аргументи за, аргументи проти, висновок?"
+      ]
+    },
+    "b2-07": {
+      "title": "Клімат і довкілля",
+      "goal": "Обговорювати зміну клімату і те, що можуть зробити окремі люди й уряди, робити припущення про майбутнє та розуміти звіт із цифрами.",
+      "steps": [
+        null,
+        null,
+        null,
+        "розмова з колегою про те, як ваша компанія могла б менше марнувати",
+        "Як описати діаграму чи статистику німецькою?"
+      ]
+    },
+    "b2-08": {
+      "title": "Психологія та особистість",
+      "goal": "Описувати характер, почуття й поведінку, порівнювати, яким щось здається і яким є насправді, та пом’якшувати чи загострювати сказане модальними частками.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "порада другові щодо стресу на роботі"
+      ]
+    },
+    "b2-09": {
+      "title": "Культура і наука",
+      "goal": "Говорити про книжки, фільми й виставки, простими словами пояснювати наукове відкриття і передавати, що сказали інші.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "рекомендація другові фільму чи книжки з поясненням, чому саме"
+      ]
+    },
+    "b2-10": {
+      "title": "Право і глобалізація",
+      "goal": "Говорити про правила, злочинність і правосуддя, обговорювати глобалізацію й торгівлю та чітко підсумовувати текст.",
+      "steps": [
+        null,
+        null,
+        null,
+        "заява про крадіжку велосипеда у відділку поліції",
+        "Як написати чітке резюме тексту німецькою? Які фрази для цього потрібні?"
+      ]
+    },
+    "c1-01": {
+      "title": "Робота і переговори",
+      "goal": "Вести переговори про зарплату, письмово відстоювати позицію перед керівництвом і переходити між номінальним і дієслівним стилем.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-02": {
+      "title": "Житло і право",
+      "goal": "Отримувати консультацію щодо підвищення орендної плати, розуміти юридичну й адміністративну мову та скорочувати відносні речення до дієприкметникових означень.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Як читати офіційний лист від німецької установи? Що означають типові формулювання?"
+      ]
+    },
+    "c1-03": {
+      "title": "Політика і медіа",
+      "goal": "Стежити за політичними дебатами й аналітикою новин, передавати твердження і припущення за допомогою суб’єктивних модальних дієслів та писати лист до редакції.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-04": {
+      "title": "Дослідження і наука",
+      "goal": "Розуміти наукові тексти й доповіді, представляти результати й цифри та користуватися замінами пасиву, властивими науковій німецькій.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "презентація результатів опитування своїй команді з відповідями на запитання"
+      ]
+    },
+    "c1-05": {
+      "title": "Довкілля та енергетика",
+      "goal": "Обговорювати енергетичну політику й довкілля з нюансами, структурувати довші аргументації текстовими конекторами та зважувати позиції.",
+      "steps": [
+        null,
+        null,
+        null,
+        "панельна дискусія про вітрові турбіни поблизу твого села",
+        "Як зважити дві позиції і дійти висновку німецькою?"
+      ]
+    },
+    "c1-06": {
+      "title": "Література і мистецтво",
+      "goal": "Говорити про літературу, кіно й мистецтво, описувати за допомогою дієприкметникових зворотів, як щось сталося, і передавати словами стиль та атмосферу твору.",
+      "steps": [
+        null,
+        null,
+        null,
+        "обговорення роману в книжковому клубі",
+        "Як описати стиль і атмосферу книжки чи фільму німецькою?"
+      ]
+    },
+    "c1-07": {
+      "title": "Суспільство, що змінюється",
+      "goal": "Обговорювати демографічні зміни і штучний інтелект, передавати, що кажуть експерти, і чітко пояснювати складні взаємозв’язки.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "радіоінтерв’ю про те, як твоя професія зміниться зі штучним інтелектом"
+      ]
+    },
+    "c1-08": {
+      "title": "Формувати майбутнє",
+      "goal": "Обговорювати майбутнє транспорту, міст і соціальної держави, офіційно представляти пропозицію і відповідати на заперечення.",
+      "steps": [
+        null,
+        null,
+        null,
+        "презентація плану центру міста без автомобілів скептично налаштованому власнику крамниці",
+        "Як внести офіційну пропозицію на нараді і відповісти на заперечення?"
+      ]
+    },
+    "c2-01": {
+      "title": "Наука на публіці",
+      "goal": "Пояснювати журналісту власне дослідження, точно розрізняти близькі синоніми й невимушено давати раду з критичними запитаннями.",
+      "steps": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-02": {
+      "title": "Переговори і договори",
+      "goal": "Вести переговори про договір пункт за пунктом, природно вживати дієслівно-іменні сполуки ділової німецької та письмово заперечувати проти рішення.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-03": {
+      "title": "Установи й заперечення",
+      "goal": "Подавати заперечення до податкової інспекції, читати й писати адміністративною німецькою та вживати книжні прийменники офіційних текстів.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Як подати офіційне заперечення (Einspruch або Widerspruch) і які формулювання для цього потрібні?"
+      ]
+    },
+    "c2-04": {
+      "title": "Регістр і стиль",
+      "goal": "Обирати правильний регістр для будь-якої ситуації — від офіційного заперечення до чату — та розпізнавати й уникати стильового зламу.",
+      "steps": [
+        null,
+        null,
+        null,
+        "розмова з редактором про тон твоєї статті",
+        "Як висловити те саме прохання в трьох регістрах: другові, колезі та установі?"
+      ]
+    },
+    "c2-05": {
+      "title": "Розповідати і пам’ятати",
+      "goal": "Розповідати й аналізувати історії, вживати часи оповіді та невласне пряму мову й обговорювати історію та культуру пам’яті.",
+      "steps": [
+        null,
+        null,
+        null,
+        "розмова із сусідкою твоєї бабусі про те, як змінилося місто з 1960-х років"
+      ]
+    },
+    "c2-06": {
+      "title": "Аргументація і риторика",
+      "goal": "Будувати бездоганну аргументацію, точно вживати 'es' як заповнювач першого місця та корелят і писати експертний висновок.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Які риторичні прийоми працюють у німецьких промовах і як уживати їх, не звучачи пишномовно?"
+      ]
+    },
+    "c2-07": {
+      "title": "Мистецтво і критика",
+      "goal": "Рецензувати виставку, книжку чи виставу, вживати Nachfeld і винесення за рамку для наголосу та передавати найтонші відтінки оцінки.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "захист своєї різкої рецензії перед директором театру"
+      ]
+    },
+    "c2-08": {
+      "title": "Філософія і дипломатія",
+      "goal": "Обговорювати етичні питання й міжнародні відносини точно й тактовно та зважувати аргументи з кількох джерел.",
+      "steps": [
+        null,
+        null,
+        null,
+        "посередництво між двома колегами, які не згодні щодо проєкту",
+        "Як дипломатично не погодитися з кимось німецькою, не здаючись слабким?"
       ]
     }
   }

@@ -5,6 +5,7 @@
 // The overlays are for what the learner *reads*. The objects the harness hands to the model keep their English
 // fields: the model was trained on English labels, and its answers are parsed by them.
 import { LEVEL_INFO_DE, type Level, type LevelInfo } from '@/harness/levels';
+import type { PathUnit } from '@/harness/path';
 import type { SceneCard } from '@/harness/roleplay';
 import type { GrammarCard } from '@/harness/tutor';
 import type { WriteTask } from '@/harness/writing';
@@ -25,6 +26,8 @@ export interface ContentOverlay {
   levels?: Partial<Record<Level, { name?: string; canDo?: string; exampleGloss?: string }>>;
   /** Writing tasks by id: title, the task in the learner's language, the content points in order. */
   writing?: Record<string, { title?: string; prompt?: string; points?: (string | null)[] }>;
+  /** Learning-path units by key: title, goal, and per step the question or situation it carries (null for the rest). */
+  path?: Record<string, { title?: string; goal?: string; steps?: (string | null)[] }>;
 }
 
 const overlay = (lang: AppLang): ContentOverlay => OVERLAYS[lang] ?? {};
@@ -115,5 +118,36 @@ export function localizeWriting(task: WriteTask, lang: AppLang = getLanguage()):
     title: o.title ?? task.title,
     prompt: o.prompt ?? task.prompt,
     points: task.points.map((p, i) => ({ ...p, en: o.points?.[i] ?? p.en })),
+  };
+}
+
+/**
+ * The displayed fields of a learning-path unit in `lang`: title and goal, and the question or situation an
+ * `ask` or `ownScene` step carries. As with the cards, `title_en` and the `_en` fields of the steps carry the
+ * text in the app language; the German fields are what the German app shows.
+ */
+export function localizePathUnit(unit: PathUnit, lang: AppLang = getLanguage()): PathUnit {
+  if (lang === 'en') return unit;
+  if (lang === 'de') {
+    return {
+      ...unit,
+      title_en: unit.title_de,
+      goal_en: unit.goal_de,
+      steps: unit.steps.map((s) => (s.kind === 'ask' ? { ...s, question_en: s.question_de } : s.kind === 'ownScene' ? { ...s, situation_en: s.situation_de } : s)),
+    };
+  }
+  const o = overlay(lang).path?.[unit.key];
+  if (!o) return unit;
+  return {
+    ...unit,
+    title_en: o.title ?? unit.title_en,
+    goal_en: o.goal ?? unit.goal_en,
+    steps: unit.steps.map((s, i) => {
+      const text = o.steps?.[i];
+      if (!text) return s;
+      if (s.kind === 'ask') return { ...s, question_en: text };
+      if (s.kind === 'ownScene') return { ...s, situation_en: text };
+      return s;
+    }),
   };
 }

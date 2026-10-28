@@ -1,4 +1,4 @@
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { Check, ChevronRight, Sparkles, Trash2, Users } from 'lucide-react-native';
 import { useMemo, useState } from 'react';
 import { View } from 'react-native';
@@ -7,6 +7,7 @@ import { AuthorBox } from '@/features/AuthorBox';
 import { scenes } from '@/features/lesson';
 import { SceneIcon } from '@/features/sceneIcons';
 import { LEVELS, type Level } from '@/harness/levels';
+import { pathDoneKey } from '@/harness/path';
 import { sceneTitle, speakerLabel, type SceneCard } from '@/harness/roleplay';
 import { useI18n } from '@/i18n';
 import { localizeScene } from '@/i18n/content';
@@ -74,11 +75,15 @@ export default function Scenes() {
   const addScene = useAuthored((s) => s.addScene);
   const removeScene = useAuthored((s) => s.removeScene);
   const list = scenes.filter((s) => s.level === level);
+  // a situation handed over by the course (a unit's own-scene step) prefills the box; a scene written from there marks the step
+  const params = useLocalSearchParams<{ own?: string; path?: string }>();
+  const markDone = useProgress((s) => s.markDone);
 
   // the model writes a scene card for the learner's own situation; the harness checks it and keeps it on this phone
   const write = async (description: string) => {
     const draft = await tutor.designScene(description, { level, lang: explainIn });
     addScene({ ...draft.card, generated: true, created: Date.now(), notes: draft.notes, warnings: draft.warnings });
+    if (params.path) markDone(pathDoneKey(params.path));
     router.push(`/scene/${draft.card.key}`);
   };
 
@@ -105,6 +110,9 @@ export default function Scenes() {
       </View>
       <View style={{ marginBottom: space.xl }}>
         <AuthorBox
+          key={params.own ?? 'own'}
+          initial={params.own ?? ''}
+          autoFocus={Boolean(params.own)}
           title={t('scenes.ownTitle')}
           hint={t('scenes.ownHint', { level })}
           placeholder={t('scenes.ownPlaceholder')}

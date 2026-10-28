@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { lessonKey, WORD_TOPICS, wordTopicLabel } from '@/features/lesson';
 import { notReadyNote, useModelPercent } from '@/features/modelStatus';
+import { pathDoneKey } from '@/harness/path';
 import type { CheckedVocabItem } from '@/harness/tutor';
 import { useI18n, type Vars } from '@/i18n';
 import { wordMeaning } from '@/i18n/content';
@@ -128,7 +129,7 @@ function WordCard({ item, source }: { item: CheckedVocabItem; source: string }) 
 }
 
 export default function Words() {
-  const params = useLocalSearchParams<{ topic?: string; lesson?: string }>();
+  const params = useLocalSearchParams<{ topic?: string; lesson?: string; path?: string }>();
   const level = useSettings((s) => s.level);
   const explainIn = useSettings((s) => s.explainIn);
   const connection = useModel((s) => s.status);
@@ -169,12 +170,13 @@ export default function Words() {
           setItems(r.items);
           setStatus('done');
           if (params.lesson !== undefined) markDone(lessonKey(Number(params.lesson)));
+          if (params.path) markDone(pathDoneKey(params.path));
         })
         .catch((e) => {
           setError(describeError(e));
           setStatus('error');
         }),
-    [explainIn, level, markDone, params.lesson],
+    [explainIn, level, markDone, params.lesson, params.path],
   );
 
   // another topic, chosen by the learner

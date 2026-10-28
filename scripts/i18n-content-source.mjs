@@ -11,12 +11,13 @@ const grammar = read('src/data/grammar.json');
 const scenes = read('src/data/scenes.json');
 const rules = read('src/data/rules.json');
 const lexicon = read('src/data/lexicon-core.json');
+const path = read('src/data/path.json');
 const rulesTs = readFileSync(join(root, 'src/harness/rules.ts'), 'utf8');
 const levelsTs = readFileSync(join(root, 'src/harness/levels.ts'), 'utf8');
 const writingTs = readFileSync(join(root, 'src/harness/writing.ts'), 'utf8');
 const togetherTs = readFileSync(join(root, 'src/harness/together.ts'), 'utf8');
 
-const out = { grammar: {}, scenes: {}, rules: {}, ruleTitles: {}, lexicon: {}, levels: {}, writing: {} };
+const out = { grammar: {}, scenes: {}, rules: {}, ruleTitles: {}, lexicon: {}, levels: {}, writing: {}, path: {} };
 for (const c of grammar) out.grammar[c.key] = { title: c.title_en, rule: c.rule_en, examples: c.examples.map(([, en]) => en), pitfalls: c.pitfalls.map((p) => p.why_en) };
 for (const s of scenes) {
   out.scenes[s.key] = {
@@ -51,6 +52,8 @@ for (const block of tasks.split(/\n  \{\n/).slice(1)) {
   const unescape = (x) => x.replace(/\\'/g, "'");
   out.writing[id] = { title: unescape(title), prompt: unescape(prompt), points: points.map(unescape) };
 }
+// the learning path: a unit's title and goal, and per step the question (ask) or situation (ownScene) it carries
+for (const u of path) out.path[u.key] = { title: u.title_en, goal: u.goal_en, steps: u.steps.map((s) => (s.kind === 'ask' ? s.question_en : s.kind === 'ownScene' ? s.situation_en : null)) };
 writeFileSync(join(root, 'src/data/i18n/en.source.json'), `${JSON.stringify(out, null, 2)}\n`);
 const count = (x) => (typeof x === 'string' ? 1 : x && typeof x === 'object' ? Object.values(x).reduce((a, v) => a + count(v), 0) : 0);
 const words = (x) => (typeof x === 'string' ? x.split(/\s+/).length : x && typeof x === 'object' ? Object.values(x).reduce((a, v) => a + words(v), 0) : 0);

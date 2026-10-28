@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { lessonKey } from '@/features/lesson';
 import { notReadyNote, useModelPercent } from '@/features/modelStatus';
+import { pathDoneKey } from '@/harness/path';
 import type { Answer, WritingResult } from '@/harness/tutor';
 import { precheckText, WRITE_TASKS } from '@/harness/writing';
 import { useI18n } from '@/i18n';
@@ -40,7 +41,7 @@ function Tick({ ok, label }: { ok: boolean; label: string }) {
 }
 
 export default function WriteScreen() {
-  const { id, lesson } = useLocalSearchParams<{ id: string; lesson?: string }>();
+  const { id, lesson, path } = useLocalSearchParams<{ id: string; lesson?: string; path?: string }>();
   const own = useAuthored((s) => s.tasks[id]);
   const removeTask = useAuthored((s) => s.removeTask);
   const task = own ?? WRITE_TASKS.find((t) => t.id === id) ?? WRITE_TASKS[0];
@@ -69,6 +70,7 @@ export default function WriteScreen() {
       record('writing', result.precheck.ok && Boolean(result.correction?.correction.unchanged));
       markDone(`write:${task.id}`);
       if (lesson !== undefined) markDone(lessonKey(Number(lesson)));
+      if (path) markDone(pathDoneKey(path));
       haptic.success();
     } catch (e) {
       setState({ status: 'error', stream: '', error: describeError(e) });

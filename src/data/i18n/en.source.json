@@ -90,6 +90,102 @@
         "A whole prepositional phrase is position 1; the verb follows directly: lerne ich."
       ]
     },
+    "sein-haben-praesens": {
+      "title": "sein, haben and the present-tense endings",
+      "rule": "Most verbs form the present tense with fixed endings on the stem: ich wohn-e, du wohn-st, er/sie/es wohn-t, wir wohn-en, ihr wohn-t, sie/Sie wohn-en. The two most important verbs are irregular and have to be learnt by heart: sein – ich bin, du bist, er ist, wir sind, ihr seid, sie sind; haben – ich habe, du hast, er hat, wir haben, ihr habt, sie haben. 'Sein' says who or how someone is (Ich bin Lehrerin, ich bin müde), 'haben' says what someone has or feels (Ich habe ein Auto, ich habe Hunger). The polite 'Sie' always takes the plural form: Sie sind, Sie haben, Sie wohnen.",
+      "examples": [
+        "I am Ana and I come from Portugal.",
+        "Are you tired? – No, I'm hungry.",
+        "We live in Hamburg and work at a bank.",
+        "Do you have children? – Yes, I have two daughters."
+      ],
+      "pitfalls": [
+        "In German you 'have' hunger, thirst, time and desire; 'sein' goes with age, profession and qualities.",
+        "'haben' is irregular: du hast, er/sie/es hat – the b drops out.",
+        "The polite 'Sie' always takes the plural form in -en: Sie kommen, Sie sind, Sie haben.",
+        "The ihr-form of 'sein' is 'seid' (with a d); 'sind' belongs to wir and sie."
+      ]
+    },
+    "w-fragen-ja-nein-fragen": {
+      "title": "W-questions and yes/no questions",
+      "rule": "A W-question starts with a question word and the verb comes second: Wo wohnst du? Was machen Sie? The main question words: wer (person), was (thing), wo (place), woher (origin), wohin (destination), wann (time), wie (manner, also: Wie heißt du? Wie alt bist du? Wie viel kostet das?), warum (reason), welche/welcher/welches (choice). A yes/no question starts with the verb itself, the subject follows: Wohnst du in Berlin? Sind Sie Frau Meier? Answers: ja, nein – and 'doch' to contradict a negative question: Kommst du nicht? – Doch!",
+      "examples": [
+        "What is your name and where are you from?",
+        "Where do you live? – In Cologne, near the cathedral.",
+        "Do you speak English? – Yes, a little.",
+        "Don't you have time? – Yes, I do have time."
+      ],
+      "pitfalls": [
+        "The verb comes right after the question word, then the subject: Wo wohnst du?",
+        "A yes/no question starts with the verb. A statement with a question mark is only colloquial, for a surprised check.",
+        "Origin is asked with 'woher'; 'wo' asks for a place, 'wohin' for a destination.",
+        "A negative question gets 'doch' when the answer is positive."
+      ]
+    },
+    "artikel-nominativ-akkusativ": {
+      "title": "der, die, das: nominative and accusative",
+      "rule": "Every noun has a gender: masculine der/ein, feminine die/eine, neuter das/ein; the plural is always die (and has no indefinite article: Ich habe Kinder). The nominative is for the subject, the one doing something: Der Kaffee ist heiß. The accusative is for the direct object, what someone has, buys, sees or wants: Ich trinke den Kaffee. Only the masculine article changes in the accusative: der → den, ein → einen; die, das, eine, ein stay the same. The accusative also follows 'es gibt' and the prepositions für, ohne, durch, gegen, um: Es gibt einen Park. Das ist für den Lehrer.",
+      "examples": [
+        "The tea is cold, but I'll drink the tea anyway.",
+        "I have a brother and a sister.",
+        "We'll take the bread and the tomatoes.",
+        "Is there a supermarket here? – Yes, around the corner."
+      ],
+      "pitfalls": [
+        "'haben' takes the accusative; Hund is masculine, so einen Hund.",
+        "Here der Mann is the direct object (accusative): der becomes den.",
+        "Suppe is feminine: die Suppe. The gender is in the dictionary and is learnt with the word.",
+        "'für' is always followed by the accusative: für meinen Vater."
+      ]
+    },
+    "possessivartikel": {
+      "title": "Possessive articles: mein, dein, sein, ihr …",
+      "rule": "Possessive articles say who something belongs to: ich → mein, du → dein, er/es → sein, sie (singular) → ihr, wir → unser, ihr → euer, sie (plural) → ihr, Sie → Ihr. They take the same endings as 'ein' and 'kein': mein Bruder (masculine), meine Schwester (feminine), mein Kind (neuter), meine Eltern (plural). In the accusative only the masculine gets -en: Ich sehe meinen Bruder. The word is chosen by the owner, the ending by the noun: sein Auto (his car), ihr Auto (her car). 'euer' drops its second e before an ending: eure Kinder.",
+      "examples": [
+        "This is my mother and this is my father.",
+        "What's your sister's name? – Her name is Lea.",
+        "Peter is looking for his key.",
+        "Are these your children? – Yes, our children are already big."
+      ],
+      "pitfalls": [
+        "The ending follows the noun: Bruder is masculine, so mein Bruder without -e.",
+        "The owner is Anna (she) → ihr; Hund in the accusative → ihren Hund.",
+        "In the accusative the masculine takes -en: deinen Vater.",
+        "Before an ending 'euer' loses its second e: eure, euren, eurem."
+      ]
+    },
+    "pluralformen": {
+      "title": "Plural forms: -e, -(e)n, -er, -s or nothing",
+      "rule": "In the plural the article is always 'die', but the noun's ending has to be learnt with the word. Five patterns cover almost everything: -e, often with umlaut (der Tisch – die Tische, der Stuhl – die Stühle); -(e)n, typical of feminine nouns (die Frau – die Frauen, die Lampe – die Lampen); -er, usually with umlaut, for short neuter nouns (das Kind – die Kinder, das Buch – die Bücher); -s for foreign words and words ending in a vowel (das Auto – die Autos, das Hotel – die Hotels); no ending for nouns in -er, -el, -en, often with umlaut (der Lehrer – die Lehrer, der Apfel – die Äpfel). Nouns in -chen and -lein do not change: das Mädchen – die Mädchen.",
+      "examples": [
+        "I need two chairs and a table.",
+        "The children are reading books.",
+        "Three apples, four tomatoes and six eggs, please.",
+        "The hotels in town are expensive."
+      ],
+      "pitfalls": [
+        "Kind forms its plural with -er: die Kinder. The -s ending is rare in German.",
+        "Nouns in -el often take no ending but an umlaut: der Apfel – die Äpfel.",
+        "Words ending in a vowel and foreign words take -s: Autos, Hotels, Handys.",
+        "In the plural the article is always 'die', whatever the gender."
+      ]
+    },
+    "zeit-und-ortsangaben": {
+      "title": "Time and place phrases: um, am, im, von … bis; in, nach, zu, bei",
+      "rule": "Time: 'um' for clock times (um acht Uhr), 'am' for days and parts of the day (am Montag, am Morgen, am Wochenende – but: in der Nacht), 'im' for months and seasons (im Mai, im Winter), 'von … bis' for a span (von neun bis fünf), 'ab' for a starting point (ab morgen). Place, answering 'wo?': 'in' for towns, countries and rooms (in Berlin, in der Küche), 'bei' for people and companies (bei meiner Oma, bei Siemens), 'zu Hause'. Destination, answering 'wohin?': 'nach' for towns and countries without an article and for 'nach Hause' (nach Wien, nach Hause), 'in' + accusative for countries with an article and for rooms (in die Schweiz, in die Küche), 'zu' + dative for people, shops and appointments (zum Arzt, zur Arbeit, zu Lisa).",
+      "examples": [
+        "The course is on Tuesday at half past six.",
+        "In August we're going to Italy.",
+        "I work from Monday to Friday at a small company.",
+        "Are you going to the doctor today? – No, I'm staying at home."
+      ],
+      "pitfalls": [
+        "Clock times take 'um'; 'am' goes with days (am Montag) and parts of the day (am Abend).",
+        "Towns and countries without an article take 'nach': nach Berlin, nach Spanien.",
+        "'nach Hause' is the direction (where to?), 'zu Hause' the place (where?).",
+        "People take 'bei' (beim Arzt, bei Anna); 'in' is for rooms and places (in der Praxis)."
+      ]
+    },
     "kennen-wissen-koennen": {
       "title": "kennen, wissen or können?",
       "rule": "'Kennen' means to be familiar with a person, place or thing; it takes a direct object: Ich kenne die Stadt. 'Wissen' means to have a piece of information; it is mostly followed by 'dass', 'ob', a question word, or 'es/das', otherwise by a thing (die Antwort): Ich weiß, dass er kommt. 'Können' is the modal verb for ability or possibility, usually with an infinitive: Ich kann schwimmen.",
@@ -300,6 +396,70 @@
         "People and devices ending in -er are mostly masculine: der Computer, der Drucker, der Fahrer.",
         "The ending -e marks no gender: das Ende, das Auge are neuter, die Lampe feminine, der Name masculine. Learn the article with the word.",
         "Loanwords ending in -ion are almost always feminine: die Nation, die Information, die Diskussion."
+      ]
+    },
+    "personalpronomen-akkusativ-dativ": {
+      "title": "Personal pronouns in the accusative and dative: mich/mir, dich/dir, ihn/ihm …",
+      "rule": "Nominative: ich, du, er, sie, es, wir, ihr, sie/Sie. Accusative (direct object; after für, ohne, um): mich, dich, ihn, sie, es, uns, euch, sie/Sie. Dative (indirect object – to whom?; after mit, bei, von, zu and after verbs like helfen, gefallen, danken, gehören): mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. Note: only ich, du and er/sie/es have different forms for accusative and dative; uns and euch are the same in both. With two pronouns in a sentence the accusative comes before the dative: Ich gebe es dir.",
+      "examples": [
+        "Can you help me? – Yes, I'll gladly help you.",
+        "I'll call him tomorrow and ask him.",
+        "The present is for you. Do you like it?",
+        "We thank you for the invitation."
+      ],
+      "pitfalls": [
+        "'helfen' always takes the dative: mir, dir, ihm, ihr, uns, euch, ihnen.",
+        "'lieben' has a direct object in the accusative: dich, ihn, sie, euch.",
+        "'gehören' demands the dative: ihm, ihr, ihnen.",
+        "Two pronouns: accusative (es) before dative (dir)."
+      ]
+    },
+    "praeteritum-sein-haben-modalverben": {
+      "title": "The Präteritum of sein, haben and the modal verbs: war, hatte, konnte",
+      "rule": "In speech the past is mostly told in the Perfekt – except with 'sein', 'haben' and the modal verbs, which take the Präteritum even when spoken. sein: ich war, du warst, er war, wir waren, ihr wart, sie waren. haben: ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten. The modals lose their umlaut and add -te: können → konnte, müssen → musste, dürfen → durfte, sollen → sollte, wollen → wollte, mögen → mochte; the infinitive goes to the end of the clause: Ich musste gestern arbeiten. Ich and er/sie/es have no ending in the Präteritum: ich war, er hatte, sie konnte.",
+      "examples": [
+        "Where were you yesterday? – I was ill and had a fever.",
+        "We couldn't come because we had no time.",
+        "As a child I wanted to become a pilot.",
+        "You had to wait a long time, didn't you?"
+      ],
+      "pitfalls": [
+        "With sein and haben the Präteritum is the normal choice, even in conversation; and the verb must stay in second position.",
+        "'könnte' is the Konjunktiv II (polite, unreal); the past is 'konnte' without umlaut.",
+        "The infinitive goes to the end of the clause, in the Präteritum too: musste … arbeiten.",
+        "er/sie/es takes no ending in the Präteritum: sie hatte, er war, es konnte."
+      ]
+    },
+    "hoefliche-bitten-konjunktiv-ii": {
+      "title": "Polite requests: Könnten Sie …? Würden Sie …? Ich hätte gern …",
+      "rule": "Polite requests and wishes use the Konjunktiv II of three verbs: könnte (from können), hätte (from haben), würde (from werden) – plus 'wäre' (from sein) and 'möchte'. 'Könnten Sie mir helfen?' is more polite than 'Können Sie mir helfen?'; 'Würden Sie bitte das Fenster schließen?' is more polite than the imperative. When ordering and shopping: 'Ich hätte gern einen Kaffee', 'Ich möchte zwei Brötchen'. Forms: ich könnte, du könntest, er könnte, wir könnten, Sie könnten; ich hätte, du hättest, er hätte; ich würde, du würdest, er würde, wir würden. 'bitte' and 'gern' make the request friendlier still.",
+      "examples": [
+        "Could you repeat that, please?",
+        "I'd like a kilo of apples and two rolls.",
+        "Would you help me for a moment?",
+        "Would you have time on Friday? – That would be great."
+      ],
+      "pitfalls": [
+        "The order is 'Ich hätte gern' (Konjunktiv II); 'Ich habe gern' means 'I like'.",
+        "The infinitive goes to the end: Könnten Sie mir helfen?",
+        "The person who receives something is in the dative: mir.",
+        "'konnte' is past tense; the polite request needs 'könnte' with umlaut, and the verb goes first in a question."
+      ]
+    },
+    "dativ-verben-praepositionen": {
+      "title": "The dative: verbs like helfen, gefallen, gehören and the prepositions aus, bei, mit, nach, seit, von, zu",
+      "rule": "The dative answers 'wem?' (to whom). Articles in the dative: dem (masculine and neuter), der (feminine), den + -n (plural): mit dem Bus, bei der Arbeit, von den Kindern; indefinite: einem, einer, einem; possessive: meinem, meiner, meinen. Some verbs always put the person in the dative: helfen, danken, gefallen, gehören, antworten, gratulieren, schmecken, passen, fehlen, wehtun: Das Kleid gefällt mir. Der Rücken tut ihm weh. And the prepositions aus, bei, mit, nach, seit, von, zu (and gegenüber, ab) are always followed by the dative: aus der Schweiz, seit einem Jahr, zu meiner Oma. Contractions: zum (zu dem), zur (zu der), beim (bei dem), vom (von dem).",
+      "examples": [
+        "I cycle to work.",
+        "The children don't like the soup.",
+        "Happy birthday to you! (We congratulate you on your birthday.)",
+        "I've been living at my aunt's for a month."
+      ],
+      "pitfalls": [
+        "'mit' always takes the dative: der Bus → mit dem Bus. 'den' would be accusative.",
+        "'gefallen' is a dative verb: the thing pleases the person (mir, dir, ihm).",
+        "'helfen' demands the dative: ihrer Mutter, not ihre Mutter.",
+        "'aus' is followed by the dative, and Türkei has an article: aus der Türkei."
       ]
     },
     "als-wenn-wann": {
@@ -537,6 +697,69 @@
         "German asks with 'wie': Wie heißt du? Wie ist dein Name? 'Was' sounds like a translation."
       ]
     },
+    "indirekte-fragen": {
+      "title": "Indirect questions: Weißt du, wann der Zug fährt? Können Sie mir sagen, ob …?",
+      "rule": "An indirect question hangs on an introductory clause such as 'Weißt du, …', 'Können Sie mir sagen, …', 'Ich frage mich, …', 'Ich möchte wissen, …'. It is a subordinate clause: the conjugated verb goes to the end. A W-question becomes a subordinate clause with the same question word: Wann fährt der Zug? → Weißt du, wann der Zug fährt? A yes/no question becomes a clause with 'ob': Kommt er? → Ich weiß nicht, ob er kommt. Indirect questions sound more polite than direct ones and are typical at counters, on the phone and in e-mails. The punctuation follows the main clause: a question mark after 'Weißt du, …?', a full stop after 'Ich weiß nicht, ….'",
+      "examples": [
+        "Can you tell me where the station is?",
+        "I don't know whether the shop is open today.",
+        "Do you know how much the ticket costs?",
+        "I'd like to know why the delivery hasn't arrived yet."
+      ],
+      "pitfalls": [
+        "The indirect question is a subordinate clause: the verb goes to the end.",
+        "An indirect yes/no question is introduced by 'ob'; 'wenn' means 'if (in case)' or 'whenever'.",
+        "A question (Hält der Bus hier?) needs 'ob'; 'dass' reports a statement."
+      ]
+    },
+    "verben-mit-praepositionen-da-wo": {
+      "title": "Verbs with prepositions and da(r)-/wo(r)- words: warten auf, darauf, worauf",
+      "rule": "Many verbs have a fixed preposition with a fixed case, learnt together with the verb: warten auf + acc, sich freuen auf (future) / über (present) + acc, denken an + acc, sich interessieren für + acc, sich ärgern über + acc, sich kümmern um + acc, sich bewerben um + acc, teilnehmen an + dat, sich beschäftigen mit + dat, träumen von + dat, Angst haben vor + dat, fragen nach + dat. For a thing you ask with wo(r)- and answer with da(r)-: Worauf wartest du? – Darauf. Wofür interessierst du dich? – Dafür. The r appears when the preposition begins with a vowel (darauf, worüber, daran), otherwise not (dafür, womit, davon). For a person the preposition and the pronoun stay: Auf wen wartest du? – Auf ihn. A da(r)- word can also point at a whole clause: Ich freue mich darauf, dass du kommst.",
+      "examples": [
+        "I've been waiting for the bus for an hour.",
+        "What did you talk about? – About the new film.",
+        "Are you interested in politics? – Yes, I'm very interested in it.",
+        "I'm looking forward to us seeing each other soon."
+      ],
+      "pitfalls": [
+        "'warten' goes with 'auf' + accusative, not with 'für' as in English.",
+        "For things you ask with the wo(r)- word: worauf, womit, wofür. 'Auf was' is colloquial only.",
+        "A pronoun for a thing merges with the preposition into a da(r)- word: daran, davon, damit.",
+        "'sich freuen auf' looks ahead (anticipation), 'sich freuen über' is about what is already there."
+      ]
+    },
+    "zweiteilige-konnektoren": {
+      "title": "Two-part connectors: nicht nur … sondern auch, entweder … oder, weder … noch, zwar … aber, je … desto",
+      "rule": "Two-part connectors link two parts of a sentence or two clauses and make the relation explicit: nicht nur … sondern auch (addition with emphasis), sowohl … als auch (both), entweder … oder (one of two options), weder … noch (neither – already negative, no extra 'nicht'), zwar … aber (concession), je … desto/umso (two things grow together). Word order: 'sondern auch', 'aber' and 'oder' do not change it; 'weder', 'zwar' and 'entweder' can take position 1, with the verb following; after 'je' comes a subordinate clause with the verb at the end, after 'desto' the comparative comes immediately and then the verb: Je mehr ich übe, desto besser spreche ich.",
+      "examples": [
+        "She speaks not only German but also Turkish and Arabic.",
+        "We'll go either by train or by bus.",
+        "I have neither the time nor the inclination.",
+        "The longer I live in Germany, the better I understand people."
+      ],
+      "pitfalls": [
+        "'weder … noch' is already negative; an extra 'nicht' is wrong.",
+        "After 'desto' the comparative comes first, then the verb, then the subject.",
+        "'zwar' belongs to the first part only; the second part starts with 'aber'.",
+        "'nicht nur' is continued by 'sondern auch', not 'aber auch'."
+      ]
+    },
+    "passiv-praesens": {
+      "title": "The passive in the present and the Präteritum: Das Brot wird gebacken, das Haus wurde gebaut",
+      "rule": "The passive is used when the action matters more than the person doing it: In der Bäckerei wird das Brot morgens gebacken. Form: werden (conjugated) + past participle at the end of the clause. Present: ich werde gefragt, du wirst gefragt, er/sie/es wird gefragt, wir werden gefragt, ihr werdet gefragt, sie werden gefragt. Präteritum: wurde, wurdest, wurde, wurden, wurdet, wurden: Das Haus wurde 1990 gebaut. The accusative object of the active sentence becomes the subject of the passive one: Man repariert das Auto → Das Auto wird repariert. The doer is named – if at all – with 'von' + dative: Das Auto wird von einem Mechaniker repariert. Without an object, 'es' or an adverbial opens the sentence: Hier wird nicht geraucht.",
+      "examples": [
+        "The bill is paid at the end of the month.",
+        "The account was opened yesterday.",
+        "Many cars are built in Germany.",
+        "The parcels are delivered by the post office."
+      ],
+      "pitfalls": [
+        "The process (someone bakes it) takes the passive with 'werden'; 'ist gebacken' only describes the finished state.",
+        "'von' takes the dative (von dem / vom Mechaniker), and the participle goes to the end.",
+        "'werden' agrees with the subject: die Häuser (plural) → wurden.",
+        "The subject is 'keine Fotos' (plural): werden … gemacht."
+      ]
+    },
     "passiv-werden-sein": {
       "title": "The passive with werden or sein?",
       "rule": "The processual passive 'werden' + past participle describes an action happening or having happened: Die Tür wird geschlossen (someone is closing it). The statal passive 'sein' + past participle describes the result, the state afterwards: Die Tür ist geschlossen (it is shut). The Perfekt of the processual passive is 'ist geschlossen worden'.",
@@ -565,6 +788,147 @@
       "pitfalls": [
         "The departure lay before the arrival: Plusquamperfekt with war.",
         "With Präteritum in the main clause, the 'nachdem' clause takes the Plusquamperfekt."
+      ]
+    },
+    "konjunktiv-ii-vergangenheit": {
+      "title": "The past Konjunktiv II: hätte … gemacht, wäre … gegangen",
+      "rule": "For unreal past situations – what could have been but was not – the Konjunktiv II is formed with hätte or wäre + past participle: Ich hätte dich angerufen. Wir wären gern gekommen. The choice between hätte and wäre follows the Perfekt (habe gemacht → hätte gemacht; bin gegangen → wäre gegangen). Typical uses: unreal conditions (Wenn ich das gewusst hätte, wäre ich früher gegangen), wishes (Hätte ich doch mehr gelernt!), reproaches and hindsight (Du hättest mich fragen können). With a modal verb a double infinitive stands at the end, and in a subordinate clause 'hätte' moves in front of it: …, weil ich hätte arbeiten müssen. There is no 'würde' form for the past.",
+      "examples": [
+        "If I had known that, I wouldn't have come.",
+        "If only I had started the German course earlier!",
+        "You could have called me.",
+        "Without your help we would never have found the flat."
+      ],
+      "pitfalls": [
+        "After a fronted subordinate clause the main clause starts with the verb: …, wäre ich gekommen.",
+        "'fahren' forms its Perfekt with sein (ich bin gefahren), so wäre gefahren.",
+        "The past Konjunktiv II is built with hätte/wäre + past participle, not with 'würde'.",
+        "With a double infinitive 'hätte' comes before the two infinitives in a subordinate clause."
+      ]
+    },
+    "irreale-vergleiche-als-ob": {
+      "title": "Unreal comparisons: als ob, als wenn, als + Konjunktiv II",
+      "rule": "An unreal comparison describes how something seems, although it is not so: Er tut so, als ob er alles wüsste. After 'als ob' and 'als wenn' comes a subordinate clause with the verb at the end in the Konjunktiv II (wüsste, hätte, wäre, würde … machen; past: hätte … gemacht, wäre … gewesen). Shorter and more written is 'als' alone: then the verb follows immediately: Er tut so, als wüsste er alles. Typical openings: so tun, als ob; es scheint, als ob; es sieht aus, als ob; sich fühlen, als ob; so klingen, als ob. The tense of the Konjunktiv follows the comparison: simultaneous → present form (als ob er krank wäre), earlier → past form (als ob er nie krank gewesen wäre).",
+      "examples": [
+        "She acts as if she didn't know me.",
+        "It looks as if it had rained all night.",
+        "He talks as if he were the boss.",
+        "I feel as if I hadn't slept for a week."
+      ],
+      "pitfalls": [
+        "After 'als ob' the verb goes to the end and into the Konjunktiv II: wäre.",
+        "With 'als' and no 'ob' the conjugated verb comes directly after 'als'.",
+        "The unreal comparison is 'als ob' (or 'als wenn', 'als'), never 'wie ob'."
+      ]
+    },
+    "passiv-mit-modalverben": {
+      "title": "The passive with modal verbs: muss repariert werden, konnte nicht geöffnet werden",
+      "rule": "With a modal verb the passive is: modal (conjugated) + past participle + werden (infinitive) at the end of the clause: Das Auto muss repariert werden. Die Rechnung kann online bezahlt werden. In the Präteritum only the modal changes: Die Tür konnte nicht geöffnet werden. In the Perfekt a double infinitive with haben appears: Die Rechnung hat bezahlt werden müssen – in practice the Präteritum is used instead almost always. In a subordinate clause the modal goes to the very end: …, weil das Auto repariert werden muss. Instead of the passive with a modal you can also say: man muss … reparieren, … ist zu reparieren, … lässt sich reparieren.",
+      "examples": [
+        "The meter must be read by Friday.",
+        "The parcel could not be delivered yesterday.",
+        "Complaints can also be submitted by e-mail.",
+        "I'm calling because the bill has to be corrected."
+      ],
+      "pitfalls": [
+        "At the end come first the past participle, then 'werden': repariert werden.",
+        "The meaning is the action (someone has to fill it in): process passive with 'werden'. 'muss ausgefüllt sein' would mean it must be in a filled-in state.",
+        "In a subordinate clause the conjugated modal goes to the very end.",
+        "After the modal comes the infinitive 'werden', not a participle."
+      ]
+    },
+    "partizip-i-ii-als-adjektiv": {
+      "title": "Participles I and II as adjectives: das weinende Kind, das reparierte Auto",
+      "rule": "Both participles can stand before a noun and are then declined like adjectives. The present participle (infinitive + d: weinend, steigend, kommend) describes something happening now, active and simultaneous: das weinende Kind (the child who is crying), die steigenden Mieten (the rents that are rising). The past participle (gemacht, repariert, gebaut) describes something completed, usually passive: das reparierte Auto (the car that was repaired), die renovierte Wohnung. The endings follow the adjective rules: mit dem lachenden Mann, ein frisch gestrichenes Zimmer. Only verbs with a sein-Perfekt form active past participles: der angekommene Zug (the train that has arrived). A present participle with 'zu' expresses necessity or possibility: die zu zahlende Miete (the rent that is to be paid).",
+      "examples": [
+        "The rising rents are the city's biggest problem.",
+        "We viewed a freshly renovated flat with a balcony.",
+        "The estate agent showed us the newly built house.",
+        "Please transfer the deposit that is due by Monday."
+      ],
+      "pitfalls": [
+        "Something happening right now needs the present participle: weinen + d + ending = weinende.",
+        "The machine was repaired (passive, completed): past participle. 'reparierend' would mean it is repairing something itself.",
+        "Only verbs with a sein-Perfekt form an active past participle (der Gast ist gekommen); 'der gegessene Gast' would be a guest someone ate.",
+        "Participles are declined like adjectives: after 'dem' the ending is -en."
+      ]
+    },
+    "genitivpraepositionen": {
+      "title": "Prepositions with the genitive: wegen, trotz, während, innerhalb, aufgrund, anstelle",
+      "rule": "Some prepositions take the genitive in standard German: wegen (reason), trotz (despite), während (duration), innerhalb/außerhalb (space and time), aufgrund (reason, formal), anstelle/(an)statt (instead of), infolge (as a result of), mithilfe (by means of), bezüglich/hinsichtlich (regarding, formal). Genitive forms: des Wetters, der Arbeit, des Jahres, der Kinder – masculine and neuter nouns take -s or -es in the singular. With pronouns, 'wegen mir' is colloquial; in writing it is meinetwegen, deinetwegen, seinetwegen, unseretwegen. In speech wegen and trotz are often followed by the dative (wegen dem Regen); in letters, exams and reports the genitive applies. Where a plural noun has no article, 'von' steps in: wegen Bauarbeiten, innerhalb von zwei Wochen.",
+      "examples": [
+        "Because of the strike no trains are running today.",
+        "Despite the long wait the appointment was a success.",
+        "During her studies she worked in a café.",
+        "The application must be submitted within a month."
+      ],
+      "pitfalls": [
+        "In writing and formal use 'wegen' takes the genitive: des schlechten Wetters. The dative is colloquial.",
+        "Masculine and neuter nouns take -s/-es in the genitive singular: des Regens.",
+        "As a preposition 'während' takes the genitive: während der Prüfung. (As a conjunction 'während' opens a clause: Während ich lerne, …)",
+        "Without an article the genitive plural is not visible; then it is 'innerhalb von' + dative."
+      ]
+    },
+    "relativsaetze-praepositionen-wo-was": {
+      "title": "Relative clauses with a preposition, wo, was and wer: der Freund, mit dem …; alles, was …",
+      "rule": "If the verb of the relative clause depends on a preposition, the preposition stands before the relative pronoun and sets the case: der Freund, mit dem ich wohne (wohnen mit + dative); die Firma, für die sie arbeitet (arbeiten für + accusative); das Thema, über das wir gesprochen haben. For places 'wo' (location), 'wohin' (direction) or 'woher' (origin) can be used: die Stadt, in der ich wohne = die Stadt, wo ich wohne; with town names only 'wo': Berlin, wo ich studiert habe. 'was' follows alles, nichts, etwas, vieles, das, a superlative used as a noun and a whole clause: alles, was ich weiß; das Beste, was passieren konnte; Er kam zu spät, was mich geärgert hat. With a preposition this becomes a wo(r)- word: etwas, worauf ich mich freue. 'wer …, der …' without an antecedent means 'everyone who': Wer zu spät kommt, (der) bekommt keinen Platz.",
+      "examples": [
+        "That's the colleague with whom I run the project.",
+        "The town I grew up in has changed a lot.",
+        "There is much that one can criticise about this proposal.",
+        "Anyone who does not know the law cannot comply with it either."
+      ],
+      "pitfalls": [
+        "Preposition and relative pronoun stand together at the start of the relative clause: mit dem.",
+        "After 'alles', 'nichts', 'etwas' and 'das' the relative pronoun is 'was'.",
+        "The preposition sets the case: 'für' + accusative → für die (Firma).",
+        "When the relative clause refers to the whole sentence, use 'was'."
+      ]
+    },
+    "modalpartikeln": {
+      "title": "Modal particles: doch, mal, ja, eben, halt, denn, eigentlich",
+      "rule": "Modal particles are small unstressed words in the middle of the clause that give a sentence an attitude – they make spoken German natural and can hardly be translated. 'doch': a request or a reminder of something known (Komm doch mit! Das weißt du doch.); 'mal': makes a request casual (Kannst du mal kommen?); 'ja': something is known or surprising (Das ist ja toll! Du weißt ja, wie er ist.); 'eben'/'halt': it has to be accepted (Dann müssen wir eben warten.); 'denn': makes a question friendly and interested (Wie heißt du denn? Was ist denn los?); 'eigentlich': a casual question or a reservation (Wo wohnst du eigentlich? Eigentlich wollte ich früher gehen.); 'schon': reassures or concedes (Das wird schon klappen.); 'wohl': supposition (Er ist wohl krank.). They come after the verb and the pronouns, usually before the complement, and almost only in main clauses and questions, not in formal letters.",
+      "examples": [
+        "Do sit down! Would you like a coffee?",
+        "What on earth happened? You look all pale.",
+        "Can you just give me a hand for a second?",
+        "The train has gone. Then we'll just take the next one."
+      ],
+      "pitfalls": [
+        "Modal particles stand in the middle of the clause after the verb, never in position 1 (there 'doch' would be a stressed contradiction).",
+        "'doch mal' is conversational style among people who know each other; in a formal letter it is out of place.",
+        "Friendly questions take 'denn'; 'eben' expresses that something has to be accepted."
+      ]
+    },
+    "konnektoren-indem-sodass-ohne-dass": {
+      "title": "Connectors for means, result and the opposite: indem, dadurch dass, sodass, ohne dass / ohne … zu, (an)statt dass / (an)statt … zu",
+      "rule": "These subordinating connectors say how something happens and what follows from it; the conjugated verb goes to the end. Means: 'indem' and 'dadurch, dass' (Sie lernt Vokabeln, indem sie Karten schreibt. – How? By writing cards). Result: 'sodass' or 'so …, dass' (Es regnete stark, sodass das Fest ausfiel. Es regnete so stark, dass das Fest ausfiel). Something expected does not happen: 'ohne dass' (Er ging, ohne dass jemand es merkte) – with the same subject the shorter 'ohne … zu' + infinitive (Er ging, ohne sich zu verabschieden). Replacement: '(an)statt dass' – with the same subject '(an)statt … zu' (Statt zu arbeiten, surft er im Internet). Likewise 'um … zu' (purpose) and 'als dass' after 'zu + adjective' (Er ist zu müde, als dass er noch fahren könnte). 'ohne … zu' and 'statt … zu' only work when both parts share the subject.",
+      "examples": [
+        "You save electricity by switching devices off completely.",
+        "The connection was so bad that the call dropped.",
+        "He installed the update without reading the notes.",
+        "Instead of the company replying, it only sends automatic e-mails."
+      ],
+      "pitfalls": [
+        "'indem' opens a subordinate clause: the verb goes to the end.",
+        "Either 'ohne dass' + conjugated verb or 'ohne … zu' + infinitive – not both.",
+        "After 'so + adjective' comes 'dass'; 'sodass' is used when the main clause has no 'so': Es war kalt, sodass wir drinnen blieben.",
+        "In an infinitive clause 'zu + infinitive' goes to the very end: statt uns zu helfen."
+      ]
+    },
+    "futur-vermutung": {
+      "title": "Assumptions with Futur I and II: Er wird wohl krank sein. Sie wird den Zug verpasst haben.",
+      "rule": "'werden' + infinitive (Futur I) expresses not only the future but often an assumption about the present: Er wird wohl krank sein (= he is probably ill). An assumption about the past takes the Futur II: werden + past participle + haben/sein: Sie wird den Zug verpasst haben (= she has probably missed it). Er wird schon angekommen sein. Particles such as wohl, sicher, bestimmt, wahrscheinlich, vermutlich signal the assumption; 'wohl' is typical. The Futur II can also mean a completed future: Bis Freitag werde ich den Bericht geschrieben haben. In a subordinate clause 'werden' goes to the end: …, weil er den Zug verpasst haben wird. For plain future statements with a time phrase the present usually suffices: Morgen fahre ich nach Bonn.",
+      "examples": [
+        "The light is off – they are probably asleep already.",
+        "The bus isn't here yet. It must be stuck in traffic.",
+        "You didn't get the e-mail? Then it will have ended up in the spam folder.",
+        "By 2030 the city will have completed the expansion."
+      ],
+      "pitfalls": [
+        "An assumption about the past needs the Futur II: werden + past participle + haben/sein.",
+        "The auxiliary follows the Perfekt: er ist angekommen → wird angekommen sein.",
+        "In a subordinate clause the conjugated 'werden' goes to the very end."
       ]
     },
     "nominalstil-verbalstil": {
@@ -648,6 +1012,38 @@
         "When Konjunktiv I is unambiguous (sei), it takes precedence in formal reporting; 'wäre' may be read as doubt about the statement."
       ]
     },
+    "textkonnektoren-kohaerenz": {
+      "title": "Text connectors: hingegen, allerdings, demnach, infolgedessen, zumal, wenngleich, gleichwohl, insofern",
+      "rule": "Longer texts and talks hold their argument together with connectors that go beyond 'aber', 'deshalb' and 'obwohl'. Contrast: hingegen, dagegen, demgegenüber (Die Stadt wächst, das Umland hingegen verliert Einwohner); reservation: allerdings, jedoch, freilich, gleichwohl (… ist allerdings teuer); consequence/conclusion: demnach, demzufolge, infolgedessen, mithin, somit (Demnach ist der Vorschlag abzulehnen); an extra, especially weighty reason: zumal (…, zumal die Kosten steigen); concession: wenngleich, obgleich, obschon (Wenngleich der Plan teuer ist, …); condition/respect: insofern (als), sofern (Das stimmt insofern, als …). Word order: hingegen, allerdings, jedoch, demnach, infolgedessen, somit are adverbs – they take position 1 (the verb follows) or stand in the middle of the clause; zumal, wenngleich, obgleich, sofern, insofern als open subordinate clauses (verb at the end). Use them sparingly: one connector per sentence is enough, and 'hingegen' or 'jedoch' like to follow the stressed element.",
+      "examples": [
+        "Industry demands lower energy prices; the environmental associations, by contrast, call for a faster exit from coal.",
+        "Expanding wind power makes sense, all the more so as the technology has become considerably cheaper in recent years.",
+        "The study has methodological flaws; consequently its results are only partly reliable.",
+        "Although the measure causes costs in the short term, it pays off in the long run."
+      ],
+      "pitfalls": [
+        "'hingegen' is an adverb and follows the stressed element or takes position 1 with the verb next (Hingegen verliert das Umland …), not a conjunction slot before the subject.",
+        "'zumal' opens a subordinate clause: the verb goes to the end.",
+        "'insofern' does not give a reason but a respect or condition ('insofern, als …'); a reason needs 'da' or 'weil'.",
+        "Two restrictive connectors side by side are redundant; one is enough."
+      ]
+    },
+    "partizipialsaetze": {
+      "title": "Participle clauses: In Berlin angekommen, …; Lächelnd betrat sie den Saal.",
+      "rule": "A participle clause shortens a subordinate clause to a participle with its complements; it has no subject of its own – it shares the main clause's subject – and is set off by commas. The present participle expresses simultaneity: Laut singend fuhr er durch die Stadt (= while he was singing loudly). The past participle expresses anteriority or the passive: In Berlin angekommen, suchte sie zuerst ein Hotel (= after she had arrived); Von allen Seiten kritisiert, zog der Minister den Entwurf zurück (= after he had been criticised). The participle stands at the end of its group. Fixed phrases: genau genommen, streng genommen, ehrlich gesagt, offen gestanden, grob geschätzt, verglichen mit, abgesehen von, vorausgesetzt (, dass). The style is written and elevated: newspapers, literature, reports; in conversation the subordinate clause is used instead.",
+      "examples": [
+        "Encouraged by the success of her first novel, she began the second at once.",
+        "His gaze fixed on the sea, the old man sat at the window for hours.",
+        "Strictly speaking, this is not a review but an essay.",
+        "Compared with its predecessor, the sequel seems quiet and reflective."
+      ],
+      "pitfalls": [
+        "The participle clause needs the same subject as the main clause; 'es' (regnete) did not arrive in Berlin.",
+        "The participle closes its group: the complement comes before it.",
+        "Simultaneous and active: present participle (singend). The past participle would mean he had been sung.",
+        "The fixed phrase is 'ehrlich gesagt' (past participle); likewise offen gestanden, genau genommen."
+      ]
+    },
     "paronyme-scheinbar-anscheinend": {
       "title": "Paronyms: scheinbar or anscheinend, effektiv or effizient?",
       "rule": "Paronyms are similar-sounding words with different meanings that even native speakers mix up. 'anscheinend' expresses a supposition that is probably true (to all appearances); 'scheinbar' says that something only looks that way and is in fact different: 'Er ist anscheinend krank' (probably) versus 'Sein Interesse war nur scheinbar' (feigned). Further pairs: effektiv (effective, reaching the goal) and effizient (efficient, with little effort); formal (relating to form) and formell (ceremonious, by the rules); rational (reasonable) and rationell (economical, expedient); kindlich (childlike, neutral) and kindisch (childish, pejorative); sensibel (sensitive, easily hurt) and sensitiv (technical: reacting to small changes). When in doubt, test with the opposite: 'scheinbar' tolerates an 'aber in Wirklichkeit', 'anscheinend' does not.",
@@ -723,6 +1119,38 @@
         "'laut' and 'zufolge' mean the same; one is enough. 'zufolge' follows the noun and takes the dative.",
         "'ungeachtet' takes the genitive: ungeachtet der Proteste.",
         "'gemäß' takes the dative even though it sounds formal; the genitive is a widespread hypercorrection."
+      ]
+    },
+    "es-als-platzhalter-korrelat": {
+      "title": "'es' as placeholder and correlate: Es wurde viel gelacht. Ich halte es für geboten, dass …",
+      "rule": "Besides the pronoun (Das Buch? Ich habe es gelesen) and the fixed 'es' of impersonal verbs (es regnet, es gibt, es geht um, es handelt sich um, mir ist es kalt), 'es' has two jobs that mark precise prose. First, as a placeholder in position 1: it occupies the front slot when the subject is to be moved back for weight – Es wurde viel gelacht. Es kamen mehr Gäste als erwartet. Es bleibt die Frage, ob … As soon as another element comes first, this 'es' vanishes without trace: Gestern wurde viel gelacht. It does not agree with the verb: Es kamen (plural!) mehr Gäste. Second, as a correlate announcing a subordinate or infinitive clause: Ich halte es für geboten, dass …; Sie hat es abgelehnt, den Vertrag zu unterschreiben; Es freut mich, dass … With verbs like bedauern, ablehnen, begrüßen, vermeiden, es für richtig halten the correlate in the middle field is obligatory (Ich bedaure es, dass …); with others (wissen, glauben, sagen) it is absent: Ich weiß, dass … (not: Ich weiß es, dass …). A correlate 'es' in the front slot disappears when the clause itself comes first: Dass er absagt, überrascht mich – not: Dass er absagt, es überrascht mich.",
+      "examples": [
+        "Negotiations went on into the night without an agreement being reached.",
+        "Far more objections came in than the board had expected.",
+        "The council considers it imperative to postpone the decision.",
+        "That the study was never published explains a great deal."
+      ],
+      "pitfalls": [
+        "The placeholder 'es' exists only in position 1; when something else is there, it disappears.",
+        "The placeholder 'es' is not the subject; the verb agrees with 'mehr Gäste' (plural).",
+        "With wissen, glauben, sagen, hoffen no correlate precedes the dass-clause.",
+        "When the clause comes first it fills the front slot itself; an extra 'es' would be a second element before the verb."
+      ]
+    },
+    "nachfeld-ausklammerung": {
+      "title": "The Nachfeld and extraposition: …, als wir dachten. Er hat lange gewartet – auf eine Antwort, die nie kam.",
+      "rule": "The German sentence is a bracket: the conjugated verb and the rest of the predicate (participle, infinitive, prefix) enclose the middle field – Er hat … gewartet. Whatever stands after the right bracket is in the Nachfeld. Subordinate and infinitive clauses belong there by nature (Er hat versprochen, dass er kommt), as do comparisons with 'als' and 'wie' (Es ist später geworden, als wir dachten) and afterthoughts (Sie hat alles verkauft, sogar die Bücher). Extraposition means deliberately placing an element after the bracket that would also fit inside: Er hat lange gewartet – auf eine Antwort, die nie kam. It lightens long or heavy elements (especially prepositional phrases with a relative clause), stresses what is moved out and keeps the bracket short, so the listener does not reach the verb only after twenty words. Not extraposed: a bare accusative object, pronouns and short adverbs – 'Er hat gelesen das Buch' is wrong, even in speech. In administrative and academic prose the closed bracket is the norm; in speeches, journalism and literature deliberate extraposition is a stylistic device – deliberate, not habitual.",
+      "examples": [
+        "The exhibition has grown larger than its curators ever planned.",
+        "The director spent two hours telling – of a childhood you would never guess at.",
+        "She sold everything, even her grandmother's piano.",
+        "I read the review, with growing unease."
+      ],
+      "pitfalls": [
+        "A bare accusative object stays inside the bracket; what gets extraposed are heavy prepositional phrases, comparisons and afterthoughts.",
+        "The comparison with 'als' belongs in the Nachfeld, after the participle.",
+        "Pronominal adverbs (darauf, damit) and pronouns are not extraposed.",
+        "In an official letter the closed bracket is the norm; the dash with an afterthought is a device for speeches and the arts pages."
       ]
     }
   },
@@ -2720,6 +3148,15 @@
         "ask about breakfast"
       ]
     },
+    "a1-postcard-holiday": {
+      "title": "A postcard from your holiday",
+      "prompt": "Write a postcard to your friend Tom from your holiday at the sea: say where you are, how the weather is, and what you do all day.",
+      "points": [
+        "where you are",
+        "the weather",
+        "what you do all day"
+      ]
+    },
     "a2-birthday": {
       "title": "A birthday invitation",
       "prompt": "Write a short email to a friend: invite them to your birthday party on Saturday. Say when it starts, where it is, and what they should bring. 30-40 words.",
@@ -2745,6 +3182,15 @@
         "describe the flat",
         "what you like",
         "invite him"
+      ]
+    },
+    "a2-heating-broken": {
+      "title": "The heating is broken",
+      "prompt": "Write a short formal message to your landlord, Herr Krause: the heating in your flat has not worked since Monday. Say what the problem is and since when, ask him to send someone quickly, and say when you are at home.",
+      "points": [
+        "the problem and since when",
+        "ask him to send someone",
+        "when you are at home"
       ]
     },
     "b1-missed-party": {
@@ -2774,6 +3220,15 @@
         "an example"
       ]
     },
+    "b1-complaint-online-order": {
+      "title": "A complaint about an online order",
+      "prompt": "You ordered a lamp online (order number 48213). It arrived after three weeks, and the glass is broken. Write a formal e-mail to the shop: describe the problem, say what you want (a replacement or your money back), and ask how to send the lamp back.",
+      "points": [
+        "describe the problem",
+        "what you want",
+        "ask how to send it back"
+      ]
+    },
     "b2-course-complaint": {
       "title": "A complaint to a language school",
       "prompt": "Write a formal complaint (about 150 words) to a language school: your course had no teacher for three sessions. Describe what happened, say what you expect the school to do, and set a deadline for their answer.",
@@ -2790,6 +3245,16 @@
         "why you are interested",
         "your experience",
         "when you are available"
+      ]
+    },
+    "b2-forum-smartphones-school": {
+      "title": "A forum post: smartphones in school",
+      "prompt": "In an online forum, parents are discussing whether smartphones should be banned in schools. Write a post (about 170 words): say what you think, give arguments for and against, describe an experience of your own, and make a suggestion.",
+      "points": [
+        "your opinion",
+        "arguments for and against",
+        "an experience of your own",
+        "a suggestion"
       ]
     },
     "c1-letter-to-editor": {
@@ -2812,6 +3277,16 @@
         "a request for a meeting"
       ]
     },
+    "c1-graph-commuting": {
+      "title": "A report on commuting figures",
+      "prompt": "Your head of department, Frau Dr. Neumann, has asked you to summarise a survey for the city's mobility report. The figures: in 2015, 61 % of commuters drove to work by car, 22 % used public transport and 9 % cycled; in 2025 the shares were 48 %, 29 % and 17 %; the average commute grew from 16 to 19 km. Write her a formal e-mail (about 230 words): describe the main developments, compare the figures, give possible reasons, and recommend one measure for the city.",
+      "points": [
+        "the main developments described",
+        "the figures compared",
+        "possible reasons",
+        "one measure recommended"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "An objection to a bank about unlawful account fees",
       "prompt": "Your bank raised its account fees two years ago without your explicit consent and now refuses to refund them, citing your \"tacit acceptance\". Write a formal objection to the bank (about 260 words): set out the facts with dates and amounts, state the legal basis and the ruling you rely on, demand the refund with a deadline, and announce the steps you will take if the bank does not comply.",
@@ -2830,6 +3305,659 @@
         "the evidence or experience you draw on",
         "the strongest objection, addressed",
         "a recommendation tied to conditions"
+      ]
+    },
+    "c2-open-letter-museum": {
+      "title": "An open letter to a museum director about the new exhibition",
+      "prompt": "The municipal museum has opened a new permanent exhibition on the city's history that leaves out its industrial past and relies on screens instead of objects. Write an open letter to the director, Frau Dr. Berger (about 280 words): assess the exhibition's concept, criticise two curatorial decisions with reasons, acknowledge what works, and propose concrete changes.",
+      "points": [
+        "the concept assessed",
+        "two decisions criticised with reasons",
+        "what works, acknowledged",
+        "concrete changes proposed"
+      ]
+    }
+  },
+  "path": {
+    "a1-01": {
+      "title": "Hello! My name is …",
+      "goal": "Greet people and say goodbye, introduce yourself, say where you are from and which languages you speak, and ask others the same.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "How do I introduce myself in German, formally and informally?",
+        "meeting a new colleague on your first day and introducing yourself"
+      ]
+    },
+    "a1-02": {
+      "title": "My family and me",
+      "goal": "Talk about your family and friends, say how old people are and what they do, and ask about someone's family.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "How do I talk about my family: names, ages and jobs?",
+        "showing a friend photos of your family"
+      ]
+    },
+    "a1-03": {
+      "title": "Enjoy your meal!",
+      "goal": "Order food and drink in a café or restaurant, say what you like, ask what something costs and pay.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-04": {
+      "title": "Shopping",
+      "goal": "Buy food and clothes, ask for sizes, colours and quantities, understand prices and say what you do not need.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-05": {
+      "title": "My day",
+      "goal": "Tell the time, describe your daily routine and your week, and make or change appointments.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "How do I describe my daily routine, from getting up to going to bed?"
+      ]
+    },
+    "a1-06": {
+      "title": "At home",
+      "goal": "Describe your flat and your furniture, say where things are and what you like about where you live, and understand a flat advertisement.",
+      "steps": [
+        null,
+        null,
+        null,
+        "asking a landlord questions about a flat you want to rent",
+        "How do I describe my flat and where the furniture is?"
+      ]
+    },
+    "a1-07": {
+      "title": "Out and about in town",
+      "goal": "Ask for and give directions, use buses, trains and taxis, and name the places in a town.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-08": {
+      "title": "Free time and meeting up",
+      "goal": "Talk about your hobbies, say what you can and want to do, invite someone and agree on a day and a time.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "How do I invite a friend and suggest a time and a place?"
+      ]
+    },
+    "a1-09": {
+      "title": "Health",
+      "goal": "Name the parts of the body, say what hurts, make a doctor's appointment and understand simple advice.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-10": {
+      "title": "Travel and weather",
+      "goal": "Buy a ticket, check in at a hotel, talk about the weather and say what you did on a trip, in the Perfekt.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-01": {
+      "title": "How was your weekend?",
+      "goal": "Tell what you did at the weekend or on holiday, say how it was, and ask others about their past.",
+      "steps": [
+        null,
+        null,
+        null,
+        "How do I tell a story about last weekend? Which past tense do I use when I speak?",
+        "telling a colleague on Monday morning about your weekend"
+      ]
+    },
+    "a2-02": {
+      "title": "Celebrations and invitations",
+      "goal": "Invite people, accept or decline an invitation, talk about presents and celebrations, and write an invitation.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "planning a surprise party with a friend"
+      ]
+    },
+    "a2-03": {
+      "title": "Living together",
+      "goal": "Describe your home and household, agree on rules with flatmates and neighbours, and ask the caretaker or landlord for something.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-04": {
+      "title": "Shopping and complaining",
+      "goal": "Compare products and prices, ask politely for help, exchange or return something and complain about a meal.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-05": {
+      "title": "Staying healthy",
+      "goal": "Describe symptoms, understand the doctor's instructions, talk about healthy living and excuse yourself when you are ill.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-06": {
+      "title": "Offices and services",
+      "goal": "Register at the citizens' office, send a parcel, report something lost, fill in a form and write a short formal message.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-07": {
+      "title": "Work and jobs",
+      "goal": "Talk about your job and working hours, say since when and for how long you have done something, and apply for a simple job.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "How do I talk about my job and say why I like it?"
+      ]
+    },
+    "a2-08": {
+      "title": "On the road and on holiday",
+      "goal": "Plan a trip, rent a bike or buy a ticket, describe a holiday and say what you will do next summer.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "asking at the tourist information what to see in a town"
+      ]
+    },
+    "a2-09": {
+      "title": "Learning and media",
+      "goal": "Talk about how you learn and which media you use, borrow a book, and say what you know, know how to do and are familiar with.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "What can I say when I don't understand something or need a word repeated?"
+      ]
+    },
+    "a2-10": {
+      "title": "People, feelings and looks",
+      "goal": "Describe people, their character and how they feel, explain why you like someone, and talk about your looks at the hairdresser's.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "telling a friend about a person you met and what they are like"
+      ]
+    },
+    "b1-01": {
+      "title": "Life stories",
+      "goal": "Tell your life story and other people's in the past tenses, talk about relationships and family life, and apologise in writing.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "catching up with an old school friend you have not seen for years"
+      ]
+    },
+    "b1-02": {
+      "title": "Work and career",
+      "goal": "Describe your job and your goals, call in sick, discuss working from home and give reasons and purposes.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-03": {
+      "title": "Housing and neighbours",
+      "goal": "Describe your home and neighbourhood in detail, understand the main points of a tenancy agreement, and link your sentences with relative clauses.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "a conversation with a neighbour about noise late at night",
+        "What are the most important words in a German tenancy agreement, and what do they mean?"
+      ]
+    },
+    "b1-04": {
+      "title": "Health and nutrition",
+      "goal": "Talk about healthy eating, sport and stress, describe symptoms precisely, and express contrast and concession.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "talking to a doctor about back pain from sitting at a desk"
+      ]
+    },
+    "b1-05": {
+      "title": "Consumption and contracts",
+      "goal": "Compare offers, understand advertising, cancel a contract, and complain about an order in a formal letter.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-06": {
+      "title": "Money and banking",
+      "goal": "Open an account, talk about saving and spending, and describe what is done with the passive.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Which verbs do I need to talk about money: pay, transfer, withdraw, save, borrow?"
+      ]
+    },
+    "b1-07": {
+      "title": "Mobility and travel",
+      "goal": "Deal with a car repair and a missed connection, complain at a hotel, and tell what happened before, during and after a trip.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-08": {
+      "title": "Media and the digital world",
+      "goal": "Talk about news, social media and screen time, say what you are waiting for and annoyed by, and give your opinion in a forum.",
+      "steps": [
+        null,
+        null,
+        null,
+        "a discussion with a friend about whether children should have smartphones",
+        "How do I give my opinion and agree or disagree politely in German?"
+      ]
+    },
+    "b1-09": {
+      "title": "Education and learning",
+      "goal": "Talk about school, training and your learning goals, write to your teacher, and express wishes and unreal conditions.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "What is the difference between lernen, studieren and üben?"
+      ]
+    },
+    "b1-10": {
+      "title": "Environment, festivals and society",
+      "goal": "Discuss the environment and everyday climate protection, describe festivals and traditions, and link your arguments with two-part connectors.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "explaining a festival from your country to a German friend",
+        "How do I say what I do for the environment in my everyday life?"
+      ]
+    },
+    "b2-01": {
+      "title": "The world of work and applications",
+      "goal": "Present yourself in a job interview, write an application, and talk about working conditions and what could have gone differently.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-02": {
+      "title": "Living in the city",
+      "goal": "View a flat, hand it back and discuss the deposit, compare city and countryside, and describe people and things with participles.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-03": {
+      "title": "Consumers and contracts",
+      "goal": "Complain about a bill, a delivery or a service by phone and in writing, and say what must, can or should be done with the passive.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-04": {
+      "title": "Technology and digitalisation",
+      "goal": "Report a fault, discuss the pros and cons of new technology, and argue your position in a forum post.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-05": {
+      "title": "Migration and living together",
+      "goal": "Handle an appointment at the immigration office, talk about migration, integration and identity, and give reasons with the prepositions that take the genitive.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "How do I talk about my experience of moving to a new country?"
+      ]
+    },
+    "b2-06": {
+      "title": "Society and politics",
+      "goal": "Follow a discussion on a social or political question, present arguments for and against, and refer precisely to what was said with relative clauses.",
+      "steps": [
+        null,
+        null,
+        null,
+        "a discussion with a neighbour about a new cycle lane in your street",
+        "How do I structure an argument in German: introduction, pros, cons, conclusion?"
+      ]
+    },
+    "b2-07": {
+      "title": "Climate and the environment",
+      "goal": "Discuss climate change and what individuals and governments can do, make assumptions about the future, and understand a report with figures.",
+      "steps": [
+        null,
+        null,
+        null,
+        "talking to a colleague about how your company could waste less",
+        "How do I describe a chart or statistics in German?"
+      ]
+    },
+    "b2-08": {
+      "title": "Psychology and personality",
+      "goal": "Describe character, feelings and behaviour, compare how things seem with how they are, and soften or sharpen what you say with modal particles.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "giving a friend advice about stress at work"
+      ]
+    },
+    "b2-09": {
+      "title": "Culture and science",
+      "goal": "Talk about books, films and exhibitions, explain a scientific finding in simple terms, and report what others said.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "recommending a film or a book to a friend and explaining why"
+      ]
+    },
+    "b2-10": {
+      "title": "Law and globalisation",
+      "goal": "Talk about rules, crime and justice, discuss globalisation and trade, and summarise a text clearly.",
+      "steps": [
+        null,
+        null,
+        null,
+        "reporting a bicycle theft at the police station",
+        "How do I write a clear summary of a text in German? Which phrases do I need?"
+      ]
+    },
+    "c1-01": {
+      "title": "Work and negotiation",
+      "goal": "Negotiate your salary, argue a position to management in writing, and move between nominal and verbal style.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-02": {
+      "title": "Housing and the law",
+      "goal": "Get advice on a rent increase, understand legal and administrative language, and shorten relative clauses into participle attributes.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "How do I read an official letter from a German authority? What do the typical phrases mean?"
+      ]
+    },
+    "c1-03": {
+      "title": "Politics and the media",
+      "goal": "Follow political debate and news analysis, report claims and assumptions with the subjective modal verbs, and write a letter to the editor.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-04": {
+      "title": "Research and science",
+      "goal": "Understand academic texts and talks, present findings and figures, and use the passive alternatives of scientific German.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "presenting the results of a survey to your team and taking questions"
+      ]
+    },
+    "c1-05": {
+      "title": "Environment and energy",
+      "goal": "Discuss energy policy and the environment with nuance, structure longer arguments with text connectors, and weigh up positions.",
+      "steps": [
+        null,
+        null,
+        null,
+        "a panel discussion on wind turbines near your village",
+        "How do I weigh up two positions and come to a conclusion in German?"
+      ]
+    },
+    "c1-06": {
+      "title": "Literature and the arts",
+      "goal": "Talk about literature, film and the arts, describe how something happened with participle clauses, and put the style and atmosphere of a work into words.",
+      "steps": [
+        null,
+        null,
+        null,
+        "discussing a novel at a book club",
+        "How do I describe the style and atmosphere of a book or film in German?"
+      ]
+    },
+    "c1-07": {
+      "title": "A changing society",
+      "goal": "Discuss demographic change and artificial intelligence, report what experts say, and explain complex connections clearly.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "a radio interview about how your profession will change with AI"
+      ]
+    },
+    "c1-08": {
+      "title": "Shaping the future",
+      "goal": "Discuss the future of transport, cities and the welfare state, present a proposal formally, and respond to objections.",
+      "steps": [
+        null,
+        null,
+        null,
+        "presenting a car-free city centre plan to a sceptical shop owner",
+        "How do I make a formal proposal in a meeting and respond to objections?"
+      ]
+    },
+    "c2-01": {
+      "title": "Science in public",
+      "goal": "Explain your own research to a journalist, distinguish near-synonyms precisely, and handle critical questions with ease.",
+      "steps": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-02": {
+      "title": "Negotiating and contracts",
+      "goal": "Negotiate a contract clause by clause, use the light-verb constructions of business German naturally, and object in writing to a decision.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-03": {
+      "title": "Authorities and objections",
+      "goal": "Lodge an objection at the tax office, read and write administrative German, and use the elevated prepositions of formal texts.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "How do I lodge a formal objection (Einspruch or Widerspruch), and which phrases does it need?"
+      ]
+    },
+    "c2-04": {
+      "title": "Register and style",
+      "goal": "Choose the right register for any situation, from a formal objection to a chat, and recognise and avoid a clash of styles.",
+      "steps": [
+        null,
+        null,
+        null,
+        "a conversation with an editor about the tone of your article",
+        "How do I make the same request in three registers: to a friend, a colleague and an authority?"
+      ]
+    },
+    "c2-05": {
+      "title": "Narrating and remembering",
+      "goal": "Tell and analyse stories, use the narrative tenses and free indirect speech, and discuss history and remembrance.",
+      "steps": [
+        null,
+        null,
+        null,
+        "a conversation with your grandmother's neighbour about how the town has changed since the 1960s"
+      ]
+    },
+    "c2-06": {
+      "title": "Arguing and rhetoric",
+      "goal": "Build a watertight argument, use 'es' as placeholder and correlate with precision, and write an expert statement.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Which rhetorical devices work in German speeches, and how do I use them without sounding pompous?"
+      ]
+    },
+    "c2-07": {
+      "title": "Art and criticism",
+      "goal": "Review an exhibition, a book or a performance, use the Nachfeld and extraposition for emphasis, and express fine shades of judgement.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "defending your harsh review to the director of the theatre"
+      ]
+    },
+    "c2-08": {
+      "title": "Philosophy and diplomacy",
+      "goal": "Discuss ethical questions and international relations with precision and tact, and weigh up arguments from several sources.",
+      "steps": [
+        null,
+        null,
+        null,
+        "mediating between two colleagues who disagree about a project",
+        "How do I disagree with someone diplomatically in German without sounding weak?"
       ]
     }
   }

@@ -90,6 +90,102 @@
         "Целая предложная группа занимает первое место; глагол идёт сразу за ней: lerne ich."
       ]
     },
+    "sein-haben-praesens": {
+      "title": "sein, haben и окончания настоящего времени",
+      "rule": "Большинство глаголов образуют настоящее время с помощью постоянных окончаний, которые присоединяются к основе: ich wohn-e, du wohn-st, er/sie/es wohn-t, wir wohn-en, ihr wohn-t, sie/Sie wohn-en. Два самых важных глагола — неправильные, и их нужно выучить наизусть: sein — ich bin, du bist, er ist, wir sind, ihr seid, sie sind; haben — ich habe, du hast, er hat, wir haben, ihr habt, sie haben. 'Sein' говорит о том, кто человек или какой он (Ich bin Lehrerin, ich bin müde), 'haben' — о том, что у него есть или что он чувствует (Ich habe ein Auto, ich habe Hunger). Вежливое 'Sie' всегда принимает форму множественного числа: Sie sind, Sie haben, Sie wohnen.",
+      "examples": [
+        "Я Ана, и я родом из Португалии.",
+        "Ты устал? — Нет, я хочу есть.",
+        "Мы живём в Гамбурге и работаем в банке.",
+        "У вас есть дети? — Да, у меня две дочери."
+      ],
+      "pitfalls": [
+        "В немецком голод, жажду, время и желание «имеют» (haben); 'sein' употребляется с возрастом, профессией и качествами.",
+        "'haben' — неправильный глагол: du hast, er/sie/es hat — b выпадает.",
+        "Вежливое 'Sie' всегда принимает форму множественного числа на -en: Sie kommen, Sie sind, Sie haben.",
+        "Форма 'sein' для ihr — 'seid' (с d); 'sind' относится к wir и sie."
+      ]
+    },
+    "w-fragen-ja-nein-fragen": {
+      "title": "W-Fragen и общие вопросы (да/нет)",
+      "rule": "W-Frage начинается с вопросительного слова, а глагол стоит на втором месте: Wo wohnst du? Was machen Sie? Главные вопросительные слова: wer (человек), was (предмет), wo (место), woher (происхождение), wohin (направление), wann (время), wie (образ действия, а также: Wie heißt du? Wie alt bist du? Wie viel kostet das?), warum (причина), welche/welcher/welches (выбор). Общий вопрос (да/нет) начинается с самого глагола, за ним идёт подлежащее: Wohnst du in Berlin? Sind Sie Frau Meier? Ответы: ja, nein — и 'doch', чтобы возразить на отрицательный вопрос: Kommst du nicht? — Doch!",
+      "examples": [
+        "Как тебя зовут и откуда ты?",
+        "Где ты живёшь? — В Кёльне, рядом с собором.",
+        "Вы говорите по-английски? — Да, немного.",
+        "Разве у тебя нет времени? — Почему же, время у меня есть."
+      ],
+      "pitfalls": [
+        "Глагол стоит сразу после вопросительного слова, затем идёт подлежащее: Wo wohnst du?",
+        "Общий вопрос начинается с глагола. Утверждение с вопросительным знаком — только разговорный вариант для удивлённого переспроса.",
+        "О происхождении спрашивают с помощью 'woher'; 'wo' спрашивает о месте, 'wohin' — о направлении.",
+        "На отрицательный вопрос отвечают 'doch', если ответ положительный."
+      ]
+    },
+    "artikel-nominativ-akkusativ": {
+      "title": "der, die, das: именительный и винительный падеж",
+      "rule": "У каждого существительного есть род: мужской der/ein, женский die/eine, средний das/ein; во множественном числе всегда die (и нет неопределённого артикля: Ich habe Kinder). Именительный падеж — для подлежащего, того, кто что-то делает: Der Kaffee ist heiß. Винительный — для прямого дополнения, того, что кто-то имеет, покупает, видит или хочет: Ich trinke den Kaffee. В винительном падеже меняется только артикль мужского рода: der → den, ein → einen; die, das, eine, ein остаются без изменений. Винительный также стоит после 'es gibt' и предлогов für, ohne, durch, gegen, um: Es gibt einen Park. Das ist für den Lehrer.",
+      "examples": [
+        "Чай холодный, но я всё равно выпью этот чай.",
+        "У меня есть брат и сестра.",
+        "Мы возьмём хлеб и помидоры.",
+        "Здесь есть супермаркет? — Да, за углом."
+      ],
+      "pitfalls": [
+        "'haben' требует винительного падежа; Hund — мужского рода, поэтому einen Hund.",
+        "Здесь der Mann — прямое дополнение (винительный падеж): der превращается в den.",
+        "Suppe — женского рода: die Suppe. Род указан в словаре, и его учат вместе со словом.",
+        "После 'für' всегда стоит винительный падеж: für meinen Vater."
+      ]
+    },
+    "possessivartikel": {
+      "title": "Притяжательные местоимения: mein, dein, sein, ihr …",
+      "rule": "Притяжательные местоимения говорят, кому что-то принадлежит: ich → mein, du → dein, er/es → sein, sie (единственное число) → ihr, wir → unser, ihr → euer, sie (множественное число) → ihr, Sie → Ihr. Они получают те же окончания, что 'ein' и 'kein': mein Bruder (мужской род), meine Schwester (женский род), mein Kind (средний род), meine Eltern (множественное число). В винительном падеже -en получает только мужской род: Ich sehe meinen Bruder. Само слово выбирается по владельцу, а окончание — по существительному: sein Auto (его машина), ihr Auto (её машина). 'euer' теряет второе e перед окончанием: eure Kinder.",
+      "examples": [
+        "Это моя мама, а это мой папа.",
+        "Как зовут твою сестру? — Её зовут Леа.",
+        "Петер ищет свой ключ.",
+        "Это ваши дети? — Да, наши дети уже большие."
+      ],
+      "pitfalls": [
+        "Окончание зависит от существительного: Bruder — мужского рода, поэтому mein Bruder без -e.",
+        "Владелица — Anna (она) → ihr; Hund в винительном падеже → ihren Hund.",
+        "В винительном падеже мужской род получает -en: deinen Vater.",
+        "Перед окончанием 'euer' теряет второе e: eure, euren, eurem."
+      ]
+    },
+    "pluralformen": {
+      "title": "Формы множественного числа: -e, -(e)n, -er, -s или без окончания",
+      "rule": "Во множественном числе артикль всегда 'die', а вот окончание существительного нужно учить вместе со словом. Пять моделей покрывают почти всё: -e, часто с умлаутом (der Tisch — die Tische, der Stuhl — die Stühle); -(e)n, типично для существительных женского рода (die Frau — die Frauen, die Lampe — die Lampen); -er, обычно с умлаутом, у коротких существительных среднего рода (das Kind — die Kinder, das Buch — die Bücher); -s у иностранных слов и слов на гласную (das Auto — die Autos, das Hotel — die Hotels); без окончания у существительных на -er, -el, -en, часто с умлаутом (der Lehrer — die Lehrer, der Apfel — die Äpfel). Существительные на -chen и -lein не меняются: das Mädchen — die Mädchen.",
+      "examples": [
+        "Мне нужны два стула и стол.",
+        "Дети читают книги.",
+        "Три яблока, четыре помидора и шесть яиц, пожалуйста.",
+        "Отели в городе дорогие."
+      ],
+      "pitfalls": [
+        "Kind образует множественное число с -er: die Kinder. Окончание -s в немецком встречается редко.",
+        "Существительные на -el часто не получают окончания, но получают умлаут: der Apfel — die Äpfel.",
+        "Слова на гласную и иностранные слова получают -s: Autos, Hotels, Handys.",
+        "Во множественном числе артикль всегда 'die', независимо от рода."
+      ]
+    },
+    "zeit-und-ortsangaben": {
+      "title": "Обозначения времени и места: um, am, im, von … bis; in, nach, zu, bei",
+      "rule": "Время: 'um' для времени по часам (um acht Uhr), 'am' для дней и частей суток (am Montag, am Morgen, am Wochenende — но: in der Nacht), 'im' для месяцев и времён года (im Mai, im Winter), 'von … bis' для промежутка (von neun bis fünf), 'ab' для начальной точки (ab morgen). Место, отвечает на вопрос 'wo?': 'in' для городов, стран и помещений (in Berlin, in der Küche), 'bei' для людей и фирм (bei meiner Oma, bei Siemens), 'zu Hause'. Направление, отвечает на вопрос 'wohin?': 'nach' для городов и стран без артикля и для 'nach Hause' (nach Wien, nach Hause), 'in' + винительный для стран с артиклем и для помещений (in die Schweiz, in die Küche), 'zu' + дательный для людей, магазинов и визитов (zum Arzt, zur Arbeit, zu Lisa).",
+      "examples": [
+        "Курс во вторник в половине седьмого.",
+        "В августе мы едем в Италию.",
+        "Я работаю с понедельника по пятницу в небольшой фирме.",
+        "Ты сегодня идёшь к врачу? — Нет, я остаюсь дома."
+      ],
+      "pitfalls": [
+        "Время по часам требует 'um'; 'am' сочетается с днями (am Montag) и частями суток (am Abend).",
+        "Города и страны без артикля требуют 'nach': nach Berlin, nach Spanien.",
+        "'nach Hause' — направление (куда?), 'zu Hause' — место (где?).",
+        "С людьми употребляется 'bei' (beim Arzt, bei Anna); 'in' — для помещений и мест (in der Praxis)."
+      ]
+    },
     "kennen-wissen-koennen": {
       "title": "kennen, wissen или können?",
       "rule": "'Kennen' значит быть знакомым с человеком, местом или предметом; требует прямого дополнения: Ich kenne die Stadt. 'Wissen' значит владеть информацией; после него чаще всего идут 'dass', 'ob', вопросительное слово или 'es/das', иначе — предмет (die Antwort): Ich weiß, dass er kommt. 'Können' — модальный глагол умения или возможности, обычно с инфинитивом: Ich kann schwimmen.",
@@ -300,6 +396,70 @@
         "Люди и приборы на -er в основном мужского рода: der Computer, der Drucker, der Fahrer.",
         "Окончание -e не указывает на род: das Ende, das Auge — среднего рода, die Lampe — женского, der Name — мужского. Учи артикль вместе со словом.",
         "Заимствования на -ion почти всегда женского рода: die Nation, die Information, die Diskussion."
+      ]
+    },
+    "personalpronomen-akkusativ-dativ": {
+      "title": "Личные местоимения в винительном и дательном падеже: mich/mir, dich/dir, ihn/ihm …",
+      "rule": "Именительный: ich, du, er, sie, es, wir, ihr, sie/Sie. Винительный (прямое дополнение; после für, ohne, um): mich, dich, ihn, sie, es, uns, euch, sie/Sie. Дательный (косвенное дополнение — кому?; после mit, bei, von, zu и после глаголов вроде helfen, gefallen, danken, gehören): mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. Обрати внимание: разные формы винительного и дательного есть только у ich, du и er/sie/es; uns и euch в обоих падежах одинаковы. Если в предложении два местоимения, винительный стоит перед дательным: Ich gebe es dir.",
+      "examples": [
+        "Ты можешь мне помочь? — Да, с удовольствием тебе помогу.",
+        "Я позвоню ему завтра и спрошу его.",
+        "Этот подарок для тебя. Тебе он нравится?",
+        "Мы благодарим вас за приглашение."
+      ],
+      "pitfalls": [
+        "'helfen' всегда требует дательного падежа: mir, dir, ihm, ihr, uns, euch, ihnen.",
+        "У 'lieben' прямое дополнение в винительном падеже: dich, ihn, sie, euch.",
+        "'gehören' требует дательного падежа: ihm, ihr, ihnen.",
+        "Два местоимения: винительный (es) перед дательным (dir)."
+      ]
+    },
+    "praeteritum-sein-haben-modalverben": {
+      "title": "Präteritum глаголов sein, haben и модальных глаголов: war, hatte, konnte",
+      "rule": "В устной речи о прошлом обычно рассказывают в Perfekt — кроме 'sein', 'haben' и модальных глаголов, которые даже в разговоре стоят в Präteritum. sein: ich war, du warst, er war, wir waren, ihr wart, sie waren. haben: ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten. Модальные глаголы теряют умлаут и получают -te: können → konnte, müssen → musste, dürfen → durfte, sollen → sollte, wollen → wollte, mögen → mochte; инфинитив уходит в конец предложения: Ich musste gestern arbeiten. Формы ich и er/sie/es в Präteritum не имеют окончания: ich war, er hatte, sie konnte.",
+      "examples": [
+        "Где ты был вчера? — Я болел, и у меня была температура.",
+        "Мы не смогли прийти, потому что у нас не было времени.",
+        "В детстве я хотел стать пилотом.",
+        "Тебе пришлось долго ждать, да?"
+      ],
+      "pitfalls": [
+        "Для sein и haben Präteritum — обычный выбор даже в разговоре; и глагол должен оставаться на втором месте.",
+        "'könnte' — это Konjunktiv II (вежливость, нереальность); прошедшее время — 'konnte' без умлаута.",
+        "Инфинитив уходит в конец предложения, в Präteritum тоже: musste … arbeiten.",
+        "er/sie/es в Präteritum не получает окончания: sie hatte, er war, es konnte."
+      ]
+    },
+    "hoefliche-bitten-konjunktiv-ii": {
+      "title": "Вежливые просьбы: Könnten Sie …? Würden Sie …? Ich hätte gern …",
+      "rule": "Вежливые просьбы и пожелания используют Konjunktiv II трёх глаголов: könnte (от können), hätte (от haben), würde (от werden) — плюс 'wäre' (от sein) и 'möchte'. 'Könnten Sie mir helfen?' вежливее, чем 'Können Sie mir helfen?'; 'Würden Sie bitte das Fenster schließen?' вежливее повелительного наклонения. При заказе и покупках: 'Ich hätte gern einen Kaffee', 'Ich möchte zwei Brötchen'. Формы: ich könnte, du könntest, er könnte, wir könnten, Sie könnten; ich hätte, du hättest, er hätte; ich würde, du würdest, er würde, wir würden. 'bitte' и 'gern' делают просьбу ещё дружелюбнее.",
+      "examples": [
+        "Не могли бы вы повторить, пожалуйста?",
+        "Я бы хотел килограмм яблок и две булочки.",
+        "Не поможете ли вы мне на минутку?",
+        "У вас было бы время в пятницу? — Было бы отлично."
+      ],
+      "pitfalls": [
+        "Заказ звучит как 'Ich hätte gern' (Konjunktiv II); 'Ich habe gern' значит «мне нравится».",
+        "Инфинитив уходит в конец: Könnten Sie mir helfen?",
+        "Тот, кто что-то получает, стоит в дательном падеже: mir.",
+        "'konnte' — прошедшее время; для вежливой просьбы нужно 'könnte' с умлаутом, а в вопросе глагол стоит первым."
+      ]
+    },
+    "dativ-verben-praepositionen": {
+      "title": "Дательный падеж: глаголы вроде helfen, gefallen, gehören и предлоги aus, bei, mit, nach, seit, von, zu",
+      "rule": "Дательный падеж отвечает на вопрос 'wem?' (кому?). Артикли в дательном: dem (мужской и средний род), der (женский род), den + -n (множественное число): mit dem Bus, bei der Arbeit, von den Kindern; неопределённые: einem, einer, einem; притяжательные: meinem, meiner, meinen. Некоторые глаголы всегда ставят лицо в дательный падеж: helfen, danken, gefallen, gehören, antworten, gratulieren, schmecken, passen, fehlen, wehtun: Das Kleid gefällt mir. Der Rücken tut ihm weh. А после предлогов aus, bei, mit, nach, seit, von, zu (а также gegenüber, ab) всегда стоит дательный: aus der Schweiz, seit einem Jahr, zu meiner Oma. Слияния: zum (zu dem), zur (zu der), beim (bei dem), vom (von dem).",
+      "examples": [
+        "Я езжу на работу на велосипеде.",
+        "Детям не нравится суп.",
+        "С днём рождения тебя! (Мы поздравляем тебя с днём рождения.)",
+        "Я уже месяц живу у тёти."
+      ],
+      "pitfalls": [
+        "'mit' всегда требует дательного падежа: der Bus → mit dem Bus. 'den' был бы винительным.",
+        "'gefallen' — глагол с дательным падежом: вещь нравится человеку (mir, dir, ihm).",
+        "'helfen' требует дательного падежа: ihrer Mutter, а не ihre Mutter.",
+        "После 'aus' стоит дательный падеж, а у Türkei есть артикль: aus der Türkei."
       ]
     },
     "als-wenn-wann": {
@@ -537,6 +697,69 @@
         "В немецком спрашивают через 'wie': Wie heißt du? Wie ist dein Name? 'Was' звучит как калька."
       ]
     },
+    "indirekte-fragen": {
+      "title": "Косвенные вопросы: Weißt du, wann der Zug fährt? Können Sie mir sagen, ob …?",
+      "rule": "Косвенный вопрос зависит от вводящей части вроде 'Weißt du, …', 'Können Sie mir sagen, …', 'Ich frage mich, …', 'Ich möchte wissen, …'. Это придаточное предложение: спрягаемый глагол уходит в конец. W-Frage становится придаточным с тем же вопросительным словом: Wann fährt der Zug? → Weißt du, wann der Zug fährt? Общий вопрос (да/нет) становится придаточным с 'ob': Kommt er? → Ich weiß nicht, ob er kommt. Косвенные вопросы звучат вежливее прямых и типичны у стойки, по телефону и в электронных письмах. Знак препинания зависит от главного предложения: вопросительный знак после 'Weißt du, …?', точка после 'Ich weiß nicht, ….'",
+      "examples": [
+        "Вы не подскажете, где вокзал?",
+        "Я не знаю, открыт ли магазин сегодня.",
+        "Ты знаешь, сколько стоит билет?",
+        "Я хотел бы знать, почему доставка ещё не пришла."
+      ],
+      "pitfalls": [
+        "Косвенный вопрос — придаточное предложение: глагол уходит в конец.",
+        "Косвенный общий вопрос вводится через 'ob'; 'wenn' значит «если (в случае)» или «когда (всякий раз)».",
+        "Вопрос (Hält der Bus hier?) требует 'ob'; 'dass' передаёт утверждение."
+      ]
+    },
+    "verben-mit-praepositionen-da-wo": {
+      "title": "Глаголы с предлогами и слова на da(r)-/wo(r)-: warten auf, darauf, worauf",
+      "rule": "У многих глаголов есть закреплённый предлог с закреплённым падежом, и учат его вместе с глаголом: warten auf + винительный, sich freuen auf (будущее) / über (настоящее) + винительный, denken an + винительный, sich interessieren für + винительный, sich ärgern über + винительный, sich kümmern um + винительный, sich bewerben um + винительный, teilnehmen an + дательный, sich beschäftigen mit + дательный, träumen von + дательный, Angst haben vor + дательный, fragen nach + дательный. О предмете спрашивают словом на wo(r)- и отвечают словом на da(r)-: Worauf wartest du? — Darauf. Wofür interessierst du dich? — Dafür. Буква r появляется, если предлог начинается с гласной (darauf, worüber, daran), иначе её нет (dafür, womit, davon). О человеке — предлог и местоимение сохраняются: Auf wen wartest du? — Auf ihn. Слово на da(r)- может также указывать на целое придаточное: Ich freue mich darauf, dass du kommst.",
+      "examples": [
+        "Я жду автобус уже час.",
+        "О чём вы говорили? — О новом фильме.",
+        "Ты интересуешься политикой? — Да, очень интересуюсь.",
+        "Я с нетерпением жду, когда мы скоро увидимся."
+      ],
+      "pitfalls": [
+        "'warten' сочетается с 'auf' + винительный, а не с 'für' (калька с английского 'wait for').",
+        "О предметах спрашивают словом на wo(r)-: worauf, womit, wofür. 'Auf was' — только разговорный вариант.",
+        "Местоимение, обозначающее предмет, сливается с предлогом в слово на da(r)-: daran, davon, damit.",
+        "'sich freuen auf' смотрит вперёд (предвкушение), 'sich freuen über' — о том, что уже есть."
+      ]
+    },
+    "zweiteilige-konnektoren": {
+      "title": "Двойные союзы: nicht nur … sondern auch, entweder … oder, weder … noch, zwar … aber, je … desto",
+      "rule": "Двойные союзы связывают две части предложения или два предложения и делают связь явной: nicht nur … sondern auch (добавление с усилением), sowohl … als auch (и то и другое), entweder … oder (один из двух вариантов), weder … noch (ни тот ни другой — уже отрицание, дополнительное 'nicht' не нужно), zwar … aber (уступка), je … desto/umso (две величины растут вместе). Порядок слов: 'sondern auch', 'aber' и 'oder' его не меняют; 'weder', 'zwar' и 'entweder' могут стоять на первом месте, тогда за ними идёт глагол; после 'je' идёт придаточное с глаголом в конце, после 'desto' сразу стоит сравнительная степень, а затем глагол: Je mehr ich übe, desto besser spreche ich.",
+      "examples": [
+        "Она говорит не только по-немецки, но и по-турецки и по-арабски.",
+        "Мы поедем либо на поезде, либо на автобусе.",
+        "У меня нет ни времени, ни желания.",
+        "Чем дольше я живу в Германии, тем лучше понимаю людей."
+      ],
+      "pitfalls": [
+        "'weder … noch' уже содержит отрицание; дополнительное 'nicht' — ошибка.",
+        "После 'desto' сначала идёт сравнительная степень, затем глагол, затем подлежащее.",
+        "'zwar' относится только к первой части; вторая часть начинается с 'aber'.",
+        "'nicht nur' продолжается через 'sondern auch', а не 'aber auch'."
+      ]
+    },
+    "passiv-praesens": {
+      "title": "Пассив в настоящем времени и в Präteritum: Das Brot wird gebacken, das Haus wurde gebaut",
+      "rule": "Пассив употребляется, когда действие важнее того, кто его совершает: In der Bäckerei wird das Brot morgens gebacken. Форма: werden (спрягаемый) + причастие II в конце предложения. Настоящее время: ich werde gefragt, du wirst gefragt, er/sie/es wird gefragt, wir werden gefragt, ihr werdet gefragt, sie werden gefragt. Präteritum: wurde, wurdest, wurde, wurden, wurdet, wurden: Das Haus wurde 1990 gebaut. Дополнение в винительном падеже из активного предложения становится подлежащим пассивного: Man repariert das Auto → Das Auto wird repariert. Исполнитель называется — если вообще называется — через 'von' + дательный: Das Auto wird von einem Mechaniker repariert. Без дополнения предложение открывает 'es' или обстоятельство: Hier wird nicht geraucht.",
+      "examples": [
+        "Счёт оплачивается в конце месяца.",
+        "Счёт был открыт вчера.",
+        "В Германии производится много автомобилей.",
+        "Посылки доставляются почтой."
+      ],
+      "pitfalls": [
+        "Процесс (кто-то его печёт) требует пассива с 'werden'; 'ist gebacken' описывает лишь готовое состояние.",
+        "'von' требует дательного падежа (von dem / vom Mechaniker), а причастие уходит в конец.",
+        "'werden' согласуется с подлежащим: die Häuser (множественное число) → wurden.",
+        "Подлежащее — 'keine Fotos' (множественное число): werden … gemacht."
+      ]
+    },
     "passiv-werden-sein": {
       "title": "Пассив с werden или sein?",
       "rule": "Пассив действия (Vorgangspassiv) 'werden' + причастие II описывает происходящее или произошедшее действие: Die Tür wird geschlossen (кто-то её закрывает). Пассив состояния (Zustandspassiv) 'sein' + причастие II описывает результат, состояние после действия: Die Tür ist geschlossen (она закрыта). Perfekt пассива действия — 'ist geschlossen worden'.",
@@ -565,6 +788,147 @@
       "pitfalls": [
         "Отправление произошло раньше прибытия: Plusquamperfekt с war.",
         "При Präteritum в главном предложении придаточное с 'nachdem' стоит в Plusquamperfekt."
+      ]
+    },
+    "konjunktiv-ii-vergangenheit": {
+      "title": "Konjunktiv II прошедшего времени: hätte … gemacht, wäre … gegangen",
+      "rule": "Для нереальных ситуаций в прошлом — того, что могло бы быть, но не случилось, — Konjunktiv II образуется с hätte или wäre + причастие II: Ich hätte dich angerufen. Wir wären gern gekommen. Выбор между hätte и wäre следует за Perfekt (habe gemacht → hätte gemacht; bin gegangen → wäre gegangen). Типичные случаи: нереальные условия (Wenn ich das gewusst hätte, wäre ich früher gegangen), желания (Hätte ich doch mehr gelernt!), упрёки и взгляд задним числом (Du hättest mich fragen können). С модальным глаголом в конце стоит двойной инфинитив, а в придаточном 'hätte' переходит перед него: …, weil ich hätte arbeiten müssen. Формы с 'würde' для прошедшего времени нет.",
+      "examples": [
+        "Если бы я это знал, я бы не пришёл.",
+        "Если бы я только раньше начал курс немецкого!",
+        "Ты мог бы мне позвонить.",
+        "Без твоей помощи мы бы никогда не нашли эту квартиру."
+      ],
+      "pitfalls": [
+        "После придаточного в начале главное предложение начинается с глагола: …, wäre ich gekommen.",
+        "'fahren' образует Perfekt с sein (ich bin gefahren), поэтому wäre gefahren.",
+        "Konjunktiv II прошедшего времени строится с hätte/wäre + причастие II, а не с 'würde'.",
+        "При двойном инфинитиве 'hätte' в придаточном стоит перед двумя инфинитивами."
+      ]
+    },
+    "irreale-vergleiche-als-ob": {
+      "title": "Нереальные сравнения: als ob, als wenn, als + Konjunktiv II",
+      "rule": "Нереальное сравнение описывает, как что-то выглядит, хотя на самом деле это не так: Er tut so, als ob er alles wüsste. После 'als ob' и 'als wenn' идёт придаточное с глаголом в конце в Konjunktiv II (wüsste, hätte, wäre, würde … machen; прошедшее: hätte … gemacht, wäre … gewesen). Короче и более книжно — одно 'als': тогда глагол идёт сразу за ним: Er tut so, als wüsste er alles. Типичные начала: so tun, als ob; es scheint, als ob; es sieht aus, als ob; sich fühlen, als ob; so klingen, als ob. Время Konjunktiv зависит от сравнения: одновременность → форма настоящего (als ob er krank wäre), предшествование → форма прошедшего (als ob er nie krank gewesen wäre).",
+      "examples": [
+        "Она ведёт себя так, как будто меня не знает.",
+        "Выглядит так, как будто дождь шёл всю ночь.",
+        "Он говорит так, как будто он начальник.",
+        "Я чувствую себя так, как будто не спал неделю."
+      ],
+      "pitfalls": [
+        "После 'als ob' глагол уходит в конец и ставится в Konjunktiv II: wäre.",
+        "При 'als' без 'ob' спрягаемый глагол стоит сразу после 'als'.",
+        "Нереальное сравнение — это 'als ob' (или 'als wenn', 'als'), никогда не 'wie ob'."
+      ]
+    },
+    "passiv-mit-modalverben": {
+      "title": "Пассив с модальными глаголами: muss repariert werden, konnte nicht geöffnet werden",
+      "rule": "С модальным глаголом пассив выглядит так: модальный глагол (спрягаемый) + причастие II + werden (инфинитив) в конце предложения: Das Auto muss repariert werden. Die Rechnung kann online bezahlt werden. В Präteritum меняется только модальный глагол: Die Tür konnte nicht geöffnet werden. В Perfekt появляется двойной инфинитив с haben: Die Rechnung hat bezahlt werden müssen — на практике вместо него почти всегда употребляют Präteritum. В придаточном модальный глагол уходит в самый конец: …, weil das Auto repariert werden muss. Вместо пассива с модальным глаголом можно также сказать: man muss … reparieren, … ist zu reparieren, … lässt sich reparieren.",
+      "examples": [
+        "Показания счётчика нужно снять до пятницы.",
+        "Посылку вчера не удалось доставить.",
+        "Жалобы можно подавать и по электронной почте.",
+        "Я звоню, потому что счёт нужно исправить."
+      ],
+      "pitfalls": [
+        "В конце сначала идёт причастие II, затем 'werden': repariert werden.",
+        "Имеется в виду действие (кто-то должен его заполнить): пассив действия с 'werden'. 'muss ausgefüllt sein' означало бы, что он должен быть в заполненном состоянии.",
+        "В придаточном спрягаемый модальный глагол уходит в самый конец.",
+        "После модального глагола стоит инфинитив 'werden', а не причастие."
+      ]
+    },
+    "partizip-i-ii-als-adjektiv": {
+      "title": "Partizip I и II как прилагательные: das weinende Kind, das reparierte Auto",
+      "rule": "Оба причастия могут стоять перед существительным и тогда склоняются как прилагательные. Partizip I (инфинитив + d: weinend, steigend, kommend) описывает то, что происходит сейчас, активно и одновременно: das weinende Kind (ребёнок, который плачет), die steigenden Mieten (арендная плата, которая растёт). Partizip II (gemacht, repariert, gebaut) описывает завершённое, обычно в пассивном значении: das reparierte Auto (машина, которую починили), die renovierte Wohnung. Окончания подчиняются правилам для прилагательных: mit dem lachenden Mann, ein frisch gestrichenes Zimmer. Только глаголы с Perfekt на sein образуют активное Partizip II: der angekommene Zug (поезд, который прибыл). Partizip I с 'zu' выражает необходимость или возможность: die zu zahlende Miete (арендная плата, которую нужно заплатить).",
+      "examples": [
+        "Растущая арендная плата — главная проблема города.",
+        "Мы посмотрели свежеотремонтированную квартиру с балконом.",
+        "Риелтор показал нам недавно построенный дом.",
+        "Пожалуйста, переведите залог, который нужно внести до понедельника."
+      ],
+      "pitfalls": [
+        "Для того, что происходит прямо сейчас, нужно Partizip I: weinen + d + окончание = weinende.",
+        "Машину починили (пассив, завершённость): Partizip II. 'reparierend' означало бы, что она сама что-то чинит.",
+        "Только глаголы с Perfekt на sein образуют активное Partizip II (der Gast ist gekommen); 'der gegessene Gast' был бы гостем, которого кто-то съел.",
+        "Причастия склоняются как прилагательные: после 'dem' окончание -en."
+      ]
+    },
+    "genitivpraepositionen": {
+      "title": "Предлоги с родительным падежом: wegen, trotz, während, innerhalb, aufgrund, anstelle",
+      "rule": "Некоторые предлоги в литературном немецком требуют родительного падежа: wegen (причина), trotz (несмотря на), während (продолжительность), innerhalb/außerhalb (пространство и время), aufgrund (причина, официально), anstelle/(an)statt (вместо), infolge (вследствие), mithilfe (с помощью), bezüglich/hinsichtlich (относительно, официально). Формы родительного падежа: des Wetters, der Arbeit, des Jahres, der Kinder — существительные мужского и среднего рода получают -s или -es в единственном числе. С местоимениями 'wegen mir' — разговорный вариант; на письме это meinetwegen, deinetwegen, seinetwegen, unseretwegen. В устной речи после wegen и trotz часто стоит дательный (wegen dem Regen); в письмах, на экзаменах и в отчётах действует родительный. Если существительное во множественном числе стоит без артикля, на помощь приходит 'von': wegen Bauarbeiten, innerhalb von zwei Wochen.",
+      "examples": [
+        "Из-за забастовки поезда сегодня не ходят.",
+        "Несмотря на долгое ожидание, приём прошёл успешно.",
+        "Во время учёбы она работала в кафе.",
+        "Заявление нужно подать в течение месяца."
+      ],
+      "pitfalls": [
+        "На письме и в официальной речи 'wegen' требует родительного падежа: des schlechten Wetters. Дательный — разговорный вариант.",
+        "Существительные мужского и среднего рода получают -s/-es в родительном единственного числа: des Regens.",
+        "Как предлог 'während' требует родительного падежа: während der Prüfung. (Как союз 'während' открывает придаточное: Während ich lerne, …)",
+        "Без артикля родительный множественного числа не виден; тогда употребляется 'innerhalb von' + дательный."
+      ]
+    },
+    "relativsaetze-praepositionen-wo-was": {
+      "title": "Относительные придаточные с предлогом, wo, was и wer: der Freund, mit dem …; alles, was …",
+      "rule": "Если глагол относительного придаточного требует предлога, предлог стоит перед относительным местоимением и задаёт падеж: der Freund, mit dem ich wohne (wohnen mit + дательный); die Firma, für die sie arbeitet (arbeiten für + винительный); das Thema, über das wir gesprochen haben. Для мест можно использовать 'wo' (местоположение), 'wohin' (направление) или 'woher' (происхождение): die Stadt, in der ich wohne = die Stadt, wo ich wohne; с названиями городов — только 'wo': Berlin, wo ich studiert habe. 'was' стоит после alles, nichts, etwas, vieles, das, после субстантивированной превосходной степени и после целого предложения: alles, was ich weiß; das Beste, was passieren konnte; Er kam zu spät, was mich geärgert hat. С предлогом это превращается в слово на wo(r)-: etwas, worauf ich mich freue. 'wer …, der …' без определяемого слова означает «каждый, кто»: Wer zu spät kommt, (der) bekommt keinen Platz.",
+      "examples": [
+        "Это коллега, с которым я веду проект.",
+        "Город, в котором я вырос, сильно изменился.",
+        "В этом предложении есть многое, что можно критиковать.",
+        "Кто не знает закона, тот не может его и соблюдать."
+      ],
+      "pitfalls": [
+        "Предлог и относительное местоимение стоят вместе в начале относительного придаточного: mit dem.",
+        "После 'alles', 'nichts', 'etwas' и 'das' относительное местоимение — 'was'.",
+        "Падеж задаёт предлог: 'für' + винительный → für die (Firma).",
+        "Если относительное придаточное относится ко всему предложению, употребляй 'was'."
+      ]
+    },
+    "modalpartikeln": {
+      "title": "Модальные частицы: doch, mal, ja, eben, halt, denn, eigentlich",
+      "rule": "Модальные частицы — маленькие безударные слова в середине предложения, которые придают ему оттенок отношения: они делают устный немецкий естественным и почти не поддаются переводу. 'doch': просьба или напоминание о чём-то известном (Komm doch mit! Das weißt du doch.); 'mal': делает просьбу непринуждённой (Kannst du mal kommen?); 'ja': что-то известно или удивляет (Das ist ja toll! Du weißt ja, wie er ist.); 'eben'/'halt': с этим придётся смириться (Dann müssen wir eben warten.); 'denn': делает вопрос дружелюбным и заинтересованным (Wie heißt du denn? Was ist denn los?); 'eigentlich': непринуждённый вопрос или оговорка (Wo wohnst du eigentlich? Eigentlich wollte ich früher gehen.); 'schon': успокаивает или уступает (Das wird schon klappen.); 'wohl': предположение (Er ist wohl krank.). Они стоят после глагола и местоимений, обычно перед дополнением, и почти исключительно в главных предложениях и вопросах, но не в официальных письмах.",
+      "examples": [
+        "Присаживайтесь же! Хотите кофе?",
+        "Что же случилось? Ты совсем бледный.",
+        "Ты не поможешь мне на секундочку?",
+        "Поезд ушёл. Значит, поедем на следующем."
+      ],
+      "pitfalls": [
+        "Модальные частицы стоят в середине предложения после глагола, никогда не на первом месте (там 'doch' было бы ударным возражением).",
+        "'doch mal' — разговорный стиль между знакомыми людьми; в официальном письме оно неуместно.",
+        "Дружелюбные вопросы требуют 'denn'; 'eben' выражает, что с чем-то приходится мириться."
+      ]
+    },
+    "konnektoren-indem-sodass-ohne-dass": {
+      "title": "Союзы способа, следствия и противоположного: indem, dadurch dass, sodass, ohne dass / ohne … zu, (an)statt dass / (an)statt … zu",
+      "rule": "Эти подчинительные союзы говорят, как что-то происходит и что из этого следует; спрягаемый глагол уходит в конец. Способ: 'indem' и 'dadurch, dass' (Sie lernt Vokabeln, indem sie Karten schreibt. — Как? Тем, что пишет карточки). Следствие: 'sodass' или 'so …, dass' (Es regnete stark, sodass das Fest ausfiel. Es regnete so stark, dass das Fest ausfiel). Ожидаемое не происходит: 'ohne dass' (Er ging, ohne dass jemand es merkte) — при одном и том же подлежащем короче 'ohne … zu' + инфинитив (Er ging, ohne sich zu verabschieden). Замена: '(an)statt dass' — при одном и том же подлежащем '(an)statt … zu' (Statt zu arbeiten, surft er im Internet). Так же устроены 'um … zu' (цель) и 'als dass' после 'zu + прилагательное' (Er ist zu müde, als dass er noch fahren könnte). 'ohne … zu' и 'statt … zu' работают только тогда, когда у обеих частей общее подлежащее.",
+      "examples": [
+        "Ты экономишь электричество, полностью выключая приборы.",
+        "Связь была такой плохой, что звонок оборвался.",
+        "Он установил обновление, не прочитав примечания.",
+        "Вместо того чтобы ответить, компания шлёт только автоматические письма."
+      ],
+      "pitfalls": [
+        "'indem' открывает придаточное: глагол уходит в конец.",
+        "Либо 'ohne dass' + спрягаемый глагол, либо 'ohne … zu' + инфинитив — не то и другое сразу.",
+        "После 'so + прилагательное' идёт 'dass'; 'sodass' употребляется, когда в главном предложении нет 'so': Es war kalt, sodass wir drinnen blieben.",
+        "В инфинитивном обороте 'zu + инфинитив' уходит в самый конец: statt uns zu helfen."
+      ]
+    },
+    "futur-vermutung": {
+      "title": "Предположения с Futur I и II: Er wird wohl krank sein. Sie wird den Zug verpasst haben.",
+      "rule": "'werden' + инфинитив (Futur I) выражает не только будущее, но часто и предположение о настоящем: Er wird wohl krank sein (= он, наверное, болен). Предположение о прошлом требует Futur II: werden + причастие II + haben/sein: Sie wird den Zug verpasst haben (= она, вероятно, опоздала на поезд). Er wird schon angekommen sein. Частицы вроде wohl, sicher, bestimmt, wahrscheinlich, vermutlich сигнализируют о предположении; 'wohl' — самая типичная. Futur II может также означать завершённое будущее: Bis Freitag werde ich den Bericht geschrieben haben. В придаточном 'werden' уходит в конец: …, weil er den Zug verpasst haben wird. Для простых высказываний о будущем с обстоятельством времени обычно достаточно настоящего времени: Morgen fahre ich nach Bonn.",
+      "examples": [
+        "Свет выключен — они, наверное, уже спят.",
+        "Автобуса ещё нет. Он, должно быть, застрял в пробке.",
+        "Ты не получил письмо? Значит, оно, скорее всего, попало в спам.",
+        "К 2030 году город завершит расширение."
+      ],
+      "pitfalls": [
+        "Предположение о прошлом требует Futur II: werden + причастие II + haben/sein.",
+        "Вспомогательный глагол следует за Perfekt: er ist angekommen → wird angekommen sein.",
+        "В придаточном спрягаемое 'werden' уходит в самый конец."
       ]
     },
     "nominalstil-verbalstil": {
@@ -648,6 +1012,38 @@
         "Если Konjunktiv I однозначен (sei), в официальной косвенной речи он имеет приоритет; 'wäre' может быть понято как сомнение в высказывании."
       ]
     },
+    "textkonnektoren-kohaerenz": {
+      "title": "Текстовые коннекторы: hingegen, allerdings, demnach, infolgedessen, zumal, wenngleich, gleichwohl, insofern",
+      "rule": "Длинные тексты и доклады скрепляют аргументацию коннекторами, выходящими за рамки 'aber', 'deshalb' и 'obwohl'. Противопоставление: hingegen, dagegen, demgegenüber (Die Stadt wächst, das Umland hingegen verliert Einwohner); оговорка: allerdings, jedoch, freilich, gleichwohl (… ist allerdings teuer); следствие/вывод: demnach, demzufolge, infolgedessen, mithin, somit (Demnach ist der Vorschlag abzulehnen); дополнительная, особенно весомая причина: zumal (…, zumal die Kosten steigen); уступка: wenngleich, obgleich, obschon (Wenngleich der Plan teuer ist, …); условие/отношение: insofern (als), sofern (Das stimmt insofern, als …). Порядок слов: hingegen, allerdings, jedoch, demnach, infolgedessen, somit — наречия: они занимают первое место (за ними идёт глагол) или стоят в середине предложения; zumal, wenngleich, obgleich, sofern, insofern als открывают придаточные (глагол в конце). Используй их умеренно: одного коннектора на предложение достаточно, а 'hingegen' и 'jedoch' любят стоять после ударного элемента.",
+      "examples": [
+        "Промышленность требует снизить цены на энергию; экологические объединения, напротив, призывают быстрее отказаться от угля.",
+        "Развивать ветроэнергетику имеет смысл, тем более что за последние годы технология значительно подешевела.",
+        "В исследовании есть методологические изъяны; следовательно, его результаты надёжны лишь отчасти.",
+        "Хотя в краткосрочной перспективе мера требует затрат, в долгосрочной она окупается."
+      ],
+      "pitfalls": [
+        "'hingegen' — наречие: оно стоит после ударного элемента или занимает первое место, и тогда за ним идёт глагол (Hingegen verliert das Umland …); это не союз, который ставится перед подлежащим.",
+        "'zumal' открывает придаточное: глагол уходит в конец.",
+        "'insofern' выражает не причину, а отношение или условие ('insofern, als …'); для причины нужны 'da' или 'weil'.",
+        "Два ограничительных коннектора рядом избыточны; достаточно одного."
+      ]
+    },
+    "partizipialsaetze": {
+      "title": "Причастные обороты: In Berlin angekommen, …; Lächelnd betrat sie den Saal.",
+      "rule": "Причастный оборот сокращает придаточное до причастия с его зависимыми словами; у него нет собственного подлежащего — оно общее с главным предложением — и он выделяется запятыми. Partizip I выражает одновременность: Laut singend fuhr er durch die Stadt (= пока он громко пел). Partizip II выражает предшествование или пассив: In Berlin angekommen, suchte sie zuerst ein Hotel (= после того как она приехала); Von allen Seiten kritisiert, zog der Minister den Entwurf zurück (= после того как его раскритиковали). Причастие стоит в конце своей группы. Устойчивые обороты: genau genommen, streng genommen, ehrlich gesagt, offen gestanden, grob geschätzt, verglichen mit, abgesehen von, vorausgesetzt (, dass). Стиль письменный и книжный: газеты, литература, отчёты; в разговоре вместо этого употребляется придаточное.",
+      "examples": [
+        "Воодушевлённая успехом первого романа, она сразу взялась за второй.",
+        "Устремив взгляд на море, старик часами сидел у окна.",
+        "Строго говоря, это не рецензия, а эссе.",
+        "По сравнению с предшественником продолжение кажется тихим и созерцательным."
+      ],
+      "pitfalls": [
+        "Причастному обороту нужно то же подлежащее, что и главному предложению; 'es' (regnete) в Berlin не приезжало.",
+        "Причастие замыкает свою группу: зависимые слова стоят перед ним.",
+        "Одновременно и активно: Partizip I (singend). Partizip II означало бы, что спели его самого.",
+        "Устойчивый оборот — 'ehrlich gesagt' (Partizip II); так же offen gestanden, genau genommen."
+      ]
+    },
     "paronyme-scheinbar-anscheinend": {
       "title": "Паронимы: scheinbar или anscheinend, effektiv или effizient?",
       "rule": "Паронимы — это похожие по звучанию слова с разным значением, которые путают даже носители языка. 'anscheinend' выражает предположение, которое, вероятно, соответствует действительности (по всей видимости); 'scheinbar' говорит, что нечто лишь выглядит так, а в действительности обстоит иначе: 'Er ist anscheinend krank' (вероятно) в противоположность 'Sein Interesse war nur scheinbar' (притворный). Другие пары: effektiv (результативный, достигающий цели) и effizient (эффективный, с малыми затратами); formal (относящийся к форме) и formell (официальный, по правилам); rational (разумный) и rationell (экономный, целесообразный); kindlich (детский, нейтрально) и kindisch (ребяческий, пренебрежительно); sensibel (чувствительный, ранимый) и sensitiv (технический термин: реагирующий на малейшие изменения). В случае сомнений помогает проверка противопоставлением: 'scheinbar' допускает продолжение 'aber in Wirklichkeit', 'anscheinend' — нет.",
@@ -723,6 +1119,38 @@
         "'laut' и 'zufolge' означают одно и то же; достаточно одного. 'zufolge' ставится после существительного и требует дательного падежа.",
         "'ungeachtet' требует родительного падежа: ungeachtet der Proteste.",
         "'gemäß' требует дательного падежа, хотя и звучит официально; родительный — распространённая гиперкоррекция."
+      ]
+    },
+    "es-als-platzhalter-korrelat": {
+      "title": "'es' как заполнитель и коррелят: Es wurde viel gelacht. Ich halte es für geboten, dass …",
+      "rule": "Помимо местоимения (Das Buch? Ich habe es gelesen) и закреплённого 'es' безличных глаголов (es regnet, es gibt, es geht um, es handelt sich um, mir ist es kalt), у 'es' есть две функции, которые отличают точную прозу. Во-первых, заполнитель на первом месте: оно занимает начальную позицию, когда подлежащее нужно отодвинуть назад для весомости — Es wurde viel gelacht. Es kamen mehr Gäste als erwartet. Es bleibt die Frage, ob … Как только первым становится другой элемент, это 'es' бесследно исчезает: Gestern wurde viel gelacht. С глаголом оно не согласуется: Es kamen (множественное число!) mehr Gäste. Во-вторых, коррелят, предваряющий придаточное или инфинитивный оборот: Ich halte es für geboten, dass …; Sie hat es abgelehnt, den Vertrag zu unterschreiben; Es freut mich, dass … С глаголами вроде bedauern, ablehnen, begrüßen, vermeiden, es für richtig halten коррелят в середине предложения обязателен (Ich bedaure es, dass …); с другими (wissen, glauben, sagen) его нет: Ich weiß, dass … (не: Ich weiß es, dass …). Коррелят 'es' в начальной позиции исчезает, когда само придаточное выходит вперёд: Dass er absagt, überrascht mich — не: Dass er absagt, es überrascht mich.",
+      "examples": [
+        "Переговоры продолжались до поздней ночи, но к соглашению так и не пришли.",
+        "Возражений поступило гораздо больше, чем ожидало правление.",
+        "Совет считает необходимым отложить решение.",
+        "То, что исследование так и не опубликовали, многое объясняет."
+      ],
+      "pitfalls": [
+        "Заполнитель 'es' существует только на первом месте; когда там стоит что-то другое, оно исчезает.",
+        "Заполнитель 'es' — не подлежащее; глагол согласуется с 'mehr Gäste' (множественное число).",
+        "С wissen, glauben, sagen, hoffen перед придаточным с dass коррелят не ставится.",
+        "Когда придаточное стоит первым, оно само занимает начальную позицию; лишнее 'es' стало бы вторым элементом перед глаголом."
+      ]
+    },
+    "nachfeld-ausklammerung": {
+      "title": "Nachfeld и вынесение за глагольную рамку: …, als wir dachten. Er hat lange gewartet – auf eine Antwort, die nie kam.",
+      "rule": "Немецкое предложение — это рамка: спрягаемый глагол и остальная часть сказуемого (причастие, инфинитив, приставка) обрамляют середину предложения — Er hat … gewartet. Всё, что стоит после правой части рамки, находится в Nachfeld. Придаточные и инфинитивные обороты находятся там по своей природе (Er hat versprochen, dass er kommt), как и сравнения с 'als' и 'wie' (Es ist später geworden, als wir dachten) и добавления задним числом (Sie hat alles verkauft, sogar die Bücher). Вынесение за рамку означает намеренно поставить после рамки элемент, который мог бы стоять и внутри неё: Er hat lange gewartet – auf eine Antwort, die nie kam. Оно облегчает длинные или тяжёлые элементы (особенно предложные группы с относительным придаточным), подчёркивает вынесенное и делает рамку короткой, чтобы слушатель не добирался до глагола лишь после двадцати слов. За рамку не выносятся: одиночное дополнение в винительном падеже, местоимения и короткие наречия — 'Er hat gelesen das Buch' неверно даже в устной речи. В административной и научной прозе норма — закрытая рамка; в речах, журналистике и литературе намеренное вынесение за рамку — стилистический приём: намеренный, а не привычка.",
+      "examples": [
+        "Выставка стала больше, чем когда-либо планировали её кураторы.",
+        "Режиссёр два часа рассказывал — о детстве, о котором никогда бы не догадаться.",
+        "Она продала всё, даже бабушкино пианино.",
+        "Я читал рецензию — с растущим беспокойством."
+      ],
+      "pitfalls": [
+        "Одиночное дополнение в винительном падеже остаётся внутри рамки; за рамку выносятся тяжёлые предложные группы, сравнения и добавления задним числом.",
+        "Сравнение с 'als' относится к Nachfeld и стоит после причастия.",
+        "Местоименные наречия (darauf, damit) и местоимения за рамку не выносятся.",
+        "В официальном письме норма — закрытая рамка; тире с добавлением задним числом — приём для речей и страниц о культуре."
       ]
     }
   },
@@ -2720,6 +3148,15 @@
         "спросить про завтрак"
       ]
     },
+    "a1-postcard-holiday": {
+      "title": "Открытка из отпуска",
+      "prompt": "Напиши открытку своему другу Tom из отпуска на море: напиши, где ты, какая погода и что ты делаешь целый день.",
+      "points": [
+        "где ты",
+        "погода",
+        "что ты делаешь целый день"
+      ]
+    },
     "a2-birthday": {
       "title": "Приглашение на день рождения",
       "prompt": "Напиши короткое электронное письмо другу: пригласи его на свой день рождения в субботу. Напиши, когда начинается праздник, где он будет и что принести с собой. 30–40 слов.",
@@ -2745,6 +3182,15 @@
         "описать квартиру",
         "что тебе нравится",
         "пригласить его"
+      ]
+    },
+    "a2-heating-broken": {
+      "title": "Отопление не работает",
+      "prompt": "Напиши короткое официальное сообщение своему арендодателю Herr Krause: отопление в твоей квартире не работает с понедельника. Напиши, в чём проблема и с каких пор, попроси его поскорее прислать мастера и укажи, когда ты бываешь дома.",
+      "points": [
+        "проблема и с каких пор",
+        "попросить прислать мастера",
+        "когда ты дома"
       ]
     },
     "b1-missed-party": {
@@ -2774,6 +3220,15 @@
         "пример"
       ]
     },
+    "b1-complaint-online-order": {
+      "title": "Жалоба на онлайн-заказ",
+      "prompt": "Твой заказ из интернет-магазина — лампа (номер заказа 48213) — пришёл через три недели, и стекло разбито. Напиши официальное электронное письмо в магазин: опиши проблему, напиши, чего ты хочешь (замену или возврат денег), и спроси, как отправить лампу обратно.",
+      "points": [
+        "описать проблему",
+        "чего ты хочешь",
+        "спросить, как отправить обратно"
+      ]
+    },
     "b2-course-complaint": {
       "title": "Жалоба в языковую школу",
       "prompt": "Напиши официальную жалобу (около 150 слов) в языковую школу: на твоём курсе три занятия прошли без преподавателя. Опиши, что произошло, напиши, каких действий ты ждёшь от школы, и установи срок для ответа.",
@@ -2790,6 +3245,16 @@
         "почему тебе интересно",
         "твой опыт",
         "когда ты можешь начать"
+      ]
+    },
+    "b2-forum-smartphones-school": {
+      "title": "Пост на форуме: смартфоны в школе",
+      "prompt": "На онлайн-форуме родители обсуждают, нужно ли запретить смартфоны в школах. Напиши пост (около 170 слов): вырази своё мнение, приведи аргументы за и против, опиши случай из собственного опыта и внеси предложение.",
+      "points": [
+        "твоё мнение",
+        "аргументы за и против",
+        "случай из собственного опыта",
+        "предложение"
       ]
     },
     "c1-letter-to-editor": {
@@ -2812,6 +3277,16 @@
         "просьба о встрече"
       ]
     },
+    "c1-graph-commuting": {
+      "title": "Отчёт о статистике поездок на работу",
+      "prompt": "Руководительница твоего отдела Frau Dr. Neumann попросила тебя обобщить результаты опроса для городского отчёта о мобильности. Данные: в 2015 году 61 % работающих ездили на работу на машине, 22 % пользовались общественным транспортом и 9 % ездили на велосипеде; в 2025 году доли составили 48 %, 29 % и 17 %; средняя дорога на работу выросла с 16 до 19 км. Напиши ей официальное электронное письмо (около 230 слов): опиши основные изменения, сравни цифры, назови возможные причины и порекомендуй городу одну меру.",
+      "points": [
+        "описание основных изменений",
+        "сравнение цифр",
+        "возможные причины",
+        "рекомендация одной меры"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "Претензия в банк по поводу неправомерной платы за ведение счёта",
       "prompt": "Твой банк два года назад повысил плату за ведение счёта без твоего явного согласия, а теперь отказывается её возвращать, ссылаясь на твоё «молчаливое согласие». Напиши официальную претензию в банк (около 260 слов): изложи обстоятельства дела с датами и суммами, укажи правовое основание и судебное решение, на которое ты ссылаешься, потребуй возврата денег с указанием срока и сообщи, какие шаги ты предпримешь, если банк не выполнит требование.",
@@ -2830,6 +3305,659 @@
         "данные или опыт, на которые ты опираешься",
         "самое весомое возражение и ответ на него",
         "рекомендация, увязанная с условиями"
+      ]
+    },
+    "c2-open-letter-museum": {
+      "title": "Открытое письмо директору музея о новой выставке",
+      "prompt": "Городской музей открыл новую постоянную экспозицию по истории города, которая обходит стороной его индустриальное прошлое и опирается на экраны вместо экспонатов. Напиши открытое письмо директору, Frau Dr. Berger (около 280 слов): оцени концепцию выставки, аргументированно раскритикуй два кураторских решения, отметь то, что удалось, и предложи конкретные изменения.",
+      "points": [
+        "оценка концепции",
+        "два решения, раскритикованные с обоснованием",
+        "признание того, что удалось",
+        "предложение конкретных изменений"
+      ]
+    }
+  },
+  "path": {
+    "a1-01": {
+      "title": "Привет! Меня зовут …",
+      "goal": "Здороваться и прощаться, представляться, говорить, откуда ты и на каких языках говоришь, и спрашивать о том же других.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Как представиться по-немецки официально и неофициально?",
+        "знакомство с новым коллегой в первый рабочий день"
+      ]
+    },
+    "a1-02": {
+      "title": "Моя семья и я",
+      "goal": "Рассказывать о своей семье и друзьях, говорить, сколько кому лет и чем они занимаются, и расспрашивать о чужой семье.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Как рассказать о своей семье: имена, возраст и профессии?",
+        "показ другу фотографий своей семьи"
+      ]
+    },
+    "a1-03": {
+      "title": "Приятного аппетита!",
+      "goal": "Заказывать еду и напитки в кафе или ресторане, говорить, что тебе нравится, спрашивать, сколько что стоит, и расплачиваться.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-04": {
+      "title": "Покупки",
+      "goal": "Покупать продукты и одежду, спрашивать о размерах, цветах и количестве, понимать цены и говорить, что тебе не нужно.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-05": {
+      "title": "Мой день",
+      "goal": "Называть время, описывать свой распорядок дня и свою неделю, договариваться о встречах и переносить их.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Как описать свой распорядок дня — от подъёма до отхода ко сну?"
+      ]
+    },
+    "a1-06": {
+      "title": "Дома",
+      "goal": "Описывать свою квартиру и мебель, говорить, где что стоит и что тебе нравится в твоём жилье, и понимать объявление о сдаче квартиры.",
+      "steps": [
+        null,
+        null,
+        null,
+        "вопросы арендодателю о квартире, которую ты хочешь снять",
+        "Как описать свою квартиру и где стоит мебель?"
+      ]
+    },
+    "a1-07": {
+      "title": "По городу",
+      "goal": "Спрашивать и объяснять дорогу, пользоваться автобусами, поездами и такси и называть места в городе.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-08": {
+      "title": "Свободное время и встречи",
+      "goal": "Рассказывать о своих хобби, говорить, что ты умеешь и хочешь делать, приглашать кого-нибудь и договариваться о дне и времени.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Как пригласить друга и предложить время и место?"
+      ]
+    },
+    "a1-09": {
+      "title": "Здоровье",
+      "goal": "Называть части тела, говорить, что болит, записываться к врачу и понимать простые советы.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a1-10": {
+      "title": "Путешествия и погода",
+      "goal": "Покупать билет, заселяться в отель, говорить о погоде и рассказывать в Perfekt, что ты делал в поездке.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-01": {
+      "title": "Как прошли выходные?",
+      "goal": "Рассказывать, что ты делал на выходных или в отпуске, говорить, как всё прошло, и расспрашивать других об их прошлом.",
+      "steps": [
+        null,
+        null,
+        null,
+        "Как рассказать о прошлых выходных? Какое прошедшее время использовать в устной речи?",
+        "рассказ коллеге в понедельник утром о своих выходных"
+      ]
+    },
+    "a2-02": {
+      "title": "Праздники и приглашения",
+      "goal": "Приглашать людей, принимать или отклонять приглашение, говорить о подарках и праздниках и писать приглашение.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "планирование вечеринки-сюрприза вместе с другом"
+      ]
+    },
+    "a2-03": {
+      "title": "Жизнь под одной крышей",
+      "goal": "Описывать свой дом и быт, договариваться о правилах с соседями по квартире и по дому и обращаться с просьбой к управляющему или арендодателю.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-04": {
+      "title": "Покупки и претензии",
+      "goal": "Сравнивать товары и цены, вежливо просить о помощи, обменивать или возвращать покупку и жаловаться на блюдо в ресторане.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-05": {
+      "title": "Беречь здоровье",
+      "goal": "Описывать симптомы, понимать указания врача, говорить о здоровом образе жизни и извиняться за отсутствие по болезни.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-06": {
+      "title": "Учреждения и услуги",
+      "goal": "Регистрироваться в ведомстве по делам граждан, отправлять посылку, заявлять о пропаже, заполнять формуляр и писать короткое официальное сообщение.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "a2-07": {
+      "title": "Работа и профессии",
+      "goal": "Рассказывать о своей работе и рабочем времени, говорить, с каких пор и как долго ты чем-то занимаешься, и откликаться на простую вакансию.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Как рассказать о своей работе и объяснить, почему она мне нравится?"
+      ]
+    },
+    "a2-08": {
+      "title": "В дороге и в отпуске",
+      "goal": "Планировать поездку, брать напрокат велосипед или покупать билет, описывать отпуск и рассказывать, что ты будешь делать следующим летом.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "вопросы в туристическом бюро о том, что посмотреть в городе"
+      ]
+    },
+    "a2-09": {
+      "title": "Учёба и медиа",
+      "goal": "Рассказывать, как ты учишься и какими медиа пользуешься, брать книгу в библиотеке и говорить, что ты знаешь, что умеешь и с чем знаком.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Что сказать, если я чего-то не понимаю или нужно, чтобы слово повторили?"
+      ]
+    },
+    "a2-10": {
+      "title": "Люди, чувства и внешность",
+      "goal": "Описывать людей, их характер и настроение, объяснять, почему тебе кто-то нравится, и говорить о своей внешности в парикмахерской.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "рассказ другу о человеке, с которым ты познакомился, и о том, какой он"
+      ]
+    },
+    "b1-01": {
+      "title": "Истории жизни",
+      "goal": "Рассказывать свою биографию и истории других людей в прошедших временах, говорить об отношениях и семейной жизни и извиняться письменно.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "встреча со старым школьным другом, которого ты не видел много лет"
+      ]
+    },
+    "b1-02": {
+      "title": "Работа и карьера",
+      "goal": "Описывать свою работу и цели, сообщать на работу о болезни, обсуждать работу из дома и объяснять причины и цели.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-03": {
+      "title": "Жильё и соседи",
+      "goal": "Подробно описывать своё жильё и район, понимать основные пункты договора аренды и связывать предложения относительными придаточными.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "разговор с соседом о шуме поздно вечером",
+        "Какие самые важные слова в немецком договоре аренды и что они значат?"
+      ]
+    },
+    "b1-04": {
+      "title": "Здоровье и питание",
+      "goal": "Говорить о здоровом питании, спорте и стрессе, точно описывать симптомы и выражать противопоставление и уступку.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "разговор с врачом о боли в спине от сидячей работы"
+      ]
+    },
+    "b1-05": {
+      "title": "Потребление и договоры",
+      "goal": "Сравнивать предложения, понимать рекламу, расторгать договор и жаловаться на заказ в официальном письме.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-06": {
+      "title": "Деньги и банк",
+      "goal": "Открывать счёт, говорить о сбережениях и тратах и описывать с помощью пассива, что делается.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Какие глаголы нужны, чтобы говорить о деньгах: платить, переводить, снимать, копить, брать в долг?"
+      ]
+    },
+    "b1-07": {
+      "title": "Мобильность и путешествия",
+      "goal": "Справляться с ремонтом машины и пропущенной пересадкой, жаловаться в отеле и рассказывать, что случилось до, во время и после поездки.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b1-08": {
+      "title": "Медиа и цифровой мир",
+      "goal": "Говорить о новостях, соцсетях и экранном времени, говорить, чего ты ждёшь и что тебя раздражает, и высказывать своё мнение на форуме.",
+      "steps": [
+        null,
+        null,
+        null,
+        "спор с другом о том, нужны ли детям смартфоны",
+        "Как высказать своё мнение и вежливо согласиться или не согласиться по-немецки?"
+      ]
+    },
+    "b1-09": {
+      "title": "Образование и учёба",
+      "goal": "Говорить о школе, профессиональном обучении и своих учебных целях, писать преподавателю и выражать желания и нереальные условия.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "В чём разница между lernen, studieren и üben?"
+      ]
+    },
+    "b1-10": {
+      "title": "Экология, праздники и общество",
+      "goal": "Обсуждать экологию и защиту климата в повседневной жизни, описывать праздники и традиции и связывать аргументы двойными союзами.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "рассказ немецкому другу о празднике из твоей страны",
+        "Как рассказать, что я делаю для окружающей среды в повседневной жизни?"
+      ]
+    },
+    "b2-01": {
+      "title": "Мир труда и поиск работы",
+      "goal": "Представлять себя на собеседовании, писать заявление о приёме на работу, говорить об условиях труда и о том, что могло бы сложиться иначе.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-02": {
+      "title": "Жизнь в городе",
+      "goal": "Осматривать квартиру, сдавать её при выезде и обсуждать залог, сравнивать город и деревню и описывать людей и предметы с помощью причастий.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-03": {
+      "title": "Потребители и договоры",
+      "goal": "Жаловаться на счёт, доставку или услугу по телефону и письменно и говорить с помощью пассива, что должно, может или следует быть сделано.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-04": {
+      "title": "Технологии и цифровизация",
+      "goal": "Сообщать о неисправности, обсуждать плюсы и минусы новых технологий и отстаивать свою позицию в посте на форуме.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "b2-05": {
+      "title": "Миграция и совместная жизнь",
+      "goal": "Справляться с приёмом в ведомстве по делам иностранцев, говорить о миграции, интеграции и идентичности и обосновывать с помощью предлогов с родительным падежом.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Как рассказать о своём опыте переезда в другую страну?"
+      ]
+    },
+    "b2-06": {
+      "title": "Общество и политика",
+      "goal": "Следить за дискуссией на общественную или политическую тему, приводить аргументы за и против и точно отсылать к сказанному с помощью относительных придаточных.",
+      "steps": [
+        null,
+        null,
+        null,
+        "спор с соседом о новой велодорожке на твоей улице",
+        "Как построить аргументацию по-немецки: введение, за, против, вывод?"
+      ]
+    },
+    "b2-07": {
+      "title": "Климат и окружающая среда",
+      "goal": "Обсуждать изменение климата и то, что могут сделать отдельные люди и правительства, строить предположения о будущем и понимать отчёт с цифрами.",
+      "steps": [
+        null,
+        null,
+        null,
+        "разговор с коллегой о том, как твоей компании меньше расходовать впустую",
+        "Как описать график или статистику по-немецки?"
+      ]
+    },
+    "b2-08": {
+      "title": "Психология и личность",
+      "goal": "Описывать характер, чувства и поведение, сопоставлять, как что-то выглядит и как обстоит на самом деле, и смягчать или заострять сказанное модальными частицами.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "совет другу, как справиться со стрессом на работе"
+      ]
+    },
+    "b2-09": {
+      "title": "Культура и наука",
+      "goal": "Говорить о книгах, фильмах и выставках, простыми словами объяснять научное открытие и передавать чужие слова.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "рекомендация другу фильма или книги с объяснением, почему"
+      ]
+    },
+    "b2-10": {
+      "title": "Право и глобализация",
+      "goal": "Говорить о правилах, преступности и правосудии, обсуждать глобализацию и торговлю и чётко резюмировать текст.",
+      "steps": [
+        null,
+        null,
+        null,
+        "заявление о краже велосипеда в полицейском участке",
+        "Как написать чёткое резюме текста по-немецки? Какие фразы для этого нужны?"
+      ]
+    },
+    "c1-01": {
+      "title": "Работа и переговоры",
+      "goal": "Вести переговоры о зарплате, письменно отстаивать позицию перед руководством и переключаться между номинальным и глагольным стилем.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-02": {
+      "title": "Жильё и закон",
+      "goal": "Получать консультацию по поводу повышения арендной платы, понимать юридический и административный язык и сворачивать относительные придаточные в причастные определения.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Как читать официальное письмо из немецкого ведомства? Что значат типичные формулировки?"
+      ]
+    },
+    "c1-03": {
+      "title": "Политика и СМИ",
+      "goal": "Следить за политическими дебатами и аналитикой новостей, передавать утверждения и предположения субъективными модальными глаголами и писать письмо в редакцию.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c1-04": {
+      "title": "Исследования и наука",
+      "goal": "Понимать научные тексты и доклады, представлять результаты и цифры и использовать замены пассива из научного немецкого.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "презентация результатов опроса своей команде и ответы на вопросы"
+      ]
+    },
+    "c1-05": {
+      "title": "Экология и энергетика",
+      "goal": "Обсуждать энергетическую политику и экологию с учётом нюансов, выстраивать длинную аргументацию с помощью текстовых коннекторов и взвешивать позиции.",
+      "steps": [
+        null,
+        null,
+        null,
+        "панельная дискуссия о ветряках рядом с твоей деревней",
+        "Как взвесить две позиции и прийти к выводу по-немецки?"
+      ]
+    },
+    "c1-06": {
+      "title": "Литература и искусство",
+      "goal": "Говорить о литературе, кино и искусстве, описывать причастными оборотами, как что-то произошло, и облекать в слова стиль и атмосферу произведения.",
+      "steps": [
+        null,
+        null,
+        null,
+        "обсуждение романа в книжном клубе",
+        "Как описать стиль и атмосферу книги или фильма по-немецки?"
+      ]
+    },
+    "c1-07": {
+      "title": "Меняющееся общество",
+      "goal": "Обсуждать демографические изменения и искусственный интеллект, передавать мнения экспертов и ясно объяснять сложные взаимосвязи.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "радиоинтервью о том, как твоя профессия изменится с приходом ИИ"
+      ]
+    },
+    "c1-08": {
+      "title": "Формируя будущее",
+      "goal": "Обсуждать будущее транспорта, городов и социального государства, официально представлять предложение и отвечать на возражения.",
+      "steps": [
+        null,
+        null,
+        null,
+        "презентация плана центра без автомобилей скептически настроенному владельцу магазина",
+        "Как внести официальное предложение на совещании и ответить на возражения?"
+      ]
+    },
+    "c2-01": {
+      "title": "Наука на публике",
+      "goal": "Объяснять журналисту собственное исследование, точно различать близкие по значению слова и непринуждённо отвечать на критические вопросы.",
+      "steps": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-02": {
+      "title": "Переговоры и договоры",
+      "goal": "Обсуждать договор пункт за пунктом, естественно употреблять глагольно-именные сочетания делового немецкого и письменно возражать против решения.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "c2-03": {
+      "title": "Ведомства и возражения",
+      "goal": "Подавать возражение в налоговую, читать и писать на административном немецком и употреблять книжные предлоги официальных текстов.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Как подать официальное возражение (Einspruch или Widerspruch) и какие формулировки для этого нужны?"
+      ]
+    },
+    "c2-04": {
+      "title": "Регистр и стиль",
+      "goal": "Выбирать верный регистр для любой ситуации — от официального возражения до чата — и распознавать и избегать нарушения стиля.",
+      "steps": [
+        null,
+        null,
+        null,
+        "разговор с редактором о тоне твоей статьи",
+        "Как сформулировать одну и ту же просьбу в трёх регистрах: другу, коллеге и ведомству?"
+      ]
+    },
+    "c2-05": {
+      "title": "Рассказ и память",
+      "goal": "Рассказывать и анализировать истории, использовать повествовательные времена и несобственно-прямую речь и обсуждать историю и историческую память.",
+      "steps": [
+        null,
+        null,
+        null,
+        "разговор с соседкой твоей бабушки о том, как изменился город с 1960-х годов"
+      ]
+    },
+    "c2-06": {
+      "title": "Аргументация и риторика",
+      "goal": "Выстраивать безупречную аргументацию, точно употреблять 'es' как заполнитель и коррелят и писать экспертное заключение.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "Какие риторические приёмы работают в немецких речах и как использовать их, не звуча напыщенно?"
+      ]
+    },
+    "c2-07": {
+      "title": "Искусство и критика",
+      "goal": "Рецензировать выставку, книгу или спектакль, использовать Nachfeld и вынесение за рамку для выделения и выражать тонкие оттенки оценки.",
+      "steps": [
+        null,
+        null,
+        null,
+        null,
+        "защита своей резкой рецензии перед директором театра"
+      ]
+    },
+    "c2-08": {
+      "title": "Философия и дипломатия",
+      "goal": "Обсуждать этические вопросы и международные отношения точно и тактично и взвешивать аргументы из нескольких источников.",
+      "steps": [
+        null,
+        null,
+        null,
+        "посредничество между двумя коллегами, которые расходятся во мнениях о проекте",
+        "Как дипломатично не согласиться с собеседником по-немецки, не выглядя при этом слабым?"
       ]
     }
   }
