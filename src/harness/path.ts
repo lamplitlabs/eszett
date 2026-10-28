@@ -1,6 +1,8 @@
-// The learning path: a course for each level, unit by unit, built from material the app already has. A unit is
-// a can-do goal and an ordered list of steps; every step opens an existing screen (a word list, a grammar card,
-// a drill, a scene, a writing task, a question for the tutor) with a `path` parameter, and the screen marks the
+// The learning path: a course for each level, week by week, built from material the app already has. A unit is
+// one week: a can-do goal and an ordered list of steps grouped by skill in the rhythm a course book keeps -
+// vocabulary, grammar, practice, questions for the tutor, reading and listening, speaking, writing, and a check
+// at the end. Every step opens a screen (a word list, a grammar card, a drill, a question for the tutor, a text
+// the tutor writes, a scene, a writing task, the week's check) with a `path` parameter, and the screen marks the
 // step done the way it marks the daily lesson's activities. The units follow the topic and grammar progression
 // of the Goethe-Institut exam syllabi (A1-C2), the BAMF framework curriculum (A1-B1) and the common course books
 // (Menschen, Netzwerk, Schritte, Aspekte, Sicher!, Erkundungen); see README "The learning path".
@@ -22,9 +24,34 @@ export type PathStep =
   | { kind: 'ownScene'; situation_en: string; situation_de: string }
   | { kind: 'write'; task: string }
   /** A question for the Tutor tab, prefilled in the composer. */
-  | { kind: 'ask'; question_en: string; question_de: string };
+  | { kind: 'ask'; question_en: string; question_de: string }
+  /** Reading and listening: the tutor writes a short text on the topic at the level, with comprehension questions. */
+  | { kind: 'read'; topic: string }
+  /** The week's check: the typical mistakes of these grammar cards, to fix one by one. */
+  | { kind: 'check'; cards: string[] };
 
 export type PathStepKind = PathStep['kind'];
+
+/** The skills a week's steps are grouped by, in the order the week runs. */
+export type Skill = 'words' | 'grammar' | 'drill' | 'ask' | 'read' | 'speak' | 'write' | 'check';
+export const SKILLS: Skill[] = ['words', 'grammar', 'drill', 'ask', 'read', 'speak', 'write', 'check'];
+
+export const stepSkill = (step: PathStep): Skill => (step.kind === 'scene' || step.kind === 'ownScene' ? 'speak' : step.kind);
+
+/** The steps of a unit grouped by skill, in week order, each with its index in the unit (the progress key). */
+export function stepsBySkill(unit: PathUnit): { skill: Skill; steps: { index: number; step: PathStep }[] }[] {
+  const groups: { skill: Skill; steps: { index: number; step: PathStep }[] }[] = [];
+  unit.steps.forEach((step, index) => {
+    const skill = stepSkill(step);
+    const last = groups[groups.length - 1];
+    if (last && last.skill === skill) last.steps.push({ index, step });
+    else groups.push({ skill, steps: [{ index, step }] });
+  });
+  return groups;
+}
+
+/** The index of the unit in its level, 1-based: its week number. */
+export const weekNumber = (unit: PathUnit) => unitsFor(unit.level).findIndex((u) => u.key === unit.key) + 1;
 
 export interface PathUnit {
   /** `a1-03`: the level and the unit's number; stable, it keys progress and the content overlays. */
@@ -128,5 +155,9 @@ export function stepHref(unit: PathUnit, step: number, texts: StepRoute = {}): s
       const shown = texts.shownText ?? q;
       return `/tutor?q=${encodeURIComponent(q)}${shown !== q ? `&shown=${encodeURIComponent(shown)}` : ''}&${p}`;
     }
+    case 'read':
+      return `/read?topic=${encodeURIComponent(s.topic)}&${p}`;
+    case 'check':
+      return `/path/check/${unit.key}?${p}`;
   }
 }

@@ -4,7 +4,7 @@
 import grammarData from '@/data/grammar.json';
 import scenesData from '@/data/scenes.json';
 import type { DrillCategory } from '@/harness/drills';
-import { type PathStep, type PathUnit, stepHref } from '@/harness/path';
+import { nextStep, type PathStep, type PathUnit, stepDone as isStepDone, stepHref } from '@/harness/path';
 import { sceneTitle, type SceneCard } from '@/harness/roleplay';
 import type { GrammarCard } from '@/harness/tutor';
 import { WRITE_TASKS } from '@/harness/writing';
@@ -63,7 +63,30 @@ export function stepLabel(unit: PathUnit, step: number, lang: AppLang = getLangu
     }
     case 'ask':
       return { title: s.question_en, detail: tIn(lang, 'path.askDetail') };
+    case 'read':
+      return { title: tIn(lang, 'path.readTitle', { topic: wordTopicLabel(s.topic, lang) }), detail: tIn(lang, 'path.readDetail') };
+    case 'check':
+      return { title: tIn(lang, 'path.checkTitle'), detail: tIn(lang, 'path.checkDetail', { count: checkPitfalls(s.cards).length }) };
   }
+}
+
+/** The sentences of the week's check: the typical mistakes of its grammar cards, in card order. */
+export function checkPitfalls(cardKeys: string[]): { card: GrammarCard; index: number }[] {
+  const out: { card: GrammarCard; index: number }[] = [];
+  for (const key of cardKeys) {
+    const card = grammar.find((c) => c.key === key);
+    if (card) card.pitfalls.forEach((_, index) => out.push({ card, index }));
+  }
+  return out;
+}
+
+/** The next `n` unfinished steps of a unit: today's slice of the week (see src/features/lesson.ts). */
+export function courseSlice(unit: PathUnit, done: Record<string, number>, n = 4): number[] {
+  const out: number[] = [];
+  for (let i = nextStep(unit, done) ?? unit.steps.length; i < unit.steps.length && out.length < n; i++) {
+    if (!isStepDone(unit, i, done)) out.push(i);
+  }
+  return out;
 }
 
 /** The route of a step: the question or situation goes to the tutor in `explainIn`, the learner reads it in `lang`. */

@@ -19,6 +19,7 @@ export type Area =
   | 'writing'
   | 'check'
   | 'ask'
+  | 'reading'
   | 'review';
 
 export interface AreaStats {

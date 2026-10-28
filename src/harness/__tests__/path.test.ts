@@ -5,13 +5,13 @@ import { describe, expect, it } from 'vitest';
 import grammarCards from '../../data/grammar.json';
 import pathData from '../../data/path.json';
 import scenes from '../../data/scenes.json';
-import { stepLabel, stepRoute } from '../../features/path';
-import { WORD_TOPIC_KEY, WORD_TOPICS } from '../../features/topics';
+import { checkPitfalls, courseSlice, stepLabel, stepRoute } from '../../features/path';
+import { WORD_TOPIC_KEY, WORD_TOPICS, wordTopicLabel } from '../../features/topics';
 import { localizePathUnit } from '../../i18n/content';
 import { LANGUAGES } from '../../i18n/languages';
 import { OVERLAYS } from '../../i18n/overlays';
 import { LEVELS } from '../levels';
-import { levelProgress, nextStep, parsePathParam, PATH_UNITS, pathDoneKey, pathParam, type PathUnit, stepDone, stepHref, unitByKey, unitDone, unitsFor } from '../path';
+import { levelProgress, nextStep, parsePathParam, PATH_UNITS, pathDoneKey, pathParam, type PathUnit, SKILLS, stepDone, stepHref, stepSkill, stepsBySkill, unitByKey, unitDone, unitsFor, weekNumber } from '../path';
 import { WRITE_TASKS } from '../writing';
 
 const cardKeys = new Set((grammarCards as { key: string }[]).map((c) => c.key));
@@ -49,9 +49,38 @@ describe('the course data', () => {
           expect(WORD_TOPICS[u.level], `${where} ${s.topic}`).toContain(s.topic);
           expect(WORD_TOPIC_KEY[s.topic], `${where} ${s.topic} has a topics.* key`).toBeTruthy();
         } else if (s.kind === 'ask') expect(s.question_en && s.question_de, where).toBeTruthy();
-        else expect(s.situation_en && s.situation_de, where).toBeTruthy();
+        else if (s.kind === 'ownScene') expect(s.situation_en && s.situation_de, where).toBeTruthy();
+        else if (s.kind === 'read') {
+          expect(WORD_TOPICS[u.level], `${where} ${s.topic}`).toContain(s.topic);
+        } else {
+          expect(s.cards.length, where).toBeGreaterThan(0);
+          for (const card of s.cards) expect(cardKeys.has(card), `${where} ${card}`).toBe(true);
+        }
       }
     }
+  });
+
+  it('runs every week in the skill rhythm, with one text to read and a check at the end', () => {
+    for (const u of PATH_UNITS) {
+      const kinds = u.steps.map((s) => s.kind);
+      expect(kinds.filter((k) => k === 'read'), u.key).toHaveLength(1);
+      expect(kinds.filter((k) => k === 'check'), u.key).toHaveLength(1);
+      expect(kinds[kinds.length - 1], u.key).toBe('check');
+      const order = u.steps.map((s) => SKILLS.indexOf(stepSkill(s)));
+      expect(order, `${u.key} is in week order`).toEqual([...order].sort((a, b) => a - b));
+      const groups = stepsBySkill(u);
+      expect(groups.map((g) => g.skill), u.key).toEqual([...new Set(groups.map((g) => g.skill))]);
+      expect(groups.flatMap((g) => g.steps.map((x) => x.index))).toEqual(u.steps.map((_, i) => i));
+      // the check holds the week's own cards (or, for a week without a card, cards of the level), with sentences to fix
+      const check = u.steps.find((s) => s.kind === 'check');
+      if (check?.kind === 'check') {
+        const own = u.steps.filter((s) => s.kind === 'grammar').map((s) => (s.kind === 'grammar' ? s.card : ''));
+        if (own.length) expect(check.cards).toEqual(own);
+        expect(checkPitfalls(check.cards).length, u.key).toBeGreaterThanOrEqual(3);
+      }
+    }
+    expect(weekNumber(unitByKey('a1-01')!)).toBe(1);
+    expect(weekNumber(unitByKey('b2-07')!)).toBe(7);
   });
 
   it('gives every unit words, grammar or a conversation, and never repeats a card, scene or task within a level', () => {
@@ -97,15 +126,20 @@ describe('the course data', () => {
 });
 
 describe('progress', () => {
-  const unit = unitByKey('a1-03')!; // words, grammar, drill, scene, scene, write
+  const unit = unitByKey('a1-03')!;
+  const at = (kind: string, nth = 0) => unit.steps.map((s, i) => [s.kind, i] as const).filter(([k]) => k === kind)[nth][1];
+  const grammar = at('grammar');
+  const drill = at('drill');
+  const scene = at('scene');
+  const write = at('write');
 
   it('counts a step done from the path, or when its card, scene or task was finished on its own', () => {
     expect(stepDone(unit, 0, {})).toBe(false);
     expect(stepDone(unit, 0, { [pathDoneKey(pathParam('a1-03', 0))]: 1 })).toBe(true);
-    expect(stepDone(unit, 1, { 'grammar:artikel-nominativ-akkusativ': 1 })).toBe(true);
-    expect(stepDone(unit, 3, { 'scene:cafe': 1 })).toBe(true);
-    expect(stepDone(unit, 5, { 'write:a1-cafe-invite': 1 })).toBe(true);
-    expect(stepDone(unit, 2, { 'grammar:artikel-nominativ-akkusativ': 1, 'scene:cafe': 1 })).toBe(false); // a drill only counts from the path
+    expect(stepDone(unit, grammar, { 'grammar:artikel-nominativ-akkusativ': 1 })).toBe(true);
+    expect(stepDone(unit, scene, { 'scene:cafe': 1 })).toBe(true);
+    expect(stepDone(unit, write, { 'write:a1-cafe-invite': 1 })).toBe(true);
+    expect(stepDone(unit, drill, { 'grammar:artikel-nominativ-akkusativ': 1, 'scene:cafe': 1 })).toBe(false); // a drill only counts from the path
     expect(stepDone(unit, 99, { 'path:a1-03:99': 1 })).toBe(true);
     expect(stepDone(unit, 99, {})).toBe(false);
   });
@@ -136,6 +170,15 @@ describe('progress', () => {
     expect(complete.ratio).toBe(1);
   });
 
+  it("slices the week for today's lesson: the next unfinished steps, up to four, none when the week is done", () => {
+    expect(courseSlice(unit, {})).toEqual([0, 1, 2, 3]);
+    expect(courseSlice(unit, { 'path:a1-03:0': 1, 'grammar:artikel-nominativ-akkusativ': 1 })).toEqual([2, 3, 4, 5]);
+    expect(courseSlice(unit, { 'path:a1-03:1': 1 }, 2)).toEqual([0, 2]);
+    const all = Object.fromEntries(unit.steps.map((_, i) => [pathDoneKey(pathParam(unit.key, i)), 1]));
+    expect(courseSlice(unit, all)).toEqual([]);
+    expect(courseSlice(unit, { ...all, [pathDoneKey(pathParam(unit.key, unit.steps.length - 1))]: 0 })).toEqual([unit.steps.length - 1]);
+  });
+
   it('round-trips the path parameter', () => {
     expect(parsePathParam(pathParam('b2-07', 3))).toEqual({ unit: 'b2-07', step: 3 });
     expect(parsePathParam('lesson:3')).toBeNull();
@@ -147,27 +190,36 @@ describe('progress', () => {
 describe('routes and labels', () => {
   it('opens the existing screens with the path parameter', () => {
     const a1 = unitByKey('a1-01')!;
-    expect(stepHref(a1, 0)).toBe('/words?topic=greetings%20and%20introductions&path=a1-01%3A0');
-    expect(stepHref(a1, 1)).toBe('/grammar/sein-haben-praesens?path=a1-01%3A1');
-    expect(stepHref(a1, 3)).toBe('/drill/numbers?path=a1-01%3A3');
-    expect(stepHref(a1, 4)).toContain('/tutor?q=How%20do%20I%20introduce%20myself');
-    expect(stepHref(a1, 4)).not.toContain('&shown=');
-    expect(stepHref(a1, 4, { tutorText: 'Frage', shownText: 'Pytanie' })).toBe('/tutor?q=Frage&shown=Pytanie&path=a1-01%3A4');
-    expect(stepHref(a1, 5)).toBe(`/scenes?own=${encodeURIComponent('meeting a new colleague on your first day and introducing yourself')}&path=a1-01%3A5`);
+    const idx = (kind: string, nth = 0) => a1.steps.map((s, i) => [s.kind, i] as const).filter(([k]) => k === kind)[nth][1];
+    const [words, grammar, drill, ask, read, own, check] = [idx('words'), idx('grammar'), idx('drill'), idx('ask'), idx('read'), idx('ownScene'), idx('check')];
+    expect(stepHref(a1, words)).toBe(`/words?topic=greetings%20and%20introductions&path=a1-01%3A${words}`);
+    expect(stepHref(a1, grammar)).toBe(`/grammar/sein-haben-praesens?path=a1-01%3A${grammar}`);
+    expect(stepHref(a1, drill)).toBe(`/drill/numbers?path=a1-01%3A${drill}`);
+    expect(stepHref(a1, ask)).toContain('/tutor?q=How%20do%20I%20introduce%20myself');
+    expect(stepHref(a1, ask)).not.toContain('&shown=');
+    expect(stepHref(a1, ask, { tutorText: 'Frage', shownText: 'Pytanie' })).toBe(`/tutor?q=Frage&shown=Pytanie&path=a1-01%3A${ask}`);
+    expect(stepHref(a1, read)).toBe(`/read?topic=greetings%20and%20introductions&path=a1-01%3A${read}`);
+    expect(stepHref(a1, own)).toBe(`/scenes?own=${encodeURIComponent('meeting a new colleague on your first day and introducing yourself')}&path=a1-01%3A${own}`);
+    expect(stepHref(a1, check)).toBe(`/path/check/a1-01?path=a1-01%3A${check}`);
     const a1_3 = unitByKey('a1-03')!;
-    expect(stepHref(a1_3, 3)).toBe('/scene/cafe?path=a1-03%3A3');
-    expect(stepHref(a1_3, 5)).toBe('/write/a1-cafe-invite?path=a1-03%3A5');
+    const sceneAt = a1_3.steps.findIndex((s) => s.kind === 'scene');
+    const writeAt = a1_3.steps.findIndex((s) => s.kind === 'write');
+    expect(stepHref(a1_3, sceneAt)).toBe(`/scene/cafe?path=a1-03%3A${sceneAt}`);
+    expect(stepHref(a1_3, writeAt)).toBe(`/write/a1-cafe-invite?path=a1-03%3A${writeAt}`);
   });
 
   it('sends the question to the tutor in its language and shows it in the app language', () => {
     const a1 = unitByKey('a1-01')!;
-    expect(stepRoute(a1, 4, 'de', 'de')).toBe(`/tutor?q=${encodeURIComponent('Wie stelle ich mich auf Deutsch vor, formell und informell?')}&path=a1-01%3A4`);
-    const pl = stepRoute(a1, 4, 'pl', 'en');
+    const ask = a1.steps.findIndex((s) => s.kind === 'ask');
+    const own = a1.steps.findIndex((s) => s.kind === 'ownScene');
+    expect(stepRoute(a1, ask, 'de', 'de')).toBe(`/tutor?q=${encodeURIComponent('Wie stelle ich mich auf Deutsch vor, formell und informell?')}&path=a1-01%3A${ask}`);
+    const pl = stepRoute(a1, ask, 'pl', 'en');
     expect(pl.startsWith('/tutor?q=How%20do%20I%20introduce%20myself')).toBe(true);
     expect(pl).toContain('&shown=');
-    expect(decodeURIComponent(pl.split('&shown=')[1].split('&')[0])).toBe(localizePathUnit(a1, 'pl').steps[4].kind === 'ask' ? (localizePathUnit(a1, 'pl').steps[4] as { question_en: string }).question_en : '');
+    const plStep = localizePathUnit(a1, 'pl').steps[ask];
+    expect(decodeURIComponent(pl.split('&shown=')[1].split('&')[0])).toBe(plStep.kind === 'ask' ? plStep.question_en : '');
     // a scene is designed from the English description whatever the languages
-    expect(stepRoute(a1, 5, 'de', 'de')).toContain(`own=${encodeURIComponent('meeting a new colleague on your first day and introducing yourself')}`);
+    expect(stepRoute(a1, own, 'de', 'de')).toContain(`own=${encodeURIComponent('meeting a new colleague on your first day and introducing yourself')}`);
     // the other kinds carry no text
     expect(stepRoute(a1, 1, 'fr', 'fr')).toBe(stepHref(a1, 1));
   });
@@ -182,6 +234,8 @@ describe('routes and labels', () => {
         }
         if (s.kind === 'ask') expect(stepLabel(u, i, 'de').title).toBe(s.question_de);
         if (s.kind === 'words') expect(stepLabel(u, i, 'en').title).toBe(`Words: ${s.topic}`);
+        if (s.kind === 'read') expect(stepLabel(u, i, 'de').title).toBe(`Text: ${wordTopicLabel(s.topic, 'de')}`);
+        if (s.kind === 'check') expect(stepLabel(u, i, 'en').detail).toMatch(/^Fix the week's typical mistakes: \d+ sentences$/);
       });
   });
 });

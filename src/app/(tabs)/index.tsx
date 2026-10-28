@@ -1,11 +1,12 @@
 import { router } from 'expo-router';
-import { BadgeCheck, Bookmark, BookmarkCheck, Check, ChevronRight, Flame, MessageCircle, RefreshCw, Sparkles } from 'lucide-react-native';
+import { BadgeCheck, Bookmark, BookmarkCheck, Check, ChevronRight, Flame, MessageCircle, RefreshCw, Route, Sparkles } from 'lucide-react-native';
 import { useEffect, useMemo } from 'react';
 import { View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 
 import { CourseCard } from '@/features/CourseCard';
 import { activityLabel, lessonKey, useLesson } from '@/features/lesson';
+import { levelProgress, weekNumber } from '@/harness/path';
 import { tutorLine, useModelPercent } from '@/features/modelStatus';
 import { GENUS_ARTICLE, nounsUpTo } from '@/harness/lexicon';
 import { LEVEL_INFO } from '@/harness/levels';
@@ -57,6 +58,7 @@ export default function Today() {
   const wordSaved = word ? Boolean(words[nounKey(word.lemma)]) : false;
   const meaning = word ? wordMeaning(word.lemma, word.meaning ?? '', lang) : '';
 
+  const courseUnit = levelProgress(level, done).current;
   const finished = activities.map((_, i) => Boolean(done[lessonKey(i)]));
   const next = finished.findIndex((f) => !f);
   const lessonDone = activities.length > 0 && next === -1;
@@ -93,7 +95,7 @@ export default function Today() {
       <Section
         title={t('home.lessonTitle')}
         action={
-          plannedBy === 'tutor' && !planning ? (
+          plannedBy !== 'app' && !planning ? (
             <Press onPress={() => void replan(level)} accessibilityLabel={t('home.planAgain')} hitSlop={8}>
               <RefreshCw size={17} color={c.inkSoft} />
             </Press>
@@ -150,6 +152,13 @@ export default function Today() {
               <BadgeCheck size={14} color={c.amberInk} />
               <Txt variant="caption" style={{ color: c.amberInk }}>
                 {t('home.plannedByTutor')}
+              </Txt>
+            </>
+          ) : plannedBy === 'course' ? (
+            <>
+              <Route size={14} color={c.royal} />
+              <Txt variant="caption" style={{ color: c.royal }}>
+                {courseUnit ? t('home.plannedByCourse', { n: weekNumber(courseUnit), title: courseUnit.title_de }) : t('path.title')}
               </Txt>
             </>
           ) : (

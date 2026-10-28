@@ -29,14 +29,25 @@
     "question_de": "Wie stelle ich mich auf Deutsch vor, formell und informell?"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I spell my name in German? Please go through the alphabet with me.",
+    "question_de": "Wie buchstabiere ich meinen Namen auf Deutsch? Geh bitte das Alphabet mit mir durch."
+   },
+   {
+    "kind": "read",
+    "topic": "greetings and introductions"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "meeting a new colleague on your first day and introducing yourself",
     "situation_de": "einen neuen Kollegen am ersten Arbeitstag kennenlernen und dich vorstellen"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I spell my name in German? Please go through the alphabet with me.",
-    "question_de": "Wie buchstabiere ich meinen Namen auf Deutsch? Geh bitte das Alphabet mit mir durch."
+    "kind": "check",
+    "cards": [
+     "sein-haben-praesens",
+     "w-fragen-ja-nein-fragen"
+    ]
    }
   ]
  },
@@ -74,9 +85,20 @@
     "question_de": "Wie spreche ich über meine Familie: Namen, Alter und Berufe?"
    },
    {
+    "kind": "read",
+    "topic": "the family"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "showing a friend photos of your family",
     "situation_de": "einer Freundin Fotos von deiner Familie zeigen"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "possessivartikel",
+     "verb-zweitstellung"
+    ]
    }
   ]
  },
@@ -101,6 +123,10 @@
     "category": "prices"
    },
    {
+    "kind": "read",
+    "topic": "food and drink"
+   },
+   {
     "kind": "scene",
     "scene": "cafe"
    },
@@ -111,6 +137,12 @@
    {
     "kind": "write",
     "task": "a1-cafe-invite"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "artikel-nominativ-akkusativ"
+    ]
    }
   ]
  },
@@ -139,6 +171,15 @@
     "category": "plural"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I use welcher, welche, welches and dieser, diese, dieses when I shop?",
+    "question_de": "Wie benutze ich welcher, welche, welches und dieser, diese, dieses beim Einkaufen?"
+   },
+   {
+    "kind": "read",
+    "topic": "clothes"
+   },
+   {
     "kind": "scene",
     "scene": "bakery"
    },
@@ -147,9 +188,11 @@
     "scene": "supermarket"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I use welcher, welche, welches and dieser, diese, dieses when I shop?",
-    "question_de": "Wie benutze ich welcher, welche, welches und dieser, diese, dieses beim Einkaufen?"
+    "kind": "check",
+    "cards": [
+     "pluralformen",
+     "kein-nicht"
+    ]
    }
   ]
  },
@@ -178,13 +221,24 @@
     "category": "clock"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I describe my daily routine, from getting up to going to bed?",
+    "question_de": "Wie beschreibe ich meinen Tagesablauf, vom Aufstehen bis zum Schlafengehen?"
+   },
+   {
+    "kind": "read",
+    "topic": "the daily routine"
+   },
+   {
     "kind": "scene",
     "scene": "late_friend"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I describe my daily routine, from getting up to going to bed?",
-    "question_de": "Wie beschreibe ich meinen Tagesablauf, vom Aufstehen bis zum Schlafengehen?"
+    "kind": "check",
+    "cards": [
+     "trennbare-verben",
+     "vokalwechsel"
+    ]
    }
   ]
  },
@@ -209,14 +263,24 @@
     "category": "meaning"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I describe my flat and where the furniture is?",
+    "question_de": "Wie beschreibe ich meine Wohnung und wo die Möbel stehen?"
+   },
+   {
+    "kind": "read",
+    "topic": "the flat"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "asking a landlord questions about a flat you want to rent",
     "situation_de": "einem Vermieter Fragen zu einer Wohnung stellen, die du mieten möchtest"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I describe my flat and where the furniture is?",
-    "question_de": "Wie beschreibe ich meine Wohnung und wo die Möbel stehen?"
+    "kind": "check",
+    "cards": [
+     "zeit-und-ortsangaben"
+    ]
    }
   ]
  },
@@ -241,12 +305,22 @@
     "category": "meaning"
    },
    {
+    "kind": "read",
+    "topic": "the city"
+   },
+   {
     "kind": "scene",
     "scene": "directions"
    },
    {
     "kind": "scene",
     "scene": "taxi"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "imperativ"
+    ]
    }
   ]
  },
@@ -271,13 +345,23 @@
     "category": "dates"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I invite a friend and suggest a time and a place?",
+    "question_de": "Wie lade ich einen Freund ein und schlage Zeit und Ort vor?"
+   },
+   {
+    "kind": "read",
+    "topic": "hobbies and sport"
+   },
+   {
     "kind": "scene",
     "scene": "cinema"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I invite a friend and suggest a time and a place?",
-    "question_de": "Wie lade ich einen Freund ein und schlage Zeit und Ort vor?"
+    "kind": "check",
+    "cards": [
+     "modalverben"
+    ]
    }
   ]
  },
@@ -302,6 +386,15 @@
     "category": "article"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I say ‘I was’ and ‘I had’ in German, for example when I was ill: war and hatte?",
+    "question_de": "Wie sage ich „ich war“ und „ich hatte“ auf Deutsch, zum Beispiel wenn ich krank war: war und hatte?"
+   },
+   {
+    "kind": "read",
+    "topic": "the body and health"
+   },
+   {
     "kind": "scene",
     "scene": "doctor_phone"
    },
@@ -310,9 +403,10 @@
     "scene": "pharmacy"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I say ‘I was’ and ‘I had’ in German, for example when I was ill: war and hatte?",
-    "question_de": "Wie sage ich „ich war“ und „ich hatte“ auf Deutsch, zum Beispiel wenn ich krank war: war und hatte?"
+    "kind": "check",
+    "cards": [
+     "genus-endungen"
+    ]
    }
   ]
  },
@@ -341,6 +435,10 @@
     "category": "verbs"
    },
    {
+    "kind": "read",
+    "topic": "transport and travel"
+   },
+   {
     "kind": "scene",
     "scene": "train_ticket"
    },
@@ -355,6 +453,12 @@
    {
     "kind": "write",
     "task": "a1-postcard-holiday"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "perfekt-haben-sein"
+    ]
    }
   ]
  },
@@ -384,9 +488,19 @@
     "question_de": "Wie erzähle ich vom letzten Wochenende? Welche Vergangenheitsform benutze ich beim Sprechen?"
    },
    {
+    "kind": "read",
+    "topic": "free time"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "telling a colleague on Monday morning about your weekend",
     "situation_de": "einem Kollegen am Montagmorgen vom Wochenende erzählen"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "praeteritum-sein-haben-modalverben"
+    ]
    }
   ]
  },
@@ -415,13 +529,24 @@
     "category": "dates"
    },
    {
-    "kind": "write",
-    "task": "a2-birthday"
+    "kind": "read",
+    "topic": "celebrations and invitations"
    },
    {
     "kind": "ownScene",
     "situation_en": "planning a surprise party with a friend",
     "situation_de": "mit einer Freundin eine Überraschungsparty planen"
+   },
+   {
+    "kind": "write",
+    "task": "a2-birthday"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "personalpronomen-akkusativ-dativ",
+     "dativ-plural-n"
+    ]
    }
   ]
  },
@@ -446,6 +571,10 @@
     "category": "article"
    },
    {
+    "kind": "read",
+    "topic": "the household"
+   },
+   {
     "kind": "scene",
     "scene": "flatmate_kitchen"
    },
@@ -460,6 +589,12 @@
    {
     "kind": "write",
     "task": "a2-new-flat"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "wechselpraepositionen"
+    ]
    }
   ]
  },
@@ -488,12 +623,23 @@
     "category": "prices"
    },
    {
+    "kind": "read",
+    "topic": "shopping"
+   },
+   {
     "kind": "scene",
     "scene": "return_item"
    },
    {
     "kind": "scene",
     "scene": "cold_soup"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "komparativ-superlativ",
+     "hoefliche-bitten-konjunktiv-ii"
+    ]
    }
   ]
  },
@@ -522,6 +668,15 @@
     "category": "meaning"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I describe what I eat and give a simple recipe, with quantities and the imperative?",
+    "question_de": "Wie beschreibe ich, was ich esse, und gebe ein einfaches Rezept, mit Mengen und Imperativ?"
+   },
+   {
+    "kind": "read",
+    "topic": "health and the doctor"
+   },
+   {
     "kind": "scene",
     "scene": "dentist"
    },
@@ -530,9 +685,11 @@
     "task": "a2-sick-course"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I describe what I eat and give a simple recipe, with quantities and the imperative?",
-    "question_de": "Wie beschreibe ich, was ich esse, und gebe ein einfaches Rezept, mit Mengen und Imperativ?"
+    "kind": "check",
+    "cards": [
+     "reflexive-verben",
+     "dativ-verben-praepositionen"
+    ]
    }
   ]
  },
@@ -557,6 +714,10 @@
     "category": "sentence"
    },
    {
+    "kind": "read",
+    "topic": "the post office and the bank"
+   },
+   {
     "kind": "scene",
     "scene": "buergeramt"
    },
@@ -571,6 +732,12 @@
    {
     "kind": "write",
     "task": "a2-heating-broken"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "dass-ob"
+    ]
    }
   ]
  },
@@ -599,13 +766,24 @@
     "category": "clock"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I talk about my job and say why I like it?",
+    "question_de": "Wie spreche ich über meinen Beruf und sage, warum er mir gefällt?"
+   },
+   {
+    "kind": "read",
+    "topic": "work"
+   },
+   {
     "kind": "scene",
     "scene": "cafe_job"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I talk about my job and say why I like it?",
-    "question_de": "Wie spreche ich über meinen Beruf und sage, warum er mir gefällt?"
+    "kind": "check",
+    "cards": [
+     "seit-vor-fuer",
+     "weil-denn-da"
+    ]
    }
   ]
  },
@@ -638,6 +816,10 @@
     "category": "ordinals"
    },
    {
+    "kind": "read",
+    "topic": "holidays"
+   },
+   {
     "kind": "scene",
     "scene": "bike_rental"
    },
@@ -645,6 +827,12 @@
     "kind": "ownScene",
     "situation_en": "asking at the tourist information what to see in a town",
     "situation_de": "bei der Touristeninformation fragen, was man in einer Stadt besichtigen kann"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "futur-i"
+    ]
    }
   ]
  },
@@ -673,10 +861,6 @@
     "category": "meaning"
    },
    {
-    "kind": "scene",
-    "scene": "library"
-   },
-   {
     "kind": "ask",
     "question_en": "What can I say when I don't understand something or need a word repeated?",
     "question_de": "Was kann ich sagen, wenn ich etwas nicht verstehe oder ein Wort noch einmal hören möchte?"
@@ -685,6 +869,21 @@
     "kind": "ask",
     "question_en": "How do I talk about my phone, my computer and the internet in everyday German?",
     "question_de": "Wie spreche ich im Alltag über mein Handy, meinen Computer und das Internet?"
+   },
+   {
+    "kind": "read",
+    "topic": "school and learning"
+   },
+   {
+    "kind": "scene",
+    "scene": "library"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "kennen-wissen-koennen",
+     "adjektivendungen"
+    ]
    }
   ]
  },
@@ -709,6 +908,15 @@
     "category": "article"
    },
    {
+    "kind": "ask",
+    "question_en": "How is the Goethe-Zertifikat A2 exam structured, and how do I prepare for it?",
+    "question_de": "Wie ist die Prüfung Goethe-Zertifikat A2 aufgebaut, und wie bereite ich mich darauf vor?"
+   },
+   {
+    "kind": "read",
+    "topic": "feelings and character"
+   },
+   {
     "kind": "scene",
     "scene": "hairdresser"
    },
@@ -718,9 +926,10 @@
     "situation_de": "einer Freundin von einer Person erzählen, die du kennengelernt hast, und wie sie ist"
    },
    {
-    "kind": "ask",
-    "question_en": "How is the Goethe-Zertifikat A2 exam structured, and how do I prepare for it?",
-    "question_de": "Wie ist die Prüfung Goethe-Zertifikat A2 aufgebaut, und wie bereite ich mich darauf vor?"
+    "kind": "check",
+    "cards": [
+     "nebensatz-verbende"
+    ]
    }
   ]
  },
@@ -749,15 +958,6 @@
     "category": "verbs"
    },
    {
-    "kind": "write",
-    "task": "b1-missed-party"
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "catching up with an old school friend you have not seen for years",
-    "situation_de": "einen alten Schulfreund wiedertreffen, den du seit Jahren nicht gesehen hast"
-   },
-   {
     "kind": "ask",
     "question_en": "How do I write a short biography of a famous person in the Präteritum?",
     "question_de": "Wie schreibe ich eine kurze Biografie einer berühmten Person im Präteritum?"
@@ -766,6 +966,26 @@
     "kind": "ask",
     "question_en": "Which phrases keep a conversation going: showing interest, asking back, changing the subject?",
     "question_de": "Welche Wendungen halten ein Gespräch am Laufen: Interesse zeigen, nachfragen, das Thema wechseln?"
+   },
+   {
+    "kind": "read",
+    "topic": "relationships and family life"
+   },
+   {
+    "kind": "ownScene",
+    "situation_en": "catching up with an old school friend you have not seen for years",
+    "situation_de": "einen alten Schulfreund wiedertreffen, den du seit Jahren nicht gesehen hast"
+   },
+   {
+    "kind": "write",
+    "task": "b1-missed-party"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "praeteritum-perfekt",
+     "als-wenn-wann"
+    ]
    }
   ]
  },
@@ -794,12 +1014,23 @@
     "category": "sentence"
    },
    {
+    "kind": "read",
+    "topic": "work and career"
+   },
+   {
     "kind": "scene",
     "scene": "sick_call"
    },
    {
     "kind": "write",
     "task": "b1-forum-homeoffice"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "um-zu-damit",
+     "zu-infinitiv"
+    ]
    }
   ]
  },
@@ -828,14 +1059,25 @@
     "category": "article"
    },
    {
+    "kind": "ask",
+    "question_en": "What are the most important words in a German tenancy agreement, and what do they mean?",
+    "question_de": "Was sind die wichtigsten Wörter in einem deutschen Mietvertrag, und was bedeuten sie?"
+   },
+   {
+    "kind": "read",
+    "topic": "housing and renting"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a conversation with a neighbour about noise late at night",
     "situation_de": "ein Gespräch mit einem Nachbarn über Lärm spät am Abend"
    },
    {
-    "kind": "ask",
-    "question_en": "What are the most important words in a German tenancy agreement, and what do they mean?",
-    "question_de": "Was sind die wichtigsten Wörter in einem deutschen Mietvertrag, und was bedeuten sie?"
+    "kind": "check",
+    "cards": [
+     "relativpronomen",
+     "genitiv"
+    ]
    }
   ]
  },
@@ -868,9 +1110,20 @@
     "category": "meaning"
    },
    {
+    "kind": "read",
+    "topic": "nutrition and sport"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "talking to a doctor about back pain from sitting at a desk",
     "situation_de": "mit einer Ärztin über Rückenschmerzen vom Sitzen am Schreibtisch sprechen"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "trotzdem-obwohl",
+     "n-deklination"
+    ]
    }
   ]
  },
@@ -895,12 +1148,22 @@
     "category": "prices"
    },
    {
+    "kind": "read",
+    "topic": "consumption and advertising"
+   },
+   {
     "kind": "scene",
     "scene": "mobile_cancel"
    },
    {
     "kind": "write",
     "task": "b1-complaint-online-order"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "indirekte-fragen"
+    ]
    }
   ]
  },
@@ -925,13 +1188,23 @@
     "category": "numbers"
    },
    {
+    "kind": "ask",
+    "question_en": "Which verbs do I need to talk about money: pay, transfer, withdraw, save, borrow?",
+    "question_de": "Welche Verben brauche ich, um über Geld zu sprechen: zahlen, überweisen, abheben, sparen, leihen?"
+   },
+   {
+    "kind": "read",
+    "topic": "money and banking"
+   },
+   {
     "kind": "scene",
     "scene": "bank_account"
    },
    {
-    "kind": "ask",
-    "question_en": "Which verbs do I need to talk about money: pay, transfer, withdraw, save, borrow?",
-    "question_de": "Welche Verben brauche ich, um über Geld zu sprechen: zahlen, überweisen, abheben, sparen, leihen?"
+    "kind": "check",
+    "cards": [
+     "passiv-praesens"
+    ]
    }
   ]
  },
@@ -960,6 +1233,10 @@
     "category": "sentence"
    },
    {
+    "kind": "read",
+    "topic": "travel and tourism"
+   },
+   {
     "kind": "scene",
     "scene": "garage"
    },
@@ -970,6 +1247,13 @@
    {
     "kind": "scene",
     "scene": "hotel_noise"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "nachdem-bevor-waehrend",
+     "plusquamperfekt"
+    ]
    }
   ]
  },
@@ -998,14 +1282,24 @@
     "category": "meaning"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I give my opinion and agree or disagree politely in German?",
+    "question_de": "Wie sage ich meine Meinung und stimme auf Deutsch höflich zu oder widerspreche?"
+   },
+   {
+    "kind": "read",
+    "topic": "the digital world"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a discussion with a friend about whether children should have smartphones",
     "situation_de": "eine Diskussion mit einer Freundin darüber, ob Kinder Smartphones haben sollten"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I give my opinion and agree or disagree politely in German?",
-    "question_de": "Wie sage ich meine Meinung und stimme auf Deutsch höflich zu oder widerspreche?"
+    "kind": "check",
+    "cards": [
+     "verben-mit-praepositionen-da-wo"
+    ]
    }
   ]
  },
@@ -1034,13 +1328,24 @@
     "category": "verbs"
    },
    {
+    "kind": "ask",
+    "question_en": "What is the difference between lernen, studieren and üben?",
+    "question_de": "Was ist der Unterschied zwischen lernen, studieren und üben?"
+   },
+   {
+    "kind": "read",
+    "topic": "education"
+   },
+   {
     "kind": "write",
     "task": "b1-teacher-absent"
    },
    {
-    "kind": "ask",
-    "question_en": "What is the difference between lernen, studieren and üben?",
-    "question_de": "Was ist der Unterschied zwischen lernen, studieren und üben?"
+    "kind": "check",
+    "cards": [
+     "konjunktiv-ii",
+     "lassen"
+    ]
    }
   ]
  },
@@ -1069,11 +1374,6 @@
     "category": "plural"
    },
    {
-    "kind": "ownScene",
-    "situation_en": "explaining a festival from your country to a German friend",
-    "situation_de": "einem deutschen Freund ein Fest aus deinem Land erklären"
-   },
-   {
     "kind": "ask",
     "question_en": "How do I say what I do for the environment in my everyday life?",
     "question_de": "Wie sage ich, was ich im Alltag für die Umwelt tue?"
@@ -1087,6 +1387,21 @@
     "kind": "ask",
     "question_en": "How is the Goethe-Zertifikat B1 exam structured, and how do I prepare for it?",
     "question_de": "Wie ist die Prüfung Goethe-Zertifikat B1 aufgebaut, und wie bereite ich mich darauf vor?"
+   },
+   {
+    "kind": "read",
+    "topic": "the environment"
+   },
+   {
+    "kind": "ownScene",
+    "situation_en": "explaining a festival from your country to a German friend",
+    "situation_de": "einem deutschen Freund ein Fest aus deinem Land erklären"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "zweiteilige-konnektoren"
+    ]
    }
   ]
  },
@@ -1111,6 +1426,15 @@
     "category": "sentence"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I structure a short presentation at work: opening, overview, main part, conclusion, questions?",
+    "question_de": "Wie baue ich eine kurze Präsentation bei der Arbeit auf: Einstieg, Überblick, Hauptteil, Schluss, Fragen?"
+   },
+   {
+    "kind": "read",
+    "topic": "the workplace"
+   },
+   {
     "kind": "scene",
     "scene": "job_interview"
    },
@@ -1119,9 +1443,10 @@
     "task": "b2-application"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I structure a short presentation at work: opening, overview, main part, conclusion, questions?",
-    "question_de": "Wie baue ich eine kurze Präsentation bei der Arbeit auf: Einstieg, Überblick, Hauptteil, Schluss, Fragen?"
+    "kind": "check",
+    "cards": [
+     "konjunktiv-ii-vergangenheit"
+    ]
    }
   ]
  },
@@ -1146,12 +1471,22 @@
     "category": "article"
    },
    {
+    "kind": "read",
+    "topic": "city and countryside"
+   },
+   {
     "kind": "scene",
     "scene": "flat_viewing"
    },
    {
     "kind": "scene",
     "scene": "flat_handover"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "partizip-i-ii-als-adjektiv"
+    ]
    }
   ]
  },
@@ -1180,6 +1515,10 @@
     "category": "prices"
    },
    {
+    "kind": "read",
+    "topic": "the economy"
+   },
+   {
     "kind": "scene",
     "scene": "utility_bill"
    },
@@ -1190,6 +1529,13 @@
    {
     "kind": "write",
     "task": "b2-course-complaint"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "passiv-mit-modalverben",
+     "passiv-werden-sein"
+    ]
    }
   ]
  },
@@ -1214,6 +1560,15 @@
     "category": "meaning"
    },
    {
+    "kind": "ask",
+    "question_en": "What are the most important comma rules in German?",
+    "question_de": "Was sind die wichtigsten Kommaregeln im Deutschen?"
+   },
+   {
+    "kind": "read",
+    "topic": "technology"
+   },
+   {
     "kind": "scene",
     "scene": "internet_hotline"
    },
@@ -1222,9 +1577,10 @@
     "task": "b2-forum-smartphones-school"
    },
    {
-    "kind": "ask",
-    "question_en": "What are the most important comma rules in German?",
-    "question_de": "Was sind die wichtigsten Kommaregeln im Deutschen?"
+    "kind": "check",
+    "cards": [
+     "konnektoren-indem-sodass-ohne-dass"
+    ]
    }
   ]
  },
@@ -1249,13 +1605,23 @@
     "category": "sentence"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I talk about my experience of moving to a new country?",
+    "question_de": "Wie erzähle ich von meinen Erfahrungen beim Umzug in ein neues Land?"
+   },
+   {
+    "kind": "read",
+    "topic": "migration and integration"
+   },
+   {
     "kind": "scene",
     "scene": "immigration_office"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I talk about my experience of moving to a new country?",
-    "question_de": "Wie erzähle ich von meinen Erfahrungen beim Umzug in ein neues Land?"
+    "kind": "check",
+    "cards": [
+     "genitivpraepositionen"
+    ]
    }
   ]
  },
@@ -1280,11 +1646,6 @@
     "category": "verbs"
    },
    {
-    "kind": "ownScene",
-    "situation_en": "a discussion with a neighbour about a new cycle lane in your street",
-    "situation_de": "eine Diskussion mit einem Nachbarn über einen neuen Radweg in eurer Straße"
-   },
-   {
     "kind": "ask",
     "question_en": "How do I structure an argument in German: introduction, pros, cons, conclusion?",
     "question_de": "Wie baue ich eine Argumentation auf Deutsch auf: Einleitung, Pro, Kontra, Fazit?"
@@ -1293,6 +1654,21 @@
     "kind": "ask",
     "question_en": "How do I use dessen and deren in relative clauses?",
     "question_de": "Wie benutze ich dessen und deren in Relativsätzen?"
+   },
+   {
+    "kind": "read",
+    "topic": "society and politics"
+   },
+   {
+    "kind": "ownScene",
+    "situation_en": "a discussion with a neighbour about a new cycle lane in your street",
+    "situation_de": "eine Diskussion mit einem Nachbarn über einen neuen Radweg in eurer Straße"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "relativsaetze-praepositionen-wo-was"
+    ]
    }
   ]
  },
@@ -1317,14 +1693,24 @@
     "category": "numbers"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I describe a chart or statistics in German?",
+    "question_de": "Wie beschreibe ich eine Grafik oder Statistik auf Deutsch?"
+   },
+   {
+    "kind": "read",
+    "topic": "climate change"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "talking to a colleague about how your company could waste less",
     "situation_de": "mit einem Kollegen darüber sprechen, wie eure Firma weniger verschwenden könnte"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I describe a chart or statistics in German?",
-    "question_de": "Wie beschreibe ich eine Grafik oder Statistik auf Deutsch?"
+    "kind": "check",
+    "cards": [
+     "futur-vermutung"
+    ]
    }
   ]
  },
@@ -1353,14 +1739,25 @@
     "category": "meaning"
    },
    {
+    "kind": "ask",
+    "question_en": "Which adjectives and nouns take a fixed preposition, like stolz auf, Angst vor, zufrieden mit?",
+    "question_de": "Welche Adjektive und Nomen haben eine feste Präposition, wie stolz auf, Angst vor, zufrieden mit?"
+   },
+   {
+    "kind": "read",
+    "topic": "psychology and personality"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "giving a friend advice about stress at work",
     "situation_de": "einer Freundin Rat bei Stress im Beruf geben"
    },
    {
-    "kind": "ask",
-    "question_en": "Which adjectives and nouns take a fixed preposition, like stolz auf, Angst vor, zufrieden mit?",
-    "question_de": "Welche Adjektive und Nomen haben eine feste Präposition, wie stolz auf, Angst vor, zufrieden mit?"
+    "kind": "check",
+    "cards": [
+     "irreale-vergleiche-als-ob",
+     "modalpartikeln"
+    ]
    }
   ]
  },
@@ -1389,14 +1786,24 @@
     "category": "plural"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I tell a story in the Präteritum, like a fairy tale that begins with ‘Es war einmal’?",
+    "question_de": "Wie erzähle ich eine Geschichte im Präteritum, wie ein Märchen, das mit „Es war einmal“ beginnt?"
+   },
+   {
+    "kind": "read",
+    "topic": "culture and art"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "recommending a film or a book to a friend and explaining why",
     "situation_de": "einer Freundin einen Film oder ein Buch empfehlen und erklären, warum"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I tell a story in the Präteritum, like a fairy tale that begins with ‘Es war einmal’?",
-    "question_de": "Wie erzähle ich eine Geschichte im Präteritum, wie ein Märchen, das mit „Es war einmal“ beginnt?"
+    "kind": "check",
+    "cards": [
+     "konjunktiv-i-redewiedergabe"
+    ]
    }
   ]
  },
@@ -1425,11 +1832,6 @@
     "category": "verbs"
    },
    {
-    "kind": "ownScene",
-    "situation_en": "reporting a bicycle theft at the police station",
-    "situation_de": "einen Fahrraddiebstahl bei der Polizei anzeigen"
-   },
-   {
     "kind": "ask",
     "question_en": "How do I write a clear summary of a text in German? Which phrases do I need?",
     "question_de": "Wie schreibe ich eine klare Zusammenfassung eines Textes auf Deutsch? Welche Formulierungen brauche ich?"
@@ -1438,6 +1840,21 @@
     "kind": "ask",
     "question_en": "How is the Goethe-Zertifikat B2 exam structured, and how do I prepare for it?",
     "question_de": "Wie ist die Prüfung Goethe-Zertifikat B2 aufgebaut, und wie bereite ich mich darauf vor?"
+   },
+   {
+    "kind": "read",
+    "topic": "crime and justice"
+   },
+   {
+    "kind": "ownScene",
+    "situation_en": "reporting a bicycle theft at the police station",
+    "situation_de": "einen Fahrraddiebstahl bei der Polizei anzeigen"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "untrennbare-praefixe"
+    ]
    }
   ]
  },
@@ -1462,6 +1879,15 @@
     "category": "sentence"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I express regret, criticise constructively and apologise in formal German at work?",
+    "question_de": "Wie drücke ich Bedauern aus, übe konstruktiv Kritik und entschuldige mich im formellen Deutsch am Arbeitsplatz?"
+   },
+   {
+    "kind": "read",
+    "topic": "the world of work"
+   },
+   {
     "kind": "scene",
     "scene": "salary_negotiation"
    },
@@ -1470,9 +1896,10 @@
     "task": "c1-statement-management"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I express regret, criticise constructively and apologise in formal German at work?",
-    "question_de": "Wie drücke ich Bedauern aus, übe konstruktiv Kritik und entschuldige mich im formellen Deutsch am Arbeitsplatz?"
+    "kind": "check",
+    "cards": [
+     "nominalstil-verbalstil"
+    ]
    }
   ]
  },
@@ -1497,10 +1924,6 @@
     "category": "article"
    },
    {
-    "kind": "scene",
-    "scene": "rent_increase"
-   },
-   {
     "kind": "ask",
     "question_en": "How do I read an official letter from a German authority? What do the typical phrases mean?",
     "question_de": "Wie lese ich ein Schreiben einer deutschen Behörde? Was bedeuten die typischen Formulierungen?"
@@ -1509,6 +1932,20 @@
     "kind": "ask",
     "question_en": "Which verbs take the genitive, like bedürfen, gedenken, sich erfreuen, and where do they appear?",
     "question_de": "Welche Verben stehen mit dem Genitiv, wie bedürfen, gedenken, sich erfreuen, und wo kommen sie vor?"
+   },
+   {
+    "kind": "read",
+    "topic": "law and bureaucracy"
+   },
+   {
+    "kind": "scene",
+    "scene": "rent_increase"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "partizipialattribut"
+    ]
    }
   ]
  },
@@ -1533,12 +1970,22 @@
     "category": "meaning"
    },
    {
+    "kind": "read",
+    "topic": "politics and the media"
+   },
+   {
     "kind": "scene",
     "scene": "town_hall_traffic"
    },
    {
     "kind": "write",
     "task": "c1-letter-to-editor"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "subjektive-modalverben"
+    ]
    }
   ]
  },
@@ -1563,13 +2010,23 @@
     "category": "numbers"
    },
    {
-    "kind": "write",
-    "task": "c1-graph-commuting"
+    "kind": "read",
+    "topic": "research and science"
    },
    {
     "kind": "ownScene",
     "situation_en": "presenting the results of a survey to your team and taking questions",
     "situation_de": "deinem Team die Ergebnisse einer Umfrage vorstellen und Fragen beantworten"
+   },
+   {
+    "kind": "write",
+    "task": "c1-graph-commuting"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "passiversatz"
+    ]
    }
   ]
  },
@@ -1594,14 +2051,24 @@
     "category": "verbs"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I weigh up two positions and come to a conclusion in German?",
+    "question_de": "Wie wäge ich zwei Positionen gegeneinander ab und komme auf Deutsch zu einem Fazit?"
+   },
+   {
+    "kind": "read",
+    "topic": "the environment and energy"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a panel discussion on wind turbines near your village",
     "situation_de": "eine Podiumsdiskussion über Windräder in der Nähe eures Dorfes"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I weigh up two positions and come to a conclusion in German?",
-    "question_de": "Wie wäge ich zwei Positionen gegeneinander ab und komme auf Deutsch zu einem Fazit?"
+    "kind": "check",
+    "cards": [
+     "textkonnektoren-kohaerenz"
+    ]
    }
   ]
  },
@@ -1626,14 +2093,24 @@
     "category": "plural"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I describe the style and atmosphere of a book or film in German?",
+    "question_de": "Wie beschreibe ich Stil und Atmosphäre eines Buches oder Films auf Deutsch?"
+   },
+   {
+    "kind": "read",
+    "topic": "literature and the arts"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "discussing a novel at a book club",
     "situation_de": "in einem Lesekreis über einen Roman diskutieren"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I describe the style and atmosphere of a book or film in German?",
-    "question_de": "Wie beschreibe ich Stil und Atmosphäre eines Buches oder Films auf Deutsch?"
+    "kind": "check",
+    "cards": [
+     "partizipialsaetze"
+    ]
    }
   ]
  },
@@ -1662,14 +2139,24 @@
     "category": "sentence"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I discuss migration and integration policy with nuance, weighing figures against experience?",
+    "question_de": "Wie diskutiere ich differenziert über Migrations- und Integrationspolitik und wäge Zahlen gegen Erfahrungen ab?"
+   },
+   {
+    "kind": "read",
+    "topic": "demographic change"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a radio interview about how your profession will change with AI",
     "situation_de": "ein Radiointerview darüber, wie sich dein Beruf durch KI verändern wird"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I discuss migration and integration policy with nuance, weighing figures against experience?",
-    "question_de": "Wie diskutiere ich differenziert über Migrations- und Integrationspolitik und wäge Zahlen gegen Erfahrungen ab?"
+    "kind": "check",
+    "cards": [
+     "konjunktiv-i-redewiedergabe"
+    ]
    }
   ]
  },
@@ -1694,11 +2181,6 @@
     "category": "verbs"
    },
    {
-    "kind": "ownScene",
-    "situation_en": "presenting a car-free city centre plan to a sceptical shop owner",
-    "situation_de": "einem skeptischen Ladenbesitzer einen Plan für eine autofreie Innenstadt vorstellen"
-   },
-   {
     "kind": "ask",
     "question_en": "How do I make a formal proposal in a meeting and respond to objections?",
     "question_de": "Wie mache ich in einer Besprechung einen formellen Vorschlag und reagiere auf Einwände?"
@@ -1707,6 +2189,22 @@
     "kind": "ask",
     "question_en": "How are the Goethe-Zertifikat C1 and the TestDaF structured, and how do I prepare for them?",
     "question_de": "Wie sind das Goethe-Zertifikat C1 und der TestDaF aufgebaut, und wie bereite ich mich darauf vor?"
+   },
+   {
+    "kind": "read",
+    "topic": "mobility of the future"
+   },
+   {
+    "kind": "ownScene",
+    "situation_en": "presenting a car-free city centre plan to a sceptical shop owner",
+    "situation_de": "einem skeptischen Ladenbesitzer einen Plan für eine autofreie Innenstadt vorstellen"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "nominalstil-verbalstil",
+     "textkonnektoren-kohaerenz"
+    ]
    }
   ]
  },
@@ -1731,8 +2229,18 @@
     "category": "meaning"
    },
    {
+    "kind": "read",
+    "topic": "medicine and bioethics"
+   },
+   {
     "kind": "scene",
     "scene": "press_interview_study"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "paronyme-scheinbar-anscheinend"
+    ]
    }
   ]
  },
@@ -1757,12 +2265,22 @@
     "category": "sentence"
    },
    {
+    "kind": "read",
+    "topic": "finance and markets"
+   },
+   {
     "kind": "scene",
     "scene": "publishing_contract"
    },
    {
     "kind": "write",
     "task": "c2-objection-bank-fees"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "funktionsverbgefuege"
+    ]
    }
   ]
  },
@@ -1787,13 +2305,23 @@
     "category": "article"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I lodge a formal objection (Einspruch or Widerspruch), and which phrases does it need?",
+    "question_de": "Wie lege ich formell Einspruch oder Widerspruch ein, und welche Formulierungen gehören dazu?"
+   },
+   {
+    "kind": "read",
+    "topic": "economic policy"
+   },
+   {
     "kind": "scene",
     "scene": "tax_office_objection"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I lodge a formal objection (Einspruch or Widerspruch), and which phrases does it need?",
-    "question_de": "Wie lege ich formell Einspruch oder Widerspruch ein, und welche Formulierungen gehören dazu?"
+    "kind": "check",
+    "cards": [
+     "gehobene-praepositionen"
+    ]
    }
   ]
  },
@@ -1818,14 +2346,24 @@
     "category": "meaning"
    },
    {
+    "kind": "ask",
+    "question_en": "How do I make the same request in three registers: to a friend, a colleague and an authority?",
+    "question_de": "Wie formuliere ich dieselbe Bitte in drei Registern: an einen Freund, einen Kollegen und eine Behörde?"
+   },
+   {
+    "kind": "read",
+    "topic": "language and linguistics"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a conversation with an editor about the tone of your article",
     "situation_de": "ein Gespräch mit einer Redakteurin über den Ton deines Artikels"
    },
    {
-    "kind": "ask",
-    "question_en": "How do I make the same request in three registers: to a friend, a colleague and an authority?",
-    "question_de": "Wie formuliere ich dieselbe Bitte in drei Registern: an einen Freund, einen Kollegen und eine Behörde?"
+    "kind": "check",
+    "cards": [
+     "stilebenen-register"
+    ]
    }
   ]
  },
@@ -1850,9 +2388,19 @@
     "category": "verbs"
    },
    {
+    "kind": "read",
+    "topic": "history and remembrance"
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a conversation with your grandmother's neighbour about how the town has changed since the 1960s",
     "situation_de": "ein Gespräch mit dem Nachbarn deiner Großmutter darüber, wie sich die Stadt seit den 1960er-Jahren verändert hat"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "erzaehltempora-erlebte-rede"
+    ]
    }
   ]
  },
@@ -1877,13 +2425,23 @@
     "category": "sentence"
    },
    {
+    "kind": "ask",
+    "question_en": "Which rhetorical devices work in German speeches, and how do I use them without sounding pompous?",
+    "question_de": "Welche rhetorischen Mittel wirken in deutschen Reden, und wie setze ich sie ein, ohne gestelzt zu klingen?"
+   },
+   {
+    "kind": "read",
+    "topic": "rhetoric and argumentation"
+   },
+   {
     "kind": "write",
     "task": "c2-expert-statement-council"
    },
    {
-    "kind": "ask",
-    "question_en": "Which rhetorical devices work in German speeches, and how do I use them without sounding pompous?",
-    "question_de": "Welche rhetorischen Mittel wirken in deutschen Reden, und wie setze ich sie ein, ohne gestelzt zu klingen?"
+    "kind": "check",
+    "cards": [
+     "es-als-platzhalter-korrelat"
+    ]
    }
   ]
  },
@@ -1908,13 +2466,23 @@
     "category": "plural"
    },
    {
-    "kind": "write",
-    "task": "c2-open-letter-museum"
+    "kind": "read",
+    "topic": "the arts and criticism"
    },
    {
     "kind": "ownScene",
     "situation_en": "defending your harsh review to the director of the theatre",
     "situation_de": "deine harsche Kritik gegenüber der Intendantin des Theaters verteidigen"
+   },
+   {
+    "kind": "write",
+    "task": "c2-open-letter-museum"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "nachfeld-ausklammerung"
+    ]
    }
   ]
  },
@@ -1939,11 +2507,6 @@
     "category": "meaning"
    },
    {
-    "kind": "ownScene",
-    "situation_en": "mediating between two colleagues who disagree about a project",
-    "situation_de": "zwischen zwei Kollegen vermitteln, die sich über ein Projekt uneinig sind"
-   },
-   {
     "kind": "ask",
     "question_en": "How do I disagree with someone diplomatically in German without sounding weak?",
     "question_de": "Wie widerspreche ich auf Deutsch diplomatisch, ohne schwach zu wirken?"
@@ -1952,6 +2515,23 @@
     "kind": "ask",
     "question_en": "How is the Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) structured, and how do I prepare for it?",
     "question_de": "Wie ist das Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) aufgebaut, und wie bereite ich mich darauf vor?"
+   },
+   {
+    "kind": "read",
+    "topic": "philosophy and ethics"
+   },
+   {
+    "kind": "ownScene",
+    "situation_en": "mediating between two colleagues who disagree about a project",
+    "situation_de": "zwischen zwei Kollegen vermitteln, die sich über ein Projekt uneinig sind"
+   },
+   {
+    "kind": "check",
+    "cards": [
+     "stilebenen-register",
+     "gehobene-praepositionen",
+     "es-als-platzhalter-korrelat"
+    ]
    }
   ]
  }

@@ -27,7 +27,7 @@ export function CourseCard({ level }: { level: Level }) {
   const step = unit ? nextStep(unit, done) : null;
   const next = unit && step !== null ? stepLabel(unit, step, lang).title : null;
   const href = unit ? `/path/${unit.key}` : '/path';
-  const label = unit ? t('path.homeUnit', { n: index + 1, total: progress.units.length }) : t('path.levelDone', { level });
+  const label = unit ? t('path.weekOf', { n: index + 1, total: progress.units.length }) : t('path.levelDone', { level });
   return (
     <Animated.View entering={FadeInDown.duration(380)}>
       <Press onPress={() => router.push(href as never)} scaleTo={0.99} accessibilityLabel={unit ? `${label}, ${localizePathUnit(unit, lang).title_en}` : label} accessibilityHint={next ? t('path.homeNext', { title: next }) : undefined}>

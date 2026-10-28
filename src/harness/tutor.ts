@@ -37,6 +37,7 @@ import {
   type VocabItem,
 } from './parse';
 import * as P from './prompts';
+import { parseReadingDraft, READING_WORDS, readingBudget, readingComplete, type ReadingDraft } from './reading';
 import {
   BLOCKING_TELLS,
   counterpartPrompt,
@@ -615,6 +616,28 @@ export class Tutor {
       if (draft) return { ...draft, grounded };
     }
     throw new DraftError(t('author.reasonCard'), last);
+  }
+
+  /**
+   * A reading text on a topic at the learner's level with three multiple-choice questions, read by shape; the text's
+   * nouns are checked against the lexicon like any answer. The questions are checked by the app, never by the model.
+   */
+  async readingText(topic: string, ctx: Ctx): Promise<ReadingDraft & { checks: AnswerChecks; grounded: string[] }> {
+    let last = '';
+    const budget = readingBudget(ctx.level);
+    for (const variant of [0, 1]) {
+      const { text } = await this.run(
+        P.readingPrompt(topic, ctx.level, READING_WORDS[ctx.level], variant),
+        variant ? { ...ctx, onText: undefined } : ctx,
+        budget,
+        { prefill: P.READING_PREFILL, stopWhen: readingComplete },
+        false,
+      );
+      last = text;
+      const draft = parseReadingDraft(text, ctx.level);
+      if (draft) return { ...draft, checks: this.verify(draft.text, []), grounded: [] };
+    }
+    throw new DraftError(t('author.reasonReading'), last);
   }
 
   /** Vocabulary topics beyond the app's own list for the level. */
