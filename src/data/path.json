@@ -51,6 +51,10 @@
     "situation_de": "einen neuen Kollegen am ersten Arbeitstag kennenlernen und dich vorstellen"
    },
    {
+    "kind": "write",
+    "task": "a1-forum-introduce"
+   },
+   {
     "kind": "check",
     "cards": [
      "sein-haben-praesens",
@@ -108,6 +112,10 @@
     "kind": "ownScene",
     "situation_en": "showing a friend photos of your family",
     "situation_de": "einer Freundin Fotos von deiner Familie zeigen"
+   },
+   {
+    "kind": "write",
+    "task": "a1-family-photo"
    },
    {
     "kind": "check",
@@ -225,6 +233,10 @@
     "scene": "supermarket"
    },
    {
+    "kind": "write",
+    "task": "a1-supermarket-message"
+   },
+   {
     "kind": "check",
     "cards": [
      "pluralformen",
@@ -281,6 +293,10 @@
     "scene": "late_friend"
    },
    {
+    "kind": "write",
+    "task": "a1-my-day-email"
+   },
+   {
     "kind": "check",
     "cards": [
      "trennbare-verben",
@@ -329,6 +345,10 @@
     "kind": "ownScene",
     "situation_en": "asking a landlord questions about a flat you want to rent",
     "situation_de": "einem Vermieter Fragen zu einer Wohnung stellen, die du mieten möchtest"
+   },
+   {
+    "kind": "write",
+    "task": "a1-new-flat-message"
    },
    {
     "kind": "check",
@@ -381,6 +401,10 @@
     "scene": "taxi"
    },
    {
+    "kind": "write",
+    "task": "a1-directions-message"
+   },
+   {
     "kind": "check",
     "cards": [
      "imperativ"
@@ -429,6 +453,10 @@
    {
     "kind": "scene",
     "scene": "cinema"
+   },
+   {
+    "kind": "write",
+    "task": "a1-invite-weekend"
    },
    {
     "kind": "check",
@@ -484,6 +512,10 @@
    {
     "kind": "scene",
     "scene": "pharmacy"
+   },
+   {
+    "kind": "write",
+    "task": "a1-ill-message-course"
    },
    {
     "kind": "check",
@@ -595,6 +627,10 @@
     "kind": "ownScene",
     "situation_en": "telling a colleague on Monday morning about your weekend",
     "situation_de": "einem Kollegen am Montagmorgen vom Wochenende erzählen"
+   },
+   {
+    "kind": "write",
+    "task": "a2-weekend-report"
    },
    {
     "kind": "check",
@@ -763,6 +799,10 @@
    {
     "kind": "scene",
     "scene": "cold_soup"
+   },
+   {
+    "kind": "write",
+    "task": "a2-return-jacket"
    },
    {
     "kind": "check",
@@ -940,6 +980,10 @@
     "scene": "cafe_job"
    },
    {
+    "kind": "write",
+    "task": "a2-weekend-job-email"
+   },
+   {
     "kind": "check",
     "cards": [
      "seit-vor-fuer",
@@ -997,6 +1041,10 @@
     "kind": "ownScene",
     "situation_en": "asking at the tourist information what to see in a town",
     "situation_de": "bei der Touristeninformation fragen, was man in einer Stadt besichtigen kann"
+   },
+   {
+    "kind": "write",
+    "task": "a2-summer-plans-email"
    },
    {
     "kind": "check",
@@ -1059,6 +1107,10 @@
     "scene": "library"
    },
    {
+    "kind": "write",
+    "task": "a2-library-email"
+   },
+   {
     "kind": "check",
     "cards": [
      "kennen-wissen-koennen",
@@ -1113,6 +1165,10 @@
     "kind": "ownScene",
     "situation_en": "telling a friend about a person you met and what they are like",
     "situation_de": "einer Freundin von einer Person erzählen, die du kennengelernt hast, und wie sie ist"
+   },
+   {
+    "kind": "write",
+    "task": "a2-describe-friend"
    },
    {
     "kind": "check",
@@ -1288,6 +1344,10 @@
     "situation_de": "ein Gespräch mit einem Nachbarn über Lärm spät am Abend"
    },
    {
+    "kind": "write",
+    "task": "b1-flat-enquiry"
+   },
+   {
     "kind": "check",
     "cards": [
      "relativpronomen",
@@ -1340,6 +1400,10 @@
     "kind": "ownScene",
     "situation_en": "talking to a doctor about back pain from sitting at a desk",
     "situation_de": "mit einer Ärztin über Rückenschmerzen vom Sitzen am Schreibtisch sprechen"
+   },
+   {
+    "kind": "write",
+    "task": "b1-forum-healthy-week"
    },
    {
     "kind": "check",
@@ -1442,6 +1506,10 @@
     "scene": "bank_account"
    },
    {
+    "kind": "write",
+    "task": "b1-bank-account-email"
+   },
+   {
     "kind": "check",
     "cards": [
      "passiv-praesens"
@@ -1502,6 +1570,10 @@
     "scene": "hotel_noise"
    },
    {
+    "kind": "write",
+    "task": "b1-hotel-complaint"
+   },
+   {
     "kind": "check",
     "cards": [
      "nachdem-bevor-waehrend",
@@ -1554,6 +1626,10 @@
     "kind": "ownScene",
     "situation_en": "a discussion with a friend about whether children should have smartphones",
     "situation_de": "eine Diskussion mit einer Freundin darüber, ob Kinder Smartphones haben sollten"
+   },
+   {
+    "kind": "write",
+    "task": "b1-forum-screen-time"
    },
    {
     "kind": "check",
@@ -1673,6 +1749,10 @@
     "situation_de": "einem deutschen Freund ein Fest aus deinem Land erklären"
    },
    {
+    "kind": "write",
+    "task": "b1-street-festival-message"
+   },
+   {
     "kind": "check",
     "cards": [
      "zweiteilige-konnektoren"
@@ -1775,6 +1855,10 @@
    {
     "kind": "scene",
     "scene": "flat_handover"
+   },
+   {
+    "kind": "write",
+    "task": "b2-deposit-letter"
    },
    {
     "kind": "check",
@@ -1941,6 +2025,10 @@
     "scene": "immigration_office"
    },
    {
+    "kind": "write",
+    "task": "b2-integration-course-letter"
+   },
+   {
     "kind": "check",
     "cards": [
      "genitivpraepositionen"
@@ -1995,6 +2083,10 @@
     "situation_de": "eine Diskussion mit einem Nachbarn über einen neuen Radweg in eurer Straße"
    },
    {
+    "kind": "write",
+    "task": "b2-forum-voting-age"
+   },
+   {
     "kind": "check",
     "cards": [
      "relativsaetze-praepositionen-wo-was"
@@ -2042,6 +2134,10 @@
     "kind": "ownScene",
     "situation_en": "talking to a colleague about how your company could waste less",
     "situation_de": "mit einem Kollegen darüber sprechen, wie eure Firma weniger verschwenden könnte"
+   },
+   {
+    "kind": "write",
+    "task": "b2-survey-report-email"
    },
    {
     "kind": "check",
@@ -2098,6 +2194,10 @@
     "situation_de": "einer Freundin Rat bei Stress im Beruf geben"
    },
    {
+    "kind": "write",
+    "task": "b2-advice-for-friend"
+   },
+   {
     "kind": "check",
     "cards": [
      "irreale-vergleiche-als-ob",
@@ -2150,6 +2250,10 @@
     "kind": "ownScene",
     "situation_en": "recommending a film or a book to a friend and explaining why",
     "situation_de": "einer Freundin einen Film oder ein Buch empfehlen und erklären, warum"
+   },
+   {
+    "kind": "write",
+    "task": "b2-review-for-magazine"
    },
    {
     "kind": "check",
@@ -2208,6 +2312,10 @@
     "kind": "ownScene",
     "situation_en": "reporting a bicycle theft at the police station",
     "situation_de": "einen Fahrraddiebstahl bei der Polizei anzeigen"
+   },
+   {
+    "kind": "write",
+    "task": "b2-article-summary-group"
    },
    {
     "kind": "check",
@@ -2317,6 +2425,10 @@
    {
     "kind": "scene",
     "scene": "rent_increase"
+   },
+   {
+    "kind": "write",
+    "task": "c1-rent-increase-objection"
    },
    {
     "kind": "check",
@@ -2465,6 +2577,10 @@
     "situation_de": "eine Podiumsdiskussion über Windräder in der Nähe eures Dorfes"
    },
    {
+    "kind": "write",
+    "task": "c1-wind-farm-statement"
+   },
+   {
     "kind": "check",
     "cards": [
      "textkonnektoren-kohaerenz"
@@ -2512,6 +2628,10 @@
     "kind": "ownScene",
     "situation_en": "discussing a novel at a book club",
     "situation_de": "in einem Lesekreis über einen Roman diskutieren"
+   },
+   {
+    "kind": "write",
+    "task": "c1-letter-about-novel"
    },
    {
     "kind": "check",
@@ -2565,6 +2685,10 @@
     "kind": "ownScene",
     "situation_en": "a radio interview about how your profession will change with AI",
     "situation_de": "ein Radiointerview darüber, wie sich dein Beruf durch KI verändern wird"
+   },
+   {
+    "kind": "write",
+    "task": "c1-report-ai-at-work"
    },
    {
     "kind": "check",
@@ -2622,6 +2746,10 @@
     "situation_de": "einem skeptischen Ladenbesitzer einen Plan für eine autofreie Innenstadt vorstellen"
    },
    {
+    "kind": "write",
+    "task": "c1-proposal-car-free-centre"
+   },
+   {
     "kind": "check",
     "cards": [
      "nominalstil-verbalstil",
@@ -2666,6 +2794,10 @@
    {
     "kind": "scene",
     "scene": "press_interview_study"
+   },
+   {
+    "kind": "write",
+    "task": "c2-email-journalist-research"
    },
    {
     "kind": "check",
@@ -2767,6 +2899,10 @@
     "scene": "tax_office_objection"
    },
    {
+    "kind": "write",
+    "task": "c2-tax-office-objection"
+   },
+   {
     "kind": "check",
     "cards": [
      "gehobene-praepositionen"
@@ -2816,6 +2952,10 @@
     "situation_de": "ein Gespräch mit einer Redakteurin über den Ton deines Artikels"
    },
    {
+    "kind": "write",
+    "task": "c2-style-guide-email"
+   },
+   {
     "kind": "check",
     "cards": [
      "stilebenen-register"
@@ -2858,6 +2998,10 @@
     "kind": "ownScene",
     "situation_en": "a conversation with your grandmother's neighbour about how the town has changed since the 1960s",
     "situation_de": "ein Gespräch mit dem Nachbarn deiner Großmutter darüber, wie sich die Stadt seit den 1960er-Jahren verändert hat"
+   },
+   {
+    "kind": "write",
+    "task": "c2-family-chronicle-letter"
    },
    {
     "kind": "check",
@@ -3010,6 +3154,10 @@
     "kind": "ownScene",
     "situation_en": "mediating between two colleagues who disagree about a project",
     "situation_de": "zwischen zwei Kollegen vermitteln, die sich über ein Projekt uneinig sind"
+   },
+   {
+    "kind": "write",
+    "task": "c2-briefing-ethics-council"
    },
    {
     "kind": "check",

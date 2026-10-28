@@ -1177,7 +1177,6 @@
   "write.noDu": "Pas de formes en du dans une lettre formelle",
   "write.openFormal": "Commence par “Sehr geehrte …”",
   "write.openInformal": "Commence par “Liebe …” ou “Hallo …”",
-  "write.sayPoint": "Dis {point}",
   "write.setTask": "Préparer la tâche",
   "write.settingTask": "Ton tuteur prépare ta tâche",
   "write.showModelAnswer": "Voir le corrigé type de ton tuteur",

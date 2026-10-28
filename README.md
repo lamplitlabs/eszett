@@ -481,7 +481,9 @@ the rhythm a course book keeps (`SKILLS`, `stepsBySkill`): **Wortschatz** (a wor
 composer, sent in the tutor's language and shown in the app's), **Lesen & Hören** (a text the tutor writes,
 `/read?topic=`), **Sprechen** (the week's sentences to say, `/speak?unit=`, then a scene, or a scene the tutor
 writes for a given situation, `/scenes?own=`),
-**Schreiben** (a writing task) and the **Lerncheck** (`/path/check/<week>`). Each route carries
+**Schreiben** (a writing task — every week has one, 57 in all, each in the shape of a Goethe/telc writing part on the
+week's topic: a message, email, letter or forum post whose greeting, sign-off, length and content points the app
+checks before the tutor corrects the language) and the **Lerncheck** (`/path/check/<week>`). Each route carries
 `path=<week>:<step>`, and the screen marks `path:<week>:<step>` done in the progress store the way it marks the
 daily lesson's activities (the drill's last item, the card's exercises, the scene's end, the sent text, the finished
 list, the question sent, the sentences said, the scene written, the three questions answered, the check finished). A grammar card, scene
@@ -558,8 +560,11 @@ present and Präteritum, at B2 (which had two cards) the past Konjunktiv II, als
 participles as adjectives, the genitive prepositions, relative clauses with prepositions/wo/was, the modal particles,
 indem/sodass/ohne dass, Futur I/II as assumption and the inseparable prefixes be-/ver-/er-/ent-/zer-, at C1 text
 connectors and participle clauses, at C2 es as placeholder and correlate and Nachfeld/extraposition
-(`levels.test.ts` pins the C1 and C2 sets); six writing tasks in the Goethe/telc shapes (an A1 postcard, an A2 note
-to the landlord, a B1 complaint about an order, a B2 forum post, a C1 report on figures, a C2 open letter); and 33
+(`levels.test.ts` pins the C1 and C2 sets); 43 writing tasks in the Goethe/telc shapes, so that every week of the
+course has one (an A1 postcard, an A2 note to the landlord, a B1 complaint about an order, a B2 forum post, a C1
+report on figures, a C2 open letter, and then one for each week that had none: from a first forum post at A1 and
+an email to the library at A2 to a rent-increase objection, a wind-farm statement, a tax-office objection and an
+ethics-council briefing at C1/C2); and 33
 word-list topics (`src/features/topics.ts`, where the topic tables now live). All of it is in the ten content
 overlays and the twelve UI catalogs (the `path` section of `en.source.json`: a week's title, goal and, per step, the
 question or situation it carries).

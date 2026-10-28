@@ -3174,6 +3174,78 @@
         "what you do all day"
       ]
     },
+    "a1-forum-introduce": {
+      "title": "Introduce yourself in the course forum",
+      "prompt": "Write a short post for your German course forum: say your name and where you come from, which languages you speak, and ask the others where they are from.",
+      "points": [
+        "your name and where you are from",
+        "the languages you speak",
+        "ask the others where they are from"
+      ]
+    },
+    "a1-family-photo": {
+      "title": "A message about a family photo",
+      "prompt": "Your friend Ana sends you a photo of her family. Write back: say who is in your family, how old your parents or your brothers and sisters are, and what one of them does for a living.",
+      "points": [
+        "who is in your family",
+        "how old they are",
+        "what one of them does for a living"
+      ]
+    },
+    "a1-supermarket-message": {
+      "title": "A message from the supermarket",
+      "prompt": "You are at the supermarket and your flatmate Jonas is at home. Write him a message: say what you are buying, ask what he still needs, and say what you are not buying because it is too expensive.",
+      "points": [
+        "what you are buying",
+        "ask what he still needs",
+        "what you are not buying, and why"
+      ]
+    },
+    "a1-my-day-email": {
+      "title": "An email about your day",
+      "prompt": "Your pen friend Mia wants to know what a normal day looks like for you. Write her an email: say when you get up, what you do in the morning and in the afternoon, and when you go to bed.",
+      "points": [
+        "when you get up",
+        "what you do in the morning and afternoon",
+        "when you go to bed"
+      ]
+    },
+    "a1-new-flat-message": {
+      "title": "Your new flat",
+      "prompt": "You have moved. Write a message to your friend Paul: say how many rooms the flat has, which furniture is in your room, and what you like about the flat.",
+      "points": [
+        "the rooms",
+        "the furniture in your room",
+        "what you like about the flat"
+      ]
+    },
+    "a1-directions-message": {
+      "title": "The way to your place",
+      "prompt": "Your friend Sara is visiting you for the first time. Write her a message: say which bus or train she takes, where she gets off, and how she walks from the stop to your house.",
+      "points": [
+        "which bus or train",
+        "where she gets off",
+        "the way on foot"
+      ]
+    },
+    "a1-invite-weekend": {
+      "title": "An invitation for the weekend",
+      "prompt": "Write a message to your friend Leo: say what you want to do at the weekend, invite him to come along, and suggest a day and a time.",
+      "points": [
+        "what you want to do",
+        "the invitation",
+        "a day and a time"
+      ]
+    },
+    "a1-ill-message-course": {
+      "title": "You are ill",
+      "prompt": "You cannot come to the German course today. Write a message to your course friend Nadia: say that you are ill and what hurts, that you have a doctor's appointment, and ask her to send you the homework.",
+      "points": [
+        "you are ill, and what hurts",
+        "the doctor's appointment",
+        "ask for the homework"
+      ]
+    },
     "a2-birthday": {
       "title": "A birthday invitation",
       "prompt": "Write a short email to a friend: invite them to your birthday party on Saturday. Say when it starts, where it is, and what they should bring. 30-40 words.",
@@ -3208,6 +3280,60 @@
         "the problem and since when",
         "ask him to send someone",
         "when you are at home"
+      ]
+    },
+    "a2-weekend-report": {
+      "title": "How was your weekend?",
+      "prompt": "Your friend Tim asks how your weekend was. Write back: tell him what you did on Saturday and Sunday, say how it was, and ask him what he did.",
+      "points": [
+        "what you did",
+        "how it was",
+        "ask what he did"
+      ]
+    },
+    "a2-return-jacket": {
+      "title": "An email to an online shop",
+      "prompt": "You ordered a jacket online, but it is too small and a button is missing. Write an email to the shop: say what you ordered and when, what the problem is, and ask politely whether you can exchange it or get your money back.",
+      "points": [
+        "the order and when",
+        "the problem",
+        "exchange or refund, asked politely"
+      ]
+    },
+    "a2-weekend-job-email": {
+      "title": "Applying for a weekend job",
+      "prompt": "A café is looking for help at the weekend. Write a short email: say which job you are interested in, what experience you have and since when, and when you can start.",
+      "points": [
+        "the job you want",
+        "your experience and since when",
+        "when you can start"
+      ]
+    },
+    "a2-summer-plans-email": {
+      "title": "Plans for the summer",
+      "prompt": "Write an email to your friend Elena about your next holiday: say where you will go and with whom, how you will travel there, and what you will do there.",
+      "points": [
+        "where to and with whom",
+        "how you travel",
+        "what you will do there"
+      ]
+    },
+    "a2-library-email": {
+      "title": "An email to the library",
+      "prompt": "Write an email to the city library: ask whether they have a German textbook for your level, how long you can borrow it, and whether you can extend the loan online.",
+      "points": [
+        "the book you are looking for",
+        "how long you can borrow it",
+        "extending online"
+      ]
+    },
+    "a2-describe-friend": {
+      "title": "Describe a good friend",
+      "prompt": "Your course chat is collecting posts about best friends. Write a short post about a friend: describe how they look, what their character is like, and explain why you like them.",
+      "points": [
+        "how they look",
+        "their character",
+        "why you like them"
       ]
     },
     "b1-missed-party": {
@@ -3246,6 +3372,60 @@
         "ask how to send it back"
       ]
     },
+    "b1-flat-enquiry": {
+      "title": "Asking about a flat",
+      "prompt": "You have seen an advertisement for a two-room flat. Write an email to the landlord, Herr Krüger: introduce yourself briefly and say why you are looking for a flat, ask about three things in the flat or the contract (for example the deposit, the heating costs, the notice period), and ask for a viewing date.",
+      "points": [
+        "who you are and why you are looking",
+        "three questions about the flat or the contract",
+        "a viewing date"
+      ]
+    },
+    "b1-forum-healthy-week": {
+      "title": "A forum post on healthy living",
+      "prompt": "A forum asks: \"Healthy food and sport — how do you manage it in a full week?\" Write a post: say what you eat and how much sport you do, describe a problem you have with it (for example stress or no time), and give the others one piece of advice.",
+      "points": [
+        "what you eat and how much sport you do",
+        "a problem you have with it",
+        "one piece of advice"
+      ]
+    },
+    "b1-bank-account-email": {
+      "title": "An email to the bank",
+      "prompt": "You want to open a current account. Write an email to the bank: say which account you need and what for, ask which documents are required and what the account costs per month, and ask whether the account can be opened online or only in the branch.",
+      "points": [
+        "the account and what for",
+        "documents and monthly costs",
+        "online or in the branch"
+      ]
+    },
+    "b1-hotel-complaint": {
+      "title": "A complaint to a hotel",
+      "prompt": "After your trip you write to the hotel: say when you stayed there and what had been booked, describe what went wrong (for example the room, the noise, the breakfast) and what had been promised, and say what you expect from the hotel now.",
+      "points": [
+        "the stay and the booking",
+        "what went wrong and what was promised",
+        "what you expect now"
+      ]
+    },
+    "b1-forum-screen-time": {
+      "title": "A forum post on screen time",
+      "prompt": "A forum asks: \"How much time do you spend on your phone — and is that too much?\" Write a post: say how and how long you use your phone every day, say what annoys you about it and what you look forward to without it, and give your opinion on whether rules for screen time make sense.",
+      "points": [
+        "how and how long you use your phone",
+        "what annoys you, what you look forward to",
+        "your opinion on rules"
+      ]
+    },
+    "b1-street-festival-message": {
+      "title": "Invitation to a street festival",
+      "prompt": "Your street is organising a festival without plastic and waste. Write a message to the neighbours' group: say when and where the festival is and what is planned, explain the two rules on waste and ask everyone to bring something, and say what you will bring and what you will not bring.",
+      "points": [
+        "when, where and what is planned",
+        "the two rules and the request",
+        "what you bring and what not"
+      ]
+    },
     "b2-course-complaint": {
       "title": "A complaint to a language school",
       "prompt": "Write a formal complaint (about 150 words) to a language school: your course had no teacher for three sessions. Describe what happened, say what you expect the school to do, and set a deadline for their answer.",
@@ -3272,6 +3452,69 @@
         "arguments for and against",
         "an experience of your own",
         "a suggestion"
+      ]
+    },
+    "b2-deposit-letter": {
+      "title": "Getting your deposit back",
+      "prompt": "You moved out of your flat two months ago, handed it over in good condition, and still have not received your deposit. Write to your former landlord, Herr Albrecht: describe the hand-over and the condition of the flat, refer to the agreed deadline and ask for the deposit to be paid back by a date, and say what you will do if it is not.",
+      "points": [
+        "the hand-over and the condition",
+        "the deadline and the demand",
+        "what you will do otherwise"
+      ]
+    },
+    "b2-integration-course-letter": {
+      "title": "A letter about an integration course",
+      "prompt": "A friend of yours has been waiting for months for a place in an integration course. Write to the adult education centre on her behalf: describe her situation (since when she has been in Germany, why the course matters for her work), explain the consequences of the waiting time, and ask for a place on the next course or an alternative.",
+      "points": [
+        "her situation",
+        "the consequences of waiting",
+        "the request"
+      ]
+    },
+    "b2-forum-voting-age": {
+      "title": "Voting at sixteen?",
+      "prompt": "An online forum discusses lowering the voting age to sixteen. Write a post: give arguments for and against, refer to what another user wrote and say where you agree or disagree, and state your own position with a reason.",
+      "points": [
+        "arguments for and against",
+        "a reference to another post",
+        "your own position with a reason"
+      ]
+    },
+    "b2-survey-report-email": {
+      "title": "A short report with figures",
+      "prompt": "The editor of your company newsletter, Frau Lang, has asked you for a short report on a survey: 62 % of colleagues come by car, 23 % by public transport, 15 % by bike or on foot; 70 % would switch if there were a job ticket. Write her an email: describe the figures, make an assumption about how the numbers will develop, and propose two measures.",
+      "points": [
+        "the figures described",
+        "an assumption about the future",
+        "two measures proposed"
+      ]
+    },
+    "b2-advice-for-friend": {
+      "title": "Advice for a friend",
+      "prompt": "Your friend Daniel writes that he seems calm at work but is actually very stressed and sleeps badly. Write back: describe how you see his situation and what might be behind it, tell him about a similar experience of your own, and give him two concrete pieces of advice.",
+      "points": [
+        "his situation and what may be behind it",
+        "a similar experience of yours",
+        "two concrete pieces of advice"
+      ]
+    },
+    "b2-review-for-magazine": {
+      "title": "A review for a city magazine",
+      "prompt": "The culture editor of a city magazine, Herr Vogt, has asked you for a short review of an exhibition, a film or a book. Write him an email with your review: describe what it is about and what you found strong or weak, report what the artist, author or director said about the work in an interview, and give a recommendation and say for whom.",
+      "points": [
+        "the content and your judgement",
+        "what the artist said, reported",
+        "a recommendation, and for whom"
+      ]
+    },
+    "b2-article-summary-group": {
+      "title": "Summarising an article",
+      "prompt": "Write a message to your study group summarising an article on globalisation that you have read (for example about supply chains, cheap clothes or fair trade): name the topic and the main claim, give the two or three most important arguments in your own words, and end with one sentence on what you think of it.",
+      "points": [
+        "the topic and the main claim",
+        "the main arguments in your words",
+        "one sentence with your view"
       ]
     },
     "c1-letter-to-editor": {
@@ -3304,6 +3547,51 @@
         "one measure recommended"
       ]
     },
+    "c1-rent-increase-objection": {
+      "title": "An objection to a rent increase",
+      "prompt": "Your landlord has announced a rent increase of 15 % with reference to the local comparative rent. Write a formal objection (about 220 words): set out the facts (the current rent, the increase announced, the date), give at least two legal and factual grounds for your objection (for example the cap, the condition of the flat, missing evidence), and say what you would agree to and by when you expect an answer.",
+      "points": [
+        "the facts set out",
+        "two grounds for the objection",
+        "what you would agree to, and the deadline"
+      ]
+    },
+    "c1-wind-farm-statement": {
+      "title": "A statement on a wind farm",
+      "prompt": "Your municipality is consulting residents on a planned wind farm. Write a statement to the council (about 240 words): weigh up the main arguments for and against (energy supply, landscape and nature, noise, revenue for the village), structure your text clearly with connectors, and come to a reasoned conclusion with one condition or proposal.",
+      "points": [
+        "arguments on both sides weighed",
+        "a clear structure with connectors",
+        "a reasoned conclusion with a condition"
+      ]
+    },
+    "c1-letter-about-novel": {
+      "title": "A letter about a novel",
+      "prompt": "Your friend Jana has given you a novel and wants to know what you think. Write her a letter (about 220 words): describe how the story unfolds and what the book does with language, style and atmosphere, say what impressed or irritated you and why, and tell her whether and to whom you would recommend it.",
+      "points": [
+        "how the story unfolds and its style",
+        "what impressed or irritated you, and why",
+        "whether and to whom you recommend it"
+      ]
+    },
+    "c1-report-ai-at-work": {
+      "title": "A report on artificial intelligence at work",
+      "prompt": "Your head of department, Frau Sommer, has asked you to summarise a panel discussion on artificial intelligence at work for the staff. Write her a formal email (about 240 words): report what the experts said (in indirect speech), explain the connections between the main points clearly, and formulate two recommendations for the department.",
+      "points": [
+        "what the experts said, in indirect speech",
+        "the connections explained",
+        "two recommendations"
+      ]
+    },
+    "c1-proposal-car-free-centre": {
+      "title": "A proposal for a car-free centre",
+      "prompt": "Your city invites proposals for the future of the centre. Write a formal letter to the planning office (about 240 words): present your proposal for a largely car-free centre and the problem it solves, anticipate two objections (for example from shop owners and older residents) and respond to them, and name the first step and who would have to be involved.",
+      "points": [
+        "the proposal and the problem it solves",
+        "two objections anticipated and answered",
+        "the first step and who is involved"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "An objection to a bank about unlawful account fees",
       "prompt": "Your bank raised its account fees two years ago without your explicit consent and now refuses to refund them, citing your \"tacit acceptance\". Write a formal objection to the bank (about 260 words): set out the facts with dates and amounts, state the legal basis and the ruling you rely on, demand the refund with a deadline, and announce the steps you will take if the bank does not comply.",
@@ -3333,6 +3621,51 @@
         "what works, acknowledged",
         "concrete changes proposed"
       ]
+    },
+    "c2-email-journalist-research": {
+      "title": "Explaining your research to a journalist",
+      "prompt": "A journalist, Frau Dr. Winter, has asked you by email to explain the findings of your research project on a medical or bioethical question for a general audience. Write her a reply (about 260 words): explain the question and the key finding in plain but precise terms, draw a careful distinction between what the study shows and what it merely suggests, and respond to one critical question she has raised.",
+      "points": [
+        "the question and the key finding, plainly",
+        "shown versus merely suggested",
+        "a critical question answered"
+      ]
+    },
+    "c2-tax-office-objection": {
+      "title": "An objection to the tax office",
+      "prompt": "Your tax assessment does not recognise your home-office costs and arrived with a late-payment surcharge, although you filed on time. Write a formal objection to the tax office (about 260 words): state what you object to with reference to the assessment, set out the facts in administrative German and give reasons for each point, and apply for the assessment to be corrected and the surcharge to be waived, with a request for a suspension of enforcement.",
+      "points": [
+        "the objection named with reference to the assessment",
+        "the facts with reasons for each point",
+        "correction, waiver and suspension applied for"
+      ]
+    },
+    "c2-style-guide-email": {
+      "title": "An email about register and style",
+      "prompt": "A new colleague, Herr Novak, has asked you to look over a draft letter of his to a ministry that mixes formal and casual language. Write him a formal but friendly email (about 260 words): explain what register the occasion calls for and why, point out two or three clashes of style in his draft with better alternatives, and give him a rule of thumb for choosing the right register in future.",
+      "points": [
+        "the register the occasion calls for, and why",
+        "two or three clashes with alternatives",
+        "a rule of thumb for the future"
+      ]
+    },
+    "c2-family-chronicle-letter": {
+      "title": "A letter for the family chronicle",
+      "prompt": "Your cousin Lena is collecting letters for a family chronicle and has asked you for the story of one day that changed something in your family. Write her a letter (about 260 words): narrate the day in the narrative past, including what someone thought or felt in free indirect speech, show how the day connects to what happened before and after, and reflect on what this memory means today.",
+      "points": [
+        "the day narrated, with thoughts in free indirect speech",
+        "before and after connected",
+        "what the memory means today"
+      ]
+    },
+    "c2-briefing-ethics-council": {
+      "title": "A briefing for an ethics council",
+      "prompt": "The chair of a municipal ethics council, Herr Prof. Adler, has asked you for a short briefing on whether the city should use facial recognition in public places. Write him a formal email (about 280 words): present the positions of at least three sources (for example the police, a civil-rights group, a legal opinion) in a balanced way, weigh them against each other with precision and tact, and recommend a course of action with conditions.",
+      "points": [
+        "three positions presented in a balanced way",
+        "the positions weighed with tact",
+        "a recommendation with conditions"
+      ]
     }
   },
   "path": {
@@ -3349,6 +3682,7 @@
         null,
         null,
         "meeting a new colleague on your first day and introducing yourself",
+        null,
         null
       ]
     },
@@ -3365,6 +3699,7 @@
         null,
         null,
         "showing a friend photos of your family",
+        null,
         null
       ]
     },
@@ -3396,6 +3731,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3408,6 +3744,7 @@
         null,
         null,
         "How do I describe my daily routine, from getting up to going to bed?",
+        null,
         null,
         null,
         null,
@@ -3425,6 +3762,7 @@
         null,
         null,
         "asking a landlord questions about a flat you want to rent",
+        null,
         null
       ]
     },
@@ -3432,6 +3770,7 @@
       "title": "Out and about in town",
       "goal": "Ask for and give directions, use buses, trains and taxis, and name the places in a town.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3453,6 +3792,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3464,6 +3804,7 @@
         null,
         null,
         "How do I say ‘I was’ and ‘I had’ in German, for example when I was ill: war and hatte?",
+        null,
         null,
         null,
         null,
@@ -3499,6 +3840,7 @@
         null,
         null,
         "telling a colleague on Monday morning about your weekend",
+        null,
         null
       ]
     },
@@ -3537,6 +3879,7 @@
       "title": "Shopping and complaining",
       "goal": "Compare products and prices, ask politely for help, exchange or return something and complain about a meal.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3592,6 +3935,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3608,6 +3952,7 @@
         null,
         null,
         "asking at the tourist information what to see in a town",
+        null,
         null
       ]
     },
@@ -3621,6 +3966,7 @@
         null,
         "What can I say when I don't understand something or need a word repeated?",
         "How do I talk about my phone, my computer and the internet in everyday German?",
+        null,
         null,
         null,
         null,
@@ -3639,6 +3985,7 @@
         null,
         null,
         "telling a friend about a person you met and what they are like",
+        null,
         null
       ]
     },
@@ -3686,6 +4033,7 @@
         null,
         null,
         "a conversation with a neighbour about noise late at night",
+        null,
         null
       ]
     },
@@ -3701,6 +4049,7 @@
         null,
         null,
         "talking to a doctor about back pain from sitting at a desk",
+        null,
         null
       ]
     },
@@ -3729,6 +4078,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3736,6 +4086,7 @@
       "title": "Mobility and travel",
       "goal": "Deal with a car repair and a missed connection, complain at a hotel, and tell what happened before, during and after a trip.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3760,6 +4111,7 @@
         null,
         null,
         "a discussion with a friend about whether children should have smartphones",
+        null,
         null
       ]
     },
@@ -3792,6 +4144,7 @@
         null,
         null,
         "explaining a festival from your country to a German friend",
+        null,
         null
       ]
     },
@@ -3814,6 +4167,7 @@
       "title": "Living in the city",
       "goal": "View a flat, hand it back and discuss the deposit, compare city and countryside, and describe people and things with participles.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3866,6 +4220,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3881,6 +4236,7 @@
         null,
         null,
         "a discussion with a neighbour about a new cycle lane in your street",
+        null,
         null
       ]
     },
@@ -3895,6 +4251,7 @@
         null,
         null,
         "talking to a colleague about how your company could waste less",
+        null,
         null
       ]
     },
@@ -3910,6 +4267,7 @@
         null,
         null,
         "giving a friend advice about stress at work",
+        null,
         null
       ]
     },
@@ -3925,6 +4283,7 @@
         null,
         null,
         "recommending a film or a book to a friend and explaining why",
+        null,
         null
       ]
     },
@@ -3941,6 +4300,7 @@
         null,
         null,
         "reporting a bicycle theft at the police station",
+        null,
         null
       ]
     },
@@ -3968,6 +4328,7 @@
         null,
         "How do I read an official letter from a German authority? What do the typical phrases mean?",
         "Which verbs take the genitive, like bedürfen, gedenken, sich erfreuen, and where do they appear?",
+        null,
         null,
         null,
         null,
@@ -4013,6 +4374,7 @@
         null,
         null,
         "a panel discussion on wind turbines near your village",
+        null,
         null
       ]
     },
@@ -4027,6 +4389,7 @@
         null,
         null,
         "discussing a novel at a book club",
+        null,
         null
       ]
     },
@@ -4042,6 +4405,7 @@
         null,
         null,
         "a radio interview about how your profession will change with AI",
+        null,
         null
       ]
     },
@@ -4057,6 +4421,7 @@
         null,
         null,
         "presenting a car-free city centre plan to a sceptical shop owner",
+        null,
         null
       ]
     },
@@ -4064,6 +4429,7 @@
       "title": "Science in public",
       "goal": "Explain your own research to a journalist, distinguish near-synonyms precisely, and handle critical questions with ease.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4098,6 +4464,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4112,6 +4479,7 @@
         null,
         null,
         "a conversation with an editor about the tone of your article",
+        null,
         null
       ]
     },
@@ -4125,6 +4493,7 @@
         null,
         null,
         "a conversation with your grandmother's neighbour about how the town has changed since the 1960s",
+        null,
         null
       ]
     },
@@ -4168,6 +4537,7 @@
         null,
         null,
         "mediating between two colleagues who disagree about a project",
+        null,
         null
       ]
     }

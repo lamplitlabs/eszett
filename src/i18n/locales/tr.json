@@ -1177,7 +1177,6 @@
   "write.noDu": "Resmî mektupta du biçimleri olmaz",
   "write.openFormal": "“Sehr geehrte …” ile başla",
   "write.openInformal": "“Liebe …” ya da “Hallo …” ile başla",
-  "write.sayPoint": "Şunu belirt: {point}",
   "write.setTask": "Görevi ver",
   "write.settingTask": "Öğretmenin görevini hazırlıyor",
   "write.showModelAnswer": "Öğretmeninin örnek cevabını göster",

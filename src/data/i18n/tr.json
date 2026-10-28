@@ -3174,6 +3174,78 @@
         "bütün gün ne yaptığın"
       ]
     },
+    "a1-forum-introduce": {
+      "title": "Kurs forumunda kendini tanıt",
+      "prompt": "Almanca kursunun forumu için kısa bir yazı yaz: adını ve nereden geldiğini, hangi dilleri konuştuğunu söyle ve diğerlerine nereli olduklarını sor.",
+      "points": [
+        "adın ve nereli olduğun",
+        "konuştuğun diller",
+        "diğerlerine nereli olduklarını sor"
+      ]
+    },
+    "a1-family-photo": {
+      "title": "Bir aile fotoğrafı hakkında mesaj",
+      "prompt": "Arkadaşın Ana sana ailesinin bir fotoğrafını gönderiyor. Ona cevap yaz: ailende kimlerin olduğunu, anne babanın ya da kardeşlerinin kaç yaşında olduğunu ve içlerinden birinin ne iş yaptığını söyle.",
+      "points": [
+        "ailende kimlerin olduğu",
+        "kaç yaşında oldukları",
+        "içlerinden birinin ne iş yaptığı"
+      ]
+    },
+    "a1-supermarket-message": {
+      "title": "Süpermarketten bir mesaj",
+      "prompt": "Süpermarkettesin, ev arkadaşın Jonas ise evde. Ona bir mesaj yaz: ne aldığını söyle, başka neye ihtiyacı olduğunu sor ve çok pahalı olduğu için neyi almadığını söyle.",
+      "points": [
+        "ne aldığın",
+        "başka neye ihtiyacı olduğunu sor",
+        "neyi almadığın ve nedeni"
+      ]
+    },
+    "a1-my-day-email": {
+      "title": "Günün hakkında bir e-posta",
+      "prompt": "Mektup arkadaşın Mia, normal bir gününün nasıl geçtiğini öğrenmek istiyor. Ona bir e-posta yaz: ne zaman kalktığını, sabah ve öğleden sonra ne yaptığını ve ne zaman yattığını söyle.",
+      "points": [
+        "ne zaman kalktığın",
+        "sabah ve öğleden sonra ne yaptığın",
+        "ne zaman yattığın"
+      ]
+    },
+    "a1-new-flat-message": {
+      "title": "Yeni dairen",
+      "prompt": "Taşındın. Arkadaşın Paul'a bir mesaj yaz: dairenin kaç odası olduğunu, odanda hangi mobilyaların olduğunu ve dairenin nesini sevdiğini söyle.",
+      "points": [
+        "odalar",
+        "odandaki mobilyalar",
+        "dairenin nesini sevdiğin"
+      ]
+    },
+    "a1-directions-message": {
+      "title": "Evine giden yol",
+      "prompt": "Arkadaşın Sara seni ilk kez ziyaret ediyor. Ona bir mesaj yaz: hangi otobüse ya da trene bineceğini, nerede ineceğini ve duraktan evine kadar nasıl yürüyeceğini söyle.",
+      "points": [
+        "hangi otobüs ya da tren",
+        "nerede ineceği",
+        "duraktan eve yürüyerek"
+      ]
+    },
+    "a1-invite-weekend": {
+      "title": "Hafta sonu için bir davet",
+      "prompt": "Arkadaşın Leo'ya bir mesaj yaz: hafta sonu ne yapmak istediğini söyle, onu da gelmeye davet et ve bir gün ile saat öner.",
+      "points": [
+        "ne yapmak istediğin",
+        "davet",
+        "bir gün ve bir saat"
+      ]
+    },
+    "a1-ill-message-course": {
+      "title": "Hastasın",
+      "prompt": "Bugün Almanca kursuna gelemiyorsun. Kurs arkadaşın Nadia'ya bir mesaj yaz: hasta olduğunu ve nerenin ağrıdığını, doktor randevun olduğunu söyle ve ödevi sana göndermesini iste.",
+      "points": [
+        "hasta olduğun ve nerenin ağrıdığı",
+        "doktor randevusu",
+        "ödevi iste"
+      ]
+    },
     "a2-birthday": {
       "title": "Doğum günü daveti",
       "prompt": "Bir arkadaşına kısa bir e-posta yaz: onu cumartesi günkü doğum günü partine davet et. Ne zaman başladığını, nerede olduğunu ve ne getirmesi gerektiğini söyle. 30-40 kelime.",
@@ -3208,6 +3280,60 @@
         "sorun ve ne zamandan beri sürdüğü",
         "birini göndermesini iste",
         "ne zaman evde olduğun"
+      ]
+    },
+    "a2-weekend-report": {
+      "title": "Hafta sonun nasıldı?",
+      "prompt": "Arkadaşın Tim hafta sonunun nasıl geçtiğini soruyor. Ona cevap yaz: cumartesi ve pazar ne yaptığını anlat, nasıl geçtiğini söyle ve ona ne yaptığını sor.",
+      "points": [
+        "ne yaptığın",
+        "nasıl geçtiği",
+        "onun ne yaptığını sor"
+      ]
+    },
+    "a2-return-jacket": {
+      "title": "Bir internet mağazasına e-posta",
+      "prompt": "İnternetten bir ceket sipariş ettin ama ceket çok küçük ve bir düğmesi eksik. Mağazaya bir e-posta yaz: ne sipariş ettiğini ve ne zaman sipariş ettiğini, sorunun ne olduğunu söyle ve kibarca ceketi değiştirip değiştiremeyeceğini ya da paranı geri alıp alamayacağını sor.",
+      "points": [
+        "sipariş ve tarihi",
+        "sorun",
+        "kibarca sorulmuş değişim ya da iade"
+      ]
+    },
+    "a2-weekend-job-email": {
+      "title": "Hafta sonu işine başvuru",
+      "prompt": "Bir kafe hafta sonları için yardımcı arıyor. Kısa bir e-posta yaz: hangi işle ilgilendiğini, ne zamandan beri hangi deneyimlere sahip olduğunu ve ne zaman başlayabileceğini söyle.",
+      "points": [
+        "istediğin iş",
+        "deneyimin ve ne zamandan beri",
+        "ne zaman başlayabileceğin"
+      ]
+    },
+    "a2-summer-plans-email": {
+      "title": "Yaz planları",
+      "prompt": "Arkadaşın Elena'ya bir sonraki tatilin hakkında bir e-posta yaz: nereye ve kiminle gideceğini, oraya nasıl yolculuk edeceğini ve orada ne yapacağını söyle.",
+      "points": [
+        "nereye ve kiminle",
+        "nasıl yolculuk edeceğin",
+        "orada ne yapacağın"
+      ]
+    },
+    "a2-library-email": {
+      "title": "Kütüphaneye e-posta",
+      "prompt": "Şehir kütüphanesine bir e-posta yaz: senin seviyene uygun bir Almanca ders kitabı olup olmadığını, kitabı ne kadar süreyle ödünç alabileceğini ve süreyi internetten uzatıp uzatamayacağını sor.",
+      "points": [
+        "aradığın kitap",
+        "ne kadar süreyle ödünç alabileceğin",
+        "internetten uzatma"
+      ]
+    },
+    "a2-describe-friend": {
+      "title": "İyi bir arkadaşını tarif et",
+      "prompt": "Kurs sohbet grubunda en iyi arkadaşlar hakkında yazılar toplanıyor. Bir arkadaşın hakkında kısa bir yazı yaz: nasıl göründüğünü ve karakterinin nasıl olduğunu tarif et ve onu neden sevdiğini açıkla.",
+      "points": [
+        "nasıl göründüğü",
+        "karakteri",
+        "onu neden sevdiğin"
       ]
     },
     "b1-missed-party": {
@@ -3246,6 +3372,60 @@
         "nasıl geri göndereceğini sor"
       ]
     },
+    "b1-flat-enquiry": {
+      "title": "Bir daire hakkında sorular",
+      "prompt": "İki odalı bir daire ilanı gördün. Ev sahibi Herr Krüger'e bir e-posta yaz: kendini kısaca tanıt ve neden daire aradığını söyle, daire ya da sözleşmeyle ilgili üç şey sor (örneğin depozito, ısınma giderleri, fesih bildirim süresi) ve daireyi görmek için bir randevu iste.",
+      "points": [
+        "kim olduğun ve neden aradığın",
+        "daire ya da sözleşme hakkında üç soru",
+        "daireyi görmek için bir randevu"
+      ]
+    },
+    "b1-forum-healthy-week": {
+      "title": "Sağlıklı yaşam üzerine bir forum yazısı",
+      "prompt": "Bir forum soruyor: \"Sağlıklı beslenme ve spor – yoğun bir haftada bunu nasıl başarıyorsunuz?\" Bir yazı yaz: ne yediğini ve ne kadar spor yaptığını söyle, bu konuda yaşadığın bir sorunu anlat (örneğin stres ya da zaman yokluğu) ve diğerlerine bir tavsiye ver.",
+      "points": [
+        "ne yediğin ve ne kadar spor yaptığın",
+        "bu konuda yaşadığın bir sorun",
+        "bir tavsiye"
+      ]
+    },
+    "b1-bank-account-email": {
+      "title": "Bankaya e-posta",
+      "prompt": "Bir vadesiz hesap açtırmak istiyorsun. Bankaya bir e-posta yaz: hangi hesaba ve ne için ihtiyacın olduğunu söyle, hangi belgelerin gerektiğini, hesabın aylık ücretinin ne kadar olduğunu ve hesabın internetten mi yoksa yalnızca şubede mi açılabileceğini sor.",
+      "points": [
+        "hesap ve ne için",
+        "belgeler ve aylık ücret",
+        "internetten mi, şubede mi"
+      ]
+    },
+    "b1-hotel-complaint": {
+      "title": "Bir otele şikâyet",
+      "prompt": "Seyahatinden sonra otele yazıyorsun: orada ne zaman kaldığını ve neyin rezerve edilmiş olduğunu söyle, neyin ters gittiğini (örneğin oda, gürültü, kahvaltı) ve neyin vaat edilmiş olduğunu anlat ve otelden şimdi ne beklediğini söyle.",
+      "points": [
+        "konaklama ve rezervasyon",
+        "neyin ters gittiği ve neyin vaat edildiği",
+        "şimdi ne beklediğin"
+      ]
+    },
+    "b1-forum-screen-time": {
+      "title": "Ekran süresi üzerine bir forum yazısı",
+      "prompt": "Bir forum soruyor: \"Telefonunuzda ne kadar zaman geçiriyorsunuz – ve bu çok mu fazla?\" Bir yazı yaz: telefonunu her gün nasıl ve ne kadar süre kullandığını söyle, bu konuda seni neyin sinirlendirdiğini ve telefon olmadan neyi dört gözle beklediğini söyle ve ekran süresi kurallarının mantıklı olup olmadığı konusunda görüşünü belirt.",
+      "points": [
+        "telefonunu nasıl ve ne kadar süre kullandığın",
+        "seni neyin sinirlendirdiği, neyi dört gözle beklediğin",
+        "kurallar hakkında görüşün"
+      ]
+    },
+    "b1-street-festival-message": {
+      "title": "Bir sokak şenliğine davet",
+      "prompt": "Sokağın plastiksiz ve çöpsüz bir şenlik düzenliyor. Komşular grubuna bir mesaj yaz: şenliğin ne zaman ve nerede olduğunu ve nelerin planlandığını söyle, çöple ilgili iki kuralı açıkla ve herkesten bir şey getirmesini iste, ne getireceğini ve ne getirmeyeceğini söyle.",
+      "points": [
+        "ne zaman, nerede ve nelerin planlandığı",
+        "iki kural ve rica",
+        "ne getireceğin ve ne getirmeyeceğin"
+      ]
+    },
     "b2-course-complaint": {
       "title": "Bir dil okuluna şikâyet",
       "prompt": "Bir dil okuluna resmî bir şikâyet yazısı (yaklaşık 150 kelime) yaz: kursunda üç ders boyunca öğretmen yoktu. Ne olduğunu anlat, okuldan ne yapmasını beklediğini söyle ve cevap için bir son tarih belirle.",
@@ -3272,6 +3452,69 @@
         "lehte ve aleyhte savlar",
         "kendi deneyimin",
         "bir öneri"
+      ]
+    },
+    "b2-deposit-letter": {
+      "title": "Depozitonu geri almak",
+      "prompt": "İki ay önce dairenden taşındın, daireyi iyi durumda teslim ettin ve depozitonu hâlâ almadın. Eski ev sahibin Herr Albrecht'e yaz: teslimi ve dairenin durumunu anlat, kararlaştırılan süreye atıfta bulun ve depozitonun belirli bir tarihe kadar geri ödenmesini iste, ödenmezse ne yapacağını söyle.",
+      "points": [
+        "teslim ve dairenin durumu",
+        "süre ve talep",
+        "aksi hâlde ne yapacağın"
+      ]
+    },
+    "b2-integration-course-letter": {
+      "title": "Bir entegrasyon kursu hakkında mektup",
+      "prompt": "Bir arkadaşın aylardır bir entegrasyon kursunda yer bekliyor. Onun adına halk eğitim merkezine yaz: durumunu anlat (ne zamandan beri Almanya'da olduğunu, kursun işi için neden önemli olduğunu), bekleme süresinin sonuçlarını açıkla ve bir sonraki kursta bir yer ya da bir alternatif iste.",
+      "points": [
+        "onun durumu",
+        "beklemenin sonuçları",
+        "talep"
+      ]
+    },
+    "b2-forum-voting-age": {
+      "title": "On altı yaşında oy kullanmak mı?",
+      "prompt": "Bir internet forumunda seçmen yaşının on altıya indirilmesi tartışılıyor. Bir yazı yaz: lehte ve aleyhte savlar ileri sür, başka bir kullanıcının yazdıklarına atıfta bulun ve nerede aynı fikirde olup nerede olmadığını söyle, kendi tutumunu bir gerekçeyle belirt.",
+      "points": [
+        "lehte ve aleyhte savlar",
+        "başka bir yazıya atıf",
+        "bir gerekçeyle kendi tutumun"
+      ]
+    },
+    "b2-survey-report-email": {
+      "title": "Rakamlarla kısa bir rapor",
+      "prompt": "Şirket bülteninin editörü Frau Lang senden bir anket hakkında kısa bir rapor istedi: meslektaşların %62'si arabayla, %23'ü toplu taşımayla, %15'i bisikletle ya da yürüyerek geliyor; işveren destekli bir toplu taşıma kartı (Jobticket) olsa %70'i buna geçerdi. Ona bir e-posta yaz: rakamları anlat, rakamların nasıl gelişeceğine dair bir varsayımda bulun ve iki önlem öner.",
+      "points": [
+        "anlatılmış rakamlar",
+        "geleceğe dair bir varsayım",
+        "önerilmiş iki önlem"
+      ]
+    },
+    "b2-advice-for-friend": {
+      "title": "Bir arkadaşa tavsiye",
+      "prompt": "Arkadaşın Daniel, iş yerinde sakin göründüğünü ama aslında çok stresli olduğunu ve kötü uyuduğunu yazıyor. Ona cevap yaz: durumunu nasıl gördüğünü ve bunun arkasında ne olabileceğini anlat, kendi yaşadığın benzer bir deneyimden söz et ve ona iki somut tavsiye ver.",
+      "points": [
+        "durumu ve arkasında ne olabileceği",
+        "kendi yaşadığın benzer bir deneyim",
+        "iki somut tavsiye"
+      ]
+    },
+    "b2-review-for-magazine": {
+      "title": "Bir şehir dergisi için eleştiri yazısı",
+      "prompt": "Bir şehir dergisinin kültür editörü Herr Vogt senden bir sergi, bir film ya da bir kitap hakkında kısa bir eleştiri yazısı istedi. Ona eleştirini içeren bir e-posta yaz: neyi konu aldığını ve neyi güçlü ya da zayıf bulduğunu anlat, sanatçının, yazarın ya da yönetmenin bir röportajda eser hakkında söylediklerini aktar ve bir tavsiyede bulunup kime tavsiye ettiğini söyle.",
+      "points": [
+        "içerik ve değerlendirmen",
+        "sanatçının söyledikleri, aktarılmış",
+        "bir tavsiye ve kime"
+      ]
+    },
+    "b2-article-summary-group": {
+      "title": "Bir makaleyi özetlemek",
+      "prompt": "Çalışma grubuna, küreselleşme üzerine okuduğun bir makaleyi (örneğin tedarik zincirleri, ucuz giysiler ya da adil ticaret hakkında) özetleyen bir mesaj yaz: konuyu ve ana iddiayı belirt, en önemli iki ya da üç savı kendi sözlerinle aktar ve bu konuda ne düşündüğünü söyleyen bir cümleyle bitir.",
+      "points": [
+        "konu ve ana iddia",
+        "kendi sözlerinle başlıca savlar",
+        "görüşünü belirten bir cümle"
       ]
     },
     "c1-letter-to-editor": {
@@ -3304,6 +3547,51 @@
         "önerilmiş bir önlem"
       ]
     },
+    "c1-rent-increase-objection": {
+      "title": "Kira artışına itiraz",
+      "prompt": "Ev sahibin yerel emsal kiraya atıfla %15'lik bir kira artışı bildirdi. Resmî bir itiraz yazısı yaz (yaklaşık 220 kelime): olayları ortaya koy (mevcut kira, bildirilen artış, tarih), itirazın için en az iki hukuki ve maddi gerekçe belirt (örneğin artış üst sınırı, dairenin durumu, eksik kanıtlar) ve neyi kabul edebileceğini ve ne zamana kadar cevap beklediğini söyle.",
+      "points": [
+        "ortaya konmuş olaylar",
+        "itiraz için iki gerekçe",
+        "neyi kabul edebileceğin ve süre"
+      ]
+    },
+    "c1-wind-farm-statement": {
+      "title": "Bir rüzgâr santrali hakkında görüş yazısı",
+      "prompt": "Belediyen, planlanan bir rüzgâr santrali hakkında sakinlerin görüşünü alıyor. Belediye meclisine bir görüş yazısı yaz (yaklaşık 240 kelime): lehte ve aleyhte başlıca savları birbiriyle tart (enerji arzı, manzara ve doğa, gürültü, köyün gelirleri), metnini bağlaçlarla açık biçimde yapılandır ve bir koşul ya da öneri içeren gerekçeli bir sonuca var.",
+      "points": [
+        "birbiriyle tartılmış her iki taraftaki savlar",
+        "bağlaçlarla açık bir yapı",
+        "bir koşul içeren gerekçeli bir sonuç"
+      ]
+    },
+    "c1-letter-about-novel": {
+      "title": "Bir roman hakkında mektup",
+      "prompt": "Arkadaşın Jana sana bir roman hediye etti ve ne düşündüğünü merak ediyor. Ona bir mektup yaz (yaklaşık 220 kelime): hikâyenin nasıl geliştiğini ve kitabın dil, üslup ve atmosferle ne yaptığını anlat, seni neyin etkilediğini ya da rahatsız ettiğini ve nedenini söyle ve kitabı tavsiye edip etmeyeceğini ve kime tavsiye edeceğini belirt.",
+      "points": [
+        "hikâyenin gelişimi ve üslubu",
+        "seni neyin etkilediği ya da rahatsız ettiği ve nedeni",
+        "tavsiye edip etmediğin ve kime"
+      ]
+    },
+    "c1-report-ai-at-work": {
+      "title": "İş yerinde yapay zekâ üzerine bir rapor",
+      "prompt": "Bölüm müdürün Frau Sommer, iş yerinde yapay zekâ üzerine bir panel tartışmasını çalışanlar için özetlemeni istedi. Ona resmî bir e-posta yaz (yaklaşık 240 kelime): uzmanların söylediklerini (dolaylı anlatımla) aktar, ana noktalar arasındaki bağlantıları açık biçimde açıkla ve bölüm için iki öneri formüle et.",
+      "points": [
+        "uzmanların söyledikleri, dolaylı anlatımla",
+        "açıklanmış bağlantılar",
+        "iki öneri"
+      ]
+    },
+    "c1-proposal-car-free-centre": {
+      "title": "Arabasız bir şehir merkezi için öneri",
+      "prompt": "Belediyen, şehir merkezinin geleceği için öneriler topluyor. Planlama dairesine resmî bir mektup yaz (yaklaşık 240 kelime): büyük ölçüde arabasız bir şehir merkezi önerini ve çözdüğü sorunu sun, olası iki itirazı (örneğin esnaftan ve yaşlı sakinlerden) öngörüp bunlara yanıt ver ve ilk adımı ve kimlerin dahil edilmesi gerektiğini belirt.",
+      "points": [
+        "öneri ve çözdüğü sorun",
+        "öngörülmüş ve yanıtlanmış iki itiraz",
+        "ilk adım ve kimlerin dahil olduğu"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "Hukuka aykırı hesap ücretleri konusunda bir bankaya itiraz",
       "prompt": "Bankan iki yıl önce hesap ücretlerini senin açık onayın olmadan artırdı ve şimdi \"zımni kabulünü\" gerekçe göstererek bunları iade etmeyi reddediyor. Bankaya resmî bir itiraz yazısı yaz (yaklaşık 260 kelime): olayları tarih ve tutarlarıyla ortaya koy, dayandığın hukuki temeli ve mahkeme kararını belirt, bir süre vererek iadeyi talep et ve banka buna uymazsa atacağın adımları bildir.",
@@ -3333,6 +3621,51 @@
         "teslim edilmiş işleyen yanlar",
         "önerilmiş somut değişiklikler"
       ]
+    },
+    "c2-email-journalist-research": {
+      "title": "Araştırmanı bir gazeteciye açıklamak",
+      "prompt": "Gazeteci Frau Dr. Winter senden e-postayla, tıbbi ya da biyoetik bir soru üzerine yürüttüğün araştırma projesinin bulgularını genel okur kitlesi için açıklamanı istedi. Ona bir cevap yaz (yaklaşık 260 kelime): araştırma sorusunu ve temel bulguyu sade ama kesin bir dille açıkla, çalışmanın gösterdikleri ile yalnızca işaret ettikleri arasında dikkatli bir ayrım yap ve onun ortaya attığı eleştirel bir soruya yanıt ver.",
+      "points": [
+        "soru ve temel bulgu, sade bir dille",
+        "gösterilen ile yalnızca işaret edilen",
+        "yanıtlanmış eleştirel bir soru"
+      ]
+    },
+    "c2-tax-office-objection": {
+      "title": "Vergi dairesine itiraz",
+      "prompt": "Vergi ihbarnamen evden çalışma giderlerini tanımıyor ve beyannameni zamanında vermiş olmana rağmen bir gecikme zammıyla geldi. Vergi dairesine resmî bir itiraz yazısı yaz (yaklaşık 260 kelime): ihbarnameye atıfla neye itiraz ettiğini belirt, olayları idare Almancasıyla ortaya koy ve her noktayı gerekçelendir, ihbarnamenin düzeltilmesini ve zammın kaldırılmasını talep et ve yürütmenin durdurulmasını iste.",
+      "points": [
+        "ihbarnameye atıfla belirtilmiş itiraz",
+        "her noktası gerekçelendirilmiş olaylar",
+        "talep edilmiş düzeltme, zammın kaldırılması ve yürütmenin durdurulması"
+      ]
+    },
+    "c2-style-guide-email": {
+      "title": "Dil kaydı ve üslup hakkında bir e-posta",
+      "prompt": "Yeni bir meslektaşın, Herr Novak, bir bakanlığa yazdığı ve resmî dille gündelik dili birbirine karıştıran mektup taslağına göz atmanı istedi. Ona resmî ama samimi bir e-posta yaz (yaklaşık 260 kelime): bu durumun hangi dil kaydını gerektirdiğini ve nedenini açıkla, taslağındaki iki ya da üç üslup kırılmasına daha iyi alternatiflerle işaret et ve ona gelecekte doğru dil kaydını seçmek için pratik bir kural ver.",
+      "points": [
+        "durumun gerektirdiği dil kaydı ve nedeni",
+        "alternatifleriyle iki ya da üç üslup kırılması",
+        "gelecek için pratik bir kural"
+      ]
+    },
+    "c2-family-chronicle-letter": {
+      "title": "Aile tarihçesi için bir mektup",
+      "prompt": "Kuzenin Lena bir aile tarihçesi için mektuplar topluyor ve senden ailende bir şeyleri değiştiren bir günün hikâyesini istedi. Ona bir mektup yaz (yaklaşık 260 kelime): o günü anlatı zamanı Präteritum'la anlat ve birinin ne düşündüğünü ya da hissettiğini serbest dolaylı anlatımla aktar, günün öncesinde ve sonrasında olanlarla nasıl bağlandığını göster ve bu anının bugün ne anlama geldiği üzerine düşün.",
+      "points": [
+        "anlatılmış gün, serbest dolaylı anlatımla düşünceler",
+        "bağlanmış öncesi ve sonrası",
+        "anının bugün ne anlama geldiği"
+      ]
+    },
+    "c2-briefing-ethics-council": {
+      "title": "Bir etik kurulu için bilgi notu",
+      "prompt": "Belediye etik kurulunun başkanı Herr Prof. Adler senden, şehrin kamusal alanlarda yüz tanıma kullanıp kullanmaması gerektiği konusunda kısa bir bilgi notu istedi. Ona resmî bir e-posta yaz (yaklaşık 280 kelime): en az üç kaynağın (örneğin polis, bir sivil haklar örgütü, bir hukuki mütalaa) tutumlarını dengeli biçimde sun, bunları kesinlik ve incelikle birbiriyle tart ve koşullara bağlı bir hareket tarzı öner.",
+      "points": [
+        "dengeli biçimde sunulmuş üç tutum",
+        "incelikle tartılmış tutumlar",
+        "koşullara bağlı bir öneri"
+      ]
     }
   },
   "path": {
@@ -3349,6 +3682,7 @@
         null,
         null,
         "ilk iş gününde yeni bir meslektaşla tanışıp kendini tanıtmak",
+        null,
         null
       ]
     },
@@ -3365,6 +3699,7 @@
         null,
         null,
         "bir arkadaşına aile fotoğraflarını göstermek",
+        null,
         null
       ]
     },
@@ -3396,6 +3731,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3408,6 +3744,7 @@
         null,
         null,
         "Günlük rutinimi, kalkıştan yatışa kadar nasıl anlatırım?",
+        null,
         null,
         null,
         null,
@@ -3425,6 +3762,7 @@
         null,
         null,
         "kiralamak istediğin bir daire hakkında ev sahibine sorular sormak",
+        null,
         null
       ]
     },
@@ -3432,6 +3770,7 @@
       "title": "Şehirde dolaşırken",
       "goal": "Yol sorabilir ve tarif edebilir, otobüs, tren ve taksi kullanabilir ve bir şehirdeki yerlerin adlarını söyleyebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3453,6 +3792,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3464,6 +3804,7 @@
         null,
         null,
         "Almancada, örneğin hastayken, \"ben ... idim\" ve \"benim ... vardı\" nasıl derim: war ve hatte?",
+        null,
         null,
         null,
         null,
@@ -3499,6 +3840,7 @@
         null,
         null,
         "pazartesi sabahı bir meslektaşına hafta sonunu anlatmak",
+        null,
         null
       ]
     },
@@ -3537,6 +3879,7 @@
       "title": "Alışveriş ve şikâyet",
       "goal": "Ürünleri ve fiyatları karşılaştırabilir, kibarca yardım isteyebilir, bir şeyi değiştirebilir ya da iade edebilir ve bir yemekten şikâyet edebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3592,6 +3935,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3608,6 +3952,7 @@
         null,
         null,
         "turizm danışmada bir şehirde nelerin görülebileceğini sormak",
+        null,
         null
       ]
     },
@@ -3621,6 +3966,7 @@
         null,
         "Bir şeyi anlamadığımda ya da bir kelimenin tekrarlanmasına ihtiyaç duyduğumda ne diyebilirim?",
         "Günlük Almancada telefonumdan, bilgisayarımdan ve internetten nasıl söz ederim?",
+        null,
         null,
         null,
         null,
@@ -3639,6 +3985,7 @@
         null,
         null,
         "bir arkadaşına tanıştığın bir kişiyi ve nasıl biri olduğunu anlatmak",
+        null,
         null
       ]
     },
@@ -3686,6 +4033,7 @@
         null,
         null,
         "gece geç saatteki gürültü hakkında bir komşuyla konuşma",
+        null,
         null
       ]
     },
@@ -3701,6 +4049,7 @@
         null,
         null,
         "masa başında oturmaktan kaynaklanan sırt ağrısı hakkında bir doktorla konuşmak",
+        null,
         null
       ]
     },
@@ -3729,6 +4078,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3736,6 +4086,7 @@
       "title": "Ulaşım ve seyahat",
       "goal": "Bir araba tamiriyle ve kaçırılan bir aktarmayla başa çıkabilir, otelde şikâyette bulunabilir ve bir geziden önce, gezi sırasında ve sonrasında ne olduğunu anlatabilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3760,6 +4111,7 @@
         null,
         null,
         "çocukların akıllı telefonu olup olmaması gerektiği hakkında bir arkadaşla tartışma",
+        null,
         null
       ]
     },
@@ -3792,6 +4144,7 @@
         null,
         null,
         "ülkendeki bir bayramı Alman bir arkadaşına anlatmak",
+        null,
         null
       ]
     },
@@ -3814,6 +4167,7 @@
       "title": "Şehirde yaşamak",
       "goal": "Bir daireye bakabilir, daireyi teslim edip depozitoyu görüşebilir, şehir ile kırsalı karşılaştırabilir ve insanları ve nesneleri ortaçlarla tanımlayabilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3866,6 +4220,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3881,6 +4236,7 @@
         null,
         null,
         "sokağındaki yeni bisiklet yolu hakkında bir komşuyla tartışma",
+        null,
         null
       ]
     },
@@ -3895,6 +4251,7 @@
         null,
         null,
         "şirketinin nasıl daha az israf edebileceği hakkında bir meslektaşla konuşmak",
+        null,
         null
       ]
     },
@@ -3910,6 +4267,7 @@
         null,
         null,
         "bir arkadaşına iş stresi hakkında tavsiye vermek",
+        null,
         null
       ]
     },
@@ -3925,6 +4283,7 @@
         null,
         null,
         "bir arkadaşına bir film ya da kitap önerip nedenini açıklamak",
+        null,
         null
       ]
     },
@@ -3941,6 +4300,7 @@
         null,
         null,
         "karakolda bir bisiklet hırsızlığını bildirmek",
+        null,
         null
       ]
     },
@@ -3968,6 +4328,7 @@
         null,
         "Bir Alman resmî kurumundan gelen yazıyı nasıl okurum? Tipik kalıplar ne anlama geliyor?",
         "bedürfen, gedenken, sich erfreuen gibi hangi fiiller -in hali (Genitiv) alır ve bunlara nerede rastlanır?",
+        null,
         null,
         null,
         null,
@@ -4013,6 +4374,7 @@
         null,
         null,
         "köyünün yakınındaki rüzgâr türbinleri üzerine bir panel tartışması",
+        null,
         null
       ]
     },
@@ -4027,6 +4389,7 @@
         null,
         null,
         "bir okuma kulübünde bir romanı tartışmak",
+        null,
         null
       ]
     },
@@ -4042,6 +4405,7 @@
         null,
         null,
         "mesleğinin yapay zekâyla nasıl değişeceği üzerine bir radyo röportajı",
+        null,
         null
       ]
     },
@@ -4057,6 +4421,7 @@
         null,
         null,
         "arabasız şehir merkezi planını kuşkucu bir dükkân sahibine sunmak",
+        null,
         null
       ]
     },
@@ -4064,6 +4429,7 @@
       "title": "Kamuoyu önünde bilim",
       "goal": "Kendi araştırmanı bir gazeteciye açıklayabilir, yakın anlamlı sözcükleri kesin biçimde ayırt edebilir ve eleştirel sorularla rahatlıkla başa çıkabilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4098,6 +4464,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4112,6 +4479,7 @@
         null,
         null,
         "makalenin tonu hakkında bir editörle konuşma",
+        null,
         null
       ]
     },
@@ -4125,6 +4493,7 @@
         null,
         null,
         "büyükannenin komşusuyla şehrin 1960'lardan bu yana nasıl değiştiği hakkında konuşma",
+        null,
         null
       ]
     },
@@ -4168,6 +4537,7 @@
         null,
         null,
         "bir proje konusunda anlaşamayan iki meslektaş arasında arabuluculuk yapmak",
+        null,
         null
       ]
     }

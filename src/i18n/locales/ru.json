@@ -1259,7 +1259,6 @@
   "write.noDu": "В официальном письме — никаких форм на du",
   "write.openFormal": "Начни с “Sehr geehrte …”",
   "write.openInformal": "Начни с “Liebe …” или “Hallo …”",
-  "write.sayPoint": "Упомяни: {point}",
   "write.setTask": "Дать задание",
   "write.settingTask": "Репетитор готовит задание",
   "write.showModelAnswer": "Показать образец ответа от репетитора",

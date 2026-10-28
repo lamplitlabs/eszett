@@ -3174,6 +3174,78 @@
         "ce que tu fais toute la journée"
       ]
     },
+    "a1-forum-introduce": {
+      "title": "Se présenter sur le forum du cours",
+      "prompt": "Écris un court message pour le forum de ton cours d’allemand : dis comment tu t’appelles et d’où tu viens, quelles langues tu parles, et demande aux autres d’où ils viennent.",
+      "points": [
+        "ton nom et d’où tu viens",
+        "les langues que tu parles",
+        "d’où viennent les autres"
+      ]
+    },
+    "a1-family-photo": {
+      "title": "Un message sur une photo de famille",
+      "prompt": "Ton amie Ana t’envoie une photo de sa famille. Réponds-lui : dis qui fait partie de ta famille, quel âge ont tes parents ou tes frères et sœurs, et ce que l’un d’eux fait comme métier.",
+      "points": [
+        "qui fait partie de ta famille",
+        "quel âge ils ont",
+        "le métier de l’un d’eux"
+      ]
+    },
+    "a1-supermarket-message": {
+      "title": "Un message depuis le supermarché",
+      "prompt": "Tu es au supermarché et ton colocataire Jonas est à la maison. Écris-lui un message : dis ce que tu achètes, demande-lui ce dont il a encore besoin et dis ce que tu n’achètes pas parce que c’est trop cher.",
+      "points": [
+        "ce que tu achètes",
+        "ce dont il a encore besoin",
+        "ce que tu n’achètes pas, et pourquoi"
+      ]
+    },
+    "a1-my-day-email": {
+      "title": "Un e-mail sur ta journée",
+      "prompt": "Ta correspondante Mia veut savoir à quoi ressemble une journée normale pour toi. Écris-lui un e-mail : dis à quelle heure tu te lèves, ce que tu fais le matin et l’après-midi, et à quelle heure tu te couches.",
+      "points": [
+        "à quelle heure tu te lèves",
+        "ce que tu fais le matin et l’après-midi",
+        "à quelle heure tu te couches"
+      ]
+    },
+    "a1-new-flat-message": {
+      "title": "Ton nouvel appartement",
+      "prompt": "Tu as déménagé. Écris un message à ton ami Paul : dis combien de pièces a l’appartement, quels meubles il y a dans ta chambre et ce que tu aimes dans l’appartement.",
+      "points": [
+        "les pièces",
+        "les meubles de ta chambre",
+        "ce que tu aimes dans l’appartement"
+      ]
+    },
+    "a1-directions-message": {
+      "title": "Le chemin pour venir chez toi",
+      "prompt": "Ton amie Sara vient chez toi pour la première fois. Écris-lui un message : dis quel bus ou quel train elle prend, où elle descend et quel chemin elle prend à pied de l’arrêt jusqu’à chez toi.",
+      "points": [
+        "quel bus ou quel train",
+        "où elle descend",
+        "le chemin à pied"
+      ]
+    },
+    "a1-invite-weekend": {
+      "title": "Une invitation pour le week-end",
+      "prompt": "Écris un message à ton ami Leo : dis ce que tu veux faire ce week-end, invite-le à venir avec toi et propose un jour et une heure.",
+      "points": [
+        "ce que tu veux faire",
+        "l’invitation",
+        "un jour et une heure"
+      ]
+    },
+    "a1-ill-message-course": {
+      "title": "Tu es malade",
+      "prompt": "Tu ne peux pas venir au cours d’allemand aujourd’hui. Écris un message à Nadia, ton amie du cours : dis que tu es malade et où tu as mal, que tu as rendez-vous chez le médecin, et demande-lui de t’envoyer les devoirs.",
+      "points": [
+        "que tu es malade, et où tu as mal",
+        "le rendez-vous chez le médecin",
+        "ta question sur les devoirs"
+      ]
+    },
     "a2-birthday": {
       "title": "Une invitation d’anniversaire",
       "prompt": "Écris un court e-mail à un ami : invite-le à ta fête d’anniversaire samedi. Dis à quelle heure ça commence, où ça se passe et ce qu’il doit apporter. 30-40 mots.",
@@ -3208,6 +3280,60 @@
         "le problème et depuis quand",
         "la demande d’envoyer quelqu’un",
         "quand tu es à la maison"
+      ]
+    },
+    "a2-weekend-report": {
+      "title": "Comment s’est passé ton week-end ?",
+      "prompt": "Ton ami Tim te demande comment s’est passé ton week-end. Réponds-lui : raconte ce que tu as fait samedi et dimanche, dis comment c’était et demande-lui ce qu’il a fait.",
+      "points": [
+        "ce que tu as fait",
+        "comment c’était",
+        "ta question sur ce qu’il a fait"
+      ]
+    },
+    "a2-return-jacket": {
+      "title": "Un e-mail à une boutique en ligne",
+      "prompt": "Tu as commandé une veste en ligne, mais elle est trop petite et il manque un bouton. Écris un e-mail à la boutique : dis ce que tu as commandé et quand, quel est le problème, et demande poliment si tu peux l’échanger ou te faire rembourser.",
+      "points": [
+        "la commande et la date",
+        "le problème",
+        "une demande polie d’échange ou de remboursement"
+      ]
+    },
+    "a2-weekend-job-email": {
+      "title": "Postuler pour un job de week-end",
+      "prompt": "Un café cherche quelqu’un pour le week-end. Écris un court e-mail : dis quel poste t’intéresse, quelle expérience tu as et depuis quand, et quand tu peux commencer.",
+      "points": [
+        "le poste que tu veux",
+        "ton expérience et depuis quand",
+        "quand tu peux commencer"
+      ]
+    },
+    "a2-summer-plans-email": {
+      "title": "Des projets pour l’été",
+      "prompt": "Écris un e-mail à ton amie Elena sur tes prochaines vacances : dis où tu pars et avec qui, comment tu y vas et ce que tu vas y faire.",
+      "points": [
+        "où et avec qui",
+        "comment tu y vas",
+        "ce que tu vas y faire"
+      ]
+    },
+    "a2-library-email": {
+      "title": "Un e-mail à la bibliothèque",
+      "prompt": "Écris un e-mail à la bibliothèque municipale : demande s’il y a un manuel d’allemand pour ton niveau, combien de temps tu peux l’emprunter et si tu peux prolonger le prêt en ligne.",
+      "points": [
+        "le livre que tu cherches",
+        "combien de temps tu peux l’emprunter",
+        "la prolongation en ligne"
+      ]
+    },
+    "a2-describe-friend": {
+      "title": "Décrire un bon ami",
+      "prompt": "Le groupe de discussion de ton cours rassemble des messages sur les meilleurs amis. Écris un court message sur un ami ou une amie : décris à quoi il ou elle ressemble, quel est son caractère, et explique pourquoi tu l’aimes bien.",
+      "points": [
+        "son apparence",
+        "son caractère",
+        "pourquoi tu l’aimes bien"
       ]
     },
     "b1-missed-party": {
@@ -3246,6 +3372,60 @@
         "ta question sur le renvoi"
       ]
     },
+    "b1-flat-enquiry": {
+      "title": "Se renseigner sur un appartement",
+      "prompt": "Tu as vu une annonce pour un deux-pièces. Écris un e-mail au propriétaire, Herr Krüger : présente-toi brièvement et dis pourquoi tu cherches un appartement, pose trois questions sur l’appartement ou le contrat (par exemple la caution, les frais de chauffage, le préavis) et demande un rendez-vous pour une visite.",
+      "points": [
+        "qui tu es et pourquoi tu cherches",
+        "trois questions sur l’appartement ou le contrat",
+        "un rendez-vous pour une visite"
+      ]
+    },
+    "b1-forum-healthy-week": {
+      "title": "Un message de forum : vivre sainement",
+      "prompt": "Un forum pose la question : \"Manger sainement et faire du sport — comment y arrivez-vous dans une semaine bien remplie ?\" Écris un message : dis ce que tu manges et combien de sport tu fais, décris un problème que tu rencontres (par exemple le stress ou le manque de temps) et donne un conseil aux autres.",
+      "points": [
+        "ce que tu manges et combien de sport tu fais",
+        "un problème que tu rencontres",
+        "un conseil"
+      ]
+    },
+    "b1-bank-account-email": {
+      "title": "Un e-mail à la banque",
+      "prompt": "Tu veux ouvrir un compte courant. Écris un e-mail à la banque : dis quel compte il te faut et pour quoi faire, demande quels documents sont nécessaires et combien coûte le compte par mois, et demande si le compte peut être ouvert en ligne ou seulement en agence.",
+      "points": [
+        "le compte et pour quoi faire",
+        "les documents et les frais mensuels",
+        "en ligne ou en agence"
+      ]
+    },
+    "b1-hotel-complaint": {
+      "title": "Une réclamation à un hôtel",
+      "prompt": "Après ton voyage, tu écris à l’hôtel : dis quand tu y as séjourné et ce qui avait été réservé, décris ce qui s’est mal passé (par exemple la chambre, le bruit, le petit-déjeuner) et ce qui avait été promis, et dis ce que tu attends maintenant de l’hôtel.",
+      "points": [
+        "le séjour et la réservation",
+        "ce qui s’est mal passé et ce qui était promis",
+        "ce que tu attends maintenant"
+      ]
+    },
+    "b1-forum-screen-time": {
+      "title": "Un message de forum : le temps d’écran",
+      "prompt": "Un forum pose la question : \"Combien de temps passez-vous sur votre téléphone — et est-ce trop ?\" Écris un message : explique comment et combien de temps tu utilises ton téléphone chaque jour, dis ce qui t’agace et ce qui te fait plaisir quand tu t’en passes, et dis si, selon toi, des règles pour le temps d’écran ont un sens.",
+      "points": [
+        "comment et combien de temps tu utilises ton téléphone",
+        "ce qui t’agace, ce qui te fait plaisir",
+        "ton avis sur les règles"
+      ]
+    },
+    "b1-street-festival-message": {
+      "title": "Une invitation à une fête de quartier",
+      "prompt": "Ta rue organise une fête sans plastique ni déchets. Écris un message au groupe des voisins : dis quand et où a lieu la fête et ce qui est prévu, explique les deux règles sur les déchets et demande à chacun d’apporter quelque chose, et dis ce que tu apporteras et ce que tu n’apporteras pas.",
+      "points": [
+        "quand, où et ce qui est prévu",
+        "les deux règles et la demande",
+        "ce que tu apportes et ce que tu n’apportes pas"
+      ]
+    },
     "b2-course-complaint": {
       "title": "Une réclamation à une école de langues",
       "prompt": "Écris une réclamation formelle (environ 150 mots) à une école de langues : ton cours n’a pas eu de professeur pendant trois séances. Décris ce qui s’est passé, dis ce que tu attends de l’école et fixe un délai pour sa réponse.",
@@ -3272,6 +3452,69 @@
         "des arguments pour et contre",
         "une expérience personnelle",
         "une proposition"
+      ]
+    },
+    "b2-deposit-letter": {
+      "title": "Récupérer ta caution",
+      "prompt": "Tu as quitté ton appartement il y a deux mois, tu l’as rendu en bon état et tu n’as toujours pas reçu ta caution. Écris à ton ancien propriétaire, Herr Albrecht : décris l’état des lieux de sortie et l’état de l’appartement, rappelle le délai convenu et demande le remboursement de la caution avant une date précise, et dis ce que tu feras si ce n’est pas le cas.",
+      "points": [
+        "l’état des lieux et l’état de l’appartement",
+        "le délai et la demande",
+        "ce que tu feras sinon"
+      ]
+    },
+    "b2-integration-course-letter": {
+      "title": "Une lettre au sujet d’un cours d’intégration",
+      "prompt": "Une de tes amies attend depuis des mois une place dans un cours d’intégration. Écris en son nom au centre de formation pour adultes : décris sa situation (depuis quand elle est en Allemagne, pourquoi le cours est important pour son travail), explique les conséquences de cette attente et demande une place dans le prochain cours ou une solution de remplacement.",
+      "points": [
+        "sa situation",
+        "les conséquences de l’attente",
+        "la demande"
+      ]
+    },
+    "b2-forum-voting-age": {
+      "title": "Voter à seize ans ?",
+      "prompt": "Sur un forum en ligne, on discute de l’abaissement du droit de vote à seize ans. Écris un message : présente des arguments pour et contre, fais référence à ce qu’un autre utilisateur a écrit et dis sur quels points tu es d’accord ou non, et exprime ta propre position en la justifiant.",
+      "points": [
+        "des arguments pour et contre",
+        "une référence à un autre message",
+        "ta propre position, justifiée"
+      ]
+    },
+    "b2-survey-report-email": {
+      "title": "Un court rapport avec des chiffres",
+      "prompt": "La rédactrice du journal interne de ton entreprise, Frau Lang, t’a demandé un court rapport sur une enquête : 62 % des collègues viennent en voiture, 23 % en transports en commun, 15 % à vélo ou à pied ; 70 % changeraient s’il existait un abonnement de transport d’entreprise. Écris-lui un e-mail : décris les chiffres, fais une hypothèse sur leur évolution et propose deux mesures.",
+      "points": [
+        "les chiffres décrits",
+        "une hypothèse sur l’avenir",
+        "deux mesures proposées"
+      ]
+    },
+    "b2-advice-for-friend": {
+      "title": "Des conseils pour un ami",
+      "prompt": "Ton ami Daniel t’écrit qu’il paraît calme au travail, mais qu’en réalité il est très stressé et dort mal. Réponds-lui : décris comment tu vois sa situation et ce qui pourrait l’expliquer, raconte-lui une expérience semblable que tu as vécue et donne-lui deux conseils concrets.",
+      "points": [
+        "sa situation et ce qui peut l’expliquer",
+        "une expérience semblable que tu as vécue",
+        "deux conseils concrets"
+      ]
+    },
+    "b2-review-for-magazine": {
+      "title": "Une critique pour un magazine de la ville",
+      "prompt": "Le rédacteur de la rubrique culture d’un magazine de la ville, Herr Vogt, t’a demandé une courte critique d’une exposition, d’un film ou d’un livre. Écris-lui un e-mail avec ta critique : décris de quoi il s’agit et ce que tu as trouvé réussi ou faible, rapporte ce que l’artiste, l’auteur ou le réalisateur a dit de l’œuvre dans une interview, et fais une recommandation en précisant à qui elle s’adresse.",
+      "points": [
+        "le contenu et ton jugement",
+        "les propos de l’artiste, rapportés",
+        "une recommandation, et pour qui"
+      ]
+    },
+    "b2-article-summary-group": {
+      "title": "Résumer un article",
+      "prompt": "Écris un message à ton groupe de travail pour résumer un article sur la mondialisation que tu as lu (par exemple sur les chaînes d’approvisionnement, les vêtements bon marché ou le commerce équitable) : nomme le sujet et la thèse principale, donne les deux ou trois arguments les plus importants avec tes propres mots et termine par une phrase sur ce que tu en penses.",
+      "points": [
+        "le sujet et la thèse principale",
+        "les arguments principaux avec tes mots",
+        "une phrase avec ton avis"
       ]
     },
     "c1-letter-to-editor": {
@@ -3304,6 +3547,51 @@
         "une mesure recommandée"
       ]
     },
+    "c1-rent-increase-objection": {
+      "title": "Une contestation d’une augmentation de loyer",
+      "prompt": "Ton propriétaire a annoncé une augmentation de loyer de 15 % en se référant au loyer de référence local. Écris une contestation formelle (environ 220 mots) : expose les faits (le loyer actuel, l’augmentation annoncée, la date), donne au moins deux motifs juridiques et factuels à ta contestation (par exemple le plafonnement, l’état de l’appartement, l’absence de justificatifs) et dis ce que tu pourrais accepter et pour quand tu attends une réponse.",
+      "points": [
+        "les faits exposés",
+        "deux motifs de contestation",
+        "ce que tu pourrais accepter, et le délai"
+      ]
+    },
+    "c1-wind-farm-statement": {
+      "title": "Une prise de position sur un parc éolien",
+      "prompt": "Ta commune consulte les habitants sur un projet de parc éolien. Écris une prise de position adressée au conseil municipal (environ 240 mots) : mets en balance les principaux arguments pour et contre (l’approvisionnement en énergie, le paysage et la nature, le bruit, les recettes pour le village), structure clairement ton texte avec des connecteurs et parviens à une conclusion argumentée assortie d’une condition ou d’une proposition.",
+      "points": [
+        "les arguments des deux côtés mis en balance",
+        "une structure claire avec des connecteurs",
+        "une conclusion argumentée avec une condition"
+      ]
+    },
+    "c1-letter-about-novel": {
+      "title": "Une lettre au sujet d’un roman",
+      "prompt": "Ton amie Jana t’a offert un roman et veut savoir ce que tu en penses. Écris-lui une lettre (environ 220 mots) : décris comment l’histoire se déroule et comment le livre travaille la langue, le style et l’atmosphère, dis ce que tu as trouvé impressionnant ou irritant et pourquoi, et dis-lui si tu le recommanderais, et à qui.",
+      "points": [
+        "le déroulement de l’histoire et son style",
+        "ce que tu as trouvé impressionnant ou irritant, et pourquoi",
+        "si tu le recommandes, et à qui"
+      ]
+    },
+    "c1-report-ai-at-work": {
+      "title": "Un rapport sur l’intelligence artificielle au travail",
+      "prompt": "Ta cheffe de service, Frau Sommer, t’a demandé de résumer pour le personnel une table ronde sur l’intelligence artificielle au travail. Écris-lui un e-mail formel (environ 240 mots) : rapporte ce que les experts ont dit (au discours indirect), explique clairement les liens entre les points principaux et formule deux recommandations pour le service.",
+      "points": [
+        "les propos des experts, au discours indirect",
+        "les liens expliqués",
+        "deux recommandations"
+      ]
+    },
+    "c1-proposal-car-free-centre": {
+      "title": "Une proposition pour un centre-ville sans voitures",
+      "prompt": "Ta ville lance un appel à propositions pour l’avenir du centre-ville. Écris une lettre formelle au service de l’urbanisme (environ 240 mots) : présente ta proposition d’un centre-ville en grande partie sans voitures et le problème qu’elle résout, anticipe deux objections (par exemple de la part des commerçants et des habitants âgés) et réponds-y, et nomme la première étape ainsi que les acteurs à impliquer.",
+      "points": [
+        "la proposition et le problème qu’elle résout",
+        "deux objections anticipées et leur réponse",
+        "la première étape et les acteurs impliqués"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "Une contestation adressée à une banque au sujet de frais de compte illicites",
       "prompt": "Ta banque a augmenté ses frais de compte il y a deux ans sans ton consentement explicite et refuse aujourd’hui de les rembourser en invoquant ton \"acceptation tacite\". Écris une contestation formelle à la banque (environ 260 mots) : expose les faits avec dates et montants, indique le fondement juridique et la décision de justice sur lesquels tu t’appuies, exige le remboursement en fixant un délai et annonce les démarches que tu entreprendras si la banque ne s’exécute pas.",
@@ -3333,6 +3621,51 @@
         "ce qui fonctionne, reconnu",
         "des changements concrets proposés"
       ]
+    },
+    "c2-email-journalist-research": {
+      "title": "Expliquer tes recherches à une journaliste",
+      "prompt": "Une journaliste, Frau Dr. Winter, t’a demandé par e-mail d’expliquer pour le grand public les résultats de ton projet de recherche sur une question médicale ou bioéthique. Écris-lui une réponse (environ 260 mots) : explique la question et le résultat principal en termes simples mais précis, distingue soigneusement ce que l’étude démontre de ce qu’elle ne fait que suggérer, et réponds à une question critique qu’elle a soulevée.",
+      "points": [
+        "la question et le résultat principal, en termes simples",
+        "démontré ou seulement suggéré",
+        "la réponse à une question critique"
+      ]
+    },
+    "c2-tax-office-objection": {
+      "title": "Un recours auprès du centre des impôts",
+      "prompt": "Ton avis d’imposition ne reconnaît pas tes frais de télétravail et s’accompagne d’une majoration de retard, alors que tu as déposé ta déclaration dans les délais. Écris un recours formel au centre des impôts (environ 260 mots) : indique ce que tu contestes en te référant à l’avis, expose les faits en allemand administratif et motive chaque point, et demande la correction de l’avis ainsi que l’annulation de la majoration, en sollicitant un sursis à exécution.",
+      "points": [
+        "l’objet du recours, avec référence à l’avis",
+        "les faits et les motifs de chaque point",
+        "correction, annulation et sursis demandés"
+      ]
+    },
+    "c2-style-guide-email": {
+      "title": "Un e-mail sur le registre et le style",
+      "prompt": "Un nouveau collègue, Herr Novak, t’a demandé de relire le brouillon d’une lettre qu’il adresse à un ministère et qui mélange langue formelle et langue familière. Écris-lui un e-mail formel mais amical (environ 260 mots) : explique quel registre la situation exige et pourquoi, relève deux ou trois ruptures de registre dans son brouillon en proposant de meilleures formulations, et donne-lui une règle simple pour choisir le bon registre à l’avenir.",
+      "points": [
+        "le registre que la situation exige, et pourquoi",
+        "deux ou trois ruptures de registre avec des alternatives",
+        "une règle simple pour l’avenir"
+      ]
+    },
+    "c2-family-chronicle-letter": {
+      "title": "Une lettre pour la chronique familiale",
+      "prompt": "Ta cousine Lena rassemble des lettres pour une chronique familiale et t’a demandé de raconter une journée qui a changé quelque chose dans ta famille. Écris-lui une lettre (environ 260 mots) : raconte cette journée au prétérit, en rendant au discours indirect libre ce que quelqu’un a pensé ou ressenti, montre comment cette journée se relie à ce qui s’est passé avant et après, et réfléchis à ce que ce souvenir signifie aujourd’hui.",
+      "points": [
+        "la journée racontée, avec des pensées au discours indirect libre",
+        "le lien avec l’avant et l’après",
+        "ce que ce souvenir signifie aujourd’hui"
+      ]
+    },
+    "c2-briefing-ethics-council": {
+      "title": "Une note pour un conseil d’éthique",
+      "prompt": "Le président d’un conseil d’éthique municipal, Herr Prof. Adler, t’a demandé une courte note sur la question de savoir si la ville devrait utiliser la reconnaissance faciale dans l’espace public. Écris-lui un e-mail formel (environ 280 mots) : présente de manière équilibrée les positions d’au moins trois sources (par exemple la police, une association de défense des droits civiques, un avis juridique), mets-les en balance avec précision et tact, et recommande une ligne de conduite assortie de conditions.",
+      "points": [
+        "trois positions présentées de manière équilibrée",
+        "les positions mises en balance avec tact",
+        "une recommandation assortie de conditions"
+      ]
     }
   },
   "path": {
@@ -3349,6 +3682,7 @@
         null,
         null,
         "rencontrer un nouveau collègue le premier jour et te présenter",
+        null,
         null
       ]
     },
@@ -3365,6 +3699,7 @@
         null,
         null,
         "montrer des photos de ta famille à un ami",
+        null,
         null
       ]
     },
@@ -3396,6 +3731,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3408,6 +3744,7 @@
         null,
         null,
         "Comment est-ce que je décris ma journée, du lever au coucher ?",
+        null,
         null,
         null,
         null,
@@ -3425,6 +3762,7 @@
         null,
         null,
         "poser des questions à un propriétaire sur un appartement que tu veux louer",
+        null,
         null
       ]
     },
@@ -3432,6 +3770,7 @@
       "title": "En ville",
       "goal": "Demander et indiquer le chemin, prendre le bus, le train et le taxi, et nommer les lieux d’une ville.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3453,6 +3792,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3464,6 +3804,7 @@
         null,
         null,
         "Comment est-ce que je dis « j’étais » et « j’avais » en allemand, par exemple quand j’étais malade : war et hatte ?",
+        null,
         null,
         null,
         null,
@@ -3499,6 +3840,7 @@
         null,
         null,
         "raconter ton week-end à un collègue le lundi matin",
+        null,
         null
       ]
     },
@@ -3537,6 +3879,7 @@
       "title": "Acheter et réclamer",
       "goal": "Comparer des produits et des prix, demander poliment de l’aide, échanger ou rendre un article et te plaindre d’un repas.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3592,6 +3935,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3608,6 +3952,7 @@
         null,
         null,
         "demander à l’office de tourisme ce qu’il faut voir dans une ville",
+        null,
         null
       ]
     },
@@ -3621,6 +3966,7 @@
         null,
         "Qu’est-ce que je peux dire quand je ne comprends pas quelque chose ou que j’ai besoin qu’on répète un mot ?",
         "Comment est-ce que je parle de mon téléphone, de mon ordinateur et d’Internet dans l’allemand de tous les jours ?",
+        null,
         null,
         null,
         null,
@@ -3639,6 +3985,7 @@
         null,
         null,
         "parler à un ami d’une personne que tu as rencontrée et dire comment elle est",
+        null,
         null
       ]
     },
@@ -3686,6 +4033,7 @@
         null,
         null,
         "une conversation avec un voisin à propos du bruit tard le soir",
+        null,
         null
       ]
     },
@@ -3701,6 +4049,7 @@
         null,
         null,
         "parler à un médecin de maux de dos dus au travail assis",
+        null,
         null
       ]
     },
@@ -3729,6 +4078,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3736,6 +4086,7 @@
       "title": "Mobilité et voyages",
       "goal": "Gérer une réparation de voiture et une correspondance manquée, te plaindre à l’hôtel, et raconter ce qui s’est passé avant, pendant et après un voyage.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3760,6 +4111,7 @@
         null,
         null,
         "une discussion avec un ami pour savoir si les enfants devraient avoir un smartphone",
+        null,
         null
       ]
     },
@@ -3792,6 +4144,7 @@
         null,
         null,
         "expliquer une fête de ton pays à un ami allemand",
+        null,
         null
       ]
     },
@@ -3814,6 +4167,7 @@
       "title": "Vivre en ville",
       "goal": "Visiter un appartement, le rendre et discuter de la caution, comparer la ville et la campagne, et décrire des personnes et des choses avec des participes.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3866,6 +4220,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3881,6 +4236,7 @@
         null,
         null,
         "une discussion avec un voisin sur une nouvelle piste cyclable dans ta rue",
+        null,
         null
       ]
     },
@@ -3895,6 +4251,7 @@
         null,
         null,
         "parler avec un collègue de la façon dont ton entreprise pourrait moins gaspiller",
+        null,
         null
       ]
     },
@@ -3910,6 +4267,7 @@
         null,
         null,
         "conseiller un ami stressé par son travail",
+        null,
         null
       ]
     },
@@ -3925,6 +4283,7 @@
         null,
         null,
         "recommander un film ou un livre à un ami et expliquer pourquoi",
+        null,
         null
       ]
     },
@@ -3941,6 +4300,7 @@
         null,
         null,
         "déclarer le vol d’un vélo au commissariat",
+        null,
         null
       ]
     },
@@ -3968,6 +4328,7 @@
         null,
         "Comment est-ce que je lis un courrier officiel d’une administration allemande ? Que signifient les formules typiques ?",
         "Quels verbes régissent le génitif, comme bedürfen, gedenken, sich erfreuen, et où les rencontre-t-on ?",
+        null,
         null,
         null,
         null,
@@ -4013,6 +4374,7 @@
         null,
         null,
         "une table ronde sur des éoliennes près de ton village",
+        null,
         null
       ]
     },
@@ -4027,6 +4389,7 @@
         null,
         null,
         "discuter d’un roman dans un club de lecture",
+        null,
         null
       ]
     },
@@ -4042,6 +4405,7 @@
         null,
         null,
         "une interview à la radio sur la façon dont ton métier va changer avec l’IA",
+        null,
         null
       ]
     },
@@ -4057,6 +4421,7 @@
         null,
         null,
         "présenter un projet de centre-ville sans voitures à un commerçant sceptique",
+        null,
         null
       ]
     },
@@ -4064,6 +4429,7 @@
       "title": "La science face au public",
       "goal": "Expliquer tes propres recherches à un journaliste, distinguer précisément des quasi-synonymes, et répondre avec aisance à des questions critiques.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4098,6 +4464,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4112,6 +4479,7 @@
         null,
         null,
         "une conversation avec un rédacteur en chef sur le ton de ton article",
+        null,
         null
       ]
     },
@@ -4125,6 +4493,7 @@
         null,
         null,
         "une conversation avec la voisine de ta grand-mère sur la façon dont la ville a changé depuis les années 1960",
+        null,
         null
       ]
     },
@@ -4168,6 +4537,7 @@
         null,
         null,
         "faire la médiation entre deux collègues en désaccord sur un projet",
+        null,
         null
       ]
     }

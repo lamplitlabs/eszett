@@ -1341,7 +1341,6 @@
   "write.noDu": "لا صيغ du في رسالة رسمية",
   "write.openFormal": "ابدأ بـ “Sehr geehrte …”",
   "write.openInformal": "ابدأ بـ “Liebe …” أو “Hallo …”",
-  "write.sayPoint": "اذكر {point}",
   "write.setTask": "ضع المهمة",
   "write.settingTask": "معلّمك يضع مهمتك",
   "write.showModelAnswer": "إظهار الإجابة النموذجية من معلّمك",

@@ -152,7 +152,8 @@ export default function WriteScreen() {
         <Paper tone="alt" style={{ gap: space.s, marginBottom: space.xl }}>
           <Tick ok={pre.inBand} label={t('write.wordCount', { count: pre.words, lo, hi })} />
           {pre.points.map((p, i) => (
-            <Tick key={p.en} ok={p.hit} label={t('write.sayPoint', { point: shown.points[i]?.en ?? p.en })} />
+            // the point as written on the task ("ask for the price", "the weather"), capitalised like the lines around it
+            <Tick key={p.en} ok={p.hit} label={(shown.points[i]?.en ?? p.en).replace(/^./, (ch) => ch.toLocaleUpperCase())} />
           ))}
           <Tick ok={pre.opening} label={task.register === 'formal' ? t('write.openFormal') : t('write.openInformal')} />
           <Tick ok={pre.closing} label={task.register === 'formal' ? t('write.closeFormal') : t('write.closeInformal')} />

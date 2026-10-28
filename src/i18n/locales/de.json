@@ -1177,7 +1177,6 @@
   "write.noDu": "Keine du-Formen in einem formellen Brief",
   "write.openFormal": "Anrede: “Sehr geehrte …”",
   "write.openInformal": "Anrede: “Liebe …” oder “Hallo …”",
-  "write.sayPoint": "Inhalt: {point}",
   "write.setTask": "Aufgabe stellen",
   "write.settingTask": "Dein Tutor stellt deine Aufgabe",
   "write.showModelAnswer": "Musterlösung deines Tutors anzeigen",

@@ -137,10 +137,20 @@ describe('C1 content', () => {
       expect(tr.opening).toBe(card.opening);
     }
   });
-  it('has three formal C1 writing tasks whose precheck accepts the formal Ihr/Ihnen', () => {
+  it('has long C1 writing tasks, one per week, whose precheck accepts the formal Ihr/Ihnen', () => {
     const c1 = tasksFor('C1');
-    expect(c1.map((t) => t.id)).toEqual(['c1-letter-to-editor', 'c1-statement-management', 'c1-graph-commuting']);
-    expect(c1.every((t) => t.register === 'formal' && t.words[0] >= 180)).toBe(true);
+    expect(c1.map((t) => t.id)).toEqual([
+      'c1-letter-to-editor',
+      'c1-statement-management',
+      'c1-graph-commuting',
+      'c1-rent-increase-objection',
+      'c1-wind-farm-statement',
+      'c1-letter-about-novel',
+      'c1-report-ai-at-work',
+      'c1-proposal-car-free-centre',
+    ]);
+    expect(c1.every((t) => t.words[0] >= 180)).toBe(true);
+    expect(c1.filter((t) => t.register === 'formal').length).toBeGreaterThanOrEqual(7);
     expect(WRITE_TASKS.filter((t) => t.level === 'C1')).toEqual(c1);
     const task = c1[1];
     const body = [
@@ -206,10 +216,20 @@ describe('C2 content', () => {
       }
     }
   });
-  it('has three long formal C2 writing tasks: an objection, an expert statement and an open letter', () => {
+  it('has long C2 writing tasks, one per week: objections, statements, an open letter, a briefing and a chronicle', () => {
     const c2 = tasksFor('C2');
-    expect(c2.map((t) => t.id)).toEqual(['c2-objection-bank-fees', 'c2-expert-statement-council', 'c2-open-letter-museum']);
-    expect(c2.every((t) => t.register === 'formal' && t.words[0] >= 220)).toBe(true);
+    expect(c2.map((t) => t.id)).toEqual([
+      'c2-objection-bank-fees',
+      'c2-expert-statement-council',
+      'c2-open-letter-museum',
+      'c2-email-journalist-research',
+      'c2-tax-office-objection',
+      'c2-style-guide-email',
+      'c2-family-chronicle-letter',
+      'c2-briefing-ethics-council',
+    ]);
+    expect(c2.every((t) => t.words[0] >= 220)).toBe(true);
+    expect(c2.filter((t) => t.register === 'formal').length).toBeGreaterThanOrEqual(7);
     const task = c2[0];
     const body = [
       'Sehr geehrte Damen und Herren,',

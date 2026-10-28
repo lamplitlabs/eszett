@@ -3174,6 +3174,78 @@
         "o que você faz o dia inteiro"
       ]
     },
+    "a1-forum-introduce": {
+      "title": "Apresente-se no fórum do curso",
+      "prompt": "Escreva um post curto para o fórum do seu curso de alemão: diga o seu nome e de onde você vem, quais línguas você fala, e pergunte aos outros de onde eles são.",
+      "points": [
+        "seu nome e de onde você é",
+        "as línguas que você fala",
+        "pergunte aos outros de onde eles são"
+      ]
+    },
+    "a1-family-photo": {
+      "title": "Uma mensagem sobre uma foto de família",
+      "prompt": "Sua amiga Ana manda para você uma foto da família dela. Responda a ela: diga quem faz parte da sua família, quantos anos os seus pais ou os seus irmãos têm e qual é a profissão de um deles.",
+      "points": [
+        "quem faz parte da sua família",
+        "quantos anos eles têm",
+        "a profissão de um deles"
+      ]
+    },
+    "a1-supermarket-message": {
+      "title": "Uma mensagem do supermercado",
+      "prompt": "Você está no supermercado e o seu colega de apartamento Jonas está em casa. Escreva uma mensagem para ele: diga o que você está comprando, pergunte do que ele ainda precisa e diga o que você não vai comprar porque é caro demais.",
+      "points": [
+        "o que você está comprando",
+        "pergunte do que ele ainda precisa",
+        "o que você não vai comprar, e por quê"
+      ]
+    },
+    "a1-my-day-email": {
+      "title": "Um e-mail sobre o seu dia",
+      "prompt": "Sua amiga por correspondência Mia quer saber como é um dia normal para você. Escreva um e-mail para ela: diga a que horas você se levanta, o que você faz de manhã e à tarde e quando você vai dormir.",
+      "points": [
+        "a que horas você se levanta",
+        "o que você faz de manhã e à tarde",
+        "quando você vai dormir"
+      ]
+    },
+    "a1-new-flat-message": {
+      "title": "Seu apartamento novo",
+      "prompt": "Você se mudou. Escreva uma mensagem para o seu amigo Paul: diga quantos cômodos o apartamento tem, quais móveis há no seu quarto e do que você gosta no apartamento.",
+      "points": [
+        "os cômodos",
+        "os móveis do seu quarto",
+        "do que você gosta no apartamento"
+      ]
+    },
+    "a1-directions-message": {
+      "title": "O caminho até a sua casa",
+      "prompt": "Sua amiga Sara vai visitar você pela primeira vez. Escreva uma mensagem para ela: diga qual ônibus ou trem ela pega, onde ela desce e como ela vai a pé do ponto até a sua casa.",
+      "points": [
+        "qual ônibus ou trem",
+        "onde ela desce",
+        "o caminho a pé"
+      ]
+    },
+    "a1-invite-weekend": {
+      "title": "Um convite para o fim de semana",
+      "prompt": "Escreva uma mensagem para o seu amigo Leo: diga o que você quer fazer no fim de semana, convide-o para ir junto e sugira um dia e um horário.",
+      "points": [
+        "o que você quer fazer",
+        "o convite",
+        "um dia e um horário"
+      ]
+    },
+    "a1-ill-message-course": {
+      "title": "Você está doente",
+      "prompt": "Você não pode ir ao curso de alemão hoje. Escreva uma mensagem para a sua colega de curso Nadia: diga que você está doente e o que dói, que você tem uma consulta médica e peça que ela mande a tarefa de casa para você.",
+      "points": [
+        "você está doente, e o que dói",
+        "a consulta médica",
+        "peça a tarefa de casa"
+      ]
+    },
     "a2-birthday": {
       "title": "Um convite de aniversário",
       "prompt": "Escreva um e-mail curto para um amigo: convide-o para a sua festa de aniversário no sábado. Diga quando começa, onde é e o que ele deve levar. 30-40 palavras.",
@@ -3208,6 +3280,60 @@
         "o problema e desde quando",
         "peça que ele mande alguém",
         "quando você está em casa"
+      ]
+    },
+    "a2-weekend-report": {
+      "title": "Como foi o seu fim de semana?",
+      "prompt": "Seu amigo Tim pergunta como foi o seu fim de semana. Responda a ele: conte o que você fez no sábado e no domingo, diga como foi e pergunte o que ele fez.",
+      "points": [
+        "o que você fez",
+        "como foi",
+        "pergunte o que ele fez"
+      ]
+    },
+    "a2-return-jacket": {
+      "title": "Um e-mail para uma loja online",
+      "prompt": "Você encomendou uma jaqueta pela internet, mas ela é pequena demais e falta um botão. Escreva um e-mail para a loja: diga o que você encomendou e quando, qual é o problema e pergunte educadamente se você pode trocá-la ou receber o seu dinheiro de volta.",
+      "points": [
+        "o pedido e quando",
+        "o problema",
+        "troca ou reembolso, pedidos com educação"
+      ]
+    },
+    "a2-weekend-job-email": {
+      "title": "Uma candidatura a um trabalho de fim de semana",
+      "prompt": "Um café está procurando ajuda para o fim de semana. Escreva um e-mail curto: diga em qual vaga você tem interesse, que experiência você tem e desde quando, e quando você pode começar.",
+      "points": [
+        "a vaga que você quer",
+        "sua experiência e desde quando",
+        "quando você pode começar"
+      ]
+    },
+    "a2-summer-plans-email": {
+      "title": "Planos para o verão",
+      "prompt": "Escreva um e-mail para a sua amiga Elena sobre as suas próximas férias: diga para onde você vai e com quem, como você vai viajar até lá e o que você vai fazer lá.",
+      "points": [
+        "para onde e com quem",
+        "como você viaja",
+        "o que você vai fazer lá"
+      ]
+    },
+    "a2-library-email": {
+      "title": "Um e-mail para a biblioteca",
+      "prompt": "Escreva um e-mail para a biblioteca municipal: pergunte se eles têm um livro didático de alemão para o seu nível, por quanto tempo você pode pegá-lo emprestado e se você pode renovar o empréstimo online.",
+      "points": [
+        "o livro que você procura",
+        "por quanto tempo você pode pegá-lo emprestado",
+        "renovar online"
+      ]
+    },
+    "a2-describe-friend": {
+      "title": "Descreva um bom amigo",
+      "prompt": "O chat do seu curso está reunindo posts sobre melhores amigos. Escreva um post curto sobre um amigo: descreva como ele é fisicamente, como é a personalidade dele e explique por que você gosta dele.",
+      "points": [
+        "a aparência dele",
+        "a personalidade dele",
+        "por que você gosta dele"
       ]
     },
     "b1-missed-party": {
@@ -3246,6 +3372,60 @@
         "pergunte como devolvê-la"
       ]
     },
+    "b1-flat-enquiry": {
+      "title": "Perguntar sobre um apartamento",
+      "prompt": "Você viu um anúncio de um apartamento de dois cômodos. Escreva um e-mail para o proprietário, Herr Krüger: apresente-se brevemente e diga por que você está procurando um apartamento, pergunte sobre três coisas do apartamento ou do contrato (por exemplo a caução, os custos de aquecimento, o prazo de aviso prévio) e peça uma data para a visita.",
+      "points": [
+        "quem você é e por que está procurando",
+        "três perguntas sobre o apartamento ou o contrato",
+        "uma data para a visita"
+      ]
+    },
+    "b1-forum-healthy-week": {
+      "title": "Um post em fórum: vida saudável",
+      "prompt": "Um fórum pergunta: \"Alimentação saudável e esporte – como você dá conta disso em uma semana cheia?\" Escreva um post: diga o que você come e quanto esporte você pratica, descreva um problema que você tem com isso (por exemplo estresse ou falta de tempo) e dê um conselho aos outros.",
+      "points": [
+        "o que você come e quanto esporte você pratica",
+        "um problema que você tem com isso",
+        "um conselho"
+      ]
+    },
+    "b1-bank-account-email": {
+      "title": "Um e-mail para o banco",
+      "prompt": "Você quer abrir uma conta corrente. Escreva um e-mail para o banco: diga de qual conta você precisa e para quê, pergunte quais documentos são necessários e quanto a conta custa por mês, e pergunte se a conta pode ser aberta online ou só na agência.",
+      "points": [
+        "a conta e para quê",
+        "documentos e custos mensais",
+        "online ou na agência"
+      ]
+    },
+    "b1-hotel-complaint": {
+      "title": "Uma reclamação para um hotel",
+      "prompt": "Depois da sua viagem, você escreve para o hotel: diga quando você se hospedou lá e o que tinha sido reservado, descreva o que deu errado (por exemplo o quarto, o barulho, o café da manhã) e o que tinha sido prometido, e diga o que você espera do hotel agora.",
+      "points": [
+        "a estadia e a reserva",
+        "o que deu errado e o que foi prometido",
+        "o que você espera agora"
+      ]
+    },
+    "b1-forum-screen-time": {
+      "title": "Um post em fórum: tempo de tela",
+      "prompt": "Um fórum pergunta: \"Quanto tempo você passa no celular – e isso é demais?\" Escreva um post: diga como e por quanto tempo você usa o celular todos os dias, diga o que o irrita nisso e o que você espera ansiosamente fazer sem ele, e dê a sua opinião sobre se faz sentido ter regras para o tempo de tela.",
+      "points": [
+        "como e por quanto tempo você usa o celular",
+        "o que o irrita, o que você espera ansiosamente",
+        "sua opinião sobre regras"
+      ]
+    },
+    "b1-street-festival-message": {
+      "title": "Convite para uma festa de rua",
+      "prompt": "Sua rua está organizando uma festa sem plástico e sem lixo. Escreva uma mensagem para o grupo dos vizinhos: diga quando e onde é a festa e o que está planejado, explique as duas regras sobre o lixo e peça que todos levem alguma coisa, e diga o que você vai levar e o que você não vai levar.",
+      "points": [
+        "quando, onde e o que está planejado",
+        "as duas regras e o pedido",
+        "o que você leva e o que não"
+      ]
+    },
     "b2-course-complaint": {
       "title": "Uma reclamação para uma escola de idiomas",
       "prompt": "Escreva uma reclamação formal (cerca de 150 palavras) para uma escola de idiomas: o seu curso ficou sem professor em três aulas. Descreva o que aconteceu, diga o que você espera que a escola faça e estabeleça um prazo para a resposta.",
@@ -3272,6 +3452,69 @@
         "argumentos a favor e contra",
         "uma experiência sua",
         "uma sugestão"
+      ]
+    },
+    "b2-deposit-letter": {
+      "title": "Receber a caução de volta",
+      "prompt": "Você saiu do seu apartamento há dois meses, entregou-o em bom estado e ainda não recebeu a caução de volta. Escreva para o seu antigo proprietário, Herr Albrecht: descreva a entrega e o estado do apartamento, faça referência ao prazo combinado e peça a devolução da caução até uma data, e diga o que você fará se isso não acontecer.",
+      "points": [
+        "a entrega e o estado",
+        "o prazo e a exigência",
+        "o que você fará caso contrário"
+      ]
+    },
+    "b2-integration-course-letter": {
+      "title": "Uma carta sobre um curso de integração",
+      "prompt": "Uma amiga sua está esperando há meses por uma vaga em um curso de integração. Escreva em nome dela para a Volkshochschule (o centro de educação de adultos): descreva a situação dela (desde quando ela está na Alemanha, por que o curso é importante para o trabalho dela), explique as consequências do tempo de espera e peça uma vaga no próximo curso ou uma alternativa.",
+      "points": [
+        "a situação dela",
+        "as consequências da espera",
+        "o pedido"
+      ]
+    },
+    "b2-forum-voting-age": {
+      "title": "Votar aos dezesseis?",
+      "prompt": "Um fórum online discute a redução da idade mínima para votar para dezesseis anos. Escreva um post: dê argumentos a favor e contra, faça referência ao que outro usuário escreveu e diga em que você concorda ou discorda, e apresente a sua própria posição com uma justificativa.",
+      "points": [
+        "argumentos a favor e contra",
+        "uma referência a outro post",
+        "sua própria posição com uma justificativa"
+      ]
+    },
+    "b2-survey-report-email": {
+      "title": "Um relatório curto com números",
+      "prompt": "A editora do boletim informativo da sua empresa, Frau Lang, pediu a você um relatório curto sobre uma pesquisa: 62 % dos colegas vêm de carro, 23 % de transporte público, 15 % de bicicleta ou a pé; 70 % mudariam se houvesse um passe de transporte pago pela empresa (Jobticket). Escreva um e-mail para ela: descreva os números, faça uma suposição sobre como eles vão evoluir e proponha duas medidas.",
+      "points": [
+        "os números descritos",
+        "uma suposição sobre o futuro",
+        "duas medidas propostas"
+      ]
+    },
+    "b2-advice-for-friend": {
+      "title": "Conselhos para um amigo",
+      "prompt": "Seu amigo Daniel escreve que, no trabalho, parece calmo, mas na verdade está muito estressado e dorme mal. Responda a ele: descreva como você vê a situação dele e o que pode estar por trás disso, conte a ele uma experiência parecida sua e dê a ele dois conselhos concretos.",
+      "points": [
+        "a situação dele e o que pode estar por trás",
+        "uma experiência parecida sua",
+        "dois conselhos concretos"
+      ]
+    },
+    "b2-review-for-magazine": {
+      "title": "Uma resenha para uma revista da cidade",
+      "prompt": "O editor de cultura de uma revista da cidade, Herr Vogt, pediu a você uma resenha curta de uma exposição, um filme ou um livro. Escreva um e-mail para ele com a sua resenha: descreva do que se trata e o que você achou forte ou fraco, relate o que o artista, o autor ou o diretor disse sobre a obra em uma entrevista, e dê uma recomendação e diga para quem.",
+      "points": [
+        "o conteúdo e a sua avaliação",
+        "o que o artista disse, relatado",
+        "uma recomendação, e para quem"
+      ]
+    },
+    "b2-article-summary-group": {
+      "title": "Resumir um artigo",
+      "prompt": "Escreva uma mensagem para o seu grupo de estudos resumindo um artigo sobre globalização que você leu (por exemplo sobre cadeias de suprimentos, roupas baratas ou comércio justo): indique o tema e a tese principal, apresente os dois ou três argumentos mais importantes com as suas próprias palavras e termine com uma frase sobre o que você acha disso.",
+      "points": [
+        "o tema e a tese principal",
+        "os principais argumentos com as suas palavras",
+        "uma frase com a sua opinião"
       ]
     },
     "c1-letter-to-editor": {
@@ -3304,6 +3547,51 @@
         "uma medida recomendada"
       ]
     },
+    "c1-rent-increase-objection": {
+      "title": "Uma contestação a um aumento de aluguel",
+      "prompt": "Seu proprietário anunciou um aumento de aluguel de 15 % com base no aluguel de referência local. Escreva uma contestação formal (cerca de 220 palavras): exponha os fatos (o aluguel atual, o aumento anunciado, a data), dê pelo menos dois motivos jurídicos e factuais para a sua contestação (por exemplo o teto de aumento, o estado do apartamento, a falta de comprovação) e diga com o que você concordaria e até quando você espera uma resposta.",
+      "points": [
+        "os fatos expostos",
+        "dois motivos para a contestação",
+        "com o que você concordaria, e o prazo"
+      ]
+    },
+    "c1-wind-farm-statement": {
+      "title": "Um posicionamento sobre um parque eólico",
+      "prompt": "Seu município está consultando os moradores sobre um parque eólico planejado. Escreva um posicionamento dirigido à câmara municipal (cerca de 240 palavras): pondere os principais argumentos a favor e contra (abastecimento de energia, paisagem e natureza, ruído, receitas para o vilarejo), estruture o seu texto com clareza usando conectores e chegue a uma conclusão fundamentada com uma condição ou uma proposta.",
+      "points": [
+        "os argumentos dos dois lados ponderados",
+        "uma estrutura clara com conectores",
+        "uma conclusão fundamentada com uma condição"
+      ]
+    },
+    "c1-letter-about-novel": {
+      "title": "Uma carta sobre um romance",
+      "prompt": "Sua amiga Jana deu a você um romance de presente e quer saber o que você achou. Escreva uma carta para ela (cerca de 220 palavras): descreva como a história se desenrola e o que o livro faz com a linguagem, o estilo e a atmosfera, diga o que impressionou ou irritou você e por quê, e conte a ela se e para quem você recomendaria o livro.",
+      "points": [
+        "como a história se desenrola e o seu estilo",
+        "o que impressionou ou irritou você, e por quê",
+        "se e para quem você o recomenda"
+      ]
+    },
+    "c1-report-ai-at-work": {
+      "title": "Um relatório sobre inteligência artificial no trabalho",
+      "prompt": "Sua chefe de departamento, Frau Sommer, pediu que você resumisse para os funcionários um debate em painel sobre inteligência artificial no trabalho. Escreva para ela um e-mail formal (cerca de 240 palavras): relate o que os especialistas disseram (em discurso indireto), explique com clareza as relações entre os pontos principais e formule duas recomendações para o departamento.",
+      "points": [
+        "o que os especialistas disseram, em discurso indireto",
+        "as relações explicadas",
+        "duas recomendações"
+      ]
+    },
+    "c1-proposal-car-free-centre": {
+      "title": "Uma proposta para um centro sem carros",
+      "prompt": "Sua cidade convida a população a enviar propostas para o futuro do centro. Escreva uma carta formal para a secretaria de planejamento (cerca de 240 palavras): apresente a sua proposta de um centro em grande parte sem carros e o problema que ela resolve, antecipe duas objeções (por exemplo de lojistas e de moradores mais velhos) e responda a elas, e indique o primeiro passo e quem teria de ser envolvido.",
+      "points": [
+        "a proposta e o problema que ela resolve",
+        "duas objeções antecipadas e respondidas",
+        "o primeiro passo e os envolvidos"
+      ]
+    },
     "c2-objection-bank-fees": {
       "title": "Uma contestação a um banco sobre tarifas de conta ilegais",
       "prompt": "Seu banco aumentou as tarifas da conta há dois anos sem o seu consentimento expresso e agora se recusa a devolvê-las, alegando sua \"aceitação tácita\". Escreva uma contestação formal dirigida ao banco (cerca de 260 palavras): exponha os fatos com datas e valores, indique a base legal e a decisão judicial em que você se apoia, exija a devolução com um prazo e anuncie as medidas que você tomará caso o banco não atenda.",
@@ -3333,6 +3621,51 @@
         "o que funciona, reconhecido",
         "mudanças concretas propostas"
       ]
+    },
+    "c2-email-journalist-research": {
+      "title": "Explicar a sua pesquisa a uma jornalista",
+      "prompt": "Uma jornalista, Frau Dr. Winter, pediu a você por e-mail que explicasse para o público em geral os resultados do seu projeto de pesquisa sobre uma questão médica ou bioética. Escreva uma resposta para ela (cerca de 260 palavras): explique a questão e o principal resultado em termos simples, mas precisos, distinga com cuidado entre o que o estudo demonstra e o que ele apenas sugere, e responda a uma pergunta crítica que ela levantou.",
+      "points": [
+        "a questão e o principal resultado, em termos simples",
+        "demonstrado versus apenas sugerido",
+        "uma pergunta crítica respondida"
+      ]
+    },
+    "c2-tax-office-objection": {
+      "title": "Uma impugnação à repartição fiscal",
+      "prompt": "Sua notificação de lançamento do imposto não reconhece as despesas do seu home office e veio com uma multa por atraso, embora você tenha entregado a declaração no prazo. Escreva uma impugnação formal dirigida à repartição fiscal (cerca de 260 palavras): indique o que você impugna com referência à notificação, exponha os fatos em alemão administrativo e fundamente cada ponto, e requeira a correção da notificação e a dispensa da multa, com um pedido de suspensão da cobrança.",
+      "points": [
+        "a impugnação indicada com referência à notificação",
+        "os fatos com a fundamentação de cada ponto",
+        "correção, dispensa e suspensão requeridas"
+      ]
+    },
+    "c2-style-guide-email": {
+      "title": "Um e-mail sobre registro e estilo",
+      "prompt": "Um novo colega, Herr Novak, pediu que você revisasse a minuta de uma carta dele a um ministério que mistura linguagem formal e informal. Escreva para ele um e-mail formal, mas amigável (cerca de 260 palavras): explique qual registro a ocasião exige e por quê, aponte duas ou três quebras de estilo na minuta dele com alternativas melhores e dê a ele uma regra prática para escolher o registro certo no futuro.",
+      "points": [
+        "o registro que a ocasião exige, e por quê",
+        "duas ou três quebras de estilo com alternativas",
+        "uma regra prática para o futuro"
+      ]
+    },
+    "c2-family-chronicle-letter": {
+      "title": "Uma carta para a crônica da família",
+      "prompt": "Sua prima Lena está reunindo cartas para uma crônica da família e pediu a você a história de um dia que mudou alguma coisa na sua família. Escreva uma carta para ela (cerca de 260 palavras): narre o dia no passado narrativo (Präteritum), incluindo o que alguém pensou ou sentiu em discurso indireto livre, mostre como o dia se liga ao que aconteceu antes e depois, e reflita sobre o que essa lembrança significa hoje.",
+      "points": [
+        "o dia narrado, com pensamentos em discurso indireto livre",
+        "o antes e o depois ligados",
+        "o que a lembrança significa hoje"
+      ]
+    },
+    "c2-briefing-ethics-council": {
+      "title": "Um briefing para um conselho de ética",
+      "prompt": "O presidente de um conselho de ética municipal, Herr Prof. Adler, pediu a você um briefing curto sobre se a cidade deve usar reconhecimento facial em espaços públicos. Escreva para ele um e-mail formal (cerca de 280 palavras): apresente de forma equilibrada as posições de pelo menos três fontes (por exemplo a polícia, um grupo de defesa dos direitos civis, um parecer jurídico), confronte-as entre si com precisão e tato e recomende uma linha de ação com condições.",
+      "points": [
+        "três posições apresentadas de forma equilibrada",
+        "as posições confrontadas com tato",
+        "uma recomendação com condições"
+      ]
     }
   },
   "path": {
@@ -3349,6 +3682,7 @@
         null,
         null,
         "conhecer um novo colega no seu primeiro dia e se apresentar",
+        null,
         null
       ]
     },
@@ -3365,6 +3699,7 @@
         null,
         null,
         "mostrar fotos da sua família a um amigo",
+        null,
         null
       ]
     },
@@ -3396,6 +3731,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3408,6 +3744,7 @@
         null,
         null,
         "Como eu descrevo a minha rotina diária, desde a hora de levantar até a hora de dormir?",
+        null,
         null,
         null,
         null,
@@ -3425,6 +3762,7 @@
         null,
         null,
         "fazer perguntas a um proprietário sobre um apartamento que você quer alugar",
+        null,
         null
       ]
     },
@@ -3432,6 +3770,7 @@
       "title": "Pela cidade",
       "goal": "Pedir e dar informações sobre o caminho, usar ônibus, trens e táxis, e nomear os lugares de uma cidade.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3453,6 +3792,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3464,6 +3804,7 @@
         null,
         null,
         "Como eu digo “eu estava” e “eu tinha” em alemão, por exemplo quando eu estava doente: war e hatte?",
+        null,
         null,
         null,
         null,
@@ -3499,6 +3840,7 @@
         null,
         null,
         "contar a um colega, na segunda-feira de manhã, como foi o seu fim de semana",
+        null,
         null
       ]
     },
@@ -3537,6 +3879,7 @@
       "title": "Comprar e reclamar",
       "goal": "Comparar produtos e preços, pedir ajuda com educação, trocar ou devolver algo e reclamar de uma refeição.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3592,6 +3935,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3608,6 +3952,7 @@
         null,
         null,
         "perguntar no posto de informações turísticas o que ver em uma cidade",
+        null,
         null
       ]
     },
@@ -3621,6 +3966,7 @@
         null,
         "O que eu posso dizer quando não entendo algo ou preciso que repitam uma palavra?",
         "Como eu falo sobre o meu celular, o meu computador e a internet no alemão do dia a dia?",
+        null,
         null,
         null,
         null,
@@ -3639,6 +3985,7 @@
         null,
         null,
         "contar a um amigo sobre uma pessoa que você conheceu e como ela é",
+        null,
         null
       ]
     },
@@ -3686,6 +4033,7 @@
         null,
         null,
         "uma conversa com um vizinho sobre barulho tarde da noite",
+        null,
         null
       ]
     },
@@ -3701,6 +4049,7 @@
         null,
         null,
         "conversar com um médico sobre dor nas costas por ficar sentado à mesa de trabalho",
+        null,
         null
       ]
     },
@@ -3729,6 +4078,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3736,6 +4086,7 @@
       "title": "Mobilidade e viagens",
       "goal": "Resolver um conserto do carro e uma conexão perdida, reclamar em um hotel, e contar o que aconteceu antes, durante e depois de uma viagem.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3760,6 +4111,7 @@
         null,
         null,
         "uma discussão com um amigo sobre se as crianças deveriam ter smartphone",
+        null,
         null
       ]
     },
@@ -3792,6 +4144,7 @@
         null,
         null,
         "explicar uma festa do seu país a um amigo alemão",
+        null,
         null
       ]
     },
@@ -3814,6 +4167,7 @@
       "title": "Morar na cidade",
       "goal": "Visitar um apartamento, devolvê-lo e discutir a caução, comparar cidade e campo, e descrever pessoas e coisas com particípios.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3866,6 +4220,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3881,6 +4236,7 @@
         null,
         null,
         "uma discussão com um vizinho sobre uma nova ciclovia na sua rua",
+        null,
         null
       ]
     },
@@ -3895,6 +4251,7 @@
         null,
         null,
         "conversar com um colega sobre como a sua empresa poderia desperdiçar menos",
+        null,
         null
       ]
     },
@@ -3910,6 +4267,7 @@
         null,
         null,
         "dar conselhos a um amigo sobre o estresse no trabalho",
+        null,
         null
       ]
     },
@@ -3925,6 +4283,7 @@
         null,
         null,
         "recomendar um filme ou um livro a um amigo e explicar por quê",
+        null,
         null
       ]
     },
@@ -3941,6 +4300,7 @@
         null,
         null,
         "registrar o roubo de uma bicicleta na delegacia",
+        null,
         null
       ]
     },
@@ -3968,6 +4328,7 @@
         null,
         "Como eu leio uma carta oficial de uma repartição pública alemã? O que significam as expressões típicas?",
         "Quais verbos regem o genitivo, como bedürfen, gedenken, sich erfreuen, e onde eles aparecem?",
+        null,
         null,
         null,
         null,
@@ -4013,6 +4374,7 @@
         null,
         null,
         "um debate em painel sobre turbinas eólicas perto do seu vilarejo",
+        null,
         null
       ]
     },
@@ -4027,6 +4389,7 @@
         null,
         null,
         "discutir um romance em um clube de leitura",
+        null,
         null
       ]
     },
@@ -4042,6 +4405,7 @@
         null,
         null,
         "uma entrevista de rádio sobre como a sua profissão vai mudar com a IA",
+        null,
         null
       ]
     },
@@ -4057,6 +4421,7 @@
         null,
         null,
         "apresentar um plano de centro sem carros a um lojista cético",
+        null,
         null
       ]
     },
@@ -4064,6 +4429,7 @@
       "title": "A ciência em público",
       "goal": "Explicar a sua própria pesquisa a um jornalista, distinguir quase sinônimos com precisão, e lidar com perguntas críticas com desenvoltura.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4098,6 +4464,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4112,6 +4479,7 @@
         null,
         null,
         "uma conversa com um editor sobre o tom do seu artigo",
+        null,
         null
       ]
     },
@@ -4125,6 +4493,7 @@
         null,
         null,
         "uma conversa com a vizinha da sua avó sobre como a cidade mudou desde os anos 1960",
+        null,
         null
       ]
     },
@@ -4168,6 +4537,7 @@
         null,
         null,
         "mediar entre dois colegas que discordam sobre um projeto",
+        null,
         null
       ]
     }

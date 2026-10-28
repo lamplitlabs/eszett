@@ -1136,7 +1136,6 @@
   "write.noDu": "正式信件中不使用 du 的形式",
   "write.openFormal": "以“Sehr geehrte …”开头",
   "write.openInformal": "以“Liebe …”或“Hallo …”开头",
-  "write.sayPoint": "写明{point}",
   "write.setTask": "布置任务",
   "write.settingTask": "导师正在布置你的任务",
   "write.showModelAnswer": "查看导师的范文",
