@@ -502,7 +502,9 @@ a labelled draft read by shape (`parseReadingDraft`; a draft without the shape i
 words, like the other authoring drafts) — the text's nouns are checked against the lexicon like any answer, and the
 questions are checked by the app, never by the model. The text stays hidden at first so the learner can listen to it
 (the device's German voice) before reading it; every word of the text opens the word sheet; the score goes to the
-`reading` area of the progress store (Me › Progress).
+`reading` area of the progress store (Me › Progress). The text is kept on the phone with its questions
+(`src/state/authored.ts` `readings`, by the step that asked for it, the newest sixty), so the step opens again at
+once — a minute of writing on a phone is not asked for twice — and "another text" is the learner's choice.
 
 **Sprechen** (`src/app/speak.tsx`, `src/features/dictation.ts`, `src/harness/speaking.ts`): every week's Sprechen
 section opens with the sentences to say — the first line of each beat of the week's scenes (what the learner says
@@ -518,7 +520,8 @@ score goes to the `speaking` progress area. Without a usable recognizer (the web
 listen-and-repeat, marked by hand. The same recognizer is the **microphone in the composer** (`src/ui/Composer.tsx`
 `dictation`, `useFieldDictation`): the learner can speak their line in a scene, a sentence to check in the Tutor
 tab, and the German in Talk and Story; what is heard replaces what was typed since the mic was pressed, and can be
-edited before sending. `expo-speech-recognition` is a native module, so like llama.rn it needs a development
+edited before sending. When only the offline German pack is missing, the microphone stays, dimmed, and pressing it
+offers the download rather than hiding the feature. `expo-speech-recognition` is a native module, so like llama.rn it needs a development
 build; its config plugin (`app.json`) adds the microphone and speech-recognition permission texts.
 
 **Lerncheck** (`src/app/path/check/[unit].tsx`): the week's grammar cards' typical mistakes, up to eight in a fixed

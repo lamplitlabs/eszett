@@ -1163,6 +1163,7 @@
   "ui.thinking": "Twój korepetytor myśli",
   "ui.useLine": "Użyj: {text}",
   "ui.dictate": "Powiedz swoją kwestię",
+  "ui.dictateOfflinePack": "Pakiet języka niemieckiego do rozpoznawania mowy nie jest zainstalowany na tym telefonie, a aplikacja nie wysyła Twojego głosu na żaden serwer. Pobierz pakiet offline, aby powiedzieć swoją kwestię.",
   "ui.stopDictation": "Przestań słuchać",
   "unlock.bullet1": "Pytania, poprawki i scenki z korepetytorem, który działa na Twoim telefonie",
   "unlock.bullet2": "Działa bez internetu — korepetytor mieszka w Twoim telefonie",

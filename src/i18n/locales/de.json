@@ -1085,6 +1085,7 @@
   "ui.thinking": "Dein Tutor denkt nach",
   "ui.useLine": "Verwenden: {text}",
   "ui.dictate": "Deinen Satz sprechen",
+  "ui.dictateOfflinePack": "Das deutsche Sprachpaket des Handys ist nicht installiert, und die App schickt deine Stimme an keinen Server. Lade das Offline-Paket, um deinen Satz zu sprechen.",
   "ui.stopDictation": "Nicht mehr zuhören",
   "unlock.bullet1": "Fragen, Korrekturen und Szenen mit einem Tutor, der auf deinem Handy läuft",
   "unlock.bullet2": "Funktioniert ohne Internet – der Tutor wohnt auf deinem Handy",

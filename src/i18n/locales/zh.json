@@ -1046,6 +1046,7 @@
   "ui.thinking": "导师正在思考",
   "ui.useLine": "使用：{text}",
   "ui.dictate": "说出你的句子",
+  "ui.dictateOfflinePack": "手机没有安装德语语音包，而应用不会把你的声音发送到服务器。请下载离线语音包，以便说出你的句子。",
   "ui.stopDictation": "停止聆听",
   "unlock.bullet1": "与运行在你手机上的导师一起提问、批改和演练情景",
   "unlock.bullet2": "无需联网——导师就在你的手机里",

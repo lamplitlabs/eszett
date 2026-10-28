@@ -1085,6 +1085,7 @@
   "ui.thinking": "Your tutor is thinking",
   "ui.useLine": "Use: {text}",
   "ui.dictate": "Speak your line",
+  "ui.dictateOfflinePack": "The phone's German speech pack is not installed, and the app does not send your voice to a server. Download the offline pack to speak your line.",
   "ui.stopDictation": "Stop listening",
   "unlock.bullet1": "Questions, corrections and scenes with a tutor that runs on your phone",
   "unlock.bullet2": "Works without internet — the tutor lives on your phone",

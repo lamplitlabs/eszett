@@ -8,7 +8,7 @@ import type { GroundingPack } from '../grounding';
 import { LexiconIndex, type LexiconData } from '../lexicon';
 import { LEVELS } from '../levels';
 import { READING_PREFILL } from '../prompts';
-import { parseReadingDraft, READING_QUESTIONS, READING_WORDS, readingBudget, readingComplete } from '../reading';
+import { parseReadingDraft, READING_QUESTIONS, READING_WORDS, readingBudget, readingComplete, readingWordsSoFar } from '../reading';
 import { DraftError, Tutor, type ChatMessage, type GrammarCard } from '../tutor';
 
 const TEXT = [
@@ -77,6 +77,14 @@ describe('the reading draft', () => {
       last = READING_WORDS[level][0];
       expect(readingBudget(level)).toBeGreaterThan(READING_WORDS[level][1]);
     }
+  });
+
+  it('counts the words of the text so far, not the title line or the questions', () => {
+    const textWords = TEXT.split(/\s+/).filter(Boolean).length;
+    expect(readingWordsSoFar(DRAFT)).toBe(textWords);
+    expect(readingWordsSoFar('Titel: Ein Tag')).toBe(0);
+    expect(readingWordsSoFar('Titel: Ein Tag\n\nAm Samstag gehen Lena und Tim')).toBe(6);
+    expect(readingWordsSoFar('Titel: Ein Tag\n\nAm Samstag gehen Lena und Tim.\n\nFrage 1: Wann')).toBe(6);
   });
 });
 

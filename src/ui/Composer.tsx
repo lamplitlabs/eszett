@@ -21,7 +21,7 @@ interface Props {
   german?: boolean;
   disabled?: boolean;
   /** A microphone that dictates into the field (German, on the phone); `listening` while a turn runs. */
-  dictation?: { listening: boolean; onPress: () => void };
+  dictation?: { listening: boolean; available?: boolean; onPress: () => void };
 }
 
 /** The writing field at the bottom of a conversation. While the tutor writes, send turns into stop. */
@@ -41,7 +41,7 @@ export const Composer = forwardRef<TextInput, Props>(function Composer({ value, 
             }}
             disabled={disabled}
             accessibilityLabel={dictation.listening ? t('ui.stopDictation') : t('ui.dictate')}
-            style={{ width: 46, height: 46, borderRadius: 23, backgroundColor: dictation.listening ? c.red : c.sheetAlt, alignItems: 'center', justifyContent: 'center' }}>
+            style={{ width: 46, height: 46, borderRadius: 23, backgroundColor: dictation.listening ? c.red : c.sheetAlt, alignItems: 'center', justifyContent: 'center', opacity: dictation.available === false ? 0.45 : 1 }}>
             {dictation.listening ? <Square size={16} color={c.paper} fill={c.paper} /> : <Mic size={21} color={c.ink} strokeWidth={2.2} />}
           </Press>
         ) : null}

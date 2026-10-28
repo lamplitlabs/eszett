@@ -6,8 +6,9 @@
 
 import { ExpoSpeechRecognitionModule, useSpeechRecognitionEvent, type ExpoSpeechRecognitionErrorCode } from 'expo-speech-recognition';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Platform } from 'react-native';
+import { Alert, Platform } from 'react-native';
 
+import { useI18n } from '@/i18n';
 import { stopSpeaking } from '@/ui/speech';
 
 export type DictationReason = 'web' | 'unavailable' | 'offline-pack' | 'permission' | null;
@@ -169,11 +170,20 @@ export function useDictation(handlers: { onInterim?: (text: string) => void; onF
   return { available, reason, listening, transcript, error, start, stop, abort, downloadOfflinePack };
 }
 
+export interface FieldDictation {
+  listening: boolean;
+  /** False while the German pack is missing: the microphone is shown dimmed and offers the download. */
+  available: boolean;
+  onPress: () => void;
+}
+
 /**
  * Dictation into a text field: the words heard replace what has been typed since the turn began, so the learner
- * can type, speak, then edit. Undefined when the recognizer cannot be used, and the field shows no microphone.
+ * can type, speak, then edit. Undefined when the recognizer cannot be used at all, and the field shows no
+ * microphone; when only the offline German pack is missing, the microphone stays and offers the download.
  */
-export function useFieldDictation(value: string, setValue: (text: string) => void): { listening: boolean; onPress: () => void } | undefined {
+export function useFieldDictation(value: string, setValue: (text: string) => void): FieldDictation | undefined {
+  const { t } = useI18n();
   const base = useRef('');
   const valueRef = useRef(value);
   useEffect(() => {
@@ -181,12 +191,23 @@ export function useFieldDictation(value: string, setValue: (text: string) => voi
   }, [value]);
   const join = useCallback((text: string) => (base.current ? `${base.current} ${text}` : text), []);
   const d = useDictation({ onInterim: (text) => setValue(join(text)), onFinal: (text) => setValue(join(text)) });
+  const download = d.downloadOfflinePack;
   const onPress = useCallback(() => {
+    if (!d.available) {
+      if (download) {
+        Alert.alert(t('ui.dictate'), t('ui.dictateOfflinePack'), [
+          { text: t('common.cancel'), style: 'cancel' },
+          { text: t('speak.downloadPack'), onPress: () => void download() },
+        ]);
+      }
+      return;
+    }
     if (d.listening) d.stop();
     else {
       base.current = valueRef.current.trim();
       void d.start();
     }
-  }, [d]);
-  return d.available ? { listening: d.listening, onPress } : undefined;
+  }, [d, download, t]);
+  if (d.available) return { listening: d.listening, available: true, onPress };
+  return download ? { listening: false, available: false, onPress } : undefined;
 }

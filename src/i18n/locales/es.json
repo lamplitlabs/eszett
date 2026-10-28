@@ -1085,6 +1085,7 @@
   "ui.thinking": "Tu tutor está pensando",
   "ui.useLine": "Usar: {text}",
   "ui.dictate": "Dictar tu frase",
+  "ui.dictateOfflinePack": "El paquete de reconocimiento de voz en alemán no está instalado en el teléfono, y la app no envía tu voz a ningún servidor. Descarga el paquete sin conexión para dictar tu frase.",
   "ui.stopDictation": "Dejar de escuchar",
   "unlock.bullet1": "Preguntas, correcciones y escenas con un tutor que funciona en tu teléfono",
   "unlock.bullet2": "Funciona sin internet: el tutor vive en tu teléfono",

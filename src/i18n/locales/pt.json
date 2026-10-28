@@ -1085,6 +1085,7 @@
   "ui.thinking": "Seu tutor está pensando",
   "ui.useLine": "Usar: {text}",
   "ui.dictate": "Ditar sua fala",
+  "ui.dictateOfflinePack": "O pacote de voz em alemão do celular não está instalado, e o app não envia sua voz a nenhum servidor. Baixe o pacote offline para ditar sua fala.",
   "ui.stopDictation": "Parar de ouvir",
   "unlock.bullet1": "Perguntas, correções e cenas com um tutor que roda no seu celular",
   "unlock.bullet2": "Funciona sem internet — o tutor mora no seu celular",

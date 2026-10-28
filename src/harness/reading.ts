@@ -131,3 +131,15 @@ export function readingComplete(full: string): boolean {
   const answers = full.match(/^(?:antwort|answer|lösung|loesung)\s*[:.-]?\s*\(?[a-cA-C]\)?/gim) ?? [];
   return answers.length >= READING_QUESTIONS;
 }
+
+/** How many words of the text itself a draft holds so far: the title line, labels and the questions do not count. */
+export function readingWordsSoFar(full: string): number {
+  let n = 0;
+  for (const line of full.split(/\r?\n/).map(stripMd)) {
+    if (!line) continue;
+    if (QUESTION_LINE.test(line)) break;
+    if (TITLE_LINE.test(line) || LABEL_LINE.test(line)) continue;
+    n += wordCount(line);
+  }
+  return n;
+}

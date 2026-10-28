@@ -1085,6 +1085,7 @@
   "ui.thinking": "Öğretmenin düşünüyor",
   "ui.useLine": "Kullan: {text}",
   "ui.dictate": "Cümleni söyle",
+  "ui.dictateOfflinePack": "Telefonun Almanca konuşma paketi yüklü değil ve uygulama sesini bir sunucuya göndermez. Cümleni söylemek için çevrimdışı paketi indir.",
   "ui.stopDictation": "Dinlemeyi durdur",
   "unlock.bullet1": "Telefonunda çalışan bir öğretmenle sorular, düzeltmeler ve sahneler",
   "unlock.bullet2": "İnternetsiz çalışır — öğretmen telefonunda yaşar",

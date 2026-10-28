@@ -1,7 +1,8 @@
 // Reading and listening: the tutor writes a short German text on the topic at the learner's level, with three
 // multiple-choice questions (src/harness/reading.ts). The text stays hidden at first so the learner can listen
 // to it (the device's German voice) before reading it; every word of the text opens the word sheet; the
-// questions are checked by the app. Reached from the course (`/read?topic=…&path=…`).
+// questions are checked by the app. The text is kept (src/state/authored.ts), so the step opens again at once
+// and "another text" is the learner's choice. Reached from the course (`/read?topic=…&path=…`).
 
 import { router, useLocalSearchParams } from 'expo-router';
 import { Check, Eye, EyeOff, Headphones, RefreshCw, X } from 'lucide-react-native';
@@ -14,10 +15,11 @@ import { lessonKey } from '@/features/lesson';
 import { notReadyNote, useModelPercent } from '@/features/modelStatus';
 import { wordTopicLabel } from '@/features/topics';
 import { pathDoneKey } from '@/harness/path';
-import type { ReadingDraft } from '@/harness/reading';
+import { readingWordsSoFar, type ReadingDraft } from '@/harness/reading';
 import type { AnswerChecks } from '@/harness/verify';
 import { useI18n } from '@/i18n';
 import { describeError, tutor, useModel } from '@/model/runtime';
+import { useAuthored } from '@/state/authored';
 import { useProgress } from '@/state/progress';
 import { useSettings } from '@/state/settings';
 import { CheckFooter } from '@/ui/CheckFooter';
@@ -66,14 +68,18 @@ export default function ReadScreen() {
   const record = useProgress((s) => s.record);
   const markDone = useProgress((s) => s.markDone);
   const topic = params.topic ?? 'the family';
+  // the text written last time for this step (or this topic at this level), shown again instead of a new one
+  const readingKey = params.path ?? `${level}:${topic}`;
+  const saved = useAuthored((s) => s.readings[readingKey]);
+  const addReading = useAuthored((s) => s.addReading);
 
-  const [status, setStatus] = useState<'idle' | 'running' | 'done' | 'error'>('idle');
-  const [draft, setDraft] = useState<Draft | null>(null);
+  const [status, setStatus] = useState<'idle' | 'running' | 'done' | 'error'>(() => (saved ? 'done' : 'idle'));
+  const [draft, setDraft] = useState<Draft | null>(() => saved ?? null);
   const [error, setError] = useState('');
   const [wordsSoFar, setWordsSoFar] = useState(0);
   const [shownText, setShownText] = useState(false);
   const [speaking, setSpeaking] = useState(false);
-  const [picked, setPicked] = useState<(number | null)[]>([]);
+  const [picked, setPicked] = useState<(number | null)[]>(() => (saved ? saved.questions.map(() => null) : []));
   const finishedRef = useRef(false);
 
   useEffect(() => onSpeaking((now) => setSpeaking(now !== null)), []);
@@ -90,19 +96,20 @@ export default function ReadScreen() {
       const r = await tutor.readingText(wordTopicLabel(topic, 'en'), {
         level,
         lang: explainIn,
-        onText: (full) => setWordsSoFar(full.split(/\s+/).filter(Boolean).length),
+        onText: (full) => setWordsSoFar(readingWordsSoFar(full)),
       });
       setDraft(r);
       setPicked(r.questions.map(() => null));
       setStatus('done');
+      addReading(readingKey, { title: r.title, text: r.text, questions: r.questions, checks: r.checks, level, topic, generated: true, created: Date.now() });
     } catch (e) {
       setError(describeError(e));
       setStatus('error');
     }
-  }, [explainIn, level, topic]);
+  }, [addReading, explainIn, level, readingKey, topic]);
 
-  // the first text starts by itself once the tutor is reachable
-  const autoStarted = useRef(false);
+  // the first text starts by itself once the tutor is reachable; a kept text needs no writing
+  const autoStarted = useRef(Boolean(saved));
   useEffect(() => {
     if (connection !== 'ready' || autoStarted.current) return;
     autoStarted.current = true;

@@ -1085,6 +1085,7 @@
   "ui.thinking": "Ton tuteur réfléchit",
   "ui.useLine": "Utiliser : {text}",
   "ui.dictate": "Dicter ta réplique",
+  "ui.dictateOfflinePack": "Le pack de reconnaissance vocale en allemand n’est pas installé sur le téléphone, et l’appli n’envoie pas ta voix à un serveur. Télécharge le pack hors ligne pour dicter ta réplique.",
   "ui.stopDictation": "Arrêter l’écoute",
   "unlock.bullet1": "Questions, corrections et scènes avec un tuteur qui tourne sur ton téléphone",
   "unlock.bullet2": "Fonctionne sans internet — le tuteur vit sur ton téléphone",
