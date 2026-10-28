@@ -59,6 +59,9 @@
     "typecheck": "tsc --noEmit"
   },
   "private": true,
+  "overrides": {
+    "vite": "8.3.5"
+  },
   "optionalDependencies": {
     "@rolldown/binding-darwin-arm64": "^1.2.12"
   }
