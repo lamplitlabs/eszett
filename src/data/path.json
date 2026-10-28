@@ -38,6 +38,14 @@
     "topic": "greetings and introductions"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "sein-haben-praesens",
+     "w-fragen-ja-nein-fragen"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -101,6 +109,14 @@
     "topic": "the family"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "possessivartikel",
+     "verb-zweitstellung"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -149,6 +165,16 @@
    {
     "kind": "read",
     "topic": "food and drink"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "cafe",
+     "restaurant_booking"
+    ],
+    "cards": [
+     "artikel-nominativ-akkusativ"
+    ]
    },
    {
     "kind": "speak",
@@ -212,6 +238,17 @@
    {
     "kind": "read",
     "topic": "clothes"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "bakery",
+     "supermarket"
+    ],
+    "cards": [
+     "pluralformen",
+     "kein-nicht"
+    ]
    },
    {
     "kind": "speak",
@@ -279,6 +316,16 @@
     "topic": "the daily routine"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "late_friend"
+    ],
+    "cards": [
+     "trennbare-verben",
+     "vokalwechsel"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "late_friend"
@@ -335,6 +382,13 @@
     "topic": "the flat"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "zeit-und-ortsangaben"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -381,6 +435,16 @@
    {
     "kind": "read",
     "topic": "the city"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "directions",
+     "taxi"
+    ],
+    "cards": [
+     "imperativ"
+    ]
    },
    {
     "kind": "speak",
@@ -442,6 +506,15 @@
     "topic": "hobbies and sport"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "cinema"
+    ],
+    "cards": [
+     "modalverben"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "cinema"
@@ -494,6 +567,16 @@
    {
     "kind": "read",
     "topic": "the body and health"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "doctor_phone",
+     "pharmacy"
+    ],
+    "cards": [
+     "genus-endungen"
+    ]
    },
    {
     "kind": "speak",
@@ -552,6 +635,16 @@
    {
     "kind": "read",
     "topic": "transport and travel"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "train_ticket",
+     "hotel_checkin"
+    ],
+    "cards": [
+     "perfekt-haben-sein"
+    ]
    },
    {
     "kind": "speak",
@@ -617,6 +710,13 @@
     "topic": "free time"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "praeteritum-sein-haben-modalverben"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -669,6 +769,14 @@
     "topic": "celebrations and invitations"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "personalpronomen-akkusativ-dativ",
+     "dativ-plural-n"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -717,6 +825,17 @@
    {
     "kind": "read",
     "topic": "the household"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "flatmate_kitchen",
+     "landlord_washing",
+     "neighbour_plants"
+    ],
+    "cards": [
+     "wechselpraepositionen"
+    ]
    },
    {
     "kind": "speak",
@@ -780,6 +899,17 @@
    {
     "kind": "read",
     "topic": "shopping"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "return_item",
+     "cold_soup"
+    ],
+    "cards": [
+     "komparativ-superlativ",
+     "hoefliche-bitten-konjunktiv-ii"
+    ]
    },
    {
     "kind": "speak",
@@ -847,6 +977,16 @@
     "topic": "health and the doctor"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "dentist"
+    ],
+    "cards": [
+     "reflexive-verben",
+     "dativ-verben-praepositionen"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "dentist"
@@ -896,6 +1036,17 @@
    {
     "kind": "read",
     "topic": "the post office and the bank"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "buergeramt",
+     "post_office",
+     "lost_property"
+    ],
+    "cards": [
+     "dass-ob"
+    ]
    },
    {
     "kind": "speak",
@@ -966,6 +1117,16 @@
     "topic": "work"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "cafe_job"
+    ],
+    "cards": [
+     "seit-vor-fuer",
+     "weil-denn-da"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "cafe_job"
@@ -1023,6 +1184,15 @@
    {
     "kind": "read",
     "topic": "holidays"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "bike_rental"
+    ],
+    "cards": [
+     "futur-i"
+    ]
    },
    {
     "kind": "speak",
@@ -1093,6 +1263,16 @@
     "topic": "school and learning"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "library"
+    ],
+    "cards": [
+     "kennen-wissen-koennen",
+     "adjektivendungen"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "library"
@@ -1147,6 +1327,15 @@
    {
     "kind": "read",
     "topic": "feelings and character"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "hairdresser"
+    ],
+    "cards": [
+     "nebensatz-verbende"
+    ]
    },
    {
     "kind": "speak",
@@ -1217,6 +1406,14 @@
     "topic": "relationships and family life"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "praeteritum-perfekt",
+     "als-wenn-wann"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -1269,6 +1466,16 @@
    {
     "kind": "read",
     "topic": "work and career"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "sick_call"
+    ],
+    "cards": [
+     "um-zu-damit",
+     "zu-infinitiv"
+    ]
    },
    {
     "kind": "speak",
@@ -1331,6 +1538,14 @@
     "topic": "housing and renting"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "relativpronomen",
+     "genitiv"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -1389,6 +1604,14 @@
     "topic": "nutrition and sport"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "trotzdem-obwohl",
+     "n-deklination"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -1437,6 +1660,15 @@
    {
     "kind": "read",
     "topic": "consumption and advertising"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "mobile_cancel"
+    ],
+    "cards": [
+     "indirekte-fragen"
+    ]
    },
    {
     "kind": "speak",
@@ -1493,6 +1725,15 @@
     "topic": "money and banking"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "bank_account"
+    ],
+    "cards": [
+     "passiv-praesens"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "bank_account"
@@ -1544,6 +1785,18 @@
    {
     "kind": "read",
     "topic": "travel and tourism"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "garage",
+     "travel_centre",
+     "hotel_noise"
+    ],
+    "cards": [
+     "nachdem-bevor-waehrend",
+     "plusquamperfekt"
+    ]
    },
    {
     "kind": "speak",
@@ -1616,6 +1869,13 @@
     "topic": "the digital world"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "verben-mit-praepositionen-da-wo"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -1671,6 +1931,14 @@
    {
     "kind": "read",
     "topic": "education"
+   },
+   {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "konjunktiv-ii",
+     "lassen"
+    ]
    },
    {
     "kind": "speak",
@@ -1737,6 +2005,13 @@
     "topic": "the environment"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "zweiteilige-konnektoren"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -1790,6 +2065,15 @@
     "topic": "the workplace"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "job_interview"
+    ],
+    "cards": [
+     "konjunktiv-ii-vergangenheit"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "job_interview"
@@ -1837,6 +2121,16 @@
    {
     "kind": "read",
     "topic": "city and countryside"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "flat_viewing",
+     "flat_handover"
+    ],
+    "cards": [
+     "partizip-i-ii-als-adjektiv"
+    ]
    },
    {
     "kind": "speak",
@@ -1895,6 +2189,17 @@
    {
     "kind": "read",
     "topic": "the economy"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "utility_bill",
+     "parcel_complaint"
+    ],
+    "cards": [
+     "passiv-mit-modalverben",
+     "passiv-werden-sein"
+    ]
    },
    {
     "kind": "speak",
@@ -1958,6 +2263,15 @@
     "topic": "technology"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "internet_hotline"
+    ],
+    "cards": [
+     "konnektoren-indem-sodass-ohne-dass"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "internet_hotline"
@@ -2010,6 +2324,15 @@
    {
     "kind": "read",
     "topic": "migration and integration"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "immigration_office"
+    ],
+    "cards": [
+     "genitivpraepositionen"
+    ]
    },
    {
     "kind": "speak",
@@ -2071,6 +2394,13 @@
     "topic": "society and politics"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "relativsaetze-praepositionen-wo-was"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -2122,6 +2452,13 @@
    {
     "kind": "read",
     "topic": "climate change"
+   },
+   {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "futur-vermutung"
+    ]
    },
    {
     "kind": "speak",
@@ -2181,6 +2518,14 @@
     "topic": "psychology and personality"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "irreale-vergleiche-als-ob",
+     "modalpartikeln"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -2238,6 +2583,13 @@
    {
     "kind": "read",
     "topic": "culture and art"
+   },
+   {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "konjunktiv-i-redewiedergabe"
+    ]
    },
    {
     "kind": "speak",
@@ -2302,6 +2654,13 @@
     "topic": "crime and justice"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "untrennbare-praefixe"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -2353,6 +2712,15 @@
    {
     "kind": "read",
     "topic": "the world of work"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "salary_negotiation"
+    ],
+    "cards": [
+     "nominalstil-verbalstil"
+    ]
    },
    {
     "kind": "speak",
@@ -2414,6 +2782,15 @@
     "topic": "law and bureaucracy"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "rent_increase"
+    ],
+    "cards": [
+     "partizipialattribut"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "rent_increase"
@@ -2463,6 +2840,15 @@
     "topic": "politics and the media"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "town_hall_traffic"
+    ],
+    "cards": [
+     "subjektive-modalverben"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "town_hall_traffic"
@@ -2510,6 +2896,13 @@
    {
     "kind": "read",
     "topic": "research and science"
+   },
+   {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "passiversatz"
+    ]
    },
    {
     "kind": "speak",
@@ -2565,6 +2958,13 @@
     "topic": "the environment and energy"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "textkonnektoren-kohaerenz"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -2616,6 +3016,13 @@
    {
     "kind": "read",
     "topic": "literature and the arts"
+   },
+   {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "partizipialsaetze"
+    ]
    },
    {
     "kind": "speak",
@@ -2673,6 +3080,13 @@
    {
     "kind": "read",
     "topic": "demographic change"
+   },
+   {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "konjunktiv-i-redewiedergabe"
+    ]
    },
    {
     "kind": "speak",
@@ -2733,6 +3147,14 @@
     "topic": "mobility of the future"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "nominalstil-verbalstil",
+     "textkonnektoren-kohaerenz"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -2783,6 +3205,15 @@
     "topic": "medicine and bioethics"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "press_interview_study"
+    ],
+    "cards": [
+     "paronyme-scheinbar-anscheinend"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "press_interview_study"
@@ -2830,6 +3261,15 @@
    {
     "kind": "read",
     "topic": "finance and markets"
+   },
+   {
+    "kind": "listen",
+    "scenes": [
+     "publishing_contract"
+    ],
+    "cards": [
+     "funktionsverbgefuege"
+    ]
    },
    {
     "kind": "speak",
@@ -2886,6 +3326,15 @@
     "topic": "economic policy"
    },
    {
+    "kind": "listen",
+    "scenes": [
+     "tax_office_objection"
+    ],
+    "cards": [
+     "gehobene-praepositionen"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [
      "tax_office_objection"
@@ -2940,6 +3389,13 @@
     "topic": "language and linguistics"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "stilebenen-register"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -2986,6 +3442,13 @@
    {
     "kind": "read",
     "topic": "history and remembrance"
+   },
+   {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "erzaehltempora-erlebte-rede"
+    ]
    },
    {
     "kind": "speak",
@@ -3041,6 +3504,13 @@
     "topic": "rhetoric and argumentation"
    },
    {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "es-als-platzhalter-korrelat"
+    ]
+   },
+   {
     "kind": "speak",
     "scenes": [],
     "cards": [
@@ -3082,6 +3552,13 @@
    {
     "kind": "read",
     "topic": "the arts and criticism"
+   },
+   {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "nachfeld-ausklammerung"
+    ]
    },
    {
     "kind": "speak",
@@ -3140,6 +3617,15 @@
    {
     "kind": "read",
     "topic": "philosophy and ethics"
+   },
+   {
+    "kind": "listen",
+    "scenes": [],
+    "cards": [
+     "stilebenen-register",
+     "gehobene-praepositionen",
+     "es-als-platzhalter-korrelat"
+    ]
    },
    {
     "kind": "speak",

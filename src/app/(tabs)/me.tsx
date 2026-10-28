@@ -1,5 +1,5 @@
 import { router } from 'expo-router';
-import { ChevronRight, KeyRound, RefreshCw, Repeat, Star } from 'lucide-react-native';
+import { ChevronRight, GraduationCap, KeyRound, RefreshCw, Repeat, Star } from 'lucide-react-native';
 import { useState, type ReactNode } from 'react';
 import { Platform, Switch, View } from 'react-native';
 
@@ -67,6 +67,7 @@ const AREAS: [Area, string][] = [
   ['prices', 'me.area.prices'],
   ['grammar', 'me.area.grammar'],
   ['reading', 'me.area.reading'],
+  ['listening', 'me.area.listening'],
   ['speaking', 'me.area.speaking'],
   ['check', 'me.area.check'],
   ['review', 'me.area.review'],
@@ -163,6 +164,9 @@ export default function Me() {
         <Txt variant="small" color="inkSoft" style={{ marginTop: space.m }}>
           {t('me.levelSummary', { name: level.name, canDo: level.canDo })}
         </Txt>
+        <View style={{ marginTop: space.m, alignItems: 'flex-start' }}>
+          <Pill label={t('me.placement')} icon={GraduationCap} tone="royal" onPress={() => router.push('/placement')} />
+        </View>
       </Section>
 
       <Section title={t('me.appSection')}>

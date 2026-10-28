@@ -69,6 +69,8 @@ export function stepLabel(unit: PathUnit, step: number, lang: AppLang = getLangu
       return { title: tIn(lang, 'path.checkTitle'), detail: tIn(lang, 'path.checkDetail', { count: checkPitfalls(s.cards).length }) };
     case 'speak':
       return { title: tIn(lang, 'path.speakTitle', { count: speakSentences(s).length }), detail: tIn(lang, 'path.speakDetail') };
+    case 'listen':
+      return { title: tIn(lang, 'path.listenTitle', { count: listenSentences(s).length }), detail: tIn(lang, 'path.listenDetail') };
   }
 }
 
@@ -82,6 +84,7 @@ export interface SpeakSentence {
 }
 
 const MAX_SPEAK = 8;
+const MAX_LISTEN = 6;
 
 /**
  * The sentences of the week's speaking step: the first line of each beat of the week's scenes (what the learner
@@ -106,6 +109,30 @@ export function speakSentences(step: { scenes: string[]; cards: string[] }): Spe
   // half the room for scene lines, the rest for examples, so neither crowds the other out
   const scenePart = out.slice(0, Math.min(sceneLines, MAX_SPEAK - Math.min(MAX_SPEAK / 2, out.length - sceneLines)));
   return [...scenePart, ...out.slice(sceneLines)].slice(0, MAX_SPEAK);
+}
+
+/**
+ * The sentences of the week's dictation: what the other person says in the week's scenes (the opening line, then
+ * each beat's reply, with its gloss), up to six; without a scene the grammar cards' examples, which a Sprechen step
+ * has already read aloud.
+ */
+export function listenSentences(step: { scenes: string[]; cards: string[] }): SpeakSentence[] {
+  const out: SpeakSentence[] = [];
+  for (const key of step.scenes) {
+    const scene = scenes.find((c) => c.key === key);
+    if (!scene) continue;
+    const source = { kind: 'scene' as const, key, situation: scene.situation_en };
+    if (scene.opening) out.push({ text: scene.opening, gloss: scene.opening_gloss || null, source });
+    for (const beat of scene.beats) if (beat.reply) out.push({ text: beat.reply, gloss: beat.gloss || null, source });
+  }
+  if (out.length < 3) {
+    for (const key of step.cards) {
+      const card = grammar.find((c) => c.key === key);
+      if (!card) continue;
+      for (const [de, en] of card.examples) out.push({ text: de, gloss: en, source: { kind: 'card', key } });
+    }
+  }
+  return out.slice(0, MAX_LISTEN);
 }
 
 /** The sentences of the week's check: the typical mistakes of its grammar cards, in card order. */

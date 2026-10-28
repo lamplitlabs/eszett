@@ -3681,6 +3681,7 @@
         "Almancada adımı nasıl hecelerim? Lütfen alfabeyi benimle birlikte gözden geçir.",
         null,
         null,
+        null,
         "ilk iş gününde yeni bir meslektaşla tanışıp kendini tanıtmak",
         null,
         null
@@ -3698,6 +3699,7 @@
         "Ailemden nasıl söz ederim: isimler, yaşlar ve meslekler?",
         null,
         null,
+        null,
         "bir arkadaşına aile fotoğraflarını göstermek",
         null,
         null
@@ -3707,6 +3709,7 @@
       "title": "Afiyet olsun!",
       "goal": "Bir kafede ya da restoranda yiyecek ve içecek sipariş edebilir, neyi sevdiğini söyleyebilir, bir şeyin fiyatını sorabilir ve hesabı ödeyebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3732,6 +3735,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3744,6 +3748,7 @@
         null,
         null,
         "Günlük rutinimi, kalkıştan yatışa kadar nasıl anlatırım?",
+        null,
         null,
         null,
         null,
@@ -3761,6 +3766,7 @@
         "Dairemi ve mobilyaların nerede olduğunu nasıl anlatırım?",
         null,
         null,
+        null,
         "kiralamak istediğin bir daire hakkında ev sahibine sorular sormak",
         null,
         null
@@ -3770,6 +3776,7 @@
       "title": "Şehirde dolaşırken",
       "goal": "Yol sorabilir ve tarif edebilir, otobüs, tren ve taksi kullanabilir ve bir şehirdeki yerlerin adlarını söyleyebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3793,6 +3800,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3809,6 +3817,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3816,6 +3825,7 @@
       "title": "Seyahat ve hava durumu",
       "goal": "Bilet alabilir, otele giriş yapabilir, hava durumundan söz edebilir ve bir gezide ne yaptığını Perfekt ile anlatabilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3839,6 +3849,7 @@
         "Geçen hafta sonunu nasıl anlatırım? Konuşurken hangi geçmiş zamanı kullanırım?",
         null,
         null,
+        null,
         "pazartesi sabahı bir meslektaşına hafta sonunu anlatmak",
         null,
         null
@@ -3854,6 +3865,7 @@
         null,
         null,
         null,
+        null,
         "bir arkadaşınla sürpriz parti planlamak",
         null,
         null
@@ -3863,6 +3875,7 @@
       "title": "Birlikte yaşamak",
       "goal": "Evini ve ev düzenini anlatabilir, ev arkadaşlarınla ve komşularınla kurallar üzerinde anlaşabilir ve kapıcıdan ya da ev sahibinden bir şey isteyebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3888,6 +3901,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3904,6 +3918,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3911,6 +3926,7 @@
       "title": "Resmî daireler ve hizmetler",
       "goal": "Vatandaş bürosunda kayıt yaptırabilir, paket gönderebilir, kayıp bildiriminde bulunabilir, bir form doldurabilir ve kısa, resmî bir mesaj yazabilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3936,6 +3952,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3943,6 +3960,7 @@
       "title": "Yolda ve tatilde",
       "goal": "Bir gezi planlayabilir, bisiklet kiralayabilir ya da bilet alabilir, bir tatili anlatabilir ve gelecek yaz ne yapacağını söyleyebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3970,6 +3988,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3981,6 +4000,7 @@
         null,
         null,
         "Goethe-Zertifikat A2 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?",
+        null,
         null,
         null,
         null,
@@ -4001,6 +4021,7 @@
         "Hangi kalıplar bir sohbeti sürdürür: ilgi göstermek, karşı soru sormak, konuyu değiştirmek?",
         null,
         null,
+        null,
         "yıllardır görmediğin eski bir okul arkadaşınla hasret gidermek",
         null,
         null
@@ -4010,6 +4031,7 @@
       "title": "İş ve kariyer",
       "goal": "İşini ve hedeflerini anlatabilir, hastalık bildirimi yapabilir, evden çalışmayı tartışabilir ve neden ile amaç belirtebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4032,6 +4054,7 @@
         "Almanca bir kira sözleşmesindeki en önemli kelimeler hangileri ve ne anlama geliyorlar?",
         null,
         null,
+        null,
         "gece geç saatteki gürültü hakkında bir komşuyla konuşma",
         null,
         null
@@ -4041,6 +4064,7 @@
       "title": "Sağlık ve beslenme",
       "goal": "Sağlıklı beslenme, spor ve stres hakkında konuşabilir, belirtileri tam olarak anlatabilir ve karşıtlık ile ödünleme (-e rağmen) ifade edebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4064,6 +4088,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4079,6 +4104,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4086,6 +4112,7 @@
       "title": "Ulaşım ve seyahat",
       "goal": "Bir araba tamiriyle ve kaçırılan bir aktarmayla başa çıkabilir, otelde şikâyette bulunabilir ve bir geziden önce, gezi sırasında ve sonrasında ne olduğunu anlatabilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4110,6 +4137,7 @@
         "Almancada görüşümü nasıl bildirir, kibarca nasıl katılır ya da karşı çıkarım?",
         null,
         null,
+        null,
         "çocukların akıllı telefonu olup olmaması gerektiği hakkında bir arkadaşla tartışma",
         null,
         null
@@ -4124,6 +4152,7 @@
         null,
         null,
         "lernen, studieren ve üben arasındaki fark nedir?",
+        null,
         null,
         null,
         null,
@@ -4143,6 +4172,7 @@
         "Goethe-Zertifikat B1 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?",
         null,
         null,
+        null,
         "ülkendeki bir bayramı Alman bir arkadaşına anlatmak",
         null,
         null
@@ -4160,6 +4190,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4167,6 +4198,7 @@
       "title": "Şehirde yaşamak",
       "goal": "Bir daireye bakabilir, daireyi teslim edip depozitoyu görüşebilir, şehir ile kırsalı karşılaştırabilir ve insanları ve nesneleri ortaçlarla tanımlayabilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4191,6 +4223,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4202,6 +4235,7 @@
         null,
         null,
         "Almancadaki en önemli virgül kuralları nelerdir?",
+        null,
         null,
         null,
         null,
@@ -4221,6 +4255,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4233,6 +4268,7 @@
         null,
         "Almancada bir savı nasıl yapılandırırım: giriş, artılar, eksiler, sonuç?",
         "İlgi cümlelerinde dessen ve deren'i nasıl kullanırım?",
+        null,
         null,
         null,
         "sokağındaki yeni bisiklet yolu hakkında bir komşuyla tartışma",
@@ -4248,6 +4284,7 @@
         null,
         null,
         "Almancada bir grafiği ya da istatistiği nasıl anlatırım?",
+        null,
         null,
         null,
         "şirketinin nasıl daha az israf edebileceği hakkında bir meslektaşla konuşmak",
@@ -4266,6 +4303,7 @@
         "Hangi sıfatlar ve isimler stolz auf, Angst vor, zufrieden mit gibi sabit bir edat alır?",
         null,
         null,
+        null,
         "bir arkadaşına iş stresi hakkında tavsiye vermek",
         null,
         null
@@ -4280,6 +4318,7 @@
         null,
         null,
         "'Es war einmal' ile başlayan bir masal gibi, Präteritum'da bir hikâyeyi nasıl anlatırım?",
+        null,
         null,
         null,
         "bir arkadaşına bir film ya da kitap önerip nedenini açıklamak",
@@ -4299,6 +4338,7 @@
         "Goethe-Zertifikat B2 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?",
         null,
         null,
+        null,
         "karakolda bir bisiklet hırsızlığını bildirmek",
         null,
         null
@@ -4312,6 +4352,7 @@
         null,
         null,
         "İş yerinde resmî Almancayla pişmanlığımı nasıl dile getirir, yapıcı eleştiriyi nasıl yapar ve nasıl özür dilerim?",
+        null,
         null,
         null,
         null,
@@ -4332,6 +4373,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4346,6 +4388,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4353,6 +4396,7 @@
       "title": "Araştırma ve bilim",
       "goal": "Akademik metinleri ve konuşmaları anlayabilir, bulguları ve rakamları sunabilir ve bilim Almancasının edilgen çatı alternatiflerini kullanabilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4373,6 +4417,7 @@
         "Almancada iki tutumu nasıl tartar ve bir sonuca nasıl varırım?",
         null,
         null,
+        null,
         "köyünün yakınındaki rüzgâr türbinleri üzerine bir panel tartışması",
         null,
         null
@@ -4386,6 +4431,7 @@
         null,
         null,
         "Almancada bir kitabın ya da filmin üslubunu ve atmosferini nasıl anlatırım?",
+        null,
         null,
         null,
         "bir okuma kulübünde bir romanı tartışmak",
@@ -4404,6 +4450,7 @@
         "Göç ve entegrasyon politikasını, rakamlarla deneyimi birbirine karşı tartarak, nüanslı bir biçimde nasıl tartışırım?",
         null,
         null,
+        null,
         "mesleğinin yapay zekâyla nasıl değişeceği üzerine bir radyo röportajı",
         null,
         null
@@ -4418,6 +4465,7 @@
         null,
         "Bir toplantıda resmî bir öneriyi nasıl sunar ve itirazlara nasıl yanıt veririm?",
         "Goethe-Zertifikat C1 ve TestDaF'ın yapısı nasıl ve bu sınavlara nasıl hazırlanırım?",
+        null,
         null,
         null,
         "arabasız şehir merkezi planını kuşkucu bir dükkân sahibine sunmak",
@@ -4436,6 +4484,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4443,6 +4492,7 @@
       "title": "Müzakere ve sözleşmeler",
       "goal": "Bir sözleşmeyi madde madde müzakere edebilir, iş Almancasının işlev fiili yapılarını doğal biçimde kullanabilir ve bir karara yazılı olarak itiraz edebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4465,6 +4515,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4478,6 +4529,7 @@
         "Aynı ricayı üç dil kaydında nasıl dile getiririm: bir arkadaşa, bir meslektaşa ve bir resmî kuruma?",
         null,
         null,
+        null,
         "makalenin tonu hakkında bir editörle konuşma",
         null,
         null
@@ -4487,6 +4539,7 @@
       "title": "Anlatmak ve hatırlamak",
       "goal": "Hikâyeler anlatıp çözümleyebilir, anlatı zamanlarını ve serbest dolaylı anlatımı kullanabilir ve tarih ile toplumsal hafıza üzerine tartışabilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4508,6 +4561,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4515,6 +4569,7 @@
       "title": "Sanat ve eleştiri",
       "goal": "Bir sergiyi, kitabı ya da gösteriyi eleştirebilir, vurgu için Nachfeld'i ve parantez dışına çıkarmayı kullanabilir ve yargının ince tonlarını ifade edebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4534,6 +4589,7 @@
         null,
         "Almancada birine zayıf görünmeden diplomatik biçimde nasıl karşı çıkarım?",
         "Goethe-Zertifikat C2'nin (Großes Deutsches Sprachdiplom) yapısı nasıl ve bu sınava nasıl hazırlanırım?",
+        null,
         null,
         null,
         "bir proje konusunda anlaşamayan iki meslektaş arasında arabuluculuk yapmak",

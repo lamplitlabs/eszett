@@ -50,6 +50,12 @@ export default function Onboarding() {
   const language = useSettings((s) => s.language);
   const [step, setStep] = useState<Step>('welcome');
   const [level, setLevel] = useState<Level>(current);
+  // the placement test writes the level to the settings; the choice here follows it (state adjusted on change, not in an effect)
+  const [seenLevel, setSeenLevel] = useState<Level>(current);
+  if (seenLevel !== current) {
+    setSeenLevel(current);
+    setLevel(current);
+  }
   const status = useModel((s) => s.status);
   const progress = useModel((s) => s.progress);
   const detail = useModel((s) => s.detail);
@@ -171,7 +177,8 @@ export default function Onboarding() {
                 );
               })}
             </View>
-            <Button label={t('common.continue')} onPress={() => setStep('tutor')} style={{ marginTop: space.s }} />
+            <Button label={t('onboarding.notSure')} kind="secondary" onPress={() => router.push('/placement?from=onboarding')} />
+            <Button label={t('common.continue')} onPress={() => setStep('tutor')} />
           </Animated.View>
         ) : null}
 

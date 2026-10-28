@@ -128,6 +128,9 @@ function WordCard({ item, source }: { item: CheckedVocabItem; source: string }) 
   );
 }
 
+/** A course step is done once this many words of its list are in the deck, where they come back for review. */
+const SAVE_TO_FINISH = 3;
+
 export default function Words() {
   const params = useLocalSearchParams<{ topic?: string; lesson?: string; path?: string }>();
   const level = useSettings((s) => s.level);
@@ -170,14 +173,22 @@ export default function Words() {
           setItems(r.items);
           setStatus('done');
           if (params.lesson !== undefined) markDone(lessonKey(Number(params.lesson)));
-          if (params.path) markDone(pathDoneKey(params.path));
         })
         .catch((e) => {
           setError(describeError(e));
           setStatus('error');
         }),
-    [explainIn, level, markDone, params.lesson, params.path],
+    [explainIn, level, markDone, params.lesson],
   );
+
+  // the course's words step is done when the learner has saved a few of the words, not when the list is written
+  const deckWords = useDeck((s) => s.words);
+  const savedFromList = items.filter((i) => deckWords[nounKey(i.lemma)]).length;
+  const need = Math.min(SAVE_TO_FINISH, items.length || SAVE_TO_FINISH);
+  const courseDone = Boolean(params.path) && status === 'done' && savedFromList >= need;
+  useEffect(() => {
+    if (courseDone && params.path) markDone(pathDoneKey(params.path));
+  }, [courseDone, markDone, params.path]);
 
   // another topic, chosen by the learner
   const run = (name: string) => {
@@ -223,6 +234,23 @@ export default function Words() {
           <Txt variant="small" style={{ color: c.red }}>
             {error}
           </Txt>
+        ) : null}
+        {status === 'done' && params.path ? (
+          <Animated.View entering={FadeInDown.duration(260)}>
+            <Paper tone={courseDone ? 'green' : 'alt'} style={{ gap: space.xs }}>
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.s }}>
+                {courseDone ? <BookmarkCheck size={18} color={c.green} /> : <Bookmark size={18} color={c.inkSoft} />}
+                <Txt variant="smallStrong" style={{ color: courseDone ? c.green : c.ink }}>
+                  {courseDone ? t('words.stepDone') : t('words.savedOf', { saved: savedFromList, count: need })}
+                </Txt>
+              </View>
+              {!courseDone ? (
+                <Txt variant="small" color="inkSoft">
+                  {t('words.saveToFinish', { count: need })}
+                </Txt>
+              ) : null}
+            </Paper>
+          </Animated.View>
         ) : null}
         {status === 'done' ? (
           <View style={{ gap: space.m, marginTop: space.l }}>

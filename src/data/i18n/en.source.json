@@ -3681,6 +3681,7 @@
         "How do I spell my name in German? Please go through the alphabet with me.",
         null,
         null,
+        null,
         "meeting a new colleague on your first day and introducing yourself",
         null,
         null
@@ -3698,6 +3699,7 @@
         "How do I talk about my family: names, ages and jobs?",
         null,
         null,
+        null,
         "showing a friend photos of your family",
         null,
         null
@@ -3707,6 +3709,7 @@
       "title": "Enjoy your meal!",
       "goal": "Order food and drink in a café or restaurant, say what you like, ask what something costs and pay.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3732,6 +3735,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3744,6 +3748,7 @@
         null,
         null,
         "How do I describe my daily routine, from getting up to going to bed?",
+        null,
         null,
         null,
         null,
@@ -3761,6 +3766,7 @@
         "How do I describe my flat and where the furniture is?",
         null,
         null,
+        null,
         "asking a landlord questions about a flat you want to rent",
         null,
         null
@@ -3770,6 +3776,7 @@
       "title": "Out and about in town",
       "goal": "Ask for and give directions, use buses, trains and taxis, and name the places in a town.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3793,6 +3800,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3809,6 +3817,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3816,6 +3825,7 @@
       "title": "Travel and weather",
       "goal": "Buy a ticket, check in at a hotel, talk about the weather and say what you did on a trip, in the Perfekt.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3839,6 +3849,7 @@
         "How do I tell a story about last weekend? Which past tense do I use when I speak?",
         null,
         null,
+        null,
         "telling a colleague on Monday morning about your weekend",
         null,
         null
@@ -3854,6 +3865,7 @@
         null,
         null,
         null,
+        null,
         "planning a surprise party with a friend",
         null,
         null
@@ -3863,6 +3875,7 @@
       "title": "Living together",
       "goal": "Describe your home and household, agree on rules with flatmates and neighbours, and ask the caretaker or landlord for something.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3888,6 +3901,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3904,6 +3918,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3911,6 +3926,7 @@
       "title": "Offices and services",
       "goal": "Register at the citizens' office, send a parcel, report something lost, fill in a form and write a short formal message.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3936,6 +3952,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3943,6 +3960,7 @@
       "title": "On the road and on holiday",
       "goal": "Plan a trip, rent a bike or buy a ticket, describe a holiday and say what you will do next summer.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3970,6 +3988,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3981,6 +4000,7 @@
         null,
         null,
         "How is the Goethe-Zertifikat A2 exam structured, and how do I prepare for it?",
+        null,
         null,
         null,
         null,
@@ -4001,6 +4021,7 @@
         "Which phrases keep a conversation going: showing interest, asking back, changing the subject?",
         null,
         null,
+        null,
         "catching up with an old school friend you have not seen for years",
         null,
         null
@@ -4010,6 +4031,7 @@
       "title": "Work and career",
       "goal": "Describe your job and your goals, call in sick, discuss working from home and give reasons and purposes.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4032,6 +4054,7 @@
         "What are the most important words in a German tenancy agreement, and what do they mean?",
         null,
         null,
+        null,
         "a conversation with a neighbour about noise late at night",
         null,
         null
@@ -4041,6 +4064,7 @@
       "title": "Health and nutrition",
       "goal": "Talk about healthy eating, sport and stress, describe symptoms precisely, and express contrast and concession.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4064,6 +4088,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4079,6 +4104,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4086,6 +4112,7 @@
       "title": "Mobility and travel",
       "goal": "Deal with a car repair and a missed connection, complain at a hotel, and tell what happened before, during and after a trip.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4110,6 +4137,7 @@
         "How do I give my opinion and agree or disagree politely in German?",
         null,
         null,
+        null,
         "a discussion with a friend about whether children should have smartphones",
         null,
         null
@@ -4124,6 +4152,7 @@
         null,
         null,
         "What is the difference between lernen, studieren and üben?",
+        null,
         null,
         null,
         null,
@@ -4143,6 +4172,7 @@
         "How is the Goethe-Zertifikat B1 exam structured, and how do I prepare for it?",
         null,
         null,
+        null,
         "explaining a festival from your country to a German friend",
         null,
         null
@@ -4160,6 +4190,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4167,6 +4198,7 @@
       "title": "Living in the city",
       "goal": "View a flat, hand it back and discuss the deposit, compare city and countryside, and describe people and things with participles.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4191,6 +4223,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4202,6 +4235,7 @@
         null,
         null,
         "What are the most important comma rules in German?",
+        null,
         null,
         null,
         null,
@@ -4221,6 +4255,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4233,6 +4268,7 @@
         null,
         "How do I structure an argument in German: introduction, pros, cons, conclusion?",
         "How do I use dessen and deren in relative clauses?",
+        null,
         null,
         null,
         "a discussion with a neighbour about a new cycle lane in your street",
@@ -4248,6 +4284,7 @@
         null,
         null,
         "How do I describe a chart or statistics in German?",
+        null,
         null,
         null,
         "talking to a colleague about how your company could waste less",
@@ -4266,6 +4303,7 @@
         "Which adjectives and nouns take a fixed preposition, like stolz auf, Angst vor, zufrieden mit?",
         null,
         null,
+        null,
         "giving a friend advice about stress at work",
         null,
         null
@@ -4280,6 +4318,7 @@
         null,
         null,
         "How do I tell a story in the Präteritum, like a fairy tale that begins with ‘Es war einmal’?",
+        null,
         null,
         null,
         "recommending a film or a book to a friend and explaining why",
@@ -4299,6 +4338,7 @@
         "How is the Goethe-Zertifikat B2 exam structured, and how do I prepare for it?",
         null,
         null,
+        null,
         "reporting a bicycle theft at the police station",
         null,
         null
@@ -4312,6 +4352,7 @@
         null,
         null,
         "How do I express regret, criticise constructively and apologise in formal German at work?",
+        null,
         null,
         null,
         null,
@@ -4332,6 +4373,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4346,6 +4388,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4353,6 +4396,7 @@
       "title": "Research and science",
       "goal": "Understand academic texts and talks, present findings and figures, and use the passive alternatives of scientific German.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4373,6 +4417,7 @@
         "How do I weigh up two positions and come to a conclusion in German?",
         null,
         null,
+        null,
         "a panel discussion on wind turbines near your village",
         null,
         null
@@ -4386,6 +4431,7 @@
         null,
         null,
         "How do I describe the style and atmosphere of a book or film in German?",
+        null,
         null,
         null,
         "discussing a novel at a book club",
@@ -4404,6 +4450,7 @@
         "How do I discuss migration and integration policy with nuance, weighing figures against experience?",
         null,
         null,
+        null,
         "a radio interview about how your profession will change with AI",
         null,
         null
@@ -4418,6 +4465,7 @@
         null,
         "How do I make a formal proposal in a meeting and respond to objections?",
         "How are the Goethe-Zertifikat C1 and the TestDaF structured, and how do I prepare for them?",
+        null,
         null,
         null,
         "presenting a car-free city centre plan to a sceptical shop owner",
@@ -4436,6 +4484,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4443,6 +4492,7 @@
       "title": "Negotiating and contracts",
       "goal": "Negotiate a contract clause by clause, use the light-verb constructions of business German naturally, and object in writing to a decision.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4465,6 +4515,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4478,6 +4529,7 @@
         "How do I make the same request in three registers: to a friend, a colleague and an authority?",
         null,
         null,
+        null,
         "a conversation with an editor about the tone of your article",
         null,
         null
@@ -4487,6 +4539,7 @@
       "title": "Narrating and remembering",
       "goal": "Tell and analyse stories, use the narrative tenses and free indirect speech, and discuss history and remembrance.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4508,6 +4561,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4515,6 +4569,7 @@
       "title": "Art and criticism",
       "goal": "Review an exhibition, a book or a performance, use the Nachfeld and extraposition for emphasis, and express fine shades of judgement.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4534,6 +4589,7 @@
         null,
         "How do I disagree with someone diplomatically in German without sounding weak?",
         "How is the Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) structured, and how do I prepare for it?",
+        null,
         null,
         null,
         "mediating between two colleagues who disagree about a project",

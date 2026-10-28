@@ -233,6 +233,20 @@ export default function RootLayout() {
                   }}
                 />
                 <Stack.Screen
+                  name="listen"
+                  options={{
+                    presentation: "fullScreenModal",
+                    animation: "slide_from_bottom",
+                  }}
+                />
+                <Stack.Screen
+                  name="placement"
+                  options={{
+                    presentation: "fullScreenModal",
+                    animation: "slide_from_bottom",
+                  }}
+                />
+                <Stack.Screen
                   name="path/check/[unit]"
                   options={{
                     presentation: "fullScreenModal",

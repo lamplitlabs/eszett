@@ -30,7 +30,9 @@ export type PathStep =
   /** The week's check: the typical mistakes of these grammar cards, to fix one by one. */
   | { kind: 'check'; cards: string[] }
   /** Speaking: the week's sentences (the scenes' learner lines, the cards' examples) to listen to and say. */
-  | { kind: 'speak'; scenes: string[]; cards: string[] };
+  | { kind: 'speak'; scenes: string[]; cards: string[] }
+  /** Listening: a dictation of what the other person says in the week's scenes (the cards' examples without a scene). */
+  | { kind: 'listen'; scenes: string[]; cards: string[] };
 
 export type PathStepKind = PathStep['kind'];
 
@@ -38,7 +40,8 @@ export type PathStepKind = PathStep['kind'];
 export type Skill = 'words' | 'grammar' | 'drill' | 'ask' | 'read' | 'speak' | 'write' | 'check';
 export const SKILLS: Skill[] = ['words', 'grammar', 'drill', 'ask', 'read', 'speak', 'write', 'check'];
 
-export const stepSkill = (step: PathStep): Skill => (step.kind === 'scene' || step.kind === 'ownScene' || step.kind === 'speak' ? 'speak' : step.kind);
+export const stepSkill = (step: PathStep): Skill =>
+  step.kind === 'scene' || step.kind === 'ownScene' || step.kind === 'speak' ? 'speak' : step.kind === 'listen' ? 'read' : step.kind;
 
 /** The steps of a unit grouped by skill, in week order, each with its index in the unit (the progress key). */
 export function stepsBySkill(unit: PathUnit): { skill: Skill; steps: { index: number; step: PathStep }[] }[] {
@@ -163,5 +166,7 @@ export function stepHref(unit: PathUnit, step: number, texts: StepRoute = {}): s
       return `/path/check/${unit.key}?${p}`;
     case 'speak':
       return `/speak?unit=${unit.key}&${p}`;
+    case 'listen':
+      return `/listen?unit=${unit.key}&${p}`;
   }
 }

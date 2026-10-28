@@ -20,6 +20,7 @@ export type Area =
   | 'check'
   | 'ask'
   | 'reading'
+  | 'listening'
   | 'speaking'
   | 'review';
 

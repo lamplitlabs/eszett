@@ -2,6 +2,7 @@
 // once: an "Enhanced" de-DE voice when the device has one.
 
 import * as Speech from 'expo-speech';
+import { Linking, Platform } from 'react-native';
 
 import { useSettings } from '@/state/settings';
 
@@ -24,6 +25,7 @@ function pickVoice() {
 
 let speakingId = 0;
 const listeners = new Set<(text: string | null) => void>();
+const errorListeners = new Set<() => void>();
 let current: string | null = null;
 
 function setCurrent(text: string | null) {
@@ -59,8 +61,24 @@ export async function speak(text: string, opts: { rate?: number } = {}) {
     },
     onError: () => {
       if (id === speakingId) setCurrent(null);
+      // the usual cause: no German voice on the phone (the engine has no language data for de-DE)
+      errorListeners.forEach((l) => l());
     },
   });
+}
+
+/** Subscribe to failures of the phone's voice, so a screen that depends on it can say what to install. */
+export function onSpeechError(listener: () => void) {
+  errorListeners.add(listener);
+  return () => {
+    errorListeners.delete(listener);
+  };
+}
+
+/** Opens the phone's text-to-speech settings (Android), or the Settings app (iOS), where a German voice is installed. */
+export function openSpeechSettings() {
+  if (Platform.OS === 'android') return Linking.sendIntent('com.android.settings.TTS_SETTINGS').catch(() => Linking.openSettings());
+  return Linking.openSettings();
 }
 
 export function stopSpeaking() {

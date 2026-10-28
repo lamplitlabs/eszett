@@ -3681,6 +3681,7 @@
         "Comment est-ce que j’épelle mon nom en allemand ? Revois l’alphabet avec moi, s’il te plaît.",
         null,
         null,
+        null,
         "rencontrer un nouveau collègue le premier jour et te présenter",
         null,
         null
@@ -3698,6 +3699,7 @@
         "Comment est-ce que je parle de ma famille : les prénoms, les âges et les métiers ?",
         null,
         null,
+        null,
         "montrer des photos de ta famille à un ami",
         null,
         null
@@ -3707,6 +3709,7 @@
       "title": "Bon appétit !",
       "goal": "Commander à manger et à boire au café ou au restaurant, dire ce que tu aimes, demander le prix de quelque chose et payer.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3732,6 +3735,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3744,6 +3748,7 @@
         null,
         null,
         "Comment est-ce que je décris ma journée, du lever au coucher ?",
+        null,
         null,
         null,
         null,
@@ -3761,6 +3766,7 @@
         "Comment est-ce que je décris mon appartement et la place des meubles ?",
         null,
         null,
+        null,
         "poser des questions à un propriétaire sur un appartement que tu veux louer",
         null,
         null
@@ -3770,6 +3776,7 @@
       "title": "En ville",
       "goal": "Demander et indiquer le chemin, prendre le bus, le train et le taxi, et nommer les lieux d’une ville.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3793,6 +3800,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3809,6 +3817,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3816,6 +3825,7 @@
       "title": "Voyages et météo",
       "goal": "Acheter un billet, t’enregistrer à l’hôtel, parler du temps qu’il fait et raconter au Perfekt ce que tu as fait pendant un voyage.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3839,6 +3849,7 @@
         "Comment est-ce que je raconte mon week-end dernier ? Quel temps du passé j’utilise à l’oral ?",
         null,
         null,
+        null,
         "raconter ton week-end à un collègue le lundi matin",
         null,
         null
@@ -3854,6 +3865,7 @@
         null,
         null,
         null,
+        null,
         "organiser une fête surprise avec un ami",
         null,
         null
@@ -3863,6 +3875,7 @@
       "title": "Vivre ensemble",
       "goal": "Décrire ton logement et ta vie domestique, convenir de règles avec tes colocataires et tes voisins, et demander quelque chose au concierge ou au propriétaire.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3888,6 +3901,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3904,6 +3918,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3911,6 +3926,7 @@
       "title": "Administrations et services",
       "goal": "Déclarer ton domicile à la mairie, envoyer un colis, signaler un objet perdu, remplir un formulaire et écrire un court message formel.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3936,6 +3952,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3943,6 +3960,7 @@
       "title": "En voyage et en vacances",
       "goal": "Préparer un voyage, louer un vélo ou acheter un billet, décrire des vacances et dire ce que tu feras l’été prochain.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3970,6 +3988,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3981,6 +4000,7 @@
         null,
         null,
         "Comment est structuré l’examen Goethe-Zertifikat A2, et comment est-ce que je m’y prépare ?",
+        null,
         null,
         null,
         null,
@@ -4001,6 +4021,7 @@
         "Quelles tournures permettent d’entretenir une conversation : montrer de l’intérêt, poser une question en retour, changer de sujet ?",
         null,
         null,
+        null,
         "prendre des nouvelles d’un ancien camarade de classe que tu n’as pas vu depuis des années",
         null,
         null
@@ -4010,6 +4031,7 @@
       "title": "Travail et carrière",
       "goal": "Décrire ton travail et tes objectifs, prévenir que tu es malade, discuter du télétravail et exprimer la cause et le but.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4032,6 +4054,7 @@
         "Quels sont les mots les plus importants d’un contrat de location allemand, et que signifient-ils ?",
         null,
         null,
+        null,
         "une conversation avec un voisin à propos du bruit tard le soir",
         null,
         null
@@ -4041,6 +4064,7 @@
       "title": "Santé et alimentation",
       "goal": "Parler d’alimentation saine, de sport et de stress, décrire des symptômes avec précision, et exprimer l’opposition et la concession.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4064,6 +4088,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4079,6 +4104,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4086,6 +4112,7 @@
       "title": "Mobilité et voyages",
       "goal": "Gérer une réparation de voiture et une correspondance manquée, te plaindre à l’hôtel, et raconter ce qui s’est passé avant, pendant et après un voyage.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4110,6 +4137,7 @@
         "Comment est-ce que je donne mon avis et exprime poliment mon accord ou mon désaccord en allemand ?",
         null,
         null,
+        null,
         "une discussion avec un ami pour savoir si les enfants devraient avoir un smartphone",
         null,
         null
@@ -4124,6 +4152,7 @@
         null,
         null,
         "Quelle est la différence entre lernen, studieren et üben ?",
+        null,
         null,
         null,
         null,
@@ -4143,6 +4172,7 @@
         "Comment est structuré l’examen Goethe-Zertifikat B1, et comment est-ce que je m’y prépare ?",
         null,
         null,
+        null,
         "expliquer une fête de ton pays à un ami allemand",
         null,
         null
@@ -4160,6 +4190,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4167,6 +4198,7 @@
       "title": "Vivre en ville",
       "goal": "Visiter un appartement, le rendre et discuter de la caution, comparer la ville et la campagne, et décrire des personnes et des choses avec des participes.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4191,6 +4223,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4202,6 +4235,7 @@
         null,
         null,
         "Quelles sont les règles les plus importantes pour la virgule en allemand ?",
+        null,
         null,
         null,
         null,
@@ -4221,6 +4255,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4233,6 +4268,7 @@
         null,
         "Comment est-ce que je structure une argumentation en allemand : introduction, pour, contre, conclusion ?",
         "Comment est-ce que j’utilise dessen et deren dans les propositions relatives ?",
+        null,
         null,
         null,
         "une discussion avec un voisin sur une nouvelle piste cyclable dans ta rue",
@@ -4248,6 +4284,7 @@
         null,
         null,
         "Comment est-ce que je décris un graphique ou des statistiques en allemand ?",
+        null,
         null,
         null,
         "parler avec un collègue de la façon dont ton entreprise pourrait moins gaspiller",
@@ -4266,6 +4303,7 @@
         "Quels adjectifs et quels noms se construisent avec une préposition fixe, comme stolz auf, Angst vor, zufrieden mit ?",
         null,
         null,
+        null,
         "conseiller un ami stressé par son travail",
         null,
         null
@@ -4280,6 +4318,7 @@
         null,
         null,
         "Comment est-ce que je raconte une histoire au Präteritum, comme un conte qui commence par « Es war einmal » ?",
+        null,
         null,
         null,
         "recommander un film ou un livre à un ami et expliquer pourquoi",
@@ -4299,6 +4338,7 @@
         "Comment est structuré l’examen Goethe-Zertifikat B2, et comment est-ce que je m’y prépare ?",
         null,
         null,
+        null,
         "déclarer le vol d’un vélo au commissariat",
         null,
         null
@@ -4312,6 +4352,7 @@
         null,
         null,
         "Comment est-ce que j’exprime un regret, formule une critique constructive et m’excuse en allemand formel au travail ?",
+        null,
         null,
         null,
         null,
@@ -4332,6 +4373,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4346,6 +4388,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4353,6 +4396,7 @@
       "title": "Recherche et science",
       "goal": "Comprendre des textes et des exposés universitaires, présenter des résultats et des chiffres, et employer les substituts du passif de l’allemand scientifique.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4373,6 +4417,7 @@
         "Comment est-ce que je pèse deux positions et parviens à une conclusion en allemand ?",
         null,
         null,
+        null,
         "une table ronde sur des éoliennes près de ton village",
         null,
         null
@@ -4386,6 +4431,7 @@
         null,
         null,
         "Comment est-ce que je décris le style et l’atmosphère d’un livre ou d’un film en allemand ?",
+        null,
         null,
         null,
         "discuter d’un roman dans un club de lecture",
@@ -4404,6 +4450,7 @@
         "Comment est-ce que je discute avec nuance de la politique de migration et d’intégration, en mettant en balance les chiffres et l’expérience vécue ?",
         null,
         null,
+        null,
         "une interview à la radio sur la façon dont ton métier va changer avec l’IA",
         null,
         null
@@ -4418,6 +4465,7 @@
         null,
         "Comment est-ce que je fais une proposition formelle en réunion et réponds aux objections ?",
         "Comment sont structurés le Goethe-Zertifikat C1 et le TestDaF, et comment est-ce que je m’y prépare ?",
+        null,
         null,
         null,
         "présenter un projet de centre-ville sans voitures à un commerçant sceptique",
@@ -4436,6 +4484,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4443,6 +4492,7 @@
       "title": "Négociation et contrats",
       "goal": "Négocier un contrat clause par clause, employer avec naturel les constructions à verbe support de l’allemand des affaires, et contester une décision par écrit.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4465,6 +4515,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4478,6 +4529,7 @@
         "Comment est-ce que je formule la même demande dans trois registres : à un ami, à un collègue et à une administration ?",
         null,
         null,
+        null,
         "une conversation avec un rédacteur en chef sur le ton de ton article",
         null,
         null
@@ -4487,6 +4539,7 @@
       "title": "Raconter et se souvenir",
       "goal": "Raconter et analyser des récits, employer les temps du récit et le discours indirect libre, et discuter d’histoire et de mémoire.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4508,6 +4561,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4515,6 +4569,7 @@
       "title": "Art et critique",
       "goal": "Faire la critique d’une exposition, d’un livre ou d’un spectacle, employer le Nachfeld et l’extraposition pour la mise en relief, et exprimer de fines nuances de jugement.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4534,6 +4589,7 @@
         null,
         "Comment est-ce que j’exprime mon désaccord avec diplomatie en allemand sans paraître faible ?",
         "Comment est structuré le Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom), et comment est-ce que je m’y prépare ?",
+        null,
         null,
         null,
         "faire la médiation entre deux collègues en désaccord sur un projet",

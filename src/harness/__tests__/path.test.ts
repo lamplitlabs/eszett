@@ -5,7 +5,7 @@ import { describe, expect, it } from 'vitest';
 import grammarCards from '../../data/grammar.json';
 import pathData from '../../data/path.json';
 import scenes from '../../data/scenes.json';
-import { checkPitfalls, courseSlice, speakSentences, stepLabel, stepRoute } from '../../features/path';
+import { checkPitfalls, courseSlice, listenSentences, speakSentences, stepLabel, stepRoute } from '../../features/path';
 import { WORD_TOPIC_KEY, WORD_TOPICS, wordTopicLabel } from '../../features/topics';
 import { localizePathUnit } from '../../i18n/content';
 import { LANGUAGES } from '../../i18n/languages';
@@ -67,6 +67,8 @@ describe('the course data', () => {
     for (const u of PATH_UNITS) {
       const kinds = u.steps.map((s) => s.kind);
       expect(kinds.filter((k) => k === 'read'), u.key).toHaveLength(1);
+      expect(kinds.filter((k) => k === 'listen'), u.key).toHaveLength(1);
+      expect(kinds.indexOf('listen'), `${u.key}: the dictation follows the text`).toBe(kinds.indexOf('read') + 1);
       expect(kinds.filter((k) => k === 'speak'), u.key).toHaveLength(1);
       expect(kinds.filter((k) => k === 'check'), u.key).toHaveLength(1);
       expect(kinds[kinds.length - 1], u.key).toBe('check');
@@ -74,6 +76,13 @@ describe('the course data', () => {
       const speakAt = kinds.indexOf('speak');
       const firstScene = kinds.findIndex((k) => k === 'scene' || k === 'ownScene');
       if (firstScene >= 0) expect(speakAt, u.key).toBe(firstScene - 1);
+      const listen = u.steps.find((s) => s.kind === 'listen');
+      if (listen?.kind === 'listen') {
+        const sentences = listenSentences(listen);
+        expect(sentences.length, u.key).toBeGreaterThanOrEqual(3);
+        expect(sentences.length, u.key).toBeLessThanOrEqual(6);
+        for (const x of sentences) expect(x.text.trim(), u.key).not.toBe('');
+      }
       const speak = u.steps[speakAt];
       if (speak.kind === 'speak') {
         expect(speak.scenes).toEqual(u.steps.filter((s) => s.kind === 'scene').map((s) => (s.kind === 'scene' ? s.scene : '')));
@@ -287,6 +296,23 @@ describe('translations', () => {
         });
       }
     }
+  });
+});
+
+describe('the listening step', () => {
+  it('dictates what the other person says: the opening line, then each reply with its gloss, up to six', () => {
+    const a1 = unitByKey('a1-03')!;
+    const step = a1.steps.find((s) => s.kind === 'listen');
+    expect(step?.kind).toBe('listen');
+    if (step?.kind !== 'listen') return;
+    const sentences = listenSentences(step);
+    expect(sentences).toHaveLength(6);
+    expect(sentences.every((x) => x.source.kind === 'scene')).toBe(true);
+    expect(sentences[0].text).toBe('Hallo, was darf ich Ihnen bringen?');
+    expect(sentences[0].gloss).toBeTruthy();
+    // without a scene the cards' examples stand in
+    expect(listenSentences({ scenes: [], cards: ['kein-nicht'] }).map((x) => x.text)).toEqual(['Ich habe keine Zeit und kein Geld.', 'Ich verstehe das nicht.', 'Das ist nicht der richtige Weg.', 'Sie kommt heute nicht.']);
+    expect(listenSentences({ scenes: ['no-such-scene'], cards: [] })).toEqual([]);
   });
 });
 

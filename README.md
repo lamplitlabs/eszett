@@ -313,6 +313,27 @@ in the lesson plan like bundled ones (`features/lesson.ts`), the detail screens 
 list, and each can be deleted from its screen. Drill answer keys, the bundled scenes' facts and beats, and the
 fixed lesson plan stay deterministic: there the lexicon and the engines are right and the model is not always.
 
+### What the next student should learn
+
+What the harness still works around, and what a course with every skill needs from the model, in the order it
+would pay off (the app's prompts in `src/harness/prompts.ts` are the training templates; the local corpus and
+`DraftError` logs the evidence):
+
+1. **Format fidelity on the app's own prompts** — the labelled-line drafts (scene, task, card, reading, topics)
+   exactly as asked, nothing added; today prefill and one retry patch it, and each miss costs a minute on a phone.
+2. **Reading texts by level** — the Titel/Text/Frage/Antwort shape at each `READING_WORDS` band, answers that stand in
+   the text, plausible distractors, short sentences at A1–A2 (the texts are listened to before they are read).
+3. **Structured writing feedback** — `wrong | right | why (rule key)` lines plus a verdict in the Goethe rubric's
+   columns (task, coherence, vocabulary, structures) instead of free-form correction, so the app can score a text,
+   keep a mistakes notebook and show a trend per skill.
+4. **Cite the rule, admit ignorance** — refer to `grounding.json` keys in explanations; "I am not sure" rather than an
+   invented word or a rule that is wrong (the wishlist's first item).
+5. **Recognizer-shaped input** — correct lower-case, unpunctuated transcripts as the speech recognizer delivers them;
+   "simpler" / "more formal" rephrasings on request.
+6. **Scene consistency** — keep roles and facts across turns (role swaps still happen).
+7. **Speed** — a smaller edition at ≥ 95 % top-1 agreement (about 4 tokens a second on a 2020 phone means a minute per
+   reading text), and reliable stop markers so early stopping is safe.
+
 ## Data pipeline
 
 ```bash
@@ -423,7 +444,7 @@ went with the C2 level. What C1 rests on:
 - *Lexicon*: the Hub lexicon's C1 tier was harvested from course texts and carries one-off compounds and proper
   nouns ("Chinabaum", "Geissenpeter"), so `scripts/build-data.mjs` and `drillable` keep only C1 nouns with
   `freq >= 1` (135 of 192 in the v16 release; the A1-B2 tiers are curated lists and go in as they are). A few C1
-  meanings in the release are thin ("Stand" → stand, "Messlatte" → bar, "Trumpf" → trump) and a few everyday words
+  meanings in the release are thin ("Stand" → stand, "Messlatte" → bar, "Trumpf" → trump) or crude ("Mist" → shit, at A1) and a few everyday words
   are tagged C1 ("Ding", "Sache", "Form"): a matter for the data release, not for the app.
 - *Content*: five grammar cards (`nominalstil-verbalstil`, `partizipialattribut`, `passiversatz`,
   `subjektive-modalverben`, `konjunktiv-i-redewiedergabe`), three formal scenes (`salary_negotiation`,
@@ -479,8 +500,8 @@ time: `src/data/path.json` holds 56 weeks — ten each for A1, A2, B1 and B2, ei
 the rhythm a course book keeps (`SKILLS`, `stepsBySkill`): **Wortschatz** (a word list, `/words?topic=`),
 **Grammatik** (a card), **Üben** (a drill), **Fragen** (a question for the Tutor tab, `/tutor?q=`, prefilled in the
 composer, sent in the tutor's language and shown in the app's), **Lesen & Hören** (a text the tutor writes,
-`/read?topic=`), **Sprechen** (the week's sentences to say, `/speak?unit=`, then a scene, or a scene the tutor
-writes for a given situation, `/scenes?own=`),
+`/read?topic=`, then a dictation of the week's scenes, `/listen?unit=`), **Sprechen** (the week's sentences to say,
+`/speak?unit=`, then a scene, or a scene the tutor writes for a given situation, `/scenes?own=`),
 **Schreiben** (a writing task — every week has one, 57 in all, each in the shape of a Goethe/telc writing part on the
 week's topic: a message, email, letter or forum post whose greeting, sign-off, length and content points the app
 checks before the tutor corrects the language) and the **Lerncheck** (`/path/check/<week>`). Each route carries
@@ -526,10 +547,29 @@ edited before sending. When only the offline German pack is missing, the microph
 offers the download rather than hiding the feature. `expo-speech-recognition` is a native module, so like llama.rn it needs a development
 build; its config plugin (`app.json`) adds the microphone and speech-recognition permission texts.
 
+**Hören** (`src/app/listen.tsx`, `listenSentences`): a dictation of what the other person says in the week's scenes —
+the opening line, then each beat's reply with its gloss, up to six (a week without a scene takes the cards'
+examples). The phone's German voice reads a sentence, as often and as slowly as the learner likes ("Slower" reads at
+three quarters of the usual rate), the learner writes what they heard, and `compareSpoken` aligns it the way the
+Sprechen step aligns speech, with the missed words underlined — but written, the sentence counts only when every
+word is there (the recognizer's four-in-five allowance is for speech); the score goes to the `listening` progress area. A
+phone whose voice fails (no German language data) is told what to install, with a button to the speech settings
+(`onSpeechError`, `openSpeechSettings` in `src/ui/speech.ts`).
+
+**Wortschatz and the deck**: the course's words step is done once three words of its list are saved to My words
+(`SAVE_TO_FINISH` in `src/app/words.tsx`), not when the list is written — the week's vocabulary then comes back in
+the deck's spaced review. Outside the course the words screen behaves as before.
+
 **Lerncheck** (`src/app/path/check/[unit].tsx`): the week's grammar cards' typical mistakes, up to eight in a fixed
 shuffle, to fix one by one — a fix that matches the card's answer counts at once, a different sentence goes to the
 tutor as on the grammar card; a week without a card of its own (C1's and C2's last) reviews cards of its level
 (`cards` on the step).
+
+**The placement test** (`src/app/placement.tsx`, `src/harness/placement.ts`; from onboarding's "Not sure?" and
+Me › Your level): four of the app's own drills per level — two meanings, an article and a verb form from that level's
+words and verb band — from A1 upwards; a round passes with three right, the first round that fails ends the test, and
+the level before it is suggested (every round passed suggests C1; the lexicon has no C2 tier, so C2 stays the
+learner's own choice). The learner takes the suggestion or chooses; nothing is written to the progress store.
 
 The sequence is the one the published syllabi and course books share, written for this app rather than copied
 from any of them: the topic areas and task types of the Goethe-Institut exam descriptions (Prüfungsziele /
