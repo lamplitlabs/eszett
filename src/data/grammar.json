@@ -3538,6 +3538,70 @@
   "reference": null
  },
  {
+  "key": "untrennbare-praefixe",
+  "level": "B2",
+  "title_de": "Untrennbare Präfixe: be-, ver-, er-, ent-, zer-, miss-",
+  "title_en": "Inseparable prefixes: be-, ver-, er-, ent-, zer-, miss-",
+  "rule_de": "Die Präfixe be-, ge-, er-, ver-, zer-, ent-, emp- und miss- sind untrennbar: Sie sind unbetont, bleiben in allen Formen am Verb (ich verstehe, verstand, habe verstanden), und das Partizip II hat kein ge- (besucht, erklärt, zerbrochen). Jedes Präfix färbt die Bedeutung des Grundverbs: be- macht ein Verb transitiv und richtet es auf ein Ziel (auf eine Frage antworten → eine Frage beantworten; auf einen Berg steigen → einen Berg besteigen), ver- bedeutet oft Veränderung, Verbrauch oder einen Fehler (reisen → verreisen, brauchen → verbrauchen, sich verlaufen, sich versprechen), er- den Anfang oder das Erreichen (blühen → erblühen, erreichen, sich etwas erarbeiten), ent- das Entfernen oder den Beginn (decken → entdecken, laden → entladen, entstehen), zer- das Zerstören in Teile (brechen → zerbrechen, reißen → zerreißen), miss- das Misslingen oder Gegenteil (verstehen → missverstehen, trauen → misstrauen). Dagegen sind ab-, an-, auf-, aus-, ein-, mit-, nach-, vor-, zu- trennbar: betont, mit Partizip auf ge- (aufgemacht). durch-, über-, um-, unter- und wieder- gibt es in beiden Arten mit verschiedener Bedeutung: Er setzt mit dem Boot über (trennbar) – Sie übersetzt den Text (untrennbar).",
+  "rule_en": "The prefixes be-, ge-, er-, ver-, zer-, ent-, emp- and miss- are inseparable: they are unstressed, stay on the verb in every form (ich verstehe, verstand, habe verstanden), and the past participle has no ge- (besucht, erklärt, zerbrochen). Each prefix colours the meaning of the base verb: be- makes a verb transitive and points it at a target (auf eine Frage antworten → eine Frage beantworten; auf einen Berg steigen → einen Berg besteigen), ver- often means change, using up or a mistake (reisen → verreisen, brauchen → verbrauchen, sich verlaufen, sich versprechen), er- a beginning or an achievement (blühen → erblühen, erreichen, sich etwas erarbeiten), ent- removal or a start (decken → entdecken, laden → entladen, entstehen), zer- destruction into pieces (brechen → zerbrechen, reißen → zerreißen), miss- failure or the opposite (verstehen → missverstehen, trauen → misstrauen). By contrast ab-, an-, auf-, aus-, ein-, mit-, nach-, vor-, zu- are separable: stressed, with a participle in ge- (aufgemacht). durch-, über-, um-, unter- and wieder- exist in both kinds with different meanings: Er setzt mit dem Boot über (separable) – Sie übersetzt den Text (inseparable).",
+  "examples": [
+   [
+    "Ich habe die Frage leider nicht verstanden; können Sie sie bitte noch einmal erklären?",
+    "Unfortunately I didn't understand the question; could you please explain it once more?"
+   ],
+   [
+    "Wir haben im Sommer zwei Wochen in Portugal verbracht.",
+    "We spent two weeks in Portugal in the summer."
+   ],
+   [
+    "Das Glas ist zerbrochen, und der Kellner hat sich entschuldigt.",
+    "The glass broke into pieces, and the waiter apologised."
+   ],
+   [
+    "Beantworten Sie bitte alle Fragen auf dem Formular.",
+    "Please answer all the questions on the form."
+   ],
+   [
+    "Sie hat den Vertrag ins Deutsche übersetzt.",
+    "She translated the contract into German."
+   ]
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich habe die Aufgabe geverstanden.",
+    "right": "Ich habe die Aufgabe verstanden.",
+    "why_de": "Untrennbare Verben bilden das Partizip II ohne ge-: verstanden, besucht, erklärt, zerbrochen.",
+    "why_en": "Inseparable verbs form the past participle without ge-: verstanden, besucht, erklärt, zerbrochen."
+   },
+   {
+    "wrong": "Er stand den Text nicht ver.",
+    "right": "Er verstand den Text nicht.",
+    "why_de": "Untrennbare Präfixe bleiben immer am Verb; nur trennbare Präfixe (auf-, an-, mit- …) wandern ans Satzende.",
+    "why_en": "Inseparable prefixes always stay on the verb; only separable prefixes (auf-, an-, mit- …) move to the end of the clause."
+   },
+   {
+    "wrong": "Ich habe auf die Frage beantwortet.",
+    "right": "Ich habe die Frage beantwortet.",
+    "why_de": "be- macht das Verb transitiv: auf eine Frage antworten, aber eine Frage beantworten – ohne Präposition.",
+    "why_en": "be- makes the verb transitive: auf eine Frage antworten, but eine Frage beantworten – no preposition."
+   },
+   {
+    "wrong": "Sie hat den Text übergesetzt.",
+    "right": "Sie hat den Text übersetzt.",
+    "why_de": "„übersetzen“ im Sinn von Sprache ist untrennbar (Betonung auf -setz-): übersetzt, ohne ge-. Mit dem Boot „setzt man über“, trennbar: übergesetzt.",
+    "why_en": "'übersetzen' in the sense of translating is inseparable (stress on -setz-): übersetzt, no ge-. Crossing by boat is the separable verb: übergesetzt."
+   }
+  ],
+  "items": [
+   "be-",
+   "ver-",
+   "er-",
+   "ent-",
+   "zer-"
+  ],
+  "reference": null
+ },
+ {
   "key": "nominalstil-verbalstil",
   "level": "C1",
   "title_de": "Nominalstil und Verbalstil: Nebensatz oder Nomen?",

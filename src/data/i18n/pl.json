@@ -931,6 +931,23 @@
         "W zdaniu podrzędnym odmienione 'werden' idzie na sam koniec."
       ]
     },
+    "untrennbare-praefixe": {
+      "title": "Przedrostki nierozdzielne: be-, ver-, er-, ent-, zer-, miss-",
+      "rule": "Przedrostki be-, ge-, er-, ver-, zer-, ent-, emp- i miss- są nierozdzielne: są nieakcentowane, w każdej formie pozostają przy czasowniku (ich verstehe, verstand, habe verstanden), a imiesłów czasu przeszłego nie ma ge- (besucht, erklärt, zerbrochen). Każdy przedrostek zabarwia znaczenie czasownika podstawowego: be- czyni czasownik przechodnim i kieruje go na cel (auf eine Frage antworten → eine Frage beantworten; auf einen Berg steigen → einen Berg besteigen), ver- oznacza często zmianę, zużycie albo pomyłkę (reisen → verreisen, brauchen → verbrauchen, sich verlaufen, sich versprechen), er- początek albo osiągnięcie czegoś (blühen → erblühen, erreichen, sich etwas erarbeiten), ent- usunięcie albo początek (decken → entdecken, laden → entladen, entstehen), zer- zniszczenie na kawałki (brechen → zerbrechen, reißen → zerreißen), miss- niepowodzenie albo przeciwieństwo (verstehen → missverstehen, trauen → misstrauen). Natomiast ab-, an-, auf-, aus-, ein-, mit-, nach-, vor-, zu- są rozdzielne: akcentowane, z imiesłowem z ge- (aufgemacht). durch-, über-, um-, unter- i wieder- występują w obu odmianach, z różnym znaczeniem: Er setzt mit dem Boot über (rozdzielnie) – Sie übersetzt den Text (nierozdzielnie).",
+      "examples": [
+        "Niestety nie zrozumiałem pytania; czy mógłby pan wyjaśnić je jeszcze raz?",
+        "Latem spędziliśmy dwa tygodnie w Portugalii.",
+        "Szklanka rozbiła się na kawałki, a kelner przeprosił.",
+        "Proszę odpowiedzieć na wszystkie pytania w formularzu.",
+        "Przetłumaczyła umowę na niemiecki."
+      ],
+      "pitfalls": [
+        "Czasowniki nierozdzielnie złożone tworzą imiesłów czasu przeszłego bez ge-: verstanden, besucht, erklärt, zerbrochen.",
+        "Przedrostki nierozdzielne zawsze pozostają przy czasowniku; tylko przedrostki rozdzielne (auf-, an-, mit- …) idą na koniec zdania.",
+        "be- czyni czasownik przechodnim: auf eine Frage antworten, ale eine Frage beantworten – bez przyimka.",
+        "'übersetzen' w znaczeniu „tłumaczyć” jest nierozdzielne (akcent na -setz-): übersetzt, bez ge-. Przeprawianie się łodzią to czasownik rozdzielnie złożony: übergesetzt."
+      ]
+    },
     "nominalstil-verbalstil": {
       "title": "Styl nominalny i werbalny: zdanie czy fraza rzeczownikowa?",
       "rule": "W stylu nominalnym czynność wyraża się rzeczownikiem, często z przyimkiem zamiast zdania podrzędnego: 'wegen der Erhöhung der Preise' zamiast 'weil die Preise erhöht wurden'. Typowe przyimki: wegen/aufgrund (weil), trotz (obwohl), bei/während (als, während), nach (nachdem), vor (bevor), zu/zur/zum (um … zu, damit), durch (indem, dadurch dass), bei (wenn). Podmiot lub dopełnienie zdania staje się przydawką w dopełniaczu albo zaimkiem dzierżawczym: 'weil die Firma umzieht' → 'wegen des Umzugs der Firma'. Styl nominalny jest typowy dla niemczyzny naukowej, urzędowej i prasowej; w rozmowie brzmi ciężko i naturalniejszy jest tam styl werbalny ze zdaniem podrzędnym.",
@@ -3328,7 +3345,8 @@
         null,
         null,
         "Jak przedstawić się po niemiecku, oficjalnie i nieoficjalnie?",
-        "poznawanie nowego kolegi z pracy pierwszego dnia i przedstawianie się"
+        "poznawanie nowego kolegi z pracy pierwszego dnia i przedstawianie się",
+        "Jak przeliterować swoje imię po niemiecku? Przejdź ze mną, proszę, przez alfabet."
       ]
     },
     "a1-02": {
@@ -3365,7 +3383,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "Jak używać welcher, welche, welches oraz dieser, diese, dieses podczas zakupów?"
       ]
     },
     "a1-05": {
@@ -3421,7 +3440,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "Jak powiedzieć po niemiecku „byłem” i „miałem”, na przykład gdy byłem chory: war i hatte?"
       ]
     },
     "a1-10": {
@@ -3495,7 +3515,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "Jak opisać, co jem, i podać prosty przepis, z ilościami i trybem rozkazującym?"
       ]
     },
     "a2-06": {
@@ -3531,6 +3552,8 @@
         null,
         null,
         null,
+        null,
+        null,
         "pytanie w informacji turystycznej, co warto zobaczyć w mieście"
       ]
     },
@@ -3543,7 +3566,8 @@
         null,
         null,
         null,
-        "Co mogę powiedzieć, gdy czegoś nie rozumiem albo chcę, by ktoś powtórzył słowo?"
+        "Co mogę powiedzieć, gdy czegoś nie rozumiem albo chcę, by ktoś powtórzył słowo?",
+        "Jak mówić o swoim telefonie, komputerze i internecie w codziennym niemieckim?"
       ]
     },
     "a2-10": {
@@ -3554,7 +3578,8 @@
         null,
         null,
         null,
-        "opowiadanie znajomemu o nowo poznanej osobie i o tym, jaka jest"
+        "opowiadanie znajomemu o nowo poznanej osobie i o tym, jaka jest",
+        "Jak zbudowany jest egzamin Goethe-Zertifikat A2 i jak się do niego przygotować?"
       ]
     },
     "b1-01": {
@@ -3566,7 +3591,9 @@
         null,
         null,
         null,
-        "spotkanie po latach ze starym znajomym ze szkoły i nadrabianie zaległości"
+        "spotkanie po latach ze starym znajomym ze szkoły i nadrabianie zaległości",
+        "Jak napisać krótką biografię znanej osoby w Präteritum?",
+        "Jakie zwroty podtrzymują rozmowę: okazywanie zainteresowania, dopytywanie, zmiana tematu?"
       ]
     },
     "b1-02": {
@@ -3597,6 +3624,7 @@
       "title": "Zdrowie i odżywianie",
       "goal": "Rozmawiać o zdrowym odżywianiu, sporcie i stresie, precyzyjnie opisać objawy oraz wyrażać przeciwstawienie i przyzwolenie.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3646,6 +3674,7 @@
         null,
         null,
         null,
+        null,
         "dyskusja ze znajomym o tym, czy dzieci powinny mieć smartfony",
         "Jak wyrazić swoją opinię i uprzejmie zgodzić się lub nie zgodzić po niemiecku?"
       ]
@@ -3671,7 +3700,9 @@
         null,
         null,
         "wyjaśnianie niemieckiemu znajomemu, na czym polega święto z twojego kraju",
-        "Jak powiedzieć, co robię na co dzień dla środowiska?"
+        "Jak powiedzieć, co robię na co dzień dla środowiska?",
+        "Jak opowiedzieć o własnej kulturze i porównać ją z życiem w Niemczech?",
+        "Jak zbudowany jest egzamin Goethe-Zertifikat B1 i jak się do niego przygotować?"
       ]
     },
     "b2-01": {
@@ -3682,7 +3713,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "Jak zbudować krótką prezentację w pracy: otwarcie, przegląd, część główna, zakończenie, pytania?"
       ]
     },
     "b2-02": {
@@ -3717,7 +3749,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "Jakie są najważniejsze zasady stawiania przecinków w języku niemieckim?"
       ]
     },
     "b2-05": {
@@ -3739,7 +3772,8 @@
         null,
         null,
         "dyskusja z sąsiadem o nowej ścieżce rowerowej na twojej ulicy",
-        "Jak zbudować argumentację po niemiecku: wstęp, argumenty za, argumenty przeciw, wniosek?"
+        "Jak zbudować argumentację po niemiecku: wstęp, argumenty za, argumenty przeciw, wniosek?",
+        "Jak używać dessen i deren w zdaniach względnych?"
       ]
     },
     "b2-07": {
@@ -3761,7 +3795,8 @@
         null,
         null,
         null,
-        "doradzanie znajomemu w sprawie stresu w pracy"
+        "doradzanie znajomemu w sprawie stresu w pracy",
+        "Jakie przymiotniki i rzeczowniki łączą się ze stałym przyimkiem, jak stolz auf, Angst vor, zufrieden mit?"
       ]
     },
     "b2-09": {
@@ -3772,7 +3807,8 @@
         null,
         null,
         null,
-        "polecanie znajomemu filmu lub książki i wyjaśnianie, dlaczego warto"
+        "polecanie znajomemu filmu lub książki i wyjaśnianie, dlaczego warto",
+        "Jak opowiedzieć historię w Präteritum, na przykład baśń, która zaczyna się od 'Es war einmal'?"
       ]
     },
     "b2-10": {
@@ -3782,8 +3818,10 @@
         null,
         null,
         null,
+        null,
         "zgłaszanie kradzieży roweru na posterunku policji",
-        "Jak napisać po niemiecku jasne streszczenie tekstu? Jakich zwrotów potrzebuję?"
+        "Jak napisać po niemiecku jasne streszczenie tekstu? Jakich zwrotów potrzebuję?",
+        "Jak zbudowany jest egzamin Goethe-Zertifikat B2 i jak się do niego przygotować?"
       ]
     },
     "c1-01": {
@@ -3794,7 +3832,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "Jak wyrazić ubolewanie, konstruktywnie skrytykować i przeprosić w oficjalnej niemczyźnie w pracy?"
       ]
     },
     "c1-02": {
@@ -3805,7 +3844,8 @@
         null,
         null,
         null,
-        "Jak czytać pismo z niemieckiego urzędu? Co znaczą typowe zwroty?"
+        "Jak czytać pismo z niemieckiego urzędu? Co znaczą typowe zwroty?",
+        "Jakie czasowniki łączą się z dopełniaczem, jak bedürfen, gedenken, sich erfreuen, i gdzie się pojawiają?"
       ]
     },
     "c1-03": {
@@ -3860,7 +3900,8 @@
         null,
         null,
         null,
-        "wywiad radiowy o tym, jak twój zawód zmieni się pod wpływem AI"
+        "wywiad radiowy o tym, jak twój zawód zmieni się pod wpływem AI",
+        "Jak dyskutować o polityce migracyjnej i integracyjnej z wyczuciem niuansów, zestawiając liczby z doświadczeniem?"
       ]
     },
     "c1-08": {
@@ -3871,7 +3912,8 @@
         null,
         null,
         "przedstawianie sceptycznemu właścicielowi sklepu planu centrum bez samochodów",
-        "Jak oficjalnie przedstawić propozycję na zebraniu i odpowiedzieć na zastrzeżenia?"
+        "Jak oficjalnie przedstawić propozycję na zebraniu i odpowiedzieć na zastrzeżenia?",
+        "Jak zbudowane są egzaminy Goethe-Zertifikat C1 i TestDaF i jak się do nich przygotować?"
       ]
     },
     "c2-01": {
@@ -3957,7 +3999,8 @@
         null,
         null,
         "mediacja między dwojgiem kolegów, którzy spierają się o projekt",
-        "Jak dyplomatycznie nie zgodzić się z kimś po niemiecku, nie brzmiąc słabo?"
+        "Jak dyplomatycznie nie zgodzić się z kimś po niemiecku, nie brzmiąc słabo?",
+        "Jak zbudowany jest egzamin Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) i jak się do niego przygotować?"
       ]
     }
   }

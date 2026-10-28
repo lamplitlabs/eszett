@@ -931,6 +931,23 @@
         "在从句中变位的 'werden' 放在最末。"
       ]
     },
+    "untrennbare-praefixe": {
+      "title": "不可分前缀：be-、ver-、er-、ent-、zer-、miss-",
+      "rule": "前缀 be-、ge-、er-、ver-、zer-、ent-、emp- 和 miss- 是不可分的：它们不重读，在所有形式中都留在动词上（ich verstehe, verstand, habe verstanden），第二分词不加 ge-（besucht, erklärt, zerbrochen）。每个前缀都会给基础动词的意义添上一层色彩：be- 使动词变成及物动词并把它指向一个对象（auf eine Frage antworten → eine Frage beantworten；auf einen Berg steigen → einen Berg besteigen），ver- 常表示变化、用尽或出错（reisen → verreisen，brauchen → verbrauchen，sich verlaufen，sich versprechen），er- 表示开始或达成（blühen → erblühen，erreichen，sich etwas erarbeiten），ent- 表示去除或开端（decken → entdecken，laden → entladen，entstehen），zer- 表示毁坏成碎片（brechen → zerbrechen，reißen → zerreißen），miss- 表示失败或相反（verstehen → missverstehen，trauen → misstrauen）。与此相对，ab-、an-、auf-、aus-、ein-、mit-、nach-、vor-、zu- 是可分的：重读，第二分词带 ge-（aufgemacht）。durch-、über-、um-、unter- 和 wieder- 两种用法都有，意义各不相同：Er setzt mit dem Boot über（可分）；Sie übersetzt den Text（不可分）。",
+      "examples": [
+        "很抱歉，我没有听懂这个问题；能请您再解释一遍吗？",
+        "夏天我们在葡萄牙度过了两个星期。",
+        "玻璃杯摔碎了，服务员道了歉。",
+        "请回答表格上的所有问题。",
+        "她把合同翻译成了德语。"
+      ],
+      "pitfalls": [
+        "不可分动词的第二分词不加 ge-：verstanden, besucht, erklärt, zerbrochen。",
+        "不可分前缀始终留在动词上；只有可分前缀（auf-、an-、mit- 等）才会移到句末。",
+        "be- 使动词变成及物动词：auf eine Frage antworten，但 eine Frage beantworten——不带介词。",
+        "表示“翻译”的 'übersetzen' 是不可分动词（重音在 -setz- 上）：übersetzt，不加 ge-。表示乘船渡过的则是可分动词：übergesetzt。"
+      ]
+    },
     "nominalstil-verbalstil": {
       "title": "名词化风格与动词风格：用从句还是名词短语？",
       "rule": "在名词化风格中，动作用名词表达，常常用介词代替从句：用 'wegen der Erhöhung der Preise' 代替 'weil die Preise erhöht wurden'。常见介词：wegen/aufgrund（weil）、trotz（obwohl）、bei/während（als、während）、nach（nachdem）、vor（bevor）、zu/zur/zum（um … zu、damit）、durch（indem、dadurch dass）、bei（wenn）。从句的主语或宾语变成第二格定语或物主词：'weil die Firma umzieht' → 'wegen des Umzugs der Firma'。名词化风格是学术、行政和报刊德语的典型特征；在口语中显得生硬，那里用带从句的动词风格更自然。",
@@ -3328,7 +3345,8 @@
         null,
         null,
         "我该怎样用德语做自我介绍，正式和非正式的说法分别是什么？",
-        "上班第一天遇到新同事并做自我介绍"
+        "上班第一天遇到新同事并做自我介绍",
+        "我该怎样用德语拼读我的名字？请和我一起过一遍字母表。"
       ]
     },
     "a1-02": {
@@ -3365,7 +3383,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "购物时我该怎样使用 welcher、welche、welches 和 dieser、diese、dieses？"
       ]
     },
     "a1-05": {
@@ -3421,7 +3440,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "我该怎样用德语说“我当时是”和“我当时有”，比如我生病的时候：war 和 hatte？"
       ]
     },
     "a1-10": {
@@ -3495,7 +3515,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "我该怎样描述我吃什么，并用数量词和命令式给出一个简单的食谱？"
       ]
     },
     "a2-06": {
@@ -3531,6 +3552,8 @@
         null,
         null,
         null,
+        null,
+        null,
         "在旅游咨询处询问城里有什么值得看的"
       ]
     },
@@ -3543,7 +3566,8 @@
         null,
         null,
         null,
-        "听不懂或需要对方重复某个词时，我可以说什么？"
+        "听不懂或需要对方重复某个词时，我可以说什么？",
+        "我该怎样用日常德语谈论我的手机、电脑和互联网？"
       ]
     },
     "a2-10": {
@@ -3554,7 +3578,8 @@
         null,
         null,
         null,
-        "向朋友讲述你认识的一个人以及他是什么样的人"
+        "向朋友讲述你认识的一个人以及他是什么样的人",
+        "Goethe-Zertifikat A2 考试由哪些部分组成？我该怎样备考？"
       ]
     },
     "b1-01": {
@@ -3566,7 +3591,9 @@
         null,
         null,
         null,
-        "和多年未见的老同学叙旧"
+        "和多年未见的老同学叙旧",
+        "我该怎样用 Präteritum 写一位名人的简短传记？",
+        "哪些表达能让谈话继续下去：表示感兴趣、回问、转换话题？"
       ]
     },
     "b1-02": {
@@ -3597,6 +3624,7 @@
       "title": "健康与营养",
       "goal": "谈论健康饮食、运动和压力，准确描述症状，并表达对比和让步。",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3646,6 +3674,7 @@
         null,
         null,
         null,
+        null,
         "和朋友讨论孩子该不该有智能手机",
         "我该怎样用德语发表看法，并礼貌地表示同意或反对？"
       ]
@@ -3671,7 +3700,9 @@
         null,
         null,
         "向德国朋友介绍你们国家的一个节日",
-        "我该怎样说出我在日常生活中为环保做了什么？"
+        "我该怎样说出我在日常生活中为环保做了什么？",
+        "我该怎样谈论我自己的文化，并把它和德国的生活作比较？",
+        "Goethe-Zertifikat B1 考试由哪些部分组成？我该怎样备考？"
       ]
     },
     "b2-01": {
@@ -3682,7 +3713,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "我该怎样安排工作中的一场简短报告：开场、概览、主体部分、结论、问答？"
       ]
     },
     "b2-02": {
@@ -3717,7 +3749,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "德语中最重要的逗号规则有哪些？"
       ]
     },
     "b2-05": {
@@ -3739,7 +3772,8 @@
         null,
         null,
         "和邻居讨论你们街上新修的自行车道",
-        "我该怎样用德语组织论证：引言、正方、反方、结论？"
+        "我该怎样用德语组织论证：引言、正方、反方、结论？",
+        "我该怎样在关系从句中使用 dessen 和 deren？"
       ]
     },
     "b2-07": {
@@ -3761,7 +3795,8 @@
         null,
         null,
         null,
-        "就工作压力给朋友提建议"
+        "就工作压力给朋友提建议",
+        "哪些形容词和名词搭配固定介词，比如 stolz auf、Angst vor、zufrieden mit？"
       ]
     },
     "b2-09": {
@@ -3772,7 +3807,8 @@
         null,
         null,
         null,
-        "向朋友推荐一部电影或一本书，并说明理由"
+        "向朋友推荐一部电影或一本书，并说明理由",
+        "我该怎样用 Präteritum 讲一个故事，比如以 'Es war einmal' 开头的童话？"
       ]
     },
     "b2-10": {
@@ -3782,8 +3818,10 @@
         null,
         null,
         null,
+        null,
         "在警察局报案自行车被盗",
-        "我该怎样用德语写出清晰的文章摘要？需要哪些表达？"
+        "我该怎样用德语写出清晰的文章摘要？需要哪些表达？",
+        "Goethe-Zertifikat B2 考试由哪些部分组成？我该怎样备考？"
       ]
     },
     "c1-01": {
@@ -3794,7 +3832,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "在工作中，我该怎样用正式的德语表示遗憾、提出建设性的批评并道歉？"
       ]
     },
     "c1-02": {
@@ -3805,7 +3844,8 @@
         null,
         null,
         null,
-        "我该怎样读懂德国机关的公函？那些典型的套话是什么意思？"
+        "我该怎样读懂德国机关的公函？那些典型的套话是什么意思？",
+        "哪些动词支配第二格，比如 bedürfen、gedenken、sich erfreuen？它们出现在哪些场合？"
       ]
     },
     "c1-03": {
@@ -3860,7 +3900,8 @@
         null,
         null,
         null,
-        "一次关于你的职业将如何因 AI 而改变的电台采访"
+        "一次关于你的职业将如何因 AI 而改变的电台采访",
+        "我该怎样细致而有分寸地讨论移民与融入政策，在数据和亲身经历之间进行权衡？"
       ]
     },
     "c1-08": {
@@ -3871,7 +3912,8 @@
         null,
         null,
         "向持怀疑态度的店主介绍无车市中心方案",
-        "我该怎样在会议上正式提出方案并回应反对意见？"
+        "我该怎样在会议上正式提出方案并回应反对意见？",
+        "Goethe-Zertifikat C1 和 TestDaF 由哪些部分组成？我该怎样备考？"
       ]
     },
     "c2-01": {
@@ -3957,7 +3999,8 @@
         null,
         null,
         "在两位对项目意见不合的同事之间调解",
-        "我该怎样用德语有分寸地表示异议，又不显得软弱？"
+        "我该怎样用德语有分寸地表示异议，又不显得软弱？",
+        "Goethe-Zertifikat C2（Großes Deutsches Sprachdiplom）由哪些部分组成？我该怎样备考？"
       ]
     }
   }

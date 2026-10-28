@@ -32,6 +32,11 @@
     "kind": "ownScene",
     "situation_en": "meeting a new colleague on your first day and introducing yourself",
     "situation_de": "einen neuen Kollegen am ersten Arbeitstag kennenlernen und dich vorstellen"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I spell my name in German? Please go through the alphabet with me.",
+    "question_de": "Wie buchstabiere ich meinen Namen auf Deutsch? Geh bitte das Alphabet mit mir durch."
    }
   ]
  },
@@ -140,6 +145,11 @@
    {
     "kind": "scene",
     "scene": "supermarket"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I use welcher, welche, welches and dieser, diese, dieses when I shop?",
+    "question_de": "Wie benutze ich welcher, welche, welches und dieser, diese, dieses beim Einkaufen?"
    }
   ]
  },
@@ -298,6 +308,11 @@
    {
     "kind": "scene",
     "scene": "pharmacy"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I say ‘I was’ and ‘I had’ in German, for example when I was ill: war and hatte?",
+    "question_de": "Wie sage ich „ich war“ und „ich hatte“ auf Deutsch, zum Beispiel wenn ich krank war: war und hatte?"
    }
   ]
  },
@@ -513,6 +528,11 @@
    {
     "kind": "write",
     "task": "a2-sick-course"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I describe what I eat and give a simple recipe, with quantities and the imperative?",
+    "question_de": "Wie beschreibe ich, was ich esse, und gebe ein einfaches Rezept, mit Mengen und Imperativ?"
    }
   ]
  },
@@ -602,6 +622,14 @@
     "topic": "holidays"
    },
    {
+    "kind": "words",
+    "topic": "travelling by train"
+   },
+   {
+    "kind": "words",
+    "topic": "nature and animals"
+   },
+   {
     "kind": "grammar",
     "card": "futur-i"
    },
@@ -652,6 +680,11 @@
     "kind": "ask",
     "question_en": "What can I say when I don't understand something or need a word repeated?",
     "question_de": "Was kann ich sagen, wenn ich etwas nicht verstehe oder ein Wort noch einmal hören möchte?"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I talk about my phone, my computer and the internet in everyday German?",
+    "question_de": "Wie spreche ich im Alltag über mein Handy, meinen Computer und das Internet?"
    }
   ]
  },
@@ -683,6 +716,11 @@
     "kind": "ownScene",
     "situation_en": "telling a friend about a person you met and what they are like",
     "situation_de": "einer Freundin von einer Person erzählen, die du kennengelernt hast, und wie sie ist"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How is the Goethe-Zertifikat A2 exam structured, and how do I prepare for it?",
+    "question_de": "Wie ist die Prüfung Goethe-Zertifikat A2 aufgebaut, und wie bereite ich mich darauf vor?"
    }
   ]
  },
@@ -718,6 +756,16 @@
     "kind": "ownScene",
     "situation_en": "catching up with an old school friend you have not seen for years",
     "situation_de": "einen alten Schulfreund wiedertreffen, den du seit Jahren nicht gesehen hast"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I write a short biography of a famous person in the Präteritum?",
+    "question_de": "Wie schreibe ich eine kurze Biografie einer berühmten Person im Präteritum?"
+   },
+   {
+    "kind": "ask",
+    "question_en": "Which phrases keep a conversation going: showing interest, asking back, changing the subject?",
+    "question_de": "Welche Wendungen halten ein Gespräch am Laufen: Interesse zeigen, nachfragen, das Thema wechseln?"
    }
   ]
  },
@@ -802,6 +850,10 @@
    {
     "kind": "words",
     "topic": "nutrition and sport"
+   },
+   {
+    "kind": "words",
+    "topic": "health"
    },
    {
     "kind": "grammar",
@@ -934,6 +986,10 @@
     "topic": "the digital world"
    },
    {
+    "kind": "words",
+    "topic": "media and news"
+   },
+   {
     "kind": "grammar",
     "card": "verben-mit-praepositionen-da-wo"
    },
@@ -1021,6 +1077,16 @@
     "kind": "ask",
     "question_en": "How do I say what I do for the environment in my everyday life?",
     "question_de": "Wie sage ich, was ich im Alltag für die Umwelt tue?"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I talk about my own culture and compare it with life in Germany?",
+    "question_de": "Wie spreche ich über meine eigene Kultur und vergleiche sie mit dem Leben in Deutschland?"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How is the Goethe-Zertifikat B1 exam structured, and how do I prepare for it?",
+    "question_de": "Wie ist die Prüfung Goethe-Zertifikat B1 aufgebaut, und wie bereite ich mich darauf vor?"
    }
   ]
  },
@@ -1051,6 +1117,11 @@
    {
     "kind": "write",
     "task": "b2-application"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I structure a short presentation at work: opening, overview, main part, conclusion, questions?",
+    "question_de": "Wie baue ich eine kurze Präsentation bei der Arbeit auf: Einstieg, Überblick, Hauptteil, Schluss, Fragen?"
    }
   ]
  },
@@ -1149,6 +1220,11 @@
    {
     "kind": "write",
     "task": "b2-forum-smartphones-school"
+   },
+   {
+    "kind": "ask",
+    "question_en": "What are the most important comma rules in German?",
+    "question_de": "Was sind die wichtigsten Kommaregeln im Deutschen?"
    }
   ]
  },
@@ -1212,6 +1288,11 @@
     "kind": "ask",
     "question_en": "How do I structure an argument in German: introduction, pros, cons, conclusion?",
     "question_de": "Wie baue ich eine Argumentation auf Deutsch auf: Einleitung, Pro, Kontra, Fazit?"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I use dessen and deren in relative clauses?",
+    "question_de": "Wie benutze ich dessen und deren in Relativsätzen?"
    }
   ]
  },
@@ -1275,6 +1356,11 @@
     "kind": "ownScene",
     "situation_en": "giving a friend advice about stress at work",
     "situation_de": "einer Freundin Rat bei Stress im Beruf geben"
+   },
+   {
+    "kind": "ask",
+    "question_en": "Which adjectives and nouns take a fixed preposition, like stolz auf, Angst vor, zufrieden mit?",
+    "question_de": "Welche Adjektive und Nomen haben eine feste Präposition, wie stolz auf, Angst vor, zufrieden mit?"
    }
   ]
  },
@@ -1306,6 +1392,11 @@
     "kind": "ownScene",
     "situation_en": "recommending a film or a book to a friend and explaining why",
     "situation_de": "einer Freundin einen Film oder ein Buch empfehlen und erklären, warum"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I tell a story in the Präteritum, like a fairy tale that begins with ‘Es war einmal’?",
+    "question_de": "Wie erzähle ich eine Geschichte im Präteritum, wie ein Märchen, das mit „Es war einmal“ beginnt?"
    }
   ]
  },
@@ -1326,6 +1417,10 @@
     "topic": "globalisation"
    },
    {
+    "kind": "grammar",
+    "card": "untrennbare-praefixe"
+   },
+   {
     "kind": "drill",
     "category": "verbs"
    },
@@ -1338,6 +1433,11 @@
     "kind": "ask",
     "question_en": "How do I write a clear summary of a text in German? Which phrases do I need?",
     "question_de": "Wie schreibe ich eine klare Zusammenfassung eines Textes auf Deutsch? Welche Formulierungen brauche ich?"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How is the Goethe-Zertifikat B2 exam structured, and how do I prepare for it?",
+    "question_de": "Wie ist die Prüfung Goethe-Zertifikat B2 aufgebaut, und wie bereite ich mich darauf vor?"
    }
   ]
  },
@@ -1368,6 +1468,11 @@
    {
     "kind": "write",
     "task": "c1-statement-management"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I express regret, criticise constructively and apologise in formal German at work?",
+    "question_de": "Wie drücke ich Bedauern aus, übe konstruktiv Kritik und entschuldige mich im formellen Deutsch am Arbeitsplatz?"
    }
   ]
  },
@@ -1399,6 +1504,11 @@
     "kind": "ask",
     "question_en": "How do I read an official letter from a German authority? What do the typical phrases mean?",
     "question_de": "Wie lese ich ein Schreiben einer deutschen Behörde? Was bedeuten die typischen Formulierungen?"
+   },
+   {
+    "kind": "ask",
+    "question_en": "Which verbs take the genitive, like bedürfen, gedenken, sich erfreuen, and where do they appear?",
+    "question_de": "Welche Verben stehen mit dem Genitiv, wie bedürfen, gedenken, sich erfreuen, und wo kommen sie vor?"
    }
   ]
  },
@@ -1555,6 +1665,11 @@
     "kind": "ownScene",
     "situation_en": "a radio interview about how your profession will change with AI",
     "situation_de": "ein Radiointerview darüber, wie sich dein Beruf durch KI verändern wird"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How do I discuss migration and integration policy with nuance, weighing figures against experience?",
+    "question_de": "Wie diskutiere ich differenziert über Migrations- und Integrationspolitik und wäge Zahlen gegen Erfahrungen ab?"
    }
   ]
  },
@@ -1587,6 +1702,11 @@
     "kind": "ask",
     "question_en": "How do I make a formal proposal in a meeting and respond to objections?",
     "question_de": "Wie mache ich in einer Besprechung einen formellen Vorschlag und reagiere auf Einwände?"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How are the Goethe-Zertifikat C1 and the TestDaF structured, and how do I prepare for them?",
+    "question_de": "Wie sind das Goethe-Zertifikat C1 und der TestDaF aufgebaut, und wie bereite ich mich darauf vor?"
    }
   ]
  },
@@ -1827,6 +1947,11 @@
     "kind": "ask",
     "question_en": "How do I disagree with someone diplomatically in German without sounding weak?",
     "question_de": "Wie widerspreche ich auf Deutsch diplomatisch, ohne schwach zu wirken?"
+   },
+   {
+    "kind": "ask",
+    "question_en": "How is the Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) structured, and how do I prepare for it?",
+    "question_de": "Wie ist das Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) aufgebaut, und wie bereite ich mich darauf vor?"
    }
   ]
  }

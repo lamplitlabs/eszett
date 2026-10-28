@@ -931,6 +931,23 @@
         "Yan cümlede çekimli 'werden' en sona gider."
       ]
     },
+    "untrennbare-praefixe": {
+      "title": "Ayrılamayan ön ekler: be-, ver-, er-, ent-, zer-, miss-",
+      "rule": "be-, ge-, er-, ver-, zer-, ent-, emp- ve miss- ön ekleri ayrılamaz: vurgusuzdur, her biçimde fiile bağlı kalır (ich verstehe, verstand, habe verstanden) ve Partizip II'de ge- yoktur (besucht, erklärt, zerbrochen). Her ön ek temel fiilin anlamına kendi rengini katar: be- fiili geçişli yapar ve onu bir hedefe yöneltir (auf eine Frage antworten → eine Frage beantworten; auf einen Berg steigen → einen Berg besteigen), ver- çoğunlukla değişim, tüketme ya da bir hata anlatır (reisen → verreisen, brauchen → verbrauchen, sich verlaufen, sich versprechen), er- bir başlangıç ya da bir başarı bildirir (blühen → erblühen, erreichen, sich etwas erarbeiten), ent- uzaklaştırma ya da bir başlangıç anlatır (decken → entdecken, laden → entladen, entstehen), zer- parçalayarak yok etme bildirir (brechen → zerbrechen, reißen → zerreißen), miss- başarısızlık ya da tam tersini anlatır (verstehen → missverstehen, trauen → misstrauen). Buna karşılık ab-, an-, auf-, aus-, ein-, mit-, nach-, vor-, zu- ayrılabilir: vurguludur ve ortaçları ge- alır (aufgemacht). durch-, über-, um-, unter- ve wieder- farklı anlamlarla her iki türde de bulunur: Er setzt mit dem Boot über (ayrılabilen) – Sie übersetzt den Text (ayrılamayan).",
+      "examples": [
+        "Maalesef soruyu anlamadım; lütfen bir kez daha açıklayabilir misiniz?",
+        "Yazın iki haftalığına Portekiz'e gittik.",
+        "Bardak paramparça oldu ve garson özür diledi.",
+        "Lütfen formdaki bütün soruları cevaplayın.",
+        "Sözleşmeyi Almancaya çevirdi."
+      ],
+      "pitfalls": [
+        "Ayrılamayan fiiller Partizip II'yi ge- olmadan kurar: verstanden, besucht, erklärt, zerbrochen.",
+        "Ayrılamayan ön ekler her zaman fiile bağlı kalır; yalnızca ayrılabilen ön ekler (auf-, an-, mit- …) cümlenin sonuna gider.",
+        "be- fiili geçişli yapar: auf eine Frage antworten, ama eine Frage beantworten – edat yok.",
+        "'übersetzen' çevirmek anlamında ayrılamaz (vurgu -setz- hecesinde): übersetzt, ge- yok. Botla karşıya geçmek ayrılabilen fiildir: übergesetzt."
+      ]
+    },
     "nominalstil-verbalstil": {
       "title": "Ad stili ve fiil stili: yan cümle mi, isim öbeği mi?",
       "rule": "Ad stilinde bir eylem, çoğunlukla yan cümle yerine bir edatla birlikte, bir isimle ifade edilir: 'weil die Preise erhöht wurden' yerine 'wegen der Erhöhung der Preise'. Tipik edatlar: wegen/aufgrund (weil), trotz (obwohl), bei/während (als, während), nach (nachdem), vor (bevor), zu/zur/zum (um … zu, damit), durch (indem, dadurch dass), bei (wenn). Yan cümlenin öznesi veya nesnesi, -in hâlinde bir tamlayan ya da iyelik sıfatı olur: 'weil die Firma umzieht' → 'wegen des Umzugs der Firma'. Ad stili akademik, resmî ve gazete Almancasına özgüdür; konuşmada ağır durur, orada yan cümleli fiil stili daha doğaldır.",
@@ -3328,7 +3345,8 @@
         null,
         null,
         "Almancada kendimi resmî ve samimi bir şekilde nasıl tanıtırım?",
-        "ilk iş gününde yeni bir meslektaşla tanışıp kendini tanıtmak"
+        "ilk iş gününde yeni bir meslektaşla tanışıp kendini tanıtmak",
+        "Almancada adımı nasıl hecelerim? Lütfen alfabeyi benimle birlikte gözden geçir."
       ]
     },
     "a1-02": {
@@ -3365,7 +3383,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "Alışveriş yaparken welcher, welche, welches ve dieser, diese, dieses'i nasıl kullanırım?"
       ]
     },
     "a1-05": {
@@ -3421,7 +3440,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "Almancada, örneğin hastayken, \"ben ... idim\" ve \"benim ... vardı\" nasıl derim: war ve hatte?"
       ]
     },
     "a1-10": {
@@ -3495,7 +3515,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "Ne yediğimi nasıl anlatır, miktarlarla ve emir kipiyle basit bir yemek tarifini nasıl veririm?"
       ]
     },
     "a2-06": {
@@ -3531,6 +3552,8 @@
         null,
         null,
         null,
+        null,
+        null,
         "turizm danışmada bir şehirde nelerin görülebileceğini sormak"
       ]
     },
@@ -3543,7 +3566,8 @@
         null,
         null,
         null,
-        "Bir şeyi anlamadığımda ya da bir kelimenin tekrarlanmasına ihtiyaç duyduğumda ne diyebilirim?"
+        "Bir şeyi anlamadığımda ya da bir kelimenin tekrarlanmasına ihtiyaç duyduğumda ne diyebilirim?",
+        "Günlük Almancada telefonumdan, bilgisayarımdan ve internetten nasıl söz ederim?"
       ]
     },
     "a2-10": {
@@ -3554,7 +3578,8 @@
         null,
         null,
         null,
-        "bir arkadaşına tanıştığın bir kişiyi ve nasıl biri olduğunu anlatmak"
+        "bir arkadaşına tanıştığın bir kişiyi ve nasıl biri olduğunu anlatmak",
+        "Goethe-Zertifikat A2 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?"
       ]
     },
     "b1-01": {
@@ -3566,7 +3591,9 @@
         null,
         null,
         null,
-        "yıllardır görmediğin eski bir okul arkadaşınla hasret gidermek"
+        "yıllardır görmediğin eski bir okul arkadaşınla hasret gidermek",
+        "Ünlü bir kişinin kısa biyografisini Präteritum'da nasıl yazarım?",
+        "Hangi kalıplar bir sohbeti sürdürür: ilgi göstermek, karşı soru sormak, konuyu değiştirmek?"
       ]
     },
     "b1-02": {
@@ -3597,6 +3624,7 @@
       "title": "Sağlık ve beslenme",
       "goal": "Sağlıklı beslenme, spor ve stres hakkında konuşabilir, belirtileri tam olarak anlatabilir ve karşıtlık ile ödünleme (-e rağmen) ifade edebilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3646,6 +3674,7 @@
         null,
         null,
         null,
+        null,
         "çocukların akıllı telefonu olup olmaması gerektiği hakkında bir arkadaşla tartışma",
         "Almancada görüşümü nasıl bildirir, kibarca nasıl katılır ya da karşı çıkarım?"
       ]
@@ -3671,7 +3700,9 @@
         null,
         null,
         "ülkendeki bir bayramı Alman bir arkadaşına anlatmak",
-        "Günlük hayatımda çevre için ne yaptığımı nasıl anlatırım?"
+        "Günlük hayatımda çevre için ne yaptığımı nasıl anlatırım?",
+        "Kendi kültürümden nasıl söz eder ve onu Almanya'daki hayatla nasıl karşılaştırırım?",
+        "Goethe-Zertifikat B1 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?"
       ]
     },
     "b2-01": {
@@ -3682,7 +3713,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "İş yerinde kısa bir sunumu nasıl yapılandırırım: açılış, genel bakış, ana bölüm, sonuç, sorular?"
       ]
     },
     "b2-02": {
@@ -3717,7 +3749,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "Almancadaki en önemli virgül kuralları nelerdir?"
       ]
     },
     "b2-05": {
@@ -3739,7 +3772,8 @@
         null,
         null,
         "sokağındaki yeni bisiklet yolu hakkında bir komşuyla tartışma",
-        "Almancada bir savı nasıl yapılandırırım: giriş, artılar, eksiler, sonuç?"
+        "Almancada bir savı nasıl yapılandırırım: giriş, artılar, eksiler, sonuç?",
+        "İlgi cümlelerinde dessen ve deren'i nasıl kullanırım?"
       ]
     },
     "b2-07": {
@@ -3761,7 +3795,8 @@
         null,
         null,
         null,
-        "bir arkadaşına iş stresi hakkında tavsiye vermek"
+        "bir arkadaşına iş stresi hakkında tavsiye vermek",
+        "Hangi sıfatlar ve isimler stolz auf, Angst vor, zufrieden mit gibi sabit bir edat alır?"
       ]
     },
     "b2-09": {
@@ -3772,7 +3807,8 @@
         null,
         null,
         null,
-        "bir arkadaşına bir film ya da kitap önerip nedenini açıklamak"
+        "bir arkadaşına bir film ya da kitap önerip nedenini açıklamak",
+        "'Es war einmal' ile başlayan bir masal gibi, Präteritum'da bir hikâyeyi nasıl anlatırım?"
       ]
     },
     "b2-10": {
@@ -3782,8 +3818,10 @@
         null,
         null,
         null,
+        null,
         "karakolda bir bisiklet hırsızlığını bildirmek",
-        "Almancada bir metnin açık bir özetini nasıl yazarım? Hangi kalıplara ihtiyacım var?"
+        "Almancada bir metnin açık bir özetini nasıl yazarım? Hangi kalıplara ihtiyacım var?",
+        "Goethe-Zertifikat B2 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?"
       ]
     },
     "c1-01": {
@@ -3794,7 +3832,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "İş yerinde resmî Almancayla pişmanlığımı nasıl dile getirir, yapıcı eleştiriyi nasıl yapar ve nasıl özür dilerim?"
       ]
     },
     "c1-02": {
@@ -3805,7 +3844,8 @@
         null,
         null,
         null,
-        "Bir Alman resmî kurumundan gelen yazıyı nasıl okurum? Tipik kalıplar ne anlama geliyor?"
+        "Bir Alman resmî kurumundan gelen yazıyı nasıl okurum? Tipik kalıplar ne anlama geliyor?",
+        "bedürfen, gedenken, sich erfreuen gibi hangi fiiller -in hali (Genitiv) alır ve bunlara nerede rastlanır?"
       ]
     },
     "c1-03": {
@@ -3860,7 +3900,8 @@
         null,
         null,
         null,
-        "mesleğinin yapay zekâyla nasıl değişeceği üzerine bir radyo röportajı"
+        "mesleğinin yapay zekâyla nasıl değişeceği üzerine bir radyo röportajı",
+        "Göç ve entegrasyon politikasını, rakamlarla deneyimi birbirine karşı tartarak, nüanslı bir biçimde nasıl tartışırım?"
       ]
     },
     "c1-08": {
@@ -3871,7 +3912,8 @@
         null,
         null,
         "arabasız şehir merkezi planını kuşkucu bir dükkân sahibine sunmak",
-        "Bir toplantıda resmî bir öneriyi nasıl sunar ve itirazlara nasıl yanıt veririm?"
+        "Bir toplantıda resmî bir öneriyi nasıl sunar ve itirazlara nasıl yanıt veririm?",
+        "Goethe-Zertifikat C1 ve TestDaF'ın yapısı nasıl ve bu sınavlara nasıl hazırlanırım?"
       ]
     },
     "c2-01": {
@@ -3957,7 +3999,8 @@
         null,
         null,
         "bir proje konusunda anlaşamayan iki meslektaş arasında arabuluculuk yapmak",
-        "Almancada birine zayıf görünmeden diplomatik biçimde nasıl karşı çıkarım?"
+        "Almancada birine zayıf görünmeden diplomatik biçimde nasıl karşı çıkarım?",
+        "Goethe-Zertifikat C2'nin (Großes Deutsches Sprachdiplom) yapısı nasıl ve bu sınava nasıl hazırlanırım?"
       ]
     }
   }

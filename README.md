@@ -494,19 +494,25 @@ BAMF Rahmencurriculum für Integrationskurse (A1–B1), the CEFR global scale, D
 progressions of Netzwerk neu, Menschen, Schritte international Neu and Studio [21] (A1–B1), Aspekte neu, Sicher! and
 Weitblick (B1+–C1) and Erkundungen (B2–C2). The openly licensed first-year courses (COERLL's Deutsch im Blick and
 Grimm Grammar, Open Education Alberta's Willkommen: Deutsch für alle, Grenzenlos Deutsch) were checked for the A1–A2
-order; there is no open course book above A2. Lingoda publishes no per-level lesson list, only sample chapters.
+order; there is no open course book above A2. The result was then cross-checked, chapter by chapter, against the
+chapter map of an online school's A1.1–C1.4 course (its chapter titles, can-do goals and grammar-lesson sequence
+only; none of its texts or word lists are used): the gaps that showed — spelling, *welcher/dieser* and *war/hatte*
+at A1, recipes and media talk at A2, biographies and keeping a conversation going at B1, presentations, comma
+rules, *dessen/deren*, adjectives with fixed prepositions and the inseparable verb prefixes at B2, regret and
+criticism, verbs with the genitive and migration policy at C1 — became extra steps, and every level from A2 up
+ends with a question about its Goethe exam (C1 also the TestDaF), which the grounding pack's exam notes answer.
 Every unit's steps point at bundled content, which `src/harness/__tests__/path.test.ts` checks (every card, scene,
 task and topic exists, every scene and task is used, no card is repeated within a level, a card sits within one
 level of its unit, every unit is translated).
 
-What the course added to the content: 27 grammar cards that the syllabi expect and the pools did not have — at A1
+What the course added to the content: 28 grammar cards that the syllabi expect and the pools did not have — at A1
 the basics (sein/haben and the present endings, W-questions, der/die/das in nominative and accusative, the
 possessive articles, the plural patterns, um/am/im and in/nach/zu/bei), at A2 the pronouns in accusative and dative,
 the Präteritum of sein/haben/modals, polite Könnten Sie/hätte gern, the dative verbs and prepositions, at B1
 indirect questions, verbs with prepositions and da(r)-/wo(r)- words, the two-part connectors and the passive in
 present and Präteritum, at B2 (which had two cards) the past Konjunktiv II, als ob, the passive with modals,
 participles as adjectives, the genitive prepositions, relative clauses with prepositions/wo/was, the modal particles,
-indem/sodass/ohne dass and Futur I/II as assumption, at C1 text connectors and participle clauses, at C2 es as
+indem/sodass/ohne dass, Futur I/II as assumption and the inseparable prefixes be-/ver-/er-/ent-/zer-, at C1 text connectors and participle clauses, at C2 es as
 placeholder and correlate and Nachfeld/extraposition (`levels.test.ts` pins the C1 and C2 sets); six writing tasks
 in the Goethe/telc shapes (an A1 postcard, an A2 note to the landlord, a B1 complaint about an order, a B2 forum
 post, a C1 report on figures, a C2 open letter); and 33 word-list topics (`src/features/topics.ts`, where the

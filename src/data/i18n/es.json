@@ -931,6 +931,23 @@
         "En una oración subordinada el 'werden' conjugado va al final del todo."
       ]
     },
+    "untrennbare-praefixe": {
+      "title": "Prefijos inseparables: be-, ver-, er-, ent-, zer-, miss-",
+      "rule": "Los prefijos be-, ge-, er-, ver-, zer-, ent-, emp- y miss- son inseparables: son átonos, se quedan unidos al verbo en todas sus formas (ich verstehe, verstand, habe verstanden) y el participio no lleva ge- (besucht, erklärt, zerbrochen). Cada prefijo matiza el significado del verbo base: be- hace transitivo el verbo y lo dirige hacia un objeto (auf eine Frage antworten → eine Frage beantworten; auf einen Berg steigen → einen Berg besteigen); ver- suele indicar un cambio, un consumo o un error (reisen → verreisen, brauchen → verbrauchen, sich verlaufen, sich versprechen); er-, un comienzo o un logro (blühen → erblühen, erreichen, sich etwas erarbeiten); ent-, una eliminación o un inicio (decken → entdecken, laden → entladen, entstehen); zer-, la destrucción en pedazos (brechen → zerbrechen, reißen → zerreißen); miss-, un fracaso o lo contrario (verstehen → missverstehen, trauen → misstrauen). En cambio, ab-, an-, auf-, aus-, ein-, mit-, nach-, vor-, zu- son separables: tónicos y con participio en ge- (aufgemacht). durch-, über-, um-, unter- y wieder- existen en las dos variantes con significados distintos: Er setzt mit dem Boot über (separable) – Sie übersetzt den Text (inseparable).",
+      "examples": [
+        "Lamentablemente no he entendido la pregunta; ¿podría explicármela una vez más, por favor?",
+        "En verano pasamos dos semanas en Portugal.",
+        "El vaso se rompió en pedazos y el camarero se disculpó.",
+        "Por favor, responda a todas las preguntas del formulario.",
+        "Ella tradujo el contrato al alemán."
+      ],
+      "pitfalls": [
+        "Los verbos inseparables forman el participio sin ge-: verstanden, besucht, erklärt, zerbrochen.",
+        "Los prefijos inseparables se quedan siempre unidos al verbo; solo los prefijos separables (auf-, an-, mit- …) van al final de la oración.",
+        "be- hace transitivo el verbo: auf eine Frage antworten, pero eine Frage beantworten – sin preposición.",
+        "'übersetzen' en el sentido de traducir es inseparable (acento en -setz-): übersetzt, sin ge-. Cruzar en barco es el verbo separable: übergesetzt."
+      ]
+    },
     "nominalstil-verbalstil": {
       "title": "Estilo nominal y estilo verbal: ¿oración o grupo nominal?",
       "rule": "En el estilo nominal una acción se expresa con un sustantivo, a menudo con una preposición en lugar de una oración subordinada: 'wegen der Erhöhung der Preise' en vez de 'weil die Preise erhöht wurden'. Preposiciones típicas: wegen/aufgrund (weil), trotz (obwohl), bei/während (als, während), nach (nachdem), vor (bevor), zu/zur/zum (um … zu, damit), durch (indem, dadurch dass), bei (wenn). El sujeto o el objeto de la oración se convierte en un complemento en genitivo o en un posesivo: 'weil die Firma umzieht' → 'wegen des Umzugs der Firma'. El estilo nominal es típico del alemán académico, administrativo y periodístico; en la conversación suena pesado, y allí es más natural el estilo verbal con una oración subordinada.",
@@ -3328,7 +3345,8 @@
         null,
         null,
         "¿Cómo me presento en alemán, de manera formal e informal?",
-        "conocer a un nuevo compañero en tu primer día y presentarte"
+        "conocer a un nuevo compañero en tu primer día y presentarte",
+        "¿Cómo deletreo mi nombre en alemán? Repasa el alfabeto conmigo, por favor."
       ]
     },
     "a1-02": {
@@ -3365,7 +3383,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "¿Cómo uso welcher, welche, welches y dieser, diese, dieses cuando voy de compras?"
       ]
     },
     "a1-05": {
@@ -3421,7 +3440,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "¿Cómo digo «yo estaba» y «yo tenía» en alemán, por ejemplo cuando estaba enfermo: war y hatte?"
       ]
     },
     "a1-10": {
@@ -3495,7 +3515,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "¿Cómo describo lo que como y doy una receta sencilla, con cantidades y el imperativo?"
       ]
     },
     "a2-06": {
@@ -3531,6 +3552,8 @@
         null,
         null,
         null,
+        null,
+        null,
         "preguntar en la oficina de turismo qué ver en una ciudad"
       ]
     },
@@ -3543,7 +3566,8 @@
         null,
         null,
         null,
-        "¿Qué puedo decir cuando no entiendo algo o necesito que me repitan una palabra?"
+        "¿Qué puedo decir cuando no entiendo algo o necesito que me repitan una palabra?",
+        "¿Cómo hablo de mi teléfono, mi ordenador e internet en el alemán de cada día?"
       ]
     },
     "a2-10": {
@@ -3554,7 +3578,8 @@
         null,
         null,
         null,
-        "contar a un amigo cómo es una persona que conociste"
+        "contar a un amigo cómo es una persona que conociste",
+        "¿Cómo está estructurado el examen Goethe-Zertifikat A2 y cómo me preparo para él?"
       ]
     },
     "b1-01": {
@@ -3566,7 +3591,9 @@
         null,
         null,
         null,
-        "ponerte al día con un antiguo compañero de escuela al que no ves desde hace años"
+        "ponerte al día con un antiguo compañero de escuela al que no ves desde hace años",
+        "¿Cómo escribo una breve biografía de una persona famosa en Präteritum?",
+        "¿Qué expresiones mantienen viva una conversación: mostrar interés, devolver la pregunta, cambiar de tema?"
       ]
     },
     "b1-02": {
@@ -3597,6 +3624,7 @@
       "title": "Salud y alimentación",
       "goal": "Hablar de alimentación sana, deporte y estrés, describir síntomas con precisión y expresar contraste y concesión.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3646,6 +3674,7 @@
         null,
         null,
         null,
+        null,
         "una discusión con un amigo sobre si los niños deberían tener smartphone",
         "¿Cómo doy mi opinión y expreso acuerdo o desacuerdo con cortesía en alemán?"
       ]
@@ -3671,7 +3700,9 @@
         null,
         null,
         "explicar una fiesta de tu país a un amigo alemán",
-        "¿Cómo digo qué hago por el medio ambiente en mi día a día?"
+        "¿Cómo digo qué hago por el medio ambiente en mi día a día?",
+        "¿Cómo hablo de mi propia cultura y la comparo con la vida en Alemania?",
+        "¿Cómo está estructurado el examen Goethe-Zertifikat B1 y cómo me preparo para él?"
       ]
     },
     "b2-01": {
@@ -3682,7 +3713,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "¿Cómo estructuro una breve presentación en el trabajo: introducción, visión general, parte principal, conclusión, preguntas?"
       ]
     },
     "b2-02": {
@@ -3717,7 +3749,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "¿Cuáles son las reglas más importantes sobre el uso de la coma en alemán?"
       ]
     },
     "b2-05": {
@@ -3739,7 +3772,8 @@
         null,
         null,
         "una discusión con un vecino sobre un nuevo carril bici en tu calle",
-        "¿Cómo estructuro una argumentación en alemán: introducción, pros, contras, conclusión?"
+        "¿Cómo estructuro una argumentación en alemán: introducción, pros, contras, conclusión?",
+        "¿Cómo uso dessen y deren en las oraciones de relativo?"
       ]
     },
     "b2-07": {
@@ -3761,7 +3795,8 @@
         null,
         null,
         null,
-        "aconsejar a un amigo sobre el estrés en el trabajo"
+        "aconsejar a un amigo sobre el estrés en el trabajo",
+        "¿Qué adjetivos y sustantivos llevan una preposición fija, como stolz auf, Angst vor, zufrieden mit?"
       ]
     },
     "b2-09": {
@@ -3772,7 +3807,8 @@
         null,
         null,
         null,
-        "recomendar una película o un libro a un amigo y explicar por qué"
+        "recomendar una película o un libro a un amigo y explicar por qué",
+        "¿Cómo cuento una historia en Präteritum, como un cuento que empieza con 'Es war einmal'?"
       ]
     },
     "b2-10": {
@@ -3782,8 +3818,10 @@
         null,
         null,
         null,
+        null,
         "denunciar el robo de una bicicleta en la comisaría",
-        "¿Cómo escribo un resumen claro de un texto en alemán? ¿Qué expresiones necesito?"
+        "¿Cómo escribo un resumen claro de un texto en alemán? ¿Qué expresiones necesito?",
+        "¿Cómo está estructurado el examen Goethe-Zertifikat B2 y cómo me preparo para él?"
       ]
     },
     "c1-01": {
@@ -3794,7 +3832,8 @@
         null,
         null,
         null,
-        null
+        null,
+        "¿Cómo expreso que lamento algo, hago una crítica constructiva y me disculpo en un alemán formal en el trabajo?"
       ]
     },
     "c1-02": {
@@ -3805,7 +3844,8 @@
         null,
         null,
         null,
-        "¿Cómo leo una carta oficial de una administración alemana? ¿Qué significan las fórmulas típicas?"
+        "¿Cómo leo una carta oficial de una administración alemana? ¿Qué significan las fórmulas típicas?",
+        "¿Qué verbos rigen genitivo, como bedürfen, gedenken, sich erfreuen, y dónde aparecen?"
       ]
     },
     "c1-03": {
@@ -3860,7 +3900,8 @@
         null,
         null,
         null,
-        "una entrevista de radio sobre cómo cambiará tu profesión con la IA"
+        "una entrevista de radio sobre cómo cambiará tu profesión con la IA",
+        "¿Cómo debato con matices sobre la política de migración e integración, sopesando las cifras frente a la experiencia?"
       ]
     },
     "c1-08": {
@@ -3871,7 +3912,8 @@
         null,
         null,
         "presentar un plan de centro urbano sin coches a un comerciante escéptico",
-        "¿Cómo hago una propuesta formal en una reunión y respondo a las objeciones?"
+        "¿Cómo hago una propuesta formal en una reunión y respondo a las objeciones?",
+        "¿Cómo están estructurados el Goethe-Zertifikat C1 y el TestDaF y cómo me preparo para ellos?"
       ]
     },
     "c2-01": {
@@ -3957,7 +3999,8 @@
         null,
         null,
         "mediar entre dos compañeros que no están de acuerdo sobre un proyecto",
-        "¿Cómo expreso desacuerdo con diplomacia en alemán sin parecer débil?"
+        "¿Cómo expreso desacuerdo con diplomacia en alemán sin parecer débil?",
+        "¿Cómo está estructurado el Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) y cómo me preparo para él?"
       ]
     }
   }
