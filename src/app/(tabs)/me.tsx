@@ -66,6 +66,7 @@ const AREAS: [Area, string][] = [
   ['dates', 'me.area.dates'],
   ['prices', 'me.area.prices'],
   ['grammar', 'me.area.grammar'],
+  ['reading', 'me.area.reading'],
   ['check', 'me.area.check'],
   ['review', 'me.area.review'],
 ];

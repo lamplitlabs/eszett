@@ -208,6 +208,43 @@ export function writeTaskPrompt(topic: string, level: Level, register: 'formal' 
   ].join('\n');
 }
 
+const READING_EXAMPLE = [
+  'Titel: Ein Tag im Park',
+  '',
+  'Am Samstag gehen Lena und ihr Bruder Tim in den Park. Das Wetter ist schön und warm. Sie spielen Fußball und essen ein Eis. Um fünf Uhr fahren sie mit dem Bus nach Hause.',
+  '',
+  'Frage 1: Wann gehen Lena und Tim in den Park?',
+  'a) Am Samstag',
+  'b) Am Montag',
+  'c) Am Abend',
+  'Antwort: a',
+  'Frage 2: Was essen sie?',
+  'a) Pizza',
+  'b) Ein Eis',
+  'c) Brot',
+  'Antwort: b',
+  'Frage 3: Wie fahren sie nach Hause?',
+  'a) Mit dem Auto',
+  'b) Mit dem Fahrrad',
+  'c) Mit dem Bus',
+  'Antwort: c',
+].join('\n');
+
+export const READING_PREFILL = 'Titel:';
+
+/**
+ * A reading text with three multiple-choice questions, read by shape (src/harness/reading.ts). The text is in
+ * German whatever the learner's language; the labels are German too, so the model keeps to one language.
+ */
+export function readingPrompt(topic: string, level: Level, words: [number, number], variant = 0): string {
+  const t = topic.trim().replace(/[.!?]+$/, '');
+  const ask =
+    variant === 0
+      ? `Write a reading text in German for a German learner at ${level} level about ${t}: ${words[0]}-${words[1]} words, everyday language, in two or three short paragraphs, with a title. Then write exactly three comprehension questions in German about the text, each with three options a), b), c) and the right letter on a line "Antwort:".`
+      : `Make a reading exercise for a German learner at ${level} level on the topic ${t}. First a title line "Titel:", then a German text of ${words[0]}-${words[1]} words in two or three paragraphs, then three questions in German labelled "Frage 1:", "Frage 2:", "Frage 3:", each followed by three options a), b), c) and a line "Antwort:" with the letter of the right option.`;
+  return [ask, 'Use exactly the layout of the example and nothing else: no translation, no vocabulary list, no explanations.', '', 'Example (a shorter text, for A1):', READING_EXAMPLE].join('\n');
+}
+
 const CARD_EXAMPLE = [
   'Title (English): Perfekt with haben or sein?',
   'Title (German): Perfekt mit haben oder sein?',

@@ -52,7 +52,7 @@ function UnitRow({ unit, index, current, done, onPress }: { unit: PathUnit; inde
               </Txt>
             ) : null}
             <Txt variant="caption" style={{ color: finished ? c.green : current ? c.royal : c.inkFaint, marginTop: 2 }}>
-              {finished ? t('path.unitDone') : t('path.stepsOf', { done: steps, total })}
+              {t('path.week', { n: index + 1 })} · {finished ? t('path.unitDone') : t('path.stepsOf', { done: steps, total })}
             </Txt>
           </View>
           <ChevronRight size={18} color={c.inkFaint} />

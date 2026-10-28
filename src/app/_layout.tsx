@@ -224,6 +224,14 @@ export default function RootLayout() {
                 <Stack.Screen name="words" />
                 <Stack.Screen name="path/index" />
                 <Stack.Screen name="path/[unit]" />
+                <Stack.Screen name="read" />
+                <Stack.Screen
+                  name="path/check/[unit]"
+                  options={{
+                    presentation: "fullScreenModal",
+                    animation: "slide_from_bottom",
+                  }}
+                />
                 <Stack.Screen name="together/index" />
                 {["together/talk", "together/duel", "together/taboo", "together/story", "together/scrabble", "together/wordle"].map((name) => (
                   <Stack.Screen

@@ -1,14 +1,18 @@
-// Today's lesson. The tutor model plans it: it picks and orders four activities from the app's menu and
-// says why each one helps this learner. The app builds every activity itself (which noun, which scene,
-// which grammar topic), so a plan can never point at something the app cannot check. A fixed plan is
-// shown at once and replaced when the model's plan arrives; if the model is away, the fixed plan stays.
+// Today's lesson. While the course (src/harness/path.ts) has a week in progress, the lesson is that week's next
+// slice: up to four of its unfinished steps, in order, so the day's work is the course's work. Otherwise the tutor
+// model plans it: it picks and orders four activities from the app's menu and says why each one helps this
+// learner. The app builds every activity itself (which noun, which scene, which grammar topic), so a plan can
+// never point at something the app cannot check. A fixed plan is shown at once and replaced when the model's
+// plan arrives; if the model is away, the fixed plan stays.
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
+import { courseSlice, stepLabel, stepRoute } from '@/features/path';
 import { WORD_TOPICS, wordTopicLabel } from '@/features/topics';
 import type { DrillCategory } from '@/harness/drills';
 import { atOrBelow, type Level } from '@/harness/levels';
+import { levelProgress, parsePathParam, pathParam, unitByKey } from '@/harness/path';
 import { sceneTitle, type SceneCard } from '@/harness/roleplay';
 import { tasksFor } from '@/harness/writing';
 import { getLanguage, tIn } from '@/i18n';
@@ -18,6 +22,7 @@ import { cards, isReady, tutor } from '@/model/runtime';
 import scenesData from '@/data/scenes.json';
 import { authoredCards, authoredScenes, authoredTasks, topicsFor, useAuthored } from '@/state/authored';
 import { accuracy, type Area, useProgress } from '@/state/progress';
+import { useSettings } from '@/state/settings';
 import { dayKey, storage } from '@/state/storage';
 
 // the topics moved to src/features/topics.ts (pure, so the learning path and the tests can read them); kept here for the screens
@@ -25,11 +30,11 @@ export { WORD_TOPICS, wordTopicLabel } from '@/features/topics';
 
 export const scenes = scenesData as unknown as SceneCard[];
 
-export type ActivityType = 'articles' | 'plurals' | 'meanings' | 'verbs' | 'numbers' | 'clock' | 'dates' | 'prices' | 'grammar' | 'scene' | 'writing' | 'words';
+export type ActivityType = 'articles' | 'plurals' | 'meanings' | 'verbs' | 'numbers' | 'clock' | 'dates' | 'prices' | 'grammar' | 'scene' | 'writing' | 'words' | 'course';
 
 export interface Activity {
   type: ActivityType;
-  /** The card key, scene key, task id or topic the activity is about; drills have none. */
+  /** The card key, scene key, task id or topic the activity is about; drills have none; a course step carries `unit:step`. */
   item?: string;
   /** Title and detail as worded when the plan was made; `activityLabel` rewords them in the current language. */
   title: string;
@@ -94,6 +99,11 @@ function labelOf(type: ActivityType, level: Level, item: string | undefined, lan
     const task = [...tasksFor(level), ...authoredTasks()].find((t) => t.id === item);
     return task ? { title: localizeWriting(task, lang).title, detail: tIn(lang, 'lesson.writingDetail', { min: task.words[0], max: task.words[1] }) } : null;
   }
+  if (type === 'course') {
+    const ref = parsePathParam(item);
+    const unit = ref && unitByKey(ref.unit);
+    return unit && unit.steps[ref.step] ? stepLabel(unit, ref.step, lang) : null;
+  }
   return item ? { title: tIn(lang, 'lesson.wordsTitle', { topic: wordTopicLabel(item, lang) }), detail: tIn(lang, 'lesson.wordsDetail') } : null;
 }
 
@@ -150,11 +160,23 @@ export function fixedPlan(level: Level, salt: number): Activity[] {
   return order.map((t) => buildActivity(t, level, null, salt)).filter((a): a is Activity => a !== null);
 }
 
+/** The course's slice for today: the current week's next steps as activities, or null when the level's course is done. */
+export function coursePlan(level: Level): Activity[] | null {
+  const done = useProgress.getState().done;
+  const unit = levelProgress(level, done).current;
+  if (!unit) return null;
+  const lang = getLanguage();
+  const explainIn = useSettings.getState().explainIn;
+  const steps = courseSlice(unit, done, 4);
+  if (!steps.length) return null;
+  return steps.map((i) => ({ type: 'course' as const, item: pathParam(unit.key, i), ...stepLabel(unit, i, lang), why: null, href: stepRoute(unit, i, lang, explainIn) }));
+}
+
 interface LessonState {
   date: string;
   level: Level | null;
   activities: Activity[];
-  plannedBy: 'tutor' | 'app';
+  plannedBy: 'tutor' | 'app' | 'course';
   planning: boolean;
   ensure: (level: Level) => void;
   replan: (level: Level) => Promise<void>;
@@ -177,11 +199,19 @@ export const useLesson = create<LessonState>()(
           if (s.plannedBy === 'app' && !s.planning && isReady()) void get().replan(level);
           return;
         }
+        // the course's week comes first; the tutor plans a lesson only once the level's course is done
+        const course = coursePlan(level);
+        if (course) {
+          set({ date: today, level, activities: course, plannedBy: 'course' });
+          return;
+        }
         set({ date: today, level, activities: fixedPlan(level, saltOf(today)), plannedBy: 'app' });
         if (isReady()) void get().replan(level);
       },
       replan: async (level) => {
         if (get().planning) return;
+        // "plan again" on a course day gives the tutor's own plan for the rest of the day
+        if (get().plannedBy === 'course') set({ activities: fixedPlan(level, saltOf(dayKey())), plannedBy: 'app' });
         set({ planning: true });
         const today = dayKey();
         const weakest = weakestArea();

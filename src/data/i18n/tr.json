@@ -3345,8 +3345,10 @@
         null,
         null,
         "Almancada kendimi resmî ve samimi bir şekilde nasıl tanıtırım?",
+        "Almancada adımı nasıl hecelerim? Lütfen alfabeyi benimle birlikte gözden geçir.",
+        null,
         "ilk iş gününde yeni bir meslektaşla tanışıp kendini tanıtmak",
-        "Almancada adımı nasıl hecelerim? Lütfen alfabeyi benimle birlikte gözden geçir."
+        null
       ]
     },
     "a1-02": {
@@ -3359,13 +3361,17 @@
         null,
         null,
         "Ailemden nasıl söz ederim: isimler, yaşlar ve meslekler?",
-        "bir arkadaşına aile fotoğraflarını göstermek"
+        null,
+        "bir arkadaşına aile fotoğraflarını göstermek",
+        null
       ]
     },
     "a1-03": {
       "title": "Afiyet olsun!",
       "goal": "Bir kafede ya da restoranda yiyecek ve içecek sipariş edebilir, neyi sevdiğini söyleyebilir, bir şeyin fiyatını sorabilir ve hesabı ödeyebilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3382,9 +3388,11 @@
         null,
         null,
         null,
+        "Alışveriş yaparken welcher, welche, welches ve dieser, diese, dieses'i nasıl kullanırım?",
         null,
         null,
-        "Alışveriş yaparken welcher, welche, welches ve dieser, diese, dieses'i nasıl kullanırım?"
+        null,
+        null
       ]
     },
     "a1-05": {
@@ -3395,8 +3403,10 @@
         null,
         null,
         null,
+        "Günlük rutinimi, kalkıştan yatışa kadar nasıl anlatırım?",
         null,
-        "Günlük rutinimi, kalkıştan yatışa kadar nasıl anlatırım?"
+        null,
+        null
       ]
     },
     "a1-06": {
@@ -3406,14 +3416,18 @@
         null,
         null,
         null,
+        "Dairemi ve mobilyaların nerede olduğunu nasıl anlatırım?",
+        null,
         "kiralamak istediğin bir daire hakkında ev sahibine sorular sormak",
-        "Dairemi ve mobilyaların nerede olduğunu nasıl anlatırım?"
+        null
       ]
     },
     "a1-07": {
       "title": "Şehirde dolaşırken",
       "goal": "Yol sorabilir ve tarif edebilir, otobüs, tren ve taksi kullanabilir ve bir şehirdeki yerlerin adlarını söyleyebilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3428,8 +3442,10 @@
         null,
         null,
         null,
+        "Bir arkadaşımı nasıl davet eder, bir saat ve yer nasıl öneririm?",
         null,
-        "Bir arkadaşımı nasıl davet eder, bir saat ve yer nasıl öneririm?"
+        null,
+        null
       ]
     },
     "a1-09": {
@@ -3439,15 +3455,19 @@
         null,
         null,
         null,
+        "Almancada, örneğin hastayken, \"ben ... idim\" ve \"benim ... vardı\" nasıl derim: war ve hatte?",
         null,
         null,
-        "Almancada, örneğin hastayken, \"ben ... idim\" ve \"benim ... vardı\" nasıl derim: war ve hatte?"
+        null,
+        null
       ]
     },
     "a1-10": {
       "title": "Seyahat ve hava durumu",
       "goal": "Bilet alabilir, otele giriş yapabilir, hava durumundan söz edebilir ve bir gezide ne yaptığını Perfekt ile anlatabilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3466,7 +3486,9 @@
         null,
         null,
         "Geçen hafta sonunu nasıl anlatırım? Konuşurken hangi geçmiş zamanı kullanırım?",
-        "pazartesi sabahı bir meslektaşına hafta sonunu anlatmak"
+        null,
+        "pazartesi sabahı bir meslektaşına hafta sonunu anlatmak",
+        null
       ]
     },
     "a2-02": {
@@ -3478,13 +3500,17 @@
         null,
         null,
         null,
-        "bir arkadaşınla sürpriz parti planlamak"
+        "bir arkadaşınla sürpriz parti planlamak",
+        null,
+        null
       ]
     },
     "a2-03": {
       "title": "Birlikte yaşamak",
       "goal": "Evini ve ev düzenini anlatabilir, ev arkadaşlarınla ve komşularınla kurallar üzerinde anlaşabilir ve kapıcıdan ya da ev sahibinden bir şey isteyebilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3503,6 +3529,8 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3514,15 +3542,19 @@
         null,
         null,
         null,
+        "Ne yediğimi nasıl anlatır, miktarlarla ve emir kipiyle basit bir yemek tarifini nasıl veririm?",
         null,
         null,
-        "Ne yediğimi nasıl anlatır, miktarlarla ve emir kipiyle basit bir yemek tarifini nasıl veririm?"
+        null,
+        null
       ]
     },
     "a2-06": {
       "title": "Resmî daireler ve hizmetler",
       "goal": "Vatandaş bürosunda kayıt yaptırabilir, paket gönderebilir, kayıp bildiriminde bulunabilir, bir form doldurabilir ve kısa, resmî bir mesaj yazabilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3540,8 +3572,10 @@
         null,
         null,
         null,
+        "İşimden nasıl söz eder ve onu neden sevdiğimi nasıl söylerim?",
         null,
-        "İşimden nasıl söz eder ve onu neden sevdiğimi nasıl söylerim?"
+        null,
+        null
       ]
     },
     "a2-08": {
@@ -3554,7 +3588,9 @@
         null,
         null,
         null,
-        "turizm danışmada bir şehirde nelerin görülebileceğini sormak"
+        null,
+        "turizm danışmada bir şehirde nelerin görülebileceğini sormak",
+        null
       ]
     },
     "a2-09": {
@@ -3565,9 +3601,11 @@
         null,
         null,
         null,
-        null,
         "Bir şeyi anlamadığımda ya da bir kelimenin tekrarlanmasına ihtiyaç duyduğumda ne diyebilirim?",
-        "Günlük Almancada telefonumdan, bilgisayarımdan ve internetten nasıl söz ederim?"
+        "Günlük Almancada telefonumdan, bilgisayarımdan ve internetten nasıl söz ederim?",
+        null,
+        null,
+        null
       ]
     },
     "a2-10": {
@@ -3577,9 +3615,11 @@
         null,
         null,
         null,
+        "Goethe-Zertifikat A2 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?",
+        null,
         null,
         "bir arkadaşına tanıştığın bir kişiyi ve nasıl biri olduğunu anlatmak",
-        "Goethe-Zertifikat A2 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?"
+        null
       ]
     },
     "b1-01": {
@@ -3590,16 +3630,20 @@
         null,
         null,
         null,
+        "Ünlü bir kişinin kısa biyografisini Präteritum'da nasıl yazarım?",
+        "Hangi kalıplar bir sohbeti sürdürür: ilgi göstermek, karşı soru sormak, konuyu değiştirmek?",
         null,
         "yıllardır görmediğin eski bir okul arkadaşınla hasret gidermek",
-        "Ünlü bir kişinin kısa biyografisini Präteritum'da nasıl yazarım?",
-        "Hangi kalıplar bir sohbeti sürdürür: ilgi göstermek, karşı soru sormak, konuyu değiştirmek?"
+        null,
+        null
       ]
     },
     "b1-02": {
       "title": "İş ve kariyer",
       "goal": "İşini ve hedeflerini anlatabilir, hastalık bildirimi yapabilir, evden çalışmayı tartışabilir ve neden ile amaç belirtebilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3616,8 +3660,10 @@
         null,
         null,
         null,
+        "Almanca bir kira sözleşmesindeki en önemli kelimeler hangileri ve ne anlama geliyorlar?",
+        null,
         "gece geç saatteki gürültü hakkında bir komşuyla konuşma",
-        "Almanca bir kira sözleşmesindeki en önemli kelimeler hangileri ve ne anlama geliyorlar?"
+        null
       ]
     },
     "b1-04": {
@@ -3629,13 +3675,17 @@
         null,
         null,
         null,
-        "masa başında oturmaktan kaynaklanan sırt ağrısı hakkında bir doktorla konuşmak"
+        null,
+        "masa başında oturmaktan kaynaklanan sırt ağrısı hakkında bir doktorla konuşmak",
+        null
       ]
     },
     "b1-05": {
       "title": "Tüketim ve sözleşmeler",
       "goal": "Teklifleri karşılaştırabilir, reklamları anlayabilir, bir sözleşmeyi feshedebilir ve bir siparişten resmî bir mektupla şikâyet edebilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3650,14 +3700,18 @@
         null,
         null,
         null,
+        "Para hakkında konuşmak için hangi fiillere ihtiyacım var: ödemek, havale etmek, para çekmek, biriktirmek, borç almak?",
         null,
-        "Para hakkında konuşmak için hangi fiillere ihtiyacım var: ödemek, havale etmek, para çekmek, biriktirmek, borç almak?"
+        null,
+        null
       ]
     },
     "b1-07": {
       "title": "Ulaşım ve seyahat",
       "goal": "Bir araba tamiriyle ve kaçırılan bir aktarmayla başa çıkabilir, otelde şikâyette bulunabilir ve bir geziden önce, gezi sırasında ve sonrasında ne olduğunu anlatabilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3675,8 +3729,10 @@
         null,
         null,
         null,
+        "Almancada görüşümü nasıl bildirir, kibarca nasıl katılır ya da karşı çıkarım?",
+        null,
         "çocukların akıllı telefonu olup olmaması gerektiği hakkında bir arkadaşla tartışma",
-        "Almancada görüşümü nasıl bildirir, kibarca nasıl katılır ya da karşı çıkarım?"
+        null
       ]
     },
     "b1-09": {
@@ -3687,8 +3743,10 @@
         null,
         null,
         null,
+        "lernen, studieren ve üben arasındaki fark nedir?",
         null,
-        "lernen, studieren ve üben arasındaki fark nedir?"
+        null,
+        null
       ]
     },
     "b1-10": {
@@ -3699,10 +3757,12 @@
         null,
         null,
         null,
-        "ülkendeki bir bayramı Alman bir arkadaşına anlatmak",
         "Günlük hayatımda çevre için ne yaptığımı nasıl anlatırım?",
         "Kendi kültürümden nasıl söz eder ve onu Almanya'daki hayatla nasıl karşılaştırırım?",
-        "Goethe-Zertifikat B1 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?"
+        "Goethe-Zertifikat B1 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?",
+        null,
+        "ülkendeki bir bayramı Alman bir arkadaşına anlatmak",
+        null
       ]
     },
     "b2-01": {
@@ -3712,15 +3772,19 @@
         null,
         null,
         null,
+        "İş yerinde kısa bir sunumu nasıl yapılandırırım: açılış, genel bakış, ana bölüm, sonuç, sorular?",
         null,
         null,
-        "İş yerinde kısa bir sunumu nasıl yapılandırırım: açılış, genel bakış, ana bölüm, sonuç, sorular?"
+        null,
+        null
       ]
     },
     "b2-02": {
       "title": "Şehirde yaşamak",
       "goal": "Bir daireye bakabilir, daireyi teslim edip depozitoyu görüşebilir, şehir ile kırsalı karşılaştırabilir ve insanları ve nesneleri ortaçlarla tanımlayabilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3738,6 +3802,8 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3748,9 +3814,11 @@
         null,
         null,
         null,
+        "Almancadaki en önemli virgül kuralları nelerdir?",
         null,
         null,
-        "Almancadaki en önemli virgül kuralları nelerdir?"
+        null,
+        null
       ]
     },
     "b2-05": {
@@ -3760,8 +3828,10 @@
         null,
         null,
         null,
+        "Yeni bir ülkeye taşınma deneyimimi nasıl anlatırım?",
         null,
-        "Yeni bir ülkeye taşınma deneyimimi nasıl anlatırım?"
+        null,
+        null
       ]
     },
     "b2-06": {
@@ -3771,9 +3841,11 @@
         null,
         null,
         null,
-        "sokağındaki yeni bisiklet yolu hakkında bir komşuyla tartışma",
         "Almancada bir savı nasıl yapılandırırım: giriş, artılar, eksiler, sonuç?",
-        "İlgi cümlelerinde dessen ve deren'i nasıl kullanırım?"
+        "İlgi cümlelerinde dessen ve deren'i nasıl kullanırım?",
+        null,
+        "sokağındaki yeni bisiklet yolu hakkında bir komşuyla tartışma",
+        null
       ]
     },
     "b2-07": {
@@ -3783,8 +3855,10 @@
         null,
         null,
         null,
+        "Almancada bir grafiği ya da istatistiği nasıl anlatırım?",
+        null,
         "şirketinin nasıl daha az israf edebileceği hakkında bir meslektaşla konuşmak",
-        "Almancada bir grafiği ya da istatistiği nasıl anlatırım?"
+        null
       ]
     },
     "b2-08": {
@@ -3795,8 +3869,10 @@
         null,
         null,
         null,
+        "Hangi sıfatlar ve isimler stolz auf, Angst vor, zufrieden mit gibi sabit bir edat alır?",
+        null,
         "bir arkadaşına iş stresi hakkında tavsiye vermek",
-        "Hangi sıfatlar ve isimler stolz auf, Angst vor, zufrieden mit gibi sabit bir edat alır?"
+        null
       ]
     },
     "b2-09": {
@@ -3807,8 +3883,10 @@
         null,
         null,
         null,
+        "'Es war einmal' ile başlayan bir masal gibi, Präteritum'da bir hikâyeyi nasıl anlatırım?",
+        null,
         "bir arkadaşına bir film ya da kitap önerip nedenini açıklamak",
-        "'Es war einmal' ile başlayan bir masal gibi, Präteritum'da bir hikâyeyi nasıl anlatırım?"
+        null
       ]
     },
     "b2-10": {
@@ -3819,9 +3897,11 @@
         null,
         null,
         null,
-        "karakolda bir bisiklet hırsızlığını bildirmek",
         "Almancada bir metnin açık bir özetini nasıl yazarım? Hangi kalıplara ihtiyacım var?",
-        "Goethe-Zertifikat B2 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?"
+        "Goethe-Zertifikat B2 sınavının yapısı nasıl ve bu sınava nasıl hazırlanırım?",
+        null,
+        "karakolda bir bisiklet hırsızlığını bildirmek",
+        null
       ]
     },
     "c1-01": {
@@ -3831,9 +3911,11 @@
         null,
         null,
         null,
+        "İş yerinde resmî Almancayla pişmanlığımı nasıl dile getirir, yapıcı eleştiriyi nasıl yapar ve nasıl özür dilerim?",
         null,
         null,
-        "İş yerinde resmî Almancayla pişmanlığımı nasıl dile getirir, yapıcı eleştiriyi nasıl yapar ve nasıl özür dilerim?"
+        null,
+        null
       ]
     },
     "c1-02": {
@@ -3843,15 +3925,19 @@
         null,
         null,
         null,
-        null,
         "Bir Alman resmî kurumundan gelen yazıyı nasıl okurum? Tipik kalıplar ne anlama geliyor?",
-        "bedürfen, gedenken, sich erfreuen gibi hangi fiiller -in hali (Genitiv) alır ve bunlara nerede rastlanır?"
+        "bedürfen, gedenken, sich erfreuen gibi hangi fiiller -in hali (Genitiv) alır ve bunlara nerede rastlanır?",
+        null,
+        null,
+        null
       ]
     },
     "c1-03": {
       "title": "Siyaset ve medya",
       "goal": "Siyasi tartışmaları ve haber analizlerini takip edebilir, iddiaları ve varsayımları öznel kiplik fiillerle aktarabilir ve bir okur mektubu yazabilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3867,7 +3953,9 @@
         null,
         null,
         null,
-        "bir anketin sonuçlarını ekibine sunup soruları yanıtlamak"
+        "bir anketin sonuçlarını ekibine sunup soruları yanıtlamak",
+        null,
+        null
       ]
     },
     "c1-05": {
@@ -3877,8 +3965,10 @@
         null,
         null,
         null,
+        "Almancada iki tutumu nasıl tartar ve bir sonuca nasıl varırım?",
+        null,
         "köyünün yakınındaki rüzgâr türbinleri üzerine bir panel tartışması",
-        "Almancada iki tutumu nasıl tartar ve bir sonuca nasıl varırım?"
+        null
       ]
     },
     "c1-06": {
@@ -3888,8 +3978,10 @@
         null,
         null,
         null,
+        "Almancada bir kitabın ya da filmin üslubunu ve atmosferini nasıl anlatırım?",
+        null,
         "bir okuma kulübünde bir romanı tartışmak",
-        "Almancada bir kitabın ya da filmin üslubunu ve atmosferini nasıl anlatırım?"
+        null
       ]
     },
     "c1-07": {
@@ -3900,8 +3992,10 @@
         null,
         null,
         null,
+        "Göç ve entegrasyon politikasını, rakamlarla deneyimi birbirine karşı tartarak, nüanslı bir biçimde nasıl tartışırım?",
+        null,
         "mesleğinin yapay zekâyla nasıl değişeceği üzerine bir radyo röportajı",
-        "Göç ve entegrasyon politikasını, rakamlarla deneyimi birbirine karşı tartarak, nüanslı bir biçimde nasıl tartışırım?"
+        null
       ]
     },
     "c1-08": {
@@ -3911,15 +4005,19 @@
         null,
         null,
         null,
-        "arabasız şehir merkezi planını kuşkucu bir dükkân sahibine sunmak",
         "Bir toplantıda resmî bir öneriyi nasıl sunar ve itirazlara nasıl yanıt veririm?",
-        "Goethe-Zertifikat C1 ve TestDaF'ın yapısı nasıl ve bu sınavlara nasıl hazırlanırım?"
+        "Goethe-Zertifikat C1 ve TestDaF'ın yapısı nasıl ve bu sınavlara nasıl hazırlanırım?",
+        null,
+        "arabasız şehir merkezi planını kuşkucu bir dükkân sahibine sunmak",
+        null
       ]
     },
     "c2-01": {
       "title": "Kamuoyu önünde bilim",
       "goal": "Kendi araştırmanı bir gazeteciye açıklayabilir, yakın anlamlı sözcükleri kesin biçimde ayırt edebilir ve eleştirel sorularla rahatlıkla başa çıkabilirsin.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3934,6 +4032,8 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3944,8 +4044,10 @@
         null,
         null,
         null,
+        "Resmî bir itirazı (Einspruch ya da Widerspruch) nasıl yaparım ve hangi kalıplar gerekir?",
         null,
-        "Resmî bir itirazı (Einspruch ya da Widerspruch) nasıl yaparım ve hangi kalıplar gerekir?"
+        null,
+        null
       ]
     },
     "c2-04": {
@@ -3955,8 +4057,10 @@
         null,
         null,
         null,
+        "Aynı ricayı üç dil kaydında nasıl dile getiririm: bir arkadaşa, bir meslektaşa ve bir resmî kuruma?",
+        null,
         "makalenin tonu hakkında bir editörle konuşma",
-        "Aynı ricayı üç dil kaydında nasıl dile getiririm: bir arkadaşa, bir meslektaşa ve bir resmî kuruma?"
+        null
       ]
     },
     "c2-05": {
@@ -3966,7 +4070,9 @@
         null,
         null,
         null,
-        "büyükannenin komşusuyla şehrin 1960'lardan bu yana nasıl değiştiği hakkında konuşma"
+        null,
+        "büyükannenin komşusuyla şehrin 1960'lardan bu yana nasıl değiştiği hakkında konuşma",
+        null
       ]
     },
     "c2-06": {
@@ -3976,8 +4082,10 @@
         null,
         null,
         null,
+        "Almanca konuşmalarda hangi retorik araçlar işe yarar ve bunları tumturaklı durmadan nasıl kullanırım?",
         null,
-        "Almanca konuşmalarda hangi retorik araçlar işe yarar ve bunları tumturaklı durmadan nasıl kullanırım?"
+        null,
+        null
       ]
     },
     "c2-07": {
@@ -3988,7 +4096,9 @@
         null,
         null,
         null,
-        "sert eleştirini tiyatronun yönetmenine karşı savunmak"
+        "sert eleştirini tiyatronun yönetmenine karşı savunmak",
+        null,
+        null
       ]
     },
     "c2-08": {
@@ -3998,9 +4108,11 @@
         null,
         null,
         null,
-        "bir proje konusunda anlaşamayan iki meslektaş arasında arabuluculuk yapmak",
         "Almancada birine zayıf görünmeden diplomatik biçimde nasıl karşı çıkarım?",
-        "Goethe-Zertifikat C2'nin (Großes Deutsches Sprachdiplom) yapısı nasıl ve bu sınava nasıl hazırlanırım?"
+        "Goethe-Zertifikat C2'nin (Großes Deutsches Sprachdiplom) yapısı nasıl ve bu sınava nasıl hazırlanırım?",
+        null,
+        "bir proje konusunda anlaşamayan iki meslektaş arasında arabuluculuk yapmak",
+        null
       ]
     }
   }

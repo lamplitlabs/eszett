@@ -3345,8 +3345,10 @@
         null,
         null,
         "Jak przedstawić się po niemiecku, oficjalnie i nieoficjalnie?",
+        "Jak przeliterować swoje imię po niemiecku? Przejdź ze mną, proszę, przez alfabet.",
+        null,
         "poznawanie nowego kolegi z pracy pierwszego dnia i przedstawianie się",
-        "Jak przeliterować swoje imię po niemiecku? Przejdź ze mną, proszę, przez alfabet."
+        null
       ]
     },
     "a1-02": {
@@ -3359,13 +3361,17 @@
         null,
         null,
         "Jak opowiedzieć o swojej rodzinie: imiona, wiek i zawody?",
-        "pokazywanie znajomemu zdjęć swojej rodziny"
+        null,
+        "pokazywanie znajomemu zdjęć swojej rodziny",
+        null
       ]
     },
     "a1-03": {
       "title": "Smacznego!",
       "goal": "Zamówić jedzenie i picie w kawiarni lub restauracji, powiedzieć, co lubisz, zapytać, ile coś kosztuje, i zapłacić.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3382,9 +3388,11 @@
         null,
         null,
         null,
+        "Jak używać welcher, welche, welches oraz dieser, diese, dieses podczas zakupów?",
         null,
         null,
-        "Jak używać welcher, welche, welches oraz dieser, diese, dieses podczas zakupów?"
+        null,
+        null
       ]
     },
     "a1-05": {
@@ -3395,8 +3403,10 @@
         null,
         null,
         null,
+        "Jak opisać swój dzień, od wstania do pójścia spać?",
         null,
-        "Jak opisać swój dzień, od wstania do pójścia spać?"
+        null,
+        null
       ]
     },
     "a1-06": {
@@ -3406,14 +3416,18 @@
         null,
         null,
         null,
+        "Jak opisać swoje mieszkanie i to, gdzie stoją meble?",
+        null,
         "zadawanie wynajmującemu pytań o mieszkanie, które chcesz wynająć",
-        "Jak opisać swoje mieszkanie i to, gdzie stoją meble?"
+        null
       ]
     },
     "a1-07": {
       "title": "W mieście",
       "goal": "Zapytać o drogę i ją wskazać, korzystać z autobusów, pociągów i taksówek oraz nazwać miejsca w mieście.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3428,8 +3442,10 @@
         null,
         null,
         null,
+        "Jak zaprosić znajomego i zaproponować godzinę i miejsce?",
         null,
-        "Jak zaprosić znajomego i zaproponować godzinę i miejsce?"
+        null,
+        null
       ]
     },
     "a1-09": {
@@ -3439,15 +3455,19 @@
         null,
         null,
         null,
+        "Jak powiedzieć po niemiecku „byłem” i „miałem”, na przykład gdy byłem chory: war i hatte?",
         null,
         null,
-        "Jak powiedzieć po niemiecku „byłem” i „miałem”, na przykład gdy byłem chory: war i hatte?"
+        null,
+        null
       ]
     },
     "a1-10": {
       "title": "Podróże i pogoda",
       "goal": "Kupić bilet, zameldować się w hotelu, porozmawiać o pogodzie i opowiedzieć w Perfekcie, co wydarzyło się w podróży.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3466,7 +3486,9 @@
         null,
         null,
         "Jak opowiedzieć o minionym weekendzie? Jakiego czasu przeszłego używać w mowie?",
-        "opowiadanie koledze z pracy w poniedziałek rano o swoim weekendzie"
+        null,
+        "opowiadanie koledze z pracy w poniedziałek rano o swoim weekendzie",
+        null
       ]
     },
     "a2-02": {
@@ -3478,13 +3500,17 @@
         null,
         null,
         null,
-        "planowanie z przyjacielem przyjęcia-niespodzianki"
+        "planowanie z przyjacielem przyjęcia-niespodzianki",
+        null,
+        null
       ]
     },
     "a2-03": {
       "title": "Wspólne mieszkanie",
       "goal": "Opisać swój dom i gospodarstwo domowe, ustalić zasady ze współlokatorami i sąsiadami oraz poprosić o coś dozorcę lub wynajmującego.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3503,6 +3529,8 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3514,15 +3542,19 @@
         null,
         null,
         null,
+        "Jak opisać, co jem, i podać prosty przepis, z ilościami i trybem rozkazującym?",
         null,
         null,
-        "Jak opisać, co jem, i podać prosty przepis, z ilościami i trybem rozkazującym?"
+        null,
+        null
       ]
     },
     "a2-06": {
       "title": "Urzędy i usługi",
       "goal": "Zameldować się w urzędzie miasta, nadać paczkę, zgłosić zgubę, wypełnić formularz i napisać krótką oficjalną wiadomość.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3540,8 +3572,10 @@
         null,
         null,
         null,
+        "Jak opowiedzieć o swojej pracy i powiedzieć, dlaczego ją lubię?",
         null,
-        "Jak opowiedzieć o swojej pracy i powiedzieć, dlaczego ją lubię?"
+        null,
+        null
       ]
     },
     "a2-08": {
@@ -3554,7 +3588,9 @@
         null,
         null,
         null,
-        "pytanie w informacji turystycznej, co warto zobaczyć w mieście"
+        null,
+        "pytanie w informacji turystycznej, co warto zobaczyć w mieście",
+        null
       ]
     },
     "a2-09": {
@@ -3565,9 +3601,11 @@
         null,
         null,
         null,
-        null,
         "Co mogę powiedzieć, gdy czegoś nie rozumiem albo chcę, by ktoś powtórzył słowo?",
-        "Jak mówić o swoim telefonie, komputerze i internecie w codziennym niemieckim?"
+        "Jak mówić o swoim telefonie, komputerze i internecie w codziennym niemieckim?",
+        null,
+        null,
+        null
       ]
     },
     "a2-10": {
@@ -3577,9 +3615,11 @@
         null,
         null,
         null,
+        "Jak zbudowany jest egzamin Goethe-Zertifikat A2 i jak się do niego przygotować?",
+        null,
         null,
         "opowiadanie znajomemu o nowo poznanej osobie i o tym, jaka jest",
-        "Jak zbudowany jest egzamin Goethe-Zertifikat A2 i jak się do niego przygotować?"
+        null
       ]
     },
     "b1-01": {
@@ -3590,16 +3630,20 @@
         null,
         null,
         null,
+        "Jak napisać krótką biografię znanej osoby w Präteritum?",
+        "Jakie zwroty podtrzymują rozmowę: okazywanie zainteresowania, dopytywanie, zmiana tematu?",
         null,
         "spotkanie po latach ze starym znajomym ze szkoły i nadrabianie zaległości",
-        "Jak napisać krótką biografię znanej osoby w Präteritum?",
-        "Jakie zwroty podtrzymują rozmowę: okazywanie zainteresowania, dopytywanie, zmiana tematu?"
+        null,
+        null
       ]
     },
     "b1-02": {
       "title": "Praca i kariera",
       "goal": "Opisać swoją pracę i cele, zgłosić chorobę w pracy, dyskutować o pracy zdalnej oraz podawać powody i cele.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3616,8 +3660,10 @@
         null,
         null,
         null,
+        "Jakie są najważniejsze słowa w niemieckiej umowie najmu i co znaczą?",
+        null,
         "rozmowa z sąsiadem o hałasie późnym wieczorem",
-        "Jakie są najważniejsze słowa w niemieckiej umowie najmu i co znaczą?"
+        null
       ]
     },
     "b1-04": {
@@ -3629,13 +3675,17 @@
         null,
         null,
         null,
-        "rozmowa z lekarzem o bólu pleców od siedzenia przy biurku"
+        null,
+        "rozmowa z lekarzem o bólu pleców od siedzenia przy biurku",
+        null
       ]
     },
     "b1-05": {
       "title": "Konsumpcja i umowy",
       "goal": "Porównać oferty, zrozumieć reklamę, wypowiedzieć umowę i złożyć reklamację zamówienia w oficjalnym liście.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3650,14 +3700,18 @@
         null,
         null,
         null,
+        "Jakich czasowników potrzebuję, by mówić o pieniądzach: płacić, przelewać, wypłacać, oszczędzać, pożyczać?",
         null,
-        "Jakich czasowników potrzebuję, by mówić o pieniądzach: płacić, przelewać, wypłacać, oszczędzać, pożyczać?"
+        null,
+        null
       ]
     },
     "b1-07": {
       "title": "Mobilność i podróże",
       "goal": "Załatwić naprawę samochodu i poradzić sobie z utraconym połączeniem, złożyć reklamację w hotelu oraz opowiedzieć, co działo się przed podróżą, w jej trakcie i po niej.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3675,8 +3729,10 @@
         null,
         null,
         null,
+        "Jak wyrazić swoją opinię i uprzejmie zgodzić się lub nie zgodzić po niemiecku?",
+        null,
         "dyskusja ze znajomym o tym, czy dzieci powinny mieć smartfony",
-        "Jak wyrazić swoją opinię i uprzejmie zgodzić się lub nie zgodzić po niemiecku?"
+        null
       ]
     },
     "b1-09": {
@@ -3687,8 +3743,10 @@
         null,
         null,
         null,
+        "Jaka jest różnica między lernen, studieren i üben?",
         null,
-        "Jaka jest różnica między lernen, studieren i üben?"
+        null,
+        null
       ]
     },
     "b1-10": {
@@ -3699,10 +3757,12 @@
         null,
         null,
         null,
-        "wyjaśnianie niemieckiemu znajomemu, na czym polega święto z twojego kraju",
         "Jak powiedzieć, co robię na co dzień dla środowiska?",
         "Jak opowiedzieć o własnej kulturze i porównać ją z życiem w Niemczech?",
-        "Jak zbudowany jest egzamin Goethe-Zertifikat B1 i jak się do niego przygotować?"
+        "Jak zbudowany jest egzamin Goethe-Zertifikat B1 i jak się do niego przygotować?",
+        null,
+        "wyjaśnianie niemieckiemu znajomemu, na czym polega święto z twojego kraju",
+        null
       ]
     },
     "b2-01": {
@@ -3712,15 +3772,19 @@
         null,
         null,
         null,
+        "Jak zbudować krótką prezentację w pracy: otwarcie, przegląd, część główna, zakończenie, pytania?",
         null,
         null,
-        "Jak zbudować krótką prezentację w pracy: otwarcie, przegląd, część główna, zakończenie, pytania?"
+        null,
+        null
       ]
     },
     "b2-02": {
       "title": "Życie w mieście",
       "goal": "Obejrzeć mieszkanie, zdać je i omówić kaucję, porównać miasto i wieś oraz opisywać ludzi i rzeczy za pomocą imiesłowów.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3738,6 +3802,8 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3748,9 +3814,11 @@
         null,
         null,
         null,
+        "Jakie są najważniejsze zasady stawiania przecinków w języku niemieckim?",
         null,
         null,
-        "Jakie są najważniejsze zasady stawiania przecinków w języku niemieckim?"
+        null,
+        null
       ]
     },
     "b2-05": {
@@ -3760,8 +3828,10 @@
         null,
         null,
         null,
+        "Jak opowiedzieć o swoich doświadczeniach z przeprowadzki do nowego kraju?",
         null,
-        "Jak opowiedzieć o swoich doświadczeniach z przeprowadzki do nowego kraju?"
+        null,
+        null
       ]
     },
     "b2-06": {
@@ -3771,9 +3841,11 @@
         null,
         null,
         null,
-        "dyskusja z sąsiadem o nowej ścieżce rowerowej na twojej ulicy",
         "Jak zbudować argumentację po niemiecku: wstęp, argumenty za, argumenty przeciw, wniosek?",
-        "Jak używać dessen i deren w zdaniach względnych?"
+        "Jak używać dessen i deren w zdaniach względnych?",
+        null,
+        "dyskusja z sąsiadem o nowej ścieżce rowerowej na twojej ulicy",
+        null
       ]
     },
     "b2-07": {
@@ -3783,8 +3855,10 @@
         null,
         null,
         null,
+        "Jak opisać wykres lub statystyki po niemiecku?",
+        null,
         "rozmowa z kolegą z pracy o tym, jak wasza firma mogłaby mniej marnować",
-        "Jak opisać wykres lub statystyki po niemiecku?"
+        null
       ]
     },
     "b2-08": {
@@ -3795,8 +3869,10 @@
         null,
         null,
         null,
+        "Jakie przymiotniki i rzeczowniki łączą się ze stałym przyimkiem, jak stolz auf, Angst vor, zufrieden mit?",
+        null,
         "doradzanie znajomemu w sprawie stresu w pracy",
-        "Jakie przymiotniki i rzeczowniki łączą się ze stałym przyimkiem, jak stolz auf, Angst vor, zufrieden mit?"
+        null
       ]
     },
     "b2-09": {
@@ -3807,8 +3883,10 @@
         null,
         null,
         null,
+        "Jak opowiedzieć historię w Präteritum, na przykład baśń, która zaczyna się od 'Es war einmal'?",
+        null,
         "polecanie znajomemu filmu lub książki i wyjaśnianie, dlaczego warto",
-        "Jak opowiedzieć historię w Präteritum, na przykład baśń, która zaczyna się od 'Es war einmal'?"
+        null
       ]
     },
     "b2-10": {
@@ -3819,9 +3897,11 @@
         null,
         null,
         null,
-        "zgłaszanie kradzieży roweru na posterunku policji",
         "Jak napisać po niemiecku jasne streszczenie tekstu? Jakich zwrotów potrzebuję?",
-        "Jak zbudowany jest egzamin Goethe-Zertifikat B2 i jak się do niego przygotować?"
+        "Jak zbudowany jest egzamin Goethe-Zertifikat B2 i jak się do niego przygotować?",
+        null,
+        "zgłaszanie kradzieży roweru na posterunku policji",
+        null
       ]
     },
     "c1-01": {
@@ -3831,9 +3911,11 @@
         null,
         null,
         null,
+        "Jak wyrazić ubolewanie, konstruktywnie skrytykować i przeprosić w oficjalnej niemczyźnie w pracy?",
         null,
         null,
-        "Jak wyrazić ubolewanie, konstruktywnie skrytykować i przeprosić w oficjalnej niemczyźnie w pracy?"
+        null,
+        null
       ]
     },
     "c1-02": {
@@ -3843,15 +3925,19 @@
         null,
         null,
         null,
-        null,
         "Jak czytać pismo z niemieckiego urzędu? Co znaczą typowe zwroty?",
-        "Jakie czasowniki łączą się z dopełniaczem, jak bedürfen, gedenken, sich erfreuen, i gdzie się pojawiają?"
+        "Jakie czasowniki łączą się z dopełniaczem, jak bedürfen, gedenken, sich erfreuen, i gdzie się pojawiają?",
+        null,
+        null,
+        null
       ]
     },
     "c1-03": {
       "title": "Polityka i media",
       "goal": "Śledzić debatę polityczną i analizy wiadomości, relacjonować twierdzenia i przypuszczenia za pomocą czasowników modalnych w użyciu subiektywnym oraz napisać list do redakcji.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3867,7 +3953,9 @@
         null,
         null,
         null,
-        "prezentowanie zespołowi wyników ankiety i odpowiadanie na pytania"
+        "prezentowanie zespołowi wyników ankiety i odpowiadanie na pytania",
+        null,
+        null
       ]
     },
     "c1-05": {
@@ -3877,8 +3965,10 @@
         null,
         null,
         null,
+        "Jak rozważyć dwa stanowiska i dojść do wniosku po niemiecku?",
+        null,
         "dyskusja panelowa o turbinach wiatrowych w pobliżu twojej wsi",
-        "Jak rozważyć dwa stanowiska i dojść do wniosku po niemiecku?"
+        null
       ]
     },
     "c1-06": {
@@ -3888,8 +3978,10 @@
         null,
         null,
         null,
+        "Jak opisać po niemiecku styl i nastrój książki lub filmu?",
+        null,
         "dyskusja o powieści w klubie książki",
-        "Jak opisać po niemiecku styl i nastrój książki lub filmu?"
+        null
       ]
     },
     "c1-07": {
@@ -3900,8 +3992,10 @@
         null,
         null,
         null,
+        "Jak dyskutować o polityce migracyjnej i integracyjnej z wyczuciem niuansów, zestawiając liczby z doświadczeniem?",
+        null,
         "wywiad radiowy o tym, jak twój zawód zmieni się pod wpływem AI",
-        "Jak dyskutować o polityce migracyjnej i integracyjnej z wyczuciem niuansów, zestawiając liczby z doświadczeniem?"
+        null
       ]
     },
     "c1-08": {
@@ -3911,15 +4005,19 @@
         null,
         null,
         null,
-        "przedstawianie sceptycznemu właścicielowi sklepu planu centrum bez samochodów",
         "Jak oficjalnie przedstawić propozycję na zebraniu i odpowiedzieć na zastrzeżenia?",
-        "Jak zbudowane są egzaminy Goethe-Zertifikat C1 i TestDaF i jak się do nich przygotować?"
+        "Jak zbudowane są egzaminy Goethe-Zertifikat C1 i TestDaF i jak się do nich przygotować?",
+        null,
+        "przedstawianie sceptycznemu właścicielowi sklepu planu centrum bez samochodów",
+        null
       ]
     },
     "c2-01": {
       "title": "Nauka w przestrzeni publicznej",
       "goal": "Wyjaśnić dziennikarzowi własne badania, precyzyjnie rozróżniać wyrazy bliskoznaczne oraz swobodnie radzić sobie z krytycznymi pytaniami.",
       "steps": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3934,6 +4032,8 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3944,8 +4044,10 @@
         null,
         null,
         null,
+        "Jak złożyć formalny sprzeciw (Einspruch lub Widerspruch) i jakich zwrotów to wymaga?",
         null,
-        "Jak złożyć formalny sprzeciw (Einspruch lub Widerspruch) i jakich zwrotów to wymaga?"
+        null,
+        null
       ]
     },
     "c2-04": {
@@ -3955,8 +4057,10 @@
         null,
         null,
         null,
+        "Jak sformułować tę samą prośbę w trzech rejestrach: do przyjaciela, do kolegi z pracy i do urzędu?",
+        null,
         "rozmowa z redaktorem o tonie twojego artykułu",
-        "Jak sformułować tę samą prośbę w trzech rejestrach: do przyjaciela, do kolegi z pracy i do urzędu?"
+        null
       ]
     },
     "c2-05": {
@@ -3966,7 +4070,9 @@
         null,
         null,
         null,
-        "rozmowa z sąsiadką twojej babci o tym, jak miasto zmieniło się od lat sześćdziesiątych"
+        null,
+        "rozmowa z sąsiadką twojej babci o tym, jak miasto zmieniło się od lat sześćdziesiątych",
+        null
       ]
     },
     "c2-06": {
@@ -3976,8 +4082,10 @@
         null,
         null,
         null,
+        "Jakie środki retoryczne działają w niemieckich przemówieniach i jak ich używać, nie brzmiąc napuszenie?",
         null,
-        "Jakie środki retoryczne działają w niemieckich przemówieniach i jak ich używać, nie brzmiąc napuszenie?"
+        null,
+        null
       ]
     },
     "c2-07": {
@@ -3988,7 +4096,9 @@
         null,
         null,
         null,
-        "obrona swojej surowej recenzji przed dyrektorem teatru"
+        "obrona swojej surowej recenzji przed dyrektorem teatru",
+        null,
+        null
       ]
     },
     "c2-08": {
@@ -3998,9 +4108,11 @@
         null,
         null,
         null,
-        "mediacja między dwojgiem kolegów, którzy spierają się o projekt",
         "Jak dyplomatycznie nie zgodzić się z kimś po niemiecku, nie brzmiąc słabo?",
-        "Jak zbudowany jest egzamin Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) i jak się do niego przygotować?"
+        "Jak zbudowany jest egzamin Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) i jak się do niego przygotować?",
+        null,
+        "mediacja między dwojgiem kolegów, którzy spierają się o projekt",
+        null
       ]
     }
   }
