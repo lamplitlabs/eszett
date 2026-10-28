@@ -2,9 +2,6 @@
   "name": "eszett",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "overrides": {
-    "vite": "8.3.5"
-  },
   "dependencies": {
     "@expo-google-fonts/fira-sans": "^0.4.1",
     "@expo-google-fonts/vollkorn": "^0.4.1",
