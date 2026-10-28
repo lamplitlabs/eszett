@@ -67,7 +67,45 @@ export function stepLabel(unit: PathUnit, step: number, lang: AppLang = getLangu
       return { title: tIn(lang, 'path.readTitle', { topic: wordTopicLabel(s.topic, lang) }), detail: tIn(lang, 'path.readDetail') };
     case 'check':
       return { title: tIn(lang, 'path.checkTitle'), detail: tIn(lang, 'path.checkDetail', { count: checkPitfalls(s.cards).length }) };
+    case 'speak':
+      return { title: tIn(lang, 'path.speakTitle', { count: speakSentences(s).length }), detail: tIn(lang, 'path.speakDetail') };
   }
+}
+
+export interface SpeakSentence {
+  /** The German sentence to say. */
+  text: string;
+  /** Its gloss in English (a card's example) or null (a scene line; the scene's situation is the context). */
+  gloss: string | null;
+  /** Where it comes from: the scene or card key, and for a scene its situation in English. */
+  source: { kind: 'scene'; key: string; situation: string } | { kind: 'card'; key: string };
+}
+
+const MAX_SPEAK = 8;
+
+/**
+ * The sentences of the week's speaking step: the first line of each beat of the week's scenes (what the learner
+ * says in the situation), then the grammar cards' example sentences, up to eight, in a fixed order.
+ */
+export function speakSentences(step: { scenes: string[]; cards: string[] }): SpeakSentence[] {
+  const out: SpeakSentence[] = [];
+  for (const key of step.scenes) {
+    const scene = scenes.find((c) => c.key === key);
+    if (!scene) continue;
+    for (const beat of scene.beats) {
+      const line = beat.learner[0];
+      if (line) out.push({ text: line, gloss: null, source: { kind: 'scene', key, situation: scene.situation_en } });
+    }
+  }
+  const sceneLines = out.length;
+  for (const key of step.cards) {
+    const card = grammar.find((c) => c.key === key);
+    if (!card) continue;
+    for (const [de, en] of card.examples) out.push({ text: de, gloss: en, source: { kind: 'card', key } });
+  }
+  // half the room for scene lines, the rest for examples, so neither crowds the other out
+  const scenePart = out.slice(0, Math.min(sceneLines, MAX_SPEAK - Math.min(MAX_SPEAK / 2, out.length - sceneLines)));
+  return [...scenePart, ...out.slice(sceneLines)].slice(0, MAX_SPEAK);
 }
 
 /** The sentences of the week's check: the typical mistakes of its grammar cards, in card order. */

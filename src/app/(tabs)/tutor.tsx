@@ -8,6 +8,7 @@ import { SafeAreaView } from 'react-native-screens/experimental';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { prepare, QuestionTranslationError, useChat, type Message, type Mode, type TutorMessage } from '@/features/chat';
+import { useFieldDictation } from '@/features/dictation';
 import { statusLabel, tutorLine, useModelPercent } from '@/features/modelStatus';
 import type { Level } from '@/harness/levels';
 import { pathDoneKey } from '@/harness/path';
@@ -379,6 +380,8 @@ export default function TutorScreen() {
   const pct = useModelPercent();
   const [text, setText] = useState('');
   const [mode, setMode] = useState<Mode>('auto');
+  // a German sentence to check can be spoken; questions are typed (the recognizer listens for German only)
+  const dictation = useFieldDictation(text, setText);
   // The last question the translator refused to carry: kept as a draft, not sent. The banner over the composer
   // explains what happened and Try again re-sends it verbatim; clearing the conversation clears it too.
   const [failedQuestion, setFailedQuestion] = useState<string | null>(null);
@@ -475,6 +478,7 @@ export default function TutorScreen() {
             onStop={stop}
             busy={busy}
             german={mode === 'check'}
+            dictation={mode === 'check' ? dictation : undefined}
             placeholder={t(current.placeholder, { name: LANGUAGE_NAMES[translationTarget(explainIn)] })}
             above={
               <View style={{ gap: space.s }}>

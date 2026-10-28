@@ -5,7 +5,7 @@ import { describe, expect, it } from 'vitest';
 import grammarCards from '../../data/grammar.json';
 import pathData from '../../data/path.json';
 import scenes from '../../data/scenes.json';
-import { checkPitfalls, courseSlice, stepLabel, stepRoute } from '../../features/path';
+import { checkPitfalls, courseSlice, speakSentences, stepLabel, stepRoute } from '../../features/path';
 import { WORD_TOPIC_KEY, WORD_TOPICS, wordTopicLabel } from '../../features/topics';
 import { localizePathUnit } from '../../i18n/content';
 import { LANGUAGES } from '../../i18n/languages';
@@ -52,9 +52,12 @@ describe('the course data', () => {
         else if (s.kind === 'ownScene') expect(s.situation_en && s.situation_de, where).toBeTruthy();
         else if (s.kind === 'read') {
           expect(WORD_TOPICS[u.level], `${where} ${s.topic}`).toContain(s.topic);
-        } else {
+        } else if (s.kind === 'check') {
           expect(s.cards.length, where).toBeGreaterThan(0);
           for (const card of s.cards) expect(cardKeys.has(card), `${where} ${card}`).toBe(true);
+        } else {
+          for (const card of s.cards) expect(cardKeys.has(card), `${where} ${card}`).toBe(true);
+          for (const scene of s.scenes) expect(sceneKeys.has(scene), `${where} ${scene}`).toBe(true);
         }
       }
     }
@@ -64,8 +67,21 @@ describe('the course data', () => {
     for (const u of PATH_UNITS) {
       const kinds = u.steps.map((s) => s.kind);
       expect(kinds.filter((k) => k === 'read'), u.key).toHaveLength(1);
+      expect(kinds.filter((k) => k === 'speak'), u.key).toHaveLength(1);
       expect(kinds.filter((k) => k === 'check'), u.key).toHaveLength(1);
       expect(kinds[kinds.length - 1], u.key).toBe('check');
+      // the speaking step opens the Sprechen section, before the week's scenes
+      const speakAt = kinds.indexOf('speak');
+      const firstScene = kinds.findIndex((k) => k === 'scene' || k === 'ownScene');
+      if (firstScene >= 0) expect(speakAt, u.key).toBe(firstScene - 1);
+      const speak = u.steps[speakAt];
+      if (speak.kind === 'speak') {
+        expect(speak.scenes).toEqual(u.steps.filter((s) => s.kind === 'scene').map((s) => (s.kind === 'scene' ? s.scene : '')));
+        const sentences = speakSentences(speak);
+        expect(sentences.length, u.key).toBeGreaterThanOrEqual(3);
+        expect(sentences.length, u.key).toBeLessThanOrEqual(8);
+        for (const x of sentences) expect(x.text.trim(), u.key).not.toBe('');
+      }
       const order = u.steps.map((s) => SKILLS.indexOf(stepSkill(s)));
       expect(order, `${u.key} is in week order`).toEqual([...order].sort((a, b) => a - b));
       const groups = stepsBySkill(u);
@@ -201,6 +217,8 @@ describe('routes and labels', () => {
     expect(stepHref(a1, read)).toBe(`/read?topic=greetings%20and%20introductions&path=a1-01%3A${read}`);
     expect(stepHref(a1, own)).toBe(`/scenes?own=${encodeURIComponent('meeting a new colleague on your first day and introducing yourself')}&path=a1-01%3A${own}`);
     expect(stepHref(a1, check)).toBe(`/path/check/a1-01?path=a1-01%3A${check}`);
+    const speak = idx('speak');
+    expect(stepHref(a1, speak)).toBe(`/speak?unit=a1-01&path=a1-01%3A${speak}`);
     const a1_3 = unitByKey('a1-03')!;
     const sceneAt = a1_3.steps.findIndex((s) => s.kind === 'scene');
     const writeAt = a1_3.steps.findIndex((s) => s.kind === 'write');
@@ -236,6 +254,7 @@ describe('routes and labels', () => {
         if (s.kind === 'words') expect(stepLabel(u, i, 'en').title).toBe(`Words: ${s.topic}`);
         if (s.kind === 'read') expect(stepLabel(u, i, 'de').title).toBe(`Text: ${wordTopicLabel(s.topic, 'de')}`);
         if (s.kind === 'check') expect(stepLabel(u, i, 'en').detail).toMatch(/^Fix the week's typical mistakes: \d+ sentences$/);
+        if (s.kind === 'speak') expect(stepLabel(u, i, 'en').title).toMatch(/^Say it: \d sentences$/);
       });
   });
 });
@@ -268,5 +287,20 @@ describe('translations', () => {
         });
       }
     }
+  });
+});
+
+describe('the speaking step', () => {
+  it('takes the scenes\' learner lines first, then the cards\' examples with their glosses, up to eight', () => {
+    const a1 = unitByKey('a1-03')!; // two scenes, one card
+    const step = a1.steps.find((s) => s.kind === 'speak');
+    expect(step?.kind).toBe('speak');
+    if (step?.kind !== 'speak') return;
+    const sentences = speakSentences(step);
+    expect(sentences).toHaveLength(8);
+    expect(sentences.slice(0, 4).every((x) => x.source.kind === 'scene' && x.gloss === null)).toBe(true);
+    expect(sentences.slice(4).every((x) => x.source.kind === 'card' && typeof x.gloss === 'string')).toBe(true);
+    expect(speakSentences({ scenes: [], cards: ['kein-nicht'] }).map((x) => x.text)).toEqual(['Ich habe keine Zeit und kein Geld.', 'Ich verstehe das nicht.', 'Das ist nicht der richtige Weg.', 'Sie kommt heute nicht.']);
+    expect(speakSentences({ scenes: ['no-such-scene'], cards: ['no-such-card'] })).toEqual([]);
   });
 });

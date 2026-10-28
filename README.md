@@ -475,15 +475,16 @@ What **C2** rests on:
 
 **Today › Your course** (and the first row of Practice) is a guided course for the learner's level, one week at a
 time: `src/data/path.json` holds 56 weeks — ten each for A1, A2, B1 and B2, eight each for C1 and C2 — and
-`src/harness/path.ts` reads them. A week is a German title, a can-do goal and six to ten steps grouped by skill in
+`src/harness/path.ts` reads them. A week is a German title, a can-do goal and seven to eleven steps grouped by skill in
 the rhythm a course book keeps (`SKILLS`, `stepsBySkill`): **Wortschatz** (a word list, `/words?topic=`),
 **Grammatik** (a card), **Üben** (a drill), **Fragen** (a question for the Tutor tab, `/tutor?q=`, prefilled in the
 composer, sent in the tutor's language and shown in the app's), **Lesen & Hören** (a text the tutor writes,
-`/read?topic=`), **Sprechen** (a scene, or a scene the tutor writes for a given situation, `/scenes?own=`),
+`/read?topic=`), **Sprechen** (the week's sentences to say, `/speak?unit=`, then a scene, or a scene the tutor
+writes for a given situation, `/scenes?own=`),
 **Schreiben** (a writing task) and the **Lerncheck** (`/path/check/<week>`). Each route carries
 `path=<week>:<step>`, and the screen marks `path:<week>:<step>` done in the progress store the way it marks the
 daily lesson's activities (the drill's last item, the card's exercises, the scene's end, the sent text, the finished
-list, the question sent, the scene written, the three questions answered, the check finished). A grammar card, scene
+list, the question sent, the sentences said, the scene written, the three questions answered, the check finished). A grammar card, scene
 or task finished outside the course counts for its step too (`stepDone`), so nothing is asked twice. Nothing is
 locked: the course screen (`src/app/path/index.tsx`) marks the first unfinished week as current, the week screen
 (`src/app/path/[unit].tsx`) its first unfinished step, and when every week of a level is done the course offers to
@@ -502,6 +503,22 @@ words, like the other authoring drafts) — the text's nouns are checked against
 questions are checked by the app, never by the model. The text stays hidden at first so the learner can listen to it
 (the device's German voice) before reading it; every word of the text opens the word sheet; the score goes to the
 `reading` area of the progress store (Me › Progress).
+
+**Sprechen** (`src/app/speak.tsx`, `src/features/dictation.ts`, `src/harness/speaking.ts`): every week's Sprechen
+section opens with the sentences to say — the first line of each beat of the week's scenes (what the learner says
+in the situation) and the grammar cards' example sentences, up to eight (`speakSentences`). The phone's German
+voice reads a sentence, the learner says it, and the phone's own speech recognizer (Apple's SFSpeechRecognizer /
+Android's SpeechRecognizer through `expo-speech-recognition`, `de-DE`, **on the device only** — recognition that
+would send audio to a server is never requested, so a phone without the offline German pack is told so and, on
+Android 13+, offered the download) writes down what it heard; `compareSpoken` normalises both sides the way the
+drills compare answers, spells the recognizer's digits out, aligns the words by longest common subsequence and
+shows the sentence with the words that were not heard underlined — four words in five count as clear, and the
+score goes to the `speaking` progress area. Without a usable recognizer (the web, no permission, no pack) the step is
+listen-and-repeat, marked by hand. The same recognizer is the **microphone in the composer** (`src/ui/Composer.tsx`
+`dictation`, `useFieldDictation`): the learner can speak their line in a scene, a sentence to check in the Tutor
+tab, and the German in Talk and Story; what is heard replaces what was typed since the mic was pressed, and can be
+edited before sending. `expo-speech-recognition` is a native module, so like llama.rn it needs a development
+build; its config plugin (`app.json`) adds the microphone and speech-recognition permission texts.
 
 **Lerncheck** (`src/app/path/check/[unit].tsx`): the week's grammar cards' typical mistakes, up to eight in a fixed
 shuffle, to fix one by one — a fix that matches the card's answer counts at once, a different sentence goes to the
@@ -928,19 +945,20 @@ src/app/                 screens (Expo Router)
   onboarding.tsx, review.tsx, words.tsx, drill/, grammar/ ([key] and new), scene/, word/, write/ ([id] and new)
   path/                  the course: index (the level's weeks), [unit] (a week's steps by skill), check/[unit] (the week's Lerncheck); see "The learning path"
   read.tsx               Lesen & Hören: the text the tutor writes on a topic, listen first, three questions checked by the app
+  speak.tsx              Sprechen: the week's sentences to listen to and say, checked word by word against what the phone's recognizer heard
   together/              practising together: index (hub), talk, duel, taboo, story, scrabble, wordle (see "Practising together")
 src/model/
   manifest.ts            editions (Q5_K_M, Q8_0), sizes, the storage URLs, "does this edition fit this phone", "is this our model" (pure TS, tested)
   files.ts               Documents/models, download tasks (pause state persisted), sideload scan, picker, lexicon file
   engine.ts              llama.rn: load, metadata, cache primes (home prefix, typing-time prepare), greedy streaming generation, the queue; engine.web.ts stub
   runtime.ts             zustand store: status machine, boot (auto-download), download (size check), useLocal (header check), remove; the Tutor instance
-src/harness/             prompts, grounding, parsers, lexicon, engines, rules, role-play, writing, authoring (model-written scenes, tasks, cards, topics), together (talking points, Taboo, story chain, duel), template renderer, path (the course's weeks, skills, progress and routes; pure, tested), reading (the reading draft read by shape)
-src/features/            lesson planning (the course's slice first, the tutor's plan after), topics (the word-list topics per level), path + CourseCard (the course's labels, routes, today's slice, the check's sentences and the Today card), chat, scene icons, AuthorBox (the "your tutor writes it" box), modelStatus (status wording), access + accessRules + accessBind + purchases (the free week and the one-time purchase), release + releaseRules (the update check), review + reviewRules (the store-review ask), together (the two names, sessions played), the self-test battery
+src/harness/             prompts, grounding, parsers, lexicon, engines, rules, role-play, writing, authoring (model-written scenes, tasks, cards, topics), together (talking points, Taboo, story chain, duel), template renderer, path (the course's weeks, skills, progress and routes; pure, tested), reading (the reading draft read by shape), speaking (what was heard against the sentence to say)
+src/features/            lesson planning (the course's slice first, the tutor's plan after), topics (the word-list topics per level), path + CourseCard (the course's labels, routes, today's slice, the check's and the speaking step's sentences and the Today card), dictation (the phone's German speech recognizer, on the device, for the composer's microphone and the speaking step), chat, scene icons, AuthorBox (the "your tutor writes it" box), modelStatus (status wording), access + accessRules + accessBind + purchases (the free week and the one-time purchase), release + releaseRules (the update check), review + reviewRules (the store-review ask), together (the two names, sessions played), the self-test battery
 src/i18n/                t()/tIn()/useI18n, languages, plural rules, catalogs, bind (device locale, RTL, explainIn), content (localised cards, scenes, rules, lexicon, levels, writing tasks), locales/<lang>.json
 src/mt/                  translation on this phone (ML Kit): store (one language pack, session cache), bind, languages (who it is for, when a question is translated), markdown (German-protecting line translation), question (German-protecting question translation), glossary, useTranslated
 modules/eszett-translate/  the local Expo module over ML Kit Translate: Kotlin (android/), Swift + podspec (ios/), index.ts
 src/state/               settings (edition, download source, chosen file, automatic download, language, explainIn; migrations in settingsMigration.ts), progress, saved words, authored (content the model wrote on this phone)
-src/ui/                  theme, type, red pen, check footers, Markdown, Mark (the ß), the lamp glow (model status), DrillAnswer (article buttons, choices, answer field shared by the drills and the duel), KeyboardAvoider (keeps composers above the keyboard; Android is edge-to-edge, so adjustResize alone does nothing)
+src/ui/                  theme, type, red pen, check footers, Markdown, Mark (the ß), the lamp glow (model status), DrillAnswer (article buttons, choices, answer field shared by the drills and the duel), Composer (the writing field with the dictation microphone), KeyboardAvoider (keeps composers above the keyboard; Android is edge-to-edge, so adjustResize alone does nothing)
 src/data/                grounding.json, lexicon-core.json, model.json (prompt, template, GGUF editions), scenes, grammar, rules, path.json (the course's weeks), together.json (talking points); i18n/<lang>.json content overlays (+ en.source.json, generated)
 assets/images, assets/brand   the icons and the mark's SVG source
 scripts/build-data.mjs   rebuilds src/data from the Hub and the export manifest in our storage

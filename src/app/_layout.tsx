@@ -226,6 +226,13 @@ export default function RootLayout() {
                 <Stack.Screen name="path/[unit]" />
                 <Stack.Screen name="read" />
                 <Stack.Screen
+                  name="speak"
+                  options={{
+                    presentation: "fullScreenModal",
+                    animation: "slide_from_bottom",
+                  }}
+                />
+                <Stack.Screen
                   name="path/check/[unit]"
                   options={{
                     presentation: "fullScreenModal",

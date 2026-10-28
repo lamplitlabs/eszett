@@ -1,4 +1,4 @@
-import { ArrowUp, Square } from 'lucide-react-native';
+import { ArrowUp, Mic, Square } from 'lucide-react-native';
 import { forwardRef, type ReactNode } from 'react';
 import { Platform, TextInput, View } from 'react-native';
 
@@ -20,10 +20,12 @@ interface Props {
   /** Write German in Vollkorn (role-play lines, sentences to check). */
   german?: boolean;
   disabled?: boolean;
+  /** A microphone that dictates into the field (German, on the phone); `listening` while a turn runs. */
+  dictation?: { listening: boolean; onPress: () => void };
 }
 
 /** The writing field at the bottom of a conversation. While the tutor writes, send turns into stop. */
-export const Composer = forwardRef<TextInput, Props>(function Composer({ value, onChange, onSend, onStop, busy, placeholder, above, german, disabled }, ref) {
+export const Composer = forwardRef<TextInput, Props>(function Composer({ value, onChange, onSend, onStop, busy, placeholder, above, german, disabled, dictation }, ref) {
   const { c } = useTheme();
   const { t } = useI18n();
   const canSend = value.trim().length > 0 && !busy && !disabled;
@@ -31,6 +33,18 @@ export const Composer = forwardRef<TextInput, Props>(function Composer({ value, 
     <View style={{ paddingHorizontal: space.m, paddingTop: space.s, paddingBottom: space.s, backgroundColor: c.paper, borderTopWidth: 1, borderTopColor: c.rule, gap: space.s }}>
       {above}
       <View style={{ flexDirection: 'row', alignItems: 'flex-end', gap: space.s }}>
+        {dictation ? (
+          <Press
+            onPress={() => {
+              haptic.soft();
+              dictation.onPress();
+            }}
+            disabled={disabled}
+            accessibilityLabel={dictation.listening ? t('ui.stopDictation') : t('ui.dictate')}
+            style={{ width: 46, height: 46, borderRadius: 23, backgroundColor: dictation.listening ? c.red : c.sheetAlt, alignItems: 'center', justifyContent: 'center' }}>
+            {dictation.listening ? <Square size={16} color={c.paper} fill={c.paper} /> : <Mic size={21} color={c.ink} strokeWidth={2.2} />}
+          </Press>
+        ) : null}
         <View style={{ flex: 1, minHeight: 46, maxHeight: 140, borderRadius: radius.control + 4, backgroundColor: c.sheet, borderWidth: 1, borderColor: c.rule, paddingHorizontal: space.l, justifyContent: 'center' }}>
           <TextInput
             ref={ref}

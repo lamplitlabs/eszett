@@ -3347,6 +3347,7 @@
         "Como eu me apresento em alemão, de modo formal e informal?",
         "Como eu soletro o meu nome em alemão? Por favor, repasse o alfabeto comigo.",
         null,
+        null,
         "conhecer um novo colega no seu primeiro dia e se apresentar",
         null
       ]
@@ -3362,6 +3363,7 @@
         null,
         "Como eu falo sobre a minha família: nomes, idades e profissões?",
         null,
+        null,
         "mostrar fotos da sua família a um amigo",
         null
       ]
@@ -3370,6 +3372,7 @@
       "title": "Bom apetite!",
       "goal": "Pedir comida e bebida em um café ou restaurante, dizer do que você gosta, perguntar quanto custa algo e pagar.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3392,6 +3395,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3406,6 +3410,7 @@
         "Como eu descrevo a minha rotina diária, desde a hora de levantar até a hora de dormir?",
         null,
         null,
+        null,
         null
       ]
     },
@@ -3418,6 +3423,7 @@
         null,
         "Como eu descrevo o meu apartamento e onde ficam os móveis?",
         null,
+        null,
         "fazer perguntas a um proprietário sobre um apartamento que você quer alugar",
         null
       ]
@@ -3426,6 +3432,7 @@
       "title": "Pela cidade",
       "goal": "Pedir e dar informações sobre o caminho, usar ônibus, trens e táxis, e nomear os lugares de uma cidade.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3445,6 +3452,7 @@
         "Como eu convido um amigo e sugiro uma hora e um lugar?",
         null,
         null,
+        null,
         null
       ]
     },
@@ -3459,6 +3467,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3466,6 +3475,7 @@
       "title": "Viagens e tempo",
       "goal": "Comprar uma passagem, fazer check-in em um hotel, falar sobre o tempo e contar o que você fez em uma viagem, no Perfekt.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3487,6 +3497,7 @@
         null,
         "Como eu conto o que aconteceu no último fim de semana? Que tempo do passado eu uso quando falo?",
         null,
+        null,
         "contar a um colega, na segunda-feira de manhã, como foi o seu fim de semana",
         null
       ]
@@ -3495,6 +3506,7 @@
       "title": "Comemorações e convites",
       "goal": "Convidar pessoas, aceitar ou recusar um convite, falar sobre presentes e comemorações, e escrever um convite.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3517,6 +3529,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3524,6 +3537,7 @@
       "title": "Comprar e reclamar",
       "goal": "Comparar produtos e preços, pedir ajuda com educação, trocar ou devolver algo e reclamar de uma refeição.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3546,6 +3560,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3553,6 +3568,7 @@
       "title": "Repartições e serviços",
       "goal": "Fazer o registro de residência no Bürgeramt, enviar uma encomenda, comunicar a perda de algo, preencher um formulário e escrever uma mensagem formal curta.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3575,6 +3591,7 @@
         "Como eu falo sobre o meu trabalho e digo por que gosto dele?",
         null,
         null,
+        null,
         null
       ]
     },
@@ -3582,6 +3599,7 @@
       "title": "Em viagem e de férias",
       "goal": "Planejar uma viagem, alugar uma bicicleta ou comprar uma passagem, descrever umas férias e dizer o que você vai fazer no próximo verão.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3605,6 +3623,7 @@
         "Como eu falo sobre o meu celular, o meu computador e a internet no alemão do dia a dia?",
         null,
         null,
+        null,
         null
       ]
     },
@@ -3616,6 +3635,7 @@
         null,
         null,
         "Como é estruturado o exame Goethe-Zertifikat A2, e como eu me preparo para ele?",
+        null,
         null,
         null,
         "contar a um amigo sobre uma pessoa que você conheceu e como ela é",
@@ -3633,6 +3653,7 @@
         "Como eu escrevo uma breve biografia de uma pessoa famosa no Präteritum?",
         "Que expressões mantêm a conversa fluindo: demonstrar interesse, perguntar de volta, mudar de assunto?",
         null,
+        null,
         "colocar a conversa em dia com um velho amigo de escola que você não vê há anos",
         null,
         null
@@ -3642,6 +3663,7 @@
       "title": "Trabalho e carreira",
       "goal": "Descrever o seu trabalho e os seus objetivos, avisar que está doente, discutir o trabalho em casa e expressar motivos e finalidades.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3662,6 +3684,7 @@
         null,
         "Quais são as palavras mais importantes de um contrato de aluguel alemão, e o que elas significam?",
         null,
+        null,
         "uma conversa com um vizinho sobre barulho tarde da noite",
         null
       ]
@@ -3670,6 +3693,7 @@
       "title": "Saúde e alimentação",
       "goal": "Falar sobre alimentação saudável, esporte e estresse, descrever sintomas com precisão, e expressar contraste e concessão.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3690,6 +3714,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3703,6 +3728,7 @@
         "De quais verbos eu preciso para falar de dinheiro: pagar, transferir, sacar, poupar, pedir emprestado?",
         null,
         null,
+        null,
         null
       ]
     },
@@ -3710,6 +3736,7 @@
       "title": "Mobilidade e viagens",
       "goal": "Resolver um conserto do carro e uma conexão perdida, reclamar em um hotel, e contar o que aconteceu antes, durante e depois de uma viagem.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3731,6 +3758,7 @@
         null,
         "Como eu dou a minha opinião e concordo ou discordo com educação em alemão?",
         null,
+        null,
         "uma discussão com um amigo sobre se as crianças deveriam ter smartphone",
         null
       ]
@@ -3744,6 +3772,7 @@
         null,
         null,
         "Qual é a diferença entre lernen, studieren e üben?",
+        null,
         null,
         null,
         null
@@ -3761,6 +3790,7 @@
         "Como eu falo sobre a minha própria cultura e a comparo com a vida na Alemanha?",
         "Como é estruturado o exame Goethe-Zertifikat B1, e como eu me preparo para ele?",
         null,
+        null,
         "explicar uma festa do seu país a um amigo alemão",
         null
       ]
@@ -3773,6 +3803,7 @@
         null,
         null,
         "Como eu estruturo uma apresentação curta no trabalho: abertura, visão geral, parte principal, conclusão, perguntas?",
+        null,
         null,
         null,
         null,
@@ -3789,6 +3820,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3796,6 +3828,7 @@
       "title": "Consumidores e contratos",
       "goal": "Reclamar de uma conta, uma entrega ou um serviço por telefone e por escrito, e dizer o que deve, pode ou deveria ser feito usando a passiva.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3818,6 +3851,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3829,6 +3863,7 @@
         null,
         null,
         "Como eu falo sobre a minha experiência de me mudar para um novo país?",
+        null,
         null,
         null,
         null
@@ -3844,6 +3879,7 @@
         "Como eu estruturo uma argumentação em alemão: introdução, prós, contras, conclusão?",
         "Como eu uso dessen e deren em orações relativas?",
         null,
+        null,
         "uma discussão com um vizinho sobre uma nova ciclovia na sua rua",
         null
       ]
@@ -3856,6 +3892,7 @@
         null,
         null,
         "Como eu descrevo um gráfico ou uma estatística em alemão?",
+        null,
         null,
         "conversar com um colega sobre como a sua empresa poderia desperdiçar menos",
         null
@@ -3871,6 +3908,7 @@
         null,
         "Quais adjetivos e substantivos levam uma preposição fixa, como stolz auf, Angst vor, zufrieden mit?",
         null,
+        null,
         "dar conselhos a um amigo sobre o estresse no trabalho",
         null
       ]
@@ -3884,6 +3922,7 @@
         null,
         null,
         "Como eu conto uma história no Präteritum, como um conto de fadas que começa com “Es war einmal”?",
+        null,
         null,
         "recomendar um filme ou um livro a um amigo e explicar por quê",
         null
@@ -3900,6 +3939,7 @@
         "Como eu escrevo um resumo claro de um texto em alemão? De quais expressões eu preciso?",
         "Como é estruturado o exame Goethe-Zertifikat B2, e como eu me preparo para ele?",
         null,
+        null,
         "registrar o roubo de uma bicicleta na delegacia",
         null
       ]
@@ -3912,6 +3952,7 @@
         null,
         null,
         "Como eu expresso pesar, faço críticas construtivas e peço desculpas em alemão formal no trabalho?",
+        null,
         null,
         null,
         null,
@@ -3929,6 +3970,7 @@
         "Quais verbos regem o genitivo, como bedürfen, gedenken, sich erfreuen, e onde eles aparecem?",
         null,
         null,
+        null,
         null
       ]
     },
@@ -3942,6 +3984,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3949,6 +3992,7 @@
       "title": "Pesquisa e ciência",
       "goal": "Entender textos e palestras acadêmicos, apresentar resultados e números, e usar as alternativas à passiva do alemão científico.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -3967,6 +4011,7 @@
         null,
         "Como eu pondero duas posições e chego a uma conclusão em alemão?",
         null,
+        null,
         "um debate em painel sobre turbinas eólicas perto do seu vilarejo",
         null
       ]
@@ -3979,6 +4024,7 @@
         null,
         null,
         "Como eu descrevo o estilo e a atmosfera de um livro ou filme em alemão?",
+        null,
         null,
         "discutir um romance em um clube de leitura",
         null
@@ -3994,6 +4040,7 @@
         null,
         "Como eu discuto a política de migração e integração com nuances, confrontando os números com a experiência?",
         null,
+        null,
         "uma entrevista de rádio sobre como a sua profissão vai mudar com a IA",
         null
       ]
@@ -4008,6 +4055,7 @@
         "Como eu faço uma proposta formal em uma reunião e respondo a objeções?",
         "Como são estruturados o Goethe-Zertifikat C1 e o TestDaF, e como eu me preparo para eles?",
         null,
+        null,
         "apresentar um plano de centro sem carros a um lojista cético",
         null
       ]
@@ -4021,6 +4069,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4028,6 +4077,7 @@
       "title": "Negociação e contratos",
       "goal": "Negociar um contrato cláusula por cláusula, usar com naturalidade as construções com verbo-suporte do alemão empresarial, e contestar uma decisão por escrito.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4047,6 +4097,7 @@
         "Como eu apresento uma contestação formal (Einspruch ou Widerspruch), e de quais expressões ela precisa?",
         null,
         null,
+        null,
         null
       ]
     },
@@ -4059,6 +4110,7 @@
         null,
         "Como eu faço o mesmo pedido em três registros: a um amigo, a um colega e a uma repartição pública?",
         null,
+        null,
         "uma conversa com um editor sobre o tom do seu artigo",
         null
       ]
@@ -4067,6 +4119,7 @@
       "title": "Narrar e lembrar",
       "goal": "Contar e analisar histórias, usar os tempos narrativos e o discurso indireto livre, e discutir história e memória.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4085,6 +4138,7 @@
         "Que recursos retóricos funcionam em discursos em alemão, e como eu os uso sem soar pomposo?",
         null,
         null,
+        null,
         null
       ]
     },
@@ -4092,6 +4146,7 @@
       "title": "Arte e crítica",
       "goal": "Resenhar uma exposição, um livro ou um espetáculo, usar o Nachfeld e a extraposição para dar ênfase, e expressar nuances finas de julgamento.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4110,6 +4165,7 @@
         null,
         "Como eu discordo de alguém diplomaticamente em alemão sem parecer fraco?",
         "Como é estruturado o Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom), e como eu me preparo para ele?",
+        null,
         null,
         "mediar entre dois colegas que discordam sobre um projeto",
         null

@@ -5,6 +5,7 @@ import { ScrollView, View } from 'react-native';
 import Animated, { FadeIn, FadeInDown, LinearTransition } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { useFieldDictation } from '@/features/dictation';
 import { lessonKey, scenes } from '@/features/lesson';
 import { glossInAppLanguage } from '@/features/sceneGloss';
 import { SceneIcon } from '@/features/sceneIcons';
@@ -113,6 +114,7 @@ export default function SceneScreen() {
   const opening: Turn = { id: 'opening', who: 'them', german: card.opening, gloss: shown.opening_gloss, status: 'done' };
   const [turns, setTurns] = useState<Turn[]>([opening]);
   const [text, setText] = useState('');
+  const dictation = useFieldDictation(text, setText);
   const [busy, setBusy] = useState(false);
   const [briefOpen, setBriefOpen] = useState(true);
   const [phrases, setPhrases] = useState<{ status: 'idle' | 'loading' | 'done' | 'error'; items: Phrase[]; error?: string }>({ status: 'idle', items: [] });
@@ -469,6 +471,7 @@ export default function SceneScreen() {
             onSend={() => void send(text)}
             busy={busy}
             german
+            dictation={dictation}
             disabled={connection !== 'ready'}
             placeholder={connection === 'ready' ? t('scene.answerPlaceholder', { name: role }) : connection === 'absent' ? t('scene.tutorAbsent') : t('scene.tutorNotReady')}
             above={

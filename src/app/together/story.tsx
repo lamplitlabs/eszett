@@ -5,6 +5,7 @@ import { ScrollView, TextInput, View } from 'react-native';
 import Animated, { FadeIn, FadeInDown, ZoomIn } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { useFieldDictation } from '@/features/dictation';
 import { notReadyNote, useModelPercent } from '@/features/modelStatus';
 import { PlayerNames } from '@/features/PlayerNames';
 import { playerName, useTogether } from '@/features/together';
@@ -53,6 +54,7 @@ export default function StoryScreen() {
 
   const [lines, setLines] = useState<StoryLine[]>(() => [opener(level)]);
   const [text, setText] = useState('');
+  const dictation = useFieldDictation(text, setText);
   const [ended, setEnded] = useState(false);
   const [naming, setNaming] = useState(false);
   const input = useRef<TextInput>(null);
@@ -271,6 +273,7 @@ export default function StoryScreen() {
         ref={input}
         value={text}
         onChange={setText}
+        dictation={dictation}
         onSend={() => void add(text)}
         onStop={() => abort.current?.abort()}
         busy={checking}

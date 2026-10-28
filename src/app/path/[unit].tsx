@@ -3,7 +3,7 @@
 // existing screen with the `path` parameter; the screen marks the step done when the learner finishes.
 
 import { router, useLocalSearchParams } from 'expo-router';
-import { ArrowRight, BookOpen, BookOpenText, Check, ChevronRight, ClipboardCheck, ListChecks, MessageCircle, NotebookPen, PartyPopper, Sparkles, Users, WholeWord, type LucideIcon } from 'lucide-react-native';
+import { ArrowRight, BookOpen, BookOpenText, Check, ChevronRight, ClipboardCheck, ListChecks, MessageCircle, Mic, NotebookPen, PartyPopper, Sparkles, Users, WholeWord, type LucideIcon } from 'lucide-react-native';
 import { useEffect, useRef } from 'react';
 import { ScrollView, View } from 'react-native';
 import Animated, { FadeIn, FadeInDown, ZoomIn } from 'react-native-reanimated';
@@ -31,6 +31,7 @@ const KIND: Record<PathStepKind, { icon: LucideIcon; label: string; tone: keyof 
   ownScene: { icon: Sparkles, label: 'path.kindScene', tone: 'amberInk', tint: 'amberTint' },
   write: { icon: NotebookPen, label: 'path.kindWrite', tone: 'red', tint: 'redTint' },
   check: { icon: ClipboardCheck, label: 'path.kindCheck', tone: 'royal', tint: 'royalTint' },
+  speak: { icon: Mic, label: 'path.kindSpeak', tone: 'die', tint: 'dieTint' },
 };
 
 const SKILL_LABEL: Record<Skill, string> = {

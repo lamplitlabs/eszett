@@ -38,6 +38,14 @@
     "topic": "greetings and introductions"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "sein-haben-praesens",
+     "w-fragen-ja-nein-fragen"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "meeting a new colleague on your first day and introducing yourself",
     "situation_de": "einen neuen Kollegen am ersten Arbeitstag kennenlernen und dich vorstellen"
@@ -89,6 +97,14 @@
     "topic": "the family"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "possessivartikel",
+     "verb-zweitstellung"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "showing a friend photos of your family",
     "situation_de": "einer Freundin Fotos von deiner Familie zeigen"
@@ -125,6 +141,16 @@
    {
     "kind": "read",
     "topic": "food and drink"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "cafe",
+     "restaurant_booking"
+    ],
+    "cards": [
+     "artikel-nominativ-akkusativ"
+    ]
    },
    {
     "kind": "scene",
@@ -180,6 +206,17 @@
     "topic": "clothes"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "bakery",
+     "supermarket"
+    ],
+    "cards": [
+     "pluralformen",
+     "kein-nicht"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "bakery"
    },
@@ -230,6 +267,16 @@
     "topic": "the daily routine"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "late_friend"
+    ],
+    "cards": [
+     "trennbare-verben",
+     "vokalwechsel"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "late_friend"
    },
@@ -272,6 +319,13 @@
     "topic": "the flat"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "zeit-und-ortsangaben"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "asking a landlord questions about a flat you want to rent",
     "situation_de": "einem Vermieter Fragen zu einer Wohnung stellen, die du mieten möchtest"
@@ -307,6 +361,16 @@
    {
     "kind": "read",
     "topic": "the city"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "directions",
+     "taxi"
+    ],
+    "cards": [
+     "imperativ"
+    ]
    },
    {
     "kind": "scene",
@@ -354,6 +418,15 @@
     "topic": "hobbies and sport"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "cinema"
+    ],
+    "cards": [
+     "modalverben"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "cinema"
    },
@@ -393,6 +466,16 @@
    {
     "kind": "read",
     "topic": "the body and health"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "doctor_phone",
+     "pharmacy"
+    ],
+    "cards": [
+     "genus-endungen"
+    ]
    },
    {
     "kind": "scene",
@@ -437,6 +520,16 @@
    {
     "kind": "read",
     "topic": "transport and travel"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "train_ticket",
+     "hotel_checkin"
+    ],
+    "cards": [
+     "perfekt-haben-sein"
+    ]
    },
    {
     "kind": "scene",
@@ -492,6 +585,13 @@
     "topic": "free time"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "praeteritum-sein-haben-modalverben"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "telling a colleague on Monday morning about your weekend",
     "situation_de": "einem Kollegen am Montagmorgen vom Wochenende erzählen"
@@ -531,6 +631,14 @@
    {
     "kind": "read",
     "topic": "celebrations and invitations"
+   },
+   {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "personalpronomen-akkusativ-dativ",
+     "dativ-plural-n"
+    ]
    },
    {
     "kind": "ownScene",
@@ -573,6 +681,17 @@
    {
     "kind": "read",
     "topic": "the household"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "flatmate_kitchen",
+     "landlord_washing",
+     "neighbour_plants"
+    ],
+    "cards": [
+     "wechselpraepositionen"
+    ]
    },
    {
     "kind": "scene",
@@ -627,6 +746,17 @@
     "topic": "shopping"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "return_item",
+     "cold_soup"
+    ],
+    "cards": [
+     "komparativ-superlativ",
+     "hoefliche-bitten-konjunktiv-ii"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "return_item"
    },
@@ -677,6 +807,16 @@
     "topic": "health and the doctor"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "dentist"
+    ],
+    "cards": [
+     "reflexive-verben",
+     "dativ-verben-praepositionen"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "dentist"
    },
@@ -716,6 +856,17 @@
    {
     "kind": "read",
     "topic": "the post office and the bank"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "buergeramt",
+     "post_office",
+     "lost_property"
+    ],
+    "cards": [
+     "dass-ob"
+    ]
    },
    {
     "kind": "scene",
@@ -775,6 +926,16 @@
     "topic": "work"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "cafe_job"
+    ],
+    "cards": [
+     "seit-vor-fuer",
+     "weil-denn-da"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "cafe_job"
    },
@@ -818,6 +979,15 @@
    {
     "kind": "read",
     "topic": "holidays"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "bike_rental"
+    ],
+    "cards": [
+     "futur-i"
+    ]
    },
    {
     "kind": "scene",
@@ -875,6 +1045,16 @@
     "topic": "school and learning"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "library"
+    ],
+    "cards": [
+     "kennen-wissen-koennen",
+     "adjektivendungen"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "library"
    },
@@ -915,6 +1095,15 @@
    {
     "kind": "read",
     "topic": "feelings and character"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "hairdresser"
+    ],
+    "cards": [
+     "nebensatz-verbende"
+    ]
    },
    {
     "kind": "scene",
@@ -972,6 +1161,14 @@
     "topic": "relationships and family life"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "praeteritum-perfekt",
+     "als-wenn-wann"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "catching up with an old school friend you have not seen for years",
     "situation_de": "einen alten Schulfreund wiedertreffen, den du seit Jahren nicht gesehen hast"
@@ -1016,6 +1213,16 @@
    {
     "kind": "read",
     "topic": "work and career"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "sick_call"
+    ],
+    "cards": [
+     "um-zu-damit",
+     "zu-infinitiv"
+    ]
    },
    {
     "kind": "scene",
@@ -1068,6 +1275,14 @@
     "topic": "housing and renting"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "relativpronomen",
+     "genitiv"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a conversation with a neighbour about noise late at night",
     "situation_de": "ein Gespräch mit einem Nachbarn über Lärm spät am Abend"
@@ -1114,6 +1329,14 @@
     "topic": "nutrition and sport"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "trotzdem-obwohl",
+     "n-deklination"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "talking to a doctor about back pain from sitting at a desk",
     "situation_de": "mit einer Ärztin über Rückenschmerzen vom Sitzen am Schreibtisch sprechen"
@@ -1150,6 +1373,15 @@
    {
     "kind": "read",
     "topic": "consumption and advertising"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "mobile_cancel"
+    ],
+    "cards": [
+     "indirekte-fragen"
+    ]
    },
    {
     "kind": "scene",
@@ -1197,6 +1429,15 @@
     "topic": "money and banking"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "bank_account"
+    ],
+    "cards": [
+     "passiv-praesens"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "bank_account"
    },
@@ -1235,6 +1476,18 @@
    {
     "kind": "read",
     "topic": "travel and tourism"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "garage",
+     "travel_centre",
+     "hotel_noise"
+    ],
+    "cards": [
+     "nachdem-bevor-waehrend",
+     "plusquamperfekt"
+    ]
    },
    {
     "kind": "scene",
@@ -1291,6 +1544,13 @@
     "topic": "the digital world"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "verben-mit-praepositionen-da-wo"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a discussion with a friend about whether children should have smartphones",
     "situation_de": "eine Diskussion mit einer Freundin darüber, ob Kinder Smartphones haben sollten"
@@ -1335,6 +1595,14 @@
    {
     "kind": "read",
     "topic": "education"
+   },
+   {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "konjunktiv-ii",
+     "lassen"
+    ]
    },
    {
     "kind": "write",
@@ -1393,6 +1661,13 @@
     "topic": "the environment"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "zweiteilige-konnektoren"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "explaining a festival from your country to a German friend",
     "situation_de": "einem deutschen Freund ein Fest aus deinem Land erklären"
@@ -1435,6 +1710,15 @@
     "topic": "the workplace"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "job_interview"
+    ],
+    "cards": [
+     "konjunktiv-ii-vergangenheit"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "job_interview"
    },
@@ -1473,6 +1757,16 @@
    {
     "kind": "read",
     "topic": "city and countryside"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "flat_viewing",
+     "flat_handover"
+    ],
+    "cards": [
+     "partizip-i-ii-als-adjektiv"
+    ]
    },
    {
     "kind": "scene",
@@ -1517,6 +1811,17 @@
    {
     "kind": "read",
     "topic": "the economy"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "utility_bill",
+     "parcel_complaint"
+    ],
+    "cards": [
+     "passiv-mit-modalverben",
+     "passiv-werden-sein"
+    ]
    },
    {
     "kind": "scene",
@@ -1569,6 +1874,15 @@
     "topic": "technology"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "internet_hotline"
+    ],
+    "cards": [
+     "konnektoren-indem-sodass-ohne-dass"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "internet_hotline"
    },
@@ -1612,6 +1926,15 @@
    {
     "kind": "read",
     "topic": "migration and integration"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "immigration_office"
+    ],
+    "cards": [
+     "genitivpraepositionen"
+    ]
    },
    {
     "kind": "scene",
@@ -1660,6 +1983,13 @@
     "topic": "society and politics"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "relativsaetze-praepositionen-wo-was"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a discussion with a neighbour about a new cycle lane in your street",
     "situation_de": "eine Diskussion mit einem Nachbarn über einen neuen Radweg in eurer Straße"
@@ -1700,6 +2030,13 @@
    {
     "kind": "read",
     "topic": "climate change"
+   },
+   {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "futur-vermutung"
+    ]
    },
    {
     "kind": "ownScene",
@@ -1748,6 +2085,14 @@
     "topic": "psychology and personality"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "irreale-vergleiche-als-ob",
+     "modalpartikeln"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "giving a friend advice about stress at work",
     "situation_de": "einer Freundin Rat bei Stress im Beruf geben"
@@ -1793,6 +2138,13 @@
    {
     "kind": "read",
     "topic": "culture and art"
+   },
+   {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "konjunktiv-i-redewiedergabe"
+    ]
    },
    {
     "kind": "ownScene",
@@ -1846,6 +2198,13 @@
     "topic": "crime and justice"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "untrennbare-praefixe"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "reporting a bicycle theft at the police station",
     "situation_de": "einen Fahrraddiebstahl bei der Polizei anzeigen"
@@ -1886,6 +2245,15 @@
    {
     "kind": "read",
     "topic": "the world of work"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "salary_negotiation"
+    ],
+    "cards": [
+     "nominalstil-verbalstil"
+    ]
    },
    {
     "kind": "scene",
@@ -1938,6 +2306,15 @@
     "topic": "law and bureaucracy"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "rent_increase"
+    ],
+    "cards": [
+     "partizipialattribut"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "rent_increase"
    },
@@ -1972,6 +2349,15 @@
    {
     "kind": "read",
     "topic": "politics and the media"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "town_hall_traffic"
+    ],
+    "cards": [
+     "subjektive-modalverben"
+    ]
    },
    {
     "kind": "scene",
@@ -2012,6 +2398,13 @@
    {
     "kind": "read",
     "topic": "research and science"
+   },
+   {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "passiversatz"
+    ]
    },
    {
     "kind": "ownScene",
@@ -2060,6 +2453,13 @@
     "topic": "the environment and energy"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "textkonnektoren-kohaerenz"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a panel discussion on wind turbines near your village",
     "situation_de": "eine Podiumsdiskussion über Windräder in der Nähe eures Dorfes"
@@ -2100,6 +2500,13 @@
    {
     "kind": "read",
     "topic": "literature and the arts"
+   },
+   {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "partizipialsaetze"
+    ]
    },
    {
     "kind": "ownScene",
@@ -2146,6 +2553,13 @@
    {
     "kind": "read",
     "topic": "demographic change"
+   },
+   {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "konjunktiv-i-redewiedergabe"
+    ]
    },
    {
     "kind": "ownScene",
@@ -2195,6 +2609,14 @@
     "topic": "mobility of the future"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "nominalstil-verbalstil",
+     "textkonnektoren-kohaerenz"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "presenting a car-free city centre plan to a sceptical shop owner",
     "situation_de": "einem skeptischen Ladenbesitzer einen Plan für eine autofreie Innenstadt vorstellen"
@@ -2233,6 +2655,15 @@
     "topic": "medicine and bioethics"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "press_interview_study"
+    ],
+    "cards": [
+     "paronyme-scheinbar-anscheinend"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "press_interview_study"
    },
@@ -2267,6 +2698,15 @@
    {
     "kind": "read",
     "topic": "finance and markets"
+   },
+   {
+    "kind": "speak",
+    "scenes": [
+     "publishing_contract"
+    ],
+    "cards": [
+     "funktionsverbgefuege"
+    ]
    },
    {
     "kind": "scene",
@@ -2314,6 +2754,15 @@
     "topic": "economic policy"
    },
    {
+    "kind": "speak",
+    "scenes": [
+     "tax_office_objection"
+    ],
+    "cards": [
+     "gehobene-praepositionen"
+    ]
+   },
+   {
     "kind": "scene",
     "scene": "tax_office_objection"
    },
@@ -2355,6 +2804,13 @@
     "topic": "language and linguistics"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "stilebenen-register"
+    ]
+   },
+   {
     "kind": "ownScene",
     "situation_en": "a conversation with an editor about the tone of your article",
     "situation_de": "ein Gespräch mit einer Redakteurin über den Ton deines Artikels"
@@ -2390,6 +2846,13 @@
    {
     "kind": "read",
     "topic": "history and remembrance"
+   },
+   {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "erzaehltempora-erlebte-rede"
+    ]
    },
    {
     "kind": "ownScene",
@@ -2434,6 +2897,13 @@
     "topic": "rhetoric and argumentation"
    },
    {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "es-als-platzhalter-korrelat"
+    ]
+   },
+   {
     "kind": "write",
     "task": "c2-expert-statement-council"
    },
@@ -2468,6 +2938,13 @@
    {
     "kind": "read",
     "topic": "the arts and criticism"
+   },
+   {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "nachfeld-ausklammerung"
+    ]
    },
    {
     "kind": "ownScene",
@@ -2519,6 +2996,15 @@
    {
     "kind": "read",
     "topic": "philosophy and ethics"
+   },
+   {
+    "kind": "speak",
+    "scenes": [],
+    "cards": [
+     "stilebenen-register",
+     "gehobene-praepositionen",
+     "es-als-platzhalter-korrelat"
+    ]
    },
    {
     "kind": "ownScene",

@@ -5,6 +5,7 @@ import { ScrollView, View } from 'react-native';
 import Animated, { FadeIn, FadeInDown, ZoomIn } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { useFieldDictation } from '@/features/dictation';
 import { notReadyNote, useModelPercent } from '@/features/modelStatus';
 import { PlayerNames } from '@/features/PlayerNames';
 import { playerName, topicLabel, useTogether } from '@/features/together';
@@ -75,6 +76,7 @@ export default function TalkScreen() {
   const [naming, setNaming] = useState(false);
   const [checkOpen, setCheckOpen] = useState(false);
   const [text, setText] = useState('');
+  const dictation = useFieldDictation(text, setText);
   const [check, setCheck] = useState<CheckState>({ status: 'idle' });
   const [ended, setEnded] = useState(false);
 
@@ -256,7 +258,7 @@ export default function TalkScreen() {
               <Txt variant="small" color="inkSoft">
                 {status === 'ready' ? t('together.checkHint') : notReadyNote(status, pct, lang)}
               </Txt>
-              <Composer value={text} onChange={setText} onSend={() => send(text)} busy={check.status === 'checking'} placeholder={t('together.checkPlaceholder')} german disabled={status !== 'ready'} />
+              <Composer value={text} onChange={setText} onSend={() => send(text)} busy={check.status === 'checking'} placeholder={t('together.checkPlaceholder')} german dictation={dictation} disabled={status !== 'ready'} />
               {check.status === 'checking' ? <Thinking label={t('scene.checkingGerman')} /> : null}
               {check.status === 'error' ? (
                 <Txt variant="small" style={{ color: c.red }}>
