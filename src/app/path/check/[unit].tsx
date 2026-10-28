@@ -149,11 +149,13 @@ export default function CheckScreen() {
         ) : current && pitfall && shownCard ? (
           <Animated.View key={index} entering={FadeIn.duration(260)} style={{ gap: space.m }}>
             <ProgressBar value={index / items.length} />
-            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space.s }}>
               <Txt variant="caption" color="inkSoft">
                 {t('grammar.counter', { n: index + 1, total: items.length })}
               </Txt>
-              <Pill label={shownCard.title_en} tone="royal" onPress={() => router.push(`/grammar/${current.card.key}`)} />
+              <View style={{ flexShrink: 1, alignItems: 'flex-end' }}>
+                <Pill label={shownCard.title_en} tone="royal" onPress={() => router.push(`/grammar/${current.card.key}`)} />
+              </View>
             </View>
             <Txt variant="body" color="inkSoft">
               {t('grammar.correctIt')}

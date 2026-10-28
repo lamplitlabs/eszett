@@ -134,15 +134,17 @@ export default function SpeakScreen() {
         ) : current ? (
           <Animated.View key={index} entering={FadeIn.duration(260)} style={{ gap: space.m }}>
             <ProgressBar value={index / items.length} />
-            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space.s }}>
               <Txt variant="caption" color="inkSoft">
                 {t('grammar.counter', { n: index + 1, total: items.length })}
               </Txt>
-              {current.source.kind === 'scene' ? (
-                <Pill label={current.source.situation.replace(/^./, (ch) => ch.toUpperCase())} tone="royal" onPress={() => router.push(`/scene/${current.source.key}`)} />
-              ) : (
-                <Pill label={t('path.kindGrammar')} tone="royal" onPress={() => router.push(`/grammar/${current.source.key}`)} />
-              )}
+              <View style={{ flexShrink: 1, alignItems: 'flex-end' }}>
+                {current.source.kind === 'scene' ? (
+                  <Pill label={current.source.situation.replace(/^./, (ch) => ch.toUpperCase())} tone="royal" onPress={() => router.push(`/scene/${current.source.key}`)} />
+                ) : (
+                  <Pill label={t('path.kindGrammar')} tone="royal" onPress={() => router.push(`/grammar/${current.source.key}`)} />
+                )}
+              </View>
             </View>
             <Txt variant="body" color="inkSoft">
               {t('speak.intro')}

@@ -510,7 +510,8 @@ in the situation) and the grammar cards' example sentences, up to eight (`speakS
 voice reads a sentence, the learner says it, and the phone's own speech recognizer (Apple's SFSpeechRecognizer /
 Android's SpeechRecognizer through `expo-speech-recognition`, `de-DE`, **on the device only** — recognition that
 would send audio to a server is never requested, so a phone without the offline German pack is told so and, on
-Android 13+, offered the download) writes down what it heard; `compareSpoken` normalises both sides the way the
+Android 13+, offered the download; the missing pack is seen in the recognizer's installed locales where Android
+reports them, and otherwise in the `language-not-supported` error of the first turn) writes down what it heard; `compareSpoken` normalises both sides the way the
 drills compare answers, spells the recognizer's digits out, aligns the words by longest common subsequence and
 shows the sentence with the words that were not heard underlined — four words in five count as clear, and the
 score goes to the `speaking` progress area. Without a usable recognizer (the web, no permission, no pack) the step is

@@ -193,7 +193,7 @@ export function Pill({
   const body = (
     <View style={{ flexDirection: 'row', alignItems: 'center', alignSelf: 'flex-start', gap: 5, backgroundColor: bg, borderRadius: radius.pill, paddingHorizontal: 10, paddingVertical: 5, opacity: disabled ? 0.4 : 1 }}>
       {Icon ? <Icon size={13} color={fg} strokeWidth={2.2} /> : null}
-      <Txt variant="caption" style={{ color: fg }}>
+      <Txt variant="caption" style={{ color: fg, flexShrink: 1 }}>
         {label}
       </Txt>
     </View>

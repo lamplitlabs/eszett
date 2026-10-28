@@ -32,6 +32,9 @@ export interface Dictation {
 }
 
 const LOCALE = 'de-DE';
+/** Android's on-device recognizer (Android System Intelligence), the one that knows which packs are installed. */
+const ON_DEVICE_SERVICE = 'com.google.android.as';
+const GERMAN = /^de(?:[-_]|$)/i;
 
 function probe(): { available: boolean; reason: DictationReason } {
   if (Platform.OS === 'web') return { available: false, reason: 'web' };
@@ -41,6 +44,22 @@ function probe(): { available: boolean; reason: DictationReason } {
     return { available: true, reason: null };
   } catch {
     return { available: false, reason: 'unavailable' };
+  }
+}
+
+/**
+ * Android 13+: whether the on-device recognizer has a German pack installed. The phone may support offline
+ * recognition in general and still lack German; starting a turn then fails with `language-not-supported`.
+ * Null when the phone cannot say (older Android, another recognizer, iOS).
+ */
+async function germanPackInstalled(): Promise<boolean | null> {
+  if (Platform.OS !== 'android') return null;
+  try {
+    const { locales, installedLocales } = await ExpoSpeechRecognitionModule.getSupportedLocales({ androidRecognitionServicePackage: ON_DEVICE_SERVICE });
+    if (locales.length === 0 && installedLocales.length === 0) return null;
+    return installedLocales.some((locale) => GERMAN.test(locale));
+  } catch {
+    return null;
   }
 }
 
@@ -79,7 +98,19 @@ export function useDictation(handlers: { onInterim?: (text: string) => void; onF
     if (event.error === 'aborted') return;
     setError(event.error);
     if (event.error === 'not-allowed') setProbe({ available: false, reason: 'permission' });
+    // "Supported, but not yet downloaded": the German pack is missing, so offer it instead of a bare error.
+    if (event.error === 'language-not-supported') setProbe({ available: false, reason: 'offline-pack' });
   });
+
+  useEffect(() => {
+    let cancelled = false;
+    void germanPackInstalled().then((installed) => {
+      if (!cancelled && installed === false) setProbe({ available: false, reason: 'offline-pack' });
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(
     () => () => {
@@ -125,6 +156,9 @@ export function useDictation(handlers: { onInterim?: (text: string) => void; onF
     () =>
       Platform.OS === 'android' && reason === 'offline-pack'
         ? async () => {
+            // Android 13 opens the system's download dialog and returns at once; 14+ downloads or schedules the
+            // pack. The Speak button comes back either way; a turn before the pack has arrived fails with
+            // `language-not-supported`, which brings this offer back.
             await ExpoSpeechRecognitionModule.androidTriggerOfflineModelDownload({ locale: LOCALE });
             setProbe(probe());
           }
