@@ -84,7 +84,15 @@
           "speechRecognitionPermission": "Eszett uses the phone’s own speech recognition to write down the German you say; nothing is sent to a server."
         }
       ],
-      "expo-audio"
+      "expo-audio",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification-icon.png",
+          "color": "#2442C6",
+          "defaultChannel": "reminders"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,

@@ -68,7 +68,20 @@ async function germanPackInstalled(): Promise<boolean | null> {
  * The recognizer for one screen. `onInterim` gets every partial transcript, `onFinal` the settled one;
  * `contextualStrings` are words the recognizer should expect (the sentence the learner is repeating).
  */
-export function useDictation(handlers: { onInterim?: (text: string) => void; onFinal?: (text: string) => void; contextualStrings?: string[] } = {}): Dictation {
+export interface DictationHandlers {
+  onInterim?: (text: string) => void;
+  onFinal?: (text: string) => void;
+  contextualStrings?: string[];
+  /**
+   * Keep listening through pauses until `stop()`: the recognizer settles one segment at a time (Android 13+),
+   * the segments are joined, `onInterim` gets the whole so far and `onFinal` the whole at the end. For a
+   * sentence repeated after the voice the default (one utterance, ends at the first pause) is right; a talk of
+   * two or three minutes in the mock exam needs this.
+   */
+  continuous?: boolean;
+}
+
+export function useDictation(handlers: DictationHandlers = {}): Dictation {
   const [{ available, reason }, setProbe] = useState(probe);
   const [listening, setListening] = useState(false);
   const [transcript, setTranscript] = useState('');
@@ -78,6 +91,9 @@ export function useDictation(handlers: { onInterim?: (text: string) => void; onF
     handlersRef.current = handlers;
   });
   const active = useRef(false);
+  // the settled segments of a continuous turn
+  const segments = useRef<string[]>([]);
+  const joined = (tail = '') => [...segments.current, tail].filter(Boolean).join(' ');
 
   useSpeechRecognitionEvent('start', () => {
     setListening(true);
@@ -85,11 +101,20 @@ export function useDictation(handlers: { onInterim?: (text: string) => void; onF
   });
   useSpeechRecognitionEvent('end', () => {
     setListening(false);
+    const wasActive = active.current;
     active.current = false;
+    if (wasActive && handlersRef.current.continuous) handlersRef.current.onFinal?.(joined());
   });
   useSpeechRecognitionEvent('result', (event) => {
     if (!active.current) return;
     const text = event.results[0]?.transcript?.trim() ?? '';
+    if (handlersRef.current.continuous) {
+      if (event.isFinal && text) segments.current.push(text);
+      const full = event.isFinal ? joined() : joined(text);
+      setTranscript(full);
+      handlersRef.current.onInterim?.(full);
+      return;
+    }
     setTranscript(text);
     if (event.isFinal) {
       if (text) handlersRef.current.onFinal?.(text);
@@ -97,6 +122,8 @@ export function useDictation(handlers: { onInterim?: (text: string) => void; onF
   });
   useSpeechRecognitionEvent('error', (event) => {
     if (event.error === 'aborted') return;
+    // a continuous turn that already has words ends with the recognizer's own complaint; the words count
+    if (handlersRef.current.continuous && segments.current.length) return;
     setError(event.error);
     if (event.error === 'not-allowed') setProbe({ available: false, reason: 'permission' });
     // "Supported, but not yet downloaded": the German pack is missing, so offer it instead of a bare error.
@@ -130,16 +157,20 @@ export function useDictation(handlers: { onInterim?: (text: string) => void; onF
     stopSpeaking();
     setTranscript('');
     setError(null);
+    segments.current = [];
     active.current = true;
+    const continuous = Boolean(handlersRef.current.continuous);
     ExpoSpeechRecognitionModule.start({
       lang: LOCALE,
       interimResults: true,
-      continuous: false,
+      continuous,
       requiresOnDeviceRecognition: true,
       addsPunctuation: false,
       maxAlternatives: 1,
       iosTaskHint: 'dictation',
       contextualStrings: handlersRef.current.contextualStrings,
+      // a talk has pauses for thought; a segment should not end at the first one
+      androidIntentOptions: continuous ? { EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS: 2500 } : undefined,
     });
   }, [available]);
 

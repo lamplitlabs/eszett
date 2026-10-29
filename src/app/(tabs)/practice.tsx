@@ -6,7 +6,9 @@ import {
   ChevronRight,
   Clock4,
   Euro,
+  GraduationCap,
   Hash,
+  Landmark,
   Layers,
   Library,
   ListChecks,
@@ -25,6 +27,8 @@ import type { DrillCategory } from '@/harness/drills';
 import { atOrBelow, LEVELS } from '@/harness/levels';
 import { levelProgress, nextStep } from '@/harness/path';
 import { situationsFor } from '@/harness/situations';
+import { ALLTAG, alltagFor } from '@/harness/alltag';
+import { examFor, passed } from '@/harness/exam';
 import { STORIES, storiesFor, storyProgress } from '@/harness/stories';
 import { tasksFor } from '@/harness/writing';
 import { WORD_TOPICS, wordTopicLabel } from '@/features/lesson';
@@ -34,6 +38,7 @@ import { localizeGrammar, localizeWriting } from '@/i18n/content';
 import { cards } from '@/model/runtime';
 import { newestFirst, topicsFor, useAuthored } from '@/state/authored';
 import { dueWords, useDeck } from '@/state/deck';
+import { attemptsNewestFirst, useExams } from '@/state/exams';
 import { useMistakes } from '@/state/mistakes';
 import { accuracy, useProgress, type Area } from '@/state/progress';
 import { useTexts } from '@/state/texts';
@@ -193,6 +198,28 @@ export default function Practice() {
     href: `/situation?key=${s.key}`,
     area: 'listening',
   }));
+  const attempts = useExams((s) => s.attempts);
+  const lastExam = attemptsNewestFirst(attempts, level)[0];
+  const examRows: Row[] = [
+    {
+      title: t('practice.examTitle'),
+      detail: lastExam ? t('practice.examDetailLast', { name: examFor(level).name, percent: lastExam.percent }) : t('practice.examDetail', { name: examFor(level).name }),
+      icon: GraduationCap,
+      tone: lastExam ? (passed(lastExam.percent) ? 'green' : 'amberInk') : 'royal',
+      tint: lastExam ? (passed(lastExam.percent) ? 'greenTint' : 'amberTint') : 'royalTint',
+      href: '/exam',
+    },
+  ];
+  const alltagRows: Row[] = [
+    {
+      title: t('practice.alltagTitle'),
+      detail: t('practice.alltagDetail', { count: alltagFor(level).length, total: ALLTAG.length }),
+      icon: Landmark,
+      tone: 'amberInk',
+      tint: 'amberTint',
+      href: '/alltag',
+    },
+  ];
   const stories: Row[] = [
     ...storiesFor(level).map<Row>((s) => {
       const progress = storyProgress(s, done);
@@ -240,8 +267,14 @@ export default function Practice() {
       <Section title={t('practice.numbersAndTime')}>
         <List rows={numberRows} />
       </Section>
+      <Section title={t('practice.exam')}>
+        <List rows={examRows} />
+      </Section>
       <Section title={t('practice.listening')}>
         <List rows={listening} />
+      </Section>
+      <Section title={t('practice.alltag')}>
+        <List rows={alltagRows} />
       </Section>
       <Section title={t('practice.stories')}>
         <List rows={stories} />

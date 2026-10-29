@@ -603,6 +603,52 @@ and tests: `src/harness/__tests__/stories.test.ts` checks the shape, the answer 
 survived. The pack was built from Wikisource with a rule-based modernisation and a manual review; all texts are
 pre-1930 publications by authors dead for more than 70 years, so they are free of copyright everywhere.
 
+**Mock oral exam** (`src/harness/exam.ts`, `src/app/exam.tsx`, `src/state/exams.ts`; Practice › Exam): the
+speaking part of the level's Goethe exam, run as it is held, with the tutor as examiner. The parts, their timing
+and their criteria follow the published formats (`EXAMS`): A1 *sich vorstellen* (then spell a word or say a
+number), *um Informationen bitten* with word cards, *Bitten formulieren*; A2 *Fragen zur Person* with four cards,
+*von sich erzählen* on a topic with four points, *gemeinsam etwas planen*; B1 *planen*, the five-slide
+*Präsentation* (three minutes), *über das Thema sprechen*; B2 to C2 a *Vortrag* with guiding points and a
+*Diskussion* on a thesis — telc B1 and the DTZ have B1's shape. For each part the tutor writes the task sheet in
+German (`examSheetPrompt`, a same-kind layout example, its facts forbidden; read by shape, `parseExamSheet`: a
+*Thema/Situation/These* heading and two to six points, cards, pictures or slides), the voice reads the examiner's
+opening line, a preparation clock runs (20 s at A1 up to 3 min at C1/C2), the learner speaks against the part's
+clock with the recognizer in **continuous mode** (`useDictation({ continuous: true })`: Android 13+ settles one
+segment at a time, the hook joins them, a turn twice the exam's length is stopped), the examiner asks back in
+role (`examFollowupPrompt`: partner in the planning, opponent in the discussion, a question on the talk), and the
+tutor rates the transcript on the exam's grid in the learner's language — *Erfüllung, Kohärenz, Wortschatz,
+Strukturen*, 0–4 each, a comment, one tip, one sentence said better (`exam.ratingPrompt` in the catalogs, German
+labels kept so `parseExamRating` reads the lines in any language, or by position without them). The app counts
+**fluency** itself (`fluencyScore`: words a minute against the level's bands, capped when far too little was
+said) and says so; nothing judges the accent, because a transcript cannot. A part is the five scores out of 20,
+the exam the mean of its parts out of 100, 60 passes (`PASS_PERCENT`); attempts are kept in `useExams` (newest
+twenty) and the last result shows on the Practice tab. Tests: `src/harness/__tests__/exam.test.ts`.
+
+**Sounds to check** (`src/harness/pronunciation.ts`, `src/ui/PronunciationTips.tsx`): under a speaking result that
+was not clear, and in the read-aloud summary, the words the recognizer did not catch are read for the German
+sounds most learners get wrong — ü, ö, ä, the two ch sounds, the final -ig, z as ts, w as v, v as f, ei and ie,
+eu/äu, sch, st/sp, the voiced s, devoiced final b/d/g, the lengthening h, the throat r, ß, pf, qu, j, ng, -tion,
+and a long compound — and up to three tips say how the sound is made, with the learner's own words as examples
+(`pronunciationTips`: each word adds its first two sounds in a rarity order, a long word its tip on top, tips
+shared by several words first). The catalog carries the tips per app language so the comparisons are to sounds
+of the learner's language, not English; the note under them says the recognizer mishears too — the tips are what
+to check, not a verdict (false negatives were the trust-killer in every review the research read). Tests:
+`src/harness/__tests__/pronunciation.test.ts`.
+
+**Living in Germany** (`src/harness/alltag.ts`, `src/app/alltag.tsx`; Practice › Living in Germany): nineteen
+situations of everyday life in Germany in seven domains — Anmeldung at the Bürgeramt, the Ausländerbehörde
+appointment, the Rundfunkbeitrag, post from the Finanzamt; the rental contract and deposit, the
+Nebenkostenabrechnung, a notice in the stairwell, a rent increase; the doctor's appointment, the sick note, the
+medicine leaflet; the job interview invitation, the employment contract; the bank account, a Mahnung, liability
+insurance; the Elternbrief; the Deutschlandticket, converting a driving licence — each placed by level, each with
+a brief for the typical **letter or notice** the tutor writes to read (`letterPrompt`: the letter itself with
+subject, greeting, body, closing and sender in the formal register, then three questions about what to act on;
+read by `parseReadingDraft` with a looser band, kept with the readings under `alltag:<level>:<key>`, opened in
+the reading step with `/read?alltag=<key>` so listening, word lookup and reading aloud work on it), and linked to
+the app's own role-play scene and writing task where they exist (`scene`, `write`; checked by the tests). The
+track answers the research's "I want to manage my own appointments and paperwork without relying on my partner".
+Tests: `src/harness/__tests__/alltag.test.ts`.
+
 **Wortschatz and the deck**: the course's words step is done once three words of its list are saved to My words
 (`SAVE_TO_FINISH` in `src/app/words.tsx`), not when the list is written — the week's vocabulary then comes back in
 the deck's spaced review. Outside the course the words screen behaves as before.
@@ -677,6 +723,31 @@ ethics-council briefing at C1/C2); and 33
 word-list topics (`src/features/topics.ts`, where the topic tables now live). All of it is in the ten content
 overlays and the twelve UI catalogs (the `path` section of `en.source.json`: a week's title, goal and, per step, the
 question or situation it carries).
+
+## Reminders
+
+Local notifications only (`expo-notifications`; `src/features/notify.ts`, `notifyRules.ts`, `notifyStore.ts`,
+`wordOfDay.ts`, `ReminderCard.tsx`): the app schedules them itself, no push service, nothing leaves the phone.
+Everything is off until the learner turns it on — the home-screen card asks once, after the first practice (**Turn
+on** / **Not now**), and Me › Reminders holds the switches: a **nudge on days without practice** at 9, 12, 18 or
+21 (`REMINDER_HOURS`), the **word of the day** every morning at 9 on a quiet channel, and **Send one**, a sample
+delivered at once so the learner sees what a reminder looks like on this phone (it asks for the permission if
+needed; on Android 13+ the channels are created first, as the system prompt needs them).
+
+`planNotifications` (`notifyRules.ts`, pure, tested without the module) decides what to schedule from the stores:
+for today and the coming days (0, 1, 2, 3 and 5 days out) a reminder at the chosen hour on days not yet practised — a nudge in three wordings,
+the streak count when one is alive, a milestone wording at 3/7/14/30/50/100, "a fresh start" the first day after a
+streak ends, the words due for review when there are any (then the tap opens the review) — plus a late **rescue**
+at 21 when a streak would end at midnight, and the word of the day for the coming week (`wordOfDay`: the level's word for the date,
+looked up at local noon) on its own or as the first line of a reminder at the same hour. `syncNotifications`
+cancels everything pending and schedules the current plan; it runs after the stores hydrate, debounced after
+practice, deck, level or language changes, and when the app goes to the background or comes back, so the plan
+always matches the day. Android alarms are inexact (`window=+1h`, the OS batches them) — that is fine for a
+reminder and avoids the exact-alarm permission. Taps route through `notificationRoute` (only `/`, `/review`,
+`/word/<lemma>`), waiting for hydration, the onboarding and the navigator. The foreground handler shows nothing
+while the app is open — the screen is the reminder — except the sample. The texts live in the catalogs
+(`notify.*`), so the lock screen speaks the learner's language. Config: `expo-notifications` plugin in `app.json`
+(icon, brand colour, default channel); `src/features/notify.web.ts` answers for the web build.
 
 ## Languages
 

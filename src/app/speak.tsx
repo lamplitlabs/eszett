@@ -21,6 +21,7 @@ import { sayKey, useMistakes } from '@/state/mistakes';
 import { useProgress } from '@/state/progress';
 import { useSettings } from '@/state/settings';
 import { Button, Paper, Pill, Press, ProgressBar } from '@/ui/controls';
+import { PronunciationTips } from '@/ui/PronunciationTips';
 import { haptic } from '@/ui/haptics';
 import { TopBar } from '@/ui/Screen';
 import { speak } from '@/ui/speech';
@@ -219,6 +220,7 @@ export default function SpeakScreen() {
                     {t('speak.heard', { text: heard })}
                   </Txt>
                 </Paper>
+                {!result.clear ? <PronunciationTips missed={result.words.filter((w) => !w.ok).map((w) => w.word)} max={2} /> : null}
                 <View style={{ flexDirection: 'row', gap: space.s }}>
                   <Button
                     label={t('speak.sayAgain')}

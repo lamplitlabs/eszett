@@ -16,7 +16,9 @@ import {
 } from './authoring';
 import { diffWords, tokenize, type DiffOp } from './diff';
 import { drillAsText, type Drill } from './drills';
+import type { AlltagItem } from './alltag';
 import { compact, normalise } from './engines';
+import { fixedSheet, parseExamRating, parseExamSheet, ratingComplete, sheetComplete, spoken, type ExamPart, type ExamRating, type ExamSheet, type ExamTurn } from './exam';
 import { blockTitle, groundPrompt, noteKeys, notePrefix, type GroundingPack, type NoteLayout } from './grounding';
 import { GENUS_ARTICLE, type Article, type LexiconIndex } from './lexicon';
 import type { Level } from './levels';
@@ -656,6 +658,61 @@ export class Tutor {
       );
       last = text;
       const draft = parseReadingDraft(text, ctx.level, words);
+      if (draft) return { ...draft, checks: this.verify(draft.text, []), grounded: [] };
+    }
+    throw new DraftError(t('author.reasonReading'), last);
+  }
+
+  // ----------------------------------------------------------------------------------------------
+  // the mock oral exam (src/harness/exam.ts)
+  // ----------------------------------------------------------------------------------------------
+
+  /** The task sheet of a part, German, read by shape; a part with a fixed sheet gets none. */
+  async examSheet(part: ExamPart, ctx: Ctx): Promise<ExamSheet | null> {
+    if (!part.sheet_en) return null;
+    const fixed = fixedSheet(part.id);
+    if (fixed) return fixed;
+    let last = '';
+    for (const variant of [0, 1]) {
+      const { text } = await this.run(P.examSheetPrompt(part, ctx.level, variant), variant ? { ...ctx, onText: undefined } : ctx, P.EXAM_BUDGET.sheet, { stopWhen: (full) => sheetComplete(full, part.kind) }, false);
+      last = text;
+      const sheet = parseExamSheet(text, part.kind);
+      if (sheet) return sheet;
+    }
+    throw new DraftError(t('exam.reasonSheet'), last);
+  }
+
+  /** The examiner's reaction and question after the candidate's turn: one or two German sentences, labels stripped. */
+  async examFollowup(part: ExamPart, sheet: ExamSheet | null, said: string, ctx: Ctx): Promise<string> {
+    const { text } = await this.run(P.examFollowupPrompt(part, sheet, said, ctx.level), ctx, P.EXAM_BUDGET.followup, { stopWhen: (full) => (full.match(/[.?!](?:\s|$)/g) ?? []).length >= 2 }, false);
+    const lines = text
+      .split(/\r?\n/)
+      .map((l) => spoken(l.replace(/\*\*|__|`/g, '').trim()))
+      .filter(Boolean);
+    return lines.slice(0, 2).join(' ');
+  }
+
+  /** The rating of a part in the learner's language; the scores are read by shape, a draft without them is asked again. */
+  async examRating(part: ExamPart, sheet: ExamSheet | null, turns: ExamTurn[], ctx: Ctx): Promise<ExamRating> {
+    let last = '';
+    for (const attempt of [0, 1]) {
+      const { text } = await this.run(P.examRatingPrompt(part, sheet, turns, ctx.level, ctx.lang), attempt ? { ...ctx, onText: undefined } : ctx, P.EXAM_BUDGET.rating, { stopWhen: ratingComplete }, false);
+      last = text;
+      const rating = parseExamRating(text);
+      if (rating) return rating;
+    }
+    throw new DraftError(t('exam.reasonRating'), last);
+  }
+
+  /** A letter or notice of everyday life (src/harness/alltag.ts) in the reading draft's shape, at the level's length. */
+  async alltagLetter(item: AlltagItem, ctx: Ctx): Promise<ReadingDraft & { checks: AnswerChecks; grounded: string[] }> {
+    let last = '';
+    const words = READING_WORDS[ctx.level];
+    const budget = readingBudget(ctx.level) + 60;
+    for (const variant of [0, 1]) {
+      const { text } = await this.run(P.letterPrompt(item.letter_en, ctx.level, words, variant), variant ? { ...ctx, onText: undefined } : ctx, budget, { prefill: P.READING_PREFILL, stopWhen: readingComplete }, false);
+      last = text;
+      const draft = parseReadingDraft(text, ctx.level, [Math.round(words[0] * 0.7), words[1] + 60]);
       if (draft) return { ...draft, checks: this.verify(draft.text, []), grounded: [] };
     }
     throw new DraftError(t('author.reasonReading'), last);

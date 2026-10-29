@@ -26,6 +26,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { useAccessBind } from "@/features/accessBind";
 import { useAccess } from "@/features/access";
 import { useModelBoot } from "@/features/modelBoot";
+import { useNotificationBind } from "@/features/notify";
 import { maybeAskForReview } from "@/features/review";
 import { bindLanguage } from "@/i18n/bind";
 import { bindTranslator } from "@/mt/bind";
@@ -126,6 +127,7 @@ export default function RootLayout() {
   useEffect(() => (hydrated ? bindTranslator() : undefined), [hydrated]);
   // the access lock first, so the model boot below finds the flag in place
   useAccessBind(hydrated);
+  useNotificationBind(hydrated);
   useModelBoot(hydrated);
   const update = useUpdateVerdict(hydrated);
   useReviewPrompt(hydrated);
@@ -261,6 +263,8 @@ export default function RootLayout() {
                   }}
                 />
                 <Stack.Screen name="situation" />
+                <Stack.Screen name="exam" />
+                <Stack.Screen name="alltag" />
                 <Stack.Screen name="stories/index" />
                 <Stack.Screen name="stories/[id]" />
                 <Stack.Screen name="texts/index" />

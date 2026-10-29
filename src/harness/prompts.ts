@@ -3,7 +3,9 @@
 // follows a format it has seen far better than a described one.
 
 import modelInfo from '../data/model.json';
+import { tIn } from '../i18n';
 
+import type { ExamPart, ExamSheet, ExamTurn } from './exam';
 import { atLeast, levelSentence, type Level } from './levels';
 import { PROMPT_TEXTS } from './promptTexts';
 import type { Lang } from './route';
@@ -415,6 +417,119 @@ export function plannerPrompt(goal: string, types: string[], n: number, learnerL
     '3. writing - because that is what you asked for',
   ].join('\n');
 }
+
+// ------------------------------------------------------------------------------------------------
+// living in Germany (src/harness/alltag.ts): a typical letter or notice to read, with three questions
+// ------------------------------------------------------------------------------------------------
+
+const LETTER_EXAMPLE = [
+  'Titel: Einladung zum Elternabend',
+  'Liebe Eltern,',
+  'am Dienstag, den 12. März, findet um 19 Uhr der Elternabend der Gruppe Sonnenblume statt. Wir sprechen über den Sommerausflug und die neuen Öffnungszeiten der Kita. Bitte bringen Sie den Anmeldezettel für den Ausflug mit.',
+  'Mit freundlichen Grüßen',
+  'Ihr Kita-Team',
+  'Frage 1: Wann ist der Elternabend?',
+  'a) Am Montag um 18 Uhr',
+  'b) Am Dienstag um 19 Uhr',
+  'c) Am Mittwoch um 19 Uhr',
+  'Antwort: b',
+  'Frage 2: Worüber sprechen die Eltern?',
+  'a) Über den Sommerausflug',
+  'b) Über das Essen in der Kita',
+  'c) Über neue Spielsachen',
+  'Antwort: a',
+  'Frage 3: Was sollen die Eltern mitbringen?',
+  'a) Einen Kuchen',
+  'b) Die Hausschuhe der Kinder',
+  'c) Den Anmeldezettel',
+  'Antwort: c',
+].join('\n');
+
+/**
+ * A letter or notice of everyday life in Germany, read by shape like a reading text (`parseReadingDraft`): the
+ * letter itself with greeting, body and closing, then three questions about the facts a reader must act on.
+ */
+export function letterPrompt(brief: string, level: Level, words: [number, number], variant = 0): string {
+  const ask =
+    variant === 0
+      ? `Write ${brief}, in German, for a German learner at ${level} level: ${words[0]}-${words[1]} words, as the letter itself - a title line "Titel:" with the subject, a greeting, the body with concrete dates, times, amounts and names, a closing and the sender - in the formal register (Sie) such offices and companies use. Then write exactly three comprehension questions in German about the facts a reader must act on (when, what to bring, how much, by when), each with three options a), b), c) and the right letter on a line "Antwort:". Invent your own facts, none from the example.`
+      : `Make a reading exercise for a German learner at ${level} level: ${brief}. First a title line "Titel:" with the subject, then the German letter of ${words[0]}-${words[1]} words with greeting, body and closing (formal Sie), then three questions in German labelled "Frage 1:", "Frage 2:", "Frage 3:", each followed by three options a), b), c) and a line "Antwort:" with the letter of the right option. The questions ask only about facts in your letter; use other dates, names and amounts than the example.`;
+  return [ask, 'Use exactly the layout of the example and nothing else: no translation, no vocabulary list, no explanations.', '', 'Example of the layout (another letter, for A2):', LETTER_EXAMPLE].join('\n');
+}
+
+// ------------------------------------------------------------------------------------------------
+// the mock oral exam (src/harness/exam.ts): the task sheet, the examiner's follow-up, the rating
+// ------------------------------------------------------------------------------------------------
+
+/** One task sheet per kind, for the layout: the model copies a shown shape, so the shape shown is the kind's. */
+const SHEET_EXAMPLES: Record<ExamPart['kind'], string> = {
+  intro: '',
+  cards: ['Thema: Einkaufen', 'Karte 1: Obst', 'Karte 2: Preis'].join('\n'),
+  request: ['Bild 1: ein Fenster', 'Bild 2: ein Glas Wasser'].join('\n'),
+  monologue: ['Thema: Mein Lieblingsessen', '- Was essen Sie gern?', '- Wann essen Sie das?', '- Mit wem essen Sie?', '- Warum mögen Sie das?'].join('\n'),
+  plan: ['Situation: Eine Freundin hat Geburtstag. Sie planen zusammen eine kleine Feier.', '- Wann?', '- Wo?', '- Wer kommt?', '- Wer bringt was mit?'].join('\n'),
+  talk: ['These: Autos sollten aus den Innenstädten verschwinden.', '- Pro: weniger Lärm und Abgase', '- Pro: mehr Platz für Menschen', '- Contra: Geschäfte verlieren Kunden', '- Contra: ältere Menschen brauchen das Auto'].join('\n'),
+};
+
+/**
+ * The task sheet (Aufgabenblatt) of an exam part: a heading line and points, German, read by shape
+ * (`parseExamSheet`). The example is of the same kind and the model is told to take only its layout.
+ */
+const SHEET_RULES: Record<ExamPart['kind'], string> = {
+  intro: '',
+  cards: 'Exactly two cards, each one or two German nouns - no questions, no sentences, no translations.',
+  request: 'Exactly two pictures, each a caption of two or three German words - no sentences, no translations.',
+  monologue: 'Exactly four points, each a short German question or phrase addressing the candidate as Sie, no translations in brackets.',
+  plan: 'Exactly four points to settle, each one or two German words with a question mark, no translations.',
+  talk: 'Exactly four points, two Pro and two Contra, each a short German phrase, no translations.',
+};
+
+export function examSheetPrompt(part: ExamPart, level: Level, variant = 0): string {
+  const what = part.sheet_en ?? 'a topic with four points';
+  const rules = SHEET_RULES[part.kind];
+  const ask =
+    variant === 0
+      ? `Write the task sheet for the speaking part of a German exam at ${level} level: ${what}. Lay it out in German like the example: a heading line (Thema, Situation or These), then the points one per line. ${rules} Nothing else: no instructions, no example answers. Invent your own topic and points, none from the example.`
+      : `Make an Aufgabenblatt for a German speaking exam at ${level}: ${what}. German only, exactly the example's layout: first the heading line, then one point per line. ${rules} Choose a different topic and different points than the example, and write nothing but the sheet.`;
+  return [ask, '', `Example of the layout (another task${level === 'A1' || level === 'A2' ? '' : ', for A2'}):`, SHEET_EXAMPLES[part.kind] || SHEET_EXAMPLES.monologue].join('\n');
+}
+
+const sheetLine = (sheet: ExamSheet | null) => (sheet ? `${sheet.heading}; ${sheet.points.join('; ')}` : '');
+
+/** The examiner's second turn: a reaction and one question, German, one or two sentences, in the part's role. */
+export function examFollowupPrompt(part: ExamPart, sheet: ExamSheet | null, said: string, level: Level): string {
+  const role: Record<ExamPart['kind'], string> = {
+    intro: 'Thank the candidate briefly and ask them to spell their first name or to say their house number.',
+    cards: 'Answer the candidate\'s question in one short sentence, then ask them one question about the second card.',
+    request: 'React to the request in one short sentence, then ask them to make the request for the second picture.',
+    monologue: 'Ask one short follow-up question about what the candidate said, at their level.',
+    plan: 'As their partner in the planning, react briefly to the suggestion and add one counter-suggestion or a question about an open point.',
+    talk: 'React briefly to their position and put one counter-argument or question to them.',
+  };
+  return [
+    `You are the examiner in the speaking part of a German exam at ${level} level.`,
+    sheet ? `The task sheet: ${sheetLine(sheet)}.` : '',
+    `The candidate said: "${said.trim() || '...'}"`,
+    `${role[part.kind]} One or two short sentences in German, addressing the candidate formally as Sie, as the examiner speaks them - only the examiner's words, no labels, no translation, no comments.`,
+  ]
+    .filter(Boolean)
+    .join('\n');
+}
+
+/**
+ * The rating of a part on the exam's criteria, in the learner's language (the catalog carries the wording per
+ * language, the labels stay German so the app can read the lines, `parseExamRating`).
+ */
+export function examRatingPrompt(part: ExamPart, sheet: ExamSheet | null, turns: ExamTurn[], level: Level, lang: Lang): string {
+  const task = [part.title_de, sheetLine(sheet)].filter(Boolean).join(' - ');
+  const said = turns
+    .map((t) => t.said.trim())
+    .filter(Boolean)
+    .join(' / ');
+  return tIn(lang, 'exam.ratingPrompt', { level, task, said: said || '...' });
+}
+
+export const EXAM_BUDGET = { sheet: 160, followup: 70, rating: 340 };
 
 // ------------------------------------------------------------------------------------------------
 // practising together: the prompt texts live next to their parsers in together.ts

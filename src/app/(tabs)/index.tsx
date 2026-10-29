@@ -5,6 +5,7 @@ import { View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 
 import { CourseCard } from '@/features/CourseCard';
+import ReminderCard from '@/features/ReminderCard';
 import { activityLabel, lessonKey, useLesson } from '@/features/lesson';
 import { levelProgress, weekNumber } from '@/harness/path';
 import { tutorLine, useModelPercent } from '@/features/modelStatus';
@@ -91,6 +92,8 @@ export default function Today() {
       <Section title={t('path.title')}>
         <CourseCard level={level} />
       </Section>
+
+      <ReminderCard />
 
       <Section
         title={t('home.lessonTitle')}

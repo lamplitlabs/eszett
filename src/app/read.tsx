@@ -18,6 +18,8 @@ import { lessonKey } from '@/features/lesson';
 import { notReadyNote, useModelPercent } from '@/features/modelStatus';
 import { wordTopicLabel } from '@/features/topics';
 import { pathDoneKey } from '@/harness/path';
+import { alltagByKey, alltagKey } from '@/harness/alltag';
+import type { Level } from '@/harness/levels';
 import { readingWordsSoFar, type ReadingDraft } from '@/harness/reading';
 import { storyKey, storyReading } from '@/harness/stories';
 import type { AnswerChecks } from '@/harness/verify';
@@ -60,11 +62,12 @@ function TappableText({ text }: { text: string }) {
   );
 }
 
-type ReadParams = { topic?: string; path?: string; lesson?: string; story?: string; part?: string };
+type ReadParams = { topic?: string; path?: string; lesson?: string; story?: string; part?: string; alltag?: string };
 
 /** The key of the text this screen shows: a course step, a topic at the level, or a part of a story. */
-function readingKeyFor(params: ReadParams, level: string): string {
+function readingKeyFor(params: ReadParams, level: Level): string {
   if (params.story) return storyKey(params.story, Number(params.part ?? 0));
+  if (params.alltag) return alltagKey(level, params.alltag);
   return params.path ?? `${level}:${params.topic ?? 'the family'}`;
 }
 
@@ -94,6 +97,7 @@ function ReadingStep({ params, readingKey }: { params: ReadParams; readingKey: s
   const saved = storyDraft ?? kept;
   const addReading = useAuthored((s) => s.addReading);
   const story = storyDraft?.story ?? null;
+  const alltag = alltagByKey(params.alltag);
   const nextPart = story && storyDraft && storyDraft.part + 1 < story.parts.length ? storyDraft.part + 1 : null;
 
   const [status, setStatus] = useState<'idle' | 'running' | 'done' | 'error'>(() => (saved ? 'done' : 'idle'));
@@ -121,11 +125,8 @@ function ReadingStep({ params, readingKey }: { params: ReadParams; readingKey: s
     setWordsSoFar(0);
     finishedRef.current = false;
     try {
-      const r = await tutor.readingText(wordTopicLabel(topic, 'en'), {
-        level,
-        lang: explainIn,
-        onText: (full) => setWordsSoFar(readingWordsSoFar(full)),
-      });
+      const ctx = { level, lang: explainIn, onText: (full: string) => setWordsSoFar(readingWordsSoFar(full)) };
+      const r = alltag ? await tutor.alltagLetter(alltag, ctx) : await tutor.readingText(wordTopicLabel(topic, 'en'), ctx);
       setDraft(r);
       setPicked(r.questions.map(() => null));
       setStatus('done');
@@ -134,7 +135,7 @@ function ReadingStep({ params, readingKey }: { params: ReadParams; readingKey: s
       setError(describeError(e));
       setStatus('error');
     }
-  }, [addReading, explainIn, level, readingKey, topic]);
+  }, [addReading, alltag, explainIn, level, readingKey, topic]);
 
   // the first text starts by itself once the tutor is reachable; a kept text needs no writing
   const autoStarted = useRef(Boolean(saved));
@@ -183,10 +184,14 @@ function ReadingStep({ params, readingKey }: { params: ReadParams; readingKey: s
 
   return (
     <View style={{ flex: 1, backgroundColor: c.paper }}>
-      <TopBar title={story ? t('story.library') : t('read.title')} />
+      <TopBar title={story ? t('story.library') : alltag ? t('alltag.title') : t('read.title')} />
       <ScrollView contentContainerStyle={{ paddingHorizontal: gutter, paddingBottom: insets.bottom + space.x4, gap: space.m }}>
-        <Txt variant="title">{draft?.title || wordTopicLabel(topic, lang).replace(/^./, (ch) => ch.toUpperCase())}</Txt>
-        {story && storyDraft ? (
+        <Txt variant="title">{draft?.title || (alltag ? (lang === 'de' ? alltag.title_de : alltag.title_en) : wordTopicLabel(topic, lang).replace(/^./, (ch) => ch.toUpperCase()))}</Txt>
+        {alltag ? (
+          <Txt variant="body" color="inkSoft">
+            {t('alltag.letterIntro', { title: lang === 'de' ? alltag.title_de : alltag.title_en, level })}
+          </Txt>
+        ) : story && storyDraft ? (
           <View style={{ gap: space.xs }}>
             {story.parts.length > 1 ? <Txt variant="smallStrong">{t('story.part', { n: storyDraft.part + 1, total: story.parts.length })}</Txt> : null}
             <Txt variant="body" color="inkSoft">
@@ -367,7 +372,7 @@ function ReadingStep({ params, readingKey }: { params: ReadParams; readingKey: s
                   </View>
                 ) : (
                   <View style={{ flexDirection: 'row', gap: space.s }}>
-                    <Button label={t('read.another')} icon={RefreshCw} kind="secondary" size="medium" grow onPress={() => void fetchText()} disabled={connection !== 'ready'} />
+                    <Button label={alltag ? t('alltag.anotherLetter') : t('read.another')} icon={RefreshCw} kind="secondary" size="medium" grow onPress={() => void fetchText()} disabled={connection !== 'ready'} />
                     <Button label={t('common.done')} size="medium" grow onPress={() => (router.canGoBack() ? router.back() : router.replace('/path' as never))} />
                   </View>
                 )}

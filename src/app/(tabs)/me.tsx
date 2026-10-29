@@ -5,6 +5,8 @@ import { Platform, Switch, View } from 'react-native';
 
 import modelInfo from '@/data/model.json';
 import { useAccessView } from '@/features/access';
+import { enableNotifications, openNotificationSettings, sendTestNotification, useNotifyPermission } from '@/features/notify';
+import { REMINDER_HOURS, useNotify } from '@/features/notifyStore';
 import { modelTitle, statusLabel, useModelPercent } from '@/features/modelStatus';
 import { checkForUpdate, useRelease, type CheckOutcome } from '@/features/release';
 import { openStorePage, storePageUrl } from '@/features/review';
@@ -115,6 +117,9 @@ export default function Me() {
   const pct = useModelPercent();
   const access = useAccessView();
   const [updateCheck, setUpdateCheck] = useState<'idle' | 'busy' | CheckOutcome>('idle');
+  const notify = useNotify();
+  const permission = useNotifyPermission();
+  const [testSent, setTestSent] = useState<boolean | null>(null);
   const update = useUpdateVerdict(false);
   const streak = streakOf(days);
   const mistakeCount = useMistakes((x) => Object.keys(x.items).length);
@@ -331,6 +336,50 @@ export default function Me() {
           />
         </Paper>
       </Section>
+
+      {Platform.OS !== 'web' ? (
+        <Section title={t('notify.settingsTitle')}>
+          <Paper style={{ paddingVertical: space.xs }}>
+            <Row
+              label={t('notify.reminderSwitch')}
+              detail={t('notify.reminderDetail')}
+              right={<Toggle value={notify.reminder} onChange={(v) => (v ? void enableNotifications({ reminder: true }) : notify.set({ reminder: false }))} label={t('notify.reminderSwitch')} />}
+            />
+            {notify.reminder ? (
+              <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 6, paddingBottom: space.m }}>
+                {REMINDER_HOURS.map((h) => (
+                  <Pill key={h} label={t('notify.hourAt', { hour: h })} selected={notify.hour === h} onPress={() => notify.set({ hour: h })} />
+                ))}
+              </View>
+            ) : null}
+            <Divider />
+            <Row
+              label={t('notify.wordSwitch')}
+              detail={t('notify.wordDetail')}
+              right={<Toggle value={notify.wordOfDay} onChange={(v) => (v ? void enableNotifications({ wordOfDay: true }) : notify.set({ wordOfDay: false }))} label={t('notify.wordSwitch')} />}
+            />
+            {permission === 'denied' ? (
+              <>
+                <Divider />
+                <Row label={t('notify.permissionDenied')} right={<Pill label={t('notify.openSettings')} onPress={() => void openNotificationSettings()} />} />
+              </>
+            ) : permission === 'unavailable' ? (
+              <Txt variant="caption" color="inkSoft" style={{ paddingBottom: space.m }}>
+                {t('notify.unavailable')}
+              </Txt>
+            ) : (
+              <>
+                <Divider />
+                <Row
+                  label={t('notify.testTitleRow')}
+                  detail={testSent === null ? t('notify.testDetail') : testSent ? t('notify.testSent') : t('notify.testFailed')}
+                  right={<Pill label={t('notify.testSend')} onPress={() => void sendTestNotification().then(setTestSent)} />}
+                />
+              </>
+            )}
+          </Paper>
+        </Section>
+      ) : null}
 
       <Section title={t('me.yourTutor')}>
         <Press onPress={() => router.push('/model')} scaleTo={0.99} accessibilityLabel={t('me.yourTutor')}>

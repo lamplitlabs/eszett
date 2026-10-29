@@ -18,6 +18,7 @@ import { useI18n } from '@/i18n';
 import { useAuthored } from '@/state/authored';
 import { useProgress } from '@/state/progress';
 import { Button, Paper, ProgressBar } from '@/ui/controls';
+import { PronunciationTips } from '@/ui/PronunciationTips';
 import { haptic } from '@/ui/haptics';
 import { TopBar } from '@/ui/Screen';
 import { speak } from '@/ui/speech';
@@ -116,6 +117,7 @@ export default function ReadAloudScreen() {
                 </Text>
               </Paper>
             ) : null}
+            <PronunciationTips missed={results.flatMap((r) => (r ? r.words.filter((w) => !w.ok).map((w) => w.word) : []))} />
             <View style={{ flexDirection: 'row', gap: space.s }}>
               <Button label={t('readAloud.again')} kind="secondary" size="medium" grow onPress={again} />
               <Button label={t('common.done')} size="medium" grow onPress={close} />
@@ -185,6 +187,7 @@ export default function ReadAloudScreen() {
                     </Txt>
                   ) : null}
                 </Paper>
+                <PronunciationTips missed={result.words.filter((w) => !w.ok).map((w) => w.word)} max={2} />
                 <Button label={index + 1 >= sentences.length ? t('grammar.finish') : t('common.next')} onPress={next} />
               </Animated.View>
             ) : null}
