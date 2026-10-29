@@ -671,6 +671,9 @@
   "practice.writeNewTitle": "Une tâche de ton tuteur",
   "practice.writing": "Rédaction",
   "practice.listening": "Compréhension orale",
+  "practice.stories": "Histoires",
+  "practice.allStories": "Toutes les histoires",
+  "practice.allStoriesDetail": "{count} textes authentiques du domaine public, de A2 à C2 : Grimm, Hebel, Storm, Kafka, Kleist",
   "read.another": "Un autre texte",
   "read.hiddenHint": "Le texte est masqué pour que tu puisses d’abord écouter. Affiche-le quand tu es prêt à lire.",
   "read.hideText": "Masquer le texte",
@@ -845,6 +848,32 @@
   "speak.unavailable": "La reconnaissance vocale n’est pas disponible sur ce téléphone ; cette étape se fait donc en écoutant et en répétant : écoute chaque phrase, dis-la, puis marque-la comme travaillée.",
   "speech.noVoice": "Le téléphone n’a pas de voix allemande ; rien ne peut donc être lu à voix haute. Installes-en une dans les réglages de synthèse vocale du téléphone.",
   "speech.openSettings": "Ouvrir les réglages de synthèse vocale",
+  "story.library": "Histoires",
+  "story.libraryIntro": "{count} textes allemands authentiques, libres de droits : des contes des frères Grimm, des histoires d’almanach de Hebel, Storm, Kafka et Kleist. Chacun est découpé en parties de quelques minutes, avec des questions et la liste de ses mots anciens. Écoute d’abord, lis ensuite, puis lis à voix haute.",
+  "story.yourLevel": "ton niveau",
+  "story.intro": "{author}, {year} · {level} · domaine public, orthographe légèrement modernisée",
+  "story.part": "Partie {n} sur {total}",
+  "story.parts": {
+    "one": "{count} partie",
+    "other": "{count} parties"
+  },
+  "story.partsDone": "{done} sur {total} terminées",
+  "story.minutes": {
+    "one": "{count} min",
+    "other": "{count} min"
+  },
+  "story.words": {
+    "one": "{count} mot",
+    "other": "{count} mots"
+  },
+  "story.gloss": "Mots et formes d’autrefois",
+  "story.next": "Partie suivante",
+  "story.start": "Commencer la lecture",
+  "story.continue": "Continuer avec la partie {n}",
+  "story.again": "Relire le texte",
+  "story.source": "Texte : {edition}, via Wikisource.",
+  "story.licence": "Les textes sont dans le domaine public. Seule l’orthographe a été actualisée ; les mots sont ceux des auteurs.",
+  "story.openSource": "Ouvrir la source",
   "tabs.me": "Moi",
   "tabs.practice": "Pratique",
   "tabs.scenes": "Scènes",

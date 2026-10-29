@@ -671,6 +671,9 @@
   "practice.writeNewTitle": "Öğretmeninden bir görev",
   "practice.writing": "Yazma",
   "practice.listening": "Dinleme",
+  "practice.stories": "Hikâyeler",
+  "practice.allStories": "Bütün hikâyeler",
+  "practice.allStoriesDetail": "A2'den C2'ye kamu malı {count} gerçek metin: Grimm, Hebel, Storm, Kafka, Kleist",
   "read.another": "Başka bir metin",
   "read.hiddenHint": "Önce dinleyebilmen için metin gizli. Okumaya hazır olduğunda göster.",
   "read.hideText": "Metni gizle",
@@ -845,6 +848,32 @@
   "speak.unavailable": "Bu telefonda konuşma tanıma kullanılamıyor; bu yüzden bu adımda dinleyip tekrar edeceksin: her cümleyi oynat, söyle ve çalışıldı olarak işaretle.",
   "speech.noVoice": "Telefonda Almanca bir ses yok; bu yüzden hiçbir şey sesli okunamıyor. Telefonun metin okuma ayarlarından bir tane yükle.",
   "speech.openSettings": "Metin okuma ayarlarını aç",
+  "story.library": "Hikâyeler",
+  "story.libraryIntro": "Telif hakkı olmayan {count} gerçek Almanca metin: Grimm Kardeşler'in masalları, Hebel'in takvim hikâyeleri, Storm, Kafka ve Kleist. Her biri birkaç dakikalık bölümlere ayrılmış; her bölümde sorular ve eski kelimelerin bir listesi var. Önce dinle, sonra oku, sonra da sesli oku.",
+  "story.yourLevel": "seviyen",
+  "story.intro": "{author}, {year} · {level} · kamu malı, yazımı hafifçe güncellenmiş",
+  "story.part": "Bölüm {n} / {total}",
+  "story.parts": {
+    "one": "{count} bölüm",
+    "other": "{count} bölüm"
+  },
+  "story.partsDone": "{done} / {total} tamamlandı",
+  "story.minutes": {
+    "one": "{count} dk",
+    "other": "{count} dk"
+  },
+  "story.words": {
+    "one": "{count} kelime",
+    "other": "{count} kelime"
+  },
+  "story.gloss": "Eski kelimeler ve biçimler",
+  "story.next": "Sonraki bölüm",
+  "story.start": "Okumaya başla",
+  "story.continue": "{n}. bölümden devam et",
+  "story.again": "Tekrar oku",
+  "story.source": "Metin: {edition}, Wikisource üzerinden.",
+  "story.licence": "Metinler kamu malıdır. Yalnızca yazım güncellendi; kelimeler yazarların kendi kelimeleridir.",
+  "story.openSource": "Kaynağı aç",
   "tabs.me": "Ben",
   "tabs.practice": "Pratik",
   "tabs.scenes": "Sahneler",

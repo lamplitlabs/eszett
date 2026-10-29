@@ -647,6 +647,9 @@
   "practice.writeNewTitle": "导师布置的任务",
   "practice.writing": "写作",
   "practice.listening": "听力",
+  "practice.stories": "故事",
+  "practice.allStories": "全部故事",
+  "practice.allStoriesDetail": "{count} 篇公有领域的德语原著，A2 到 C2：格林、黑贝尔、施托姆、卡夫卡、克莱斯特",
   "read.another": "换一篇短文",
   "read.hiddenHint": "短文已隐藏，好让你先听。准备好阅读时再显示它。",
   "read.hideText": "隐藏短文",
@@ -813,6 +816,29 @@
   "speak.unavailable": "这部手机上无法使用语音识别，所以这一步是先听后跟读：播放每个句子，跟着说，然后把它标记为已练习。",
   "speech.noVoice": "手机没有安装德语语音，所以无法朗读任何内容。请在手机的文字转语音设置中安装一个。",
   "speech.openSettings": "打开文字转语音设置",
+  "story.library": "故事",
+  "story.libraryIntro": "{count} 篇不受版权限制的德语原著：格林兄弟的童话、黑贝尔的历书故事，以及施托姆、卡夫卡和克莱斯特的作品。每篇都分成几分钟一段的若干部分，每部分配有问题和一份古旧词语表。先听一遍，再读一遍，然后朗读出来。",
+  "story.yourLevel": "你的水平",
+  "story.intro": "{author}，{year} · {level} · 公有领域，拼写略作现代化",
+  "story.part": "第 {n} 部分，共 {total} 部分",
+  "story.parts": {
+    "other": "{count} 个部分"
+  },
+  "story.partsDone": "已完成 {done}/{total}",
+  "story.minutes": {
+    "other": "{count} 分钟"
+  },
+  "story.words": {
+    "other": "{count} 个词"
+  },
+  "story.gloss": "古旧词语与词形",
+  "story.next": "下一部分",
+  "story.start": "开始阅读",
+  "story.continue": "从第 {n} 部分继续",
+  "story.again": "再读一遍",
+  "story.source": "文本：{edition}，取自 Wikisource。",
+  "story.licence": "这些文本属于公有领域。只更新了拼写；文字都出自作者本人。",
+  "story.openSource": "打开出处",
   "tabs.me": "我",
   "tabs.practice": "练习",
   "tabs.scenes": "情景",

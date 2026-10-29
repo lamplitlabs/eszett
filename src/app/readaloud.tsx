@@ -13,6 +13,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useDictation } from '@/features/dictation';
 import { paceOf, READ_ALOUD_PASS, readAloudSentences, scoreReading, scoreSentence, type Pace, type SentenceReading } from '@/harness/readAloud';
+import { storyReading } from '@/harness/stories';
 import { useI18n } from '@/i18n';
 import { useAuthored } from '@/state/authored';
 import { useProgress } from '@/state/progress';
@@ -28,7 +29,9 @@ export default function ReadAloudScreen() {
   const { c } = useTheme();
   const { t } = useI18n();
   const insets = useSafeAreaInsets();
-  const saved = useAuthored((s) => s.readings[key]);
+  const kept = useAuthored((s) => s.readings[key]);
+  // a kept text from the course, or a part of a story from the pack (src/harness/stories.ts)
+  const saved = kept ?? storyReading(key);
   const record = useProgress((s) => s.record);
   const sentences = useMemo(() => readAloudSentences(saved?.text ?? ''), [saved?.text]);
 

@@ -671,6 +671,9 @@
   "practice.writeNewTitle": "Uma tarefa do seu tutor",
   "practice.writing": "Escrita",
   "practice.listening": "Escuta",
+  "practice.stories": "Histórias",
+  "practice.allStories": "Todas as histórias",
+  "practice.allStoriesDetail": "{count} textos autênticos em domínio público, do A2 ao C2: Grimm, Hebel, Storm, Kafka, Kleist",
   "read.another": "Outro texto",
   "read.hiddenHint": "O texto está oculto para você ouvir primeiro. Mostre-o quando estiver pronto para ler.",
   "read.hideText": "Ocultar o texto",
@@ -845,6 +848,32 @@
   "speak.unavailable": "O reconhecimento de voz não está disponível neste celular, então esta etapa é ouvir e repetir: reproduza cada frase, repita em voz alta e marque como praticada.",
   "speech.noVoice": "O celular não tem voz em alemão, então nada pode ser lido em voz alta. Instale uma nas configurações de conversão de texto em voz do celular.",
   "speech.openSettings": "Abrir as configurações de voz",
+  "story.library": "Histórias",
+  "story.libraryIntro": "{count} textos alemães autênticos, livres de direitos autorais: contos de fadas dos irmãos Grimm, as histórias de almanaque de Hebel, Storm, Kafka e Kleist. Cada um é dividido em partes de poucos minutos, com perguntas e uma lista das suas palavras antigas. Ouça primeiro, depois leia e, por fim, leia em voz alta.",
+  "story.yourLevel": "seu nível",
+  "story.intro": "{author}, {year} · {level} · domínio público, grafia levemente modernizada",
+  "story.part": "Parte {n} de {total}",
+  "story.parts": {
+    "one": "{count} parte",
+    "other": "{count} partes"
+  },
+  "story.partsDone": "{done} de {total} concluídas",
+  "story.minutes": {
+    "one": "{count} min",
+    "other": "{count} min"
+  },
+  "story.words": {
+    "one": "{count} palavra",
+    "other": "{count} palavras"
+  },
+  "story.gloss": "Palavras e formas antigas",
+  "story.next": "Próxima parte",
+  "story.start": "Começar a ler",
+  "story.continue": "Continuar na parte {n}",
+  "story.again": "Ler de novo",
+  "story.source": "Texto: {edition}, via Wikisource.",
+  "story.licence": "Os textos são de domínio público. Apenas a grafia foi atualizada; as palavras são as dos próprios autores.",
+  "story.openSource": "Abrir a fonte",
   "tabs.me": "Eu",
   "tabs.practice": "Praticar",
   "tabs.scenes": "Cenas",

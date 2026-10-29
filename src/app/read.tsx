@@ -2,10 +2,12 @@
 // multiple-choice questions (src/harness/reading.ts). The text stays hidden at first so the learner can listen
 // to it (the device's German voice) before reading it; every word of the text opens the word sheet; the
 // questions are checked by the app. The text is kept (src/state/authored.ts), so the step opens again at once
-// and "another text" is the learner's choice. Reached from the course (`/read?topic=…&path=…`).
+// and "another text" is the learner's choice. Reached from the course (`/read?topic=…&path=…`). A part of a
+// story from the pack (`/read?story=<id>&part=<n>`, src/harness/stories.ts) opens here too: the text is shipped,
+// not written, so there is no waiting and no "another text", but a credit line, the old words, and the next part.
 
 import { router, useLocalSearchParams } from 'expo-router';
-import { Check, Eye, EyeOff, Headphones, Mic, Radio, RefreshCw, X } from 'lucide-react-native';
+import { ArrowRight, Check, Eye, EyeOff, Headphones, Mic, Radio, RefreshCw, X } from 'lucide-react-native';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Platform, ScrollView, Text, View } from 'react-native';
 import Animated, { FadeIn, FadeInDown, ZoomIn } from 'react-native-reanimated';
@@ -17,6 +19,7 @@ import { notReadyNote, useModelPercent } from '@/features/modelStatus';
 import { wordTopicLabel } from '@/features/topics';
 import { pathDoneKey } from '@/harness/path';
 import { readingWordsSoFar, type ReadingDraft } from '@/harness/reading';
+import { storyKey, storyReading } from '@/harness/stories';
 import type { AnswerChecks } from '@/harness/verify';
 import { useI18n } from '@/i18n';
 import { describeError, tutor, useModel } from '@/model/runtime';
@@ -57,8 +60,23 @@ function TappableText({ text }: { text: string }) {
   );
 }
 
+type ReadParams = { topic?: string; path?: string; lesson?: string; story?: string; part?: string };
+
+/** The key of the text this screen shows: a course step, a topic at the level, or a part of a story. */
+function readingKeyFor(params: ReadParams, level: string): string {
+  if (params.story) return storyKey(params.story, Number(params.part ?? 0));
+  return params.path ?? `${level}:${params.topic ?? 'the family'}`;
+}
+
 export default function ReadScreen() {
-  const params = useLocalSearchParams<{ topic?: string; path?: string; lesson?: string }>();
+  const params = useLocalSearchParams<ReadParams>();
+  const level = useSettings((s) => s.level);
+  // the step keeps its state per text: another key (the next part of a story) mounts it afresh
+  const readingKey = readingKeyFor(params, level);
+  return <ReadingStep key={readingKey} params={params} readingKey={readingKey} />;
+}
+
+function ReadingStep({ params, readingKey }: { params: ReadParams; readingKey: string }) {
   const { c } = useTheme();
   const { t, lang } = useI18n();
   const insets = useSafeAreaInsets();
@@ -69,10 +87,14 @@ export default function ReadScreen() {
   const record = useProgress((s) => s.record);
   const markDone = useProgress((s) => s.markDone);
   const topic = params.topic ?? 'the family';
-  // the text written last time for this step (or this topic at this level), shown again instead of a new one
-  const readingKey = params.path ?? `${level}:${topic}`;
-  const saved = useAuthored((s) => s.readings[readingKey]);
+  // the text written last time for this step (or this topic at this level), shown again instead of a new one;
+  // a story part is shipped with the app and never written
+  const storyDraft = params.story ? storyReading(readingKey) : null;
+  const kept = useAuthored((s) => s.readings[readingKey]);
+  const saved = storyDraft ?? kept;
   const addReading = useAuthored((s) => s.addReading);
+  const story = storyDraft?.story ?? null;
+  const nextPart = story && storyDraft && storyDraft.part + 1 < story.parts.length ? storyDraft.part + 1 : null;
 
   const [status, setStatus] = useState<'idle' | 'running' | 'done' | 'error'>(() => (saved ? 'done' : 'idle'));
   const [draft, setDraft] = useState<Draft | null>(() => saved ?? null);
@@ -132,7 +154,8 @@ export default function ReadScreen() {
     haptic.success();
     if (params.path) markDone(pathDoneKey(params.path));
     if (params.lesson !== undefined) markDone(lessonKey(Number(params.lesson)));
-  }, [allAnswered, markDone, params.lesson, params.path]);
+    if (params.story) markDone(readingKey);
+  }, [allAnswered, markDone, params.lesson, params.path, params.story, readingKey]);
 
   const choose = (q: number, o: number) => {
     if (!draft || picked[q] !== null) return;
@@ -160,12 +183,21 @@ export default function ReadScreen() {
 
   return (
     <View style={{ flex: 1, backgroundColor: c.paper }}>
-      <TopBar title={t('read.title')} />
+      <TopBar title={story ? t('story.library') : t('read.title')} />
       <ScrollView contentContainerStyle={{ paddingHorizontal: gutter, paddingBottom: insets.bottom + space.x4, gap: space.m }}>
         <Txt variant="title">{draft?.title || wordTopicLabel(topic, lang).replace(/^./, (ch) => ch.toUpperCase())}</Txt>
-        <Txt variant="body" color="inkSoft">
-          {t('read.intro', { level, topic: wordTopicLabel(topic, lang) })}
-        </Txt>
+        {story && storyDraft ? (
+          <View style={{ gap: space.xs }}>
+            {story.parts.length > 1 ? <Txt variant="smallStrong">{t('story.part', { n: storyDraft.part + 1, total: story.parts.length })}</Txt> : null}
+            <Txt variant="body" color="inkSoft">
+              {t('story.intro', { author: story.author, year: story.year ?? '', level: story.level })}
+            </Txt>
+          </View>
+        ) : (
+          <Txt variant="body" color="inkSoft">
+            {t('read.intro', { level, topic: wordTopicLabel(topic, lang) })}
+          </Txt>
+        )}
 
         {connection !== 'ready' && status === 'idle' ? (
           <Paper tone="alt">
@@ -245,13 +277,24 @@ export default function ReadScreen() {
               <Button label={t('readAloud.open')} icon={Mic} kind="secondary" size="medium" onPress={() => router.push(`/readaloud?reading=${encodeURIComponent(readingKey)}` as never)} />
             ) : null}
             {shownText ? (
-              <Animated.View entering={FadeInDown.duration(260)}>
+              <Animated.View entering={FadeInDown.duration(260)} style={{ gap: space.m }}>
                 <Paper style={{ gap: space.m }}>
                   <TappableText text={draft.text} />
                   <Txt variant="caption" color="inkFaint">
                     {t('read.tapWord')}
                   </Txt>
                 </Paper>
+                {storyDraft && storyDraft.story.parts[storyDraft.part].gloss.length ? (
+                  <Paper tone="alt" style={{ gap: space.xs }}>
+                    <Txt variant="smallStrong">{t('story.gloss')}</Txt>
+                    {storyDraft.story.parts[storyDraft.part].gloss.map((g) => (
+                      <Text key={g.word} style={{ fontFamily: font.de, fontSize: 15, lineHeight: 22, color: c.ink }}>
+                        <Text style={{ fontFamily: font.deSemi }}>{g.word}</Text>
+                        {` – ${g.meaning}`}
+                      </Text>
+                    ))}
+                  </Paper>
+                ) : null}
               </Animated.View>
             ) : (
               <Paper tone="alt">
@@ -310,10 +353,24 @@ export default function ReadScreen() {
                   </Txt>
                 </Paper>
                 <CheckFooter checks={draft.checks} noteTitle={tutor.noteTitle} />
-                <View style={{ flexDirection: 'row', gap: space.s }}>
-                  <Button label={t('read.another')} icon={RefreshCw} kind="secondary" size="medium" grow onPress={() => void fetchText()} disabled={connection !== 'ready'} />
-                  <Button label={t('common.done')} size="medium" grow onPress={() => (router.canGoBack() ? router.back() : router.replace('/path' as never))} />
-                </View>
+                {story ? (
+                  <View style={{ gap: space.s }}>
+                    <Txt variant="caption" color="inkFaint">
+                      {t('story.source', { edition: story.edition })}
+                    </Txt>
+                    <View style={{ flexDirection: 'row', gap: space.s }}>
+                      {nextPart !== null ? (
+                        <Button label={t('story.next')} icon={ArrowRight} size="medium" grow onPress={() => router.replace(`/read?story=${story.id}&part=${nextPart}` as never)} />
+                      ) : null}
+                      <Button label={t('common.done')} kind={nextPart !== null ? 'secondary' : 'primary'} size="medium" grow onPress={() => (router.canGoBack() ? router.back() : router.replace(`/stories/${story.id}` as never))} />
+                    </View>
+                  </View>
+                ) : (
+                  <View style={{ flexDirection: 'row', gap: space.s }}>
+                    <Button label={t('read.another')} icon={RefreshCw} kind="secondary" size="medium" grow onPress={() => void fetchText()} disabled={connection !== 'ready'} />
+                    <Button label={t('common.done')} size="medium" grow onPress={() => (router.canGoBack() ? router.back() : router.replace('/path' as never))} />
+                  </View>
+                )}
               </Animated.View>
             ) : null}
           </Animated.View>

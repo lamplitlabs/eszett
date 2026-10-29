@@ -8,6 +8,7 @@ import {
   Euro,
   Hash,
   Layers,
+  Library,
   ListChecks,
   NotebookPen,
   Radio,
@@ -24,6 +25,7 @@ import type { DrillCategory } from '@/harness/drills';
 import { atOrBelow, LEVELS } from '@/harness/levels';
 import { levelProgress, nextStep } from '@/harness/path';
 import { situationsFor } from '@/harness/situations';
+import { STORIES, storiesFor, storyProgress } from '@/harness/stories';
 import { tasksFor } from '@/harness/writing';
 import { WORD_TOPICS, wordTopicLabel } from '@/features/lesson';
 import { stepLabel } from '@/features/path';
@@ -191,6 +193,21 @@ export default function Practice() {
     href: `/situation?key=${s.key}`,
     area: 'listening',
   }));
+  const stories: Row[] = [
+    ...storiesFor(level).map<Row>((s) => {
+      const progress = storyProgress(s, done);
+      const finished = progress.done === s.parts.length;
+      return {
+        title: s.title,
+        detail: facts([s.author, s.level !== level && s.level, t('story.parts', { count: s.parts.length }), finished && t('practice.doneMark')]),
+        icon: BookOpen,
+        tone: finished ? 'green' : 'amberInk',
+        tint: finished ? 'greenTint' : 'amberTint',
+        href: `/stories/${s.id}`,
+      };
+    }),
+    { title: t('practice.allStories'), detail: t('practice.allStoriesDetail', { count: STORIES.length }), icon: Library, tone: 'royal', tint: 'royalTint', href: '/stories' },
+  ];
   const writing: Row[] = [
     { title: t('texts.title'), detail: textCount ? t('texts.practiceDetail', { count: textCount }) : t('texts.empty'), icon: BookMarked, tone: 'royal', tint: 'royalTint', href: '/texts' },
     { title: t('practice.writeNewTitle'), detail: t('practice.writeNewDetail'), icon: Sparkles, tone: 'amberInk', tint: 'amberTint', href: '/write/new' },
@@ -225,6 +242,9 @@ export default function Practice() {
       </Section>
       <Section title={t('practice.listening')}>
         <List rows={listening} />
+      </Section>
+      <Section title={t('practice.stories')}>
+        <List rows={stories} />
       </Section>
       <Section title={t('practice.writing')}>
         <List rows={writing} />

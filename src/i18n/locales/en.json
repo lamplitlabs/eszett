@@ -671,6 +671,9 @@
   "practice.writeNewTitle": "A task from your tutor",
   "practice.writing": "Writing",
   "practice.listening": "Listening",
+  "practice.stories": "Stories",
+  "practice.allStories": "All stories",
+  "practice.allStoriesDetail": "{count} real texts in the public domain, A2 to C2: Grimm, Hebel, Storm, Kafka, Kleist",
   "read.another": "Another text",
   "read.hiddenHint": "The text is hidden so you can listen first. Show it when you are ready to read.",
   "read.hideText": "Hide the text",
@@ -845,6 +848,32 @@
   "speak.unavailable": "Speech recognition is not available on this phone, so this step is listen and repeat: play each sentence, say it, and mark it as practised.",
   "speech.noVoice": "The phone has no German voice, so nothing can be read aloud. Install one in the phone's text-to-speech settings.",
   "speech.openSettings": "Open speech settings",
+  "story.library": "Stories",
+  "story.libraryIntro": "{count} real German texts, free of copyright: fairy tales by the Brothers Grimm, Hebel's calendar stories, Storm, Kafka and Kleist. Each is cut into parts of a few minutes with questions and a list of its old words. Listen first, then read, then read it aloud.",
+  "story.yourLevel": "your level",
+  "story.intro": "{author}, {year} · {level} · public domain, spelling lightly modernised",
+  "story.part": "Part {n} of {total}",
+  "story.parts": {
+    "one": "{count} part",
+    "other": "{count} parts"
+  },
+  "story.partsDone": "{done} of {total} done",
+  "story.minutes": {
+    "one": "{count} min",
+    "other": "{count} min"
+  },
+  "story.words": {
+    "one": "{count} word",
+    "other": "{count} words"
+  },
+  "story.gloss": "Old words and forms",
+  "story.next": "Next part",
+  "story.start": "Start reading",
+  "story.continue": "Continue with part {n}",
+  "story.again": "Read again",
+  "story.source": "Text: {edition}, via Wikisource.",
+  "story.licence": "The texts are in the public domain. Only the spelling was brought up to date; the words are the authors' own.",
+  "story.openSource": "Open the source",
   "tabs.me": "Me",
   "tabs.practice": "Practice",
   "tabs.scenes": "Scenes",

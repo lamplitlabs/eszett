@@ -581,6 +581,28 @@ word band (`SITUATION_WORDS`, 25–45 words at A1 up to 110–160 at C2) and a s
 place's bed, text locked until the three questions are answered; a dialogue's speaker labels are read as pauses.
 Kept with the readings under `situation:<level>:<key>`; "Another one" asks the tutor again. Scored in `listening`.
 
+**Stories** (`src/data/stories.json`, `src/harness/stories.ts`, `src/app/stories/`; Practice › Stories): a small
+pack of real German texts in the public domain, shipped with the app — three short Grimm tales at A2 (*Der süße
+Brei*, *Die Sterntaler*, *Der alte Großvater und der Enkel*), four at B1 (*Rotkäppchen*, *Der Wolf und die sieben
+jungen Geißlein*, *Die Bremer Stadtmusikanten*, *Rumpelstilzchen*), Hebel's *Seltsamer Spazierritt* and *Der kluge
+Richter* and Storm's *Der kleine Häwelmann* at B2, Hebel's *Kannitverstan* and Kafka's *Vor dem Gesetz* and *Eine
+kaiserliche Botschaft* at C1, Kafka's *Auf der Galerie* and Kleist's *Das Bettelweib von Locarno* at C2 — fifteen
+texts, 44 parts, 135 questions. The texts come from Wikisource (Grimm after the 1857 edition, Hebel after the
+*Schatzkästlein* of 1811, Kafka after the first printings of 1915–1919, Kleist after the *Berliner Abendblätter*);
+only the spelling was brought up to date (ß/ss, th/t, *Thür/Tür*, *gieng/ging*, *sey/sei*, page-break hyphens
+joined), the words are the authors' own, so *Dirne*, *ward*, *sprach*, *Geiß* stay and are explained in each part's
+**Old words and forms** list. Every text is cut at sentence boundaries into parts of about 200 words (`storyKey`
+`story:<id>:<part>`), each with three hand-written multiple-choice questions checked by code, the right answer
+spread evenly over a/b/c. A part opens in the reading step (`/read?story=<id>&part=<n>`), so listening, listening
+as in the exam under a bed, tapping a word, and reading aloud work on it as on any text; there is no waiting and
+no "another text", but a credit line, the gloss, "Next part", and the part is marked done under its key when the
+questions are answered. The library lists the pack by level with the learner's level marked and shows each story's
+reading time (`storyMinutes`, 110 words a minute) and parts done; the story page lists the parts and links the
+source. `storiesFor(level)` offers the level's stories on the Practice tab, and to an A1 learner the A2 ones. Data
+and tests: `src/harness/__tests__/stories.test.ts` checks the shape, the answer spread and that no old spelling
+survived. The pack was built from Wikisource with a rule-based modernisation and a manual review; all texts are
+pre-1930 publications by authors dead for more than 70 years, so they are free of copyright everywhere.
+
 **Wortschatz and the deck**: the course's words step is done once three words of its list are saved to My words
 (`SAVE_TO_FINISH` in `src/app/words.tsx`), not when the list is written — the week's vocabulary then comes back in
 the deck's spaced review. Outside the course the words screen behaves as before.

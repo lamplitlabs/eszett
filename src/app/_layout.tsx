@@ -261,6 +261,8 @@ export default function RootLayout() {
                   }}
                 />
                 <Stack.Screen name="situation" />
+                <Stack.Screen name="stories/index" />
+                <Stack.Screen name="stories/[id]" />
                 <Stack.Screen name="texts/index" />
                 <Stack.Screen name="texts/[id]" />
                 <Stack.Screen

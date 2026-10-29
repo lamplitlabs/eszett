@@ -671,6 +671,9 @@
   "practice.writeNewTitle": "Eine Aufgabe von deinem Tutor",
   "practice.writing": "Schreiben",
   "practice.listening": "Hören",
+  "practice.stories": "Geschichten",
+  "practice.allStories": "Alle Geschichten",
+  "practice.allStoriesDetail": "{count} echte, gemeinfreie Texte, A2 bis C2: Grimm, Hebel, Storm, Kafka, Kleist",
   "read.another": "Noch ein Text",
   "read.hiddenHint": "Der Text ist verborgen, damit du zuerst hören kannst. Zeig ihn, wenn du bereit zum Lesen bist.",
   "read.hideText": "Text verbergen",
@@ -845,6 +848,32 @@
   "speak.unavailable": "Spracherkennung ist auf diesem Handy nicht verfügbar, darum ist dieser Schritt Hören und Nachsprechen: Spiel jeden Satz ab, sprich ihn und markiere ihn als geübt.",
   "speech.noVoice": "Das Handy hat keine deutsche Stimme, darum kann nichts vorgelesen werden. Installiere eine in den Sprachausgabe-Einstellungen des Handys.",
   "speech.openSettings": "Sprachausgabe-Einstellungen öffnen",
+  "story.library": "Geschichten",
+  "story.libraryIntro": "{count} echte deutsche Texte, urheberrechtsfrei: Märchen der Brüder Grimm, Hebels Kalendergeschichten, Storm, Kafka und Kleist. Jeder ist in Teile von ein paar Minuten aufgeteilt, mit Fragen und einer Liste seiner alten Wörter. Hör zuerst zu, lies dann den Text und lies ihn zum Schluss laut vor.",
+  "story.yourLevel": "dein Niveau",
+  "story.intro": "{author}, {year} · {level} · gemeinfrei, Rechtschreibung behutsam modernisiert",
+  "story.part": "Teil {n} von {total}",
+  "story.parts": {
+    "one": "{count} Teil",
+    "other": "{count} Teile"
+  },
+  "story.partsDone": "{done} von {total} erledigt",
+  "story.minutes": {
+    "one": "{count} Min.",
+    "other": "{count} Min."
+  },
+  "story.words": {
+    "one": "{count} Wort",
+    "other": "{count} Wörter"
+  },
+  "story.gloss": "Alte Wörter und Formen",
+  "story.next": "Nächster Teil",
+  "story.start": "Lesen beginnen",
+  "story.continue": "Weiter mit Teil {n}",
+  "story.again": "Noch einmal lesen",
+  "story.source": "Text: {edition}, über Wikisource.",
+  "story.licence": "Die Texte sind gemeinfrei. Nur die Rechtschreibung wurde auf den heutigen Stand gebracht; der Wortlaut stammt von den Autoren selbst.",
+  "story.openSource": "Quelle öffnen",
   "tabs.me": "Ich",
   "tabs.practice": "Üben",
   "tabs.scenes": "Szenen",
