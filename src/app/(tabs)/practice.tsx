@@ -10,6 +10,7 @@ import {
   Layers,
   ListChecks,
   NotebookPen,
+  Radio,
   Repeat,
   Route,
   Shapes,
@@ -22,6 +23,7 @@ import { View } from 'react-native';
 import type { DrillCategory } from '@/harness/drills';
 import { atOrBelow, LEVELS } from '@/harness/levels';
 import { levelProgress, nextStep } from '@/harness/path';
+import { situationsFor } from '@/harness/situations';
 import { tasksFor } from '@/harness/writing';
 import { WORD_TOPICS, wordTopicLabel } from '@/features/lesson';
 import { stepLabel } from '@/features/path';
@@ -180,6 +182,15 @@ export default function Practice() {
       href: `/grammar/${k.key}`,
     })),
   ];
+  const listening: Row[] = situationsFor(level).map<Row>((s) => ({
+    title: lang === 'de' ? s.title_de : s.title_en,
+    detail: t(`situation.kind.${s.kind}`),
+    icon: Radio,
+    tone: 'green',
+    tint: 'greenTint',
+    href: `/situation?key=${s.key}`,
+    area: 'listening',
+  }));
   const writing: Row[] = [
     { title: t('texts.title'), detail: textCount ? t('texts.practiceDetail', { count: textCount }) : t('texts.empty'), icon: BookMarked, tone: 'royal', tint: 'royalTint', href: '/texts' },
     { title: t('practice.writeNewTitle'), detail: t('practice.writeNewDetail'), icon: Sparkles, tone: 'amberInk', tint: 'amberTint', href: '/write/new' },
@@ -211,6 +222,9 @@ export default function Practice() {
       </Section>
       <Section title={t('practice.numbersAndTime')}>
         <List rows={numberRows} />
+      </Section>
+      <Section title={t('practice.listening')}>
+        <List rows={listening} />
       </Section>
       <Section title={t('practice.writing')}>
         <List rows={writing} />

@@ -56,7 +56,7 @@ const stripMd = (s: string) =>
  * Reads a draft: `Titel: …`, the text (paragraphs), then `Frage 1: …` with options a) b) c) and `Antwort: b)`,
  * three times. Null when fewer than two questions are complete or the text is far too short for the level.
  */
-export function parseReadingDraft(raw: string, level: Level): ReadingDraft | null {
+export function parseReadingDraft(raw: string, level: Level, band: [number, number] = READING_WORDS[level]): ReadingDraft | null {
   const lines = raw.split(/\r?\n/).map(stripMd);
   let title = '';
   const textLines: string[] = [];
@@ -111,7 +111,7 @@ export function parseReadingDraft(raw: string, level: Level): ReadingDraft | nul
     .join('\n')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
-  const [lo] = READING_WORDS[level];
+  const [lo] = band;
   if (wordCount(text) < lo * 0.6) return null;
   if (questions.length < 2) return null;
   const clean = questions.slice(0, READING_QUESTIONS).map((qq) => ({ ...qq, options: qq.options.slice(0, 3) })).filter((qq) => qq.answer < qq.options.length);

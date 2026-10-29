@@ -52,3 +52,13 @@ describe('comparing a sentence with what was heard', () => {
     expect(compareSpoken('Ich habe heute leider keine Zeit.', 'ich habe heute leider Zeit').clear).toBe(true);
   });
 });
+
+describe('compounds the recognizer splits or joins', () => {
+  it('matches a compound heard as two words and two words heard as one', () => {
+    expect(compareSpoken('Am Samstagmorgen gehe ich in den Park.', 'am samstag morgen gehe ich in den park').words.every((w) => w.ok)).toBe(true);
+    expect(compareSpoken('Ich bin zu Hause.', 'ich bin zuhause').words.every((w) => w.ok)).toBe(true);
+    expect(compareSpoken('Der Hauptbahnhof ist dort.', 'der haupt bahn hof ist dort').words.every((w) => w.ok)).toBe(true);
+    // a different word stays different
+    expect(compareSpoken('in den Stadtpark', 'in den park').words.map((w) => w.ok)).toEqual([true, true, false]);
+  });
+});

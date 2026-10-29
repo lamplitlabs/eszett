@@ -253,6 +253,14 @@ export default function RootLayout() {
                     animation: "slide_from_bottom",
                   }}
                 />
+                <Stack.Screen
+                  name="readaloud"
+                  options={{
+                    presentation: "fullScreenModal",
+                    animation: "slide_from_bottom",
+                  }}
+                />
+                <Stack.Screen name="situation" />
                 <Stack.Screen name="texts/index" />
                 <Stack.Screen name="texts/[id]" />
                 <Stack.Screen

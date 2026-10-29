@@ -38,6 +38,7 @@ import {
 } from './parse';
 import * as P from './prompts';
 import { parseReadingDraft, READING_WORDS, readingBudget, readingComplete, type ReadingDraft } from './reading';
+import { SITUATION_WORDS, situationStyle, type Situation } from './situations';
 import {
   BLOCKING_TELLS,
   counterpartPrompt,
@@ -635,6 +636,26 @@ export class Tutor {
       );
       last = text;
       const draft = parseReadingDraft(text, ctx.level);
+      if (draft) return { ...draft, checks: this.verify(draft.text, []), grounded: [] };
+    }
+    throw new DraftError(t('author.reasonReading'), last);
+  }
+
+  /** A listening situation (src/harness/situations.ts) in the reading draft's shape; the words band is the situation's. */
+  async situationText(situation: Situation, ctx: Ctx): Promise<ReadingDraft & { checks: AnswerChecks; grounded: string[] }> {
+    let last = '';
+    const words = SITUATION_WORDS[ctx.level];
+    const budget = Math.round(words[1] * 1.7) + 160;
+    for (const variant of [0, 1]) {
+      const { text } = await this.run(
+        P.situationPrompt(situation.brief_en, situationStyle(situation.kind), ctx.level, words, variant, situation.kind),
+        variant ? { ...ctx, onText: undefined } : ctx,
+        budget,
+        { prefill: P.READING_PREFILL, stopWhen: readingComplete },
+        false,
+      );
+      last = text;
+      const draft = parseReadingDraft(text, ctx.level, words);
       if (draft) return { ...draft, checks: this.verify(draft.text, []), grounded: [] };
     }
     throw new DraftError(t('author.reasonReading'), last);

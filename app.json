@@ -83,7 +83,8 @@
           "microphonePermission": "Eszett uses the microphone so you can say your German lines and have them checked.",
           "speechRecognitionPermission": "Eszett uses the phone’s own speech recognition to write down the German you say; nothing is sent to a server."
         }
-      ]
+      ],
+      "expo-audio"
     ],
     "experiments": {
       "typedRoutes": true,

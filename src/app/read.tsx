@@ -5,12 +5,13 @@
 // and "another text" is the learner's choice. Reached from the course (`/read?topic=…&path=…`).
 
 import { router, useLocalSearchParams } from 'expo-router';
-import { Check, Eye, EyeOff, Headphones, RefreshCw, X } from 'lucide-react-native';
+import { Check, Eye, EyeOff, Headphones, Mic, Radio, RefreshCw, X } from 'lucide-react-native';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { ScrollView, Text, View } from 'react-native';
+import { Platform, ScrollView, Text, View } from 'react-native';
 import Animated, { FadeIn, FadeInDown, ZoomIn } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { AMBIENCES, speakInNoise, stopNoise, type Ambience, type NoiseLevel } from '@/features/ambience';
 import { lessonKey } from '@/features/lesson';
 import { notReadyNote, useModelPercent } from '@/features/modelStatus';
 import { wordTopicLabel } from '@/features/topics';
@@ -23,10 +24,10 @@ import { useAuthored } from '@/state/authored';
 import { useProgress } from '@/state/progress';
 import { useSettings } from '@/state/settings';
 import { CheckFooter } from '@/ui/CheckFooter';
-import { Button, Paper, Press } from '@/ui/controls';
+import { Button, Paper, Pill, Press } from '@/ui/controls';
 import { haptic } from '@/ui/haptics';
 import { TopBar } from '@/ui/Screen';
-import { onSpeaking, speak, stopSpeaking } from '@/ui/speech';
+import { onSpeaking, speak } from '@/ui/speech';
 import { De, Txt } from '@/ui/Text';
 import { Thinking } from '@/ui/Thinking';
 import { font, gutter, radius, space, useTheme } from '@/ui/theme';
@@ -79,11 +80,16 @@ export default function ReadScreen() {
   const [wordsSoFar, setWordsSoFar] = useState(0);
   const [shownText, setShownText] = useState(false);
   const [speaking, setSpeaking] = useState(false);
+  // exam-style listening: the voice over a place's noise, the text kept hidden until the questions are answered
+  const [exam, setExam] = useState(false);
+  const [ambience, setAmbience] = useState<Ambience>('station');
+  const [noise, setNoise] = useState<NoiseLevel>('medium');
+  const [plays, setPlays] = useState(0);
   const [picked, setPicked] = useState<(number | null)[]>(() => (saved ? saved.questions.map(() => null) : []));
   const finishedRef = useRef(false);
 
   useEffect(() => onSpeaking((now) => setSpeaking(now !== null)), []);
-  useEffect(() => () => stopSpeaking(), []);
+  useEffect(() => () => stopNoise(), []);
 
   const fetchText = useCallback(async () => {
     setStatus('running');
@@ -141,6 +147,16 @@ export default function ReadScreen() {
     if (!draft) return;
     void speak(draft.text);
   };
+  // the exam voice reads at a natural pace, whatever the learner's usual setting
+  const listenInNoise = () => {
+    if (!draft) return;
+    if (speaking) {
+      stopNoise();
+      return;
+    }
+    setPlays((n) => n + 1);
+    void speakInNoise(draft.text, ambience, noise, { rate: 1.0 });
+  };
 
   return (
     <View style={{ flex: 1, backgroundColor: c.paper }}>
@@ -182,9 +198,52 @@ export default function ReadScreen() {
         {draft ? (
           <Animated.View entering={FadeIn.duration(300)} style={{ gap: space.m }}>
             <View style={{ flexDirection: 'row', gap: space.s }}>
-              <Button label={speaking ? t('read.stop') : t('read.listen')} icon={speaking ? X : Headphones} kind={shownText ? 'secondary' : 'primary'} size="medium" grow onPress={listen} />
-              <Button label={shownText ? t('read.hideText') : t('read.showText')} icon={shownText ? EyeOff : Eye} kind="secondary" size="medium" grow onPress={() => setShownText((v) => !v)} />
+              <Button label={speaking ? t('read.stop') : t('read.listen')} icon={speaking ? X : Headphones} kind={shownText ? 'secondary' : 'primary'} size="medium" grow onPress={exam ? listenInNoise : listen} />
+              <Button label={shownText ? t('read.hideText') : t('read.showText')} icon={shownText ? EyeOff : Eye} kind="secondary" size="medium" grow onPress={() => setShownText((v) => !v)} disabled={exam && !allAnswered} />
             </View>
+            {Platform.OS !== 'web' ? (
+              <Paper tone={exam ? 'amber' : 'alt'} style={{ gap: space.s }}>
+                <Press
+                  onPress={() => {
+                    stopNoise();
+                    setExam((v) => !v);
+                    if (!exam) setShownText(false);
+                  }}
+                  accessibilityRole="checkbox"
+                  accessibilityState={{ checked: exam }}
+                  accessibilityLabel={t('read.examMode')}>
+                  <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.s }}>
+                    <Radio size={16} color={exam ? c.amberInk : c.inkSoft} />
+                    <Txt variant="smallStrong" style={{ flex: 1, color: exam ? c.amberInk : c.ink }}>
+                      {t('read.examMode')}
+                    </Txt>
+                    <Txt variant="caption" color="inkSoft">
+                      {exam ? t('common.on') : t('common.off')}
+                    </Txt>
+                  </View>
+                </Press>
+                {exam ? (
+                  <Animated.View entering={FadeIn.duration(200)} style={{ gap: space.s }}>
+                    <Txt variant="small" color="inkSoft">
+                      {t('read.examHint', { count: plays })}
+                    </Txt>
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.xs }}>
+                      {AMBIENCES.map((a) => (
+                        <Pill key={a} label={t(`read.place.${a}`)} selected={ambience === a} onPress={() => setAmbience(a)} />
+                      ))}
+                    </View>
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.xs }}>
+                      {(['quiet', 'medium', 'loud'] as NoiseLevel[]).map((n) => (
+                        <Pill key={n} label={t(`read.noise.${n}`)} selected={noise === n} onPress={() => setNoise(n)} />
+                      ))}
+                    </View>
+                  </Animated.View>
+                ) : null}
+              </Paper>
+            ) : null}
+            {shownText && Platform.OS !== 'web' ? (
+              <Button label={t('readAloud.open')} icon={Mic} kind="secondary" size="medium" onPress={() => router.push(`/readaloud?reading=${encodeURIComponent(readingKey)}` as never)} />
+            ) : null}
             {shownText ? (
               <Animated.View entering={FadeInDown.duration(260)}>
                 <Paper style={{ gap: space.m }}>

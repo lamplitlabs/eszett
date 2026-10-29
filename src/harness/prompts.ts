@@ -232,6 +232,111 @@ const READING_EXAMPLE = [
 
 export const READING_PREFILL = 'Titel:';
 
+const SITUATION_EXAMPLES: Record<string, string> = {
+  announcement: [
+    'Titel: Durchsage am Gleis',
+    '',
+    'Achtung an Gleis drei: Der Regionalexpress nach Hannover, Abfahrt zwölf Uhr fünfzehn, hat heute circa zehn Minuten Verspätung. Der Zug fährt heute von Gleis fünf ab. Ich wiederhole: Der Zug nach Hannover fährt von Gleis fünf. Wir bitten um Entschuldigung.',
+    '',
+    'Frage 1: Wohin fährt der Zug?',
+    'a) Nach Hamburg',
+    'b) Nach Hannover',
+    'c) Nach Hameln',
+    'Antwort: b',
+    'Frage 2: Von welchem Gleis fährt der Zug heute?',
+    'a) Von Gleis drei',
+    'b) Von Gleis fünf',
+    'c) Von Gleis zehn',
+    'Antwort: b',
+    'Frage 3: Wie viel Verspätung hat der Zug?',
+    'a) Fünf Minuten',
+    'b) Zehn Minuten',
+    'c) Fünfzehn Minuten',
+    'Antwort: b',
+  ].join('\n'),
+  voicemail: [
+    'Titel: Nachricht von Paul',
+    '',
+    'Hallo Mia, hier ist Paul. Du, das Kino am Freitag geht leider nicht, ich muss länger arbeiten. Hast du am Sonntag Zeit? Um vier vor dem Kino, das Eiscafé daneben hat dann noch offen. Ruf mich kurz zurück, ja? Bis dann, tschüss!',
+    '',
+    'Frage 1: Warum geht Freitag nicht?',
+    'a) Paul ist krank',
+    'b) Paul muss arbeiten',
+    'c) Das Kino ist zu',
+    'Antwort: b',
+    'Frage 2: Wann sollen sie sich treffen?',
+    'a) Am Sonntag um vier',
+    'b) Am Samstag um vier',
+    'c) Am Sonntag um sechs',
+    'Antwort: a',
+    'Frage 3: Was soll Mia machen?',
+    'a) Karten kaufen',
+    'b) Zurückrufen',
+    'c) Zum Eiscafé gehen',
+    'Antwort: b',
+  ].join('\n'),
+  radio: [
+    'Titel: Das Wetter',
+    '',
+    'Und nun das Wetter. Heute bleibt es im Norden grau, am Nachmittag Regen bei vierzehn Grad. Im Süden scheint die Sonne, bis zu zweiundzwanzig Grad. Morgen wird es überall freundlicher. Autofahrer aufgepasst: Am Abend Nebel auf der A sieben.',
+    '',
+    'Frage 1: Wie ist das Wetter heute im Süden?',
+    'a) Es regnet',
+    'b) Die Sonne scheint',
+    'c) Es ist neblig',
+    'Antwort: b',
+    'Frage 2: Wie warm wird es im Norden?',
+    'a) Vierzehn Grad',
+    'b) Zweiundzwanzig Grad',
+    'c) Siebzehn Grad',
+    'Antwort: a',
+    'Frage 3: Worauf sollen Autofahrer achten?',
+    'a) Auf Schnee',
+    'b) Auf Regen',
+    'c) Auf Nebel',
+    'Antwort: c',
+  ].join('\n'),
+  dialogue: [
+    'Titel: Im Café',
+    '',
+    'Kellnerin: Guten Tag, was darf es sein?',
+    'Gast: Einen Cappuccino, bitte. Und ein Stück Apfelkuchen.',
+    'Kellnerin: Mit Sahne?',
+    'Gast: Nein, danke, ohne.',
+    'Kellnerin: Gern. Das macht zusammen sechs Euro achtzig.',
+    'Gast: Hier, sieben Euro. Stimmt so.',
+    'Kellnerin: Vielen Dank!',
+    '',
+    'Frage 1: Was trinkt der Gast?',
+    'a) Einen Tee',
+    'b) Einen Cappuccino',
+    'c) Ein Wasser',
+    'Antwort: b',
+    'Frage 2: Wie möchte der Gast den Kuchen?',
+    'a) Mit Sahne',
+    'b) Ohne Sahne',
+    'c) Mit Eis',
+    'Antwort: b',
+    'Frage 3: Wie viel kostet alles zusammen?',
+    'a) Sechs Euro achtzig',
+    'b) Sieben Euro achtzig',
+    'c) Sechs Euro',
+    'Antwort: a',
+  ].join('\n'),
+};
+
+/**
+ * A listening situation - an announcement, a voicemail, a radio piece or a dialogue - in the reading draft's shape,
+ * so the same reader takes it; the style line says how the kind is spoken. The retry names the labels.
+ */
+export function situationPrompt(brief: string, style: string, level: Level, words: [number, number], variant = 0, kind = 'announcement'): string {
+  const ask =
+    variant === 0
+      ? `Write ${brief}, in German, for a German learner at ${level} level: ${words[0]}-${words[1]} words, with a short title. ${style} Then write exactly three comprehension questions in German about what was said - the kind of facts a listener needs (which, when, where, how much, what to do) - each with three options a), b), c) and the right letter on a line "Antwort:". Every question must be about your own text; invent your own names, places, times and prices, none from the example.`
+      : `Make a listening exercise for a German learner at ${level} level: ${brief}. First a title line "Titel:", then the German text of ${words[0]}-${words[1]} words (${style}), then three questions in German labelled "Frage 1:", "Frage 2:", "Frage 3:", each followed by three options a), b), c) and a line "Antwort:" with the letter of the right option. The questions ask only about facts in your text; use other names, places, times and prices than the example.`;
+  return [ask, 'Use exactly the layout of the example and nothing else: no translation, no vocabulary list, no explanations.', '', 'Example of the layout (a different situation, for A1):', SITUATION_EXAMPLES[kind] ?? SITUATION_EXAMPLES.announcement].join('\n');
+}
+
 /**
  * A reading text with three multiple-choice questions, read by shape (src/harness/reading.ts). The text is in
  * German whatever the learner's language; the labels are German too, so the model keeps to one language.

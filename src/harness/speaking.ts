@@ -59,10 +59,43 @@ function targetWords(target: string): { word: string; tokens: string[] }[] {
     .map((word) => ({ word, tokens: spokenTokens(word) }));
 }
 
+/**
+ * The recognizer writes compounds apart ("Samstag morgen" for Samstagmorgen) and sometimes joins words
+ * ("zuhause" for zu Hause); heard tokens are re-joined so that a target token spelt as two or three heard tokens
+ * in a row still matches, and a target token pair spelt as one heard token too.
+ */
+function alignCompounds(target: string[], heard: string[]): string[] {
+  const set = new Set(target);
+  const out: string[] = [];
+  for (let j = 0; j < heard.length; j += 1) {
+    if (!set.has(heard[j])) {
+      // two or three heard tokens that together are one target token
+      if (j + 1 < heard.length && set.has(heard[j] + heard[j + 1])) {
+        out.push(heard[j] + heard[j + 1]);
+        j += 1;
+        continue;
+      }
+      if (j + 2 < heard.length && set.has(heard[j] + heard[j + 1] + heard[j + 2])) {
+        out.push(heard[j] + heard[j + 1] + heard[j + 2]);
+        j += 2;
+        continue;
+      }
+      // one heard token that is two target tokens in a row
+      const split = target.findIndex((tok, i) => i + 1 < target.length && tok + target[i + 1] === heard[j]);
+      if (split >= 0) {
+        out.push(target[split], target[split + 1]);
+        continue;
+      }
+    }
+    out.push(heard[j]);
+  }
+  return out;
+}
+
 export function compareSpoken(target: string, heard: string): SpokenComparison {
   const words = targetWords(target);
   const flat = words.flatMap((w) => w.tokens);
-  const ok = matched(flat, spokenTokens(heard));
+  const ok = matched(flat, alignCompounds(flat, spokenTokens(heard)));
   let k = 0;
   const out: SpokenWord[] = words.map((w) => {
     // a display word counts as heard when every token it compares by was heard ("7" -> "sieben")

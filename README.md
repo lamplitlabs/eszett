@@ -556,6 +556,31 @@ word is there (the recognizer's four-in-five allowance is for speech); the score
 phone whose voice fails (no German language data) is told what to install, with a button to the speech settings
 (`onSpeechError`, `openSpeechSettings` in `src/ui/speech.ts`).
 
+**Reading aloud** (`src/app/readaloud.tsx`, `src/harness/readAloud.ts`; "Read it aloud" on a reading step once its
+text shows): the text sentence by sentence into the phone's recognizer, each sentence compared with the text the way
+Sprechen compares speech (`compareSpoken`, now tolerant of the compounds a recognizer splits or joins — "Samstag
+morgen" for Samstagmorgen, "zuhause" for zu Hause) and timed, so the learner sees the words that did not come
+through and their pace in words a minute (`paceOf`: under 80 is decoding word by word, 80–165 a reading pace,
+above rushing); the text ends with the share of words heard, the clean sentences, the mean pace and the words to
+practise. Scored in the `speaking` area.
+
+**Listening as in the exam** (`src/features/ambience.ts`, the "Listen as in the exam" switch on a reading step): the
+voice reads at a natural pace over the sound of a place — a station concourse, a café, a street — at three noise
+levels, the text locked until the questions are answered, as the Hören parts do it. The beds are short procedural
+ambiences bundled in `assets/sounds` (no recordings of people, nothing to license), looped by `expo-audio` under
+the `expo-speech` voice and stopped with it.
+
+**Listening situations** (`src/app/situation.tsx`, `src/harness/situations.ts`; Practice › Listening): the pieces
+people hear in Germany — a platform announcement, the conductor on the train, a supermarket call, a gate call, a
+doctor's answering machine, a voicemail from a friend or an office, the radio's weather, traffic and news, a
+dialogue in the street, at the café, on the phone with a receptionist, at the Bürgeramt counter, an interview and
+a lecture opening at C1/C2 — sixteen situations placed by level, each a brief the tutor writes from in the reading
+draft's shape (`situationPrompt`, an example of the same kind, the facts of the example forbidden) with its own
+word band (`SITUATION_WORDS`, 25–45 words at A1 up to 110–160 at C2) and a style line for how the kind is spoken
+(loudspeaker, answering machine, presenter, two speakers on labelled lines). Played with a chime or a beep and the
+place's bed, text locked until the three questions are answered; a dialogue's speaker labels are read as pauses.
+Kept with the readings under `situation:<level>:<key>`; "Another one" asks the tutor again. Scored in `listening`.
+
 **Wortschatz and the deck**: the course's words step is done once three words of its list are saved to My words
 (`SAVE_TO_FINISH` in `src/app/words.tsx`), not when the list is written — the week's vocabulary then comes back in
 the deck's spaced review. Outside the course the words screen behaves as before.
