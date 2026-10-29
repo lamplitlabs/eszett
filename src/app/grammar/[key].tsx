@@ -8,6 +8,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { lessonKey } from '@/features/lesson';
 import { notReadyNote, useModelPercent } from '@/features/modelStatus';
 import { compact } from '@/harness/engines';
+import { ruleSegments, type RuleSegment } from '@/harness/paradigm';
 import { pathDoneKey } from '@/harness/path';
 import type { Lang } from '@/harness/route';
 import type { CorrectionResult } from '@/harness/tutor';
@@ -23,6 +24,7 @@ import { KeyboardAvoider } from '@/ui/KeyboardAvoider';
 import { Button, Paper, Pill, SpeakButton } from '@/ui/controls';
 import { haptic } from '@/ui/haptics';
 import { Markdown } from '@/ui/Markdown';
+import { ParadigmDrill, ParadigmTable } from '@/ui/ParadigmTable';
 import { RedPen } from '@/ui/RedPen';
 import { RuleLines } from '@/ui/RuleLines';
 import { Section, TopBar } from '@/ui/Screen';
@@ -72,10 +74,18 @@ export default function GrammarScreen() {
   const { t, lang: appLang } = useI18n();
   // the card as read by the learner; `card` itself stays English for the prompts and the drill
   const shown = localizeGrammar(card, appLang);
+  // the paradigms the rule carries, as exercises (the German is the same in every language's rule)
+  const tables = ruleSegments(card.rule_de).flatMap((seg) => (seg.kind === 'table' ? [seg.paradigm] : []));
   const insets = useSafeAreaInsets();
   const level = useSettings((s) => s.level);
   const explainIn = useSettings((s) => s.explainIn);
   const connection = useModel((s) => s.status);
+  // the rule as read, its tables lifted out; a translation that kept a paradigm in a shape the reader does not know
+  // shows its text whole and the German card's tables after it
+  const ruleText = explainIn === 'de' ? shown.rule_de : shown.rule_en;
+  const ruleSegs = ruleSegments(ruleText);
+  const ruleView: RuleSegment[] = ruleSegs.filter((seg) => seg.kind === 'table').length >= tables.length ? ruleSegs : [{ kind: 'text', text: ruleText }, ...tables.map((paradigm) => ({ kind: 'table' as const, paradigm }))];
+
   const pct = useModelPercent();
   const record = useProgress((s) => s.record);
   const markDone = useProgress((s) => s.markDone);
@@ -215,7 +225,15 @@ export default function GrammarScreen() {
                 {own ? t('grammar.writtenByTutorChecked') : t('grammar.verifiedRuleCard')}
               </Txt>
             </View>
-            <Txt variant="body">{explainIn === 'de' ? shown.rule_de : shown.rule_en}</Txt>
+            {ruleView.map((seg, i) =>
+              seg.kind === 'text' ? (
+                <Txt key={i} variant="body">
+                  {seg.text}
+                </Txt>
+              ) : (
+                <ParadigmTable key={i} paradigm={seg.paradigm} />
+              ),
+            )}
             {own?.grounded.length ? (
               <Txt variant="caption" color="inkSoft">
                 {t('grammar.writtenWithNotes', { notes: own.grounded.map((k) => tutor.noteTitle(k)).join(', ') })}
@@ -253,6 +271,16 @@ export default function GrammarScreen() {
             )}
           </View>
         </Section>
+
+        {tables.length ? (
+          <Section title={t('grammar.fillTheTable')}>
+            <View style={{ gap: space.l }}>
+              {tables.map((p, i) => (
+                <ParadigmDrill key={i} paradigm={p} seed={i} />
+              ))}
+            </View>
+          </Section>
+        ) : null}
 
         {card.pitfalls.length ? (
           <Section title={t('grammar.fixTheSentence')} action={<Txt variant="caption" color="inkSoft">{t('grammar.counter', { n: finished ? score : ex + 1, total: card.pitfalls.length })}</Txt>}>
