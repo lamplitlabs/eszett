@@ -187,6 +187,8 @@
   "grammar.verifiedRuleCard": "Fiche de règle vérifiée",
   "grammar.writtenByTutorChecked": "Rédigée par ton tuteur ; les exemples ont été vérifiés par le lexique",
   "grammar.writtenWithNotes": "Rédigée à partir des notes de règles de l’appli sur {notes}.",
+  "grammar.fillTheTable": "Complète le tableau",
+  "grammar.tableScore": "Formes correctes : {right} sur {total}",
   "home.activityDoneLabel": "{index}. {title}, terminé",
   "home.activityLabel": "{index}. {title}",
   "home.askTutor": "Demander au tuteur",
@@ -372,6 +374,28 @@
   "me.area.speaking": "Expression orale",
   "me.area.listening": "Compréhension orale",
   "me.placement": "Faire le test de niveau",
+  "mistakes.cleared": "Deux bonnes réponses de suite : la phrase sort du carnet.",
+  "mistakes.drop": "Retirer du carnet",
+  "mistakes.emptyBody": "Les phrases que tu rates dans le bilan, en expression orale et en compréhension orale arrivent ici, et en repartent une fois que tu les as réussies deux fois.",
+  "mistakes.emptyTitle": "Rien à revoir",
+  "mistakes.missedTimes": {
+    "one": "ratée {count} fois",
+    "other": "ratée {count} fois"
+  },
+  "mistakes.practiceDetail": {
+    "one": "{count} phrase à revoir",
+    "other": "{count} phrases à revoir"
+  },
+  "mistakes.practiceEmpty": "Les phrases que tu rates dans les bilans reviennent ici",
+  "mistakes.practiceTitle": "Tes erreurs",
+  "mistakes.result": "Bonnes réponses : {right} sur {total}",
+  "mistakes.resultBody": {
+    "one": "{count} phrase reste dans le carnet pour la prochaine fois.",
+    "other": "{count} phrases restent dans le carnet pour la prochaine fois."
+  },
+  "mistakes.rightOnce": "Juste ! Encore une bonne réponse un autre jour, et la phrase sort du carnet.",
+  "mistakes.theSentence": "La phrase",
+  "mistakes.title": "Tes erreurs",
   "model.absentIntro": "Le tuteur est un fichier de modèle que tu télécharges une seule fois. Ensuite, il répond directement ici, sans connexion.",
   "model.advanced": "Avancé",
   "model.bestOverWifi": "De préférence en Wi-Fi. Tu peux continuer à utiliser l’appli pendant ce temps ; le téléchargement se poursuit en arrière-plan.",
@@ -781,6 +805,28 @@
   "tabs.scenes": "Scènes",
   "tabs.today": "Aujourd’hui",
   "tabs.tutor": "Tuteur",
+  "texts.count": {
+    "one": "{count} texte",
+    "other": "{count} textes"
+  },
+  "texts.empty": "Les textes que tu écris pour une tâche sont conservés ici, avec les corrections de ton tuteur.",
+  "texts.noChanges": "aucune correction",
+  "texts.points": "Points traités : {hit} sur {total}",
+  "texts.practiceDetail": {
+    "one": "{count} texte avec les corrections de ton tuteur",
+    "other": "{count} textes avec les corrections de ton tuteur"
+  },
+  "texts.remove": "Supprimer ce texte",
+  "texts.summary": {
+    "one": "{count} texte · {percent} % des points traités dans tes derniers textes",
+    "other": "{count} textes · {percent} % des points traités dans tes cinq derniers"
+  },
+  "texts.title": "Tes textes",
+  "texts.words": {
+    "one": "{count} mot",
+    "other": "{count} mots"
+  },
+  "texts.writeAgain": "Refaire cette tâche",
   "together.again": "Rejouer",
   "together.anotherTopic": "Autre thème",
   "together.answers": "{name} répond",

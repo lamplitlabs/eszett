@@ -187,6 +187,8 @@
   "grammar.verifiedRuleCard": "Verified rule card",
   "grammar.writtenByTutorChecked": "Written by your tutor; the lexicon checked the examples",
   "grammar.writtenWithNotes": "Written with the app’s rule notes on {notes}.",
+  "grammar.fillTheTable": "Fill in the table",
+  "grammar.tableScore": "{right} of {total} forms right",
   "home.activityDoneLabel": "{index}. {title}, done",
   "home.activityLabel": "{index}. {title}",
   "home.askTutor": "Ask the tutor",
@@ -372,6 +374,28 @@
   "me.area.speaking": "Speaking",
   "me.area.listening": "Listening",
   "me.placement": "Take the placement test",
+  "mistakes.cleared": "Right twice in a row: out of the notebook.",
+  "mistakes.drop": "Remove from the notebook",
+  "mistakes.emptyBody": "Sentences you miss in the Lerncheck, in Sprechen and in Hören come here, and leave again once you get them right twice.",
+  "mistakes.emptyTitle": "Nothing to go over",
+  "mistakes.missedTimes": {
+    "one": "missed {count} time",
+    "other": "missed {count} times"
+  },
+  "mistakes.practiceDetail": {
+    "one": "{count} sentence to go over",
+    "other": "{count} sentences to go over"
+  },
+  "mistakes.practiceEmpty": "Sentences you miss in the checks come back here",
+  "mistakes.practiceTitle": "Your mistakes",
+  "mistakes.result": "{right} of {total} right",
+  "mistakes.resultBody": {
+    "one": "{count} sentence stays in the notebook for next time.",
+    "other": "{count} sentences stay in the notebook for next time."
+  },
+  "mistakes.rightOnce": "Right! Once more another day and it leaves the notebook.",
+  "mistakes.theSentence": "The sentence",
+  "mistakes.title": "Your mistakes",
   "model.absentIntro": "The tutor is a model file you download once. After that it answers right here, with no connection.",
   "model.advanced": "Advanced",
   "model.bestOverWifi": "Best over Wi-Fi. You can keep using the app meanwhile; the download carries on in the background.",
@@ -781,6 +805,28 @@
   "tabs.scenes": "Scenes",
   "tabs.today": "Today",
   "tabs.tutor": "Tutor",
+  "texts.count": {
+    "one": "{count} text",
+    "other": "{count} texts"
+  },
+  "texts.empty": "The texts you write for a task are kept here, with your tutor's corrections.",
+  "texts.noChanges": "no corrections",
+  "texts.points": "{hit} of {total} points",
+  "texts.practiceDetail": {
+    "one": "{count} text with your tutor's corrections",
+    "other": "{count} texts with your tutor's corrections"
+  },
+  "texts.remove": "Delete this text",
+  "texts.summary": {
+    "one": "{count} text · {percent} % of the content points in your last texts",
+    "other": "{count} texts · {percent} % of the content points in your last five"
+  },
+  "texts.title": "Your texts",
+  "texts.words": {
+    "one": "{count} word",
+    "other": "{count} words"
+  },
+  "texts.writeAgain": "Write this task again",
   "together.again": "Play again",
   "together.anotherTopic": "Another topic",
   "together.answers": "{name} answers",

@@ -15,6 +15,7 @@ import { localizeWriting } from '@/i18n/content';
 import { describeError, tutor, useModel } from '@/model/runtime';
 import { useAuthored } from '@/state/authored';
 import { useProgress } from '@/state/progress';
+import { useTexts } from '@/state/texts';
 import { useSettings } from '@/state/settings';
 import { CheckFooter } from '@/ui/CheckFooter';
 import { KeyboardAvoider } from '@/ui/KeyboardAvoider';
@@ -54,6 +55,7 @@ export default function WriteScreen() {
   const pct = useModelPercent();
   const record = useProgress((s) => s.record);
   const markDone = useProgress((s) => s.markDone);
+  const saveText = useTexts((s) => s.add);
   const [text, setText] = useState('');
   const [showGerman, setShowGerman] = useState(false);
   const [state, setState] = useState<{ status: 'idle' | 'thinking' | 'streaming' | 'done' | 'error'; stream: string; result?: WritingResult; error?: string }>({ status: 'idle', stream: '' });
@@ -68,6 +70,20 @@ export default function WriteScreen() {
       const result = await tutor.writing(task, text, { level, lang: explainIn, onText: (t) => setState({ status: 'streaming', stream: t }) });
       setState({ status: 'done', stream: '', result });
       record('writing', result.precheck.ok && Boolean(result.correction?.correction.unchanged));
+      // the text joins the portfolio (Me › Your texts), with what the precheck found and what the tutor changed
+      saveText({
+        taskId: task.id,
+        title: task.title,
+        level: task.level,
+        text,
+        words: result.precheck.words,
+        pointsHit: result.precheck.points.filter((p) => p.hit).length,
+        pointsTotal: result.precheck.points.length,
+        ok: result.precheck.ok,
+        corrected: result.correction?.correction.corrected ?? null,
+        unchanged: result.correction?.correction.unchanged ?? true,
+        explanation: result.correction?.correction.explanation ?? '',
+      });
       markDone(`write:${task.id}`);
       if (lesson !== undefined) markDone(lessonKey(Number(lesson)));
       if (path) markDone(pathDoneKey(path));

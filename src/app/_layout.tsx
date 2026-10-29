@@ -247,6 +247,15 @@ export default function RootLayout() {
                   }}
                 />
                 <Stack.Screen
+                  name="mistakes"
+                  options={{
+                    presentation: "fullScreenModal",
+                    animation: "slide_from_bottom",
+                  }}
+                />
+                <Stack.Screen name="texts/index" />
+                <Stack.Screen name="texts/[id]" />
+                <Stack.Screen
                   name="path/check/[unit]"
                   options={{
                     presentation: "fullScreenModal",

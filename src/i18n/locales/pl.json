@@ -199,6 +199,8 @@
   "grammar.verifiedRuleCard": "Zweryfikowana karta gramatyczna",
   "grammar.writtenByTutorChecked": "Napisane przez Twojego korepetytora; przykłady sprawdził leksykon",
   "grammar.writtenWithNotes": "Napisane na podstawie notatek aplikacji o regułach: {notes}.",
+  "grammar.fillTheTable": "Uzupełnij tabelę",
+  "grammar.tableScore": "Poprawnie wpisano {right} z {total} form",
   "home.activityDoneLabel": "{index}. {title}, zrobione",
   "home.activityLabel": "{index}. {title}",
   "home.askTutor": "Zapytaj korepetytora",
@@ -404,6 +406,34 @@
   "me.area.speaking": "Mówienie",
   "me.area.listening": "Słuchanie",
   "me.placement": "Zrób test poziomujący",
+  "mistakes.cleared": "Dwa razy z rzędu poprawnie: zdanie znika z zeszytu.",
+  "mistakes.drop": "Usuń z zeszytu",
+  "mistakes.emptyBody": "Zdania, które pomylisz w Sprawdzianie, Mówieniu i Słuchaniu, trafiają tutaj, a znikają, gdy dwa razy zrobisz je poprawnie.",
+  "mistakes.emptyTitle": "Nie ma czego powtarzać",
+  "mistakes.missedTimes": {
+    "one": "pomylone {count} raz",
+    "few": "pomylone {count} razy",
+    "many": "pomylone {count} razy",
+    "other": "pomylone {count} raza"
+  },
+  "mistakes.practiceDetail": {
+    "one": "{count} zdanie do powtórki",
+    "few": "{count} zdania do powtórki",
+    "many": "{count} zdań do powtórki",
+    "other": "{count} zdania do powtórki"
+  },
+  "mistakes.practiceEmpty": "Zdania, które pomylisz w sprawdzianach, wracają tutaj",
+  "mistakes.practiceTitle": "Twoje błędy",
+  "mistakes.result": "{right} z {total} poprawnie",
+  "mistakes.resultBody": {
+    "one": "{count} zdanie zostaje w zeszycie na następny raz.",
+    "few": "{count} zdania zostają w zeszycie na następny raz.",
+    "many": "{count} zdań zostaje w zeszycie na następny raz.",
+    "other": "{count} zdania zostaje w zeszycie na następny raz."
+  },
+  "mistakes.rightOnce": "Dobrze! Jeszcze raz innego dnia i zdanie zniknie z zeszytu.",
+  "mistakes.theSentence": "Zdanie",
+  "mistakes.title": "Twoje błędy",
   "model.absentIntro": "Korepetytor to plik modelu, który pobierasz raz. Potem odpowiada tutaj, na miejscu, bez połączenia z internetem.",
   "model.advanced": "Zaawansowane",
   "model.bestOverWifi": "Najlepiej przez Wi-Fi. W tym czasie możesz dalej korzystać z aplikacji; pobieranie trwa w tle.",
@@ -835,6 +865,36 @@
   "tabs.scenes": "Scenki",
   "tabs.today": "Dziś",
   "tabs.tutor": "Korepetytor",
+  "texts.count": {
+    "one": "{count} tekst",
+    "few": "{count} teksty",
+    "many": "{count} tekstów",
+    "other": "{count} tekstu"
+  },
+  "texts.empty": "Teksty, które piszesz do zadań, zostają tutaj razem z poprawkami Twojego korepetytora.",
+  "texts.noChanges": "bez poprawek",
+  "texts.points": "{hit} z {total} punktów",
+  "texts.practiceDetail": {
+    "one": "{count} tekst z poprawkami Twojego korepetytora",
+    "few": "{count} teksty z poprawkami Twojego korepetytora",
+    "many": "{count} tekstów z poprawkami Twojego korepetytora",
+    "other": "{count} tekstu z poprawkami Twojego korepetytora"
+  },
+  "texts.remove": "Usuń ten tekst",
+  "texts.summary": {
+    "one": "{count} tekst · {percent}% punktów do omówienia w Twoich ostatnich tekstach",
+    "few": "{count} teksty · {percent}% punktów do omówienia w Twoich ostatnich pięciu",
+    "many": "{count} tekstów · {percent}% punktów do omówienia w Twoich ostatnich pięciu",
+    "other": "{count} tekstu · {percent}% punktów do omówienia w Twoich ostatnich pięciu"
+  },
+  "texts.title": "Twoje teksty",
+  "texts.words": {
+    "one": "{count} słowo",
+    "few": "{count} słowa",
+    "many": "{count} słów",
+    "other": "{count} słowa"
+  },
+  "texts.writeAgain": "Napisz to zadanie jeszcze raz",
   "together.again": "Jeszcze raz",
   "together.anotherTopic": "Inny temat",
   "together.answers": "{name} odpowiada",

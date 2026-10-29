@@ -187,6 +187,8 @@
   "grammar.verifiedRuleCard": "Scheda della regola verificata",
   "grammar.writtenByTutorChecked": "Scritta dal tuo tutor; il lessico ha controllato gli esempi",
   "grammar.writtenWithNotes": "Scritta con le note sulle regole dell’app relative a {notes}.",
+  "grammar.fillTheTable": "Completa la tabella",
+  "grammar.tableScore": "{right} su {total} forme giuste",
   "home.activityDoneLabel": "{index}. {title}, fatto",
   "home.activityLabel": "{index}. {title}",
   "home.askTutor": "Chiedi al tutor",
@@ -372,6 +374,28 @@
   "me.area.speaking": "Parlato",
   "me.area.listening": "Ascolto",
   "me.placement": "Fai il test di livello",
+  "mistakes.cleared": "Giusta due volte di fila: fuori dal quaderno.",
+  "mistakes.drop": "Rimuovi dal quaderno",
+  "mistakes.emptyBody": "Le frasi che sbagli nei passi Verifica, Parlato e Ascolto finiscono qui e se ne vanno quando le fai giuste due volte.",
+  "mistakes.emptyTitle": "Niente da ripassare",
+  "mistakes.missedTimes": {
+    "one": "sbagliata {count} volta",
+    "other": "sbagliata {count} volte"
+  },
+  "mistakes.practiceDetail": {
+    "one": "{count} frase da ripassare",
+    "other": "{count} frasi da ripassare"
+  },
+  "mistakes.practiceEmpty": "Le frasi che sbagli nelle verifiche tornano qui",
+  "mistakes.practiceTitle": "I tuoi errori",
+  "mistakes.result": "{right} su {total} giuste",
+  "mistakes.resultBody": {
+    "one": "{count} frase resta nel quaderno per la prossima volta.",
+    "other": "{count} frasi restano nel quaderno per la prossima volta."
+  },
+  "mistakes.rightOnce": "Giusto! Ancora una volta, un altro giorno, ed esce dal quaderno.",
+  "mistakes.theSentence": "La frase",
+  "mistakes.title": "I tuoi errori",
   "model.absentIntro": "Il tutor è un file modello che scarichi una volta sola. Da quel momento risponde direttamente qui, senza connessione.",
   "model.advanced": "Avanzate",
   "model.bestOverWifi": "Meglio con il Wi-Fi. Nel frattempo puoi continuare a usare l’app: il download prosegue in background.",
@@ -781,6 +805,28 @@
   "tabs.scenes": "Scene",
   "tabs.today": "Oggi",
   "tabs.tutor": "Tutor",
+  "texts.count": {
+    "one": "{count} testo",
+    "other": "{count} testi"
+  },
+  "texts.empty": "I testi che scrivi per un compito vengono conservati qui, con le correzioni del tuo tutor.",
+  "texts.noChanges": "nessuna correzione",
+  "texts.points": "{hit} su {total} punti",
+  "texts.practiceDetail": {
+    "one": "{count} testo con le correzioni del tuo tutor",
+    "other": "{count} testi con le correzioni del tuo tutor"
+  },
+  "texts.remove": "Elimina questo testo",
+  "texts.summary": {
+    "one": "{count} testo · {percent}% dei punti da trattare nel tuo ultimo testo",
+    "other": "{count} testi · {percent}% dei punti da trattare nei tuoi ultimi cinque"
+  },
+  "texts.title": "I tuoi testi",
+  "texts.words": {
+    "one": "{count} parola",
+    "other": "{count} parole"
+  },
+  "texts.writeAgain": "Rifai questo compito",
   "together.again": "Gioca ancora",
   "together.anotherTopic": "Un altro argomento",
   "together.answers": "{name} risponde",

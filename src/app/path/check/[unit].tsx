@@ -18,6 +18,7 @@ import type { CorrectionResult } from '@/harness/tutor';
 import { useI18n } from '@/i18n';
 import { localizeGrammar } from '@/i18n/content';
 import { tutor, useModel } from '@/model/runtime';
+import { fixKey, useMistakes } from '@/state/mistakes';
 import { useProgress } from '@/state/progress';
 import { useSettings } from '@/state/settings';
 import { KeyboardAvoider } from '@/ui/KeyboardAvoider';
@@ -44,6 +45,8 @@ export default function CheckScreen() {
   const connection = useModel((s) => s.status);
   const record = useProgress((s) => s.record);
   const markDone = useProgress((s) => s.markDone);
+  const noteMiss = useMistakes((s) => s.miss);
+  const noteHit = useMistakes((s) => s.hit);
   const unit = unitByKey(key) ?? unitsFor(level)[0];
   const step = unit.steps.find((s) => s.kind === 'check');
 
@@ -62,6 +65,10 @@ export default function CheckScreen() {
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
 
+  // a sentence that was not fixed goes to the mistakes notebook; one fixed counts as a hit there, if it is in it
+  const missed = () => noteMiss({ key: fixKey(current!.card.key, current!.index), kind: 'fix', text: pitfall!.wrong, right: pitfall!.right, card: current!.card.key, index: current!.index });
+  const fixed = () => noteHit(fixKey(current!.card.key, current!.index));
+
   const check = async () => {
     if (!current || !pitfall || !attempt.trim()) return;
     if (compact(attempt) === compact(pitfall.right)) {
@@ -69,12 +76,14 @@ export default function CheckScreen() {
       setVerdict({ ok: true, via: 'card' });
       setScore((s) => s + 1);
       record('grammar', true);
+      fixed();
       return;
     }
     if (compact(attempt) === compact(pitfall.wrong) || connection !== 'ready') {
       haptic.error();
       setVerdict({ ok: false, via: 'card' });
       record('grammar', false);
+      missed();
       return;
     }
     setChecking(true);
@@ -84,13 +93,18 @@ export default function CheckScreen() {
       if (ok) {
         haptic.success();
         setScore((s) => s + 1);
-      } else haptic.error();
+        fixed();
+      } else {
+        haptic.error();
+        missed();
+      }
       record('grammar', ok);
       setVerdict({ ok, via: 'tutor', result: r });
     } catch {
       haptic.error();
       setVerdict({ ok: false, via: 'card' });
       record('grammar', false);
+      missed();
     } finally {
       setChecking(false);
     }

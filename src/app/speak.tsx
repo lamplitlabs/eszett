@@ -17,6 +17,7 @@ import { speakSentences } from '@/features/path';
 import { pathDoneKey, unitByKey, unitsFor, weekNumber } from '@/harness/path';
 import { compareSpoken, type SpokenComparison } from '@/harness/speaking';
 import { useI18n } from '@/i18n';
+import { sayKey, useMistakes } from '@/state/mistakes';
 import { useProgress } from '@/state/progress';
 import { useSettings } from '@/state/settings';
 import { Button, Paper, Pill, Press, ProgressBar } from '@/ui/controls';
@@ -34,6 +35,7 @@ export default function SpeakScreen() {
   const level = useSettings((s) => s.level);
   const record = useProgress((s) => s.record);
   const markDone = useProgress((s) => s.markDone);
+  const noteMiss = useMistakes((s) => s.miss);
   const unit = unitByKey(key) ?? unitsFor(level)[0];
   // the sentences are fixed per week (bundled content), so the list is built once per unit
   const items = useMemo(() => {
@@ -60,6 +62,7 @@ export default function SpeakScreen() {
       else haptic.error();
       record('speaking', r.clear);
       if (r.clear) setClear((v) => v.map((x, i) => (i === index ? true : x)));
+      else noteMiss({ key: sayKey(current.text), kind: 'say', text: current.text, gloss: current.gloss, source: current.source.key });
     },
   });
 

@@ -199,6 +199,8 @@
   "grammar.verifiedRuleCard": "Проверенная карточка правила",
   "grammar.writtenByTutorChecked": "Написано репетитором; примеры проверил словарь",
   "grammar.writtenWithNotes": "Написано с опорой на справки приложения: {notes}.",
+  "grammar.fillTheTable": "Заполни таблицу",
+  "grammar.tableScore": "{right} из {total} форм верно",
   "home.activityDoneLabel": "{index}. {title}, выполнено",
   "home.activityLabel": "{index}. {title}",
   "home.askTutor": "Спросить репетитора",
@@ -404,6 +406,34 @@
   "me.area.speaking": "Говорение",
   "me.area.listening": "Аудирование",
   "me.placement": "Пройти тест на определение уровня",
+  "mistakes.cleared": "Два раза подряд верно — предложение уходит из тетради.",
+  "mistakes.drop": "Убрать из тетради",
+  "mistakes.emptyBody": "Предложения, в которых ты ошибаешься на шагах «Проверка», «Говорение» и «Аудирование», попадают сюда и уходят, как только ты дважды справишься с ними.",
+  "mistakes.emptyTitle": "Повторять пока нечего",
+  "mistakes.missedTimes": {
+    "one": "не получилось {count} раз",
+    "few": "не получилось {count} раза",
+    "many": "не получилось {count} раз",
+    "other": "не получилось {count} раза"
+  },
+  "mistakes.practiceDetail": {
+    "one": "{count} предложение ждёт повторения",
+    "few": "{count} предложения ждут повторения",
+    "many": "{count} предложений ждут повторения",
+    "other": "{count} предложения ждут повторения"
+  },
+  "mistakes.practiceEmpty": "Предложения, в которых ты ошибаешься в проверках, попадают сюда",
+  "mistakes.practiceTitle": "Твои ошибки",
+  "mistakes.result": "Верно {right} из {total}",
+  "mistakes.resultBody": {
+    "one": "{count} предложение остаётся в тетради до следующего раза.",
+    "few": "{count} предложения остаются в тетради до следующего раза.",
+    "many": "{count} предложений остаются в тетради до следующего раза.",
+    "other": "{count} предложения остаются в тетради до следующего раза."
+  },
+  "mistakes.rightOnce": "Верно! Ещё раз в другой день — и предложение уйдёт из тетради.",
+  "mistakes.theSentence": "Предложение",
+  "mistakes.title": "Твои ошибки",
   "model.absentIntro": "Репетитор — это файл модели, который скачивается один раз. После этого он отвечает прямо здесь, без интернета.",
   "model.advanced": "Дополнительно",
   "model.bestOverWifi": "Лучше по Wi-Fi. Пока идёт загрузка, приложением можно пользоваться: она продолжится в фоне.",
@@ -835,6 +865,36 @@
   "tabs.scenes": "Сцены",
   "tabs.today": "Сегодня",
   "tabs.tutor": "Репетитор",
+  "texts.count": {
+    "one": "{count} текст",
+    "few": "{count} текста",
+    "many": "{count} текстов",
+    "other": "{count} текста"
+  },
+  "texts.empty": "Тексты, которые ты пишешь по заданиям, хранятся здесь вместе с исправлениями репетитора.",
+  "texts.noChanges": "без исправлений",
+  "texts.points": "{hit} из {total} пунктов",
+  "texts.practiceDetail": {
+    "one": "{count} текст с исправлениями репетитора",
+    "few": "{count} текста с исправлениями репетитора",
+    "many": "{count} текстов с исправлениями репетитора",
+    "other": "{count} текста с исправлениями репетитора"
+  },
+  "texts.remove": "Удалить этот текст",
+  "texts.summary": {
+    "one": "{count} текст · {percent}% пунктов раскрыто в последних текстах",
+    "few": "{count} текста · {percent}% пунктов раскрыто в последних пяти",
+    "many": "{count} текстов · {percent}% пунктов раскрыто в последних пяти",
+    "other": "{count} текста · {percent}% пунктов раскрыто в последних пяти"
+  },
+  "texts.title": "Твои тексты",
+  "texts.words": {
+    "one": "{count} слово",
+    "few": "{count} слова",
+    "many": "{count} слов",
+    "other": "{count} слова"
+  },
+  "texts.writeAgain": "Выполнить это задание ещё раз",
   "together.again": "Ещё раз",
   "together.anotherTopic": "Другая тема",
   "together.answers": "Отвечает {name}",

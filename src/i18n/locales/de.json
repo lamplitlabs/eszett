@@ -187,6 +187,8 @@
   "grammar.verifiedRuleCard": "Geprüfte Regelkarte",
   "grammar.writtenByTutorChecked": "Von deinem Tutor geschrieben; das Lexikon hat die Beispiele geprüft",
   "grammar.writtenWithNotes": "Geschrieben mit den Regelnotizen der App zu {notes}.",
+  "grammar.fillTheTable": "Tabelle ausfüllen",
+  "grammar.tableScore": "{right} von {total} Formen richtig",
   "home.activityDoneLabel": "{index}. {title}, erledigt",
   "home.activityLabel": "{index}. {title}",
   "home.askTutor": "Den Tutor fragen",
@@ -372,6 +374,28 @@
   "me.area.speaking": "Sprechen",
   "me.area.listening": "Hören",
   "me.placement": "Einstufungstest machen",
+  "mistakes.cleared": "Zweimal hintereinander richtig: raus aus dem Fehlerheft.",
+  "mistakes.drop": "Aus dem Fehlerheft entfernen",
+  "mistakes.emptyBody": "Sätze, die du im Lerncheck, beim Sprechen und beim Hören falsch hattest, landen hier und verschwinden wieder, sobald du sie zweimal richtig hast.",
+  "mistakes.emptyTitle": "Nichts zu wiederholen",
+  "mistakes.missedTimes": {
+    "one": "{count}-mal falsch",
+    "other": "{count}-mal falsch"
+  },
+  "mistakes.practiceDetail": {
+    "one": "{count} Satz zum Wiederholen",
+    "other": "{count} Sätze zum Wiederholen"
+  },
+  "mistakes.practiceEmpty": "Sätze, die du in den Lernchecks falsch hattest, kommen hierher zurück",
+  "mistakes.practiceTitle": "Deine Fehler",
+  "mistakes.result": "{right} von {total} richtig",
+  "mistakes.resultBody": {
+    "one": "{count} Satz bleibt fürs nächste Mal im Fehlerheft.",
+    "other": "{count} Sätze bleiben fürs nächste Mal im Fehlerheft."
+  },
+  "mistakes.rightOnce": "Richtig! Noch einmal an einem anderen Tag, dann ist der Satz raus aus dem Fehlerheft.",
+  "mistakes.theSentence": "Der Satz",
+  "mistakes.title": "Deine Fehler",
   "model.absentIntro": "Der Tutor ist eine Modelldatei, die du einmal herunterlädst. Danach antwortet er direkt hier, ganz ohne Verbindung.",
   "model.advanced": "Erweitert",
   "model.bestOverWifi": "Am besten über WLAN. Du kannst die App währenddessen weiter benutzen; der Download läuft im Hintergrund weiter.",
@@ -781,6 +805,28 @@
   "tabs.scenes": "Szenen",
   "tabs.today": "Heute",
   "tabs.tutor": "Tutor",
+  "texts.count": {
+    "one": "{count} Text",
+    "other": "{count} Texte"
+  },
+  "texts.empty": "Die Texte, die du zu einer Aufgabe schreibst, werden hier gesammelt, mit den Korrekturen deines Tutors.",
+  "texts.noChanges": "keine Korrekturen",
+  "texts.points": "{hit} von {total} Punkten",
+  "texts.practiceDetail": {
+    "one": "{count} Text mit den Korrekturen deines Tutors",
+    "other": "{count} Texte mit den Korrekturen deines Tutors"
+  },
+  "texts.remove": "Diesen Text löschen",
+  "texts.summary": {
+    "one": "{count} Text · {percent} % der Inhaltspunkte in deinen letzten Texten",
+    "other": "{count} Texte · {percent} % der Inhaltspunkte in deinen letzten fünf"
+  },
+  "texts.title": "Deine Texte",
+  "texts.words": {
+    "one": "{count} Wort",
+    "other": "{count} Wörter"
+  },
+  "texts.writeAgain": "Diese Aufgabe noch einmal schreiben",
   "together.again": "Noch mal spielen",
   "together.anotherTopic": "Anderes Thema",
   "together.answers": "{name} antwortet",

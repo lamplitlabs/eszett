@@ -565,6 +565,28 @@ shuffle, to fix one by one — a fix that matches the card's answer counts at on
 tutor as on the grammar card; a week without a card of its own (C1's and C2's last) reviews cards of its level
 (`cards` on the step).
 
+**Tables on the rule cards** (`src/harness/paradigm.ts`, `src/ui/ParadigmTable.tsx`): a rule that writes a paradigm
+out in a line — "sein – ich bin, du bist, er ist, …", "ich → mein, du → dein, …", "Nominativ: ich, du, …; Akkusativ:
+mich, dich, …" — shows it as a table in the rule section instead (`ruleSegments` splits the text into plain parts and
+tables; pronoun runs must climb through the persons, so "ich war, er hatte, sie konnte" stays an example list;
+adjacent labelled runs become columns, sein | haben), and the same table comes back under the examples as **Fill in
+the table**, about half of its forms blanked by a seed, checked by code (`sameForm`: case, stem hyphens, umlaut
+spellings aside), with "Practise again" dealing another pattern. The German inside a translated rule is the same, so
+the reader works on every overlay; where a translation shaped a paradigm in a way the reader does not know, the rule
+shows whole and the German card's tables follow it. Nine bundled cards carry tables today (`paradigm.test.ts` pins them).
+
+**The mistakes notebook** (`src/app/mistakes.tsx`, `src/state/mistakes.ts`; Practice › Your mistakes, Me › Progress):
+a Lerncheck sentence that was not fixed, and a Sprechen or Hören sentence that was not said or written as it
+stands, are kept and met again — the most recently missed first — a fix checked against the pitfall's right
+sentence, a sentence heard again and written down word for word; checked by code, so the notebook works without
+the tutor, and the card behind a sentence is a tap away. Two right answers in a row and the item leaves (the
+`review` progress area counts them). Missed nouns from the drills keep going to the deck instead.
+
+**The portfolio** (`src/app/texts/`, `src/state/texts.ts`; Practice › Writing › Your texts, Me › Progress): every text
+sent to the tutor from a writing task is kept with its date, length, the content points the precheck found and
+the tutor's corrections (shown with the red pen and the explanation), newest first with the share of content
+points over the last five — the trend a teacher's folder shows; a text opens its task again.
+
 **The placement test** (`src/app/placement.tsx`, `src/harness/placement.ts`; from onboarding's "Not sure?" and
 Me › Your level): four of the app's own drills per level — two meanings, an article and a verb form from that level's
 words and verb band — from A1 upwards; a round passes with three right, the first round that fails ends the test, and

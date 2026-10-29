@@ -187,6 +187,8 @@
   "grammar.verifiedRuleCard": "Doğrulanmış kural kartı",
   "grammar.writtenByTutorChecked": "Öğretmenin yazdı; örnekleri sözlük kontrol etti",
   "grammar.writtenWithNotes": "Uygulamanın {notes} konusundaki kural notlarıyla yazıldı.",
+  "grammar.fillTheTable": "Tabloyu doldur",
+  "grammar.tableScore": "{total} biçimden {right} tanesi doğru",
   "home.activityDoneLabel": "{index}. {title}, tamamlandı",
   "home.activityLabel": "{index}. {title}",
   "home.askTutor": "Öğretmene sor",
@@ -372,6 +374,28 @@
   "me.area.speaking": "Konuşma",
   "me.area.listening": "Dinleme",
   "me.placement": "Seviye tespit testine gir",
+  "mistakes.cleared": "Üst üste iki kez doğru: defterden çıktı.",
+  "mistakes.drop": "Defterden kaldır",
+  "mistakes.emptyBody": "Kontrol, Konuşma ve Dinleme adımlarında kaçırdığın cümleler buraya gelir; iki kez doğru yaptığında yeniden çıkar.",
+  "mistakes.emptyTitle": "Üzerinden geçilecek bir şey yok",
+  "mistakes.missedTimes": {
+    "one": "{count} kez kaçırıldı",
+    "other": "{count} kez kaçırıldı"
+  },
+  "mistakes.practiceDetail": {
+    "one": "Üzerinden geçilecek {count} cümle",
+    "other": "Üzerinden geçilecek {count} cümle"
+  },
+  "mistakes.practiceEmpty": "Kontrollerde kaçırdığın cümleler buraya geri gelir",
+  "mistakes.practiceTitle": "Hataların",
+  "mistakes.result": "{total} cümleden {right} tanesi doğru",
+  "mistakes.resultBody": {
+    "one": "{count} cümle bir dahaki sefere defterde kalıyor.",
+    "other": "{count} cümle bir dahaki sefere defterde kalıyor."
+  },
+  "mistakes.rightOnce": "Doğru! Başka bir gün bir kez daha doğru yaparsan defterden çıkar.",
+  "mistakes.theSentence": "Cümle",
+  "mistakes.title": "Hataların",
   "model.absentIntro": "Öğretmen, bir kez indirdiğin bir model dosyasıdır. Sonrasında bağlantı gerekmeden tam burada cevap verir.",
   "model.advanced": "Gelişmiş",
   "model.bestOverWifi": "En iyisi Wi-Fi üzerinden. Bu arada uygulamayı kullanmaya devam edebilirsin; indirme arka planda sürer.",
@@ -781,6 +805,28 @@
   "tabs.scenes": "Sahneler",
   "tabs.today": "Bugün",
   "tabs.tutor": "Öğretmen",
+  "texts.count": {
+    "one": "{count} metin",
+    "other": "{count} metin"
+  },
+  "texts.empty": "Bir görev için yazdığın metinler, öğretmeninin düzeltmeleriyle birlikte burada saklanır.",
+  "texts.noChanges": "düzeltme yok",
+  "texts.points": "{total} maddeden {hit} tanesi",
+  "texts.practiceDetail": {
+    "one": "Öğretmeninin düzeltmeleriyle {count} metin",
+    "other": "Öğretmeninin düzeltmeleriyle {count} metin"
+  },
+  "texts.remove": "Bu metni sil",
+  "texts.summary": {
+    "one": "{count} metin · içerik maddelerinde %{percent} isabet",
+    "other": "{count} metin · son beş metninin içerik maddelerinde %{percent} isabet"
+  },
+  "texts.title": "Metinlerin",
+  "texts.words": {
+    "one": "{count} kelime",
+    "other": "{count} kelime"
+  },
+  "texts.writeAgain": "Bu görevi tekrar yaz",
   "together.again": "Tekrar",
   "together.anotherTopic": "Başka bir konu",
   "together.answers": "{name} cevap veriyor",

@@ -1,5 +1,6 @@
 import { router } from 'expo-router';
 import {
+  BookMarked,
   BookOpen,
   CalendarDays,
   ChevronRight,
@@ -29,7 +30,9 @@ import { localizeGrammar, localizeWriting } from '@/i18n/content';
 import { cards } from '@/model/runtime';
 import { newestFirst, topicsFor, useAuthored } from '@/state/authored';
 import { dueWords, useDeck } from '@/state/deck';
+import { useMistakes } from '@/state/mistakes';
 import { accuracy, useProgress, type Area } from '@/state/progress';
+import { useTexts } from '@/state/texts';
 import { useSettings } from '@/state/settings';
 import { Paper, Press } from '@/ui/controls';
 import { Screen, Section } from '@/ui/Screen';
@@ -117,6 +120,8 @@ export default function Practice() {
 
   const course = levelProgress(level, done);
   const courseStep = course.current ? nextStep(course.current, done) : null;
+  const mistakeCount = useMistakes((s) => Object.keys(s.items).length);
+  const textCount = useTexts((s) => Object.keys(s.items).length);
   const courseRows: Row[] = [
     {
       title: t('path.practiceTitle', { level }),
@@ -127,6 +132,16 @@ export default function Practice() {
       tone: 'royal',
       tint: 'royalTint',
       href: course.current ? `/path/${course.current.key}` : '/path',
+    },
+    {
+      title: t('mistakes.practiceTitle'),
+      detail: mistakeCount ? t('mistakes.practiceDetail', { count: mistakeCount }) : t('mistakes.practiceEmpty'),
+      icon: NotebookPen,
+      tone: 'red',
+      tint: 'redTint',
+      href: '/mistakes',
+      area: 'review',
+      badge: mistakeCount ? String(mistakeCount) : undefined,
     },
   ];
   const wordRows: Row[] = [
@@ -166,6 +181,7 @@ export default function Practice() {
     })),
   ];
   const writing: Row[] = [
+    { title: t('texts.title'), detail: textCount ? t('texts.practiceDetail', { count: textCount }) : t('texts.empty'), icon: BookMarked, tone: 'royal', tint: 'royalTint', href: '/texts' },
     { title: t('practice.writeNewTitle'), detail: t('practice.writeNewDetail'), icon: Sparkles, tone: 'amberInk', tint: 'amberTint', href: '/write/new' },
     ...[...newestFirst(ownTasks).filter((task) => task.level === level), ...tasksFor(level)].map<Row>((task) => ({
       title: localizeWriting(task, lang).title,

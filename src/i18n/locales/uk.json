@@ -199,6 +199,8 @@
   "grammar.verifiedRuleCard": "Перевірена картка з правилом",
   "grammar.writtenByTutorChecked": "Написав твій репетитор; приклади перевірив лексикон",
   "grammar.writtenWithNotes": "Написано за нотатками застосунку про правила: {notes}.",
+  "grammar.fillTheTable": "Заповни таблицю",
+  "grammar.tableScore": "{right} з {total} форм правильно",
   "home.activityDoneLabel": "{index}. {title}, виконано",
   "home.activityLabel": "{index}. {title}",
   "home.askTutor": "Запитати репетитора",
@@ -404,6 +406,34 @@
   "me.area.speaking": "Говоріння",
   "me.area.listening": "Слухання",
   "me.placement": "Пройти тест на визначення рівня",
+  "mistakes.cleared": "Двічі поспіль правильно: речення вибуває із зошита.",
+  "mistakes.drop": "Прибрати із зошита",
+  "mistakes.emptyBody": "Речення, у яких ти помиляєшся в Перевірці, Говорінні та Слуханні, потрапляють сюди і вибувають звідси, щойно ти двічі даси правильну відповідь.",
+  "mistakes.emptyTitle": "Немає що опрацьовувати",
+  "mistakes.missedTimes": {
+    "one": "неправильно {count} раз",
+    "few": "неправильно {count} рази",
+    "many": "неправильно {count} разів",
+    "other": "неправильно {count} разів"
+  },
+  "mistakes.practiceDetail": {
+    "one": "{count} речення на опрацювання",
+    "few": "{count} речення на опрацювання",
+    "many": "{count} речень на опрацювання",
+    "other": "{count} речень на опрацювання"
+  },
+  "mistakes.practiceEmpty": "Сюди повертаються речення, у яких ти помиляєшся в перевірках",
+  "mistakes.practiceTitle": "Твої помилки",
+  "mistakes.result": "Правильно {right} з {total}",
+  "mistakes.resultBody": {
+    "one": "{count} речення залишається в зошиті до наступного разу.",
+    "few": "{count} речення залишаються в зошиті до наступного разу.",
+    "many": "{count} речень залишається в зошиті до наступного разу.",
+    "other": "{count} речень залишається в зошиті до наступного разу."
+  },
+  "mistakes.rightOnce": "Правильно! Ще раз іншого дня — і речення вибуде із зошита.",
+  "mistakes.theSentence": "Речення",
+  "mistakes.title": "Твої помилки",
   "model.absentIntro": "Репетитор — це файл моделі, який ти завантажуєш один раз. Після цього він відповідає просто тут, без інтернету.",
   "model.advanced": "Додатково",
   "model.bestOverWifi": "Краще через Wi-Fi. Тим часом можна користуватися застосунком — завантаження триватиме у фоні.",
@@ -835,6 +865,36 @@
   "tabs.scenes": "Сцени",
   "tabs.today": "Сьогодні",
   "tabs.tutor": "Репетитор",
+  "texts.count": {
+    "one": "{count} текст",
+    "few": "{count} тексти",
+    "many": "{count} текстів",
+    "other": "{count} текстів"
+  },
+  "texts.empty": "Тексти, які ти пишеш для завдання, зберігаються тут разом із виправленнями твого репетитора.",
+  "texts.noChanges": "без виправлень",
+  "texts.points": "Розкрито {hit} з {total} пунктів",
+  "texts.practiceDetail": {
+    "one": "{count} текст із виправленнями твого репетитора",
+    "few": "{count} тексти з виправленнями твого репетитора",
+    "many": "{count} текстів із виправленнями твого репетитора",
+    "other": "{count} текстів із виправленнями твого репетитора"
+  },
+  "texts.remove": "Видалити цей текст",
+  "texts.summary": {
+    "one": "{count} текст · розкрито {percent}% пунктів у твоїх останніх текстах",
+    "few": "{count} тексти · розкрито {percent}% пунктів у твоїх п’яти останніх текстах",
+    "many": "{count} текстів · розкрито {percent}% пунктів у твоїх п’яти останніх текстах",
+    "other": "{count} текстів · розкрито {percent}% пунктів у твоїх п’яти останніх текстах"
+  },
+  "texts.title": "Твої тексти",
+  "texts.words": {
+    "one": "{count} слово",
+    "few": "{count} слова",
+    "many": "{count} слів",
+    "other": "{count} слів"
+  },
+  "texts.writeAgain": "Виконати це завдання ще раз",
   "together.again": "Ще раз",
   "together.anotherTopic": "Інша тема",
   "together.answers": "Відповідає {name}",

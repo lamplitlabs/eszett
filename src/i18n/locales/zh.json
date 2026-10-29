@@ -181,6 +181,8 @@
   "grammar.verifiedRuleCard": "已核验的规则卡片",
   "grammar.writtenByTutorChecked": "由导师撰写；例句已由词库核对",
   "grammar.writtenWithNotes": "参考了应用中关于{notes}的规则笔记。",
+  "grammar.fillTheTable": "填写表格",
+  "grammar.tableScore": "填对了 {total} 个形式中的 {right} 个",
   "home.activityDoneLabel": "{index}、{title}，已完成",
   "home.activityLabel": "{index}、{title}",
   "home.askTutor": "问导师",
@@ -356,6 +358,25 @@
   "me.area.speaking": "口语",
   "me.area.listening": "听力",
   "me.placement": "做水平测试",
+  "mistakes.cleared": "连续答对两次：已移出错题本。",
+  "mistakes.drop": "从错题本中移除",
+  "mistakes.emptyBody": "你在检测、口语和听力中答错的句子会收进这里，答对两次后就会离开。",
+  "mistakes.emptyTitle": "暂无待复习的句子",
+  "mistakes.missedTimes": {
+    "other": "答错 {count} 次"
+  },
+  "mistakes.practiceDetail": {
+    "other": "{count} 个句子待复习"
+  },
+  "mistakes.practiceEmpty": "你在检测中答错的句子会回到这里",
+  "mistakes.practiceTitle": "你的错题",
+  "mistakes.result": "答对了 {total} 个句子中的 {right} 个",
+  "mistakes.resultBody": {
+    "other": "{count} 个句子留在错题本里，下次再练。"
+  },
+  "mistakes.rightOnce": "答对了！改天再答对一次，它就会离开错题本。",
+  "mistakes.theSentence": "原句",
+  "mistakes.title": "你的错题",
   "model.absentIntro": "导师是一个只需下载一次的模型文件。之后它就在本机作答，无需联网。",
   "model.advanced": "高级选项",
   "model.bestOverWifi": "建议使用 Wi-Fi。下载期间你可以继续使用应用；下载会在后台进行。",
@@ -754,6 +775,24 @@
   "tabs.scenes": "情景",
   "tabs.today": "今天",
   "tabs.tutor": "导师",
+  "texts.count": {
+    "other": "{count} 篇文章"
+  },
+  "texts.empty": "你为写作任务写的文章都会保存在这里，并附上导师的批改。",
+  "texts.noChanges": "无需修改",
+  "texts.points": "要点 {hit}/{total}",
+  "texts.practiceDetail": {
+    "other": "{count} 篇文章，附导师的批改"
+  },
+  "texts.remove": "删除这篇文章",
+  "texts.summary": {
+    "other": "{count} 篇文章 · 最近的文章涵盖了 {percent}% 的要点"
+  },
+  "texts.title": "你的文章",
+  "texts.words": {
+    "other": "{count} 个词"
+  },
+  "texts.writeAgain": "再写一次这个任务",
   "together.again": "再玩一次",
   "together.anotherTopic": "换个主题",
   "together.answers": "{name} 来回答",

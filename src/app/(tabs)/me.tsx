@@ -1,5 +1,5 @@
 import { router } from 'expo-router';
-import { ChevronRight, GraduationCap, KeyRound, RefreshCw, Repeat, Star } from 'lucide-react-native';
+import { BookMarked, ChevronRight, GraduationCap, KeyRound, NotebookPen, RefreshCw, Repeat, Star } from 'lucide-react-native';
 import { useState, type ReactNode } from 'react';
 import { Platform, Switch, View } from 'react-native';
 
@@ -17,6 +17,8 @@ import { isTutorLang, LANGUAGE_NAMES, LANGUAGES, tutorLangFor } from '@/i18n/lan
 import { useModel } from '@/model/runtime';
 import { isMtLang, readLangFor, useTranslator } from '@/mt';
 import { dueWords, useDeck } from '@/state/deck';
+import { useMistakes } from '@/state/mistakes';
+import { useTexts } from '@/state/texts';
 import { accuracy, streakOf, useProgress, type Area } from '@/state/progress';
 import { useSettings, type ThemePref } from '@/state/settings';
 import { dayKey } from '@/state/storage';
@@ -115,6 +117,8 @@ export default function Me() {
   const [updateCheck, setUpdateCheck] = useState<'idle' | 'busy' | CheckOutcome>('idle');
   const update = useUpdateVerdict(false);
   const streak = streakOf(days);
+  const mistakeCount = useMistakes((x) => Object.keys(x.items).length);
+  const textCount = useTexts((x) => Object.keys(x.items).length);
   const due = dueWords(words).length;
   const practised = AREAS.filter(([a]) => (areas[a]?.seen ?? 0) > 0);
   const level = localizeLevel(LEVEL_INFO[s.level], lang);
@@ -286,6 +290,24 @@ export default function Me() {
               {due ? t('me.reviewDue', { count: due }) : t('me.myWords')}
             </Txt>
             <ChevronRight size={18} color={c.royal} />
+          </Paper>
+        </Press>
+        <Press onPress={() => router.push('/mistakes')} scaleTo={0.99} accessibilityLabel={t('mistakes.title')} style={{ marginTop: space.s }}>
+          <Paper tone={mistakeCount ? 'red' : 'alt'} style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
+            <NotebookPen size={18} color={mistakeCount ? c.red : c.inkSoft} />
+            <Txt variant="bodyStrong" style={{ flex: 1, color: mistakeCount ? c.red : c.ink }}>
+              {mistakeCount ? t('mistakes.practiceDetail', { count: mistakeCount }) : t('mistakes.title')}
+            </Txt>
+            <ChevronRight size={18} color={mistakeCount ? c.red : c.inkSoft} />
+          </Paper>
+        </Press>
+        <Press onPress={() => router.push('/texts')} scaleTo={0.99} accessibilityLabel={t('texts.title')} style={{ marginTop: space.s }}>
+          <Paper tone="alt" style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
+            <BookMarked size={18} color={c.inkSoft} />
+            <Txt variant="bodyStrong" style={{ flex: 1 }}>
+              {textCount ? t('texts.practiceDetail', { count: textCount }) : t('texts.title')}
+            </Txt>
+            <ChevronRight size={18} color={c.inkSoft} />
           </Paper>
         </Press>
       </Section>

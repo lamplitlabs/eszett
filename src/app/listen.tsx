@@ -16,6 +16,7 @@ import { listenSentences } from '@/features/path';
 import { pathDoneKey, unitByKey, unitsFor, weekNumber } from '@/harness/path';
 import { compareSpoken, type SpokenComparison } from '@/harness/speaking';
 import { useI18n } from '@/i18n';
+import { sayKey, useMistakes } from '@/state/mistakes';
 import { useProgress } from '@/state/progress';
 import { useSettings } from '@/state/settings';
 import { Button, Paper, Pill, ProgressBar } from '@/ui/controls';
@@ -37,6 +38,7 @@ export default function ListenScreen() {
   const speechRate = useSettings((s) => s.speechRate);
   const record = useProgress((s) => s.record);
   const markDone = useProgress((s) => s.markDone);
+  const noteMiss = useMistakes((s) => s.miss);
   const unit = unitByKey(key) ?? unitsFor(level)[0];
   const items = useMemo(() => {
     const step = unit.steps.find((s) => s.kind === 'listen');
@@ -65,6 +67,7 @@ export default function ListenScreen() {
     else haptic.error();
     record('listening', exact);
     if (exact) setRight((v) => v.map((x, i) => (i === index ? true : x)));
+    else noteMiss({ key: sayKey(current.text), kind: 'say', text: current.text, gloss: current.gloss, source: current.source.key });
   };
 
   const finish = () => {
