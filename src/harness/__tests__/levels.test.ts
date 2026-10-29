@@ -122,9 +122,9 @@ describe('C1 content', () => {
       expect(pl.examples.map((e) => e[0])).toEqual(card.examples.map((e) => e[0])); // the German side stays
     }
   });
-  it('has three formal C1 scenes whose facts are figures the counterpart may quote', () => {
+  it('has six formal C1 scenes whose facts are figures the counterpart may quote', () => {
     const c1 = cards.filter((c) => c.level === 'C1');
-    expect(c1.map((c) => c.key).sort()).toEqual(['rent_increase', 'salary_negotiation', 'town_hall_traffic']);
+    expect(c1.map((c) => c.key).sort()).toEqual(['bank_fraud_call', 'jobcenter_appointment', 'kita_platz_amt', 'rent_increase', 'salary_negotiation', 'town_hall_traffic']);
     for (const card of c1) {
       expect(card.register).toBe('Sie');
       expect(card.facts.length).toBeGreaterThanOrEqual(4);
@@ -197,9 +197,9 @@ describe('C2 content', () => {
       }
     }
   });
-  it('has three formal C2 scenes whose openings pass the counterpart check', () => {
+  it('has five formal C2 scenes whose openings pass the counterpart check', () => {
     const c2 = cards.filter((c) => c.level === 'C2');
-    expect(c2.map((c) => c.key).sort()).toEqual(['press_interview_study', 'publishing_contract', 'tax_office_objection']);
+    expect(c2.map((c) => c.key).sort()).toEqual(['kuendigungsgespraech', 'mietminderung_verwaltung', 'press_interview_study', 'publishing_contract', 'tax_office_objection']);
     for (const card of c2) {
       expect(card.register).toBe('Sie');
       expect(card.facts.length).toBeGreaterThanOrEqual(4);

@@ -10,7 +10,7 @@ import type { TalkPoint, TalkTopic } from '@/harness/together';
 import type { WordleState } from '@/harness/wordle';
 import { storage } from '@/state/storage';
 
-export type TogetherGame = 'talk' | 'duel' | 'taboo' | 'story' | 'scrabble' | 'wordle';
+export type TogetherGame = 'talk' | 'duel' | 'taboo' | 'story' | 'scrabble' | 'wordle' | 'whoami';
 
 export interface TogetherState {
   names: [string, string];

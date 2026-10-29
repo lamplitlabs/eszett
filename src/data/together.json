@@ -1,153 +1,3362 @@
 [
-  {"topic":"everyday","level":"A1","q":"Wann stehst du morgens auf?","en":"When do you get up in the morning?","fr":"À quelle heure te lèves-tu le matin ?","es":"¿A qué hora te levantas por la mañana?","it":"A che ora ti alzi la mattina?","words":["Morgen","Uhr","Wecker"]},
-  {"topic":"everyday","level":"A1","q":"Was machst du am Wochenende?","en":"What do you do at the weekend?","fr":"Que fais-tu le week-end ?","es":"¿Qué haces el fin de semana?","it":"Cosa fai nel fine settimana?","words":["Wochenende","Freund","Zeit"]},
-  {"topic":"everyday","level":"A1","q":"Wie kommst du zur Arbeit oder zur Schule?","en":"How do you get to work or to school?","fr":"Comment vas-tu au travail ou à l'école ?","es":"¿Cómo vas al trabajo o a la escuela?","it":"Come vai al lavoro o a scuola?","words":["Bus","Fahrrad","Auto"]},
-  {"topic":"everyday","level":"A2","q":"Was hast du gestern gemacht? Erzähl von deinem Tag.","en":"What did you do yesterday? Tell me about your day.","fr":"Qu'as-tu fait hier ? Raconte ta journée.","es":"¿Qué hiciste ayer? Cuéntame tu día.","it":"Cosa hai fatto ieri? Racconta la tua giornata.","words":["Tag","Arbeit","Abend"]},
-  {"topic":"everyday","level":"A2","q":"Welche Hausarbeit machst du gern und welche nicht?","en":"Which housework do you like doing, and which not?","fr":"Quelles tâches ménagères aimes-tu faire, et lesquelles non ?","es":"¿Qué tareas de la casa te gusta hacer y cuáles no?","it":"Quali faccende di casa ti piace fare e quali no?","words":["Küche","Wäsche","Haushalt"]},
-  {"topic":"everyday","level":"A2","q":"Wie oft benutzt du dein Handy am Tag?","en":"How often do you use your phone during the day?","fr":"Combien de fois par jour utilises-tu ton téléphone ?","es":"¿Con qué frecuencia usas el móvil al día?","it":"Quante volte al giorno usi il cellulare?","words":["Handy","Nachricht","Minute"]},
-  {"topic":"everyday","level":"B1","q":"Was würdest du an deinem Alltag gern ändern?","en":"What would you like to change about your daily routine?","fr":"Que voudrais-tu changer dans ton quotidien ?","es":"¿Qué te gustaría cambiar de tu rutina diaria?","it":"Cosa vorresti cambiare nella tua routine quotidiana?","words":["Alltag","Gewohnheit","Stress"]},
-  {"topic":"everyday","level":"B1","q":"Bist du eher ein Morgenmensch oder ein Nachtmensch? Warum?","en":"Are you more of a morning person or a night owl? Why?","fr":"Es-tu plutôt du matin ou du soir ? Pourquoi ?","es":"¿Eres más de mañanas o de noches? ¿Por qué?","it":"Sei più una persona mattiniera o nottambula? Perché?","words":["Morgen","Nacht","Energie"]},
-  {"topic":"everyday","level":"B1","q":"Wie organisierst du deine Woche? Hast du Tipps?","en":"How do you organise your week? Any tips?","fr":"Comment organises-tu ta semaine ? As-tu des conseils ?","es":"¿Cómo organizas tu semana? ¿Tienes consejos?","it":"Come organizzi la tua settimana? Hai dei consigli?","words":["Woche","Plan","Termin"]},
-  {"topic":"everyday","level":"B2","q":"Inwiefern bestimmt Technik unseren Alltag – und ist das gut so?","en":"To what extent does technology shape our everyday life, and is that a good thing?","fr":"Dans quelle mesure la technologie façonne-t-elle notre quotidien, et est-ce une bonne chose ?","es":"¿Hasta qué punto la tecnología determina nuestra vida diaria, y es eso bueno?","it":"In che misura la tecnologia determina la nostra quotidianità, ed è un bene?","words":["Technik","Alltag","Abhängigkeit"]},
-  {"topic":"everyday","level":"B2","q":"Welche Rolle spielen Routinen für dein Wohlbefinden?","en":"What role do routines play in your well-being?","fr":"Quel rôle jouent les routines dans ton bien-être ?","es":"¿Qué papel juegan las rutinas en tu bienestar?","it":"Che ruolo hanno le routine nel tuo benessere?","words":["Routine","Wohlbefinden","Gleichgewicht"]},
-  {"topic":"everyday","level":"B2","q":"Hat sich dein Alltag in den letzten Jahren stark verändert? Woran liegt das?","en":"Has your daily life changed a lot in recent years? What is the reason?","fr":"Ton quotidien a-t-il beaucoup changé ces dernières années ? Pourquoi ?","es":"¿Ha cambiado mucho tu día a día en los últimos años? ¿A qué se debe?","it":"La tua quotidianità è cambiata molto negli ultimi anni? Da cosa dipende?","words":["Veränderung","Jahr","Grund"]},
-  {"topic":"everyday","level":"C1","q":"Inwieweit prägen gesellschaftliche Erwartungen, wie wir unseren Alltag gestalten?","en":"To what extent do social expectations shape how we organise our everyday lives?","fr":"Dans quelle mesure les attentes sociales façonnent-elles la manière dont nous organisons notre quotidien ?","es":"¿Hasta qué punto las expectativas sociales determinan cómo organizamos nuestra vida cotidiana?","it":"In che misura le aspettative sociali condizionano il modo in cui organizziamo la nostra quotidianità?","words":["Erwartung","Gesellschaft","Gestaltung"]},
-  {"topic":"everyday","level":"C1","q":"Ständige Erreichbarkeit gilt vielen als Zumutung, anderen als Selbstverständlichkeit. Wo stehst du?","en":"Some see constant availability as an imposition, others take it for granted. Where do you stand?","fr":"Certains voient la disponibilité permanente comme une contrainte, d’autres comme une évidence. Où te situes-tu ?","es":"Algunos consideran la disponibilidad permanente una imposición; otros, algo natural. ¿Tú qué opinas?","it":"Per alcuni la reperibilità costante è un’imposizione, per altri una cosa ovvia. Tu da che parte stai?","words":["Erreichbarkeit","Zumutung","Selbstverständlichkeit"]},
-  {"topic":"everyday","level":"C1","q":"Lässt sich der Alltag überhaupt entschleunigen, oder ist das ein Privileg weniger?","en":"Can everyday life really be slowed down, or is that a privilege of the few?","fr":"Peut-on vraiment ralentir le quotidien, ou est-ce un privilège réservé à quelques-uns ?","es":"¿Se puede realmente desacelerar la vida diaria, o es un privilegio de unos pocos?","it":"Si può davvero rallentare la vita quotidiana, o è un privilegio di pochi?","words":["Entschleunigung","Privileg","Tempo"]},
-  {"topic":"everyday","level":"C2","q":"Höflichkeitsfloskeln gelten als leer, und doch halten sie den Alltag zusammen. Auf welche könntest du am ehesten verzichten?","en":"Polite formulas are said to be empty, and yet they hold everyday life together. Which could you most easily do without?","fr":"Les formules de politesse passent pour creuses, et pourtant elles font tenir le quotidien. De laquelle pourrais-tu te passer le plus facilement ?","es":"Las fórmulas de cortesía se consideran vacías y, sin embargo, sostienen la vida cotidiana. ¿De cuál podrías prescindir con más facilidad?","it":"Le formule di cortesia passano per vuote, eppure tengono insieme la quotidianità. Di quale potresti fare a meno più facilmente?","words":["Floskel","Höflichkeit","Umgangsform"]},
-  {"topic":"everyday","level":"C2","q":"Inwiefern ist Pünktlichkeit eine Tugend und inwiefern bloß eine Konvention, die sich kulturell erklären lässt?","en":"To what extent is punctuality a virtue, and to what extent merely a convention that can be explained culturally?","fr":"Dans quelle mesure la ponctualité est-elle une vertu, et dans quelle mesure une simple convention qui s'explique culturellement ?","es":"¿Hasta qué punto la puntualidad es una virtud y hasta qué punto una mera convención que se explica culturalmente?","it":"In che misura la puntualità è una virtù e in che misura una semplice convenzione spiegabile culturalmente?","words":["Pünktlichkeit","Tugend","Konvention"]},
-  {"topic":"everyday","level":"C2","q":"Multitasking gilt inzwischen als Mythos. Welche Gewohnheit müsstest du aufgeben, um wirklich bei einer Sache zu bleiben?","en":"Multitasking is now regarded as a myth. Which habit would you have to give up to really stay with one thing?","fr":"Le multitâche passe désormais pour un mythe. À quelle habitude devrais-tu renoncer pour rester vraiment sur une seule chose ?","es":"La multitarea se considera hoy un mito. ¿Qué hábito tendrías que abandonar para centrarte de verdad en una sola cosa?","it":"Il multitasking è ormai considerato un mito. A quale abitudine dovresti rinunciare per restare davvero su una cosa sola?","words":["Multitasking","Gewohnheit","Aufmerksamkeit"]},
-
-  {"topic":"food","level":"A1","q":"Was isst du gern zum Frühstück?","en":"What do you like to eat for breakfast?","fr":"Qu'aimes-tu manger au petit-déjeuner ?","es":"¿Qué te gusta desayunar?","it":"Cosa ti piace mangiare a colazione?","words":["Frühstück","Brot","Kaffee"]},
-  {"topic":"food","level":"A1","q":"Trinkst du lieber Tee oder Kaffee?","en":"Do you prefer tea or coffee?","fr":"Préfères-tu le thé ou le café ?","es":"¿Prefieres té o café?","it":"Preferisci il tè o il caffè?","words":["Tee","Kaffee","Milch"]},
-  {"topic":"food","level":"A1","q":"Was ist dein Lieblingsessen?","en":"What is your favourite food?","fr":"Quel est ton plat préféré ?","es":"¿Cuál es tu comida favorita?","it":"Qual è il tuo piatto preferito?","words":["Essen","Gemüse","Fleisch"]},
-  {"topic":"food","level":"A2","q":"Kochst du gern? Was kannst du gut kochen?","en":"Do you like cooking? What can you cook well?","fr":"Aimes-tu cuisiner ? Que sais-tu bien cuisiner ?","es":"¿Te gusta cocinar? ¿Qué sabes cocinar bien?","it":"Ti piace cucinare? Cosa sai cucinare bene?","words":["Suppe","Küche","Gericht"]},
-  {"topic":"food","level":"A2","q":"Wo kaufst du Lebensmittel ein – im Supermarkt oder auf dem Markt?","en":"Where do you buy groceries – at the supermarket or at the market?","fr":"Où fais-tu tes courses : au supermarché ou au marché ?","es":"¿Dónde compras la comida: en el supermercado o en el mercado?","it":"Dove fai la spesa: al supermercato o al mercato?","words":["Supermarkt","Markt","Lebensmittel"]},
-  {"topic":"food","level":"A2","q":"Was hast du zuletzt in einem Restaurant gegessen?","en":"What did you last eat in a restaurant?","fr":"Qu'as-tu mangé la dernière fois au restaurant ?","es":"¿Qué fue lo último que comiste en un restaurante?","it":"Cosa hai mangiato l'ultima volta al ristorante?","words":["Restaurant","Kellner","Rechnung"]},
-  {"topic":"food","level":"B1","q":"Welches Gericht aus deinem Land sollte jeder einmal probieren?","en":"Which dish from your country should everyone try once?","fr":"Quel plat de ton pays tout le monde devrait-il goûter une fois ?","es":"¿Qué plato de tu país debería probar todo el mundo?","it":"Quale piatto del tuo paese dovrebbero provare tutti almeno una volta?","words":["Gericht","Land","Geschmack"]},
-  {"topic":"food","level":"B1","q":"Isst du manchmal vegetarisch oder vegan? Was hältst du davon?","en":"Do you sometimes eat vegetarian or vegan? What do you think of it?","fr":"Manges-tu parfois végétarien ou végan ? Qu'en penses-tu ?","es":"¿Comes a veces vegetariano o vegano? ¿Qué opinas?","it":"Mangi a volte vegetariano o vegano? Cosa ne pensi?","words":["Ernährung","Fleisch","Gemüse"]},
-  {"topic":"food","level":"B1","q":"Was war das beste Essen, das du je hattest?","en":"What was the best meal you have ever had?","fr":"Quel est le meilleur repas que tu aies jamais mangé ?","es":"¿Cuál ha sido la mejor comida que has probado nunca?","it":"Qual è stato il pasto migliore che tu abbia mai fatto?","words":["Essen","Erinnerung","Urlaub"]},
-  {"topic":"food","level":"B2","q":"Sollten ungesunde Lebensmittel höher besteuert werden?","en":"Should unhealthy foods be taxed more heavily?","fr":"Les aliments mauvais pour la santé devraient-ils être davantage taxés ?","es":"¿Deberían gravarse más los alimentos poco saludables?","it":"Gli alimenti poco sani dovrebbero essere tassati di più?","words":["Steuer","Lebensmittel","Gesundheit"]},
-  {"topic":"food","level":"B2","q":"Wie lässt sich Lebensmittelverschwendung im Alltag vermeiden?","en":"How can food waste be avoided in everyday life?","fr":"Comment éviter le gaspillage alimentaire au quotidien ?","es":"¿Cómo se puede evitar el desperdicio de alimentos en el día a día?","it":"Come si può evitare lo spreco alimentare nella vita quotidiana?","words":["Verschwendung","Umwelt","Verantwortung"]},
-  {"topic":"food","level":"B2","q":"Welche Rolle spielt Essen in deiner Kultur – und bei Festen?","en":"What role does food play in your culture, and at celebrations?","fr":"Quel rôle joue la nourriture dans ta culture, et lors des fêtes ?","es":"¿Qué papel juega la comida en tu cultura y en las celebraciones?","it":"Che ruolo ha il cibo nella tua cultura e nelle feste?","words":["Kultur","Fest","Tradition"]},
-  {"topic":"food","level":"C1","q":"Sollte der Staat ungesunde Lebensmittel höher besteuern? Welche Folgen hätte das?","en":"Should the state tax unhealthy food more heavily? What consequences would that have?","fr":"L’État devrait-il taxer davantage les aliments malsains ? Quelles en seraient les conséquences ?","es":"¿Debería el Estado gravar más los alimentos poco saludables? ¿Qué consecuencias tendría?","it":"Lo Stato dovrebbe tassare di più gli alimenti poco sani? Quali conseguenze avrebbe?","words":["Besteuerung","Lebensmittel","Folge"]},
-  {"topic":"food","level":"C1","q":"Inwiefern ist Essen Ausdruck von Identität und Herkunft?","en":"In what way is food an expression of identity and origin?","fr":"En quoi la nourriture est-elle une expression de l’identité et des origines ?","es":"¿En qué medida la comida es expresión de identidad y origen?","it":"In che senso il cibo è espressione di identità e origine?","words":["Identität","Herkunft","Esskultur"]},
-  {"topic":"food","level":"C1","q":"Lebensmittelverschwendung wird viel beklagt, aber wenig verändert. Woran scheitert es?","en":"Food waste is widely deplored but little changes. What is it failing on?","fr":"On déplore beaucoup le gaspillage alimentaire, mais peu de choses changent. Où est le blocage ?","es":"Se lamenta mucho el desperdicio de alimentos, pero poco cambia. ¿En qué falla?","it":"Lo spreco alimentare viene molto deplorato, ma cambia poco. Dove sta il problema?","words":["Verschwendung","Verbraucher","Haltbarkeit"]},
-  {"topic":"food","level":"C2","q":"Ist Verzicht beim Essen Ausdruck von Haltung oder von Wohlstand? Wer kann es sich leisten, wählerisch zu sein?","en":"Is going without certain foods an expression of principle or of affluence? Who can afford to be choosy?","fr":"Renoncer à certains aliments, est-ce une question de conviction ou d'aisance ? Qui peut se permettre d'être difficile ?","es":"¿Renunciar a ciertos alimentos es expresión de convicciones o de bienestar? ¿Quién puede permitirse ser exigente?","it":"Rinunciare a certi cibi è espressione di convinzioni o di benessere? Chi può permettersi di essere esigente?","words":["Verzicht","Haltung","Wohlstand"]},
-  {"topic":"food","level":"C2","q":"Sterneküche wird gefeiert, Hausmannskost belächelt. Was sagt diese Hierarchie über unseren Geschmack aus?","en":"Haute cuisine is celebrated, home cooking smiled at. What does this hierarchy say about our taste?","fr":"La grande cuisine est célébrée, la cuisine familiale regardée avec condescendance. Que dit cette hiérarchie de notre goût ?","es":"La alta cocina se celebra; la comida casera, se mira con condescendencia. ¿Qué dice esta jerarquía sobre nuestro gusto?","it":"L'alta cucina viene celebrata, la cucina casalinga guardata con sufficienza. Che cosa dice questa gerarchia del nostro gusto?","words":["Sternekoch","Hausmannskost","Hierarchie"]},
-  {"topic":"food","level":"C2","q":"Tierwohl, Regionalität, Preis: Welchem Kriterium gibst du beim Einkauf den Vorrang, und wie rechtfertigst du die Abwägung?","en":"Animal welfare, regional origin, price: which criterion do you give priority to when shopping, and how do you justify the trade-off?","fr":"Bien-être animal, origine régionale, prix : à quel critère donnes-tu la priorité en faisant tes courses, et comment justifies-tu cet arbitrage ?","es":"Bienestar animal, origen regional, precio: ¿a qué criterio das prioridad al comprar y cómo justificas esa ponderación?","it":"Benessere animale, origine regionale, prezzo: a quale criterio dai la priorità quando fai la spesa, e come giustifichi questa scelta?","words":["Tierwohl","Regionalität","Abwägung"]},
-
-  {"topic":"travel","level":"A1","q":"Wohin fährst du gern in den Urlaub?","en":"Where do you like to go on holiday?","fr":"Où aimes-tu partir en vacances ?","es":"¿Adónde te gusta ir de vacaciones?","it":"Dove ti piace andare in vacanza?","words":["Urlaub","Meer","Berg"]},
-  {"topic":"travel","level":"A1","q":"Fährst du lieber mit dem Zug oder mit dem Auto?","en":"Do you prefer travelling by train or by car?","fr":"Préfères-tu voyager en train ou en voiture ?","es":"¿Prefieres viajar en tren o en coche?","it":"Preferisci viaggiare in treno o in macchina?","words":["Zug","Auto","Bahnhof"]},
-  {"topic":"travel","level":"A1","q":"Was packst du in deinen Koffer?","en":"What do you pack in your suitcase?","fr":"Que mets-tu dans ta valise ?","es":"¿Qué metes en tu maleta?","it":"Cosa metti in valigia?","words":["Koffer","Kleidung","Pass"]},
-  {"topic":"travel","level":"A2","q":"Wo warst du zuletzt im Urlaub? Wie war es?","en":"Where did you last go on holiday? How was it?","fr":"Où es-tu allé en vacances la dernière fois ? C'était comment ?","es":"¿Dónde fuiste de vacaciones la última vez? ¿Qué tal fue?","it":"Dove sei stato in vacanza l'ultima volta? Com'è stato?","words":["Urlaub","Hotel","Strand"]},
-  {"topic":"travel","level":"A2","q":"Welche Stadt möchtest du unbedingt besuchen? Warum?","en":"Which city do you really want to visit? Why?","fr":"Quelle ville veux-tu absolument visiter ? Pourquoi ?","es":"¿Qué ciudad quieres visitar sin falta? ¿Por qué?","it":"Quale città vuoi assolutamente visitare? Perché?","words":["Stadt","Sehenswürdigkeit","Reise"]},
-  {"topic":"travel","level":"A2","q":"Was machst du, wenn du dich in einer fremden Stadt verlaufen hast?","en":"What do you do when you get lost in a strange city?","fr":"Que fais-tu quand tu te perds dans une ville inconnue ?","es":"¿Qué haces cuando te pierdes en una ciudad desconocida?","it":"Cosa fai quando ti perdi in una città sconosciuta?","words":["Stadtplan","Weg","Haltestelle"]},
-  {"topic":"travel","level":"B1","q":"Reist du lieber allein oder mit anderen? Was sind die Vor- und Nachteile?","en":"Do you prefer travelling alone or with others? What are the pros and cons?","fr":"Préfères-tu voyager seul ou accompagné ? Quels sont les avantages et les inconvénients ?","es":"¿Prefieres viajar solo o acompañado? ¿Cuáles son las ventajas y desventajas?","it":"Preferisci viaggiare da solo o in compagnia? Quali sono i vantaggi e gli svantaggi?","words":["Vorteil","Nachteil","Freiheit"]},
-  {"topic":"travel","level":"B1","q":"Erzähl von einer Reise, bei der etwas schiefgelaufen ist.","en":"Tell about a trip where something went wrong.","fr":"Raconte un voyage où quelque chose a mal tourné.","es":"Cuenta un viaje en el que algo salió mal.","it":"Racconta di un viaggio in cui qualcosa è andato storto.","words":["Reise","Problem","Verspätung"]},
-  {"topic":"travel","level":"B1","q":"Was ist dir im Urlaub wichtiger: Erholung oder Abenteuer?","en":"What matters more to you on holiday: rest or adventure?","fr":"Qu'est-ce qui compte le plus pour toi en vacances : le repos ou l'aventure ?","es":"¿Qué es más importante para ti en vacaciones: descansar o la aventura?","it":"Cosa conta di più per te in vacanza: il riposo o l'avventura?","words":["Erholung","Abenteuer","Natur"]},
-  {"topic":"travel","level":"B2","q":"Ist Fliegen angesichts des Klimawandels noch vertretbar?","en":"Is flying still justifiable in view of climate change?","fr":"Prendre l'avion est-il encore défendable face au changement climatique ?","es":"¿Es todavía justificable volar, dado el cambio climático?","it":"Volare è ancora giustificabile di fronte al cambiamento climatico?","words":["Klimawandel","Flugzeug","Verantwortung"]},
-  {"topic":"travel","level":"B2","q":"Verändert Massentourismus die Orte, die wir besuchen? Wie?","en":"Does mass tourism change the places we visit? How?","fr":"Le tourisme de masse change-t-il les lieux que nous visitons ? Comment ?","es":"¿El turismo de masas cambia los lugares que visitamos? ¿Cómo?","it":"Il turismo di massa cambia i luoghi che visitiamo? Come?","words":["Tourismus","Einwohner","Auswirkung"]},
-  {"topic":"travel","level":"B2","q":"Was lernt man über sich selbst, wenn man lange im Ausland lebt?","en":"What does one learn about oneself from living abroad for a long time?","fr":"Qu'apprend-on sur soi-même quand on vit longtemps à l'étranger ?","es":"¿Qué aprende uno de sí mismo al vivir mucho tiempo en el extranjero?","it":"Cosa si impara su se stessi vivendo a lungo all'estero?","words":["Ausland","Erfahrung","Heimat"]},
-  {"topic":"travel","level":"C1","q":"Lässt sich Reisen mit Klimaschutz vereinbaren, oder ist das Selbstbetrug?","en":"Can travel be reconciled with climate protection, or is that self-deception?","fr":"Peut-on concilier voyages et protection du climat, ou est-ce se mentir à soi-même ?","es":"¿Se puede conciliar viajar con la protección del clima, o es autoengaño?","it":"Si può conciliare il viaggiare con la tutela del clima, o è autoinganno?","words":["Klimaschutz","Selbstbetrug","Verzicht"]},
-  {"topic":"travel","level":"C1","q":"Welche Verantwortung tragen Reisende gegenüber den Orten, die sie besuchen?","en":"What responsibility do travellers bear towards the places they visit?","fr":"Quelle responsabilité les voyageurs ont-ils envers les lieux qu’ils visitent ?","es":"¿Qué responsabilidad tienen los viajeros hacia los lugares que visitan?","it":"Quale responsabilità hanno i viaggiatori verso i luoghi che visitano?","words":["Verantwortung","Massentourismus","Einheimische"]},
-  {"topic":"travel","level":"C1","q":"Erweitert Reisen tatsächlich den Horizont, oder bestätigt es nur, was man ohnehin glaubt?","en":"Does travel really broaden the mind, or does it just confirm what one already believes?","fr":"Les voyages élargissent-ils vraiment l’horizon, ou ne font-ils que confirmer ce que l’on croit déjà ?","es":"¿Viajar amplía de verdad los horizontes, o solo confirma lo que uno ya cree?","it":"Viaggiare allarga davvero gli orizzonti, o conferma soltanto ciò che già si crede?","words":["Horizont","Vorurteil","Perspektive"]},
-  {"topic":"travel","level":"C2","q":"Reiseberichte versprechen Authentizität und liefern Inszenierung. Lässt sich Fremde überhaupt unverstellt erleben?","en":"Travel writing promises authenticity and delivers staging. Can a foreign place be experienced undisguised at all?","fr":"Les récits de voyage promettent l'authenticité et livrent de la mise en scène. Peut-on seulement faire l'expérience de l'étranger sans artifice ?","es":"Los relatos de viaje prometen autenticidad y entregan puesta en escena. ¿Se puede siquiera vivir lo extranjero sin disfraz?","it":"I racconti di viaggio promettono autenticità e consegnano messinscena. Si può davvero vivere l'estraneo senza filtri?","words":["Authentizität","Inszenierung","Fremde"]},
-  {"topic":"travel","level":"C2","q":"Fernweh oder Flucht: Woran erkennst du, ob jemand irgendwohin reist oder vor etwas davonläuft?","en":"Wanderlust or escape: how do you tell whether someone is travelling towards something or running away from something?","fr":"Envie d'ailleurs ou fuite : à quoi reconnais-tu si quelqu'un voyage vers un lieu ou fuit quelque chose ?","es":"¿Ansia de lejanía o huida? ¿En qué reconoces si alguien viaja hacia algo o huye de algo?","it":"Voglia di altrove o fuga: da cosa capisci se qualcuno viaggia verso qualcosa o scappa da qualcosa?","words":["Fernweh","Flucht","Sehnsucht"]},
-  {"topic":"travel","level":"C2","q":"Sollten Orte, die unter Massentourismus leiden, Besucher begrenzen dürfen, selbst wenn das die Einheimischen Einnahmen kostet?","en":"Should places suffering from mass tourism be allowed to cap visitors, even if that costs locals their income?","fr":"Les lieux qui souffrent du tourisme de masse devraient-ils pouvoir limiter les visiteurs, même si cela prive les habitants de revenus ?","es":"¿Deberían los lugares que sufren el turismo de masas poder limitar los visitantes, aunque eso cueste ingresos a los lugareños?","it":"I luoghi che soffrono del turismo di massa dovrebbero poter limitare i visitatori, anche se questo costa reddito agli abitanti?","words":["Massentourismus","Begrenzung","Einnahme"]},
-
-  {"topic":"work","level":"A1","q":"Was bist du von Beruf? Oder was studierst du?","en":"What do you do for a living? Or what do you study?","fr":"Quel est ton métier ? Ou qu'étudies-tu ?","es":"¿A qué te dedicas? ¿O qué estudias?","it":"Che lavoro fai? O cosa studi?","words":["Beruf","Arbeit","Universität"]},
-  {"topic":"work","level":"A1","q":"Wann beginnt dein Arbeitstag?","en":"When does your working day start?","fr":"À quelle heure commence ta journée de travail ?","es":"¿Cuándo empieza tu jornada de trabajo?","it":"Quando inizia la tua giornata di lavoro?","words":["Arbeitstag","Uhr","Pause"]},
-  {"topic":"work","level":"A1","q":"Arbeitest du lieber allein oder im Team?","en":"Do you prefer working alone or in a team?","fr":"Préfères-tu travailler seul ou en équipe ?","es":"¿Prefieres trabajar solo o en equipo?","it":"Preferisci lavorare da solo o in squadra?","words":["Team","Kollege","Büro"]},
-  {"topic":"work","level":"A2","q":"Was gefällt dir an deiner Arbeit oder deinem Studium?","en":"What do you like about your job or your studies?","fr":"Qu'est-ce qui te plaît dans ton travail ou tes études ?","es":"¿Qué te gusta de tu trabajo o de tus estudios?","it":"Cosa ti piace del tuo lavoro o dei tuoi studi?","words":["Aufgabe","Chef","Prüfung"]},
-  {"topic":"work","level":"A2","q":"Was wolltest du als Kind werden?","en":"What did you want to be when you were a child?","fr":"Que voulais-tu faire comme métier quand tu étais enfant ?","es":"¿Qué querías ser de niño?","it":"Cosa volevi fare da bambino?","words":["Kind","Traum","Beruf"]},
-  {"topic":"work","level":"A2","q":"Wie sieht für dich ein guter Arbeitsplatz aus?","en":"What does a good workplace look like for you?","fr":"À quoi ressemble un bon lieu de travail pour toi ?","es":"¿Cómo es para ti un buen lugar de trabajo?","it":"Com'è per te un buon posto di lavoro?","words":["Arbeitsplatz","Gehalt","Kollege"]},
-  {"topic":"work","level":"B1","q":"Würdest du lieber im Homeoffice oder im Büro arbeiten? Warum?","en":"Would you rather work from home or in the office? Why?","fr":"Préférerais-tu travailler à domicile ou au bureau ? Pourquoi ?","es":"¿Preferirías trabajar desde casa o en la oficina? ¿Por qué?","it":"Preferiresti lavorare da casa o in ufficio? Perché?","words":["Homeoffice","Büro","Konzentration"]},
-  {"topic":"work","level":"B1","q":"Was ist dir bei einem Job wichtiger: das Gehalt oder die Freude an der Arbeit?","en":"What matters more to you in a job: the salary or enjoying the work?","fr":"Qu'est-ce qui compte le plus pour toi dans un emploi : le salaire ou le plaisir ?","es":"¿Qué es más importante para ti en un trabajo: el sueldo o disfrutar del trabajo?","it":"Cosa conta di più per te in un lavoro: lo stipendio o il piacere di lavorare?","words":["Gehalt","Freude","Zufriedenheit"]},
-  {"topic":"work","level":"B1","q":"Wie bereitest du dich auf ein Vorstellungsgespräch vor?","en":"How do you prepare for a job interview?","fr":"Comment te prépares-tu à un entretien d'embauche ?","es":"¿Cómo te preparas para una entrevista de trabajo?","it":"Come ti prepari a un colloquio di lavoro?","words":["Vorstellungsgespräch","Bewerbung","Lebenslauf"]},
-  {"topic":"work","level":"B2","q":"Sollte die Vier-Tage-Woche überall eingeführt werden?","en":"Should the four-day week be introduced everywhere?","fr":"La semaine de quatre jours devrait-elle être instaurée partout ?","es":"¿Debería implantarse la semana de cuatro días en todas partes?","it":"La settimana di quattro giorni dovrebbe essere introdotta ovunque?","words":["Arbeitszeit","Produktivität","Gesellschaft"]},
-  {"topic":"work","level":"B2","q":"Welche Berufe wird es in zwanzig Jahren vielleicht nicht mehr geben?","en":"Which jobs may no longer exist in twenty years?","fr":"Quels métiers n'existeront peut-être plus dans vingt ans ?","es":"¿Qué profesiones quizá ya no existan dentro de veinte años?","it":"Quali professioni forse non esisteranno più tra vent'anni?","words":["Beruf","Maschine","Zukunft"]},
-  {"topic":"work","level":"B2","q":"Wie viel Verantwortung trägt ein Unternehmen für die Gesundheit seiner Mitarbeiter?","en":"How much responsibility does a company bear for its employees' health?","fr":"Quelle responsabilité une entreprise porte-t-elle pour la santé de ses salariés ?","es":"¿Cuánta responsabilidad tiene una empresa por la salud de sus empleados?","it":"Quanta responsabilità ha un'azienda per la salute dei suoi dipendenti?","words":["Unternehmen","Mitarbeiter","Verantwortung"]},
-  {"topic":"work","level":"C1","q":"Die Vier-Tage-Woche wird kontrovers diskutiert. Welche Argumente überzeugen dich?","en":"The four-day week is controversial. Which arguments convince you?","fr":"La semaine de quatre jours fait débat. Quels arguments te convainquent ?","es":"La semana de cuatro días es objeto de controversia. ¿Qué argumentos te convencen?","it":"La settimana di quattro giorni è controversa. Quali argomenti ti convincono?","words":["Vier-Tage-Woche","Produktivität","Arbeitszeit"]},
-  {"topic":"work","level":"C1","q":"Inwieweit sollte Arbeit sinnstiftend sein – und wer kann sich diesen Anspruch leisten?","en":"To what extent should work be meaningful, and who can afford that expectation?","fr":"Dans quelle mesure le travail doit-il avoir du sens, et qui peut se permettre cette exigence ?","es":"¿Hasta qué punto el trabajo debe tener sentido, y quién puede permitirse esa exigencia?","it":"In che misura il lavoro dovrebbe dare un senso, e chi può permettersi questa pretesa?","words":["Sinn","Anspruch","Erwerbsarbeit"]},
-  {"topic":"work","level":"C1","q":"Wie verändert künstliche Intelligenz die Arbeitswelt, und wer trägt die Risiken?","en":"How is artificial intelligence changing the world of work, and who bears the risks?","fr":"Comment l’intelligence artificielle transforme-t-elle le monde du travail, et qui en porte les risques ?","es":"¿Cómo cambia la inteligencia artificial el mundo laboral, y quién asume los riesgos?","it":"Come sta cambiando l’intelligenza artificiale il mondo del lavoro, e chi ne sopporta i rischi?","words":["Arbeitswelt","Risiko","Automatisierung"]},
-  {"topic":"work","level":"C2","q":"Berufung oder Selbstausbeutung: Wo verläuft die Grenze, wenn Arbeit zur Identität wird?","en":"Vocation or self-exploitation: where is the line when work becomes identity?","fr":"Vocation ou auto-exploitation : où passe la limite quand le travail devient identité ?","es":"¿Vocación o autoexplotación? ¿Dónde está el límite cuando el trabajo se convierte en identidad?","it":"Vocazione o autosfruttamento: dove passa il confine quando il lavoro diventa identità?","words":["Berufung","Identität","Grenze"]},
-  {"topic":"work","level":"C2","q":"Eine offene Fehlerkultur fordern alle, doch wer gesteht Fehler tatsächlich ein? Welche Rolle spielt dabei die Hierarchie?","en":"Everyone calls for an open culture around mistakes, but who actually owns up to them? What part does hierarchy play?","fr":"Tout le monde réclame une culture ouverte de l'erreur, mais qui reconnaît vraiment ses erreurs ? Quel rôle y joue la hiérarchie ?","es":"Todos piden una cultura abierta del error, pero ¿quién reconoce de verdad sus errores? ¿Qué papel desempeña la jerarquía?","it":"Tutti invocano una cultura aperta dell'errore, ma chi ammette davvero i propri errori? Che ruolo ha la gerarchia?","words":["Fehler","Eingeständnis","Hierarchie"]},
-  {"topic":"work","level":"C2","q":"Loyalität gegenüber dem Arbeitgeber galt einst als Tugend. Ist sie heute naiv, oder wird sie nur anders eingefordert?","en":"Loyalty to one's employer once counted as a virtue. Is it naive today, or is it simply demanded in a different way?","fr":"La loyauté envers l'employeur passait autrefois pour une vertu. Est-elle naïve aujourd'hui, ou est-elle simplement exigée autrement ?","es":"La lealtad al empleador se consideraba antes una virtud. ¿Es hoy ingenua o simplemente se exige de otra manera?","it":"La lealtà verso il datore di lavoro era un tempo una virtù. Oggi è ingenua, o viene semplicemente pretesa in altro modo?","words":["Loyalität","Arbeitgeber","Tugend"]},
-
-  {"topic":"home","level":"A1","q":"Wohnst du in einer Wohnung oder in einem Haus?","en":"Do you live in a flat or in a house?","fr":"Habites-tu dans un appartement ou dans une maison ?","es":"¿Vives en un piso o en una casa?","it":"Vivi in un appartamento o in una casa?","words":["Wohnung","Haus","Zimmer"]},
-  {"topic":"home","level":"A1","q":"Was ist dein Lieblingsplatz zu Hause?","en":"What is your favourite spot at home?","fr":"Quel est ton endroit préféré à la maison ?","es":"¿Cuál es tu lugar favorito en casa?","it":"Qual è il tuo posto preferito a casa?","words":["Sofa","Balkon","Küche"]},
-  {"topic":"home","level":"A1","q":"Wie viele Zimmer hat deine Wohnung?","en":"How many rooms does your flat have?","fr":"Combien de pièces a ton appartement ?","es":"¿Cuántas habitaciones tiene tu piso?","it":"Quante stanze ha il tuo appartamento?","words":["Zimmer","Bad","Schlafzimmer"]},
-  {"topic":"home","level":"A2","q":"Wie sieht deine Traumwohnung aus?","en":"What does your dream flat look like?","fr":"À quoi ressemble ton appartement de rêve ?","es":"¿Cómo es tu piso ideal?","it":"Com'è il tuo appartamento dei sogni?","words":["Garten","Fenster","Licht"]},
-  {"topic":"home","level":"A2","q":"Wohnst du gern in deiner Nachbarschaft? Was gibt es dort?","en":"Do you like living in your neighbourhood? What is there?","fr":"Aimes-tu ton quartier ? Qu'y a-t-il ?","es":"¿Te gusta vivir en tu barrio? ¿Qué hay allí?","it":"Ti piace vivere nel tuo quartiere? Cosa c'è?","words":["Nachbar","Nachbarschaft","Geschäft"]},
-  {"topic":"home","level":"A2","q":"Hast du schon einmal eine Wohnung gesucht? Wie war das?","en":"Have you ever looked for a flat? What was it like?","fr":"As-tu déjà cherché un appartement ? C'était comment ?","es":"¿Has buscado alguna vez un piso? ¿Cómo fue?","it":"Hai mai cercato un appartamento? Com'è stato?","words":["Miete","Vermieter","Anzeige"]},
-  {"topic":"home","level":"B1","q":"Lebst du lieber in der Stadt oder auf dem Land? Warum?","en":"Do you prefer living in the city or in the countryside? Why?","fr":"Préfères-tu vivre en ville ou à la campagne ? Pourquoi ?","es":"¿Prefieres vivir en la ciudad o en el campo? ¿Por qué?","it":"Preferisci vivere in città o in campagna? Perché?","words":["Stadt","Land","Ruhe"]},
-  {"topic":"home","level":"B1","q":"Was macht eine Wohnung gemütlich?","en":"What makes a flat cosy?","fr":"Qu'est-ce qui rend un appartement chaleureux ?","es":"¿Qué hace que un piso sea acogedor?","it":"Cosa rende accogliente un appartamento?","words":["Möbel","Farbe","Pflanze"]},
-  {"topic":"home","level":"B1","q":"Wie wichtig ist dir ein gutes Verhältnis zu den Nachbarn?","en":"How important is a good relationship with your neighbours to you?","fr":"Quelle importance accordes-tu à de bonnes relations avec tes voisins ?","es":"¿Qué importancia tiene para ti llevarte bien con los vecinos?","it":"Quanto è importante per te un buon rapporto con i vicini?","words":["Nachbar","Verhältnis","Lärm"]},
-  {"topic":"home","level":"B2","q":"Was sollte gegen steigende Mieten in Großstädten getan werden?","en":"What should be done about rising rents in big cities?","fr":"Que faudrait-il faire contre la hausse des loyers dans les grandes villes ?","es":"¿Qué debería hacerse contra la subida de los alquileres en las grandes ciudades?","it":"Cosa si dovrebbe fare contro l'aumento degli affitti nelle grandi città?","words":["Miete","Großstadt","Politik"]},
-  {"topic":"home","level":"B2","q":"Wohngemeinschaft, allein oder mit Familie: Welche Wohnform passt zu welcher Lebensphase?","en":"Shared flat, alone or with family: which way of living suits which stage of life?","fr":"Colocation, seul ou en famille : quel mode de vie convient à quelle étape de la vie ?","es":"Piso compartido, solo o con la familia: ¿qué forma de vivir encaja con cada etapa de la vida?","it":"Appartamento condiviso, da soli o in famiglia: quale forma abitativa si adatta a quale fase della vita?","words":["Wohngemeinschaft","Lebensphase","Unabhängigkeit"]},
-  {"topic":"home","level":"B2","q":"Wie könnte das Wohnen in dreißig Jahren aussehen?","en":"What could housing look like in thirty years?","fr":"À quoi pourrait ressembler l'habitat dans trente ans ?","es":"¿Cómo podría ser la vivienda dentro de treinta años?","it":"Come potrebbe essere l'abitare tra trent'anni?","words":["Zukunft","Energie","Gebäude"]},
-  {"topic":"home","level":"C1","q":"Wohnen ist ein Grundbedürfnis – sollte der Markt es trotzdem regeln?","en":"Housing is a basic need. Should the market regulate it nonetheless?","fr":"Se loger est un besoin fondamental ; le marché doit-il quand même le réguler ?","es":"La vivienda es una necesidad básica. ¿Debería regularla el mercado de todos modos?","it":"L’abitare è un bisogno primario: dovrebbe comunque regolarlo il mercato?","words":["Grundbedürfnis","Wohnungsmarkt","Mietpreisbremse"]},
-  {"topic":"home","level":"C1","q":"Was bedeutet Heimat für dich – ein Ort, Menschen oder ein Gefühl?","en":"What does \"Heimat\" mean to you: a place, people or a feeling?","fr":"Que signifie « Heimat » pour toi : un lieu, des personnes ou un sentiment ?","es":"¿Qué significa «Heimat» para ti: un lugar, personas o un sentimiento?","it":"Che cosa significa «Heimat» per te: un luogo, delle persone o un sentimento?","words":["Heimat","Zugehörigkeit","Verwurzelung"]},
-  {"topic":"home","level":"C1","q":"Verdrängung in den Städten: Wer gewinnt, wer verliert, und was lässt sich dagegen tun?","en":"Displacement in cities: who wins, who loses, and what can be done about it?","fr":"L’éviction dans les villes : qui y gagne, qui y perd, et que peut-on faire ?","es":"El desplazamiento en las ciudades: ¿quién gana, quién pierde y qué se puede hacer?","it":"L’espulsione dalle città: chi vince, chi perde e che cosa si può fare?","words":["Verdrängung","Gentrifizierung","Stadtviertel"]},
-  {"topic":"home","level":"C2","q":"Leerstand neben Wohnungsnot: Rechtfertigt das Gemeinwohl Eingriffe ins Eigentum, und wo endet der Eingriff?","en":"Empty flats next to a housing shortage: does the common good justify interfering with property, and where does the interference end?","fr":"Des logements vides à côté de la pénurie : le bien commun justifie-t-il des atteintes à la propriété, et où s'arrêtent-elles ?","es":"Viviendas vacías junto a la escasez de vivienda: ¿justifica el bien común intervenir en la propiedad, y dónde termina la intervención?","it":"Case vuote accanto all'emergenza abitativa: il bene comune giustifica interventi sulla proprietà, e dove finisce l'intervento?","words":["Leerstand","Eigentum","Gemeinwohl"]},
-  {"topic":"home","level":"C2","q":"Geborgenheit oder Anonymität: Was macht für dich ein Zuhause aus, und wie viel Nachbarschaft verträgt es?","en":"Security or anonymity: what makes a home for you, and how much neighbourhood can it take?","fr":"Sécurité affective ou anonymat : qu'est-ce qui fait un chez-soi pour toi, et combien de voisinage peut-il supporter ?","es":"¿Amparo o anonimato? ¿Qué hace de un lugar un hogar para ti, y cuánta vecindad soporta?","it":"Protezione o anonimato: che cosa rende un luogo casa per te, e quanto vicinato può sopportare?","words":["Geborgenheit","Anonymität","Nachbarschaft"]},
-  {"topic":"home","level":"C2","q":"Denkmalschutz bewahrt Stadtbilder und verhindert Verdichtung. Wessen Interessen sollten im Zweifel überwiegen?","en":"Heritage protection preserves cityscapes and prevents densification. Whose interests should prevail when in doubt?","fr":"La protection du patrimoine préserve les paysages urbains et empêche la densification. Quels intérêts devraient l'emporter en cas de doute ?","es":"La protección del patrimonio conserva los paisajes urbanos e impide la densificación. ¿Qué intereses deberían prevalecer en caso de duda?","it":"La tutela dei monumenti conserva i paesaggi urbani e impedisce la densificazione. Quali interessi dovrebbero prevalere nel dubbio?","words":["Denkmalschutz","Verdichtung","Stadtbild"]},
-
-  {"topic":"people","level":"A1","q":"Hast du Geschwister? Erzähl von deiner Familie.","en":"Do you have siblings? Tell me about your family.","fr":"As-tu des frères et sœurs ? Parle de ta famille.","es":"¿Tienes hermanos? Háblame de tu familia.","it":"Hai fratelli o sorelle? Parla della tua famiglia.","words":["Familie","Bruder","Schwester"]},
-  {"topic":"people","level":"A1","q":"Wie heißt dein bester Freund oder deine beste Freundin?","en":"What is your best friend's name?","fr":"Comment s'appelle ton meilleur ami ou ta meilleure amie ?","es":"¿Cómo se llama tu mejor amigo o amiga?","it":"Come si chiama il tuo migliore amico o la tua migliore amica?","words":["Freund","Freundin","Name"]},
-  {"topic":"people","level":"A1","q":"Was macht ihr zusammen, du und deine Freunde?","en":"What do you and your friends do together?","fr":"Que faites-vous ensemble, toi et tes amis ?","es":"¿Qué hacéis juntos tú y tus amigos?","it":"Cosa fate insieme tu e i tuoi amici?","words":["Kino","Park","Spiel"]},
-  {"topic":"people","level":"A2","q":"Wie hast du deinen besten Freund oder deine beste Freundin kennengelernt?","en":"How did you meet your best friend?","fr":"Comment as-tu rencontré ton meilleur ami ou ta meilleure amie ?","es":"¿Cómo conociste a tu mejor amigo o amiga?","it":"Come hai conosciuto il tuo migliore amico o la tua migliore amica?","words":["Schule","Nachbar","Verein"]},
-  {"topic":"people","level":"A2","q":"Wie feiert deine Familie Geburtstage?","en":"How does your family celebrate birthdays?","fr":"Comment ta famille fête-t-elle les anniversaires ?","es":"¿Cómo celebra tu familia los cumpleaños?","it":"Come festeggia i compleanni la tua famiglia?","words":["Geburtstag","Geschenk","Kuchen"]},
-  {"topic":"people","level":"A2","q":"Wem erzählst du zuerst eine gute Nachricht?","en":"Who do you tell good news to first?","fr":"À qui annonces-tu une bonne nouvelle en premier ?","es":"¿A quién le cuentas primero una buena noticia?","it":"A chi racconti per primo una bella notizia?","words":["Nachricht","Mutter","Vater"]},
-  {"topic":"people","level":"B1","q":"Was macht eine gute Freundschaft aus?","en":"What makes a good friendship?","fr":"Qu'est-ce qui fait une bonne amitié ?","es":"¿Qué hace que una amistad sea buena?","it":"Cosa rende buona un'amicizia?","words":["Freundschaft","Vertrauen","Ehrlichkeit"]},
-  {"topic":"people","level":"B1","q":"Wie hältst du Kontakt zu Freunden, die weit weg wohnen?","en":"How do you keep in touch with friends who live far away?","fr":"Comment gardes-tu le contact avec des amis qui habitent loin ?","es":"¿Cómo mantienes el contacto con amigos que viven lejos?","it":"Come mantieni i contatti con gli amici che vivono lontano?","words":["Kontakt","Entfernung","Besuch"]},
-  {"topic":"people","level":"B1","q":"Hast du schon einmal mit einem Freund gestritten? Wie habt ihr euch vertragen?","en":"Have you ever argued with a friend? How did you make up?","fr":"T'es-tu déjà disputé avec un ami ? Comment vous êtes-vous réconciliés ?","es":"¿Has discutido alguna vez con un amigo? ¿Cómo os reconciliasteis?","it":"Hai mai litigato con un amico? Come avete fatto pace?","words":["Streit","Entschuldigung","Gespräch"]},
-  {"topic":"people","level":"B2","q":"Verändern soziale Medien unsere Freundschaften? Inwiefern?","en":"Do social media change our friendships? In what way?","fr":"Les réseaux sociaux changent-ils nos amitiés ? De quelle manière ?","es":"¿Las redes sociales cambian nuestras amistades? ¿En qué sentido?","it":"I social media cambiano le nostre amicizie? In che modo?","words":["Freundschaft","Netzwerk","Nähe"]},
-  {"topic":"people","level":"B2","q":"Welche Werte möchtest du an die nächste Generation weitergeben?","en":"Which values would you like to pass on to the next generation?","fr":"Quelles valeurs voudrais-tu transmettre à la génération suivante ?","es":"¿Qué valores te gustaría transmitir a la próxima generación?","it":"Quali valori vorresti trasmettere alla prossima generazione?","words":["Wert","Generation","Erziehung"]},
-  {"topic":"people","level":"B2","q":"Sollten erwachsene Kinder für ihre Eltern sorgen?","en":"Should adult children look after their parents?","fr":"Les enfants adultes devraient-ils s'occuper de leurs parents ?","es":"¿Deberían los hijos adultos cuidar de sus padres?","it":"I figli adulti dovrebbero prendersi cura dei loro genitori?","words":["Eltern","Pflege","Pflicht"]},
-  {"topic":"people","level":"C1","q":"Spaltet die Debattenkultur in den sozialen Medien die Gesellschaft, oder macht sie sie nur sichtbar?","en":"Does the culture of debate on social media divide society, or merely make it visible?","fr":"La culture du débat sur les réseaux sociaux divise-t-elle la société, ou la rend-elle simplement visible ?","es":"¿La cultura del debate en las redes sociales divide a la sociedad, o solo la hace visible?","it":"La cultura del dibattito sui social divide la società, o la rende soltanto visibile?","words":["Debattenkultur","Spaltung","Öffentlichkeit"]},
-  {"topic":"people","level":"C1","q":"Inwiefern ist Freundschaft im Erwachsenenalter eine Frage der Prioritäten?","en":"In what way is friendship in adulthood a question of priorities?","fr":"En quoi l’amitié à l’âge adulte est-elle une question de priorités ?","es":"¿En qué medida la amistad en la edad adulta es una cuestión de prioridades?","it":"In che misura l’amicizia in età adulta è una questione di priorità?","words":["Freundschaft","Priorität","Verbindlichkeit"]},
-  {"topic":"people","level":"C1","q":"Was macht Vertrauen in Institutionen aus, und wie lässt es sich zurückgewinnen?","en":"What constitutes trust in institutions, and how can it be won back?","fr":"Qu’est-ce qui fonde la confiance dans les institutions, et comment la regagner ?","es":"¿En qué consiste la confianza en las instituciones, y cómo se puede recuperar?","it":"In che cosa consiste la fiducia nelle istituzioni, e come la si può riconquistare?","words":["Vertrauen","Institution","Glaubwürdigkeit"]},
-  {"topic":"people","level":"C2","q":"Ist eine Notlüge Rücksicht oder Bevormundung? Wann hast du zuletzt jemandem die Wahrheit erspart?","en":"Is a white lie consideration or paternalism? When did you last spare someone the truth?","fr":"Un pieux mensonge, est-ce de l'égard ou du paternalisme ? Quand as-tu épargné la vérité à quelqu'un pour la dernière fois ?","es":"¿Una mentira piadosa es consideración o paternalismo? ¿Cuándo fue la última vez que le ahorraste la verdad a alguien?","it":"Una bugia a fin di bene è riguardo o paternalismo? Quando hai risparmiato la verità a qualcuno l'ultima volta?","words":["Notlüge","Rücksicht","Bevormundung"]},
-  {"topic":"people","level":"C2","q":"Versöhnung setzt ein Schuldeingeständnis voraus, heißt es. Kann man vergeben, ohne dass sich der andere entschuldigt?","en":"Reconciliation presupposes an admission of guilt, they say. Can you forgive without the other person apologising?","fr":"La réconciliation suppose un aveu de culpabilité, dit-on. Peut-on pardonner sans que l'autre s'excuse ?","es":"La reconciliación presupone reconocer la culpa, dicen. ¿Se puede perdonar sin que el otro se disculpe?","it":"La riconciliazione presuppone l'ammissione di colpa, si dice. Si può perdonare senza che l'altro si scusi?","words":["Versöhnung","Vergebung","Schuld"]},
-  {"topic":"people","level":"C2","q":"Charisma verführt, Argumente überzeugen. Warum folgen wir trotzdem so oft dem Auftreten statt dem Inhalt?","en":"Charisma seduces, arguments convince. Why do we so often follow the manner rather than the substance all the same?","fr":"Le charisme séduit, les arguments convainquent. Pourquoi suivons-nous pourtant si souvent l'allure plutôt que le fond ?","es":"El carisma seduce; los argumentos convencen. ¿Por qué, aun así, seguimos tan a menudo la apariencia en lugar del contenido?","it":"Il carisma seduce, gli argomenti convincono. Perché allora seguiamo così spesso i modi invece della sostanza?","words":["Charisma","Argument","Auftreten"]},
-
-  {"topic":"freetime","level":"A1","q":"Was machst du gern in deiner Freizeit?","en":"What do you like doing in your free time?","fr":"Qu'aimes-tu faire pendant ton temps libre ?","es":"¿Qué te gusta hacer en tu tiempo libre?","it":"Cosa ti piace fare nel tempo libero?","words":["Freizeit","Hobby","Musik"]},
-  {"topic":"freetime","level":"A1","q":"Treibst du Sport? Welchen?","en":"Do you do sport? Which one?","fr":"Fais-tu du sport ? Lequel ?","es":"¿Haces deporte? ¿Cuál?","it":"Fai sport? Quale?","words":["Sport","Fußball","Schwimmbad"]},
-  {"topic":"freetime","level":"A1","q":"Welche Musik hörst du gern?","en":"What music do you like listening to?","fr":"Quelle musique aimes-tu écouter ?","es":"¿Qué música te gusta escuchar?","it":"Che musica ti piace ascoltare?","words":["Musik","Lied","Konzert"]},
-  {"topic":"freetime","level":"A2","q":"Welchen Film oder welche Serie hast du zuletzt gesehen?","en":"Which film or series did you watch most recently?","fr":"Quel film ou quelle série as-tu regardé récemment ?","es":"¿Qué película o serie has visto últimamente?","it":"Quale film o serie hai visto di recente?","words":["Film","Serie","Kino"]},
-  {"topic":"freetime","level":"A2","q":"Liest du gern? Welches Buch kannst du empfehlen?","en":"Do you like reading? Which book can you recommend?","fr":"Aimes-tu lire ? Quel livre peux-tu recommander ?","es":"¿Te gusta leer? ¿Qué libro recomiendas?","it":"Ti piace leggere? Quale libro consigli?","words":["Buch","Roman","Bibliothek"]},
-  {"topic":"freetime","level":"A2","q":"Was hast du als Kind gern gespielt?","en":"What did you like playing as a child?","fr":"À quoi aimais-tu jouer quand tu étais enfant ?","es":"¿A qué te gustaba jugar de niño?","it":"A cosa ti piaceva giocare da bambino?","words":["Spiel","Spielplatz","Kindheit"]},
-  {"topic":"freetime","level":"B1","q":"Hast du ein Hobby, das du schon lange machst? Wie hast du damit angefangen?","en":"Do you have a hobby you have had for a long time? How did you start?","fr":"As-tu un loisir que tu pratiques depuis longtemps ? Comment as-tu commencé ?","es":"¿Tienes una afición desde hace mucho tiempo? ¿Cómo empezaste?","it":"Hai un hobby che pratichi da molto tempo? Come hai iniziato?","words":["Hobby","Anfang","Leidenschaft"]},
-  {"topic":"freetime","level":"B1","q":"Verbringst du deine Freizeit lieber drinnen oder draußen?","en":"Do you prefer spending your free time indoors or outdoors?","fr":"Préfères-tu passer ton temps libre à l'intérieur ou dehors ?","es":"¿Prefieres pasar tu tiempo libre dentro o al aire libre?","it":"Preferisci passare il tempo libero al chiuso o all'aperto?","words":["Natur","Wanderung","Wohnzimmer"]},
-  {"topic":"freetime","level":"B1","q":"Was würdest du gern lernen, wenn du mehr Zeit hättest?","en":"What would you like to learn if you had more time?","fr":"Qu'aimerais-tu apprendre si tu avais plus de temps ?","es":"¿Qué te gustaría aprender si tuvieras más tiempo?","it":"Cosa ti piacerebbe imparare se avessi più tempo?","words":["Zeit","Instrument","Sprache"]},
-  {"topic":"freetime","level":"B2","q":"Ist Freizeit heute stressiger als früher?","en":"Is leisure time more stressful today than it used to be?","fr":"Les loisirs sont-ils plus stressants aujourd'hui qu'autrefois ?","es":"¿Es hoy el tiempo libre más estresante que antes?","it":"Il tempo libero oggi è più stressante di una volta?","words":["Freizeit","Stress","Angebot"]},
-  {"topic":"freetime","level":"B2","q":"Welche Bedeutung hat Sport für die Gesellschaft – über die Gesundheit hinaus?","en":"What does sport mean for society, beyond health?","fr":"Quelle importance a le sport pour la société, au-delà de la santé ?","es":"¿Qué significado tiene el deporte para la sociedad, más allá de la salud?","it":"Che significato ha lo sport per la società, oltre alla salute?","words":["Sport","Gesellschaft","Gemeinschaft"]},
-  {"topic":"freetime","level":"B2","q":"Sollten Videospiele als Kunst gelten?","en":"Should video games count as art?","fr":"Les jeux vidéo devraient-ils être considérés comme un art ?","es":"¿Deberían considerarse arte los videojuegos?","it":"I videogiochi dovrebbero essere considerati arte?","words":["Videospiel","Kunst","Geschichte"]},
-  {"topic":"freetime","level":"C1","q":"Freizeit wird zunehmend optimiert und vermessen. Geht dabei etwas verloren?","en":"Leisure is increasingly optimised and measured. Is something lost in the process?","fr":"Les loisirs sont de plus en plus optimisés et mesurés. Y perd-on quelque chose ?","es":"El tiempo libre se optimiza y se mide cada vez más. ¿Se pierde algo en el proceso?","it":"Il tempo libero viene sempre più ottimizzato e misurato. Si perde qualcosa in questo?","words":["Optimierung","Muße","Selbstvermessung"]},
-  {"topic":"freetime","level":"C1","q":"Sollte kulturelle Bildung stärker öffentlich gefördert werden – auf wessen Kosten?","en":"Should cultural education receive more public funding, and at whose expense?","fr":"L’éducation culturelle devrait-elle être davantage financée par les pouvoirs publics, et aux dépens de qui ?","es":"¿Debería la educación cultural recibir más financiación pública, y a costa de quién?","it":"L’educazione culturale dovrebbe ricevere più fondi pubblici, e a spese di chi?","words":["Förderung","Kultur","Haushalt"]},
-  {"topic":"freetime","level":"C1","q":"Ehrenamtliches Engagement: Stütze der Gesellschaft oder Ausrede für einen sparsamen Staat?","en":"Volunteering: a pillar of society or an excuse for a thrifty state?","fr":"Le bénévolat : pilier de la société ou prétexte pour un État économe ?","es":"El voluntariado: ¿pilar de la sociedad o excusa para un Estado ahorrador?","it":"Il volontariato: pilastro della società o alibi per uno Stato parsimonioso?","words":["Engagement","Ehrenamt","Daseinsvorsorge"]},
-  {"topic":"freetime","level":"C2","q":"Langeweile gilt als Quelle der Kreativität und wird doch mit dem Smartphone sofort vertrieben. Was geht dabei verloren?","en":"Boredom is said to be a source of creativity and yet is instantly chased away with the smartphone. What is lost in the process?","fr":"L'ennui passe pour une source de créativité et pourtant on le chasse aussitôt avec le smartphone. Qu'y perd-on ?","es":"El aburrimiento se considera fuente de creatividad y, sin embargo, se ahuyenta al instante con el móvil. ¿Qué se pierde con ello?","it":"La noia è considerata fonte di creatività, eppure viene subito scacciata con lo smartphone. Che cosa si perde?","words":["Langeweile","Kreativität","Zerstreuung"]},
-  {"topic":"freetime","level":"C2","q":"Hochkultur wird subventioniert, Popkultur finanziert sich selbst. Ist diese Unterscheidung noch zu rechtfertigen?","en":"High culture is subsidised, pop culture pays for itself. Can this distinction still be justified?","fr":"La culture savante est subventionnée, la culture populaire se finance elle-même. Cette distinction est-elle encore justifiable ?","es":"La alta cultura se subvenciona; la cultura popular se financia sola. ¿Sigue siendo justificable esta distinción?","it":"L'alta cultura viene sovvenzionata, la cultura pop si finanzia da sé. Questa distinzione è ancora giustificabile?","words":["Hochkultur","Subvention","Unterscheidung"]},
-  {"topic":"freetime","level":"C2","q":"Ehrgeiz im Hobby: Verdirbt der Wettkampf das Vergnügen, oder gibt er ihm erst Tiefe?","en":"Ambition in a hobby: does competition spoil the pleasure, or is it what gives it depth?","fr":"L'ambition dans un loisir : la compétition gâche-t-elle le plaisir, ou est-ce elle qui lui donne de la profondeur ?","es":"La ambición en una afición: ¿la competición estropea el placer o es lo que le da profundidad?","it":"L'ambizione in un hobby: la competizione rovina il piacere, o è proprio ciò che gli dà profondità?","words":["Ehrgeiz","Wettkampf","Vergnügen"]},
-
-  {"topic":"health","level":"A1","q":"Wie geht es dir heute?","en":"How are you today?","fr":"Comment vas-tu aujourd'hui ?","es":"¿Cómo estás hoy?","it":"Come stai oggi?","words":["Kopf","Bauch","Arzt"]},
-  {"topic":"health","level":"A1","q":"Was machst du, wenn du krank bist?","en":"What do you do when you are ill?","fr":"Que fais-tu quand tu es malade ?","es":"¿Qué haces cuando estás enfermo?","it":"Cosa fai quando sei malato?","words":["Tee","Bett","Medikament"]},
-  {"topic":"health","level":"A1","q":"Wie viele Stunden schläfst du pro Nacht?","en":"How many hours do you sleep per night?","fr":"Combien d'heures dors-tu par nuit ?","es":"¿Cuántas horas duermes por noche?","it":"Quante ore dormi a notte?","words":["Stunde","Nacht","Schlaf"]},
-  {"topic":"health","level":"A2","q":"Wann warst du zuletzt beim Arzt? Warum?","en":"When were you last at the doctor's? Why?","fr":"Quand es-tu allé chez le médecin pour la dernière fois ? Pourquoi ?","es":"¿Cuándo fuiste al médico por última vez? ¿Por qué?","it":"Quando sei andato dal medico l'ultima volta? Perché?","words":["Arzt","Termin","Praxis"]},
-  {"topic":"health","level":"A2","q":"Was tust du, um gesund zu bleiben?","en":"What do you do to stay healthy?","fr":"Que fais-tu pour rester en bonne santé ?","es":"¿Qué haces para mantenerte sano?","it":"Cosa fai per restare in salute?","words":["Bewegung","Obst","Wasser"]},
-  {"topic":"health","level":"A2","q":"Hast du dich schon einmal beim Sport verletzt?","en":"Have you ever hurt yourself doing sport?","fr":"T'es-tu déjà blessé en faisant du sport ?","es":"¿Te has lesionado alguna vez haciendo deporte?","it":"Ti sei mai fatto male facendo sport?","words":["Verletzung","Bein","Schmerz"]},
-  {"topic":"health","level":"B1","q":"Wie gehst du mit Stress um?","en":"How do you deal with stress?","fr":"Comment gères-tu le stress ?","es":"¿Cómo manejas el estrés?","it":"Come gestisci lo stress?","words":["Stress","Entspannung","Pause"]},
-  {"topic":"health","level":"B1","q":"Wie wichtig ist Schlaf für dich? Schläfst du genug?","en":"How important is sleep to you? Do you get enough?","fr":"Quelle importance a le sommeil pour toi ? Dors-tu assez ?","es":"¿Qué importancia tiene el sueño para ti? ¿Duermes lo suficiente?","it":"Quanto è importante il sonno per te? Dormi abbastanza?","words":["Schlaf","Müdigkeit","Gewohnheit"]},
-  {"topic":"health","level":"B1","q":"Gehst du regelmäßig zur Vorsorgeuntersuchung? Warum (nicht)?","en":"Do you go for regular check-ups? Why (not)?","fr":"Vas-tu régulièrement aux examens de prévention ? Pourquoi (pas) ?","es":"¿Vas regularmente a revisiones médicas? ¿Por qué (no)?","it":"Fai regolarmente controlli medici? Perché (no)?","words":["Vorsorge","Untersuchung","Krankenkasse"]},
-  {"topic":"health","level":"B2","q":"Sollte psychische Gesundheit in der Schule ein Fach sein?","en":"Should mental health be a school subject?","fr":"La santé mentale devrait-elle être une matière à l'école ?","es":"¿Debería ser la salud mental una asignatura escolar?","it":"La salute mentale dovrebbe essere una materia scolastica?","words":["Gesundheit","Schule","Seele"]},
-  {"topic":"health","level":"B2","q":"Wie viel Verantwortung trägt jeder Einzelne für seine Gesundheit?","en":"How much responsibility does each individual bear for their own health?","fr":"Quelle part de responsabilité chacun porte-t-il pour sa propre santé ?","es":"¿Cuánta responsabilidad tiene cada persona sobre su propia salud?","it":"Quanta responsabilità ha ciascuno per la propria salute?","words":["Verantwortung","Lebensstil","Krankheit"]},
-  {"topic":"health","level":"B2","q":"Verändern Fitness-Apps und Smartwatches unser Verhältnis zum Körper?","en":"Are fitness apps and smartwatches changing our relationship with our bodies?","fr":"Les applications de fitness et les montres connectées changent-elles notre rapport au corps ?","es":"¿Las aplicaciones de fitness y los relojes inteligentes cambian nuestra relación con el cuerpo?","it":"Le app di fitness e gli smartwatch cambiano il nostro rapporto con il corpo?","words":["Körper","Daten","Kontrolle"]},
-  {"topic":"health","level":"C1","q":"Wie viel Verantwortung für die eigene Gesundheit darf der Staat dem Einzelnen zuschreiben?","en":"How much responsibility for their own health may the state assign to the individual?","fr":"Quelle part de responsabilité pour sa propre santé l’État peut-il attribuer à l’individu ?","es":"¿Cuánta responsabilidad por su propia salud puede atribuir el Estado al individuo?","it":"Quanta responsabilità per la propria salute può attribuire lo Stato al singolo?","words":["Eigenverantwortung","Prävention","Solidargemeinschaft"]},
-  {"topic":"health","level":"C1","q":"Psychische Gesundheit wird offener besprochen als früher. Reicht das, oder fehlt es an Strukturen?","en":"Mental health is discussed more openly than before. Is that enough, or are the structures lacking?","fr":"On parle plus ouvertement de santé mentale qu’avant. Est-ce suffisant, ou manque-t-il des structures ?","es":"Se habla de salud mental con más apertura que antes. ¿Basta con eso, o faltan estructuras?","it":"Di salute mentale si parla più apertamente di un tempo. Basta questo, o mancano le strutture?","words":["Enttabuisierung","Versorgung","Wartezeit"]},
-  {"topic":"health","level":"C1","q":"Sollten Gesundheitsdaten für die Forschung freigegeben werden, auch gegen den Willen Einzelner?","en":"Should health data be released for research, even against the wishes of individuals?","fr":"Les données de santé devraient-elles être mises à disposition de la recherche, même contre la volonté de certains ?","es":"¿Deberían cederse los datos sanitarios a la investigación, incluso contra la voluntad de algunos?","it":"I dati sanitari dovrebbero essere messi a disposizione della ricerca, anche contro la volontà dei singoli?","words":["Gesundheitsdaten","Datenschutz","Gemeinwohl"]},
-  {"topic":"health","level":"C2","q":"Selbstbestimmung am Lebensende: Wie weit darf sie reichen, und wen schützt eine Grenze eigentlich?","en":"Self-determination at the end of life: how far may it extend, and whom does a limit actually protect?","fr":"L'autodétermination en fin de vie : jusqu'où peut-elle aller, et qui une limite protège-t-elle au juste ?","es":"La autodeterminación al final de la vida: ¿hasta dónde puede llegar, y a quién protege realmente un límite?","it":"L'autodeterminazione alla fine della vita: fin dove può spingersi, e chi protegge davvero un limite?","words":["Selbstbestimmung","Sterbehilfe","Würde"]},
-  {"topic":"health","level":"C2","q":"Alternativmedizin wirkt oft nicht besser als ein Placebo, und doch hilft sie vielen. Sollten die Kassen dafür zahlen?","en":"Alternative medicine often works no better than a placebo, and yet it helps many people. Should health insurers pay for it?","fr":"Les médecines alternatives ne font souvent pas mieux qu'un placebo, et pourtant elles aident beaucoup de gens. Les caisses d'assurance maladie devraient-elles les rembourser ?","es":"La medicina alternativa a menudo no funciona mejor que un placebo y, sin embargo, ayuda a muchos. ¿Deberían pagarla los seguros médicos?","it":"La medicina alternativa spesso non funziona meglio di un placebo, eppure aiuta molte persone. Le casse malattia dovrebbero pagarla?","words":["Alternativmedizin","Placebo","Krankenkasse"]},
-  {"topic":"health","level":"C2","q":"Wenn Behandlungen knapp sind, muss priorisiert werden. Nach welchen Kriterien, und wer sollte darüber entscheiden?","en":"When treatments are scarce, priorities have to be set. By what criteria, and who should decide?","fr":"Quand les traitements sont rares, il faut établir des priorités. Selon quels critères, et qui devrait en décider ?","es":"Cuando los tratamientos escasean, hay que priorizar. ¿Con qué criterios, y quién debería decidirlo?","it":"Quando le cure scarseggiano bisogna stabilire priorità. Secondo quali criteri, e chi dovrebbe decidere?","words":["Priorisierung","Kriterium","Knappheit"]}
+  {
+    "topic": "everyday",
+    "level": "A1",
+    "q": "Wann stehst du morgens auf?",
+    "en": "When do you get up in the morning?",
+    "fr": "À quelle heure te lèves-tu le matin ?",
+    "es": "¿A qué hora te levantas por la mañana?",
+    "it": "A che ora ti alzi la mattina?",
+    "words": [
+      "Morgen",
+      "Uhr",
+      "Wecker"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "A1",
+    "q": "Was machst du am Wochenende?",
+    "en": "What do you do at the weekend?",
+    "fr": "Que fais-tu le week-end ?",
+    "es": "¿Qué haces el fin de semana?",
+    "it": "Cosa fai nel fine settimana?",
+    "words": [
+      "Wochenende",
+      "Freund",
+      "Zeit"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "A1",
+    "q": "Wie kommst du zur Arbeit oder zur Schule?",
+    "en": "How do you get to work or to school?",
+    "fr": "Comment vas-tu au travail ou à l'école ?",
+    "es": "¿Cómo vas al trabajo o a la escuela?",
+    "it": "Come vai al lavoro o a scuola?",
+    "words": [
+      "Bus",
+      "Fahrrad",
+      "Auto"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "A1",
+    "q": "Was isst du zu Mittag?",
+    "en": "What do you have for lunch?",
+    "fr": "Que manges-tu à midi ?",
+    "es": "¿Qué comes al mediodía?",
+    "it": "Cosa mangi a pranzo?",
+    "words": [
+      "Mittag",
+      "Pause",
+      "Kantine"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "A1",
+    "q": "Wann gehst du abends ins Bett?",
+    "en": "When do you go to bed in the evening?",
+    "fr": "À quelle heure vas-tu te coucher le soir ?",
+    "es": "¿A qué hora te acuestas por la noche?",
+    "it": "A che ora vai a letto la sera?",
+    "words": [
+      "Abend",
+      "Bett",
+      "Nacht"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "A2",
+    "q": "Was hast du gestern gemacht? Erzähl von deinem Tag.",
+    "en": "What did you do yesterday? Tell me about your day.",
+    "fr": "Qu'as-tu fait hier ? Raconte ta journée.",
+    "es": "¿Qué hiciste ayer? Cuéntame tu día.",
+    "it": "Cosa hai fatto ieri? Racconta la tua giornata.",
+    "words": [
+      "Tag",
+      "Arbeit",
+      "Abend"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "A2",
+    "q": "Welche Hausarbeit machst du gern und welche nicht?",
+    "en": "Which housework do you like doing, and which not?",
+    "fr": "Quelles tâches ménagères aimes-tu faire, et lesquelles non ?",
+    "es": "¿Qué tareas de la casa te gusta hacer y cuáles no?",
+    "it": "Quali faccende di casa ti piace fare e quali no?",
+    "words": [
+      "Küche",
+      "Wäsche",
+      "Haushalt"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "A2",
+    "q": "Wie oft benutzt du dein Handy am Tag?",
+    "en": "How often do you use your phone during the day?",
+    "fr": "Combien de fois par jour utilises-tu ton téléphone ?",
+    "es": "¿Con qué frecuencia usas el móvil al día?",
+    "it": "Quante volte al giorno usi il cellulare?",
+    "words": [
+      "Handy",
+      "Nachricht",
+      "Minute"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "A2",
+    "q": "Was machst du als Erstes, wenn du nach Hause kommst?",
+    "en": "What is the first thing you do when you get home?",
+    "fr": "Que fais-tu en premier quand tu rentres à la maison ?",
+    "es": "¿Qué es lo primero que haces al llegar a casa?",
+    "it": "Qual è la prima cosa che fai quando torni a casa?",
+    "words": [
+      "Schlüssel",
+      "Sofa",
+      "Ruhe"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "A2",
+    "q": "Wie oft gehst du einkaufen, und was vergisst du immer?",
+    "en": "How often do you go shopping, and what do you always forget?",
+    "fr": "À quelle fréquence fais-tu les courses, et qu'oublies-tu toujours ?",
+    "es": "¿Con qué frecuencia haces la compra y qué se te olvida siempre?",
+    "it": "Quanto spesso fai la spesa, e cosa dimentichi sempre?",
+    "words": [
+      "Einkauf",
+      "Liste",
+      "Milch"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "B1",
+    "q": "Was würdest du an deinem Alltag gern ändern?",
+    "en": "What would you like to change about your daily routine?",
+    "fr": "Que voudrais-tu changer dans ton quotidien ?",
+    "es": "¿Qué te gustaría cambiar de tu rutina diaria?",
+    "it": "Cosa vorresti cambiare nella tua routine quotidiana?",
+    "words": [
+      "Alltag",
+      "Gewohnheit",
+      "Stress"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "B1",
+    "q": "Bist du eher ein Morgenmensch oder ein Nachtmensch? Warum?",
+    "en": "Are you more of a morning person or a night owl? Why?",
+    "fr": "Es-tu plutôt du matin ou du soir ? Pourquoi ?",
+    "es": "¿Eres más de mañanas o de noches? ¿Por qué?",
+    "it": "Sei più una persona mattiniera o nottambula? Perché?",
+    "words": [
+      "Morgen",
+      "Nacht",
+      "Energie"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "B1",
+    "q": "Wie organisierst du deine Woche? Hast du Tipps?",
+    "en": "How do you organise your week? Any tips?",
+    "fr": "Comment organises-tu ta semaine ? As-tu des conseils ?",
+    "es": "¿Cómo organizas tu semana? ¿Tienes consejos?",
+    "it": "Come organizzi la tua settimana? Hai dei consigli?",
+    "words": [
+      "Woche",
+      "Plan",
+      "Termin"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "B1",
+    "q": "Welche kleine Gewohnheit macht deinen Tag besser?",
+    "en": "Which small habit makes your day better?",
+    "fr": "Quelle petite habitude rend ta journée meilleure ?",
+    "es": "¿Qué pequeño hábito mejora tu día?",
+    "it": "Quale piccola abitudine rende migliore la tua giornata?",
+    "words": [
+      "Gewohnheit",
+      "Spaziergang",
+      "Musik"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "B1",
+    "q": "Wie viel Zeit verbringst du mit Warten – und was machst du dann?",
+    "en": "How much time do you spend waiting, and what do you do then?",
+    "fr": "Combien de temps passes-tu à attendre, et que fais-tu alors ?",
+    "es": "¿Cuánto tiempo pasas esperando y qué haces entonces?",
+    "it": "Quanto tempo passi ad aspettare, e cosa fai nel frattempo?",
+    "words": [
+      "Wartezeit",
+      "Haltestelle",
+      "Geduld"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "B2",
+    "q": "Inwiefern bestimmt Technik unseren Alltag – und ist das gut so?",
+    "en": "To what extent does technology shape our everyday life, and is that a good thing?",
+    "fr": "Dans quelle mesure la technologie façonne-t-elle notre quotidien, et est-ce une bonne chose ?",
+    "es": "¿Hasta qué punto la tecnología determina nuestra vida diaria, y es eso bueno?",
+    "it": "In che misura la tecnologia determina la nostra quotidianità, ed è un bene?",
+    "words": [
+      "Technik",
+      "Alltag",
+      "Abhängigkeit"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "B2",
+    "q": "Welche Rolle spielen Routinen für dein Wohlbefinden?",
+    "en": "What role do routines play in your well-being?",
+    "fr": "Quel rôle jouent les routines dans ton bien-être ?",
+    "es": "¿Qué papel juegan las rutinas en tu bienestar?",
+    "it": "Che ruolo hanno le routine nel tuo benessere?",
+    "words": [
+      "Routine",
+      "Wohlbefinden",
+      "Gleichgewicht"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "B2",
+    "q": "Hat sich dein Alltag in den letzten Jahren stark verändert? Woran liegt das?",
+    "en": "Has your daily life changed a lot in recent years? What is the reason?",
+    "fr": "Ton quotidien a-t-il beaucoup changé ces dernières années ? Pourquoi ?",
+    "es": "¿Ha cambiado mucho tu día a día en los últimos años? ¿A qué se debe?",
+    "it": "La tua quotidianità è cambiata molto negli ultimi anni? Da cosa dipende?",
+    "words": [
+      "Veränderung",
+      "Jahr",
+      "Grund"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "B2",
+    "q": "Welche Alltagsaufgabe würdest du am liebsten an eine Maschine abgeben, und welche nie?",
+    "en": "Which everyday chore would you most like to hand over to a machine, and which never?",
+    "fr": "Quelle tâche quotidienne confierais-tu volontiers à une machine, et laquelle jamais ?",
+    "es": "¿Qué tarea cotidiana cederías con gusto a una máquina y cuál nunca?",
+    "it": "Quale incombenza quotidiana affideresti volentieri a una macchina, e quale mai?",
+    "words": [
+      "Maschine",
+      "Aufgabe",
+      "Hausarbeit"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "B2",
+    "q": "Ist ein voller Terminkalender ein Zeichen von Erfolg oder von schlechter Planung?",
+    "en": "Is a full diary a sign of success or of poor planning?",
+    "fr": "Un agenda plein est-il signe de réussite ou de mauvaise organisation ?",
+    "es": "¿Una agenda llena es señal de éxito o de mala planificación?",
+    "it": "Un'agenda piena è segno di successo o di cattiva pianificazione?",
+    "words": [
+      "Terminkalender",
+      "Erfolg",
+      "Planung"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "C1",
+    "q": "Inwieweit prägen gesellschaftliche Erwartungen, wie wir unseren Alltag gestalten?",
+    "en": "To what extent do social expectations shape how we organise our everyday lives?",
+    "fr": "Dans quelle mesure les attentes sociales façonnent-elles la manière dont nous organisons notre quotidien ?",
+    "es": "¿Hasta qué punto las expectativas sociales determinan cómo organizamos nuestra vida cotidiana?",
+    "it": "In che misura le aspettative sociali condizionano il modo in cui organizziamo la nostra quotidianità?",
+    "words": [
+      "Erwartung",
+      "Gesellschaft",
+      "Gestaltung"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "C1",
+    "q": "Ständige Erreichbarkeit gilt vielen als Zumutung, anderen als Selbstverständlichkeit. Wo stehst du?",
+    "en": "Some see constant availability as an imposition, others take it for granted. Where do you stand?",
+    "fr": "Certains voient la disponibilité permanente comme une contrainte, d’autres comme une évidence. Où te situes-tu ?",
+    "es": "Algunos consideran la disponibilidad permanente una imposición; otros, algo natural. ¿Tú qué opinas?",
+    "it": "Per alcuni la reperibilità costante è un’imposizione, per altri una cosa ovvia. Tu da che parte stai?",
+    "words": [
+      "Erreichbarkeit",
+      "Zumutung",
+      "Selbstverständlichkeit"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "C1",
+    "q": "Lässt sich der Alltag überhaupt entschleunigen, oder ist das ein Privileg weniger?",
+    "en": "Can everyday life really be slowed down, or is that a privilege of the few?",
+    "fr": "Peut-on vraiment ralentir le quotidien, ou est-ce un privilège réservé à quelques-uns ?",
+    "es": "¿Se puede realmente desacelerar la vida diaria, o es un privilegio de unos pocos?",
+    "it": "Si può davvero rallentare la vita quotidiana, o è un privilegio di pochi?",
+    "words": [
+      "Entschleunigung",
+      "Privileg",
+      "Tempo"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "C1",
+    "q": "Inwiefern ist der Rückzug ins Private eine Antwort auf eine überfordernde Öffentlichkeit?",
+    "en": "To what extent is the retreat into private life an answer to an overwhelming public sphere?",
+    "fr": "Dans quelle mesure le repli sur la vie privée répond-il à un espace public écrasant ?",
+    "es": "¿Hasta qué punto el repliegue a lo privado es una respuesta a una esfera pública abrumadora?",
+    "it": "In che misura il ritiro nel privato è una risposta a una sfera pubblica opprimente?",
+    "words": [
+      "Rückzug",
+      "Privatsphäre",
+      "Öffentlichkeit"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "C1",
+    "q": "Konsumverzicht als Lebensstil: Haltung, Mode oder Luxus derer, die schon alles haben?",
+    "en": "Giving up consumption as a lifestyle: conviction, fashion, or a luxury of those who already have everything?",
+    "fr": "Renoncer à consommer comme mode de vie : conviction, mode ou luxe de ceux qui ont déjà tout ?",
+    "es": "Renunciar al consumo como estilo de vida: ¿convicción, moda o lujo de quienes ya lo tienen todo?",
+    "it": "Rinunciare ai consumi come stile di vita: convinzione, moda o lusso di chi ha già tutto?",
+    "words": [
+      "Konsum",
+      "Lebensstil",
+      "Luxus"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "C2",
+    "q": "Höflichkeitsfloskeln gelten als leer, und doch halten sie den Alltag zusammen. Auf welche könntest du am ehesten verzichten?",
+    "en": "Polite formulas are said to be empty, and yet they hold everyday life together. Which could you most easily do without?",
+    "fr": "Les formules de politesse passent pour creuses, et pourtant elles font tenir le quotidien. De laquelle pourrais-tu te passer le plus facilement ?",
+    "es": "Las fórmulas de cortesía se consideran vacías y, sin embargo, sostienen la vida cotidiana. ¿De cuál podrías prescindir con más facilidad?",
+    "it": "Le formule di cortesia passano per vuote, eppure tengono insieme la quotidianità. Di quale potresti fare a meno più facilmente?",
+    "words": [
+      "Floskel",
+      "Höflichkeit",
+      "Umgangsform"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "C2",
+    "q": "Inwiefern ist Pünktlichkeit eine Tugend und inwiefern bloß eine Konvention, die sich kulturell erklären lässt?",
+    "en": "To what extent is punctuality a virtue, and to what extent merely a convention that can be explained culturally?",
+    "fr": "Dans quelle mesure la ponctualité est-elle une vertu, et dans quelle mesure une simple convention qui s'explique culturellement ?",
+    "es": "¿Hasta qué punto la puntualidad es una virtud y hasta qué punto una mera convención que se explica culturalmente?",
+    "it": "In che misura la puntualità è una virtù e in che misura una semplice convenzione spiegabile culturalmente?",
+    "words": [
+      "Pünktlichkeit",
+      "Tugend",
+      "Konvention"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "C2",
+    "q": "Multitasking gilt inzwischen als Mythos. Welche Gewohnheit müsstest du aufgeben, um wirklich bei einer Sache zu bleiben?",
+    "en": "Multitasking is now regarded as a myth. Which habit would you have to give up to really stay with one thing?",
+    "fr": "Le multitâche passe désormais pour un mythe. À quelle habitude devrais-tu renoncer pour rester vraiment sur une seule chose ?",
+    "es": "La multitarea se considera hoy un mito. ¿Qué hábito tendrías que abandonar para centrarte de verdad en una sola cosa?",
+    "it": "Il multitasking è ormai considerato un mito. A quale abitudine dovresti rinunciare per restare davvero su una cosa sola?",
+    "words": [
+      "Multitasking",
+      "Gewohnheit",
+      "Aufmerksamkeit"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "C2",
+    "q": "Der Alltag gilt als das Gegenteil des Besonderen. Lässt sich im Gewöhnlichen etwas entdecken, das sich dem Außergewöhnlichen entzieht?",
+    "en": "Everyday life is seen as the opposite of the special. Can the ordinary reveal something the extraordinary cannot?",
+    "fr": "Le quotidien passe pour le contraire de l'exceptionnel. L'ordinaire peut-il révéler ce qui échappe à l'extraordinaire ?",
+    "es": "Lo cotidiano se considera lo opuesto a lo especial. ¿Puede lo ordinario revelar algo que se le escapa a lo extraordinario?",
+    "it": "Il quotidiano è considerato l'opposto dello straordinario. L'ordinario può rivelare qualcosa che sfugge all'eccezionale?",
+    "words": [
+      "Alltag",
+      "Alltäglichkeit",
+      "Aufmerksamkeit"
+    ]
+  },
+  {
+    "topic": "everyday",
+    "level": "C2",
+    "q": "Digitale Entgiftung wird als Befreiung verkauft, ist aber oft nur ein neuer Zwang. Wie entkommt man der Optimierung des eigenen Lebens?",
+    "en": "Digital detox is sold as liberation but is often just a new compulsion. How does one escape the optimisation of one's own life?",
+    "fr": "La détox numérique est vendue comme une libération, mais n'est souvent qu'une nouvelle contrainte. Comment échapper à l'optimisation de sa propre vie ?",
+    "es": "La desintoxicación digital se vende como liberación, pero a menudo es solo una nueva obligación. ¿Cómo se escapa de la optimización de la propia vida?",
+    "it": "La disintossicazione digitale viene venduta come liberazione, ma spesso è solo una nuova costrizione. Come si sfugge all'ottimizzazione della propria vita?",
+    "words": [
+      "Befreiung",
+      "Zwang",
+      "Optimierung"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "A1",
+    "q": "Was isst du gern zum Frühstück?",
+    "en": "What do you like to eat for breakfast?",
+    "fr": "Qu'aimes-tu manger au petit-déjeuner ?",
+    "es": "¿Qué te gusta desayunar?",
+    "it": "Cosa ti piace mangiare a colazione?",
+    "words": [
+      "Frühstück",
+      "Brot",
+      "Kaffee"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "A1",
+    "q": "Trinkst du lieber Tee oder Kaffee?",
+    "en": "Do you prefer tea or coffee?",
+    "fr": "Préfères-tu le thé ou le café ?",
+    "es": "¿Prefieres té o café?",
+    "it": "Preferisci il tè o il caffè?",
+    "words": [
+      "Tee",
+      "Kaffee",
+      "Milch"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "A1",
+    "q": "Was ist dein Lieblingsessen?",
+    "en": "What is your favourite food?",
+    "fr": "Quel est ton plat préféré ?",
+    "es": "¿Cuál es tu comida favorita?",
+    "it": "Qual è il tuo piatto preferito?",
+    "words": [
+      "Essen",
+      "Gemüse",
+      "Fleisch"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "A1",
+    "q": "Was trinkst du zum Essen?",
+    "en": "What do you drink with your meal?",
+    "fr": "Que bois-tu en mangeant ?",
+    "es": "¿Qué bebes con la comida?",
+    "it": "Cosa bevi a tavola?",
+    "words": [
+      "Wasser",
+      "Saft",
+      "Glas"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "A1",
+    "q": "Magst du Schokolade oder lieber Obst?",
+    "en": "Do you like chocolate, or do you prefer fruit?",
+    "fr": "Aimes-tu le chocolat, ou préfères-tu les fruits ?",
+    "es": "¿Te gusta el chocolate o prefieres la fruta?",
+    "it": "Ti piace il cioccolato o preferisci la frutta?",
+    "words": [
+      "Schokolade",
+      "Obst",
+      "Apfel"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "A2",
+    "q": "Kochst du gern? Was kannst du gut kochen?",
+    "en": "Do you like cooking? What can you cook well?",
+    "fr": "Aimes-tu cuisiner ? Que sais-tu bien cuisiner ?",
+    "es": "¿Te gusta cocinar? ¿Qué sabes cocinar bien?",
+    "it": "Ti piace cucinare? Cosa sai cucinare bene?",
+    "words": [
+      "Suppe",
+      "Küche",
+      "Gericht"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "A2",
+    "q": "Wo kaufst du Lebensmittel ein – im Supermarkt oder auf dem Markt?",
+    "en": "Where do you buy groceries – at the supermarket or at the market?",
+    "fr": "Où fais-tu tes courses : au supermarché ou au marché ?",
+    "es": "¿Dónde compras la comida: en el supermercado o en el mercado?",
+    "it": "Dove fai la spesa: al supermercato o al mercato?",
+    "words": [
+      "Supermarkt",
+      "Markt",
+      "Lebensmittel"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "A2",
+    "q": "Was hast du zuletzt in einem Restaurant gegessen?",
+    "en": "What did you last eat in a restaurant?",
+    "fr": "Qu'as-tu mangé la dernière fois au restaurant ?",
+    "es": "¿Qué fue lo último que comiste en un restaurante?",
+    "it": "Cosa hai mangiato l'ultima volta al ristorante?",
+    "words": [
+      "Restaurant",
+      "Kellner",
+      "Rechnung"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "A2",
+    "q": "Was kochst du, wenn Gäste kommen?",
+    "en": "What do you cook when guests come over?",
+    "fr": "Que cuisines-tu quand tu reçois des invités ?",
+    "es": "¿Qué cocinas cuando vienen invitados?",
+    "it": "Cosa cucini quando arrivano ospiti?",
+    "words": [
+      "Gast",
+      "Rezept",
+      "Nachtisch"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "A2",
+    "q": "Welches deutsche Essen hast du schon probiert? Wie hat es geschmeckt?",
+    "en": "Which German food have you already tried? How did it taste?",
+    "fr": "Quel plat allemand as-tu déjà goûté ? Quel goût avait-il ?",
+    "es": "¿Qué comida alemana has probado ya? ¿Qué tal sabía?",
+    "it": "Quale piatto tedesco hai già provato? Com'era?",
+    "words": [
+      "Brezel",
+      "Wurst",
+      "Kartoffel"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "B1",
+    "q": "Welches Gericht aus deinem Land sollte jeder einmal probieren?",
+    "en": "Which dish from your country should everyone try once?",
+    "fr": "Quel plat de ton pays tout le monde devrait-il goûter une fois ?",
+    "es": "¿Qué plato de tu país debería probar todo el mundo?",
+    "it": "Quale piatto del tuo paese dovrebbero provare tutti almeno una volta?",
+    "words": [
+      "Gericht",
+      "Land",
+      "Geschmack"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "B1",
+    "q": "Isst du manchmal vegetarisch oder vegan? Was hältst du davon?",
+    "en": "Do you sometimes eat vegetarian or vegan? What do you think of it?",
+    "fr": "Manges-tu parfois végétarien ou végan ? Qu'en penses-tu ?",
+    "es": "¿Comes a veces vegetariano o vegano? ¿Qué opinas?",
+    "it": "Mangi a volte vegetariano o vegano? Cosa ne pensi?",
+    "words": [
+      "Ernährung",
+      "Fleisch",
+      "Gemüse"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "B1",
+    "q": "Was war das beste Essen, das du je hattest?",
+    "en": "What was the best meal you have ever had?",
+    "fr": "Quel est le meilleur repas que tu aies jamais mangé ?",
+    "es": "¿Cuál ha sido la mejor comida que has probado nunca?",
+    "it": "Qual è stato il pasto migliore che tu abbia mai fatto?",
+    "words": [
+      "Essen",
+      "Erinnerung",
+      "Urlaub"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "B1",
+    "q": "Isst du lieber zu Hause oder gehst du lieber essen? Wovon hängt das ab?",
+    "en": "Do you prefer eating at home or going out? What does it depend on?",
+    "fr": "Préfères-tu manger à la maison ou au restaurant ? De quoi cela dépend-il ?",
+    "es": "¿Prefieres comer en casa o salir a comer? ¿De qué depende?",
+    "it": "Preferisci mangiare a casa o fuori? Da cosa dipende?",
+    "words": [
+      "Restaurant",
+      "Preis",
+      "Gesellschaft"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "B1",
+    "q": "Welche Essgewohnheit aus deiner Kindheit hast du behalten, welche abgelegt?",
+    "en": "Which eating habit from your childhood have you kept, and which have you dropped?",
+    "fr": "Quelle habitude alimentaire de ton enfance as-tu gardée, et laquelle as-tu abandonnée ?",
+    "es": "¿Qué hábito alimentario de tu infancia has conservado y cuál has dejado?",
+    "it": "Quale abitudine alimentare dell'infanzia hai mantenuto, e quale hai abbandonato?",
+    "words": [
+      "Kindheit",
+      "Gewohnheit",
+      "Süßigkeit"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "B2",
+    "q": "Sollten ungesunde Lebensmittel höher besteuert werden?",
+    "en": "Should unhealthy foods be taxed more heavily?",
+    "fr": "Les aliments mauvais pour la santé devraient-ils être davantage taxés ?",
+    "es": "¿Deberían gravarse más los alimentos poco saludables?",
+    "it": "Gli alimenti poco sani dovrebbero essere tassati di più?",
+    "words": [
+      "Steuer",
+      "Lebensmittel",
+      "Gesundheit"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "B2",
+    "q": "Wie lässt sich Lebensmittelverschwendung im Alltag vermeiden?",
+    "en": "How can food waste be avoided in everyday life?",
+    "fr": "Comment éviter le gaspillage alimentaire au quotidien ?",
+    "es": "¿Cómo se puede evitar el desperdicio de alimentos en el día a día?",
+    "it": "Come si può evitare lo spreco alimentare nella vita quotidiana?",
+    "words": [
+      "Verschwendung",
+      "Umwelt",
+      "Verantwortung"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "B2",
+    "q": "Welche Rolle spielt Essen in deiner Kultur – und bei Festen?",
+    "en": "What role does food play in your culture, and at celebrations?",
+    "fr": "Quel rôle joue la nourriture dans ta culture, et lors des fêtes ?",
+    "es": "¿Qué papel juega la comida en tu cultura y en las celebraciones?",
+    "it": "Che ruolo ha il cibo nella tua cultura e nelle feste?",
+    "words": [
+      "Kultur",
+      "Fest",
+      "Tradition"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "B2",
+    "q": "Sollten Schulen und Kantinen nur noch vegetarisch kochen?",
+    "en": "Should schools and canteens cook only vegetarian food?",
+    "fr": "Les écoles et les cantines devraient-elles ne cuisiner que végétarien ?",
+    "es": "¿Deberían las escuelas y los comedores cocinar solo comida vegetariana?",
+    "it": "Scuole e mense dovrebbero cucinare solo piatti vegetariani?",
+    "words": [
+      "Kantine",
+      "Schule",
+      "Fleisch"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "B2",
+    "q": "Wie ehrlich sind Angaben wie „regional“ oder „natürlich“ auf Verpackungen?",
+    "en": "How honest are labels such as “regional” or “natural” on packaging?",
+    "fr": "Les mentions comme « régional » ou « naturel » sur les emballages sont-elles honnêtes ?",
+    "es": "¿Qué tan honestas son las etiquetas como «regional» o «natural» en los envases?",
+    "it": "Quanto sono oneste diciture come «regionale» o «naturale» sulle confezioni?",
+    "words": [
+      "Verpackung",
+      "Werbung",
+      "Verbraucher"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "C1",
+    "q": "Sollte der Staat ungesunde Lebensmittel höher besteuern? Welche Folgen hätte das?",
+    "en": "Should the state tax unhealthy food more heavily? What consequences would that have?",
+    "fr": "L’État devrait-il taxer davantage les aliments malsains ? Quelles en seraient les conséquences ?",
+    "es": "¿Debería el Estado gravar más los alimentos poco saludables? ¿Qué consecuencias tendría?",
+    "it": "Lo Stato dovrebbe tassare di più gli alimenti poco sani? Quali conseguenze avrebbe?",
+    "words": [
+      "Besteuerung",
+      "Lebensmittel",
+      "Folge"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "C1",
+    "q": "Inwiefern ist Essen Ausdruck von Identität und Herkunft?",
+    "en": "In what way is food an expression of identity and origin?",
+    "fr": "En quoi la nourriture est-elle une expression de l’identité et des origines ?",
+    "es": "¿En qué medida la comida es expresión de identidad y origen?",
+    "it": "In che senso il cibo è espressione di identità e origine?",
+    "words": [
+      "Identität",
+      "Herkunft",
+      "Esskultur"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "C1",
+    "q": "Lebensmittelverschwendung wird viel beklagt, aber wenig verändert. Woran scheitert es?",
+    "en": "Food waste is widely deplored but little changes. What is it failing on?",
+    "fr": "On déplore beaucoup le gaspillage alimentaire, mais peu de choses changent. Où est le blocage ?",
+    "es": "Se lamenta mucho el desperdicio de alimentos, pero poco cambia. ¿En qué falla?",
+    "it": "Lo spreco alimentare viene molto deplorato, ma cambia poco. Dove sta il problema?",
+    "words": [
+      "Verschwendung",
+      "Verbraucher",
+      "Haltbarkeit"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "C1",
+    "q": "Lebensmittelpreise steigen, während Erzeuger kaum davon profitieren. Wo in der Kette geht das Geld verloren?",
+    "en": "Food prices rise while producers hardly benefit. Where in the chain does the money go?",
+    "fr": "Les prix alimentaires grimpent alors que les producteurs n'en profitent guère. Où l'argent se perd-il dans la chaîne ?",
+    "es": "Los precios de los alimentos suben mientras los productores apenas se benefician. ¿Dónde se pierde el dinero en la cadena?",
+    "it": "I prezzi alimentari salgono mentre i produttori ne traggono poco vantaggio. Dove si perde il denaro lungo la filiera?",
+    "words": [
+      "Erzeuger",
+      "Handel",
+      "Lieferkette"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "C1",
+    "q": "Inwiefern ist die Esskultur eines Landes ein Spiegel seiner Geschichte und seiner Migration?",
+    "en": "To what extent is a country's food culture a mirror of its history and migration?",
+    "fr": "Dans quelle mesure la culture culinaire d'un pays reflète-t-elle son histoire et ses migrations ?",
+    "es": "¿Hasta qué punto la cultura gastronómica de un país refleja su historia y su migración?",
+    "it": "In che misura la cultura gastronomica di un paese rispecchia la sua storia e la sua migrazione?",
+    "words": [
+      "Esskultur",
+      "Migration",
+      "Geschichte"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "C2",
+    "q": "Ist Verzicht beim Essen Ausdruck von Haltung oder von Wohlstand? Wer kann es sich leisten, wählerisch zu sein?",
+    "en": "Is going without certain foods an expression of principle or of affluence? Who can afford to be choosy?",
+    "fr": "Renoncer à certains aliments, est-ce une question de conviction ou d'aisance ? Qui peut se permettre d'être difficile ?",
+    "es": "¿Renunciar a ciertos alimentos es expresión de convicciones o de bienestar? ¿Quién puede permitirse ser exigente?",
+    "it": "Rinunciare a certi cibi è espressione di convinzioni o di benessere? Chi può permettersi di essere esigente?",
+    "words": [
+      "Verzicht",
+      "Haltung",
+      "Wohlstand"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "C2",
+    "q": "Sterneküche wird gefeiert, Hausmannskost belächelt. Was sagt diese Hierarchie über unseren Geschmack aus?",
+    "en": "Haute cuisine is celebrated, home cooking smiled at. What does this hierarchy say about our taste?",
+    "fr": "La grande cuisine est célébrée, la cuisine familiale regardée avec condescendance. Que dit cette hiérarchie de notre goût ?",
+    "es": "La alta cocina se celebra; la comida casera, se mira con condescendencia. ¿Qué dice esta jerarquía sobre nuestro gusto?",
+    "it": "L'alta cucina viene celebrata, la cucina casalinga guardata con sufficienza. Che cosa dice questa gerarchia del nostro gusto?",
+    "words": [
+      "Sternekoch",
+      "Hausmannskost",
+      "Hierarchie"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "C2",
+    "q": "Tierwohl, Regionalität, Preis: Welchem Kriterium gibst du beim Einkauf den Vorrang, und wie rechtfertigst du die Abwägung?",
+    "en": "Animal welfare, regional origin, price: which criterion do you give priority to when shopping, and how do you justify the trade-off?",
+    "fr": "Bien-être animal, origine régionale, prix : à quel critère donnes-tu la priorité en faisant tes courses, et comment justifies-tu cet arbitrage ?",
+    "es": "Bienestar animal, origen regional, precio: ¿a qué criterio das prioridad al comprar y cómo justificas esa ponderación?",
+    "it": "Benessere animale, origine regionale, prezzo: a quale criterio dai la priorità quando fai la spesa, e come giustifichi questa scelta?",
+    "words": [
+      "Tierwohl",
+      "Regionalität",
+      "Abwägung"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "C2",
+    "q": "Kulinarische Aneignung oder Austausch: Wem gehört ein Gericht, und darf man es verändern?",
+    "en": "Culinary appropriation or exchange: who owns a dish, and may it be changed?",
+    "fr": "Appropriation ou échange culinaire : à qui appartient un plat, et peut-on le modifier ?",
+    "es": "¿Apropiación o intercambio culinario? ¿A quién pertenece un plato y se puede modificar?",
+    "it": "Appropriazione o scambio culinario: a chi appartiene un piatto, e lo si può modificare?",
+    "words": [
+      "Aneignung",
+      "Austausch",
+      "Herkunft"
+    ]
+  },
+  {
+    "topic": "food",
+    "level": "C2",
+    "q": "Hunger und Übergewicht existieren gleichzeitig, oft im selben Land. Was sagt dieser Widerspruch über die Verteilung aus?",
+    "en": "Hunger and obesity coexist, often within the same country. What does this contradiction say about distribution?",
+    "fr": "Faim et obésité coexistent, souvent dans le même pays. Que dit cette contradiction sur la répartition ?",
+    "es": "El hambre y la obesidad coexisten, a menudo en el mismo país. ¿Qué dice esta contradicción sobre la distribución?",
+    "it": "Fame e obesità coesistono, spesso nello stesso paese. Cosa dice questa contraddizione sulla distribuzione?",
+    "words": [
+      "Hunger",
+      "Übergewicht",
+      "Verteilung"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "A1",
+    "q": "Wohin fährst du gern in den Urlaub?",
+    "en": "Where do you like to go on holiday?",
+    "fr": "Où aimes-tu partir en vacances ?",
+    "es": "¿Adónde te gusta ir de vacaciones?",
+    "it": "Dove ti piace andare in vacanza?",
+    "words": [
+      "Urlaub",
+      "Meer",
+      "Berg"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "A1",
+    "q": "Fährst du lieber mit dem Zug oder mit dem Auto?",
+    "en": "Do you prefer travelling by train or by car?",
+    "fr": "Préfères-tu voyager en train ou en voiture ?",
+    "es": "¿Prefieres viajar en tren o en coche?",
+    "it": "Preferisci viaggiare in treno o in macchina?",
+    "words": [
+      "Zug",
+      "Auto",
+      "Bahnhof"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "A1",
+    "q": "Was packst du in deinen Koffer?",
+    "en": "What do you pack in your suitcase?",
+    "fr": "Que mets-tu dans ta valise ?",
+    "es": "¿Qué metes en tu maleta?",
+    "it": "Cosa metti in valigia?",
+    "words": [
+      "Koffer",
+      "Kleidung",
+      "Pass"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "A1",
+    "q": "Hast du schon einmal ein Flugzeug genommen? Wohin?",
+    "en": "Have you ever taken a plane? Where to?",
+    "fr": "As-tu déjà pris l'avion ? Pour aller où ?",
+    "es": "¿Has viajado alguna vez en avión? ¿Adónde?",
+    "it": "Hai mai preso un aereo? Per andare dove?",
+    "words": [
+      "Flugzeug",
+      "Flughafen",
+      "Ticket"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "A1",
+    "q": "Was machst du gern am Strand?",
+    "en": "What do you like doing at the beach?",
+    "fr": "Qu'aimes-tu faire à la plage ?",
+    "es": "¿Qué te gusta hacer en la playa?",
+    "it": "Cosa ti piace fare in spiaggia?",
+    "words": [
+      "Strand",
+      "Sonne",
+      "Eis"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "A2",
+    "q": "Wo warst du zuletzt im Urlaub? Wie war es?",
+    "en": "Where did you last go on holiday? How was it?",
+    "fr": "Où es-tu allé en vacances la dernière fois ? C'était comment ?",
+    "es": "¿Dónde fuiste de vacaciones la última vez? ¿Qué tal fue?",
+    "it": "Dove sei stato in vacanza l'ultima volta? Com'è stato?",
+    "words": [
+      "Urlaub",
+      "Hotel",
+      "Strand"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "A2",
+    "q": "Welche Stadt möchtest du unbedingt besuchen? Warum?",
+    "en": "Which city do you really want to visit? Why?",
+    "fr": "Quelle ville veux-tu absolument visiter ? Pourquoi ?",
+    "es": "¿Qué ciudad quieres visitar sin falta? ¿Por qué?",
+    "it": "Quale città vuoi assolutamente visitare? Perché?",
+    "words": [
+      "Stadt",
+      "Sehenswürdigkeit",
+      "Reise"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "A2",
+    "q": "Was machst du, wenn du dich in einer fremden Stadt verlaufen hast?",
+    "en": "What do you do when you get lost in a strange city?",
+    "fr": "Que fais-tu quand tu te perds dans une ville inconnue ?",
+    "es": "¿Qué haces cuando te pierdes en una ciudad desconocida?",
+    "it": "Cosa fai quando ti perdi in una città sconosciuta?",
+    "words": [
+      "Stadtplan",
+      "Weg",
+      "Haltestelle"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "A2",
+    "q": "Wie buchst du eine Reise – im Internet oder im Reisebüro?",
+    "en": "How do you book a trip: online or at a travel agency?",
+    "fr": "Comment réserves-tu un voyage : sur Internet ou dans une agence ?",
+    "es": "¿Cómo reservas un viaje: por internet o en una agencia?",
+    "it": "Come prenoti un viaggio: su Internet o in agenzia?",
+    "words": [
+      "Reisebüro",
+      "Internet",
+      "Buchung"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "A2",
+    "q": "Welches Souvenir bringst du aus dem Urlaub mit?",
+    "en": "What souvenir do you bring back from your holiday?",
+    "fr": "Quel souvenir rapportes-tu de vacances ?",
+    "es": "¿Qué recuerdo traes de las vacaciones?",
+    "it": "Quale souvenir porti a casa dalle vacanze?",
+    "words": [
+      "Souvenir",
+      "Postkarte",
+      "Geschenk"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "B1",
+    "q": "Reist du lieber allein oder mit anderen? Was sind die Vor- und Nachteile?",
+    "en": "Do you prefer travelling alone or with others? What are the pros and cons?",
+    "fr": "Préfères-tu voyager seul ou accompagné ? Quels sont les avantages et les inconvénients ?",
+    "es": "¿Prefieres viajar solo o acompañado? ¿Cuáles son las ventajas y desventajas?",
+    "it": "Preferisci viaggiare da solo o in compagnia? Quali sono i vantaggi e gli svantaggi?",
+    "words": [
+      "Vorteil",
+      "Nachteil",
+      "Freiheit"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "B1",
+    "q": "Erzähl von einer Reise, bei der etwas schiefgelaufen ist.",
+    "en": "Tell about a trip where something went wrong.",
+    "fr": "Raconte un voyage où quelque chose a mal tourné.",
+    "es": "Cuenta un viaje en el que algo salió mal.",
+    "it": "Racconta di un viaggio in cui qualcosa è andato storto.",
+    "words": [
+      "Reise",
+      "Problem",
+      "Verspätung"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "B1",
+    "q": "Was ist dir im Urlaub wichtiger: Erholung oder Abenteuer?",
+    "en": "What matters more to you on holiday: rest or adventure?",
+    "fr": "Qu'est-ce qui compte le plus pour toi en vacances : le repos ou l'aventure ?",
+    "es": "¿Qué es más importante para ti en vacaciones: descansar o la aventura?",
+    "it": "Cosa conta di più per te in vacanza: il riposo o l'avventura?",
+    "words": [
+      "Erholung",
+      "Abenteuer",
+      "Natur"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "B1",
+    "q": "Was war das Schönste, das du auf einer Reise erlebt hast?",
+    "en": "What is the best thing you have experienced on a trip?",
+    "fr": "Quelle est la plus belle chose que tu aies vécue en voyage ?",
+    "es": "¿Qué es lo más bonito que has vivido en un viaje?",
+    "it": "Qual è la cosa più bella che hai vissuto in viaggio?",
+    "words": [
+      "Erlebnis",
+      "Aussicht",
+      "Begegnung"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "B1",
+    "q": "Wie bereitest du dich auf eine Reise in ein Land vor, dessen Sprache du nicht sprichst?",
+    "en": "How do you prepare for a trip to a country whose language you do not speak?",
+    "fr": "Comment te prépares-tu à un voyage dans un pays dont tu ne parles pas la langue ?",
+    "es": "¿Cómo te preparas para viajar a un país cuyo idioma no hablas?",
+    "it": "Come ti prepari a un viaggio in un paese di cui non parli la lingua?",
+    "words": [
+      "Sprache",
+      "Wörterbuch",
+      "Geste"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "B2",
+    "q": "Ist Fliegen angesichts des Klimawandels noch vertretbar?",
+    "en": "Is flying still justifiable in view of climate change?",
+    "fr": "Prendre l'avion est-il encore défendable face au changement climatique ?",
+    "es": "¿Es todavía justificable volar, dado el cambio climático?",
+    "it": "Volare è ancora giustificabile di fronte al cambiamento climatico?",
+    "words": [
+      "Klimawandel",
+      "Flugzeug",
+      "Verantwortung"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "B2",
+    "q": "Verändert Massentourismus die Orte, die wir besuchen? Wie?",
+    "en": "Does mass tourism change the places we visit? How?",
+    "fr": "Le tourisme de masse change-t-il les lieux que nous visitons ? Comment ?",
+    "es": "¿El turismo de masas cambia los lugares que visitamos? ¿Cómo?",
+    "it": "Il turismo di massa cambia i luoghi che visitiamo? Come?",
+    "words": [
+      "Tourismus",
+      "Einwohner",
+      "Auswirkung"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "B2",
+    "q": "Was lernt man über sich selbst, wenn man lange im Ausland lebt?",
+    "en": "What does one learn about oneself from living abroad for a long time?",
+    "fr": "Qu'apprend-on sur soi-même quand on vit longtemps à l'étranger ?",
+    "es": "¿Qué aprende uno de sí mismo al vivir mucho tiempo en el extranjero?",
+    "it": "Cosa si impara su se stessi vivendo a lungo all'estero?",
+    "words": [
+      "Ausland",
+      "Erfahrung",
+      "Heimat"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "B2",
+    "q": "Nachtzug statt Kurzstreckenflug: Ist das eine realistische Alternative oder Nostalgie?",
+    "en": "Night trains instead of short-haul flights: a realistic alternative or nostalgia?",
+    "fr": "Train de nuit plutôt que vol court-courrier : alternative réaliste ou nostalgie ?",
+    "es": "¿Tren nocturno en vez de vuelo de corta distancia: alternativa realista o nostalgia?",
+    "it": "Treno notturno al posto del volo a corto raggio: alternativa realistica o nostalgia?",
+    "words": [
+      "Nachtzug",
+      "Alternative",
+      "Nostalgie"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "B2",
+    "q": "Wie viel sollte man über ein Land wissen, bevor man es bereist?",
+    "en": "How much should one know about a country before travelling there?",
+    "fr": "Que faut-il savoir d'un pays avant de le visiter ?",
+    "es": "¿Cuánto hay que saber de un país antes de viajar a él?",
+    "it": "Quanto bisognerebbe sapere di un paese prima di visitarlo?",
+    "words": [
+      "Wissen",
+      "Kultur",
+      "Respekt"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "C1",
+    "q": "Lässt sich Reisen mit Klimaschutz vereinbaren, oder ist das Selbstbetrug?",
+    "en": "Can travel be reconciled with climate protection, or is that self-deception?",
+    "fr": "Peut-on concilier voyages et protection du climat, ou est-ce se mentir à soi-même ?",
+    "es": "¿Se puede conciliar viajar con la protección del clima, o es autoengaño?",
+    "it": "Si può conciliare il viaggiare con la tutela del clima, o è autoinganno?",
+    "words": [
+      "Klimaschutz",
+      "Selbstbetrug",
+      "Verzicht"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "C1",
+    "q": "Welche Verantwortung tragen Reisende gegenüber den Orten, die sie besuchen?",
+    "en": "What responsibility do travellers bear towards the places they visit?",
+    "fr": "Quelle responsabilité les voyageurs ont-ils envers les lieux qu’ils visitent ?",
+    "es": "¿Qué responsabilidad tienen los viajeros hacia los lugares que visitan?",
+    "it": "Quale responsabilità hanno i viaggiatori verso i luoghi che visitano?",
+    "words": [
+      "Verantwortung",
+      "Massentourismus",
+      "Einheimische"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "C1",
+    "q": "Erweitert Reisen tatsächlich den Horizont, oder bestätigt es nur, was man ohnehin glaubt?",
+    "en": "Does travel really broaden the mind, or does it just confirm what one already believes?",
+    "fr": "Les voyages élargissent-ils vraiment l’horizon, ou ne font-ils que confirmer ce que l’on croit déjà ?",
+    "es": "¿Viajar amplía de verdad los horizontes, o solo confirma lo que uno ya cree?",
+    "it": "Viaggiare allarga davvero gli orizzonti, o conferma soltanto ciò che già si crede?",
+    "words": [
+      "Horizont",
+      "Vorurteil",
+      "Perspektive"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "C1",
+    "q": "Digitale Nomaden preisen die Freiheit, Einheimische beklagen steigende Mieten. Wer trägt die Kosten dieser Lebensform?",
+    "en": "Digital nomads praise their freedom; locals complain about rising rents. Who bears the costs of this way of life?",
+    "fr": "Les nomades numériques vantent leur liberté, les habitants déplorent la hausse des loyers. Qui paie le prix de ce mode de vie ?",
+    "es": "Los nómadas digitales alaban su libertad; los residentes se quejan del alza de los alquileres. ¿Quién paga el precio de esta forma de vida?",
+    "it": "I nomadi digitali lodano la libertà, i residenti lamentano l'aumento degli affitti. Chi paga il prezzo di questo stile di vita?",
+    "words": [
+      "Freiheit",
+      "Mietpreis",
+      "Einheimische"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "C1",
+    "q": "Inwiefern verändert die ständige Dokumentation einer Reise das Erleben selbst?",
+    "en": "To what extent does constantly documenting a trip change the experience itself?",
+    "fr": "Dans quelle mesure documenter sans cesse un voyage transforme-t-il l'expérience elle-même ?",
+    "es": "¿Hasta qué punto documentar constantemente un viaje cambia la propia experiencia?",
+    "it": "In che misura documentare continuamente un viaggio cambia l'esperienza stessa?",
+    "words": [
+      "Dokumentation",
+      "Erlebnis",
+      "Erinnerung"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "C2",
+    "q": "Reiseberichte versprechen Authentizität und liefern Inszenierung. Lässt sich Fremde überhaupt unverstellt erleben?",
+    "en": "Travel writing promises authenticity and delivers staging. Can a foreign place be experienced undisguised at all?",
+    "fr": "Les récits de voyage promettent l'authenticité et livrent de la mise en scène. Peut-on seulement faire l'expérience de l'étranger sans artifice ?",
+    "es": "Los relatos de viaje prometen autenticidad y entregan puesta en escena. ¿Se puede siquiera vivir lo extranjero sin disfraz?",
+    "it": "I racconti di viaggio promettono autenticità e consegnano messinscena. Si può davvero vivere l'estraneo senza filtri?",
+    "words": [
+      "Authentizität",
+      "Inszenierung",
+      "Fremde"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "C2",
+    "q": "Fernweh oder Flucht: Woran erkennst du, ob jemand irgendwohin reist oder vor etwas davonläuft?",
+    "en": "Wanderlust or escape: how do you tell whether someone is travelling towards something or running away from something?",
+    "fr": "Envie d'ailleurs ou fuite : à quoi reconnais-tu si quelqu'un voyage vers un lieu ou fuit quelque chose ?",
+    "es": "¿Ansia de lejanía o huida? ¿En qué reconoces si alguien viaja hacia algo o huye de algo?",
+    "it": "Voglia di altrove o fuga: da cosa capisci se qualcuno viaggia verso qualcosa o scappa da qualcosa?",
+    "words": [
+      "Fernweh",
+      "Flucht",
+      "Sehnsucht"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "C2",
+    "q": "Sollten Orte, die unter Massentourismus leiden, Besucher begrenzen dürfen, selbst wenn das die Einheimischen Einnahmen kostet?",
+    "en": "Should places suffering from mass tourism be allowed to cap visitors, even if that costs locals their income?",
+    "fr": "Les lieux qui souffrent du tourisme de masse devraient-ils pouvoir limiter les visiteurs, même si cela prive les habitants de revenus ?",
+    "es": "¿Deberían los lugares que sufren el turismo de masas poder limitar los visitantes, aunque eso cueste ingresos a los lugareños?",
+    "it": "I luoghi che soffrono del turismo di massa dovrebbero poter limitare i visitatori, anche se questo costa reddito agli abitanti?",
+    "words": [
+      "Massentourismus",
+      "Begrenzung",
+      "Einnahme"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "C2",
+    "q": "Tourismus verspricht Begegnung und organisiert Distanz. Lässt sich das Reisen vom Konsum des Fremden trennen?",
+    "en": "Tourism promises encounter and organises distance. Can travel be separated from the consumption of the foreign?",
+    "fr": "Le tourisme promet la rencontre et organise la distance. Peut-on séparer le voyage de la consommation de l'étranger ?",
+    "es": "El turismo promete encuentro y organiza distancia. ¿Se puede separar el viaje del consumo de lo ajeno?",
+    "it": "Il turismo promette incontro e organizza distanza. Si può separare il viaggio dal consumo dell'estraneo?",
+    "words": [
+      "Begegnung",
+      "Distanz",
+      "Konsum"
+    ]
+  },
+  {
+    "topic": "travel",
+    "level": "C2",
+    "q": "Heimkehr ist der unterschätzte Teil jeder Reise. Was verändert sich am vertrauten Ort, wenn man zurückkommt?",
+    "en": "Coming home is the underrated part of every journey. What changes about the familiar place when you return?",
+    "fr": "Le retour est la part sous-estimée de tout voyage. Qu'est-ce qui change dans le lieu familier quand on revient ?",
+    "es": "El regreso es la parte infravalorada de todo viaje. ¿Qué cambia en el lugar familiar al volver?",
+    "it": "Il ritorno è la parte sottovalutata di ogni viaggio. Cosa cambia nel luogo familiare quando si torna?",
+    "words": [
+      "Heimkehr",
+      "Vertrautheit",
+      "Blick"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "A1",
+    "q": "Was bist du von Beruf? Oder was studierst du?",
+    "en": "What do you do for a living? Or what do you study?",
+    "fr": "Quel est ton métier ? Ou qu'étudies-tu ?",
+    "es": "¿A qué te dedicas? ¿O qué estudias?",
+    "it": "Che lavoro fai? O cosa studi?",
+    "words": [
+      "Beruf",
+      "Arbeit",
+      "Universität"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "A1",
+    "q": "Wann beginnt dein Arbeitstag?",
+    "en": "When does your working day start?",
+    "fr": "À quelle heure commence ta journée de travail ?",
+    "es": "¿Cuándo empieza tu jornada de trabajo?",
+    "it": "Quando inizia la tua giornata di lavoro?",
+    "words": [
+      "Arbeitstag",
+      "Uhr",
+      "Pause"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "A1",
+    "q": "Arbeitest du lieber allein oder im Team?",
+    "en": "Do you prefer working alone or in a team?",
+    "fr": "Préfères-tu travailler seul ou en équipe ?",
+    "es": "¿Prefieres trabajar solo o en equipo?",
+    "it": "Preferisci lavorare da solo o in squadra?",
+    "words": [
+      "Team",
+      "Kollege",
+      "Büro"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "A1",
+    "q": "Wie lange dauert dein Weg zur Arbeit?",
+    "en": "How long is your journey to work?",
+    "fr": "Combien de temps dure ton trajet jusqu'au travail ?",
+    "es": "¿Cuánto dura tu camino al trabajo?",
+    "it": "Quanto dura il tuo tragitto per andare al lavoro?",
+    "words": [
+      "Weg",
+      "Minute",
+      "Zug"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "A1",
+    "q": "Was machst du in der Mittagspause?",
+    "en": "What do you do in your lunch break?",
+    "fr": "Que fais-tu pendant la pause de midi ?",
+    "es": "¿Qué haces en la pausa del mediodía?",
+    "it": "Cosa fai nella pausa pranzo?",
+    "words": [
+      "Pause",
+      "Kantine",
+      "Kollege"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "A2",
+    "q": "Was gefällt dir an deiner Arbeit oder deinem Studium?",
+    "en": "What do you like about your job or your studies?",
+    "fr": "Qu'est-ce qui te plaît dans ton travail ou tes études ?",
+    "es": "¿Qué te gusta de tu trabajo o de tus estudios?",
+    "it": "Cosa ti piace del tuo lavoro o dei tuoi studi?",
+    "words": [
+      "Aufgabe",
+      "Chef",
+      "Prüfung"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "A2",
+    "q": "Was wolltest du als Kind werden?",
+    "en": "What did you want to be when you were a child?",
+    "fr": "Que voulais-tu faire comme métier quand tu étais enfant ?",
+    "es": "¿Qué querías ser de niño?",
+    "it": "Cosa volevi fare da bambino?",
+    "words": [
+      "Kind",
+      "Traum",
+      "Beruf"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "A2",
+    "q": "Wie sieht für dich ein guter Arbeitsplatz aus?",
+    "en": "What does a good workplace look like for you?",
+    "fr": "À quoi ressemble un bon lieu de travail pour toi ?",
+    "es": "¿Cómo es para ti un buen lugar de trabajo?",
+    "it": "Com'è per te un buon posto di lavoro?",
+    "words": [
+      "Arbeitsplatz",
+      "Gehalt",
+      "Kollege"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "A2",
+    "q": "Hattest du schon einmal einen Nebenjob? Was hast du gemacht?",
+    "en": "Have you ever had a side job? What did you do?",
+    "fr": "As-tu déjà eu un petit boulot ? Que faisais-tu ?",
+    "es": "¿Has tenido alguna vez un trabajo extra? ¿Qué hacías?",
+    "it": "Hai mai avuto un lavoretto? Cosa facevi?",
+    "words": [
+      "Nebenjob",
+      "Geld",
+      "Erfahrung"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "A2",
+    "q": "Welche Sprachen brauchst du bei der Arbeit oder im Studium?",
+    "en": "Which languages do you need at work or in your studies?",
+    "fr": "Quelles langues te faut-il au travail ou dans tes études ?",
+    "es": "¿Qué idiomas necesitas en el trabajo o en los estudios?",
+    "it": "Quali lingue ti servono al lavoro o all'università?",
+    "words": [
+      "Sprache",
+      "Fremdsprache",
+      "Kunde"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "B1",
+    "q": "Würdest du lieber im Homeoffice oder im Büro arbeiten? Warum?",
+    "en": "Would you rather work from home or in the office? Why?",
+    "fr": "Préférerais-tu travailler à domicile ou au bureau ? Pourquoi ?",
+    "es": "¿Preferirías trabajar desde casa o en la oficina? ¿Por qué?",
+    "it": "Preferiresti lavorare da casa o in ufficio? Perché?",
+    "words": [
+      "Homeoffice",
+      "Büro",
+      "Konzentration"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "B1",
+    "q": "Was ist dir bei einem Job wichtiger: das Gehalt oder die Freude an der Arbeit?",
+    "en": "What matters more to you in a job: the salary or enjoying the work?",
+    "fr": "Qu'est-ce qui compte le plus pour toi dans un emploi : le salaire ou le plaisir ?",
+    "es": "¿Qué es más importante para ti en un trabajo: el sueldo o disfrutar del trabajo?",
+    "it": "Cosa conta di più per te in un lavoro: lo stipendio o il piacere di lavorare?",
+    "words": [
+      "Gehalt",
+      "Freude",
+      "Zufriedenheit"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "B1",
+    "q": "Wie bereitest du dich auf ein Vorstellungsgespräch vor?",
+    "en": "How do you prepare for a job interview?",
+    "fr": "Comment te prépares-tu à un entretien d'embauche ?",
+    "es": "¿Cómo te preparas para una entrevista de trabajo?",
+    "it": "Come ti prepari a un colloquio di lavoro?",
+    "words": [
+      "Vorstellungsgespräch",
+      "Bewerbung",
+      "Lebenslauf"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "B1",
+    "q": "Was macht einen guten Chef oder eine gute Chefin aus?",
+    "en": "What makes a good boss?",
+    "fr": "Qu'est-ce qui fait un bon chef ?",
+    "es": "¿Qué hace que un jefe sea bueno?",
+    "it": "Cosa rende un buon capo?",
+    "words": [
+      "Chef",
+      "Respekt",
+      "Entscheidung"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "B1",
+    "q": "Hast du schon einmal den Job gewechselt? Was war der Grund?",
+    "en": "Have you ever changed jobs? What was the reason?",
+    "fr": "As-tu déjà changé de travail ? Pour quelle raison ?",
+    "es": "¿Has cambiado alguna vez de trabajo? ¿Cuál fue el motivo?",
+    "it": "Hai mai cambiato lavoro? Per quale motivo?",
+    "words": [
+      "Wechsel",
+      "Grund",
+      "Chance"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "B2",
+    "q": "Sollte die Vier-Tage-Woche überall eingeführt werden?",
+    "en": "Should the four-day week be introduced everywhere?",
+    "fr": "La semaine de quatre jours devrait-elle être instaurée partout ?",
+    "es": "¿Debería implantarse la semana de cuatro días en todas partes?",
+    "it": "La settimana di quattro giorni dovrebbe essere introdotta ovunque?",
+    "words": [
+      "Arbeitszeit",
+      "Produktivität",
+      "Gesellschaft"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "B2",
+    "q": "Welche Berufe wird es in zwanzig Jahren vielleicht nicht mehr geben?",
+    "en": "Which jobs may no longer exist in twenty years?",
+    "fr": "Quels métiers n'existeront peut-être plus dans vingt ans ?",
+    "es": "¿Qué profesiones quizá ya no existan dentro de veinte años?",
+    "it": "Quali professioni forse non esisteranno più tra vent'anni?",
+    "words": [
+      "Beruf",
+      "Maschine",
+      "Zukunft"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "B2",
+    "q": "Wie viel Verantwortung trägt ein Unternehmen für die Gesundheit seiner Mitarbeiter?",
+    "en": "How much responsibility does a company bear for its employees' health?",
+    "fr": "Quelle responsabilité une entreprise porte-t-elle pour la santé de ses salariés ?",
+    "es": "¿Cuánta responsabilidad tiene una empresa por la salud de sus empleados?",
+    "it": "Quanta responsabilità ha un'azienda per la salute dei suoi dipendenti?",
+    "words": [
+      "Unternehmen",
+      "Mitarbeiter",
+      "Verantwortung"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "B2",
+    "q": "Sollten Gehälter in einem Unternehmen für alle transparent sein?",
+    "en": "Should salaries in a company be transparent to everyone?",
+    "fr": "Les salaires d'une entreprise devraient-ils être transparents pour tous ?",
+    "es": "¿Deberían ser transparentes los salarios dentro de una empresa?",
+    "it": "Gli stipendi in un'azienda dovrebbero essere trasparenti per tutti?",
+    "words": [
+      "Gehalt",
+      "Transparenz",
+      "Gerechtigkeit"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "B2",
+    "q": "Wie viel Privatleben sollte man am Arbeitsplatz preisgeben?",
+    "en": "How much of your private life should you reveal at work?",
+    "fr": "Quelle part de sa vie privée faut-il dévoiler au travail ?",
+    "es": "¿Cuánto de la vida privada hay que revelar en el trabajo?",
+    "it": "Quanto della vita privata si dovrebbe rivelare sul posto di lavoro?",
+    "words": [
+      "Privatleben",
+      "Arbeitsplatz",
+      "Grenze"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "C1",
+    "q": "Die Vier-Tage-Woche wird kontrovers diskutiert. Welche Argumente überzeugen dich?",
+    "en": "The four-day week is controversial. Which arguments convince you?",
+    "fr": "La semaine de quatre jours fait débat. Quels arguments te convainquent ?",
+    "es": "La semana de cuatro días es objeto de controversia. ¿Qué argumentos te convencen?",
+    "it": "La settimana di quattro giorni è controversa. Quali argomenti ti convincono?",
+    "words": [
+      "Vier-Tage-Woche",
+      "Produktivität",
+      "Arbeitszeit"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "C1",
+    "q": "Inwieweit sollte Arbeit sinnstiftend sein – und wer kann sich diesen Anspruch leisten?",
+    "en": "To what extent should work be meaningful, and who can afford that expectation?",
+    "fr": "Dans quelle mesure le travail doit-il avoir du sens, et qui peut se permettre cette exigence ?",
+    "es": "¿Hasta qué punto el trabajo debe tener sentido, y quién puede permitirse esa exigencia?",
+    "it": "In che misura il lavoro dovrebbe dare un senso, e chi può permettersi questa pretesa?",
+    "words": [
+      "Sinn",
+      "Anspruch",
+      "Erwerbsarbeit"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "C1",
+    "q": "Wie verändert künstliche Intelligenz die Arbeitswelt, und wer trägt die Risiken?",
+    "en": "How is artificial intelligence changing the world of work, and who bears the risks?",
+    "fr": "Comment l’intelligence artificielle transforme-t-elle le monde du travail, et qui en porte les risques ?",
+    "es": "¿Cómo cambia la inteligencia artificial el mundo laboral, y quién asume los riesgos?",
+    "it": "Come sta cambiando l’intelligenza artificiale il mondo del lavoro, e chi ne sopporta i rischi?",
+    "words": [
+      "Arbeitswelt",
+      "Risiko",
+      "Automatisierung"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "C1",
+    "q": "Fachkräftemangel bei gleichzeitiger Arbeitslosigkeit: Woran scheitert die Vermittlung?",
+    "en": "Skills shortages alongside unemployment: why does matching fail?",
+    "fr": "Pénurie de main-d'œuvre qualifiée et chômage simultanés : pourquoi l'appariement échoue-t-il ?",
+    "es": "Escasez de personal cualificado y desempleo al mismo tiempo: ¿por qué falla la intermediación?",
+    "it": "Carenza di manodopera qualificata e disoccupazione insieme: perché l'incontro tra domanda e offerta fallisce?",
+    "words": [
+      "Fachkräftemangel",
+      "Arbeitslosigkeit",
+      "Qualifikation"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "C1",
+    "q": "Inwiefern verschiebt das Homeoffice die Grenze zwischen Erwerbsarbeit und Sorgearbeit – und zu wessen Lasten?",
+    "en": "To what extent does working from home shift the boundary between paid work and care work, and at whose expense?",
+    "fr": "Dans quelle mesure le télétravail déplace-t-il la frontière entre travail rémunéré et travail de soin, et au détriment de qui ?",
+    "es": "¿Hasta qué punto el teletrabajo desplaza la frontera entre trabajo remunerado y trabajo de cuidados, y a costa de quién?",
+    "it": "In che misura il lavoro da casa sposta il confine tra lavoro retribuito e lavoro di cura, e a spese di chi?",
+    "words": [
+      "Homeoffice",
+      "Arbeit",
+      "Fürsorge"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "C2",
+    "q": "Berufung oder Selbstausbeutung: Wo verläuft die Grenze, wenn Arbeit zur Identität wird?",
+    "en": "Vocation or self-exploitation: where is the line when work becomes identity?",
+    "fr": "Vocation ou auto-exploitation : où passe la limite quand le travail devient identité ?",
+    "es": "¿Vocación o autoexplotación? ¿Dónde está el límite cuando el trabajo se convierte en identidad?",
+    "it": "Vocazione o autosfruttamento: dove passa il confine quando il lavoro diventa identità?",
+    "words": [
+      "Berufung",
+      "Identität",
+      "Grenze"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "C2",
+    "q": "Eine offene Fehlerkultur fordern alle, doch wer gesteht Fehler tatsächlich ein? Welche Rolle spielt dabei die Hierarchie?",
+    "en": "Everyone calls for an open culture around mistakes, but who actually owns up to them? What part does hierarchy play?",
+    "fr": "Tout le monde réclame une culture ouverte de l'erreur, mais qui reconnaît vraiment ses erreurs ? Quel rôle y joue la hiérarchie ?",
+    "es": "Todos piden una cultura abierta del error, pero ¿quién reconoce de verdad sus errores? ¿Qué papel desempeña la jerarquía?",
+    "it": "Tutti invocano una cultura aperta dell'errore, ma chi ammette davvero i propri errori? Che ruolo ha la gerarchia?",
+    "words": [
+      "Fehler",
+      "Eingeständnis",
+      "Hierarchie"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "C2",
+    "q": "Loyalität gegenüber dem Arbeitgeber galt einst als Tugend. Ist sie heute naiv, oder wird sie nur anders eingefordert?",
+    "en": "Loyalty to one's employer once counted as a virtue. Is it naive today, or is it simply demanded in a different way?",
+    "fr": "La loyauté envers l'employeur passait autrefois pour une vertu. Est-elle naïve aujourd'hui, ou est-elle simplement exigée autrement ?",
+    "es": "La lealtad al empleador se consideraba antes una virtud. ¿Es hoy ingenua o simplemente se exige de otra manera?",
+    "it": "La lealtà verso il datore di lavoro era un tempo una virtù. Oggi è ingenua, o viene semplicemente pretesa in altro modo?",
+    "words": [
+      "Loyalität",
+      "Arbeitgeber",
+      "Tugend"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "C2",
+    "q": "Leistung soll sich lohnen, heißt es. Wie misst man Leistung dort, wo ihr Wert sich erst Jahre später zeigt?",
+    "en": "Performance should pay, they say. How do you measure performance where its value only shows years later?",
+    "fr": "Le mérite doit payer, dit-on. Comment mesurer la performance là où sa valeur n'apparaît que des années plus tard ?",
+    "es": "El esfuerzo debe recompensarse, dicen. ¿Cómo se mide el rendimiento allí donde su valor solo se ve años después?",
+    "it": "Il merito deve pagare, si dice. Come si misura la prestazione dove il suo valore si vede solo anni dopo?",
+    "words": [
+      "Leistung",
+      "Wert",
+      "Maßstab"
+    ]
+  },
+  {
+    "topic": "work",
+    "level": "C2",
+    "q": "Die Rede vom „Humankapital“ beschreibt Menschen als Ressource. Welche Folgen hat diese Sprache für den Umgang miteinander?",
+    "en": "Talk of “human capital” describes people as a resource. What consequences does this language have for how we treat one another?",
+    "fr": "Parler de « capital humain », c'est décrire les personnes comme une ressource. Quelles conséquences ce langage a-t-il sur nos rapports ?",
+    "es": "Hablar de «capital humano» describe a las personas como un recurso. ¿Qué consecuencias tiene ese lenguaje en el trato mutuo?",
+    "it": "Parlare di «capitale umano» descrive le persone come una risorsa. Quali conseguenze ha questo linguaggio sul modo di trattarci?",
+    "words": [
+      "Humankapital",
+      "Ressource",
+      "Sprache"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "A1",
+    "q": "Wohnst du in einer Wohnung oder in einem Haus?",
+    "en": "Do you live in a flat or in a house?",
+    "fr": "Habites-tu dans un appartement ou dans une maison ?",
+    "es": "¿Vives en un piso o en una casa?",
+    "it": "Vivi in un appartamento o in una casa?",
+    "words": [
+      "Wohnung",
+      "Haus",
+      "Zimmer"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "A1",
+    "q": "Was ist dein Lieblingsplatz zu Hause?",
+    "en": "What is your favourite spot at home?",
+    "fr": "Quel est ton endroit préféré à la maison ?",
+    "es": "¿Cuál es tu lugar favorito en casa?",
+    "it": "Qual è il tuo posto preferito a casa?",
+    "words": [
+      "Sofa",
+      "Balkon",
+      "Küche"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "A1",
+    "q": "Wie viele Zimmer hat deine Wohnung?",
+    "en": "How many rooms does your flat have?",
+    "fr": "Combien de pièces a ton appartement ?",
+    "es": "¿Cuántas habitaciones tiene tu piso?",
+    "it": "Quante stanze ha il tuo appartamento?",
+    "words": [
+      "Zimmer",
+      "Bad",
+      "Schlafzimmer"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "A1",
+    "q": "Hast du einen Balkon oder einen Garten?",
+    "en": "Do you have a balcony or a garden?",
+    "fr": "As-tu un balcon ou un jardin ?",
+    "es": "¿Tienes balcón o jardín?",
+    "it": "Hai un balcone o un giardino?",
+    "words": [
+      "Balkon",
+      "Garten",
+      "Blume"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "A1",
+    "q": "Welche Farbe haben die Wände in deinem Zimmer?",
+    "en": "What colour are the walls in your room?",
+    "fr": "De quelle couleur sont les murs de ta chambre ?",
+    "es": "¿De qué color son las paredes de tu habitación?",
+    "it": "Di che colore sono le pareti della tua stanza?",
+    "words": [
+      "Wand",
+      "Farbe",
+      "Bild"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "A2",
+    "q": "Wie sieht deine Traumwohnung aus?",
+    "en": "What does your dream flat look like?",
+    "fr": "À quoi ressemble ton appartement de rêve ?",
+    "es": "¿Cómo es tu piso ideal?",
+    "it": "Com'è il tuo appartamento dei sogni?",
+    "words": [
+      "Garten",
+      "Fenster",
+      "Licht"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "A2",
+    "q": "Wohnst du gern in deiner Nachbarschaft? Was gibt es dort?",
+    "en": "Do you like living in your neighbourhood? What is there?",
+    "fr": "Aimes-tu ton quartier ? Qu'y a-t-il ?",
+    "es": "¿Te gusta vivir en tu barrio? ¿Qué hay allí?",
+    "it": "Ti piace vivere nel tuo quartiere? Cosa c'è?",
+    "words": [
+      "Nachbar",
+      "Nachbarschaft",
+      "Geschäft"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "A2",
+    "q": "Hast du schon einmal eine Wohnung gesucht? Wie war das?",
+    "en": "Have you ever looked for a flat? What was it like?",
+    "fr": "As-tu déjà cherché un appartement ? C'était comment ?",
+    "es": "¿Has buscado alguna vez un piso? ¿Cómo fue?",
+    "it": "Hai mai cercato un appartamento? Com'è stato?",
+    "words": [
+      "Miete",
+      "Vermieter",
+      "Anzeige"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "A2",
+    "q": "Wer macht bei euch zu Hause was? Wie teilt ihr die Hausarbeit?",
+    "en": "Who does what at your place? How do you share the housework?",
+    "fr": "Qui fait quoi chez vous ? Comment partagez-vous les tâches ménagères ?",
+    "es": "¿Quién hace qué en tu casa? ¿Cómo os repartís las tareas?",
+    "it": "Chi fa cosa a casa vostra? Come vi dividete i lavori domestici?",
+    "words": [
+      "Hausarbeit",
+      "Müll",
+      "Staubsauger"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "A2",
+    "q": "Was stört dich an deiner Wohnung am meisten?",
+    "en": "What bothers you most about your flat?",
+    "fr": "Qu'est-ce qui te dérange le plus dans ton appartement ?",
+    "es": "¿Qué es lo que más te molesta de tu piso?",
+    "it": "Cosa ti dà più fastidio del tuo appartamento?",
+    "words": [
+      "Lärm",
+      "Heizung",
+      "Nachbar"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "B1",
+    "q": "Lebst du lieber in der Stadt oder auf dem Land? Warum?",
+    "en": "Do you prefer living in the city or in the countryside? Why?",
+    "fr": "Préfères-tu vivre en ville ou à la campagne ? Pourquoi ?",
+    "es": "¿Prefieres vivir en la ciudad o en el campo? ¿Por qué?",
+    "it": "Preferisci vivere in città o in campagna? Perché?",
+    "words": [
+      "Stadt",
+      "Land",
+      "Ruhe"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "B1",
+    "q": "Was macht eine Wohnung gemütlich?",
+    "en": "What makes a flat cosy?",
+    "fr": "Qu'est-ce qui rend un appartement chaleureux ?",
+    "es": "¿Qué hace que un piso sea acogedor?",
+    "it": "Cosa rende accogliente un appartamento?",
+    "words": [
+      "Möbel",
+      "Farbe",
+      "Pflanze"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "B1",
+    "q": "Wie wichtig ist dir ein gutes Verhältnis zu den Nachbarn?",
+    "en": "How important is a good relationship with your neighbours to you?",
+    "fr": "Quelle importance accordes-tu à de bonnes relations avec tes voisins ?",
+    "es": "¿Qué importancia tiene para ti llevarte bien con los vecinos?",
+    "it": "Quanto è importante per te un buon rapporto con i vicini?",
+    "words": [
+      "Nachbar",
+      "Verhältnis",
+      "Lärm"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "B1",
+    "q": "Wie würdest du ein Zimmer einrichten, wenn Geld keine Rolle spielte?",
+    "en": "How would you furnish a room if money were no object?",
+    "fr": "Comment aménagerais-tu une pièce si l'argent n'était pas un problème ?",
+    "es": "¿Cómo amueblarías una habitación si el dinero no importara?",
+    "it": "Come arrederesti una stanza se il denaro non contasse?",
+    "words": [
+      "Einrichtung",
+      "Möbel",
+      "Lampe"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "B1",
+    "q": "Bist du schon oft umgezogen? Was war am schwierigsten?",
+    "en": "Have you moved house often? What was hardest?",
+    "fr": "As-tu souvent déménagé ? Qu'est-ce qui a été le plus difficile ?",
+    "es": "¿Te has mudado muchas veces? ¿Qué fue lo más difícil?",
+    "it": "Hai traslocato spesso? Cosa è stato più difficile?",
+    "words": [
+      "Umzug",
+      "Kiste",
+      "Abschied"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "B2",
+    "q": "Was sollte gegen steigende Mieten in Großstädten getan werden?",
+    "en": "What should be done about rising rents in big cities?",
+    "fr": "Que faudrait-il faire contre la hausse des loyers dans les grandes villes ?",
+    "es": "¿Qué debería hacerse contra la subida de los alquileres en las grandes ciudades?",
+    "it": "Cosa si dovrebbe fare contro l'aumento degli affitti nelle grandi città?",
+    "words": [
+      "Miete",
+      "Großstadt",
+      "Politik"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "B2",
+    "q": "Wohngemeinschaft, allein oder mit Familie: Welche Wohnform passt zu welcher Lebensphase?",
+    "en": "Shared flat, alone or with family: which way of living suits which stage of life?",
+    "fr": "Colocation, seul ou en famille : quel mode de vie convient à quelle étape de la vie ?",
+    "es": "Piso compartido, solo o con la familia: ¿qué forma de vivir encaja con cada etapa de la vida?",
+    "it": "Appartamento condiviso, da soli o in famiglia: quale forma abitativa si adatta a quale fase della vita?",
+    "words": [
+      "Wohngemeinschaft",
+      "Lebensphase",
+      "Unabhängigkeit"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "B2",
+    "q": "Wie könnte das Wohnen in dreißig Jahren aussehen?",
+    "en": "What could housing look like in thirty years?",
+    "fr": "À quoi pourrait ressembler l'habitat dans trente ans ?",
+    "es": "¿Cómo podría ser la vivienda dentro de treinta años?",
+    "it": "Come potrebbe essere l'abitare tra trent'anni?",
+    "words": [
+      "Zukunft",
+      "Energie",
+      "Gebäude"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "B2",
+    "q": "Sollte man Wohnraum nach Bedarf verteilen – große Wohnungen für Familien, kleine für Alleinstehende?",
+    "en": "Should housing be allocated by need: large flats for families, small ones for singles?",
+    "fr": "Faut-il répartir les logements selon les besoins : grands appartements pour les familles, petits pour les célibataires ?",
+    "es": "¿Debería repartirse la vivienda según la necesidad: pisos grandes para familias, pequeños para personas solas?",
+    "it": "Gli alloggi andrebbero distribuiti secondo il bisogno: grandi per le famiglie, piccoli per i single?",
+    "words": [
+      "Wohnraum",
+      "Bedarf",
+      "Familie"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "B2",
+    "q": "Smart Home: Komfortgewinn oder Einfallstor für Überwachung?",
+    "en": "Smart homes: a gain in comfort or a gateway to surveillance?",
+    "fr": "La maison connectée : gain de confort ou porte ouverte à la surveillance ?",
+    "es": "Casa inteligente: ¿ganancia de comodidad o puerta a la vigilancia?",
+    "it": "Casa intelligente: più comfort o una porta aperta alla sorveglianza?",
+    "words": [
+      "Komfort",
+      "Überwachung",
+      "Technik"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "C1",
+    "q": "Wohnen ist ein Grundbedürfnis – sollte der Markt es trotzdem regeln?",
+    "en": "Housing is a basic need. Should the market regulate it nonetheless?",
+    "fr": "Se loger est un besoin fondamental ; le marché doit-il quand même le réguler ?",
+    "es": "La vivienda es una necesidad básica. ¿Debería regularla el mercado de todos modos?",
+    "it": "L’abitare è un bisogno primario: dovrebbe comunque regolarlo il mercato?",
+    "words": [
+      "Grundbedürfnis",
+      "Wohnungsmarkt",
+      "Mietpreisbremse"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "C1",
+    "q": "Was bedeutet Heimat für dich – ein Ort, Menschen oder ein Gefühl?",
+    "en": "What does \"Heimat\" mean to you: a place, people or a feeling?",
+    "fr": "Que signifie « Heimat » pour toi : un lieu, des personnes ou un sentiment ?",
+    "es": "¿Qué significa «Heimat» para ti: un lugar, personas o un sentimiento?",
+    "it": "Che cosa significa «Heimat» per te: un luogo, delle persone o un sentimento?",
+    "words": [
+      "Heimat",
+      "Zugehörigkeit",
+      "Verwurzelung"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "C1",
+    "q": "Verdrängung in den Städten: Wer gewinnt, wer verliert, und was lässt sich dagegen tun?",
+    "en": "Displacement in cities: who wins, who loses, and what can be done about it?",
+    "fr": "L’éviction dans les villes : qui y gagne, qui y perd, et que peut-on faire ?",
+    "es": "El desplazamiento en las ciudades: ¿quién gana, quién pierde y qué se puede hacer?",
+    "it": "L’espulsione dalle città: chi vince, chi perde e che cosa si può fare?",
+    "words": [
+      "Verdrängung",
+      "Gentrifizierung",
+      "Stadtviertel"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "C1",
+    "q": "Eigentum oder Miete: Ist Wohneigentum noch ein realistisches Lebensziel, und sollte es eines sein?",
+    "en": "Owning or renting: is home ownership still a realistic life goal, and should it be one?",
+    "fr": "Propriété ou location : devenir propriétaire est-il encore un objectif de vie réaliste, et devrait-il l'être ?",
+    "es": "¿Propiedad o alquiler? ¿Sigue siendo la vivienda en propiedad una meta vital realista, y debería serlo?",
+    "it": "Proprietà o affitto: la casa di proprietà è ancora un obiettivo di vita realistico, e dovrebbe esserlo?",
+    "words": [
+      "Eigentum",
+      "Lebensziel",
+      "Miete"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "C1",
+    "q": "Generationenwohnen wird als Lösung für Einsamkeit und Pflege gepriesen. Warum bleibt es die Ausnahme?",
+    "en": "Multi-generational living is praised as a solution to loneliness and care. Why does it remain the exception?",
+    "fr": "L'habitat intergénérationnel est présenté comme une solution à la solitude et à la dépendance. Pourquoi reste-t-il l'exception ?",
+    "es": "La convivencia intergeneracional se alaba como solución a la soledad y los cuidados. ¿Por qué sigue siendo la excepción?",
+    "it": "La convivenza intergenerazionale è lodata come soluzione a solitudine e assistenza. Perché resta l'eccezione?",
+    "words": [
+      "Generation",
+      "Einsamkeit",
+      "Pflege"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "C2",
+    "q": "Leerstand neben Wohnungsnot: Rechtfertigt das Gemeinwohl Eingriffe ins Eigentum, und wo endet der Eingriff?",
+    "en": "Empty flats next to a housing shortage: does the common good justify interfering with property, and where does the interference end?",
+    "fr": "Des logements vides à côté de la pénurie : le bien commun justifie-t-il des atteintes à la propriété, et où s'arrêtent-elles ?",
+    "es": "Viviendas vacías junto a la escasez de vivienda: ¿justifica el bien común intervenir en la propiedad, y dónde termina la intervención?",
+    "it": "Case vuote accanto all'emergenza abitativa: il bene comune giustifica interventi sulla proprietà, e dove finisce l'intervento?",
+    "words": [
+      "Leerstand",
+      "Eigentum",
+      "Gemeinwohl"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "C2",
+    "q": "Geborgenheit oder Anonymität: Was macht für dich ein Zuhause aus, und wie viel Nachbarschaft verträgt es?",
+    "en": "Security or anonymity: what makes a home for you, and how much neighbourhood can it take?",
+    "fr": "Sécurité affective ou anonymat : qu'est-ce qui fait un chez-soi pour toi, et combien de voisinage peut-il supporter ?",
+    "es": "¿Amparo o anonimato? ¿Qué hace de un lugar un hogar para ti, y cuánta vecindad soporta?",
+    "it": "Protezione o anonimato: che cosa rende un luogo casa per te, e quanto vicinato può sopportare?",
+    "words": [
+      "Geborgenheit",
+      "Anonymität",
+      "Nachbarschaft"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "C2",
+    "q": "Denkmalschutz bewahrt Stadtbilder und verhindert Verdichtung. Wessen Interessen sollten im Zweifel überwiegen?",
+    "en": "Heritage protection preserves cityscapes and prevents densification. Whose interests should prevail when in doubt?",
+    "fr": "La protection du patrimoine préserve les paysages urbains et empêche la densification. Quels intérêts devraient l'emporter en cas de doute ?",
+    "es": "La protección del patrimonio conserva los paisajes urbanos e impide la densificación. ¿Qué intereses deberían prevalecer en caso de duda?",
+    "it": "La tutela dei monumenti conserva i paesaggi urbani e impedisce la densificazione. Quali interessi dovrebbero prevalere nel dubbio?",
+    "words": [
+      "Denkmalschutz",
+      "Verdichtung",
+      "Stadtbild"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "C2",
+    "q": "Die Wohnung ist der letzte Ort ohne Öffentlichkeit, und doch tragen wir sie über Bildschirme in die Welt. Was bleibt vom Privaten?",
+    "en": "The home is the last place without a public, and yet we carry it into the world via screens. What remains of the private?",
+    "fr": "Le logement est le dernier lieu sans public, et pourtant nous l'exposons au monde par écrans interposés. Que reste-t-il du privé ?",
+    "es": "La vivienda es el último lugar sin público, y sin embargo la llevamos al mundo a través de las pantallas. ¿Qué queda de lo privado?",
+    "it": "La casa è l'ultimo luogo senza pubblico, eppure la portiamo nel mondo attraverso gli schermi. Cosa resta del privato?",
+    "words": [
+      "Öffentlichkeit",
+      "Bildschirm",
+      "Intimität"
+    ]
+  },
+  {
+    "topic": "home",
+    "level": "C2",
+    "q": "Bauen gilt als Fortschritt, Bewahren als Stillstand. Welche Verantwortung hat eine Generation gegenüber dem Gebauten, das sie erbt?",
+    "en": "Building counts as progress, preserving as standstill. What responsibility does a generation have towards the built environment it inherits?",
+    "fr": "Construire passe pour un progrès, préserver pour de l'immobilisme. Quelle responsabilité une génération a-t-elle envers le bâti dont elle hérite ?",
+    "es": "Construir se considera progreso; conservar, estancamiento. ¿Qué responsabilidad tiene una generación hacia lo construido que hereda?",
+    "it": "Costruire è visto come progresso, conservare come immobilismo. Quale responsabilità ha una generazione verso il costruito che eredita?",
+    "words": [
+      "Fortschritt",
+      "Bewahrung",
+      "Erbe"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "A1",
+    "q": "Hast du Geschwister? Erzähl von deiner Familie.",
+    "en": "Do you have siblings? Tell me about your family.",
+    "fr": "As-tu des frères et sœurs ? Parle de ta famille.",
+    "es": "¿Tienes hermanos? Háblame de tu familia.",
+    "it": "Hai fratelli o sorelle? Parla della tua famiglia.",
+    "words": [
+      "Familie",
+      "Bruder",
+      "Schwester"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "A1",
+    "q": "Wie heißt dein bester Freund oder deine beste Freundin?",
+    "en": "What is your best friend's name?",
+    "fr": "Comment s'appelle ton meilleur ami ou ta meilleure amie ?",
+    "es": "¿Cómo se llama tu mejor amigo o amiga?",
+    "it": "Come si chiama il tuo migliore amico o la tua migliore amica?",
+    "words": [
+      "Freund",
+      "Freundin",
+      "Name"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "A1",
+    "q": "Was macht ihr zusammen, du und deine Freunde?",
+    "en": "What do you and your friends do together?",
+    "fr": "Que faites-vous ensemble, toi et tes amis ?",
+    "es": "¿Qué hacéis juntos tú y tus amigos?",
+    "it": "Cosa fate insieme tu e i tuoi amici?",
+    "words": [
+      "Kino",
+      "Park",
+      "Spiel"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "A1",
+    "q": "Wie alt sind deine Eltern?",
+    "en": "How old are your parents?",
+    "fr": "Quel âge ont tes parents ?",
+    "es": "¿Cuántos años tienen tus padres?",
+    "it": "Quanti anni hanno i tuoi genitori?",
+    "words": [
+      "Elternteil",
+      "Mutter",
+      "Vater"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "A1",
+    "q": "Hast du ein Haustier? Wie heißt es?",
+    "en": "Do you have a pet? What is its name?",
+    "fr": "As-tu un animal de compagnie ? Comment s'appelle-t-il ?",
+    "es": "¿Tienes mascota? ¿Cómo se llama?",
+    "it": "Hai un animale domestico? Come si chiama?",
+    "words": [
+      "Haustier",
+      "Hund",
+      "Katze"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "A2",
+    "q": "Wie hast du deinen besten Freund oder deine beste Freundin kennengelernt?",
+    "en": "How did you meet your best friend?",
+    "fr": "Comment as-tu rencontré ton meilleur ami ou ta meilleure amie ?",
+    "es": "¿Cómo conociste a tu mejor amigo o amiga?",
+    "it": "Come hai conosciuto il tuo migliore amico o la tua migliore amica?",
+    "words": [
+      "Schule",
+      "Nachbar",
+      "Verein"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "A2",
+    "q": "Wie feiert deine Familie Geburtstage?",
+    "en": "How does your family celebrate birthdays?",
+    "fr": "Comment ta famille fête-t-elle les anniversaires ?",
+    "es": "¿Cómo celebra tu familia los cumpleaños?",
+    "it": "Come festeggia i compleanni la tua famiglia?",
+    "words": [
+      "Geburtstag",
+      "Geschenk",
+      "Kuchen"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "A2",
+    "q": "Wem erzählst du zuerst eine gute Nachricht?",
+    "en": "Who do you tell good news to first?",
+    "fr": "À qui annonces-tu une bonne nouvelle en premier ?",
+    "es": "¿A quién le cuentas primero una buena noticia?",
+    "it": "A chi racconti per primo una bella notizia?",
+    "words": [
+      "Nachricht",
+      "Mutter",
+      "Vater"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "A2",
+    "q": "Wer in deiner Familie kocht am besten?",
+    "en": "Who in your family is the best cook?",
+    "fr": "Qui cuisine le mieux dans ta famille ?",
+    "es": "¿Quién cocina mejor en tu familia?",
+    "it": "Chi cucina meglio nella tua famiglia?",
+    "words": [
+      "Oma",
+      "Familie",
+      "Küche"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "A2",
+    "q": "Was schenkst du deinen Freunden zum Geburtstag?",
+    "en": "What do you give your friends for their birthday?",
+    "fr": "Qu'offres-tu à tes amis pour leur anniversaire ?",
+    "es": "¿Qué les regalas a tus amigos por su cumpleaños?",
+    "it": "Cosa regali ai tuoi amici per il compleanno?",
+    "words": [
+      "Geschenk",
+      "Blume",
+      "Gutschein"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "B1",
+    "q": "Was macht eine gute Freundschaft aus?",
+    "en": "What makes a good friendship?",
+    "fr": "Qu'est-ce qui fait une bonne amitié ?",
+    "es": "¿Qué hace que una amistad sea buena?",
+    "it": "Cosa rende buona un'amicizia?",
+    "words": [
+      "Freundschaft",
+      "Vertrauen",
+      "Ehrlichkeit"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "B1",
+    "q": "Wie hältst du Kontakt zu Freunden, die weit weg wohnen?",
+    "en": "How do you keep in touch with friends who live far away?",
+    "fr": "Comment gardes-tu le contact avec des amis qui habitent loin ?",
+    "es": "¿Cómo mantienes el contacto con amigos que viven lejos?",
+    "it": "Come mantieni i contatti con gli amici che vivono lontano?",
+    "words": [
+      "Kontakt",
+      "Entfernung",
+      "Besuch"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "B1",
+    "q": "Hast du schon einmal mit einem Freund gestritten? Wie habt ihr euch vertragen?",
+    "en": "Have you ever argued with a friend? How did you make up?",
+    "fr": "T'es-tu déjà disputé avec un ami ? Comment vous êtes-vous réconciliés ?",
+    "es": "¿Has discutido alguna vez con un amigo? ¿Cómo os reconciliasteis?",
+    "it": "Hai mai litigato con un amico? Come avete fatto pace?",
+    "words": [
+      "Streit",
+      "Entschuldigung",
+      "Gespräch"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "B1",
+    "q": "Mit wem aus deiner Kindheit hast du noch Kontakt – und warum gerade mit dieser Person?",
+    "en": "Who from your childhood are you still in touch with, and why that person?",
+    "fr": "Avec qui de ton enfance es-tu encore en contact, et pourquoi cette personne ?",
+    "es": "¿Con quién de tu infancia sigues en contacto y por qué justamente con esa persona?",
+    "it": "Con chi della tua infanzia sei ancora in contatto, e perché proprio con quella persona?",
+    "words": [
+      "Kindheit",
+      "Kontakt",
+      "Erinnerung"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "B1",
+    "q": "Was tust du, wenn ein Freund dich um einen Gefallen bittet, der dir unangenehm ist?",
+    "en": "What do you do when a friend asks you a favour you find awkward?",
+    "fr": "Que fais-tu quand un ami te demande un service qui te met mal à l'aise ?",
+    "es": "¿Qué haces cuando un amigo te pide un favor que te resulta incómodo?",
+    "it": "Cosa fai quando un amico ti chiede un favore che ti mette a disagio?",
+    "words": [
+      "Gefallen",
+      "Freund",
+      "Grenze"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "B2",
+    "q": "Verändern soziale Medien unsere Freundschaften? Inwiefern?",
+    "en": "Do social media change our friendships? In what way?",
+    "fr": "Les réseaux sociaux changent-ils nos amitiés ? De quelle manière ?",
+    "es": "¿Las redes sociales cambian nuestras amistades? ¿En qué sentido?",
+    "it": "I social media cambiano le nostre amicizie? In che modo?",
+    "words": [
+      "Freundschaft",
+      "Netzwerk",
+      "Nähe"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "B2",
+    "q": "Welche Werte möchtest du an die nächste Generation weitergeben?",
+    "en": "Which values would you like to pass on to the next generation?",
+    "fr": "Quelles valeurs voudrais-tu transmettre à la génération suivante ?",
+    "es": "¿Qué valores te gustaría transmitir a la próxima generación?",
+    "it": "Quali valori vorresti trasmettere alla prossima generazione?",
+    "words": [
+      "Wert",
+      "Generation",
+      "Erziehung"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "B2",
+    "q": "Sollten erwachsene Kinder für ihre Eltern sorgen?",
+    "en": "Should adult children look after their parents?",
+    "fr": "Les enfants adultes devraient-ils s'occuper de leurs parents ?",
+    "es": "¿Deberían los hijos adultos cuidar de sus padres?",
+    "it": "I figli adulti dovrebbero prendersi cura dei loro genitori?",
+    "words": [
+      "Eltern",
+      "Pflege",
+      "Pflicht"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "B2",
+    "q": "Kann man mit jemandem befreundet sein, dessen politische Ansichten man ablehnt?",
+    "en": "Can you be friends with someone whose political views you reject?",
+    "fr": "Peut-on être ami avec quelqu'un dont on rejette les opinions politiques ?",
+    "es": "¿Se puede ser amigo de alguien cuyas opiniones políticas se rechazan?",
+    "it": "Si può essere amici di qualcuno di cui si rifiutano le opinioni politiche?",
+    "words": [
+      "Freundschaft",
+      "Politik",
+      "Meinung"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "B2",
+    "q": "Wie verändert sich das Verhältnis zu den eigenen Eltern im Erwachsenenalter?",
+    "en": "How does the relationship with one's parents change in adulthood?",
+    "fr": "Comment la relation avec ses parents évolue-t-elle à l'âge adulte ?",
+    "es": "¿Cómo cambia la relación con los propios padres en la edad adulta?",
+    "it": "Come cambia il rapporto con i propri genitori in età adulta?",
+    "words": [
+      "Elternteil",
+      "Verhältnis",
+      "Erwachsener"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "C1",
+    "q": "Spaltet die Debattenkultur in den sozialen Medien die Gesellschaft, oder macht sie sie nur sichtbar?",
+    "en": "Does the culture of debate on social media divide society, or merely make it visible?",
+    "fr": "La culture du débat sur les réseaux sociaux divise-t-elle la société, ou la rend-elle simplement visible ?",
+    "es": "¿La cultura del debate en las redes sociales divide a la sociedad, o solo la hace visible?",
+    "it": "La cultura del dibattito sui social divide la società, o la rende soltanto visibile?",
+    "words": [
+      "Debattenkultur",
+      "Spaltung",
+      "Öffentlichkeit"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "C1",
+    "q": "Inwiefern ist Freundschaft im Erwachsenenalter eine Frage der Prioritäten?",
+    "en": "In what way is friendship in adulthood a question of priorities?",
+    "fr": "En quoi l’amitié à l’âge adulte est-elle une question de priorités ?",
+    "es": "¿En qué medida la amistad en la edad adulta es una cuestión de prioridades?",
+    "it": "In che misura l’amicizia in età adulta è una questione di priorità?",
+    "words": [
+      "Freundschaft",
+      "Priorität",
+      "Verbindlichkeit"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "C1",
+    "q": "Was macht Vertrauen in Institutionen aus, und wie lässt es sich zurückgewinnen?",
+    "en": "What constitutes trust in institutions, and how can it be won back?",
+    "fr": "Qu’est-ce qui fonde la confiance dans les institutions, et comment la regagner ?",
+    "es": "¿En qué consiste la confianza en las instituciones, y cómo se puede recuperar?",
+    "it": "In che cosa consiste la fiducia nelle istituzioni, e come la si può riconquistare?",
+    "words": [
+      "Vertrauen",
+      "Institution",
+      "Glaubwürdigkeit"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "C1",
+    "q": "Einsamkeit gilt als neue Volkskrankheit. Ist sie ein individuelles Schicksal oder ein gesellschaftliches Versagen?",
+    "en": "Loneliness is called the new widespread disease. Is it an individual fate or a social failure?",
+    "fr": "La solitude passe pour la nouvelle maladie de masse. Destin individuel ou échec de la société ?",
+    "es": "La soledad se considera la nueva enfermedad de masas. ¿Es un destino individual o un fracaso social?",
+    "it": "La solitudine è considerata la nuova malattia sociale. È un destino individuale o un fallimento della società?",
+    "words": [
+      "Einsamkeit",
+      "Schicksal",
+      "Gesellschaft"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "C1",
+    "q": "Inwiefern prägt die Herkunft, wem wir vertrauen und wem nicht?",
+    "en": "To what extent does our background shape whom we trust and whom we do not?",
+    "fr": "Dans quelle mesure nos origines déterminent-elles à qui nous faisons confiance et à qui non ?",
+    "es": "¿Hasta qué punto el origen determina en quién confiamos y en quién no?",
+    "it": "In che misura le origini determinano di chi ci fidiamo e di chi no?",
+    "words": [
+      "Herkunft",
+      "Vertrauen",
+      "Prägung"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "C2",
+    "q": "Ist eine Notlüge Rücksicht oder Bevormundung? Wann hast du zuletzt jemandem die Wahrheit erspart?",
+    "en": "Is a white lie consideration or paternalism? When did you last spare someone the truth?",
+    "fr": "Un pieux mensonge, est-ce de l'égard ou du paternalisme ? Quand as-tu épargné la vérité à quelqu'un pour la dernière fois ?",
+    "es": "¿Una mentira piadosa es consideración o paternalismo? ¿Cuándo fue la última vez que le ahorraste la verdad a alguien?",
+    "it": "Una bugia a fin di bene è riguardo o paternalismo? Quando hai risparmiato la verità a qualcuno l'ultima volta?",
+    "words": [
+      "Notlüge",
+      "Rücksicht",
+      "Bevormundung"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "C2",
+    "q": "Versöhnung setzt ein Schuldeingeständnis voraus, heißt es. Kann man vergeben, ohne dass sich der andere entschuldigt?",
+    "en": "Reconciliation presupposes an admission of guilt, they say. Can you forgive without the other person apologising?",
+    "fr": "La réconciliation suppose un aveu de culpabilité, dit-on. Peut-on pardonner sans que l'autre s'excuse ?",
+    "es": "La reconciliación presupone reconocer la culpa, dicen. ¿Se puede perdonar sin que el otro se disculpe?",
+    "it": "La riconciliazione presuppone l'ammissione di colpa, si dice. Si può perdonare senza che l'altro si scusi?",
+    "words": [
+      "Versöhnung",
+      "Vergebung",
+      "Schuld"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "C2",
+    "q": "Charisma verführt, Argumente überzeugen. Warum folgen wir trotzdem so oft dem Auftreten statt dem Inhalt?",
+    "en": "Charisma seduces, arguments convince. Why do we so often follow the manner rather than the substance all the same?",
+    "fr": "Le charisme séduit, les arguments convainquent. Pourquoi suivons-nous pourtant si souvent l'allure plutôt que le fond ?",
+    "es": "El carisma seduce; los argumentos convencen. ¿Por qué, aun así, seguimos tan a menudo la apariencia en lugar del contenido?",
+    "it": "Il carisma seduce, gli argomenti convincono. Perché allora seguiamo così spesso i modi invece della sostanza?",
+    "words": [
+      "Charisma",
+      "Argument",
+      "Auftreten"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "C2",
+    "q": "Empathie wird als Allheilmittel gepriesen, kann aber parteiisch machen. Braucht Gerechtigkeit eher Mitgefühl oder Distanz?",
+    "en": "Empathy is praised as a cure-all but can make us partial. Does justice need compassion or distance?",
+    "fr": "L'empathie est vantée comme remède universel, mais elle peut rendre partial. La justice a-t-elle besoin de compassion ou de distance ?",
+    "es": "La empatía se alaba como remedio universal, pero puede hacernos parciales. ¿Necesita la justicia compasión o distancia?",
+    "it": "L'empatia è lodata come panacea, ma può renderci parziali. La giustizia ha bisogno di compassione o di distanza?",
+    "words": [
+      "Empathie",
+      "Gerechtigkeit",
+      "Distanz"
+    ]
+  },
+  {
+    "topic": "people",
+    "level": "C2",
+    "q": "Höflichkeit verschleiert, Direktheit verletzt. Welche Gesprächskultur ermöglicht echte Verständigung?",
+    "en": "Politeness obscures, directness wounds. Which culture of conversation makes real understanding possible?",
+    "fr": "La politesse voile, la franchise blesse. Quelle culture du dialogue permet une véritable entente ?",
+    "es": "La cortesía oculta, la franqueza hiere. ¿Qué cultura de conversación hace posible el verdadero entendimiento?",
+    "it": "La cortesia vela, la franchezza ferisce. Quale cultura del dialogo rende possibile una vera comprensione?",
+    "words": [
+      "Höflichkeit",
+      "Direktheit",
+      "Verständigung"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "A1",
+    "q": "Was machst du gern in deiner Freizeit?",
+    "en": "What do you like doing in your free time?",
+    "fr": "Qu'aimes-tu faire pendant ton temps libre ?",
+    "es": "¿Qué te gusta hacer en tu tiempo libre?",
+    "it": "Cosa ti piace fare nel tempo libero?",
+    "words": [
+      "Freizeit",
+      "Hobby",
+      "Musik"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "A1",
+    "q": "Treibst du Sport? Welchen?",
+    "en": "Do you do sport? Which one?",
+    "fr": "Fais-tu du sport ? Lequel ?",
+    "es": "¿Haces deporte? ¿Cuál?",
+    "it": "Fai sport? Quale?",
+    "words": [
+      "Sport",
+      "Fußball",
+      "Schwimmbad"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "A1",
+    "q": "Welche Musik hörst du gern?",
+    "en": "What music do you like listening to?",
+    "fr": "Quelle musique aimes-tu écouter ?",
+    "es": "¿Qué música te gusta escuchar?",
+    "it": "Che musica ti piace ascoltare?",
+    "words": [
+      "Musik",
+      "Lied",
+      "Konzert"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "A1",
+    "q": "Spielst du ein Instrument?",
+    "en": "Do you play an instrument?",
+    "fr": "Joues-tu d'un instrument ?",
+    "es": "¿Tocas algún instrumento?",
+    "it": "Suoni uno strumento?",
+    "words": [
+      "Instrument",
+      "Gitarre",
+      "Klavier"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "A1",
+    "q": "Gehst du gern ins Kino oder siehst du lieber zu Hause fern?",
+    "en": "Do you like going to the cinema, or do you prefer watching TV at home?",
+    "fr": "Aimes-tu aller au cinéma, ou préfères-tu regarder la télé à la maison ?",
+    "es": "¿Te gusta ir al cine o prefieres ver la tele en casa?",
+    "it": "Ti piace andare al cinema o preferisci guardare la TV a casa?",
+    "words": [
+      "Kino",
+      "Fernseher",
+      "Film"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "A2",
+    "q": "Welchen Film oder welche Serie hast du zuletzt gesehen?",
+    "en": "Which film or series did you watch most recently?",
+    "fr": "Quel film ou quelle série as-tu regardé récemment ?",
+    "es": "¿Qué película o serie has visto últimamente?",
+    "it": "Quale film o serie hai visto di recente?",
+    "words": [
+      "Film",
+      "Serie",
+      "Kino"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "A2",
+    "q": "Liest du gern? Welches Buch kannst du empfehlen?",
+    "en": "Do you like reading? Which book can you recommend?",
+    "fr": "Aimes-tu lire ? Quel livre peux-tu recommander ?",
+    "es": "¿Te gusta leer? ¿Qué libro recomiendas?",
+    "it": "Ti piace leggere? Quale libro consigli?",
+    "words": [
+      "Buch",
+      "Roman",
+      "Bibliothek"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "A2",
+    "q": "Was hast du als Kind gern gespielt?",
+    "en": "What did you like playing as a child?",
+    "fr": "À quoi aimais-tu jouer quand tu étais enfant ?",
+    "es": "¿A qué te gustaba jugar de niño?",
+    "it": "A cosa ti piaceva giocare da bambino?",
+    "words": [
+      "Spiel",
+      "Spielplatz",
+      "Kindheit"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "A2",
+    "q": "Was machst du an einem regnerischen Sonntag?",
+    "en": "What do you do on a rainy Sunday?",
+    "fr": "Que fais-tu un dimanche pluvieux ?",
+    "es": "¿Qué haces un domingo lluvioso?",
+    "it": "Cosa fai in una domenica di pioggia?",
+    "words": [
+      "Regen",
+      "Sonntag",
+      "Decke"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "A2",
+    "q": "Bist du in einem Verein? Was macht ihr dort?",
+    "en": "Are you a member of a club? What do you do there?",
+    "fr": "Fais-tu partie d'une association ? Qu'y faites-vous ?",
+    "es": "¿Eres miembro de alguna asociación? ¿Qué hacéis allí?",
+    "it": "Fai parte di un'associazione? Cosa fate lì?",
+    "words": [
+      "Verein",
+      "Training",
+      "Mitglied"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "B1",
+    "q": "Hast du ein Hobby, das du schon lange machst? Wie hast du damit angefangen?",
+    "en": "Do you have a hobby you have had for a long time? How did you start?",
+    "fr": "As-tu un loisir que tu pratiques depuis longtemps ? Comment as-tu commencé ?",
+    "es": "¿Tienes una afición desde hace mucho tiempo? ¿Cómo empezaste?",
+    "it": "Hai un hobby che pratichi da molto tempo? Come hai iniziato?",
+    "words": [
+      "Hobby",
+      "Anfang",
+      "Leidenschaft"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "B1",
+    "q": "Verbringst du deine Freizeit lieber drinnen oder draußen?",
+    "en": "Do you prefer spending your free time indoors or outdoors?",
+    "fr": "Préfères-tu passer ton temps libre à l'intérieur ou dehors ?",
+    "es": "¿Prefieres pasar tu tiempo libre dentro o al aire libre?",
+    "it": "Preferisci passare il tempo libero al chiuso o all'aperto?",
+    "words": [
+      "Natur",
+      "Wanderung",
+      "Wohnzimmer"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "B1",
+    "q": "Was würdest du gern lernen, wenn du mehr Zeit hättest?",
+    "en": "What would you like to learn if you had more time?",
+    "fr": "Qu'aimerais-tu apprendre si tu avais plus de temps ?",
+    "es": "¿Qué te gustaría aprender si tuvieras más tiempo?",
+    "it": "Cosa ti piacerebbe imparare se avessi più tempo?",
+    "words": [
+      "Zeit",
+      "Instrument",
+      "Sprache"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "B1",
+    "q": "Welches Konzert oder welche Veranstaltung hat dich zuletzt begeistert?",
+    "en": "Which concert or event impressed you most recently?",
+    "fr": "Quel concert ou quel événement t'a enthousiasmé dernièrement ?",
+    "es": "¿Qué concierto o evento te entusiasmó últimamente?",
+    "it": "Quale concerto o evento ti ha entusiasmato di recente?",
+    "words": [
+      "Konzert",
+      "Veranstaltung",
+      "Stimmung"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "B1",
+    "q": "Wie viel Zeit verbringst du mit dem Handy in deiner Freizeit, und ist dir das zu viel?",
+    "en": "How much time do you spend on your phone in your free time, and is it too much for you?",
+    "fr": "Combien de temps passes-tu sur ton téléphone pendant ton temps libre, et est-ce trop ?",
+    "es": "¿Cuánto tiempo pasas con el móvil en tu tiempo libre y te parece demasiado?",
+    "it": "Quanto tempo passi al telefono nel tempo libero, e ti sembra troppo?",
+    "words": [
+      "Handy",
+      "Bildschirm",
+      "Freizeit"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "B2",
+    "q": "Ist Freizeit heute stressiger als früher?",
+    "en": "Is leisure time more stressful today than it used to be?",
+    "fr": "Les loisirs sont-ils plus stressants aujourd'hui qu'autrefois ?",
+    "es": "¿Es hoy el tiempo libre más estresante que antes?",
+    "it": "Il tempo libero oggi è più stressante di una volta?",
+    "words": [
+      "Freizeit",
+      "Stress",
+      "Angebot"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "B2",
+    "q": "Welche Bedeutung hat Sport für die Gesellschaft – über die Gesundheit hinaus?",
+    "en": "What does sport mean for society, beyond health?",
+    "fr": "Quelle importance a le sport pour la société, au-delà de la santé ?",
+    "es": "¿Qué significado tiene el deporte para la sociedad, más allá de la salud?",
+    "it": "Che significato ha lo sport per la società, oltre alla salute?",
+    "words": [
+      "Sport",
+      "Gesellschaft",
+      "Gemeinschaft"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "B2",
+    "q": "Sollten Videospiele als Kunst gelten?",
+    "en": "Should video games count as art?",
+    "fr": "Les jeux vidéo devraient-ils être considérés comme un art ?",
+    "es": "¿Deberían considerarse arte los videojuegos?",
+    "it": "I videogiochi dovrebbero essere considerati arte?",
+    "words": [
+      "Videospiel",
+      "Kunst",
+      "Geschichte"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "B2",
+    "q": "Sollten Museen und Theater kostenlos sein?",
+    "en": "Should museums and theatres be free of charge?",
+    "fr": "Les musées et les théâtres devraient-ils être gratuits ?",
+    "es": "¿Deberían ser gratuitos los museos y los teatros?",
+    "it": "Musei e teatri dovrebbero essere gratuiti?",
+    "words": [
+      "Museum",
+      "Theater",
+      "Eintritt"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "B2",
+    "q": "Macht Streaming die Musik besser oder beliebiger?",
+    "en": "Does streaming make music better or more arbitrary?",
+    "fr": "Le streaming rend-il la musique meilleure ou plus interchangeable ?",
+    "es": "¿El streaming hace la música mejor o más intercambiable?",
+    "it": "Lo streaming rende la musica migliore o più intercambiabile?",
+    "words": [
+      "Streaming",
+      "Musik",
+      "Vielfalt"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "C1",
+    "q": "Freizeit wird zunehmend optimiert und vermessen. Geht dabei etwas verloren?",
+    "en": "Leisure is increasingly optimised and measured. Is something lost in the process?",
+    "fr": "Les loisirs sont de plus en plus optimisés et mesurés. Y perd-on quelque chose ?",
+    "es": "El tiempo libre se optimiza y se mide cada vez más. ¿Se pierde algo en el proceso?",
+    "it": "Il tempo libero viene sempre più ottimizzato e misurato. Si perde qualcosa in questo?",
+    "words": [
+      "Optimierung",
+      "Muße",
+      "Selbstvermessung"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "C1",
+    "q": "Sollte kulturelle Bildung stärker öffentlich gefördert werden – auf wessen Kosten?",
+    "en": "Should cultural education receive more public funding, and at whose expense?",
+    "fr": "L’éducation culturelle devrait-elle être davantage financée par les pouvoirs publics, et aux dépens de qui ?",
+    "es": "¿Debería la educación cultural recibir más financiación pública, y a costa de quién?",
+    "it": "L’educazione culturale dovrebbe ricevere più fondi pubblici, e a spese di chi?",
+    "words": [
+      "Förderung",
+      "Kultur",
+      "Haushalt"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "C1",
+    "q": "Ehrenamtliches Engagement: Stütze der Gesellschaft oder Ausrede für einen sparsamen Staat?",
+    "en": "Volunteering: a pillar of society or an excuse for a thrifty state?",
+    "fr": "Le bénévolat : pilier de la société ou prétexte pour un État économe ?",
+    "es": "El voluntariado: ¿pilar de la sociedad o excusa para un Estado ahorrador?",
+    "it": "Il volontariato: pilastro della società o alibi per uno Stato parsimonioso?",
+    "words": [
+      "Engagement",
+      "Ehrenamt",
+      "Daseinsvorsorge"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "C1",
+    "q": "Serien ersetzen vielen den Roman. Verändert das, wie wir Geschichten verstehen und erinnern?",
+    "en": "For many, series have replaced the novel. Does that change how we understand and remember stories?",
+    "fr": "Pour beaucoup, les séries ont remplacé le roman. Cela change-t-il notre façon de comprendre et de retenir les histoires ?",
+    "es": "Para muchos, las series han sustituido a la novela. ¿Cambia eso cómo entendemos y recordamos las historias?",
+    "it": "Per molti le serie hanno sostituito il romanzo. Questo cambia il modo in cui comprendiamo e ricordiamo le storie?",
+    "words": [
+      "Serie",
+      "Roman",
+      "Erzählung"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "C1",
+    "q": "Breitensport wird gelobt, Spitzensport finanziert. Ist diese Verteilung gerecht?",
+    "en": "Grassroots sport gets praise, elite sport gets funding. Is this distribution fair?",
+    "fr": "Le sport de masse est loué, le sport d'élite financé. Cette répartition est-elle juste ?",
+    "es": "El deporte de base recibe elogios; el de élite, financiación. ¿Es justa esa distribución?",
+    "it": "Lo sport di base riceve lodi, quello d'élite finanziamenti. È giusta questa distribuzione?",
+    "words": [
+      "Sport",
+      "Spitzensport",
+      "Förderung"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "C2",
+    "q": "Langeweile gilt als Quelle der Kreativität und wird doch mit dem Smartphone sofort vertrieben. Was geht dabei verloren?",
+    "en": "Boredom is said to be a source of creativity and yet is instantly chased away with the smartphone. What is lost in the process?",
+    "fr": "L'ennui passe pour une source de créativité et pourtant on le chasse aussitôt avec le smartphone. Qu'y perd-on ?",
+    "es": "El aburrimiento se considera fuente de creatividad y, sin embargo, se ahuyenta al instante con el móvil. ¿Qué se pierde con ello?",
+    "it": "La noia è considerata fonte di creatività, eppure viene subito scacciata con lo smartphone. Che cosa si perde?",
+    "words": [
+      "Langeweile",
+      "Kreativität",
+      "Zerstreuung"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "C2",
+    "q": "Hochkultur wird subventioniert, Popkultur finanziert sich selbst. Ist diese Unterscheidung noch zu rechtfertigen?",
+    "en": "High culture is subsidised, pop culture pays for itself. Can this distinction still be justified?",
+    "fr": "La culture savante est subventionnée, la culture populaire se finance elle-même. Cette distinction est-elle encore justifiable ?",
+    "es": "La alta cultura se subvenciona; la cultura popular se financia sola. ¿Sigue siendo justificable esta distinción?",
+    "it": "L'alta cultura viene sovvenzionata, la cultura pop si finanzia da sé. Questa distinzione è ancora giustificabile?",
+    "words": [
+      "Hochkultur",
+      "Subvention",
+      "Unterscheidung"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "C2",
+    "q": "Ehrgeiz im Hobby: Verdirbt der Wettkampf das Vergnügen, oder gibt er ihm erst Tiefe?",
+    "en": "Ambition in a hobby: does competition spoil the pleasure, or is it what gives it depth?",
+    "fr": "L'ambition dans un loisir : la compétition gâche-t-elle le plaisir, ou est-ce elle qui lui donne de la profondeur ?",
+    "es": "La ambición en una afición: ¿la competición estropea el placer o es lo que le da profundidad?",
+    "it": "L'ambizione in un hobby: la competizione rovina il piacere, o è proprio ciò che gli dà profondità?",
+    "words": [
+      "Ehrgeiz",
+      "Wettkampf",
+      "Vergnügen"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "C2",
+    "q": "Das Hobby war einmal zweckfrei. Sobald es in sozialen Medien gezeigt wird, dient es der Selbstdarstellung. Gibt es noch Tätigkeiten ohne Publikum?",
+    "en": "Hobbies used to be purpose-free. Once shown on social media they serve self-presentation. Are there still activities without an audience?",
+    "fr": "Le loisir était autrefois gratuit. Exposé sur les réseaux sociaux, il sert à se mettre en scène. Reste-t-il des activités sans public ?",
+    "es": "El pasatiempo antes no tenía propósito. Al mostrarse en redes sociales, sirve a la autopromoción. ¿Quedan actividades sin público?",
+    "it": "L'hobby un tempo era fine a se stesso. Mostrato sui social, serve all'autorappresentazione. Esistono ancora attività senza pubblico?",
+    "words": [
+      "Selbstdarstellung",
+      "Publikum",
+      "Zweck"
+    ]
+  },
+  {
+    "topic": "freetime",
+    "level": "C2",
+    "q": "Kanon oder Algorithmus: Wer sollte entscheiden, welche Bücher, Filme und Musik eine Gesellschaft kennen sollte?",
+    "en": "Canon or algorithm: who should decide which books, films and music a society ought to know?",
+    "fr": "Canon ou algorithme : qui devrait décider des livres, films et musiques qu'une société devrait connaître ?",
+    "es": "¿Canon o algoritmo? ¿Quién debería decidir qué libros, películas y música debería conocer una sociedad?",
+    "it": "Canone o algoritmo: chi dovrebbe decidere quali libri, film e musiche una società dovrebbe conoscere?",
+    "words": [
+      "Kanon",
+      "Algorithmus",
+      "Bildung"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "A1",
+    "q": "Wie geht es dir heute?",
+    "en": "How are you today?",
+    "fr": "Comment vas-tu aujourd'hui ?",
+    "es": "¿Cómo estás hoy?",
+    "it": "Come stai oggi?",
+    "words": [
+      "Kopf",
+      "Bauch",
+      "Arzt"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "A1",
+    "q": "Was machst du, wenn du krank bist?",
+    "en": "What do you do when you are ill?",
+    "fr": "Que fais-tu quand tu es malade ?",
+    "es": "¿Qué haces cuando estás enfermo?",
+    "it": "Cosa fai quando sei malato?",
+    "words": [
+      "Tee",
+      "Bett",
+      "Medikament"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "A1",
+    "q": "Wie viele Stunden schläfst du pro Nacht?",
+    "en": "How many hours do you sleep per night?",
+    "fr": "Combien d'heures dors-tu par nuit ?",
+    "es": "¿Cuántas horas duermes por noche?",
+    "it": "Quante ore dormi a notte?",
+    "words": [
+      "Stunde",
+      "Nacht",
+      "Schlaf"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "A1",
+    "q": "Isst du jeden Tag Obst und Gemüse?",
+    "en": "Do you eat fruit and vegetables every day?",
+    "fr": "Manges-tu des fruits et des légumes tous les jours ?",
+    "es": "¿Comes fruta y verdura todos los días?",
+    "it": "Mangi frutta e verdura ogni giorno?",
+    "words": [
+      "Obst",
+      "Gemüse",
+      "Salat"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "A1",
+    "q": "Gehst du zu Fuß oder fährst du mit dem Fahrrad?",
+    "en": "Do you walk or cycle?",
+    "fr": "Vas-tu à pied ou à vélo ?",
+    "es": "¿Vas a pie o en bicicleta?",
+    "it": "Vai a piedi o in bicicletta?",
+    "words": [
+      "Fuß",
+      "Fahrrad",
+      "Bewegung"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "A2",
+    "q": "Wann warst du zuletzt beim Arzt? Warum?",
+    "en": "When were you last at the doctor's? Why?",
+    "fr": "Quand es-tu allé chez le médecin pour la dernière fois ? Pourquoi ?",
+    "es": "¿Cuándo fuiste al médico por última vez? ¿Por qué?",
+    "it": "Quando sei andato dal medico l'ultima volta? Perché?",
+    "words": [
+      "Arzt",
+      "Termin",
+      "Praxis"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "A2",
+    "q": "Was tust du, um gesund zu bleiben?",
+    "en": "What do you do to stay healthy?",
+    "fr": "Que fais-tu pour rester en bonne santé ?",
+    "es": "¿Qué haces para mantenerte sano?",
+    "it": "Cosa fai per restare in salute?",
+    "words": [
+      "Bewegung",
+      "Obst",
+      "Wasser"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "A2",
+    "q": "Hast du dich schon einmal beim Sport verletzt?",
+    "en": "Have you ever hurt yourself doing sport?",
+    "fr": "T'es-tu déjà blessé en faisant du sport ?",
+    "es": "¿Te has lesionado alguna vez haciendo deporte?",
+    "it": "Ti sei mai fatto male facendo sport?",
+    "words": [
+      "Verletzung",
+      "Bein",
+      "Schmerz"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "A2",
+    "q": "Was tust du gegen Kopfschmerzen?",
+    "en": "What do you do about a headache?",
+    "fr": "Que fais-tu contre un mal de tête ?",
+    "es": "¿Qué haces contra el dolor de cabeza?",
+    "it": "Cosa fai contro il mal di testa?",
+    "words": [
+      "Kopfschmerz",
+      "Tablette",
+      "Ruhe"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "A2",
+    "q": "Hast du Angst vor dem Zahnarzt? Warum (nicht)?",
+    "en": "Are you afraid of the dentist? Why (not)?",
+    "fr": "As-tu peur du dentiste ? Pourquoi (pas) ?",
+    "es": "¿Te da miedo el dentista? ¿Por qué (no)?",
+    "it": "Hai paura del dentista? Perché (no)?",
+    "words": [
+      "Zahnarzt",
+      "Angst",
+      "Zahn"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "B1",
+    "q": "Wie gehst du mit Stress um?",
+    "en": "How do you deal with stress?",
+    "fr": "Comment gères-tu le stress ?",
+    "es": "¿Cómo manejas el estrés?",
+    "it": "Come gestisci lo stress?",
+    "words": [
+      "Stress",
+      "Entspannung",
+      "Pause"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "B1",
+    "q": "Wie wichtig ist Schlaf für dich? Schläfst du genug?",
+    "en": "How important is sleep to you? Do you get enough?",
+    "fr": "Quelle importance a le sommeil pour toi ? Dors-tu assez ?",
+    "es": "¿Qué importancia tiene el sueño para ti? ¿Duermes lo suficiente?",
+    "it": "Quanto è importante il sonno per te? Dormi abbastanza?",
+    "words": [
+      "Schlaf",
+      "Müdigkeit",
+      "Gewohnheit"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "B1",
+    "q": "Gehst du regelmäßig zur Vorsorgeuntersuchung? Warum (nicht)?",
+    "en": "Do you go for regular check-ups? Why (not)?",
+    "fr": "Vas-tu régulièrement aux examens de prévention ? Pourquoi (pas) ?",
+    "es": "¿Vas regularmente a revisiones médicas? ¿Por qué (no)?",
+    "it": "Fai regolarmente controlli medici? Perché (no)?",
+    "words": [
+      "Vorsorge",
+      "Untersuchung",
+      "Krankenkasse"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "B1",
+    "q": "Wie hat sich dein Lebensstil in den letzten Jahren verändert, und war das gut für deine Gesundheit?",
+    "en": "How has your lifestyle changed in recent years, and was that good for your health?",
+    "fr": "Comment ton mode de vie a-t-il changé ces dernières années, et était-ce bon pour ta santé ?",
+    "es": "¿Cómo ha cambiado tu estilo de vida en los últimos años y fue bueno para tu salud?",
+    "it": "Come è cambiato il tuo stile di vita negli ultimi anni, e ha fatto bene alla tua salute?",
+    "words": [
+      "Lebensstil",
+      "Veränderung",
+      "Gesundheit"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "B1",
+    "q": "Wem vertraust du bei Gesundheitsfragen: dem Arzt, dem Internet oder der Familie?",
+    "en": "Whom do you trust on health matters: the doctor, the internet or your family?",
+    "fr": "À qui fais-tu confiance pour les questions de santé : au médecin, à Internet ou à ta famille ?",
+    "es": "¿En quién confías en cuestiones de salud: en el médico, en internet o en la familia?",
+    "it": "Di chi ti fidi per le questioni di salute: del medico, di Internet o della famiglia?",
+    "words": [
+      "Vertrauen",
+      "Arzt",
+      "Internet"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "B2",
+    "q": "Sollte psychische Gesundheit in der Schule ein Fach sein?",
+    "en": "Should mental health be a school subject?",
+    "fr": "La santé mentale devrait-elle être une matière à l'école ?",
+    "es": "¿Debería ser la salud mental una asignatura escolar?",
+    "it": "La salute mentale dovrebbe essere una materia scolastica?",
+    "words": [
+      "Gesundheit",
+      "Schule",
+      "Seele"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "B2",
+    "q": "Wie viel Verantwortung trägt jeder Einzelne für seine Gesundheit?",
+    "en": "How much responsibility does each individual bear for their own health?",
+    "fr": "Quelle part de responsabilité chacun porte-t-il pour sa propre santé ?",
+    "es": "¿Cuánta responsabilidad tiene cada persona sobre su propia salud?",
+    "it": "Quanta responsabilità ha ciascuno per la propria salute?",
+    "words": [
+      "Verantwortung",
+      "Lebensstil",
+      "Krankheit"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "B2",
+    "q": "Verändern Fitness-Apps und Smartwatches unser Verhältnis zum Körper?",
+    "en": "Are fitness apps and smartwatches changing our relationship with our bodies?",
+    "fr": "Les applications de fitness et les montres connectées changent-elles notre rapport au corps ?",
+    "es": "¿Las aplicaciones de fitness y los relojes inteligentes cambian nuestra relación con el cuerpo?",
+    "it": "Le app di fitness e gli smartwatch cambiano il nostro rapporto con il corpo?",
+    "words": [
+      "Körper",
+      "Daten",
+      "Kontrolle"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "B2",
+    "q": "Sollten Krankenkassen Menschen belohnen, die gesund leben?",
+    "en": "Should health insurers reward people who live healthily?",
+    "fr": "Les caisses d'assurance maladie devraient-elles récompenser ceux qui vivent sainement ?",
+    "es": "¿Deberían las aseguradoras recompensar a quienes viven de forma saludable?",
+    "it": "Le casse malattia dovrebbero premiare chi vive in modo sano?",
+    "words": [
+      "Krankenkasse",
+      "Belohnung",
+      "Lebensstil"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "B2",
+    "q": "Wie geht deine Gesellschaft mit dem Älterwerden um – mit Respekt oder mit Verdrängung?",
+    "en": "How does your society deal with ageing: with respect or with denial?",
+    "fr": "Comment ta société aborde-t-elle le vieillissement : avec respect ou en le refoulant ?",
+    "es": "¿Cómo afronta tu sociedad el envejecimiento: con respeto o con negación?",
+    "it": "Come affronta la tua società l'invecchiamento: con rispetto o con rimozione?",
+    "words": [
+      "Alter",
+      "Respekt",
+      "Verdrängung"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "C1",
+    "q": "Wie viel Verantwortung für die eigene Gesundheit darf der Staat dem Einzelnen zuschreiben?",
+    "en": "How much responsibility for their own health may the state assign to the individual?",
+    "fr": "Quelle part de responsabilité pour sa propre santé l’État peut-il attribuer à l’individu ?",
+    "es": "¿Cuánta responsabilidad por su propia salud puede atribuir el Estado al individuo?",
+    "it": "Quanta responsabilità per la propria salute può attribuire lo Stato al singolo?",
+    "words": [
+      "Eigenverantwortung",
+      "Prävention",
+      "Solidargemeinschaft"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "C1",
+    "q": "Psychische Gesundheit wird offener besprochen als früher. Reicht das, oder fehlt es an Strukturen?",
+    "en": "Mental health is discussed more openly than before. Is that enough, or are the structures lacking?",
+    "fr": "On parle plus ouvertement de santé mentale qu’avant. Est-ce suffisant, ou manque-t-il des structures ?",
+    "es": "Se habla de salud mental con más apertura que antes. ¿Basta con eso, o faltan estructuras?",
+    "it": "Di salute mentale si parla più apertamente di un tempo. Basta questo, o mancano le strutture?",
+    "words": [
+      "Enttabuisierung",
+      "Versorgung",
+      "Wartezeit"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "C1",
+    "q": "Sollten Gesundheitsdaten für die Forschung freigegeben werden, auch gegen den Willen Einzelner?",
+    "en": "Should health data be released for research, even against the wishes of individuals?",
+    "fr": "Les données de santé devraient-elles être mises à disposition de la recherche, même contre la volonté de certains ?",
+    "es": "¿Deberían cederse los datos sanitarios a la investigación, incluso contra la voluntad de algunos?",
+    "it": "I dati sanitari dovrebbero essere messi a disposizione della ricerca, anche contro la volontà dei singoli?",
+    "words": [
+      "Gesundheitsdaten",
+      "Datenschutz",
+      "Gemeinwohl"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "C1",
+    "q": "Burn-out gilt als Krankheit der Leistungsgesellschaft. Ist es ein medizinisches oder ein gesellschaftliches Problem?",
+    "en": "Burnout is called the disease of the performance society. Is it a medical or a social problem?",
+    "fr": "Le burn-out passe pour la maladie de la société de la performance. Problème médical ou problème de société ?",
+    "es": "El burnout se considera la enfermedad de la sociedad del rendimiento. ¿Es un problema médico o social?",
+    "it": "Il burnout è considerato la malattia della società della prestazione. È un problema medico o sociale?",
+    "words": [
+      "Burnout",
+      "Leistungsgesellschaft",
+      "Erschöpfung"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "C1",
+    "q": "Wie viel Fortschritt verträgt die Medizin, wenn jede Diagnose auch neue Ängste schafft?",
+    "en": "How much progress can medicine bear when every diagnosis also creates new fears?",
+    "fr": "Quelle dose de progrès la médecine supporte-t-elle, quand chaque diagnostic crée aussi de nouvelles angoisses ?",
+    "es": "¿Cuánto progreso soporta la medicina cuando cada diagnóstico crea también nuevos miedos?",
+    "it": "Quanto progresso regge la medicina, se ogni diagnosi crea anche nuove paure?",
+    "words": [
+      "Fortschritt",
+      "Diagnose",
+      "Angst"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "C2",
+    "q": "Selbstbestimmung am Lebensende: Wie weit darf sie reichen, und wen schützt eine Grenze eigentlich?",
+    "en": "Self-determination at the end of life: how far may it extend, and whom does a limit actually protect?",
+    "fr": "L'autodétermination en fin de vie : jusqu'où peut-elle aller, et qui une limite protège-t-elle au juste ?",
+    "es": "La autodeterminación al final de la vida: ¿hasta dónde puede llegar, y a quién protege realmente un límite?",
+    "it": "L'autodeterminazione alla fine della vita: fin dove può spingersi, e chi protegge davvero un limite?",
+    "words": [
+      "Selbstbestimmung",
+      "Sterbehilfe",
+      "Würde"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "C2",
+    "q": "Alternativmedizin wirkt oft nicht besser als ein Placebo, und doch hilft sie vielen. Sollten die Kassen dafür zahlen?",
+    "en": "Alternative medicine often works no better than a placebo, and yet it helps many people. Should health insurers pay for it?",
+    "fr": "Les médecines alternatives ne font souvent pas mieux qu'un placebo, et pourtant elles aident beaucoup de gens. Les caisses d'assurance maladie devraient-elles les rembourser ?",
+    "es": "La medicina alternativa a menudo no funciona mejor que un placebo y, sin embargo, ayuda a muchos. ¿Deberían pagarla los seguros médicos?",
+    "it": "La medicina alternativa spesso non funziona meglio di un placebo, eppure aiuta molte persone. Le casse malattia dovrebbero pagarla?",
+    "words": [
+      "Alternativmedizin",
+      "Placebo",
+      "Krankenkasse"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "C2",
+    "q": "Wenn Behandlungen knapp sind, muss priorisiert werden. Nach welchen Kriterien, und wer sollte darüber entscheiden?",
+    "en": "When treatments are scarce, priorities have to be set. By what criteria, and who should decide?",
+    "fr": "Quand les traitements sont rares, il faut établir des priorités. Selon quels critères, et qui devrait en décider ?",
+    "es": "Cuando los tratamientos escasean, hay que priorizar. ¿Con qué criterios, y quién debería decidirlo?",
+    "it": "Quando le cure scarseggiano bisogna stabilire priorità. Secondo quali criteri, e chi dovrebbe decidere?",
+    "words": [
+      "Priorisierung",
+      "Kriterium",
+      "Knappheit"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "C2",
+    "q": "Gesundheit ist zur moralischen Kategorie geworden: Wer krank wird, hat etwas falsch gemacht. Wie entzieht man sich dieser Logik?",
+    "en": "Health has become a moral category: whoever falls ill did something wrong. How does one escape this logic?",
+    "fr": "La santé est devenue une catégorie morale : qui tombe malade a fait quelque chose de mal. Comment échapper à cette logique ?",
+    "es": "La salud se ha convertido en una categoría moral: quien enferma ha hecho algo mal. ¿Cómo se escapa de esa lógica?",
+    "it": "La salute è diventata una categoria morale: chi si ammala ha sbagliato qualcosa. Come ci si sottrae a questa logica?",
+    "words": [
+      "Moral",
+      "Krankheit",
+      "Schuld"
+    ]
+  },
+  {
+    "topic": "health",
+    "level": "C2",
+    "q": "Lebensverlängerung um jeden Preis oder ein gutes Leben bis zuletzt: Welche Medizin wollen wir uns leisten – und welche nicht?",
+    "en": "Prolonging life at any cost or a good life to the end: which medicine do we want to afford, and which not?",
+    "fr": "Prolonger la vie à tout prix ou bien vivre jusqu'au bout : quelle médecine voulons-nous nous offrir, et laquelle non ?",
+    "es": "¿Prolongar la vida a cualquier precio o vivir bien hasta el final? ¿Qué medicina queremos permitirnos y cuál no?",
+    "it": "Prolungare la vita a ogni costo o vivere bene fino alla fine: quale medicina vogliamo permetterci, e quale no?",
+    "words": [
+      "Verlängerung",
+      "Lebensqualität",
+      "Medizin"
+    ]
+  }
 ]

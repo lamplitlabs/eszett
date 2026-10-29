@@ -1,3658 +1,3756 @@
 [
- {
-  "key": "a1-01",
-  "level": "A1",
-  "title_de": "Hallo! Ich heiße …",
-  "title_en": "Hello! My name is …",
-  "goal_de": "Begrüßen und verabschieden, dich vorstellen, sagen, woher du kommst und welche Sprachen du sprichst, und andere danach fragen.",
-  "goal_en": "Greet people and say goodbye, introduce yourself, say where you are from and which languages you speak, and ask others the same.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "greetings and introductions"
-   },
-   {
-    "kind": "grammar",
-    "card": "sein-haben-praesens"
-   },
-   {
-    "kind": "grammar",
-    "card": "w-fragen-ja-nein-fragen"
-   },
-   {
-    "kind": "drill",
-    "category": "numbers"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I introduce myself in German, formally and informally?",
-    "question_de": "Wie stelle ich mich auf Deutsch vor, formell und informell?"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I spell my name in German? Please go through the alphabet with me.",
-    "question_de": "Wie buchstabiere ich meinen Namen auf Deutsch? Geh bitte das Alphabet mit mir durch."
-   },
-   {
-    "kind": "read",
-    "topic": "greetings and introductions"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "sein-haben-praesens",
-     "w-fragen-ja-nein-fragen"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "sein-haben-praesens",
-     "w-fragen-ja-nein-fragen"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "meeting a new colleague on your first day and introducing yourself",
-    "situation_de": "einen neuen Kollegen am ersten Arbeitstag kennenlernen und dich vorstellen"
-   },
-   {
-    "kind": "write",
-    "task": "a1-forum-introduce"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "sein-haben-praesens",
-     "w-fragen-ja-nein-fragen"
-    ]
-   }
-  ]
- },
- {
-  "key": "a1-02",
-  "level": "A1",
-  "title_de": "Meine Familie und ich",
-  "title_en": "My family and me",
-  "goal_de": "Über deine Familie und Freunde sprechen, sagen, wie alt jemand ist und was er macht, und nach der Familie fragen.",
-  "goal_en": "Talk about your family and friends, say how old people are and what they do, and ask about someone's family.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the family"
-   },
-   {
-    "kind": "words",
-    "topic": "work"
-   },
-   {
-    "kind": "grammar",
-    "card": "possessivartikel"
-   },
-   {
-    "kind": "grammar",
-    "card": "verb-zweitstellung"
-   },
-   {
-    "kind": "drill",
-    "category": "article"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I talk about my family: names, ages and jobs?",
-    "question_de": "Wie spreche ich über meine Familie: Namen, Alter und Berufe?"
-   },
-   {
-    "kind": "read",
-    "topic": "the family"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "possessivartikel",
-     "verb-zweitstellung"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "possessivartikel",
-     "verb-zweitstellung"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "showing a friend photos of your family",
-    "situation_de": "einer Freundin Fotos von deiner Familie zeigen"
-   },
-   {
-    "kind": "write",
-    "task": "a1-family-photo"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "possessivartikel",
-     "verb-zweitstellung"
-    ]
-   }
-  ]
- },
- {
-  "key": "a1-03",
-  "level": "A1",
-  "title_de": "Guten Appetit!",
-  "title_en": "Enjoy your meal!",
-  "goal_de": "Im Café oder Restaurant Essen und Getränke bestellen, sagen, was du magst, nach dem Preis fragen und bezahlen.",
-  "goal_en": "Order food and drink in a café or restaurant, say what you like, ask what something costs and pay.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "food and drink"
-   },
-   {
-    "kind": "grammar",
-    "card": "artikel-nominativ-akkusativ"
-   },
-   {
-    "kind": "drill",
-    "category": "prices"
-   },
-   {
-    "kind": "read",
-    "topic": "food and drink"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "cafe",
-     "restaurant_booking"
-    ],
-    "cards": [
-     "artikel-nominativ-akkusativ"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "cafe",
-     "restaurant_booking"
-    ],
-    "cards": [
-     "artikel-nominativ-akkusativ"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "cafe"
-   },
-   {
-    "kind": "scene",
-    "scene": "restaurant_booking"
-   },
-   {
-    "kind": "write",
-    "task": "a1-cafe-invite"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "artikel-nominativ-akkusativ"
-    ]
-   }
-  ]
- },
- {
-  "key": "a1-04",
-  "level": "A1",
-  "title_de": "Einkaufen",
-  "title_en": "Shopping",
-  "goal_de": "Lebensmittel und Kleidung kaufen, nach Größe, Farbe und Menge fragen, Preise verstehen und sagen, was du nicht brauchst.",
-  "goal_en": "Buy food and clothes, ask for sizes, colours and quantities, understand prices and say what you do not need.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "clothes"
-   },
-   {
-    "kind": "grammar",
-    "card": "pluralformen"
-   },
-   {
-    "kind": "grammar",
-    "card": "kein-nicht"
-   },
-   {
-    "kind": "drill",
-    "category": "plural"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I use welcher, welche, welches and dieser, diese, dieses when I shop?",
-    "question_de": "Wie benutze ich welcher, welche, welches und dieser, diese, dieses beim Einkaufen?"
-   },
-   {
-    "kind": "read",
-    "topic": "clothes"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "bakery",
-     "supermarket"
-    ],
-    "cards": [
-     "pluralformen",
-     "kein-nicht"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "bakery",
-     "supermarket"
-    ],
-    "cards": [
-     "pluralformen",
-     "kein-nicht"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "bakery"
-   },
-   {
-    "kind": "scene",
-    "scene": "supermarket"
-   },
-   {
-    "kind": "write",
-    "task": "a1-supermarket-message"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "pluralformen",
-     "kein-nicht"
-    ]
-   }
-  ]
- },
- {
-  "key": "a1-05",
-  "level": "A1",
-  "title_de": "Mein Tag",
-  "title_en": "My day",
-  "goal_de": "Die Uhrzeit sagen, deinen Tagesablauf und deine Woche beschreiben und Termine vereinbaren oder verschieben.",
-  "goal_en": "Tell the time, describe your daily routine and your week, and make or change appointments.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the daily routine"
-   },
-   {
-    "kind": "grammar",
-    "card": "trennbare-verben"
-   },
-   {
-    "kind": "grammar",
-    "card": "vokalwechsel"
-   },
-   {
-    "kind": "drill",
-    "category": "clock"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I describe my daily routine, from getting up to going to bed?",
-    "question_de": "Wie beschreibe ich meinen Tagesablauf, vom Aufstehen bis zum Schlafengehen?"
-   },
-   {
-    "kind": "read",
-    "topic": "the daily routine"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "late_friend"
-    ],
-    "cards": [
-     "trennbare-verben",
-     "vokalwechsel"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "late_friend"
-    ],
-    "cards": [
-     "trennbare-verben",
-     "vokalwechsel"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "late_friend"
-   },
-   {
-    "kind": "write",
-    "task": "a1-my-day-email"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "trennbare-verben",
-     "vokalwechsel"
-    ]
-   }
-  ]
- },
- {
-  "key": "a1-06",
-  "level": "A1",
-  "title_de": "Wohnen",
-  "title_en": "At home",
-  "goal_de": "Deine Wohnung und deine Möbel beschreiben, sagen, wo etwas steht und was dir an deinem Zuhause gefällt, und eine Wohnungsanzeige verstehen.",
-  "goal_en": "Describe your flat and your furniture, say where things are and what you like about where you live, and understand a flat advertisement.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the flat"
-   },
-   {
-    "kind": "grammar",
-    "card": "zeit-und-ortsangaben"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I describe my flat and where the furniture is?",
-    "question_de": "Wie beschreibe ich meine Wohnung und wo die Möbel stehen?"
-   },
-   {
-    "kind": "read",
-    "topic": "the flat"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "zeit-und-ortsangaben"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "zeit-und-ortsangaben"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "asking a landlord questions about a flat you want to rent",
-    "situation_de": "einem Vermieter Fragen zu einer Wohnung stellen, die du mieten möchtest"
-   },
-   {
-    "kind": "write",
-    "task": "a1-new-flat-message"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "zeit-und-ortsangaben"
-    ]
-   }
-  ]
- },
- {
-  "key": "a1-07",
-  "level": "A1",
-  "title_de": "In der Stadt unterwegs",
-  "title_en": "Out and about in town",
-  "goal_de": "Nach dem Weg fragen und den Weg beschreiben, Bus, Bahn und Taxi benutzen und die Orte in einer Stadt benennen.",
-  "goal_en": "Ask for and give directions, use buses, trains and taxis, and name the places in a town.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the city"
-   },
-   {
-    "kind": "grammar",
-    "card": "imperativ"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "read",
-    "topic": "the city"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "directions",
-     "taxi"
-    ],
-    "cards": [
-     "imperativ"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "directions",
-     "taxi"
-    ],
-    "cards": [
-     "imperativ"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "directions"
-   },
-   {
-    "kind": "scene",
-    "scene": "taxi"
-   },
-   {
-    "kind": "write",
-    "task": "a1-directions-message"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "imperativ"
-    ]
-   }
-  ]
- },
- {
-  "key": "a1-08",
-  "level": "A1",
-  "title_de": "Freizeit und Verabredungen",
-  "title_en": "Free time and meeting up",
-  "goal_de": "Über deine Hobbys sprechen, sagen, was du kannst und möchtest, jemanden einladen und Tag und Uhrzeit ausmachen.",
-  "goal_en": "Talk about your hobbies, say what you can and want to do, invite someone and agree on a day and a time.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "hobbies and sport"
-   },
-   {
-    "kind": "grammar",
-    "card": "modalverben"
-   },
-   {
-    "kind": "drill",
-    "category": "dates"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I invite a friend and suggest a time and a place?",
-    "question_de": "Wie lade ich einen Freund ein und schlage Zeit und Ort vor?"
-   },
-   {
-    "kind": "read",
-    "topic": "hobbies and sport"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "cinema"
-    ],
-    "cards": [
-     "modalverben"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "cinema"
-    ],
-    "cards": [
-     "modalverben"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "cinema"
-   },
-   {
-    "kind": "write",
-    "task": "a1-invite-weekend"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "modalverben"
-    ]
-   }
-  ]
- },
- {
-  "key": "a1-09",
-  "level": "A1",
-  "title_de": "Gesundheit",
-  "title_en": "Health",
-  "goal_de": "Die Körperteile benennen, sagen, was wehtut, einen Arzttermin vereinbaren und einfache Ratschläge verstehen.",
-  "goal_en": "Name the parts of the body, say what hurts, make a doctor's appointment and understand simple advice.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the body and health"
-   },
-   {
-    "kind": "grammar",
-    "card": "genus-endungen"
-   },
-   {
-    "kind": "drill",
-    "category": "article"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I say ‘I was’ and ‘I had’ in German, for example when I was ill: war and hatte?",
-    "question_de": "Wie sage ich „ich war“ und „ich hatte“ auf Deutsch, zum Beispiel wenn ich krank war: war und hatte?"
-   },
-   {
-    "kind": "read",
-    "topic": "the body and health"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "doctor_phone",
-     "pharmacy"
-    ],
-    "cards": [
-     "genus-endungen"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "doctor_phone",
-     "pharmacy"
-    ],
-    "cards": [
-     "genus-endungen"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "doctor_phone"
-   },
-   {
-    "kind": "scene",
-    "scene": "pharmacy"
-   },
-   {
-    "kind": "write",
-    "task": "a1-ill-message-course"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "genus-endungen"
-    ]
-   }
-  ]
- },
- {
-  "key": "a1-10",
-  "level": "A1",
-  "title_de": "Reisen und Wetter",
-  "title_en": "Travel and weather",
-  "goal_de": "Eine Fahrkarte kaufen, im Hotel einchecken, über das Wetter sprechen und im Perfekt erzählen, was du auf einer Reise gemacht hast.",
-  "goal_en": "Buy a ticket, check in at a hotel, talk about the weather and say what you did on a trip, in the Perfekt.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "transport and travel"
-   },
-   {
-    "kind": "words",
-    "topic": "the weather"
-   },
-   {
-    "kind": "grammar",
-    "card": "perfekt-haben-sein"
-   },
-   {
-    "kind": "drill",
-    "category": "verbs"
-   },
-   {
-    "kind": "read",
-    "topic": "transport and travel"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "train_ticket",
-     "hotel_checkin"
-    ],
-    "cards": [
-     "perfekt-haben-sein"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "train_ticket",
-     "hotel_checkin"
-    ],
-    "cards": [
-     "perfekt-haben-sein"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "train_ticket"
-   },
-   {
-    "kind": "scene",
-    "scene": "hotel_checkin"
-   },
-   {
-    "kind": "write",
-    "task": "a1-hotel-form"
-   },
-   {
-    "kind": "write",
-    "task": "a1-postcard-holiday"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "perfekt-haben-sein"
-    ]
-   }
-  ]
- },
- {
-  "key": "a2-01",
-  "level": "A2",
-  "title_de": "Wie war dein Wochenende?",
-  "title_en": "How was your weekend?",
-  "goal_de": "Erzählen, was du am Wochenende oder im Urlaub gemacht hast, sagen, wie es war, und andere nach ihrer Vergangenheit fragen.",
-  "goal_en": "Tell what you did at the weekend or on holiday, say how it was, and ask others about their past.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "free time"
-   },
-   {
-    "kind": "grammar",
-    "card": "praeteritum-sein-haben-modalverben"
-   },
-   {
-    "kind": "drill",
-    "category": "verbs"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I tell a story about last weekend? Which past tense do I use when I speak?",
-    "question_de": "Wie erzähle ich vom letzten Wochenende? Welche Vergangenheitsform benutze ich beim Sprechen?"
-   },
-   {
-    "kind": "read",
-    "topic": "free time"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "praeteritum-sein-haben-modalverben"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "praeteritum-sein-haben-modalverben"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "telling a colleague on Monday morning about your weekend",
-    "situation_de": "einem Kollegen am Montagmorgen vom Wochenende erzählen"
-   },
-   {
-    "kind": "write",
-    "task": "a2-weekend-report"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "praeteritum-sein-haben-modalverben"
-    ]
-   }
-  ]
- },
- {
-  "key": "a2-02",
-  "level": "A2",
-  "title_de": "Feste und Einladungen",
-  "title_en": "Celebrations and invitations",
-  "goal_de": "Einladen, eine Einladung annehmen oder absagen, über Geschenke und Feste sprechen und eine Einladung schreiben.",
-  "goal_en": "Invite people, accept or decline an invitation, talk about presents and celebrations, and write an invitation.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "celebrations and invitations"
-   },
-   {
-    "kind": "grammar",
-    "card": "personalpronomen-akkusativ-dativ"
-   },
-   {
-    "kind": "grammar",
-    "card": "dativ-plural-n"
-   },
-   {
-    "kind": "drill",
-    "category": "dates"
-   },
-   {
-    "kind": "read",
-    "topic": "celebrations and invitations"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "personalpronomen-akkusativ-dativ",
-     "dativ-plural-n"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "personalpronomen-akkusativ-dativ",
-     "dativ-plural-n"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "planning a surprise party with a friend",
-    "situation_de": "mit einer Freundin eine Überraschungsparty planen"
-   },
-   {
-    "kind": "write",
-    "task": "a2-birthday"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "personalpronomen-akkusativ-dativ",
-     "dativ-plural-n"
-    ]
-   }
-  ]
- },
- {
-  "key": "a2-03",
-  "level": "A2",
-  "title_de": "Zusammen wohnen",
-  "title_en": "Living together",
-  "goal_de": "Dein Zuhause und den Haushalt beschreiben, Regeln mit Mitbewohnern und Nachbarn vereinbaren und den Hausmeister oder Vermieter um etwas bitten.",
-  "goal_en": "Describe your home and household, agree on rules with flatmates and neighbours, and ask the caretaker or landlord for something.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the household"
-   },
-   {
-    "kind": "grammar",
-    "card": "wechselpraepositionen"
-   },
-   {
-    "kind": "drill",
-    "category": "article"
-   },
-   {
-    "kind": "read",
-    "topic": "the household"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "flatmate_kitchen",
-     "landlord_washing",
-     "neighbour_plants"
-    ],
-    "cards": [
-     "wechselpraepositionen"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "flatmate_kitchen",
-     "landlord_washing",
-     "neighbour_plants"
-    ],
-    "cards": [
-     "wechselpraepositionen"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "flatmate_kitchen"
-   },
-   {
-    "kind": "scene",
-    "scene": "landlord_washing"
-   },
-   {
-    "kind": "scene",
-    "scene": "neighbour_plants"
-   },
-   {
-    "kind": "write",
-    "task": "a2-new-flat"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "wechselpraepositionen"
-    ]
-   }
-  ]
- },
- {
-  "key": "a2-04",
-  "level": "A2",
-  "title_de": "Einkaufen und reklamieren",
-  "title_en": "Shopping and complaining",
-  "goal_de": "Produkte und Preise vergleichen, höflich um Hilfe bitten, etwas umtauschen oder zurückgeben und dich über ein Essen beschweren.",
-  "goal_en": "Compare products and prices, ask politely for help, exchange or return something and complain about a meal.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "shopping"
-   },
-   {
-    "kind": "grammar",
-    "card": "komparativ-superlativ"
-   },
-   {
-    "kind": "grammar",
-    "card": "hoefliche-bitten-konjunktiv-ii"
-   },
-   {
-    "kind": "drill",
-    "category": "prices"
-   },
-   {
-    "kind": "read",
-    "topic": "shopping"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "return_item",
-     "cold_soup"
-    ],
-    "cards": [
-     "komparativ-superlativ",
-     "hoefliche-bitten-konjunktiv-ii"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "return_item",
-     "cold_soup"
-    ],
-    "cards": [
-     "komparativ-superlativ",
-     "hoefliche-bitten-konjunktiv-ii"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "return_item"
-   },
-   {
-    "kind": "scene",
-    "scene": "cold_soup"
-   },
-   {
-    "kind": "write",
-    "task": "a2-return-jacket"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "komparativ-superlativ",
-     "hoefliche-bitten-konjunktiv-ii"
-    ]
-   }
-  ]
- },
- {
-  "key": "a2-05",
-  "level": "A2",
-  "title_de": "Gesund bleiben",
-  "title_en": "Staying healthy",
-  "goal_de": "Beschwerden beschreiben, die Anweisungen des Arztes verstehen, über gesundes Leben sprechen und dich entschuldigen, wenn du krank bist.",
-  "goal_en": "Describe symptoms, understand the doctor's instructions, talk about healthy living and excuse yourself when you are ill.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "health and the doctor"
-   },
-   {
-    "kind": "grammar",
-    "card": "reflexive-verben"
-   },
-   {
-    "kind": "grammar",
-    "card": "dativ-verben-praepositionen"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I describe what I eat and give a simple recipe, with quantities and the imperative?",
-    "question_de": "Wie beschreibe ich, was ich esse, und gebe ein einfaches Rezept, mit Mengen und Imperativ?"
-   },
-   {
-    "kind": "read",
-    "topic": "health and the doctor"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "dentist"
-    ],
-    "cards": [
-     "reflexive-verben",
-     "dativ-verben-praepositionen"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "dentist"
-    ],
-    "cards": [
-     "reflexive-verben",
-     "dativ-verben-praepositionen"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "dentist"
-   },
-   {
-    "kind": "write",
-    "task": "a2-sick-course"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "reflexive-verben",
-     "dativ-verben-praepositionen"
-    ]
-   }
-  ]
- },
- {
-  "key": "a2-06",
-  "level": "A2",
-  "title_de": "Ämter und Dienstleistungen",
-  "title_en": "Offices and services",
-  "goal_de": "Dich beim Bürgeramt anmelden, ein Paket verschicken, einen Verlust melden, ein Formular ausfüllen und eine kurze formelle Nachricht schreiben.",
-  "goal_en": "Register at the citizens' office, send a parcel, report something lost, fill in a form and write a short formal message.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the post office and the bank"
-   },
-   {
-    "kind": "grammar",
-    "card": "dass-ob"
-   },
-   {
-    "kind": "drill",
-    "category": "sentence"
-   },
-   {
-    "kind": "read",
-    "topic": "the post office and the bank"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "buergeramt",
-     "post_office",
-     "lost_property"
-    ],
-    "cards": [
-     "dass-ob"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "buergeramt",
-     "post_office",
-     "lost_property"
-    ],
-    "cards": [
-     "dass-ob"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "buergeramt"
-   },
-   {
-    "kind": "scene",
-    "scene": "post_office"
-   },
-   {
-    "kind": "scene",
-    "scene": "lost_property"
-   },
-   {
-    "kind": "write",
-    "task": "a2-heating-broken"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "dass-ob"
-    ]
-   }
-  ]
- },
- {
-  "key": "a2-07",
-  "level": "A2",
-  "title_de": "Arbeit und Beruf",
-  "title_en": "Work and jobs",
-  "goal_de": "Über deine Arbeit und Arbeitszeiten sprechen, sagen, seit wann und wie lange du etwas machst, und dich um einen einfachen Job bewerben.",
-  "goal_en": "Talk about your job and working hours, say since when and for how long you have done something, and apply for a simple job.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "work"
-   },
-   {
-    "kind": "grammar",
-    "card": "seit-vor-fuer"
-   },
-   {
-    "kind": "grammar",
-    "card": "weil-denn-da"
-   },
-   {
-    "kind": "drill",
-    "category": "clock"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I talk about my job and say why I like it?",
-    "question_de": "Wie spreche ich über meinen Beruf und sage, warum er mir gefällt?"
-   },
-   {
-    "kind": "read",
-    "topic": "work"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "cafe_job"
-    ],
-    "cards": [
-     "seit-vor-fuer",
-     "weil-denn-da"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "cafe_job"
-    ],
-    "cards": [
-     "seit-vor-fuer",
-     "weil-denn-da"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "cafe_job"
-   },
-   {
-    "kind": "write",
-    "task": "a2-weekend-job-email"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "seit-vor-fuer",
-     "weil-denn-da"
-    ]
-   }
-  ]
- },
- {
-  "key": "a2-08",
-  "level": "A2",
-  "title_de": "Unterwegs und im Urlaub",
-  "title_en": "On the road and on holiday",
-  "goal_de": "Eine Reise planen, ein Fahrrad mieten oder ein Ticket kaufen, einen Urlaub beschreiben und sagen, was du nächsten Sommer machen wirst.",
-  "goal_en": "Plan a trip, rent a bike or buy a ticket, describe a holiday and say what you will do next summer.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "holidays"
-   },
-   {
-    "kind": "words",
-    "topic": "travelling by train"
-   },
-   {
-    "kind": "words",
-    "topic": "nature and animals"
-   },
-   {
-    "kind": "grammar",
-    "card": "futur-i"
-   },
-   {
-    "kind": "drill",
-    "category": "ordinals"
-   },
-   {
-    "kind": "read",
-    "topic": "holidays"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "bike_rental"
-    ],
-    "cards": [
-     "futur-i"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "bike_rental"
-    ],
-    "cards": [
-     "futur-i"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "bike_rental"
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "asking at the tourist information what to see in a town",
-    "situation_de": "bei der Touristeninformation fragen, was man in einer Stadt besichtigen kann"
-   },
-   {
-    "kind": "write",
-    "task": "a2-summer-plans-email"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "futur-i"
-    ]
-   }
-  ]
- },
- {
-  "key": "a2-09",
-  "level": "A2",
-  "title_de": "Lernen und Medien",
-  "title_en": "Learning and media",
-  "goal_de": "Darüber sprechen, wie du lernst und welche Medien du nutzt, ein Buch ausleihen und sagen, was du weißt, kannst und kennst.",
-  "goal_en": "Talk about how you learn and which media you use, borrow a book, and say what you know, know how to do and are familiar with.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "school and learning"
-   },
-   {
-    "kind": "grammar",
-    "card": "kennen-wissen-koennen"
-   },
-   {
-    "kind": "grammar",
-    "card": "adjektivendungen"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "ask",
-    "question_en": "What can I say when I don't understand something or need a word repeated?",
-    "question_de": "Was kann ich sagen, wenn ich etwas nicht verstehe oder ein Wort noch einmal hören möchte?"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I talk about my phone, my computer and the internet in everyday German?",
-    "question_de": "Wie spreche ich im Alltag über mein Handy, meinen Computer und das Internet?"
-   },
-   {
-    "kind": "read",
-    "topic": "school and learning"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "library"
-    ],
-    "cards": [
-     "kennen-wissen-koennen",
-     "adjektivendungen"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "library"
-    ],
-    "cards": [
-     "kennen-wissen-koennen",
-     "adjektivendungen"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "library"
-   },
-   {
-    "kind": "write",
-    "task": "a2-library-email"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "kennen-wissen-koennen",
-     "adjektivendungen"
-    ]
-   }
-  ]
- },
- {
-  "key": "a2-10",
-  "level": "A2",
-  "title_de": "Menschen, Gefühle und Aussehen",
-  "title_en": "People, feelings and looks",
-  "goal_de": "Menschen, ihren Charakter und ihre Gefühle beschreiben, erklären, warum du jemanden magst, und beim Friseur über dein Aussehen sprechen.",
-  "goal_en": "Describe people, their character and how they feel, explain why you like someone, and talk about your looks at the hairdresser's.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "feelings and character"
-   },
-   {
-    "kind": "grammar",
-    "card": "nebensatz-verbende"
-   },
-   {
-    "kind": "drill",
-    "category": "article"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How is the Goethe-Zertifikat A2 exam structured, and how do I prepare for it?",
-    "question_de": "Wie ist die Prüfung Goethe-Zertifikat A2 aufgebaut, und wie bereite ich mich darauf vor?"
-   },
-   {
-    "kind": "read",
-    "topic": "feelings and character"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "hairdresser"
-    ],
-    "cards": [
-     "nebensatz-verbende"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "hairdresser"
-    ],
-    "cards": [
-     "nebensatz-verbende"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "hairdresser"
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "telling a friend about a person you met and what they are like",
-    "situation_de": "einer Freundin von einer Person erzählen, die du kennengelernt hast, und wie sie ist"
-   },
-   {
-    "kind": "write",
-    "task": "a2-describe-friend"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "nebensatz-verbende"
-    ]
-   }
-  ]
- },
- {
-  "key": "b1-01",
-  "level": "B1",
-  "title_de": "Lebenswege",
-  "title_en": "Life stories",
-  "goal_de": "Deinen Lebensweg und den anderer in den Vergangenheitsformen erzählen, über Beziehungen und Familienleben sprechen und dich schriftlich entschuldigen.",
-  "goal_en": "Tell your life story and other people's in the past tenses, talk about relationships and family life, and apologise in writing.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "relationships and family life"
-   },
-   {
-    "kind": "grammar",
-    "card": "praeteritum-perfekt"
-   },
-   {
-    "kind": "grammar",
-    "card": "als-wenn-wann"
-   },
-   {
-    "kind": "drill",
-    "category": "verbs"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I write a short biography of a famous person in the Präteritum?",
-    "question_de": "Wie schreibe ich eine kurze Biografie einer berühmten Person im Präteritum?"
-   },
-   {
-    "kind": "ask",
-    "question_en": "Which phrases keep a conversation going: showing interest, asking back, changing the subject?",
-    "question_de": "Welche Wendungen halten ein Gespräch am Laufen: Interesse zeigen, nachfragen, das Thema wechseln?"
-   },
-   {
-    "kind": "read",
-    "topic": "relationships and family life"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "praeteritum-perfekt",
-     "als-wenn-wann"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "praeteritum-perfekt",
-     "als-wenn-wann"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "catching up with an old school friend you have not seen for years",
-    "situation_de": "einen alten Schulfreund wiedertreffen, den du seit Jahren nicht gesehen hast"
-   },
-   {
-    "kind": "write",
-    "task": "b1-missed-party"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "praeteritum-perfekt",
-     "als-wenn-wann"
-    ]
-   }
-  ]
- },
- {
-  "key": "b1-02",
-  "level": "B1",
-  "title_de": "Beruf und Karriere",
-  "title_en": "Work and career",
-  "goal_de": "Deinen Beruf und deine Ziele beschreiben, dich krankmelden, über Homeoffice diskutieren und Gründe und Absichten nennen.",
-  "goal_en": "Describe your job and your goals, call in sick, discuss working from home and give reasons and purposes.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "work and career"
-   },
-   {
-    "kind": "grammar",
-    "card": "um-zu-damit"
-   },
-   {
-    "kind": "grammar",
-    "card": "zu-infinitiv"
-   },
-   {
-    "kind": "drill",
-    "category": "sentence"
-   },
-   {
-    "kind": "read",
-    "topic": "work and career"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "sick_call"
-    ],
-    "cards": [
-     "um-zu-damit",
-     "zu-infinitiv"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "sick_call"
-    ],
-    "cards": [
-     "um-zu-damit",
-     "zu-infinitiv"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "sick_call"
-   },
-   {
-    "kind": "write",
-    "task": "b1-forum-homeoffice"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "um-zu-damit",
-     "zu-infinitiv"
-    ]
-   }
-  ]
- },
- {
-  "key": "b1-03",
-  "level": "B1",
-  "title_de": "Wohnen und Nachbarschaft",
-  "title_en": "Housing and neighbours",
-  "goal_de": "Dein Zuhause und deine Nachbarschaft genau beschreiben, die wichtigsten Punkte eines Mietvertrags verstehen und deine Sätze mit Relativsätzen verbinden.",
-  "goal_en": "Describe your home and neighbourhood in detail, understand the main points of a tenancy agreement, and link your sentences with relative clauses.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "housing and renting"
-   },
-   {
-    "kind": "grammar",
-    "card": "relativpronomen"
-   },
-   {
-    "kind": "grammar",
-    "card": "genitiv"
-   },
-   {
-    "kind": "drill",
-    "category": "article"
-   },
-   {
-    "kind": "ask",
-    "question_en": "What are the most important words in a German tenancy agreement, and what do they mean?",
-    "question_de": "Was sind die wichtigsten Wörter in einem deutschen Mietvertrag, und was bedeuten sie?"
-   },
-   {
-    "kind": "read",
-    "topic": "housing and renting"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "relativpronomen",
-     "genitiv"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "relativpronomen",
-     "genitiv"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "a conversation with a neighbour about noise late at night",
-    "situation_de": "ein Gespräch mit einem Nachbarn über Lärm spät am Abend"
-   },
-   {
-    "kind": "write",
-    "task": "b1-flat-enquiry"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "relativpronomen",
-     "genitiv"
-    ]
-   }
-  ]
- },
- {
-  "key": "b1-04",
-  "level": "B1",
-  "title_de": "Gesundheit und Ernährung",
-  "title_en": "Health and nutrition",
-  "goal_de": "Über gesunde Ernährung, Sport und Stress sprechen, Beschwerden genau beschreiben und Gegensätze und Einschränkungen ausdrücken.",
-  "goal_en": "Talk about healthy eating, sport and stress, describe symptoms precisely, and express contrast and concession.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "nutrition and sport"
-   },
-   {
-    "kind": "words",
-    "topic": "health"
-   },
-   {
-    "kind": "grammar",
-    "card": "trotzdem-obwohl"
-   },
-   {
-    "kind": "grammar",
-    "card": "n-deklination"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "read",
-    "topic": "nutrition and sport"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "trotzdem-obwohl",
-     "n-deklination"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "trotzdem-obwohl",
-     "n-deklination"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "talking to a doctor about back pain from sitting at a desk",
-    "situation_de": "mit einer Ärztin über Rückenschmerzen vom Sitzen am Schreibtisch sprechen"
-   },
-   {
-    "kind": "write",
-    "task": "b1-forum-healthy-week"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "trotzdem-obwohl",
-     "n-deklination"
-    ]
-   }
-  ]
- },
- {
-  "key": "b1-05",
-  "level": "B1",
-  "title_de": "Konsum und Verträge",
-  "title_en": "Consumption and contracts",
-  "goal_de": "Angebote vergleichen, Werbung verstehen, einen Vertrag kündigen und dich in einem formellen Brief über eine Bestellung beschweren.",
-  "goal_en": "Compare offers, understand advertising, cancel a contract, and complain about an order in a formal letter.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "consumption and advertising"
-   },
-   {
-    "kind": "grammar",
-    "card": "indirekte-fragen"
-   },
-   {
-    "kind": "drill",
-    "category": "prices"
-   },
-   {
-    "kind": "read",
-    "topic": "consumption and advertising"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "mobile_cancel"
-    ],
-    "cards": [
-     "indirekte-fragen"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "mobile_cancel"
-    ],
-    "cards": [
-     "indirekte-fragen"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "mobile_cancel"
-   },
-   {
-    "kind": "write",
-    "task": "b1-complaint-online-order"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "indirekte-fragen"
-    ]
-   }
-  ]
- },
- {
-  "key": "b1-06",
-  "level": "B1",
-  "title_de": "Geld und Bank",
-  "title_en": "Money and banking",
-  "goal_de": "Ein Konto eröffnen, über Sparen und Ausgeben sprechen und mit dem Passiv beschreiben, was gemacht wird.",
-  "goal_en": "Open an account, talk about saving and spending, and describe what is done with the passive.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "money and banking"
-   },
-   {
-    "kind": "grammar",
-    "card": "passiv-praesens"
-   },
-   {
-    "kind": "drill",
-    "category": "numbers"
-   },
-   {
-    "kind": "ask",
-    "question_en": "Which verbs do I need to talk about money: pay, transfer, withdraw, save, borrow?",
-    "question_de": "Welche Verben brauche ich, um über Geld zu sprechen: zahlen, überweisen, abheben, sparen, leihen?"
-   },
-   {
-    "kind": "read",
-    "topic": "money and banking"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "bank_account"
-    ],
-    "cards": [
-     "passiv-praesens"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "bank_account"
-    ],
-    "cards": [
-     "passiv-praesens"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "bank_account"
-   },
-   {
-    "kind": "write",
-    "task": "b1-bank-account-email"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "passiv-praesens"
-    ]
-   }
-  ]
- },
- {
-  "key": "b1-07",
-  "level": "B1",
-  "title_de": "Mobilität und Reisen",
-  "title_en": "Mobility and travel",
-  "goal_de": "Eine Autoreparatur und einen verpassten Anschluss regeln, dich im Hotel beschweren und erzählen, was vor, während und nach einer Reise passiert ist.",
-  "goal_en": "Deal with a car repair and a missed connection, complain at a hotel, and tell what happened before, during and after a trip.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "travel and tourism"
-   },
-   {
-    "kind": "grammar",
-    "card": "nachdem-bevor-waehrend"
-   },
-   {
-    "kind": "grammar",
-    "card": "plusquamperfekt"
-   },
-   {
-    "kind": "drill",
-    "category": "sentence"
-   },
-   {
-    "kind": "read",
-    "topic": "travel and tourism"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "garage",
-     "travel_centre",
-     "hotel_noise"
-    ],
-    "cards": [
-     "nachdem-bevor-waehrend",
-     "plusquamperfekt"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "garage",
-     "travel_centre",
-     "hotel_noise"
-    ],
-    "cards": [
-     "nachdem-bevor-waehrend",
-     "plusquamperfekt"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "garage"
-   },
-   {
-    "kind": "scene",
-    "scene": "travel_centre"
-   },
-   {
-    "kind": "scene",
-    "scene": "hotel_noise"
-   },
-   {
-    "kind": "write",
-    "task": "b1-hotel-complaint"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "nachdem-bevor-waehrend",
-     "plusquamperfekt"
-    ]
-   }
-  ]
- },
- {
-  "key": "b1-08",
-  "level": "B1",
-  "title_de": "Medien und digitale Welt",
-  "title_en": "Media and the digital world",
-  "goal_de": "Über Nachrichten, soziale Medien und Bildschirmzeit sprechen, sagen, worauf du wartest und worüber du dich ärgerst, und deine Meinung im Forum sagen.",
-  "goal_en": "Talk about news, social media and screen time, say what you are waiting for and annoyed by, and give your opinion in a forum.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the digital world"
-   },
-   {
-    "kind": "words",
-    "topic": "media and news"
-   },
-   {
-    "kind": "grammar",
-    "card": "verben-mit-praepositionen-da-wo"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I give my opinion and agree or disagree politely in German?",
-    "question_de": "Wie sage ich meine Meinung und stimme auf Deutsch höflich zu oder widerspreche?"
-   },
-   {
-    "kind": "read",
-    "topic": "the digital world"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "verben-mit-praepositionen-da-wo"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "verben-mit-praepositionen-da-wo"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "a discussion with a friend about whether children should have smartphones",
-    "situation_de": "eine Diskussion mit einer Freundin darüber, ob Kinder Smartphones haben sollten"
-   },
-   {
-    "kind": "write",
-    "task": "b1-forum-screen-time"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "verben-mit-praepositionen-da-wo"
-    ]
-   }
-  ]
- },
- {
-  "key": "b1-09",
-  "level": "B1",
-  "title_de": "Bildung und Lernen",
-  "title_en": "Education and learning",
-  "goal_de": "Über Schule, Ausbildung und deine Lernziele sprechen, deiner Lehrerin schreiben und Wünsche und irreale Bedingungen ausdrücken.",
-  "goal_en": "Talk about school, training and your learning goals, write to your teacher, and express wishes and unreal conditions.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "education"
-   },
-   {
-    "kind": "grammar",
-    "card": "konjunktiv-ii"
-   },
-   {
-    "kind": "grammar",
-    "card": "lassen"
-   },
-   {
-    "kind": "drill",
-    "category": "verbs"
-   },
-   {
-    "kind": "ask",
-    "question_en": "What is the difference between lernen, studieren and üben?",
-    "question_de": "Was ist der Unterschied zwischen lernen, studieren und üben?"
-   },
-   {
-    "kind": "read",
-    "topic": "education"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "konjunktiv-ii",
-     "lassen"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "konjunktiv-ii",
-     "lassen"
-    ]
-   },
-   {
-    "kind": "write",
-    "task": "b1-teacher-absent"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "konjunktiv-ii",
-     "lassen"
-    ]
-   }
-  ]
- },
- {
-  "key": "b1-10",
-  "level": "B1",
-  "title_de": "Umwelt, Feste und Gesellschaft",
-  "title_en": "Environment, festivals and society",
-  "goal_de": "Über Umwelt und Klimaschutz im Alltag diskutieren, Feste und Traditionen beschreiben und deine Argumente mit zweiteiligen Konnektoren verbinden.",
-  "goal_en": "Discuss the environment and everyday climate protection, describe festivals and traditions, and link your arguments with two-part connectors.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the environment"
-   },
-   {
-    "kind": "words",
-    "topic": "festivals and traditions"
-   },
-   {
-    "kind": "grammar",
-    "card": "zweiteilige-konnektoren"
-   },
-   {
-    "kind": "drill",
-    "category": "plural"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I say what I do for the environment in my everyday life?",
-    "question_de": "Wie sage ich, was ich im Alltag für die Umwelt tue?"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I talk about my own culture and compare it with life in Germany?",
-    "question_de": "Wie spreche ich über meine eigene Kultur und vergleiche sie mit dem Leben in Deutschland?"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How is the Goethe-Zertifikat B1 exam structured, and how do I prepare for it?",
-    "question_de": "Wie ist die Prüfung Goethe-Zertifikat B1 aufgebaut, und wie bereite ich mich darauf vor?"
-   },
-   {
-    "kind": "read",
-    "topic": "the environment"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "zweiteilige-konnektoren"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "zweiteilige-konnektoren"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "explaining a festival from your country to a German friend",
-    "situation_de": "einem deutschen Freund ein Fest aus deinem Land erklären"
-   },
-   {
-    "kind": "write",
-    "task": "b1-street-festival-message"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "zweiteilige-konnektoren"
-    ]
-   }
-  ]
- },
- {
-  "key": "b2-01",
-  "level": "B2",
-  "title_de": "Arbeitswelt und Bewerbung",
-  "title_en": "The world of work and applications",
-  "goal_de": "Dich im Vorstellungsgespräch präsentieren, eine Bewerbung schreiben und über Arbeitsbedingungen sprechen und darüber, was hätte anders laufen können.",
-  "goal_en": "Present yourself in a job interview, write an application, and talk about working conditions and what could have gone differently.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the workplace"
-   },
-   {
-    "kind": "grammar",
-    "card": "konjunktiv-ii-vergangenheit"
-   },
-   {
-    "kind": "drill",
-    "category": "sentence"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I structure a short presentation at work: opening, overview, main part, conclusion, questions?",
-    "question_de": "Wie baue ich eine kurze Präsentation bei der Arbeit auf: Einstieg, Überblick, Hauptteil, Schluss, Fragen?"
-   },
-   {
-    "kind": "read",
-    "topic": "the workplace"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "job_interview"
-    ],
-    "cards": [
-     "konjunktiv-ii-vergangenheit"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "job_interview"
-    ],
-    "cards": [
-     "konjunktiv-ii-vergangenheit"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "job_interview"
-   },
-   {
-    "kind": "write",
-    "task": "b2-application"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "konjunktiv-ii-vergangenheit"
-    ]
-   }
-  ]
- },
- {
-  "key": "b2-02",
-  "level": "B2",
-  "title_de": "Wohnen in der Stadt",
-  "title_en": "Living in the city",
-  "goal_de": "Eine Wohnung besichtigen, sie übergeben und über die Kaution sprechen, Stadt und Land vergleichen und Personen und Dinge mit Partizipien beschreiben.",
-  "goal_en": "View a flat, hand it back and discuss the deposit, compare city and countryside, and describe people and things with participles.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "city and countryside"
-   },
-   {
-    "kind": "grammar",
-    "card": "partizip-i-ii-als-adjektiv"
-   },
-   {
-    "kind": "drill",
-    "category": "article"
-   },
-   {
-    "kind": "read",
-    "topic": "city and countryside"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "flat_viewing",
-     "flat_handover"
-    ],
-    "cards": [
-     "partizip-i-ii-als-adjektiv"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "flat_viewing",
-     "flat_handover"
-    ],
-    "cards": [
-     "partizip-i-ii-als-adjektiv"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "flat_viewing"
-   },
-   {
-    "kind": "scene",
-    "scene": "flat_handover"
-   },
-   {
-    "kind": "write",
-    "task": "b2-deposit-letter"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "partizip-i-ii-als-adjektiv"
-    ]
-   }
-  ]
- },
- {
-  "key": "b2-03",
-  "level": "B2",
-  "title_de": "Verbraucher und Verträge",
-  "title_en": "Consumers and contracts",
-  "goal_de": "Dich telefonisch und schriftlich über eine Rechnung, eine Lieferung oder einen Service beschweren und mit dem Passiv sagen, was gemacht werden muss, kann oder soll.",
-  "goal_en": "Complain about a bill, a delivery or a service by phone and in writing, and say what must, can or should be done with the passive.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the economy"
-   },
-   {
-    "kind": "grammar",
-    "card": "passiv-mit-modalverben"
-   },
-   {
-    "kind": "grammar",
-    "card": "passiv-werden-sein"
-   },
-   {
-    "kind": "drill",
-    "category": "prices"
-   },
-   {
-    "kind": "read",
-    "topic": "the economy"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "utility_bill",
-     "parcel_complaint"
-    ],
-    "cards": [
-     "passiv-mit-modalverben",
-     "passiv-werden-sein"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "utility_bill",
-     "parcel_complaint"
-    ],
-    "cards": [
-     "passiv-mit-modalverben",
-     "passiv-werden-sein"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "utility_bill"
-   },
-   {
-    "kind": "scene",
-    "scene": "parcel_complaint"
-   },
-   {
-    "kind": "write",
-    "task": "b2-course-complaint"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "passiv-mit-modalverben",
-     "passiv-werden-sein"
-    ]
-   }
-  ]
- },
- {
-  "key": "b2-04",
-  "level": "B2",
-  "title_de": "Technik und Digitalisierung",
-  "title_en": "Technology and digitalisation",
-  "goal_de": "Eine Störung melden, Vor- und Nachteile neuer Technik diskutieren und deinen Standpunkt in einem Forumsbeitrag begründen.",
-  "goal_en": "Report a fault, discuss the pros and cons of new technology, and argue your position in a forum post.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "technology"
-   },
-   {
-    "kind": "grammar",
-    "card": "konnektoren-indem-sodass-ohne-dass"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "ask",
-    "question_en": "What are the most important comma rules in German?",
-    "question_de": "Was sind die wichtigsten Kommaregeln im Deutschen?"
-   },
-   {
-    "kind": "read",
-    "topic": "technology"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "internet_hotline"
-    ],
-    "cards": [
-     "konnektoren-indem-sodass-ohne-dass"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "internet_hotline"
-    ],
-    "cards": [
-     "konnektoren-indem-sodass-ohne-dass"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "internet_hotline"
-   },
-   {
-    "kind": "write",
-    "task": "b2-forum-smartphones-school"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "konnektoren-indem-sodass-ohne-dass"
-    ]
-   }
-  ]
- },
- {
-  "key": "b2-05",
-  "level": "B2",
-  "title_de": "Migration und Zusammenleben",
-  "title_en": "Migration and living together",
-  "goal_de": "Einen Termin bei der Ausländerbehörde meistern, über Migration, Integration und Identität sprechen und mit Genitivpräpositionen Gründe nennen.",
-  "goal_en": "Handle an appointment at the immigration office, talk about migration, integration and identity, and give reasons with the prepositions that take the genitive.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "migration and integration"
-   },
-   {
-    "kind": "grammar",
-    "card": "genitivpraepositionen"
-   },
-   {
-    "kind": "drill",
-    "category": "sentence"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I talk about my experience of moving to a new country?",
-    "question_de": "Wie erzähle ich von meinen Erfahrungen beim Umzug in ein neues Land?"
-   },
-   {
-    "kind": "read",
-    "topic": "migration and integration"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "immigration_office"
-    ],
-    "cards": [
-     "genitivpraepositionen"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "immigration_office"
-    ],
-    "cards": [
-     "genitivpraepositionen"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "immigration_office"
-   },
-   {
-    "kind": "write",
-    "task": "b2-integration-course-letter"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "genitivpraepositionen"
-    ]
-   }
-  ]
- },
- {
-  "key": "b2-06",
-  "level": "B2",
-  "title_de": "Gesellschaft und Politik",
-  "title_en": "Society and politics",
-  "goal_de": "Einer Diskussion über eine gesellschaftliche oder politische Frage folgen, Argumente dafür und dagegen vortragen und dich mit Relativsätzen genau auf Gesagtes beziehen.",
-  "goal_en": "Follow a discussion on a social or political question, present arguments for and against, and refer precisely to what was said with relative clauses.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "society and politics"
-   },
-   {
-    "kind": "grammar",
-    "card": "relativsaetze-praepositionen-wo-was"
-   },
-   {
-    "kind": "drill",
-    "category": "verbs"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I structure an argument in German: introduction, pros, cons, conclusion?",
-    "question_de": "Wie baue ich eine Argumentation auf Deutsch auf: Einleitung, Pro, Kontra, Fazit?"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I use dessen and deren in relative clauses?",
-    "question_de": "Wie benutze ich dessen und deren in Relativsätzen?"
-   },
-   {
-    "kind": "read",
-    "topic": "society and politics"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "relativsaetze-praepositionen-wo-was"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "relativsaetze-praepositionen-wo-was"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "a discussion with a neighbour about a new cycle lane in your street",
-    "situation_de": "eine Diskussion mit einem Nachbarn über einen neuen Radweg in eurer Straße"
-   },
-   {
-    "kind": "write",
-    "task": "b2-forum-voting-age"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "relativsaetze-praepositionen-wo-was"
-    ]
-   }
-  ]
- },
- {
-  "key": "b2-07",
-  "level": "B2",
-  "title_de": "Klima und Umwelt",
-  "title_en": "Climate and the environment",
-  "goal_de": "Über den Klimawandel diskutieren und darüber, was Einzelne und Regierungen tun können, Vermutungen über die Zukunft anstellen und einen Bericht mit Zahlen verstehen.",
-  "goal_en": "Discuss climate change and what individuals and governments can do, make assumptions about the future, and understand a report with figures.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "climate change"
-   },
-   {
-    "kind": "grammar",
-    "card": "futur-vermutung"
-   },
-   {
-    "kind": "drill",
-    "category": "numbers"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I describe a chart or statistics in German?",
-    "question_de": "Wie beschreibe ich eine Grafik oder Statistik auf Deutsch?"
-   },
-   {
-    "kind": "read",
-    "topic": "climate change"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "futur-vermutung"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "futur-vermutung"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "talking to a colleague about how your company could waste less",
-    "situation_de": "mit einem Kollegen darüber sprechen, wie eure Firma weniger verschwenden könnte"
-   },
-   {
-    "kind": "write",
-    "task": "b2-survey-report-email"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "futur-vermutung"
-    ]
-   }
-  ]
- },
- {
-  "key": "b2-08",
-  "level": "B2",
-  "title_de": "Psychologie und Persönlichkeit",
-  "title_en": "Psychology and personality",
-  "goal_de": "Charakter, Gefühle und Verhalten beschreiben, vergleichen, wie etwas wirkt und wie es ist, und mit Modalpartikeln abschwächen oder verstärken, was du sagst.",
-  "goal_en": "Describe character, feelings and behaviour, compare how things seem with how they are, and soften or sharpen what you say with modal particles.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "psychology and personality"
-   },
-   {
-    "kind": "grammar",
-    "card": "irreale-vergleiche-als-ob"
-   },
-   {
-    "kind": "grammar",
-    "card": "modalpartikeln"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "ask",
-    "question_en": "Which adjectives and nouns take a fixed preposition, like stolz auf, Angst vor, zufrieden mit?",
-    "question_de": "Welche Adjektive und Nomen haben eine feste Präposition, wie stolz auf, Angst vor, zufrieden mit?"
-   },
-   {
-    "kind": "read",
-    "topic": "psychology and personality"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "irreale-vergleiche-als-ob",
-     "modalpartikeln"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "irreale-vergleiche-als-ob",
-     "modalpartikeln"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "giving a friend advice about stress at work",
-    "situation_de": "einer Freundin Rat bei Stress im Beruf geben"
-   },
-   {
-    "kind": "write",
-    "task": "b2-advice-for-friend"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "irreale-vergleiche-als-ob",
-     "modalpartikeln"
-    ]
-   }
-  ]
- },
- {
-  "key": "b2-09",
-  "level": "B2",
-  "title_de": "Kultur und Wissenschaft",
-  "title_en": "Culture and science",
-  "goal_de": "Über Bücher, Filme und Ausstellungen sprechen, eine wissenschaftliche Erkenntnis einfach erklären und wiedergeben, was andere gesagt haben.",
-  "goal_en": "Talk about books, films and exhibitions, explain a scientific finding in simple terms, and report what others said.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "culture and art"
-   },
-   {
-    "kind": "words",
-    "topic": "science"
-   },
-   {
-    "kind": "grammar",
-    "card": "konjunktiv-i-redewiedergabe"
-   },
-   {
-    "kind": "drill",
-    "category": "plural"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I tell a story in the Präteritum, like a fairy tale that begins with ‘Es war einmal’?",
-    "question_de": "Wie erzähle ich eine Geschichte im Präteritum, wie ein Märchen, das mit „Es war einmal“ beginnt?"
-   },
-   {
-    "kind": "read",
-    "topic": "culture and art"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "konjunktiv-i-redewiedergabe"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "konjunktiv-i-redewiedergabe"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "recommending a film or a book to a friend and explaining why",
-    "situation_de": "einer Freundin einen Film oder ein Buch empfehlen und erklären, warum"
-   },
-   {
-    "kind": "write",
-    "task": "b2-review-for-magazine"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "konjunktiv-i-redewiedergabe"
-    ]
-   }
-  ]
- },
- {
-  "key": "b2-10",
-  "level": "B2",
-  "title_de": "Recht und Globalisierung",
-  "title_en": "Law and globalisation",
-  "goal_de": "Über Regeln, Kriminalität und Justiz sprechen, über Globalisierung und Handel diskutieren und einen Text klar zusammenfassen.",
-  "goal_en": "Talk about rules, crime and justice, discuss globalisation and trade, and summarise a text clearly.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "crime and justice"
-   },
-   {
-    "kind": "words",
-    "topic": "globalisation"
-   },
-   {
-    "kind": "grammar",
-    "card": "untrennbare-praefixe"
-   },
-   {
-    "kind": "drill",
-    "category": "verbs"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I write a clear summary of a text in German? Which phrases do I need?",
-    "question_de": "Wie schreibe ich eine klare Zusammenfassung eines Textes auf Deutsch? Welche Formulierungen brauche ich?"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How is the Goethe-Zertifikat B2 exam structured, and how do I prepare for it?",
-    "question_de": "Wie ist die Prüfung Goethe-Zertifikat B2 aufgebaut, und wie bereite ich mich darauf vor?"
-   },
-   {
-    "kind": "read",
-    "topic": "crime and justice"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "untrennbare-praefixe"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "untrennbare-praefixe"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "reporting a bicycle theft at the police station",
-    "situation_de": "einen Fahrraddiebstahl bei der Polizei anzeigen"
-   },
-   {
-    "kind": "write",
-    "task": "b2-article-summary-group"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "untrennbare-praefixe"
-    ]
-   }
-  ]
- },
- {
-  "key": "c1-01",
-  "level": "C1",
-  "title_de": "Arbeit und Verhandlung",
-  "title_en": "Work and negotiation",
-  "goal_de": "Dein Gehalt verhandeln, gegenüber der Geschäftsleitung schriftlich eine Position vertreten und zwischen Nominal- und Verbalstil wechseln.",
-  "goal_en": "Negotiate your salary, argue a position to management in writing, and move between nominal and verbal style.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the world of work"
-   },
-   {
-    "kind": "grammar",
-    "card": "nominalstil-verbalstil"
-   },
-   {
-    "kind": "drill",
-    "category": "sentence"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I express regret, criticise constructively and apologise in formal German at work?",
-    "question_de": "Wie drücke ich Bedauern aus, übe konstruktiv Kritik und entschuldige mich im formellen Deutsch am Arbeitsplatz?"
-   },
-   {
-    "kind": "read",
-    "topic": "the world of work"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "salary_negotiation"
-    ],
-    "cards": [
-     "nominalstil-verbalstil"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "salary_negotiation"
-    ],
-    "cards": [
-     "nominalstil-verbalstil"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "salary_negotiation"
-   },
-   {
-    "kind": "write",
-    "task": "c1-statement-management"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "nominalstil-verbalstil"
-    ]
-   }
-  ]
- },
- {
-  "key": "c1-02",
-  "level": "C1",
-  "title_de": "Wohnen und Recht",
-  "title_en": "Housing and the law",
-  "goal_de": "Dich zu einer Mieterhöhung beraten lassen, Rechts- und Verwaltungssprache verstehen und Relativsätze zu Partizipialattributen verkürzen.",
-  "goal_en": "Get advice on a rent increase, understand legal and administrative language, and shorten relative clauses into participle attributes.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "law and bureaucracy"
-   },
-   {
-    "kind": "grammar",
-    "card": "partizipialattribut"
-   },
-   {
-    "kind": "drill",
-    "category": "article"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I read an official letter from a German authority? What do the typical phrases mean?",
-    "question_de": "Wie lese ich ein Schreiben einer deutschen Behörde? Was bedeuten die typischen Formulierungen?"
-   },
-   {
-    "kind": "ask",
-    "question_en": "Which verbs take the genitive, like bedürfen, gedenken, sich erfreuen, and where do they appear?",
-    "question_de": "Welche Verben stehen mit dem Genitiv, wie bedürfen, gedenken, sich erfreuen, und wo kommen sie vor?"
-   },
-   {
-    "kind": "read",
-    "topic": "law and bureaucracy"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "rent_increase"
-    ],
-    "cards": [
-     "partizipialattribut"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "rent_increase"
-    ],
-    "cards": [
-     "partizipialattribut"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "rent_increase"
-   },
-   {
-    "kind": "write",
-    "task": "c1-rent-increase-objection"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "partizipialattribut"
-    ]
-   }
-  ]
- },
- {
-  "key": "c1-03",
-  "level": "C1",
-  "title_de": "Politik und Medien",
-  "title_en": "Politics and the media",
-  "goal_de": "Politische Debatten und Nachrichtenanalysen verfolgen, Behauptungen und Vermutungen mit subjektiven Modalverben wiedergeben und einen Leserbrief schreiben.",
-  "goal_en": "Follow political debate and news analysis, report claims and assumptions with the subjective modal verbs, and write a letter to the editor.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "politics and the media"
-   },
-   {
-    "kind": "grammar",
-    "card": "subjektive-modalverben"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "read",
-    "topic": "politics and the media"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "town_hall_traffic"
-    ],
-    "cards": [
-     "subjektive-modalverben"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "town_hall_traffic"
-    ],
-    "cards": [
-     "subjektive-modalverben"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "town_hall_traffic"
-   },
-   {
-    "kind": "write",
-    "task": "c1-letter-to-editor"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "subjektive-modalverben"
-    ]
-   }
-  ]
- },
- {
-  "key": "c1-04",
-  "level": "C1",
-  "title_de": "Forschung und Wissenschaft",
-  "title_en": "Research and science",
-  "goal_de": "Wissenschaftliche Texte und Vorträge verstehen, Ergebnisse und Zahlen präsentieren und die Passiversatzformen der Wissenschaftssprache verwenden.",
-  "goal_en": "Understand academic texts and talks, present findings and figures, and use the passive alternatives of scientific German.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "research and science"
-   },
-   {
-    "kind": "grammar",
-    "card": "passiversatz"
-   },
-   {
-    "kind": "drill",
-    "category": "numbers"
-   },
-   {
-    "kind": "read",
-    "topic": "research and science"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "passiversatz"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "passiversatz"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "presenting the results of a survey to your team and taking questions",
-    "situation_de": "deinem Team die Ergebnisse einer Umfrage vorstellen und Fragen beantworten"
-   },
-   {
-    "kind": "write",
-    "task": "c1-graph-commuting"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "passiversatz"
-    ]
-   }
-  ]
- },
- {
-  "key": "c1-05",
-  "level": "C1",
-  "title_de": "Umwelt und Energie",
-  "title_en": "Environment and energy",
-  "goal_de": "Differenziert über Energiepolitik und Umwelt diskutieren, längere Argumentationen mit Textkonnektoren gliedern und Positionen gegeneinander abwägen.",
-  "goal_en": "Discuss energy policy and the environment with nuance, structure longer arguments with text connectors, and weigh up positions.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the environment and energy"
-   },
-   {
-    "kind": "grammar",
-    "card": "textkonnektoren-kohaerenz"
-   },
-   {
-    "kind": "drill",
-    "category": "verbs"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I weigh up two positions and come to a conclusion in German?",
-    "question_de": "Wie wäge ich zwei Positionen gegeneinander ab und komme auf Deutsch zu einem Fazit?"
-   },
-   {
-    "kind": "read",
-    "topic": "the environment and energy"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "textkonnektoren-kohaerenz"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "textkonnektoren-kohaerenz"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "a panel discussion on wind turbines near your village",
-    "situation_de": "eine Podiumsdiskussion über Windräder in der Nähe eures Dorfes"
-   },
-   {
-    "kind": "write",
-    "task": "c1-wind-farm-statement"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "textkonnektoren-kohaerenz"
-    ]
-   }
-  ]
- },
- {
-  "key": "c1-06",
-  "level": "C1",
-  "title_de": "Literatur und Künste",
-  "title_en": "Literature and the arts",
-  "goal_de": "Über Literatur, Film und Kunst sprechen, mit Partizipialsätzen beschreiben, wie etwas geschah, und Stil und Atmosphäre eines Werks benennen.",
-  "goal_en": "Talk about literature, film and the arts, describe how something happened with participle clauses, and put the style and atmosphere of a work into words.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "literature and the arts"
-   },
-   {
-    "kind": "grammar",
-    "card": "partizipialsaetze"
-   },
-   {
-    "kind": "drill",
-    "category": "plural"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I describe the style and atmosphere of a book or film in German?",
-    "question_de": "Wie beschreibe ich Stil und Atmosphäre eines Buches oder Films auf Deutsch?"
-   },
-   {
-    "kind": "read",
-    "topic": "literature and the arts"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "partizipialsaetze"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "partizipialsaetze"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "discussing a novel at a book club",
-    "situation_de": "in einem Lesekreis über einen Roman diskutieren"
-   },
-   {
-    "kind": "write",
-    "task": "c1-letter-about-novel"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "partizipialsaetze"
-    ]
-   }
-  ]
- },
- {
-  "key": "c1-07",
-  "level": "C1",
-  "title_de": "Gesellschaft im Wandel",
-  "title_en": "A changing society",
-  "goal_de": "Über demografischen Wandel und künstliche Intelligenz diskutieren, wiedergeben, was Fachleute sagen, und komplexe Zusammenhänge klar erklären.",
-  "goal_en": "Discuss demographic change and artificial intelligence, report what experts say, and explain complex connections clearly.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "demographic change"
-   },
-   {
-    "kind": "words",
-    "topic": "artificial intelligence"
-   },
-   {
-    "kind": "grammar",
-    "card": "konjunktiv-i-redewiedergabe"
-   },
-   {
-    "kind": "drill",
-    "category": "sentence"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I discuss migration and integration policy with nuance, weighing figures against experience?",
-    "question_de": "Wie diskutiere ich differenziert über Migrations- und Integrationspolitik und wäge Zahlen gegen Erfahrungen ab?"
-   },
-   {
-    "kind": "read",
-    "topic": "demographic change"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "konjunktiv-i-redewiedergabe"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "konjunktiv-i-redewiedergabe"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "a radio interview about how your profession will change with AI",
-    "situation_de": "ein Radiointerview darüber, wie sich dein Beruf durch KI verändern wird"
-   },
-   {
-    "kind": "write",
-    "task": "c1-report-ai-at-work"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "konjunktiv-i-redewiedergabe"
-    ]
-   }
-  ]
- },
- {
-  "key": "c1-08",
-  "level": "C1",
-  "title_de": "Zukunft gestalten",
-  "title_en": "Shaping the future",
-  "goal_de": "Über die Zukunft von Verkehr, Städten und Sozialstaat diskutieren, einen Vorschlag formell präsentieren und auf Einwände eingehen.",
-  "goal_en": "Discuss the future of transport, cities and the welfare state, present a proposal formally, and respond to objections.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "mobility of the future"
-   },
-   {
-    "kind": "words",
-    "topic": "the welfare state"
-   },
-   {
-    "kind": "drill",
-    "category": "verbs"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I make a formal proposal in a meeting and respond to objections?",
-    "question_de": "Wie mache ich in einer Besprechung einen formellen Vorschlag und reagiere auf Einwände?"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How are the Goethe-Zertifikat C1 and the TestDaF structured, and how do I prepare for them?",
-    "question_de": "Wie sind das Goethe-Zertifikat C1 und der TestDaF aufgebaut, und wie bereite ich mich darauf vor?"
-   },
-   {
-    "kind": "read",
-    "topic": "mobility of the future"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "nominalstil-verbalstil",
-     "textkonnektoren-kohaerenz"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "nominalstil-verbalstil",
-     "textkonnektoren-kohaerenz"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "presenting a car-free city centre plan to a sceptical shop owner",
-    "situation_de": "einem skeptischen Ladenbesitzer einen Plan für eine autofreie Innenstadt vorstellen"
-   },
-   {
-    "kind": "write",
-    "task": "c1-proposal-car-free-centre"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "nominalstil-verbalstil",
-     "textkonnektoren-kohaerenz"
-    ]
-   }
-  ]
- },
- {
-  "key": "c2-01",
-  "level": "C2",
-  "title_de": "Wissenschaft in der Öffentlichkeit",
-  "title_en": "Science in public",
-  "goal_de": "Einer Journalistin deine eigene Forschung erklären, Paronyme präzise unterscheiden und kritische Fragen souverän beantworten.",
-  "goal_en": "Explain your own research to a journalist, distinguish near-synonyms precisely, and handle critical questions with ease.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "medicine and bioethics"
-   },
-   {
-    "kind": "grammar",
-    "card": "paronyme-scheinbar-anscheinend"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "read",
-    "topic": "medicine and bioethics"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "press_interview_study"
-    ],
-    "cards": [
-     "paronyme-scheinbar-anscheinend"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "press_interview_study"
-    ],
-    "cards": [
-     "paronyme-scheinbar-anscheinend"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "press_interview_study"
-   },
-   {
-    "kind": "write",
-    "task": "c2-email-journalist-research"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "paronyme-scheinbar-anscheinend"
-    ]
-   }
-  ]
- },
- {
-  "key": "c2-02",
-  "level": "C2",
-  "title_de": "Verhandeln und Verträge",
-  "title_en": "Negotiating and contracts",
-  "goal_de": "Einen Vertrag Klausel für Klausel verhandeln, die Funktionsverbgefüge der Wirtschaftssprache natürlich verwenden und einer Entscheidung schriftlich widersprechen.",
-  "goal_en": "Negotiate a contract clause by clause, use the light-verb constructions of business German naturally, and object in writing to a decision.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "finance and markets"
-   },
-   {
-    "kind": "grammar",
-    "card": "funktionsverbgefuege"
-   },
-   {
-    "kind": "drill",
-    "category": "sentence"
-   },
-   {
-    "kind": "read",
-    "topic": "finance and markets"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "publishing_contract"
-    ],
-    "cards": [
-     "funktionsverbgefuege"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "publishing_contract"
-    ],
-    "cards": [
-     "funktionsverbgefuege"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "publishing_contract"
-   },
-   {
-    "kind": "write",
-    "task": "c2-objection-bank-fees"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "funktionsverbgefuege"
-    ]
-   }
-  ]
- },
- {
-  "key": "c2-03",
-  "level": "C2",
-  "title_de": "Behörden und Einspruch",
-  "title_en": "Authorities and objections",
-  "goal_de": "Beim Finanzamt Einspruch einlegen, Verwaltungsdeutsch lesen und schreiben und die gehobenen Präpositionen formeller Texte verwenden.",
-  "goal_en": "Lodge an objection at the tax office, read and write administrative German, and use the elevated prepositions of formal texts.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "economic policy"
-   },
-   {
-    "kind": "grammar",
-    "card": "gehobene-praepositionen"
-   },
-   {
-    "kind": "drill",
-    "category": "article"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I lodge a formal objection (Einspruch or Widerspruch), and which phrases does it need?",
-    "question_de": "Wie lege ich formell Einspruch oder Widerspruch ein, und welche Formulierungen gehören dazu?"
-   },
-   {
-    "kind": "read",
-    "topic": "economic policy"
-   },
-   {
-    "kind": "listen",
-    "scenes": [
-     "tax_office_objection"
-    ],
-    "cards": [
-     "gehobene-praepositionen"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [
-     "tax_office_objection"
-    ],
-    "cards": [
-     "gehobene-praepositionen"
-    ]
-   },
-   {
-    "kind": "scene",
-    "scene": "tax_office_objection"
-   },
-   {
-    "kind": "write",
-    "task": "c2-tax-office-objection"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "gehobene-praepositionen"
-    ]
-   }
-  ]
- },
- {
-  "key": "c2-04",
-  "level": "C2",
-  "title_de": "Register und Stil",
-  "title_en": "Register and style",
-  "goal_de": "Für jede Situation das passende Register wählen, vom formellen Einspruch bis zum Plausch, und Stilbrüche erkennen und vermeiden.",
-  "goal_en": "Choose the right register for any situation, from a formal objection to a chat, and recognise and avoid a clash of styles.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "language and linguistics"
-   },
-   {
-    "kind": "grammar",
-    "card": "stilebenen-register"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I make the same request in three registers: to a friend, a colleague and an authority?",
-    "question_de": "Wie formuliere ich dieselbe Bitte in drei Registern: an einen Freund, einen Kollegen und eine Behörde?"
-   },
-   {
-    "kind": "read",
-    "topic": "language and linguistics"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "stilebenen-register"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "stilebenen-register"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "a conversation with an editor about the tone of your article",
-    "situation_de": "ein Gespräch mit einer Redakteurin über den Ton deines Artikels"
-   },
-   {
-    "kind": "write",
-    "task": "c2-style-guide-email"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "stilebenen-register"
-    ]
-   }
-  ]
- },
- {
-  "key": "c2-05",
-  "level": "C2",
-  "title_de": "Erzählen und Erinnern",
-  "title_en": "Narrating and remembering",
-  "goal_de": "Geschichten erzählen und analysieren, die Erzähltempora und die erlebte Rede verwenden und über Geschichte und Erinnerung diskutieren.",
-  "goal_en": "Tell and analyse stories, use the narrative tenses and free indirect speech, and discuss history and remembrance.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "history and remembrance"
-   },
-   {
-    "kind": "grammar",
-    "card": "erzaehltempora-erlebte-rede"
-   },
-   {
-    "kind": "drill",
-    "category": "verbs"
-   },
-   {
-    "kind": "read",
-    "topic": "history and remembrance"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "erzaehltempora-erlebte-rede"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "erzaehltempora-erlebte-rede"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "a conversation with your grandmother's neighbour about how the town has changed since the 1960s",
-    "situation_de": "ein Gespräch mit dem Nachbarn deiner Großmutter darüber, wie sich die Stadt seit den 1960er-Jahren verändert hat"
-   },
-   {
-    "kind": "write",
-    "task": "c2-family-chronicle-letter"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "erzaehltempora-erlebte-rede"
-    ]
-   }
-  ]
- },
- {
-  "key": "c2-06",
-  "level": "C2",
-  "title_de": "Argumentieren und Rhetorik",
-  "title_en": "Arguing and rhetoric",
-  "goal_de": "Eine lückenlose Argumentation aufbauen, „es“ als Platzhalter und Korrelat präzise einsetzen und eine Stellungnahme als Experte schreiben.",
-  "goal_en": "Build a watertight argument, use 'es' as placeholder and correlate with precision, and write an expert statement.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "rhetoric and argumentation"
-   },
-   {
-    "kind": "grammar",
-    "card": "es-als-platzhalter-korrelat"
-   },
-   {
-    "kind": "drill",
-    "category": "sentence"
-   },
-   {
-    "kind": "ask",
-    "question_en": "Which rhetorical devices work in German speeches, and how do I use them without sounding pompous?",
-    "question_de": "Welche rhetorischen Mittel wirken in deutschen Reden, und wie setze ich sie ein, ohne gestelzt zu klingen?"
-   },
-   {
-    "kind": "read",
-    "topic": "rhetoric and argumentation"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "es-als-platzhalter-korrelat"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "es-als-platzhalter-korrelat"
-    ]
-   },
-   {
-    "kind": "write",
-    "task": "c2-expert-statement-council"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "es-als-platzhalter-korrelat"
-    ]
-   }
-  ]
- },
- {
-  "key": "c2-07",
-  "level": "C2",
-  "title_de": "Kunst und Kritik",
-  "title_en": "Art and criticism",
-  "goal_de": "Eine Ausstellung, ein Buch oder eine Aufführung rezensieren, Ausklammerung und Nachfeld gezielt zur Betonung nutzen und feine Nuancen des Urteils ausdrücken.",
-  "goal_en": "Review an exhibition, a book or a performance, use the Nachfeld and extraposition for emphasis, and express fine shades of judgement.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "the arts and criticism"
-   },
-   {
-    "kind": "grammar",
-    "card": "nachfeld-ausklammerung"
-   },
-   {
-    "kind": "drill",
-    "category": "plural"
-   },
-   {
-    "kind": "read",
-    "topic": "the arts and criticism"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "nachfeld-ausklammerung"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "nachfeld-ausklammerung"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "defending your harsh review to the director of the theatre",
-    "situation_de": "deine harsche Kritik gegenüber der Intendantin des Theaters verteidigen"
-   },
-   {
-    "kind": "write",
-    "task": "c2-open-letter-museum"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "nachfeld-ausklammerung"
-    ]
-   }
-  ]
- },
- {
-  "key": "c2-08",
-  "level": "C2",
-  "title_de": "Philosophie und Diplomatie",
-  "title_en": "Philosophy and diplomacy",
-  "goal_de": "Ethische Fragen und internationale Beziehungen präzise und taktvoll diskutieren und Argumente aus mehreren Quellen gegeneinander abwägen.",
-  "goal_en": "Discuss ethical questions and international relations with precision and tact, and weigh up arguments from several sources.",
-  "steps": [
-   {
-    "kind": "words",
-    "topic": "philosophy and ethics"
-   },
-   {
-    "kind": "words",
-    "topic": "diplomacy and international relations"
-   },
-   {
-    "kind": "drill",
-    "category": "meaning"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How do I disagree with someone diplomatically in German without sounding weak?",
-    "question_de": "Wie widerspreche ich auf Deutsch diplomatisch, ohne schwach zu wirken?"
-   },
-   {
-    "kind": "ask",
-    "question_en": "How is the Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) structured, and how do I prepare for it?",
-    "question_de": "Wie ist das Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) aufgebaut, und wie bereite ich mich darauf vor?"
-   },
-   {
-    "kind": "read",
-    "topic": "philosophy and ethics"
-   },
-   {
-    "kind": "listen",
-    "scenes": [],
-    "cards": [
-     "stilebenen-register",
-     "gehobene-praepositionen",
-     "es-als-platzhalter-korrelat"
-    ]
-   },
-   {
-    "kind": "speak",
-    "scenes": [],
-    "cards": [
-     "stilebenen-register",
-     "gehobene-praepositionen",
-     "es-als-platzhalter-korrelat"
-    ]
-   },
-   {
-    "kind": "ownScene",
-    "situation_en": "mediating between two colleagues who disagree about a project",
-    "situation_de": "zwischen zwei Kollegen vermitteln, die sich über ein Projekt uneinig sind"
-   },
-   {
-    "kind": "write",
-    "task": "c2-briefing-ethics-council"
-   },
-   {
-    "kind": "check",
-    "cards": [
-     "stilebenen-register",
-     "gehobene-praepositionen",
-     "es-als-platzhalter-korrelat"
-    ]
-   }
-  ]
- }
+  {
+    "key": "a1-01",
+    "level": "A1",
+    "title_de": "Hallo! Ich heiße …",
+    "title_en": "Hello! My name is …",
+    "goal_de": "Begrüßen und verabschieden, dich vorstellen, sagen, woher du kommst und welche Sprachen du sprichst, und andere danach fragen.",
+    "goal_en": "Greet people and say goodbye, introduce yourself, say where you are from and which languages you speak, and ask others the same.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "greetings and introductions"
+      },
+      {
+        "kind": "grammar",
+        "card": "sein-haben-praesens"
+      },
+      {
+        "kind": "grammar",
+        "card": "w-fragen-ja-nein-fragen"
+      },
+      {
+        "kind": "drill",
+        "category": "numbers"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I introduce myself in German, formally and informally?",
+        "question_de": "Wie stelle ich mich auf Deutsch vor, formell und informell?"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I spell my name in German? Please go through the alphabet with me.",
+        "question_de": "Wie buchstabiere ich meinen Namen auf Deutsch? Geh bitte das Alphabet mit mir durch."
+      },
+      {
+        "kind": "read",
+        "topic": "greetings and introductions"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "sein-haben-praesens",
+          "w-fragen-ja-nein-fragen"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "sein-haben-praesens",
+          "w-fragen-ja-nein-fragen"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "meeting a new colleague on your first day and introducing yourself",
+        "situation_de": "einen neuen Kollegen am ersten Arbeitstag kennenlernen und dich vorstellen"
+      },
+      {
+        "kind": "write",
+        "task": "a1-forum-introduce"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "sein-haben-praesens",
+          "w-fragen-ja-nein-fragen"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a1-02",
+    "level": "A1",
+    "title_de": "Meine Familie und ich",
+    "title_en": "My family and me",
+    "goal_de": "Über deine Familie und Freunde sprechen, sagen, wie alt jemand ist und was er macht, und nach der Familie fragen.",
+    "goal_en": "Talk about your family and friends, say how old people are and what they do, and ask about someone's family.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the family"
+      },
+      {
+        "kind": "words",
+        "topic": "work"
+      },
+      {
+        "kind": "grammar",
+        "card": "possessivartikel"
+      },
+      {
+        "kind": "grammar",
+        "card": "verb-zweitstellung"
+      },
+      {
+        "kind": "drill",
+        "category": "article"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I talk about my family: names, ages and jobs?",
+        "question_de": "Wie spreche ich über meine Familie: Namen, Alter und Berufe?"
+      },
+      {
+        "kind": "read",
+        "topic": "the family"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "possessivartikel",
+          "verb-zweitstellung"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "possessivartikel",
+          "verb-zweitstellung"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "showing a friend photos of your family",
+        "situation_de": "einer Freundin Fotos von deiner Familie zeigen"
+      },
+      {
+        "kind": "write",
+        "task": "a1-family-photo"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "possessivartikel",
+          "verb-zweitstellung"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a1-03",
+    "level": "A1",
+    "title_de": "Guten Appetit!",
+    "title_en": "Enjoy your meal!",
+    "goal_de": "Im Café oder Restaurant Essen und Getränke bestellen, sagen, was du magst, nach dem Preis fragen und bezahlen.",
+    "goal_en": "Order food and drink in a café or restaurant, say what you like, ask what something costs and pay.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "food and drink"
+      },
+      {
+        "kind": "grammar",
+        "card": "artikel-nominativ-akkusativ"
+      },
+      {
+        "kind": "drill",
+        "category": "prices"
+      },
+      {
+        "kind": "read",
+        "topic": "food and drink"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "cafe",
+          "restaurant_booking"
+        ],
+        "cards": [
+          "artikel-nominativ-akkusativ"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "cafe",
+          "restaurant_booking"
+        ],
+        "cards": [
+          "artikel-nominativ-akkusativ"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "cafe"
+      },
+      {
+        "kind": "scene",
+        "scene": "restaurant_booking"
+      },
+      {
+        "kind": "write",
+        "task": "a1-cafe-invite"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "artikel-nominativ-akkusativ"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a1-04",
+    "level": "A1",
+    "title_de": "Einkaufen",
+    "title_en": "Shopping",
+    "goal_de": "Lebensmittel und Kleidung kaufen, nach Größe, Farbe und Menge fragen, Preise verstehen und sagen, was du nicht brauchst.",
+    "goal_en": "Buy food and clothes, ask for sizes, colours and quantities, understand prices and say what you do not need.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "clothes"
+      },
+      {
+        "kind": "grammar",
+        "card": "pluralformen"
+      },
+      {
+        "kind": "grammar",
+        "card": "kein-nicht"
+      },
+      {
+        "kind": "drill",
+        "category": "plural"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I use welcher, welche, welches and dieser, diese, dieses when I shop?",
+        "question_de": "Wie benutze ich welcher, welche, welches und dieser, diese, dieses beim Einkaufen?"
+      },
+      {
+        "kind": "read",
+        "topic": "clothes"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "bakery",
+          "supermarket"
+        ],
+        "cards": [
+          "pluralformen",
+          "kein-nicht"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "bakery",
+          "supermarket"
+        ],
+        "cards": [
+          "pluralformen",
+          "kein-nicht"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "bakery"
+      },
+      {
+        "kind": "scene",
+        "scene": "supermarket"
+      },
+      {
+        "kind": "write",
+        "task": "a1-supermarket-message"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "pluralformen",
+          "kein-nicht"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a1-05",
+    "level": "A1",
+    "title_de": "Mein Tag",
+    "title_en": "My day",
+    "goal_de": "Die Uhrzeit sagen, deinen Tagesablauf und deine Woche beschreiben und Termine vereinbaren oder verschieben.",
+    "goal_en": "Tell the time, describe your daily routine and your week, and make or change appointments.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the daily routine"
+      },
+      {
+        "kind": "grammar",
+        "card": "trennbare-verben"
+      },
+      {
+        "kind": "grammar",
+        "card": "vokalwechsel"
+      },
+      {
+        "kind": "drill",
+        "category": "clock"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I describe my daily routine, from getting up to going to bed?",
+        "question_de": "Wie beschreibe ich meinen Tagesablauf, vom Aufstehen bis zum Schlafengehen?"
+      },
+      {
+        "kind": "read",
+        "topic": "the daily routine"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "late_friend"
+        ],
+        "cards": [
+          "trennbare-verben",
+          "vokalwechsel"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "late_friend"
+        ],
+        "cards": [
+          "trennbare-verben",
+          "vokalwechsel"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "late_friend"
+      },
+      {
+        "kind": "write",
+        "task": "a1-my-day-email"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "trennbare-verben",
+          "vokalwechsel"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a1-06",
+    "level": "A1",
+    "title_de": "Wohnen",
+    "title_en": "At home",
+    "goal_de": "Deine Wohnung und deine Möbel beschreiben, sagen, wo etwas steht und was dir an deinem Zuhause gefällt, und eine Wohnungsanzeige verstehen.",
+    "goal_en": "Describe your flat and your furniture, say where things are and what you like about where you live, and understand a flat advertisement.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the flat"
+      },
+      {
+        "kind": "grammar",
+        "card": "zeit-und-ortsangaben"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I describe my flat and where the furniture is?",
+        "question_de": "Wie beschreibe ich meine Wohnung und wo die Möbel stehen?"
+      },
+      {
+        "kind": "read",
+        "topic": "the flat"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "zeit-und-ortsangaben"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "zeit-und-ortsangaben"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "asking a landlord questions about a flat you want to rent",
+        "situation_de": "einem Vermieter Fragen zu einer Wohnung stellen, die du mieten möchtest"
+      },
+      {
+        "kind": "write",
+        "task": "a1-new-flat-message"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "zeit-und-ortsangaben"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a1-07",
+    "level": "A1",
+    "title_de": "In der Stadt unterwegs",
+    "title_en": "Out and about in town",
+    "goal_de": "Nach dem Weg fragen und den Weg beschreiben, Bus, Bahn und Taxi benutzen und die Orte in einer Stadt benennen.",
+    "goal_en": "Ask for and give directions, use buses, trains and taxis, and name the places in a town.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the city"
+      },
+      {
+        "kind": "grammar",
+        "card": "imperativ"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "read",
+        "topic": "the city"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "directions",
+          "taxi"
+        ],
+        "cards": [
+          "imperativ"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "directions",
+          "taxi"
+        ],
+        "cards": [
+          "imperativ"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "directions"
+      },
+      {
+        "kind": "scene",
+        "scene": "taxi"
+      },
+      {
+        "kind": "write",
+        "task": "a1-directions-message"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "imperativ"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a1-08",
+    "level": "A1",
+    "title_de": "Freizeit und Verabredungen",
+    "title_en": "Free time and meeting up",
+    "goal_de": "Über deine Hobbys sprechen, sagen, was du kannst und möchtest, jemanden einladen und Tag und Uhrzeit ausmachen.",
+    "goal_en": "Talk about your hobbies, say what you can and want to do, invite someone and agree on a day and a time.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "hobbies and sport"
+      },
+      {
+        "kind": "grammar",
+        "card": "modalverben"
+      },
+      {
+        "kind": "drill",
+        "category": "dates"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I invite a friend and suggest a time and a place?",
+        "question_de": "Wie lade ich einen Freund ein und schlage Zeit und Ort vor?"
+      },
+      {
+        "kind": "read",
+        "topic": "hobbies and sport"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "cinema"
+        ],
+        "cards": [
+          "modalverben"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "cinema"
+        ],
+        "cards": [
+          "modalverben"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "cinema"
+      },
+      {
+        "kind": "write",
+        "task": "a1-invite-weekend"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "modalverben"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a1-09",
+    "level": "A1",
+    "title_de": "Gesundheit",
+    "title_en": "Health",
+    "goal_de": "Die Körperteile benennen, sagen, was wehtut, einen Arzttermin vereinbaren und einfache Ratschläge verstehen.",
+    "goal_en": "Name the parts of the body, say what hurts, make a doctor's appointment and understand simple advice.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the body and health"
+      },
+      {
+        "kind": "grammar",
+        "card": "genus-endungen"
+      },
+      {
+        "kind": "drill",
+        "category": "article"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I say ‘I was’ and ‘I had’ in German, for example when I was ill: war and hatte?",
+        "question_de": "Wie sage ich „ich war“ und „ich hatte“ auf Deutsch, zum Beispiel wenn ich krank war: war und hatte?"
+      },
+      {
+        "kind": "read",
+        "topic": "the body and health"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "doctor_phone",
+          "pharmacy",
+          "doctor_reception"
+        ],
+        "cards": [
+          "genus-endungen"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "doctor_phone",
+          "pharmacy",
+          "doctor_reception"
+        ],
+        "cards": [
+          "genus-endungen"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "doctor_phone"
+      },
+      {
+        "kind": "scene",
+        "scene": "pharmacy"
+      },
+      {
+        "kind": "scene",
+        "scene": "doctor_reception"
+      },
+      {
+        "kind": "write",
+        "task": "a1-ill-message-course"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "genus-endungen"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a1-10",
+    "level": "A1",
+    "title_de": "Reisen und Wetter",
+    "title_en": "Travel and weather",
+    "goal_de": "Eine Fahrkarte kaufen, im Hotel einchecken, über das Wetter sprechen und im Perfekt erzählen, was du auf einer Reise gemacht hast.",
+    "goal_en": "Buy a ticket, check in at a hotel, talk about the weather and say what you did on a trip, in the Perfekt.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "transport and travel"
+      },
+      {
+        "kind": "words",
+        "topic": "the weather"
+      },
+      {
+        "kind": "grammar",
+        "card": "perfekt-haben-sein"
+      },
+      {
+        "kind": "drill",
+        "category": "verbs"
+      },
+      {
+        "kind": "read",
+        "topic": "transport and travel"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "train_ticket",
+          "hotel_checkin"
+        ],
+        "cards": [
+          "perfekt-haben-sein"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "train_ticket",
+          "hotel_checkin"
+        ],
+        "cards": [
+          "perfekt-haben-sein"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "train_ticket"
+      },
+      {
+        "kind": "scene",
+        "scene": "hotel_checkin"
+      },
+      {
+        "kind": "write",
+        "task": "a1-hotel-form"
+      },
+      {
+        "kind": "write",
+        "task": "a1-postcard-holiday"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "perfekt-haben-sein"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a2-01",
+    "level": "A2",
+    "title_de": "Wie war dein Wochenende?",
+    "title_en": "How was your weekend?",
+    "goal_de": "Erzählen, was du am Wochenende oder im Urlaub gemacht hast, sagen, wie es war, und andere nach ihrer Vergangenheit fragen.",
+    "goal_en": "Tell what you did at the weekend or on holiday, say how it was, and ask others about their past.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "free time"
+      },
+      {
+        "kind": "grammar",
+        "card": "praeteritum-sein-haben-modalverben"
+      },
+      {
+        "kind": "drill",
+        "category": "verbs"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I tell a story about last weekend? Which past tense do I use when I speak?",
+        "question_de": "Wie erzähle ich vom letzten Wochenende? Welche Vergangenheitsform benutze ich beim Sprechen?"
+      },
+      {
+        "kind": "read",
+        "topic": "free time"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "praeteritum-sein-haben-modalverben"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "praeteritum-sein-haben-modalverben"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "telling a colleague on Monday morning about your weekend",
+        "situation_de": "einem Kollegen am Montagmorgen vom Wochenende erzählen"
+      },
+      {
+        "kind": "write",
+        "task": "a2-weekend-report"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "praeteritum-sein-haben-modalverben"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a2-02",
+    "level": "A2",
+    "title_de": "Feste und Einladungen",
+    "title_en": "Celebrations and invitations",
+    "goal_de": "Einladen, eine Einladung annehmen oder absagen, über Geschenke und Feste sprechen und eine Einladung schreiben.",
+    "goal_en": "Invite people, accept or decline an invitation, talk about presents and celebrations, and write an invitation.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "celebrations and invitations"
+      },
+      {
+        "kind": "grammar",
+        "card": "personalpronomen-akkusativ-dativ"
+      },
+      {
+        "kind": "grammar",
+        "card": "dativ-plural-n"
+      },
+      {
+        "kind": "drill",
+        "category": "dates"
+      },
+      {
+        "kind": "read",
+        "topic": "celebrations and invitations"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "personalpronomen-akkusativ-dativ",
+          "dativ-plural-n"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "personalpronomen-akkusativ-dativ",
+          "dativ-plural-n"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "planning a surprise party with a friend",
+        "situation_de": "mit einer Freundin eine Überraschungsparty planen"
+      },
+      {
+        "kind": "write",
+        "task": "a2-birthday"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "personalpronomen-akkusativ-dativ",
+          "dativ-plural-n"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a2-03",
+    "level": "A2",
+    "title_de": "Zusammen wohnen",
+    "title_en": "Living together",
+    "goal_de": "Dein Zuhause und den Haushalt beschreiben, Regeln mit Mitbewohnern und Nachbarn vereinbaren und den Hausmeister oder Vermieter um etwas bitten.",
+    "goal_en": "Describe your home and household, agree on rules with flatmates and neighbours, and ask the caretaker or landlord for something.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the household"
+      },
+      {
+        "kind": "grammar",
+        "card": "wechselpraepositionen"
+      },
+      {
+        "kind": "drill",
+        "category": "article"
+      },
+      {
+        "kind": "read",
+        "topic": "the household"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "flatmate_kitchen",
+          "landlord_washing",
+          "neighbour_plants"
+        ],
+        "cards": [
+          "wechselpraepositionen"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "flatmate_kitchen",
+          "landlord_washing",
+          "neighbour_plants"
+        ],
+        "cards": [
+          "wechselpraepositionen"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "flatmate_kitchen"
+      },
+      {
+        "kind": "scene",
+        "scene": "landlord_washing"
+      },
+      {
+        "kind": "scene",
+        "scene": "neighbour_plants"
+      },
+      {
+        "kind": "write",
+        "task": "a2-new-flat"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "wechselpraepositionen"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a2-04",
+    "level": "A2",
+    "title_de": "Einkaufen und reklamieren",
+    "title_en": "Shopping and complaining",
+    "goal_de": "Produkte und Preise vergleichen, höflich um Hilfe bitten, etwas umtauschen oder zurückgeben und dich über ein Essen beschweren.",
+    "goal_en": "Compare products and prices, ask politely for help, exchange or return something and complain about a meal.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "shopping"
+      },
+      {
+        "kind": "grammar",
+        "card": "komparativ-superlativ"
+      },
+      {
+        "kind": "grammar",
+        "card": "hoefliche-bitten-konjunktiv-ii"
+      },
+      {
+        "kind": "drill",
+        "category": "prices"
+      },
+      {
+        "kind": "read",
+        "topic": "shopping"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "return_item",
+          "cold_soup"
+        ],
+        "cards": [
+          "komparativ-superlativ",
+          "hoefliche-bitten-konjunktiv-ii"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "return_item",
+          "cold_soup"
+        ],
+        "cards": [
+          "komparativ-superlativ",
+          "hoefliche-bitten-konjunktiv-ii"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "return_item"
+      },
+      {
+        "kind": "scene",
+        "scene": "cold_soup"
+      },
+      {
+        "kind": "write",
+        "task": "a2-return-jacket"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "komparativ-superlativ",
+          "hoefliche-bitten-konjunktiv-ii"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a2-05",
+    "level": "A2",
+    "title_de": "Gesund bleiben",
+    "title_en": "Staying healthy",
+    "goal_de": "Beschwerden beschreiben, die Anweisungen des Arztes verstehen, über gesundes Leben sprechen und dich entschuldigen, wenn du krank bist.",
+    "goal_en": "Describe symptoms, understand the doctor's instructions, talk about healthy living and excuse yourself when you are ill.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "health and the doctor"
+      },
+      {
+        "kind": "grammar",
+        "card": "reflexive-verben"
+      },
+      {
+        "kind": "grammar",
+        "card": "dativ-verben-praepositionen"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I describe what I eat and give a simple recipe, with quantities and the imperative?",
+        "question_de": "Wie beschreibe ich, was ich esse, und gebe ein einfaches Rezept, mit Mengen und Imperativ?"
+      },
+      {
+        "kind": "read",
+        "topic": "health and the doctor"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "dentist"
+        ],
+        "cards": [
+          "reflexive-verben",
+          "dativ-verben-praepositionen"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "dentist"
+        ],
+        "cards": [
+          "reflexive-verben",
+          "dativ-verben-praepositionen"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "dentist"
+      },
+      {
+        "kind": "write",
+        "task": "a2-sick-course"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "reflexive-verben",
+          "dativ-verben-praepositionen"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a2-06",
+    "level": "A2",
+    "title_de": "Ämter und Dienstleistungen",
+    "title_en": "Offices and services",
+    "goal_de": "Dich beim Bürgeramt anmelden, ein Paket verschicken, einen Verlust melden, ein Formular ausfüllen und eine kurze formelle Nachricht schreiben.",
+    "goal_en": "Register at the citizens' office, send a parcel, report something lost, fill in a form and write a short formal message.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the post office and the bank"
+      },
+      {
+        "kind": "grammar",
+        "card": "dass-ob"
+      },
+      {
+        "kind": "drill",
+        "category": "sentence"
+      },
+      {
+        "kind": "read",
+        "topic": "the post office and the bank"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "buergeramt",
+          "post_office",
+          "lost_property",
+          "lost_wallet_police"
+        ],
+        "cards": [
+          "dass-ob"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "buergeramt",
+          "post_office",
+          "lost_property",
+          "lost_wallet_police"
+        ],
+        "cards": [
+          "dass-ob"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "buergeramt"
+      },
+      {
+        "kind": "scene",
+        "scene": "post_office"
+      },
+      {
+        "kind": "scene",
+        "scene": "lost_property"
+      },
+      {
+        "kind": "scene",
+        "scene": "lost_wallet_police"
+      },
+      {
+        "kind": "write",
+        "task": "a2-heating-broken"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "dass-ob"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a2-07",
+    "level": "A2",
+    "title_de": "Arbeit und Beruf",
+    "title_en": "Work and jobs",
+    "goal_de": "Über deine Arbeit und Arbeitszeiten sprechen, sagen, seit wann und wie lange du etwas machst, und dich um einen einfachen Job bewerben.",
+    "goal_en": "Talk about your job and working hours, say since when and for how long you have done something, and apply for a simple job.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "work"
+      },
+      {
+        "kind": "grammar",
+        "card": "seit-vor-fuer"
+      },
+      {
+        "kind": "grammar",
+        "card": "weil-denn-da"
+      },
+      {
+        "kind": "drill",
+        "category": "clock"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I talk about my job and say why I like it?",
+        "question_de": "Wie spreche ich über meinen Beruf und sage, warum er mir gefällt?"
+      },
+      {
+        "kind": "read",
+        "topic": "work"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "cafe_job"
+        ],
+        "cards": [
+          "seit-vor-fuer",
+          "weil-denn-da"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "cafe_job"
+        ],
+        "cards": [
+          "seit-vor-fuer",
+          "weil-denn-da"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "cafe_job"
+      },
+      {
+        "kind": "write",
+        "task": "a2-weekend-job-email"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "seit-vor-fuer",
+          "weil-denn-da"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a2-08",
+    "level": "A2",
+    "title_de": "Unterwegs und im Urlaub",
+    "title_en": "On the road and on holiday",
+    "goal_de": "Eine Reise planen, ein Fahrrad mieten oder ein Ticket kaufen, einen Urlaub beschreiben und sagen, was du nächsten Sommer machen wirst.",
+    "goal_en": "Plan a trip, rent a bike or buy a ticket, describe a holiday and say what you will do next summer.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "holidays"
+      },
+      {
+        "kind": "words",
+        "topic": "travelling by train"
+      },
+      {
+        "kind": "words",
+        "topic": "nature and animals"
+      },
+      {
+        "kind": "grammar",
+        "card": "futur-i"
+      },
+      {
+        "kind": "drill",
+        "category": "ordinals"
+      },
+      {
+        "kind": "read",
+        "topic": "holidays"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "bike_rental"
+        ],
+        "cards": [
+          "futur-i"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "bike_rental"
+        ],
+        "cards": [
+          "futur-i"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "bike_rental"
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "asking at the tourist information what to see in a town",
+        "situation_de": "bei der Touristeninformation fragen, was man in einer Stadt besichtigen kann"
+      },
+      {
+        "kind": "write",
+        "task": "a2-summer-plans-email"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "futur-i"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a2-09",
+    "level": "A2",
+    "title_de": "Lernen und Medien",
+    "title_en": "Learning and media",
+    "goal_de": "Darüber sprechen, wie du lernst und welche Medien du nutzt, ein Buch ausleihen und sagen, was du weißt, kannst und kennst.",
+    "goal_en": "Talk about how you learn and which media you use, borrow a book, and say what you know, know how to do and are familiar with.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "school and learning"
+      },
+      {
+        "kind": "grammar",
+        "card": "kennen-wissen-koennen"
+      },
+      {
+        "kind": "grammar",
+        "card": "adjektivendungen"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "ask",
+        "question_en": "What can I say when I don't understand something or need a word repeated?",
+        "question_de": "Was kann ich sagen, wenn ich etwas nicht verstehe oder ein Wort noch einmal hören möchte?"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I talk about my phone, my computer and the internet in everyday German?",
+        "question_de": "Wie spreche ich im Alltag über mein Handy, meinen Computer und das Internet?"
+      },
+      {
+        "kind": "read",
+        "topic": "school and learning"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "library"
+        ],
+        "cards": [
+          "kennen-wissen-koennen",
+          "adjektivendungen"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "library"
+        ],
+        "cards": [
+          "kennen-wissen-koennen",
+          "adjektivendungen"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "library"
+      },
+      {
+        "kind": "write",
+        "task": "a2-library-email"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "kennen-wissen-koennen",
+          "adjektivendungen"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "a2-10",
+    "level": "A2",
+    "title_de": "Menschen, Gefühle und Aussehen",
+    "title_en": "People, feelings and looks",
+    "goal_de": "Menschen, ihren Charakter und ihre Gefühle beschreiben, erklären, warum du jemanden magst, und beim Friseur über dein Aussehen sprechen.",
+    "goal_en": "Describe people, their character and how they feel, explain why you like someone, and talk about your looks at the hairdresser's.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "feelings and character"
+      },
+      {
+        "kind": "grammar",
+        "card": "nebensatz-verbende"
+      },
+      {
+        "kind": "drill",
+        "category": "article"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How is the Goethe-Zertifikat A2 exam structured, and how do I prepare for it?",
+        "question_de": "Wie ist die Prüfung Goethe-Zertifikat A2 aufgebaut, und wie bereite ich mich darauf vor?"
+      },
+      {
+        "kind": "read",
+        "topic": "feelings and character"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "hairdresser"
+        ],
+        "cards": [
+          "nebensatz-verbende"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "hairdresser"
+        ],
+        "cards": [
+          "nebensatz-verbende"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "hairdresser"
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "telling a friend about a person you met and what they are like",
+        "situation_de": "einer Freundin von einer Person erzählen, die du kennengelernt hast, und wie sie ist"
+      },
+      {
+        "kind": "write",
+        "task": "a2-describe-friend"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "nebensatz-verbende"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b1-01",
+    "level": "B1",
+    "title_de": "Lebenswege",
+    "title_en": "Life stories",
+    "goal_de": "Deinen Lebensweg und den anderer in den Vergangenheitsformen erzählen, über Beziehungen und Familienleben sprechen und dich schriftlich entschuldigen.",
+    "goal_en": "Tell your life story and other people's in the past tenses, talk about relationships and family life, and apologise in writing.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "relationships and family life"
+      },
+      {
+        "kind": "grammar",
+        "card": "praeteritum-perfekt"
+      },
+      {
+        "kind": "grammar",
+        "card": "als-wenn-wann"
+      },
+      {
+        "kind": "drill",
+        "category": "verbs"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I write a short biography of a famous person in the Präteritum?",
+        "question_de": "Wie schreibe ich eine kurze Biografie einer berühmten Person im Präteritum?"
+      },
+      {
+        "kind": "ask",
+        "question_en": "Which phrases keep a conversation going: showing interest, asking back, changing the subject?",
+        "question_de": "Welche Wendungen halten ein Gespräch am Laufen: Interesse zeigen, nachfragen, das Thema wechseln?"
+      },
+      {
+        "kind": "read",
+        "topic": "relationships and family life"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "kita_elternabend"
+        ],
+        "cards": [
+          "praeteritum-perfekt",
+          "als-wenn-wann"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "kita_elternabend"
+        ],
+        "cards": [
+          "praeteritum-perfekt",
+          "als-wenn-wann"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "catching up with an old school friend you have not seen for years",
+        "situation_de": "einen alten Schulfreund wiedertreffen, den du seit Jahren nicht gesehen hast"
+      },
+      {
+        "kind": "scene",
+        "scene": "kita_elternabend"
+      },
+      {
+        "kind": "write",
+        "task": "b1-missed-party"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "praeteritum-perfekt",
+          "als-wenn-wann"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b1-02",
+    "level": "B1",
+    "title_de": "Beruf und Karriere",
+    "title_en": "Work and career",
+    "goal_de": "Deinen Beruf und deine Ziele beschreiben, dich krankmelden, über Homeoffice diskutieren und Gründe und Absichten nennen.",
+    "goal_en": "Describe your job and your goals, call in sick, discuss working from home and give reasons and purposes.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "work and career"
+      },
+      {
+        "kind": "grammar",
+        "card": "um-zu-damit"
+      },
+      {
+        "kind": "grammar",
+        "card": "zu-infinitiv"
+      },
+      {
+        "kind": "drill",
+        "category": "sentence"
+      },
+      {
+        "kind": "read",
+        "topic": "work and career"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "sick_call"
+        ],
+        "cards": [
+          "um-zu-damit",
+          "zu-infinitiv"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "sick_call"
+        ],
+        "cards": [
+          "um-zu-damit",
+          "zu-infinitiv"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "sick_call"
+      },
+      {
+        "kind": "write",
+        "task": "b1-forum-homeoffice"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "um-zu-damit",
+          "zu-infinitiv"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b1-03",
+    "level": "B1",
+    "title_de": "Wohnen und Nachbarschaft",
+    "title_en": "Housing and neighbours",
+    "goal_de": "Dein Zuhause und deine Nachbarschaft genau beschreiben, die wichtigsten Punkte eines Mietvertrags verstehen und deine Sätze mit Relativsätzen verbinden.",
+    "goal_en": "Describe your home and neighbourhood in detail, understand the main points of a tenancy agreement, and link your sentences with relative clauses.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "housing and renting"
+      },
+      {
+        "kind": "grammar",
+        "card": "relativpronomen"
+      },
+      {
+        "kind": "grammar",
+        "card": "genitiv"
+      },
+      {
+        "kind": "drill",
+        "category": "article"
+      },
+      {
+        "kind": "ask",
+        "question_en": "What are the most important words in a German tenancy agreement, and what do they mean?",
+        "question_de": "Was sind die wichtigsten Wörter in einem deutschen Mietvertrag, und was bedeuten sie?"
+      },
+      {
+        "kind": "read",
+        "topic": "housing and renting"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "neighbour_noise"
+        ],
+        "cards": [
+          "relativpronomen",
+          "genitiv"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "neighbour_noise"
+        ],
+        "cards": [
+          "relativpronomen",
+          "genitiv"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "a conversation with a neighbour about noise late at night",
+        "situation_de": "ein Gespräch mit einem Nachbarn über Lärm spät am Abend"
+      },
+      {
+        "kind": "scene",
+        "scene": "neighbour_noise"
+      },
+      {
+        "kind": "write",
+        "task": "b1-flat-enquiry"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "relativpronomen",
+          "genitiv"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b1-04",
+    "level": "B1",
+    "title_de": "Gesundheit und Ernährung",
+    "title_en": "Health and nutrition",
+    "goal_de": "Über gesunde Ernährung, Sport und Stress sprechen, Beschwerden genau beschreiben und Gegensätze und Einschränkungen ausdrücken.",
+    "goal_en": "Talk about healthy eating, sport and stress, describe symptoms precisely, and express contrast and concession.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "nutrition and sport"
+      },
+      {
+        "kind": "words",
+        "topic": "health"
+      },
+      {
+        "kind": "grammar",
+        "card": "trotzdem-obwohl"
+      },
+      {
+        "kind": "grammar",
+        "card": "n-deklination"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "read",
+        "topic": "nutrition and sport"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "pharmacy_advice"
+        ],
+        "cards": [
+          "trotzdem-obwohl",
+          "n-deklination"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "pharmacy_advice"
+        ],
+        "cards": [
+          "trotzdem-obwohl",
+          "n-deklination"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "talking to a doctor about back pain from sitting at a desk",
+        "situation_de": "mit einer Ärztin über Rückenschmerzen vom Sitzen am Schreibtisch sprechen"
+      },
+      {
+        "kind": "scene",
+        "scene": "pharmacy_advice"
+      },
+      {
+        "kind": "write",
+        "task": "b1-forum-healthy-week"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "trotzdem-obwohl",
+          "n-deklination"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b1-05",
+    "level": "B1",
+    "title_de": "Konsum und Verträge",
+    "title_en": "Consumption and contracts",
+    "goal_de": "Angebote vergleichen, Werbung verstehen, einen Vertrag kündigen und dich in einem formellen Brief über eine Bestellung beschweren.",
+    "goal_en": "Compare offers, understand advertising, cancel a contract, and complain about an order in a formal letter.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "consumption and advertising"
+      },
+      {
+        "kind": "grammar",
+        "card": "indirekte-fragen"
+      },
+      {
+        "kind": "drill",
+        "category": "prices"
+      },
+      {
+        "kind": "read",
+        "topic": "consumption and advertising"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "mobile_cancel"
+        ],
+        "cards": [
+          "indirekte-fragen"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "mobile_cancel"
+        ],
+        "cards": [
+          "indirekte-fragen"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "mobile_cancel"
+      },
+      {
+        "kind": "write",
+        "task": "b1-complaint-online-order"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "indirekte-fragen"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b1-06",
+    "level": "B1",
+    "title_de": "Geld und Bank",
+    "title_en": "Money and banking",
+    "goal_de": "Ein Konto eröffnen, über Sparen und Ausgeben sprechen und mit dem Passiv beschreiben, was gemacht wird.",
+    "goal_en": "Open an account, talk about saving and spending, and describe what is done with the passive.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "money and banking"
+      },
+      {
+        "kind": "grammar",
+        "card": "passiv-praesens"
+      },
+      {
+        "kind": "drill",
+        "category": "numbers"
+      },
+      {
+        "kind": "ask",
+        "question_en": "Which verbs do I need to talk about money: pay, transfer, withdraw, save, borrow?",
+        "question_de": "Welche Verben brauche ich, um über Geld zu sprechen: zahlen, überweisen, abheben, sparen, leihen?"
+      },
+      {
+        "kind": "read",
+        "topic": "money and banking"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "bank_account"
+        ],
+        "cards": [
+          "passiv-praesens"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "bank_account"
+        ],
+        "cards": [
+          "passiv-praesens"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "bank_account"
+      },
+      {
+        "kind": "write",
+        "task": "b1-bank-account-email"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "passiv-praesens"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b1-07",
+    "level": "B1",
+    "title_de": "Mobilität und Reisen",
+    "title_en": "Mobility and travel",
+    "goal_de": "Eine Autoreparatur und einen verpassten Anschluss regeln, dich im Hotel beschweren und erzählen, was vor, während und nach einer Reise passiert ist.",
+    "goal_en": "Deal with a car repair and a missed connection, complain at a hotel, and tell what happened before, during and after a trip.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "travel and tourism"
+      },
+      {
+        "kind": "grammar",
+        "card": "nachdem-bevor-waehrend"
+      },
+      {
+        "kind": "grammar",
+        "card": "plusquamperfekt"
+      },
+      {
+        "kind": "drill",
+        "category": "sentence"
+      },
+      {
+        "kind": "read",
+        "topic": "travel and tourism"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "garage",
+          "travel_centre",
+          "hotel_noise",
+          "deutschlandticket_counter"
+        ],
+        "cards": [
+          "nachdem-bevor-waehrend",
+          "plusquamperfekt"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "garage",
+          "travel_centre",
+          "hotel_noise",
+          "deutschlandticket_counter"
+        ],
+        "cards": [
+          "nachdem-bevor-waehrend",
+          "plusquamperfekt"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "garage"
+      },
+      {
+        "kind": "scene",
+        "scene": "travel_centre"
+      },
+      {
+        "kind": "scene",
+        "scene": "hotel_noise"
+      },
+      {
+        "kind": "scene",
+        "scene": "deutschlandticket_counter"
+      },
+      {
+        "kind": "write",
+        "task": "b1-hotel-complaint"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "nachdem-bevor-waehrend",
+          "plusquamperfekt"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b1-08",
+    "level": "B1",
+    "title_de": "Medien und digitale Welt",
+    "title_en": "Media and the digital world",
+    "goal_de": "Über Nachrichten, soziale Medien und Bildschirmzeit sprechen, sagen, worauf du wartest und worüber du dich ärgerst, und deine Meinung im Forum sagen.",
+    "goal_en": "Talk about news, social media and screen time, say what you are waiting for and annoyed by, and give your opinion in a forum.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the digital world"
+      },
+      {
+        "kind": "words",
+        "topic": "media and news"
+      },
+      {
+        "kind": "grammar",
+        "card": "verben-mit-praepositionen-da-wo"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I give my opinion and agree or disagree politely in German?",
+        "question_de": "Wie sage ich meine Meinung und stimme auf Deutsch höflich zu oder widerspreche?"
+      },
+      {
+        "kind": "read",
+        "topic": "the digital world"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "verben-mit-praepositionen-da-wo"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "verben-mit-praepositionen-da-wo"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "a discussion with a friend about whether children should have smartphones",
+        "situation_de": "eine Diskussion mit einer Freundin darüber, ob Kinder Smartphones haben sollten"
+      },
+      {
+        "kind": "write",
+        "task": "b1-forum-screen-time"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "verben-mit-praepositionen-da-wo"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b1-09",
+    "level": "B1",
+    "title_de": "Bildung und Lernen",
+    "title_en": "Education and learning",
+    "goal_de": "Über Schule, Ausbildung und deine Lernziele sprechen, deiner Lehrerin schreiben und Wünsche und irreale Bedingungen ausdrücken.",
+    "goal_en": "Talk about school, training and your learning goals, write to your teacher, and express wishes and unreal conditions.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "education"
+      },
+      {
+        "kind": "grammar",
+        "card": "konjunktiv-ii"
+      },
+      {
+        "kind": "grammar",
+        "card": "lassen"
+      },
+      {
+        "kind": "drill",
+        "category": "verbs"
+      },
+      {
+        "kind": "ask",
+        "question_en": "What is the difference between lernen, studieren and üben?",
+        "question_de": "Was ist der Unterschied zwischen lernen, studieren und üben?"
+      },
+      {
+        "kind": "read",
+        "topic": "education"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "konjunktiv-ii",
+          "lassen"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "konjunktiv-ii",
+          "lassen"
+        ]
+      },
+      {
+        "kind": "write",
+        "task": "b1-teacher-absent"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "konjunktiv-ii",
+          "lassen"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b1-10",
+    "level": "B1",
+    "title_de": "Umwelt, Feste und Gesellschaft",
+    "title_en": "Environment, festivals and society",
+    "goal_de": "Über Umwelt und Klimaschutz im Alltag diskutieren, Feste und Traditionen beschreiben und deine Argumente mit zweiteiligen Konnektoren verbinden.",
+    "goal_en": "Discuss the environment and everyday climate protection, describe festivals and traditions, and link your arguments with two-part connectors.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the environment"
+      },
+      {
+        "kind": "words",
+        "topic": "festivals and traditions"
+      },
+      {
+        "kind": "grammar",
+        "card": "zweiteilige-konnektoren"
+      },
+      {
+        "kind": "drill",
+        "category": "plural"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I say what I do for the environment in my everyday life?",
+        "question_de": "Wie sage ich, was ich im Alltag für die Umwelt tue?"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I talk about my own culture and compare it with life in Germany?",
+        "question_de": "Wie spreche ich über meine eigene Kultur und vergleiche sie mit dem Leben in Deutschland?"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How is the Goethe-Zertifikat B1 exam structured, and how do I prepare for it?",
+        "question_de": "Wie ist die Prüfung Goethe-Zertifikat B1 aufgebaut, und wie bereite ich mich darauf vor?"
+      },
+      {
+        "kind": "read",
+        "topic": "the environment"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "zweiteilige-konnektoren"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "zweiteilige-konnektoren"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "explaining a festival from your country to a German friend",
+        "situation_de": "einem deutschen Freund ein Fest aus deinem Land erklären"
+      },
+      {
+        "kind": "write",
+        "task": "b1-street-festival-message"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "zweiteilige-konnektoren"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b2-01",
+    "level": "B2",
+    "title_de": "Arbeitswelt und Bewerbung",
+    "title_en": "The world of work and applications",
+    "goal_de": "Dich im Vorstellungsgespräch präsentieren, eine Bewerbung schreiben und über Arbeitsbedingungen sprechen und darüber, was hätte anders laufen können.",
+    "goal_en": "Present yourself in a job interview, write an application, and talk about working conditions and what could have gone differently.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the workplace"
+      },
+      {
+        "kind": "grammar",
+        "card": "konjunktiv-ii-vergangenheit"
+      },
+      {
+        "kind": "drill",
+        "category": "sentence"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I structure a short presentation at work: opening, overview, main part, conclusion, questions?",
+        "question_de": "Wie baue ich eine kurze Präsentation bei der Arbeit auf: Einstieg, Überblick, Hauptteil, Schluss, Fragen?"
+      },
+      {
+        "kind": "read",
+        "topic": "the workplace"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "job_interview"
+        ],
+        "cards": [
+          "konjunktiv-ii-vergangenheit"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "job_interview"
+        ],
+        "cards": [
+          "konjunktiv-ii-vergangenheit"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "job_interview"
+      },
+      {
+        "kind": "write",
+        "task": "b2-application"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "konjunktiv-ii-vergangenheit"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b2-02",
+    "level": "B2",
+    "title_de": "Wohnen in der Stadt",
+    "title_en": "Living in the city",
+    "goal_de": "Eine Wohnung besichtigen, sie übergeben und über die Kaution sprechen, Stadt und Land vergleichen und Personen und Dinge mit Partizipien beschreiben.",
+    "goal_en": "View a flat, hand it back and discuss the deposit, compare city and countryside, and describe people and things with participles.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "city and countryside"
+      },
+      {
+        "kind": "grammar",
+        "card": "partizip-i-ii-als-adjektiv"
+      },
+      {
+        "kind": "drill",
+        "category": "article"
+      },
+      {
+        "kind": "read",
+        "topic": "city and countryside"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "flat_viewing",
+          "flat_handover",
+          "landlord_deposit_return"
+        ],
+        "cards": [
+          "partizip-i-ii-als-adjektiv"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "flat_viewing",
+          "flat_handover",
+          "landlord_deposit_return"
+        ],
+        "cards": [
+          "partizip-i-ii-als-adjektiv"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "flat_viewing"
+      },
+      {
+        "kind": "scene",
+        "scene": "flat_handover"
+      },
+      {
+        "kind": "scene",
+        "scene": "landlord_deposit_return"
+      },
+      {
+        "kind": "write",
+        "task": "b2-deposit-letter"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "partizip-i-ii-als-adjektiv"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b2-03",
+    "level": "B2",
+    "title_de": "Verbraucher und Verträge",
+    "title_en": "Consumers and contracts",
+    "goal_de": "Dich telefonisch und schriftlich über eine Rechnung, eine Lieferung oder einen Service beschweren und mit dem Passiv sagen, was gemacht werden muss, kann oder soll.",
+    "goal_en": "Complain about a bill, a delivery or a service by phone and in writing, and say what must, can or should be done with the passive.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the economy"
+      },
+      {
+        "kind": "grammar",
+        "card": "passiv-mit-modalverben"
+      },
+      {
+        "kind": "grammar",
+        "card": "passiv-werden-sein"
+      },
+      {
+        "kind": "drill",
+        "category": "prices"
+      },
+      {
+        "kind": "read",
+        "topic": "the economy"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "utility_bill",
+          "parcel_complaint"
+        ],
+        "cards": [
+          "passiv-mit-modalverben",
+          "passiv-werden-sein"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "utility_bill",
+          "parcel_complaint"
+        ],
+        "cards": [
+          "passiv-mit-modalverben",
+          "passiv-werden-sein"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "utility_bill"
+      },
+      {
+        "kind": "scene",
+        "scene": "parcel_complaint"
+      },
+      {
+        "kind": "write",
+        "task": "b2-course-complaint"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "passiv-mit-modalverben",
+          "passiv-werden-sein"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b2-04",
+    "level": "B2",
+    "title_de": "Technik und Digitalisierung",
+    "title_en": "Technology and digitalisation",
+    "goal_de": "Eine Störung melden, Vor- und Nachteile neuer Technik diskutieren und deinen Standpunkt in einem Forumsbeitrag begründen.",
+    "goal_en": "Report a fault, discuss the pros and cons of new technology, and argue your position in a forum post.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "technology"
+      },
+      {
+        "kind": "grammar",
+        "card": "konnektoren-indem-sodass-ohne-dass"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "ask",
+        "question_en": "What are the most important comma rules in German?",
+        "question_de": "Was sind die wichtigsten Kommaregeln im Deutschen?"
+      },
+      {
+        "kind": "read",
+        "topic": "technology"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "internet_hotline"
+        ],
+        "cards": [
+          "konnektoren-indem-sodass-ohne-dass"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "internet_hotline"
+        ],
+        "cards": [
+          "konnektoren-indem-sodass-ohne-dass"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "internet_hotline"
+      },
+      {
+        "kind": "write",
+        "task": "b2-forum-smartphones-school"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "konnektoren-indem-sodass-ohne-dass"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b2-05",
+    "level": "B2",
+    "title_de": "Migration und Zusammenleben",
+    "title_en": "Migration and living together",
+    "goal_de": "Einen Termin bei der Ausländerbehörde meistern, über Migration, Integration und Identität sprechen und mit Genitivpräpositionen Gründe nennen.",
+    "goal_en": "Handle an appointment at the immigration office, talk about migration, integration and identity, and give reasons with the prepositions that take the genitive.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "migration and integration"
+      },
+      {
+        "kind": "grammar",
+        "card": "genitivpraepositionen"
+      },
+      {
+        "kind": "drill",
+        "category": "sentence"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I talk about my experience of moving to a new country?",
+        "question_de": "Wie erzähle ich von meinen Erfahrungen beim Umzug in ein neues Land?"
+      },
+      {
+        "kind": "read",
+        "topic": "migration and integration"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "immigration_office",
+          "auslaenderbehoerde_extension"
+        ],
+        "cards": [
+          "genitivpraepositionen"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "immigration_office",
+          "auslaenderbehoerde_extension"
+        ],
+        "cards": [
+          "genitivpraepositionen"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "immigration_office"
+      },
+      {
+        "kind": "scene",
+        "scene": "auslaenderbehoerde_extension"
+      },
+      {
+        "kind": "write",
+        "task": "b2-integration-course-letter"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "genitivpraepositionen"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b2-06",
+    "level": "B2",
+    "title_de": "Gesellschaft und Politik",
+    "title_en": "Society and politics",
+    "goal_de": "Einer Diskussion über eine gesellschaftliche oder politische Frage folgen, Argumente dafür und dagegen vortragen und dich mit Relativsätzen genau auf Gesagtes beziehen.",
+    "goal_en": "Follow a discussion on a social or political question, present arguments for and against, and refer precisely to what was said with relative clauses.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "society and politics"
+      },
+      {
+        "kind": "grammar",
+        "card": "relativsaetze-praepositionen-wo-was"
+      },
+      {
+        "kind": "drill",
+        "category": "verbs"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I structure an argument in German: introduction, pros, cons, conclusion?",
+        "question_de": "Wie baue ich eine Argumentation auf Deutsch auf: Einleitung, Pro, Kontra, Fazit?"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I use dessen and deren in relative clauses?",
+        "question_de": "Wie benutze ich dessen und deren in Relativsätzen?"
+      },
+      {
+        "kind": "read",
+        "topic": "society and politics"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "relativsaetze-praepositionen-wo-was"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "relativsaetze-praepositionen-wo-was"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "a discussion with a neighbour about a new cycle lane in your street",
+        "situation_de": "eine Diskussion mit einem Nachbarn über einen neuen Radweg in eurer Straße"
+      },
+      {
+        "kind": "write",
+        "task": "b2-forum-voting-age"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "relativsaetze-praepositionen-wo-was"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b2-07",
+    "level": "B2",
+    "title_de": "Klima und Umwelt",
+    "title_en": "Climate and the environment",
+    "goal_de": "Über den Klimawandel diskutieren und darüber, was Einzelne und Regierungen tun können, Vermutungen über die Zukunft anstellen und einen Bericht mit Zahlen verstehen.",
+    "goal_en": "Discuss climate change and what individuals and governments can do, make assumptions about the future, and understand a report with figures.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "climate change"
+      },
+      {
+        "kind": "grammar",
+        "card": "futur-vermutung"
+      },
+      {
+        "kind": "drill",
+        "category": "numbers"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I describe a chart or statistics in German?",
+        "question_de": "Wie beschreibe ich eine Grafik oder Statistik auf Deutsch?"
+      },
+      {
+        "kind": "read",
+        "topic": "climate change"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "futur-vermutung"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "futur-vermutung"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "talking to a colleague about how your company could waste less",
+        "situation_de": "mit einem Kollegen darüber sprechen, wie eure Firma weniger verschwenden könnte"
+      },
+      {
+        "kind": "write",
+        "task": "b2-survey-report-email"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "futur-vermutung"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b2-08",
+    "level": "B2",
+    "title_de": "Psychologie und Persönlichkeit",
+    "title_en": "Psychology and personality",
+    "goal_de": "Charakter, Gefühle und Verhalten beschreiben, vergleichen, wie etwas wirkt und wie es ist, und mit Modalpartikeln abschwächen oder verstärken, was du sagst.",
+    "goal_en": "Describe character, feelings and behaviour, compare how things seem with how they are, and soften or sharpen what you say with modal particles.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "psychology and personality"
+      },
+      {
+        "kind": "grammar",
+        "card": "irreale-vergleiche-als-ob"
+      },
+      {
+        "kind": "grammar",
+        "card": "modalpartikeln"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "ask",
+        "question_en": "Which adjectives and nouns take a fixed preposition, like stolz auf, Angst vor, zufrieden mit?",
+        "question_de": "Welche Adjektive und Nomen haben eine feste Präposition, wie stolz auf, Angst vor, zufrieden mit?"
+      },
+      {
+        "kind": "read",
+        "topic": "psychology and personality"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "krankschreibung_hr"
+        ],
+        "cards": [
+          "irreale-vergleiche-als-ob",
+          "modalpartikeln"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "krankschreibung_hr"
+        ],
+        "cards": [
+          "irreale-vergleiche-als-ob",
+          "modalpartikeln"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "giving a friend advice about stress at work",
+        "situation_de": "einer Freundin Rat bei Stress im Beruf geben"
+      },
+      {
+        "kind": "scene",
+        "scene": "krankschreibung_hr"
+      },
+      {
+        "kind": "write",
+        "task": "b2-advice-for-friend"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "irreale-vergleiche-als-ob",
+          "modalpartikeln"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b2-09",
+    "level": "B2",
+    "title_de": "Kultur und Wissenschaft",
+    "title_en": "Culture and science",
+    "goal_de": "Über Bücher, Filme und Ausstellungen sprechen, eine wissenschaftliche Erkenntnis einfach erklären und wiedergeben, was andere gesagt haben.",
+    "goal_en": "Talk about books, films and exhibitions, explain a scientific finding in simple terms, and report what others said.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "culture and art"
+      },
+      {
+        "kind": "words",
+        "topic": "science"
+      },
+      {
+        "kind": "grammar",
+        "card": "konjunktiv-i-redewiedergabe"
+      },
+      {
+        "kind": "drill",
+        "category": "plural"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I tell a story in the Präteritum, like a fairy tale that begins with ‘Es war einmal’?",
+        "question_de": "Wie erzähle ich eine Geschichte im Präteritum, wie ein Märchen, das mit „Es war einmal“ beginnt?"
+      },
+      {
+        "kind": "read",
+        "topic": "culture and art"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "konjunktiv-i-redewiedergabe"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "konjunktiv-i-redewiedergabe"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "recommending a film or a book to a friend and explaining why",
+        "situation_de": "einer Freundin einen Film oder ein Buch empfehlen und erklären, warum"
+      },
+      {
+        "kind": "write",
+        "task": "b2-review-for-magazine"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "konjunktiv-i-redewiedergabe"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "b2-10",
+    "level": "B2",
+    "title_de": "Recht und Globalisierung",
+    "title_en": "Law and globalisation",
+    "goal_de": "Über Regeln, Kriminalität und Justiz sprechen, über Globalisierung und Handel diskutieren und einen Text klar zusammenfassen.",
+    "goal_en": "Talk about rules, crime and justice, discuss globalisation and trade, and summarise a text clearly.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "crime and justice"
+      },
+      {
+        "kind": "words",
+        "topic": "globalisation"
+      },
+      {
+        "kind": "grammar",
+        "card": "untrennbare-praefixe"
+      },
+      {
+        "kind": "drill",
+        "category": "verbs"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I write a clear summary of a text in German? Which phrases do I need?",
+        "question_de": "Wie schreibe ich eine klare Zusammenfassung eines Textes auf Deutsch? Welche Formulierungen brauche ich?"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How is the Goethe-Zertifikat B2 exam structured, and how do I prepare for it?",
+        "question_de": "Wie ist die Prüfung Goethe-Zertifikat B2 aufgebaut, und wie bereite ich mich darauf vor?"
+      },
+      {
+        "kind": "read",
+        "topic": "crime and justice"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "untrennbare-praefixe"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "untrennbare-praefixe"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "reporting a bicycle theft at the police station",
+        "situation_de": "einen Fahrraddiebstahl bei der Polizei anzeigen"
+      },
+      {
+        "kind": "write",
+        "task": "b2-article-summary-group"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "untrennbare-praefixe"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c1-01",
+    "level": "C1",
+    "title_de": "Arbeit und Verhandlung",
+    "title_en": "Work and negotiation",
+    "goal_de": "Dein Gehalt verhandeln, gegenüber der Geschäftsleitung schriftlich eine Position vertreten und zwischen Nominal- und Verbalstil wechseln.",
+    "goal_en": "Negotiate your salary, argue a position to management in writing, and move between nominal and verbal style.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the world of work"
+      },
+      {
+        "kind": "grammar",
+        "card": "nominalstil-verbalstil"
+      },
+      {
+        "kind": "drill",
+        "category": "sentence"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I express regret, criticise constructively and apologise in formal German at work?",
+        "question_de": "Wie drücke ich Bedauern aus, übe konstruktiv Kritik und entschuldige mich im formellen Deutsch am Arbeitsplatz?"
+      },
+      {
+        "kind": "read",
+        "topic": "the world of work"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "salary_negotiation"
+        ],
+        "cards": [
+          "nominalstil-verbalstil"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "salary_negotiation"
+        ],
+        "cards": [
+          "nominalstil-verbalstil"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "salary_negotiation"
+      },
+      {
+        "kind": "write",
+        "task": "c1-statement-management"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "nominalstil-verbalstil"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c1-02",
+    "level": "C1",
+    "title_de": "Wohnen und Recht",
+    "title_en": "Housing and the law",
+    "goal_de": "Dich zu einer Mieterhöhung beraten lassen, Rechts- und Verwaltungssprache verstehen und Relativsätze zu Partizipialattributen verkürzen.",
+    "goal_en": "Get advice on a rent increase, understand legal and administrative language, and shorten relative clauses into participle attributes.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "law and bureaucracy"
+      },
+      {
+        "kind": "grammar",
+        "card": "partizipialattribut"
+      },
+      {
+        "kind": "drill",
+        "category": "article"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I read an official letter from a German authority? What do the typical phrases mean?",
+        "question_de": "Wie lese ich ein Schreiben einer deutschen Behörde? Was bedeuten die typischen Formulierungen?"
+      },
+      {
+        "kind": "ask",
+        "question_en": "Which verbs take the genitive, like bedürfen, gedenken, sich erfreuen, and where do they appear?",
+        "question_de": "Welche Verben stehen mit dem Genitiv, wie bedürfen, gedenken, sich erfreuen, und wo kommen sie vor?"
+      },
+      {
+        "kind": "read",
+        "topic": "law and bureaucracy"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "rent_increase",
+          "kita_platz_amt"
+        ],
+        "cards": [
+          "partizipialattribut"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "rent_increase",
+          "kita_platz_amt"
+        ],
+        "cards": [
+          "partizipialattribut"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "rent_increase"
+      },
+      {
+        "kind": "scene",
+        "scene": "kita_platz_amt"
+      },
+      {
+        "kind": "write",
+        "task": "c1-rent-increase-objection"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "partizipialattribut"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c1-03",
+    "level": "C1",
+    "title_de": "Politik und Medien",
+    "title_en": "Politics and the media",
+    "goal_de": "Politische Debatten und Nachrichtenanalysen verfolgen, Behauptungen und Vermutungen mit subjektiven Modalverben wiedergeben und einen Leserbrief schreiben.",
+    "goal_en": "Follow political debate and news analysis, report claims and assumptions with the subjective modal verbs, and write a letter to the editor.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "politics and the media"
+      },
+      {
+        "kind": "grammar",
+        "card": "subjektive-modalverben"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "read",
+        "topic": "politics and the media"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "town_hall_traffic"
+        ],
+        "cards": [
+          "subjektive-modalverben"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "town_hall_traffic"
+        ],
+        "cards": [
+          "subjektive-modalverben"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "town_hall_traffic"
+      },
+      {
+        "kind": "write",
+        "task": "c1-letter-to-editor"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "subjektive-modalverben"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c1-04",
+    "level": "C1",
+    "title_de": "Forschung und Wissenschaft",
+    "title_en": "Research and science",
+    "goal_de": "Wissenschaftliche Texte und Vorträge verstehen, Ergebnisse und Zahlen präsentieren und die Passiversatzformen der Wissenschaftssprache verwenden.",
+    "goal_en": "Understand academic texts and talks, present findings and figures, and use the passive alternatives of scientific German.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "research and science"
+      },
+      {
+        "kind": "grammar",
+        "card": "passiversatz"
+      },
+      {
+        "kind": "drill",
+        "category": "numbers"
+      },
+      {
+        "kind": "read",
+        "topic": "research and science"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "bank_fraud_call"
+        ],
+        "cards": [
+          "passiversatz"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "bank_fraud_call"
+        ],
+        "cards": [
+          "passiversatz"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "presenting the results of a survey to your team and taking questions",
+        "situation_de": "deinem Team die Ergebnisse einer Umfrage vorstellen und Fragen beantworten"
+      },
+      {
+        "kind": "scene",
+        "scene": "bank_fraud_call"
+      },
+      {
+        "kind": "write",
+        "task": "c1-graph-commuting"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "passiversatz"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c1-05",
+    "level": "C1",
+    "title_de": "Umwelt und Energie",
+    "title_en": "Environment and energy",
+    "goal_de": "Differenziert über Energiepolitik und Umwelt diskutieren, längere Argumentationen mit Textkonnektoren gliedern und Positionen gegeneinander abwägen.",
+    "goal_en": "Discuss energy policy and the environment with nuance, structure longer arguments with text connectors, and weigh up positions.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the environment and energy"
+      },
+      {
+        "kind": "grammar",
+        "card": "textkonnektoren-kohaerenz"
+      },
+      {
+        "kind": "drill",
+        "category": "verbs"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I weigh up two positions and come to a conclusion in German?",
+        "question_de": "Wie wäge ich zwei Positionen gegeneinander ab und komme auf Deutsch zu einem Fazit?"
+      },
+      {
+        "kind": "read",
+        "topic": "the environment and energy"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "textkonnektoren-kohaerenz"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "textkonnektoren-kohaerenz"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "a panel discussion on wind turbines near your village",
+        "situation_de": "eine Podiumsdiskussion über Windräder in der Nähe eures Dorfes"
+      },
+      {
+        "kind": "write",
+        "task": "c1-wind-farm-statement"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "textkonnektoren-kohaerenz"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c1-06",
+    "level": "C1",
+    "title_de": "Literatur und Künste",
+    "title_en": "Literature and the arts",
+    "goal_de": "Über Literatur, Film und Kunst sprechen, mit Partizipialsätzen beschreiben, wie etwas geschah, und Stil und Atmosphäre eines Werks benennen.",
+    "goal_en": "Talk about literature, film and the arts, describe how something happened with participle clauses, and put the style and atmosphere of a work into words.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "literature and the arts"
+      },
+      {
+        "kind": "grammar",
+        "card": "partizipialsaetze"
+      },
+      {
+        "kind": "drill",
+        "category": "plural"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I describe the style and atmosphere of a book or film in German?",
+        "question_de": "Wie beschreibe ich Stil und Atmosphäre eines Buches oder Films auf Deutsch?"
+      },
+      {
+        "kind": "read",
+        "topic": "literature and the arts"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "partizipialsaetze"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "partizipialsaetze"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "discussing a novel at a book club",
+        "situation_de": "in einem Lesekreis über einen Roman diskutieren"
+      },
+      {
+        "kind": "write",
+        "task": "c1-letter-about-novel"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "partizipialsaetze"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c1-07",
+    "level": "C1",
+    "title_de": "Gesellschaft im Wandel",
+    "title_en": "A changing society",
+    "goal_de": "Über demografischen Wandel und künstliche Intelligenz diskutieren, wiedergeben, was Fachleute sagen, und komplexe Zusammenhänge klar erklären.",
+    "goal_en": "Discuss demographic change and artificial intelligence, report what experts say, and explain complex connections clearly.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "demographic change"
+      },
+      {
+        "kind": "words",
+        "topic": "artificial intelligence"
+      },
+      {
+        "kind": "grammar",
+        "card": "konjunktiv-i-redewiedergabe"
+      },
+      {
+        "kind": "drill",
+        "category": "sentence"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I discuss migration and integration policy with nuance, weighing figures against experience?",
+        "question_de": "Wie diskutiere ich differenziert über Migrations- und Integrationspolitik und wäge Zahlen gegen Erfahrungen ab?"
+      },
+      {
+        "kind": "read",
+        "topic": "demographic change"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "jobcenter_appointment"
+        ],
+        "cards": [
+          "konjunktiv-i-redewiedergabe"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "jobcenter_appointment"
+        ],
+        "cards": [
+          "konjunktiv-i-redewiedergabe"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "a radio interview about how your profession will change with AI",
+        "situation_de": "ein Radiointerview darüber, wie sich dein Beruf durch KI verändern wird"
+      },
+      {
+        "kind": "scene",
+        "scene": "jobcenter_appointment"
+      },
+      {
+        "kind": "write",
+        "task": "c1-report-ai-at-work"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "konjunktiv-i-redewiedergabe"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c1-08",
+    "level": "C1",
+    "title_de": "Zukunft gestalten",
+    "title_en": "Shaping the future",
+    "goal_de": "Über die Zukunft von Verkehr, Städten und Sozialstaat diskutieren, einen Vorschlag formell präsentieren und auf Einwände eingehen.",
+    "goal_en": "Discuss the future of transport, cities and the welfare state, present a proposal formally, and respond to objections.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "mobility of the future"
+      },
+      {
+        "kind": "words",
+        "topic": "the welfare state"
+      },
+      {
+        "kind": "drill",
+        "category": "verbs"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I make a formal proposal in a meeting and respond to objections?",
+        "question_de": "Wie mache ich in einer Besprechung einen formellen Vorschlag und reagiere auf Einwände?"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How are the Goethe-Zertifikat C1 and the TestDaF structured, and how do I prepare for them?",
+        "question_de": "Wie sind das Goethe-Zertifikat C1 und der TestDaF aufgebaut, und wie bereite ich mich darauf vor?"
+      },
+      {
+        "kind": "read",
+        "topic": "mobility of the future"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "nominalstil-verbalstil",
+          "textkonnektoren-kohaerenz"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "nominalstil-verbalstil",
+          "textkonnektoren-kohaerenz"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "presenting a car-free city centre plan to a sceptical shop owner",
+        "situation_de": "einem skeptischen Ladenbesitzer einen Plan für eine autofreie Innenstadt vorstellen"
+      },
+      {
+        "kind": "write",
+        "task": "c1-proposal-car-free-centre"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "nominalstil-verbalstil",
+          "textkonnektoren-kohaerenz"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c2-01",
+    "level": "C2",
+    "title_de": "Wissenschaft in der Öffentlichkeit",
+    "title_en": "Science in public",
+    "goal_de": "Einer Journalistin deine eigene Forschung erklären, Paronyme präzise unterscheiden und kritische Fragen souverän beantworten.",
+    "goal_en": "Explain your own research to a journalist, distinguish near-synonyms precisely, and handle critical questions with ease.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "medicine and bioethics"
+      },
+      {
+        "kind": "grammar",
+        "card": "paronyme-scheinbar-anscheinend"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "read",
+        "topic": "medicine and bioethics"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "press_interview_study"
+        ],
+        "cards": [
+          "paronyme-scheinbar-anscheinend"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "press_interview_study"
+        ],
+        "cards": [
+          "paronyme-scheinbar-anscheinend"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "press_interview_study"
+      },
+      {
+        "kind": "write",
+        "task": "c2-email-journalist-research"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "paronyme-scheinbar-anscheinend"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c2-02",
+    "level": "C2",
+    "title_de": "Verhandeln und Verträge",
+    "title_en": "Negotiating and contracts",
+    "goal_de": "Einen Vertrag Klausel für Klausel verhandeln, die Funktionsverbgefüge der Wirtschaftssprache natürlich verwenden und einer Entscheidung schriftlich widersprechen.",
+    "goal_en": "Negotiate a contract clause by clause, use the light-verb constructions of business German naturally, and object in writing to a decision.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "finance and markets"
+      },
+      {
+        "kind": "grammar",
+        "card": "funktionsverbgefuege"
+      },
+      {
+        "kind": "drill",
+        "category": "sentence"
+      },
+      {
+        "kind": "read",
+        "topic": "finance and markets"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "publishing_contract"
+        ],
+        "cards": [
+          "funktionsverbgefuege"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "publishing_contract"
+        ],
+        "cards": [
+          "funktionsverbgefuege"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "publishing_contract"
+      },
+      {
+        "kind": "write",
+        "task": "c2-objection-bank-fees"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "funktionsverbgefuege"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c2-03",
+    "level": "C2",
+    "title_de": "Behörden und Einspruch",
+    "title_en": "Authorities and objections",
+    "goal_de": "Beim Finanzamt Einspruch einlegen, Verwaltungsdeutsch lesen und schreiben und die gehobenen Präpositionen formeller Texte verwenden.",
+    "goal_en": "Lodge an objection at the tax office, read and write administrative German, and use the elevated prepositions of formal texts.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "economic policy"
+      },
+      {
+        "kind": "grammar",
+        "card": "gehobene-praepositionen"
+      },
+      {
+        "kind": "drill",
+        "category": "article"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I lodge a formal objection (Einspruch or Widerspruch), and which phrases does it need?",
+        "question_de": "Wie lege ich formell Einspruch oder Widerspruch ein, und welche Formulierungen gehören dazu?"
+      },
+      {
+        "kind": "read",
+        "topic": "economic policy"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "tax_office_objection",
+          "mietminderung_verwaltung"
+        ],
+        "cards": [
+          "gehobene-praepositionen"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "tax_office_objection",
+          "mietminderung_verwaltung"
+        ],
+        "cards": [
+          "gehobene-praepositionen"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "tax_office_objection"
+      },
+      {
+        "kind": "scene",
+        "scene": "mietminderung_verwaltung"
+      },
+      {
+        "kind": "write",
+        "task": "c2-tax-office-objection"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "gehobene-praepositionen"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c2-04",
+    "level": "C2",
+    "title_de": "Register und Stil",
+    "title_en": "Register and style",
+    "goal_de": "Für jede Situation das passende Register wählen, vom formellen Einspruch bis zum Plausch, und Stilbrüche erkennen und vermeiden.",
+    "goal_en": "Choose the right register for any situation, from a formal objection to a chat, and recognise and avoid a clash of styles.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "language and linguistics"
+      },
+      {
+        "kind": "grammar",
+        "card": "stilebenen-register"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I make the same request in three registers: to a friend, a colleague and an authority?",
+        "question_de": "Wie formuliere ich dieselbe Bitte in drei Registern: an einen Freund, einen Kollegen und eine Behörde?"
+      },
+      {
+        "kind": "read",
+        "topic": "language and linguistics"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "stilebenen-register"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "stilebenen-register"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "a conversation with an editor about the tone of your article",
+        "situation_de": "ein Gespräch mit einer Redakteurin über den Ton deines Artikels"
+      },
+      {
+        "kind": "write",
+        "task": "c2-style-guide-email"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "stilebenen-register"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c2-05",
+    "level": "C2",
+    "title_de": "Erzählen und Erinnern",
+    "title_en": "Narrating and remembering",
+    "goal_de": "Geschichten erzählen und analysieren, die Erzähltempora und die erlebte Rede verwenden und über Geschichte und Erinnerung diskutieren.",
+    "goal_en": "Tell and analyse stories, use the narrative tenses and free indirect speech, and discuss history and remembrance.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "history and remembrance"
+      },
+      {
+        "kind": "grammar",
+        "card": "erzaehltempora-erlebte-rede"
+      },
+      {
+        "kind": "drill",
+        "category": "verbs"
+      },
+      {
+        "kind": "read",
+        "topic": "history and remembrance"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "erzaehltempora-erlebte-rede"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "erzaehltempora-erlebte-rede"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "a conversation with your grandmother's neighbour about how the town has changed since the 1960s",
+        "situation_de": "ein Gespräch mit dem Nachbarn deiner Großmutter darüber, wie sich die Stadt seit den 1960er-Jahren verändert hat"
+      },
+      {
+        "kind": "write",
+        "task": "c2-family-chronicle-letter"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "erzaehltempora-erlebte-rede"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c2-06",
+    "level": "C2",
+    "title_de": "Argumentieren und Rhetorik",
+    "title_en": "Arguing and rhetoric",
+    "goal_de": "Eine lückenlose Argumentation aufbauen, „es“ als Platzhalter und Korrelat präzise einsetzen und eine Stellungnahme als Experte schreiben.",
+    "goal_en": "Build a watertight argument, use 'es' as placeholder and correlate with precision, and write an expert statement.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "rhetoric and argumentation"
+      },
+      {
+        "kind": "grammar",
+        "card": "es-als-platzhalter-korrelat"
+      },
+      {
+        "kind": "drill",
+        "category": "sentence"
+      },
+      {
+        "kind": "ask",
+        "question_en": "Which rhetorical devices work in German speeches, and how do I use them without sounding pompous?",
+        "question_de": "Welche rhetorischen Mittel wirken in deutschen Reden, und wie setze ich sie ein, ohne gestelzt zu klingen?"
+      },
+      {
+        "kind": "read",
+        "topic": "rhetoric and argumentation"
+      },
+      {
+        "kind": "listen",
+        "scenes": [
+          "kuendigungsgespraech"
+        ],
+        "cards": [
+          "es-als-platzhalter-korrelat"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [
+          "kuendigungsgespraech"
+        ],
+        "cards": [
+          "es-als-platzhalter-korrelat"
+        ]
+      },
+      {
+        "kind": "scene",
+        "scene": "kuendigungsgespraech"
+      },
+      {
+        "kind": "write",
+        "task": "c2-expert-statement-council"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "es-als-platzhalter-korrelat"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c2-07",
+    "level": "C2",
+    "title_de": "Kunst und Kritik",
+    "title_en": "Art and criticism",
+    "goal_de": "Eine Ausstellung, ein Buch oder eine Aufführung rezensieren, Ausklammerung und Nachfeld gezielt zur Betonung nutzen und feine Nuancen des Urteils ausdrücken.",
+    "goal_en": "Review an exhibition, a book or a performance, use the Nachfeld and extraposition for emphasis, and express fine shades of judgement.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "the arts and criticism"
+      },
+      {
+        "kind": "grammar",
+        "card": "nachfeld-ausklammerung"
+      },
+      {
+        "kind": "drill",
+        "category": "plural"
+      },
+      {
+        "kind": "read",
+        "topic": "the arts and criticism"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "nachfeld-ausklammerung"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "nachfeld-ausklammerung"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "defending your harsh review to the director of the theatre",
+        "situation_de": "deine harsche Kritik gegenüber der Intendantin des Theaters verteidigen"
+      },
+      {
+        "kind": "write",
+        "task": "c2-open-letter-museum"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "nachfeld-ausklammerung"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "c2-08",
+    "level": "C2",
+    "title_de": "Philosophie und Diplomatie",
+    "title_en": "Philosophy and diplomacy",
+    "goal_de": "Ethische Fragen und internationale Beziehungen präzise und taktvoll diskutieren und Argumente aus mehreren Quellen gegeneinander abwägen.",
+    "goal_en": "Discuss ethical questions and international relations with precision and tact, and weigh up arguments from several sources.",
+    "steps": [
+      {
+        "kind": "words",
+        "topic": "philosophy and ethics"
+      },
+      {
+        "kind": "words",
+        "topic": "diplomacy and international relations"
+      },
+      {
+        "kind": "drill",
+        "category": "meaning"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How do I disagree with someone diplomatically in German without sounding weak?",
+        "question_de": "Wie widerspreche ich auf Deutsch diplomatisch, ohne schwach zu wirken?"
+      },
+      {
+        "kind": "ask",
+        "question_en": "How is the Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) structured, and how do I prepare for it?",
+        "question_de": "Wie ist das Goethe-Zertifikat C2 (Großes Deutsches Sprachdiplom) aufgebaut, und wie bereite ich mich darauf vor?"
+      },
+      {
+        "kind": "read",
+        "topic": "philosophy and ethics"
+      },
+      {
+        "kind": "listen",
+        "scenes": [],
+        "cards": [
+          "stilebenen-register",
+          "gehobene-praepositionen",
+          "es-als-platzhalter-korrelat"
+        ]
+      },
+      {
+        "kind": "speak",
+        "scenes": [],
+        "cards": [
+          "stilebenen-register",
+          "gehobene-praepositionen",
+          "es-als-platzhalter-korrelat"
+        ]
+      },
+      {
+        "kind": "ownScene",
+        "situation_en": "mediating between two colleagues who disagree about a project",
+        "situation_de": "zwischen zwei Kollegen vermitteln, die sich über ein Projekt uneinig sind"
+      },
+      {
+        "kind": "write",
+        "task": "c2-briefing-ethics-council"
+      },
+      {
+        "kind": "check",
+        "cards": [
+          "stilebenen-register",
+          "gehobene-praepositionen",
+          "es-als-platzhalter-korrelat"
+        ]
+      }
+    ]
+  }
 ]

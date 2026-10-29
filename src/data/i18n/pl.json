@@ -1972,6 +1972,252 @@
         "Samo odwołanie nie odracza płatności, ale może pan złożyć wniosek o wstrzymanie wykonania decyzji; wtedy dopłata w wysokości 1240 euro zostaje odroczona do czasu rozstrzygnięcia. Mam od razu dołączyć ten wniosek?",
         "Z doświadczenia: około sześciu do ośmiu tygodni od wpłynięcia dokumentów. Mam przesłać panu potwierdzenie wpływu pocztą czy elektronicznie?"
       ]
+    },
+    "doctor_reception": {
+      "situation": "umawianie wizyty w rejestracji przychodni",
+      "role": "rejestratorka",
+      "learner": "pacjent",
+      "facts": [
+        "Najbliższy termin",
+        "Co zabrać",
+        "Przyjście",
+        "Godziny przyjęć"
+      ],
+      "opening": "Gabinet doktora Webera, dzień dobry. W czym mogę pomóc?",
+      "beats": [
+        "Przykro mi to słyszeć. Najbliższy wolny termin jest w czwartek o 10, czy to panu odpowiada?",
+        "Proszę zabrać kartę ubezpieczenia zdrowotnego. Jak się pan nazywa?",
+        "Proszę przyjść 10 minut wcześniej, wtedy wypełni pan formularz. Ma pan jeszcze jakieś pytanie?"
+      ]
+    },
+    "lost_wallet_police": {
+      "situation": "zgłaszanie zgubionego portfela na policji",
+      "role": "policjant",
+      "learner": "obywatelka",
+      "facts": [
+        "Zgłoszenie",
+        "Karta bankowa",
+        "Dowód osobisty",
+        "Biuro rzeczy znalezionych"
+      ],
+      "opening": "Dzień dobry. W czym mogę pomóc?",
+      "beats": [
+        "To przykra sprawa. Przyjmiemy zgłoszenie, jest bezpłatne i trwa około 15 minut; zablokowała już pani kartę bankową?",
+        "Proszę od razu zadzwonić na infolinię blokowania kart 116 116, działa całą dobę. Gdzie widziała pani portfel po raz ostatni?",
+        "O nowy dowód osobisty wnioskuje pani w urzędzie (Bürgeramt). Proszę też po 3 dniach zapytać w biurze rzeczy znalezionych; mam pani zapisać adres?"
+      ]
+    },
+    "kita_elternabend": {
+      "situation": "rozmowa z wychowawczynią z przedszkola o własnym dziecku",
+      "role": "wychowawczyni",
+      "learner": "ojciec",
+      "facts": [
+        "Adaptacja",
+        "Niemiecki",
+        "Wycieczka",
+        "Godzina odbioru"
+      ],
+      "opening": "Dobrze, że pan przyszedł, panie Nowak. Jak Lena czuje się w domu?",
+      "beats": [
+        "Adaptacja zakończyła się po 4 tygodniach; Lena chętnie przychodzi rano i dużo bawi się z innymi dziećmi. Czy ma pan wrażenie, że również językowo czuje się dobrze?",
+        "Rozumie już bardzo dużo, a mówi jeszcze mało, co przy dwóch językach jest zupełnie normalne. Czyta jej pan w domu w swoim języku?",
+        "W piątek jedziemy do zoo, kosztuje to 5 euro, a Lena potrzebuje plecaka ze śniadaniówką. Czy może pan odebrać ją tego dnia najpóźniej o 16:30?"
+      ]
+    },
+    "pharmacy_advice": {
+      "situation": "zasięganie porady o leku w aptece",
+      "role": "aptekarz",
+      "learner": "klientka",
+      "facts": [
+        "Dawkowanie",
+        "Najwyżej",
+        "Cena",
+        "Uwaga"
+      ],
+      "opening": "Dzień dobry. W czym mogę pomóc?",
+      "beats": [
+        "Na to mamy lek wykrztuśny; przyjmuje pani jedną tabletkę 3 razy dziennie po posiłku. Czy przyjmuje pani obecnie jakieś inne leki?",
+        "Najwyżej 5 dni bez konsultacji z lekarzem; jeśli do tego czasu nie będzie lepiej, proszę pójść do lekarza. Czy ma pani też gorączkę?",
+        "Kosztuje 8,95 euro i jest bez recepty. Czy mogę jeszcze dodać, że w trakcie kuracji nie powinna pani pić alkoholu?"
+      ]
+    },
+    "deutschlandticket_counter": {
+      "situation": "wykupienie abonamentu Deutschlandticket przy okienku",
+      "role": "pracownik",
+      "learner": "klientka",
+      "facts": [
+        "Cena",
+        "Ważność",
+        "Wypowiedzenie",
+        "Bilet"
+      ],
+      "opening": "Dzień dobry, proszę usiąść. W czym mogę pomóc?",
+      "beats": [
+        "Deutschlandticket kosztuje 58 euro miesięcznie i jest abonamentem. Woli go pani w aplikacji czy jako kartę chipową?",
+        "Nie, obowiązuje w całych Niemczech w transporcie lokalnym, czyli w autobusach, tramwajach i pociągach regionalnych, ale nie w pociągach ICE i IC. Ma pani przy sobie zdjęcie paszportowe do karty chipowej?",
+        "Może pani wypowiedzieć umowę co miesiąc, zawsze do 10. dnia miesiąca ze skutkiem na jego koniec, online albo tutaj w okienku. Mam uruchomić abonament od pierwszego dnia przyszłego miesiąca?"
+      ]
+    },
+    "neighbour_noise": {
+      "situation": "rozmowa z sąsiadem o hałasie w nocy",
+      "role": "sąsiad",
+      "learner": "sąsiadka",
+      "facts": [
+        "Cisza nocna",
+        "Powód",
+        "Propozycja",
+        "Impreza"
+      ],
+      "opening": "O, dzień dobry, pani Yilmaz. Chciała pani ze mną porozmawiać?",
+      "beats": [
+        "Naprawdę mi przykro; pracuję na zmiany i wracam do domu dopiero o 23:00, więc pewnie jestem za głośno. Co dokładnie pani słyszy?",
+        "Ma pani rację, cisza nocna obowiązuje od 22:00 do 6:00. Od teraz będę zdejmował buty przy drzwiach i położę dywan w przedpokoju; czy to by pani odpowiadało?",
+        "W sobotę mam urodziny i świętuję do północy; chciałem panią o tym uprzedzić. Może miałaby pani ochotę wpaść na drinka?"
+      ]
+    },
+    "auslaenderbehoerde_extension": {
+      "situation": "przedłużanie Aufenthaltstitel (zezwolenia na pobyt) w urzędzie ds. cudzoziemców",
+      "role": "urzędniczka prowadząca sprawę",
+      "learner": "wnioskodawca",
+      "facts": [
+        "Dokumenty",
+        "Opłata",
+        "Do czasu decyzji",
+        "Rozpatrywanie",
+        "Brakujące dokumenty"
+      ],
+      "opening": "Dzień dobry, panie Haddad. Chce pan przedłużyć swój Aufenthaltstitel, zgadza się?",
+      "beats": [
+        "W takim razie potrzebuję pana paszportu, umowy o pracę, ostatnich 3 odcinków wypłaty, umowy najmu i potwierdzenia ubezpieczenia zdrowotnego. Ma pan wszystko przy sobie?",
+        "To żaden problem, może pan przesłać to e-mailem; proszę przy tym podać swoją sygnaturę akt. Czy zapłaci pan dziś opłatę 98 euro kartą?",
+        "Rozpatrywanie trwa około 8 tygodni, nowa karta przychodzi pocztą, a do czasu decyzji otrzymuje pan dziś Fiktionsbescheinigung (zaświadczenie tymczasowe), na podstawie którego pana pobyt i praca pozostają dozwolone. Czy od ostatniego wniosku zmieniło się coś w pana pracy?"
+      ]
+    },
+    "landlord_deposit_return": {
+      "situation": "domaganie się zwrotu kaucji po wyprowadzce",
+      "role": "zarządca nieruchomości",
+      "learner": "była lokatorka",
+      "facts": [
+        "Kaucja",
+        "Potrącenie",
+        "Termin",
+        "Protokół zdawczo-odbiorczy",
+        "Przelew"
+      ],
+      "opening": "Administracja nieruchomości Krüger, mówi Lehmann. W czym mogę pomóc?",
+      "beats": [
+        "Mam tu pani akta: kaucja wynosi 2.400 euro plus odsetki, a protokół zdawczo-odbiorczy został podpisany przez obie strony bez odnotowanych usterek. Czy wie pani, że część możemy zatrzymać do rozliczenia opłat eksploatacyjnych?",
+        "Zatrzymujemy 600 euro do rozliczenia opłat eksploatacyjnych; wypłata reszty w ciągu 6 miesięcy od wyprowadzki jest przyjętą praktyką. Czy podała nam już pani nowe dane bankowe?",
+        "W takim razie zlecę przelew 1.800 euro do końca miesiąca; rozliczenie pozostałych 600 euro otrzyma pani następnie na piśmie. Mam przesłać pani potwierdzenie e-mailem?"
+      ]
+    },
+    "krankschreibung_hr": {
+      "situation": "rozmowa z działem kadr o dłuższym zwolnieniu lekarskim",
+      "role": "specjalistka ds. kadr",
+      "learner": "pracownik",
+      "facts": [
+        "Wynagrodzenie chorobowe",
+        "Potem",
+        "Zwolnienie",
+        "Powrót",
+        "Kontakt"
+      ],
+      "opening": "Dzień dobry, panie Okafor, dobrze, że pan dzwoni. Jak się pan czuje?",
+      "beats": [
+        "Pracodawca wypłaca pana wynagrodzenie dalej przez 6 tygodni; potem przejmuje to kasa chorych, wypłacając zasiłek chorobowy w wysokości około 70 procent wynagrodzenia brutto. Czy kasa chorych już do pana w tej sprawie napisała?",
+        "Zwolnienie przychodzi od lekarza elektronicznie; musi pan tylko nas poinformować, a kolejne zwolnienie jest potrzebne najpóźniej w następnym dniu roboczym po wygaśnięciu poprzedniego. Czy rozmawiał pan już z lekarzem o tym, kiedy mógłby pan wrócić?",
+        "Tak, stopniowy powrót do pracy jest możliwy; lekarz zakładowy uzgadnia plan z pana lekarzem, a termin ustalamy tutaj w dziale kadr. Czy spotkanie z lekarzem zakładowym w przyszłym tygodniu by panu odpowiadało?"
+      ]
+    },
+    "bank_fraud_call": {
+      "situation": "reklamowanie nieautoryzowanego obciążenia w banku",
+      "role": "doradca bankowy",
+      "learner": "klientka",
+      "facts": [
+        "Obciążenie",
+        "Karta",
+        "Zwrot środków",
+        "Zgłoszenie na policję",
+        "Odpowiedzialność"
+      ],
+      "opening": "Dzień dobry, z tej strony Brandt z obsługi klienta. W czym mogę pomóc?",
+      "beats": [
+        "Widzę tę transakcję: 489,90 euro dla sklepu internetowego w Portugalii; właśnie zablokowałem pani kartę, nową otrzyma pani w ciągu 5 dni roboczych. Czy wpisywała pani ostatnio dane karty na jakiejś stronie albo potwierdzała je przez link?",
+        "Wypełni pani formularz reklamacyjny, który zaraz pani wyślę; termin wynosi 8 tygodni od daty księgowania, a warunkowy zwrot środków następuje w ciągu 10 dni. Czy byłaby pani gotowa złożyć dodatkowo zawiadomienie na policji?",
+        "Zgłoszenie jest zalecane; proszę przekazać nam potem sygnaturę sprawy, a pani odpowiedzialność wynosi najwyżej 50 euro, chyba że doszło do rażącego niedbalstwa, na przykład przekazania komuś PIN-u. Mam wysłać pani formularz e-mailem czy pocztą?"
+      ]
+    },
+    "jobcenter_appointment": {
+      "situation": "rozmowa doradcza o dokształcaniu w urzędzie pracy",
+      "role": "doradca",
+      "learner": "klientka",
+      "facts": [
+        "Bildungsgutschein",
+        "Kurs",
+        "Utrzymanie",
+        "Wymóg",
+        "Następny krok"
+      ],
+      "opening": "Pani Petrova, dzień dobry. Zaznaczyła pani, że chciałaby pani zmienić kierunek zawodowy; co pani sobie wyobraża?",
+      "beats": [
+        "Na przekwalifikowanie na specjalistkę IT, 24 miesiące w pełnym wymiarze u certyfikowanego organizatora, w grę wchodzi Bildungsgutschein (bon edukacyjny); pokrywa on w całości opłaty za kurs, pod warunkiem że wniosek zostanie złożony przed rozpoczęciem kursu. Jaką wiedzę z zakresu IT już pani ma?",
+        "Pani zasiłek dla bezrobotnych jest wypłacany dalej w trakcie szkolenia, a dodatkowo otrzymuje pani 150 euro miesięcznie dodatku szkoleniowego. Czy może pani wykazać znajomość niemieckiego na poziomie B2? Organizator tego wymaga.",
+        "W takim razie proszę zrobić test predyspozycji u organizatora i złożyć u nas jego kosztorys; o Bildungsgutschein decydujemy w ciągu 2 tygodni. Czy umówiła już pani termin testu predyspozycji?"
+      ]
+    },
+    "kita_platz_amt": {
+      "situation": "domaganie się miejsca w żłobku w urzędzie ds. młodzieży (Jugendamt)",
+      "role": "urzędniczka prowadząca sprawę",
+      "learner": "matka",
+      "facts": [
+        "Prawo do miejsca",
+        "Czas oczekiwania",
+        "Alternatywa",
+        "Środek prawny",
+        "Priorytet"
+      ],
+      "opening": "Dzień dobry, pani Alvarez. Prosiła pani o rozmowę w sprawie miejsca w żłobku dla syna; jaka jest sytuacja?",
+      "beats": [
+        "Prawo do miejsca przysługuje od pierwszych urodzin, a pani wniosek został złożony w terminie, z 6-miesięcznym wyprzedzeniem; jednak czas oczekiwania w pani dzielnicy wynosi obecnie od 4 do 9 miesięcy. Czy złożyła już pani zaświadczenie, że oboje rodzice pracują?",
+        "Zaświadczenie podnosi pani priorytet, a jako alternatywę mogę zaproponować opiekunkę dzienną za te same opłaty, choć z około 30 minutami dojazdu. Czy byłoby to dla pani rozwiązanie na okres przejściowy?",
+        "Po 3 miesiącach bez decyzji przysługuje pani Untätigkeitsklage (skarga na bezczynność urzędu), a koszty prywatnej opieki, które ponosi pani z powodu braku miejsca, mogą zostać zwrócone, o ile je pani udokumentuje. Czy mam zestawić dla pani te kroki na piśmie?"
+      ]
+    },
+    "mietminderung_verwaltung": {
+      "situation": "egzekwowanie obniżki czynszu z powodu pleśni wobec zarządcy nieruchomości",
+      "role": "zarządca nieruchomości",
+      "learner": "najemca",
+      "facts": [
+        "Zgłoszenie usterki",
+        "Przyczyna",
+        "Obniżka",
+        "Naprawa",
+        "Eskalacja"
+      ],
+      "opening": "Panie Lindqvist, dzień dobry, proszę usiąść. Chciał pan porozmawiać o pleśni w sypialni i swoim żądaniu obniżki, prawda?",
+      "beats": [
+        "Mam pana zgłoszenie z 3 września wraz ze zdjęciami, a ekspertyza potwierdza mostek termiczny w ścianie zewnętrznej, co wyklucza błąd w wietrzeniu z pana strony. Właścicielka oferuje panu obniżkę o 10 procent czynszu brutto od daty zgłoszenia; czy byłoby to dla pana do przyjęcia?",
+        "Przyjmuję do wiadomości pana żądanie 15 procent czynszu brutto od daty zgłoszenia i przedstawię je właścicielce wraz z ekspertyzą, ale nie mogę dziś dać panu wiążącej obietnicy. Czy byłby pan gotów znieść remont polegający na ociepleniu zewnętrznym od 1 listopada, mimo że potrwa 3 tygodnie?",
+        "Włączenie stowarzyszenia lokatorów (Mieterverein) i zapowiedź zatrzymania kolejnych 10 procent to pana dobre prawo; radzę tylko odkładać te kwoty osobno, dopóki sprawa się nie wyjaśni. Czy mogę przesłać panu decyzję właścicielki na piśmie do końca przyszłego tygodnia?"
+      ]
+    },
+    "kuendigungsgespraech": {
+      "situation": "rozmowa o rozstaniu z pracodawcą i negocjowanie porozumienia o rozwiązaniu umowy",
+      "role": "dyrektor zarządzająca",
+      "learner": "pracownik",
+      "facts": [
+        "Powód",
+        "Oferta",
+        "Okres wypowiedzenia",
+        "Karencja zasiłku",
+        "Kontrpropozycja"
+      ],
+      "opening": "Panie Fischer, dziękuję, że pan przyszedł. Nie będę owijać w bawełnę: pana dział zostaje zamknięty z końcem roku i dotyczy to również pana stanowiska. Jak pan to odbiera?",
+      "beats": [
+        "Wypowiedzenie byłoby z przyczyn dotyczących zakładu pracy; zamiast tego oferujemy panu porozumienie o rozwiązaniu umowy z odprawą w wysokości 0,5 miesięcznej pensji za każdy rok przy 9 latach stażu. Czy mogę od razu dać panu projekt do zabrania?",
+        "Ma pan rację, przy porozumieniu o rozwiązaniu umowy możliwa jest 12-tygodniowa karencja zasiłku; zwykłe wypowiedzenie z 4-miesięcznym okresem wypowiedzenia na koniec miesiąca i zwolnieniem z obowiązku świadczenia pracy pozwoliłoby tego uniknąć, ale bez odprawy. Która z tych dwóch opcji bardziej panu odpowiada?",
+        "0,75 miesięcznej pensji za każdy rok, bardzo dobre świadectwo pracy i 1 tydzień do namysłu – uważam to za uczciwe ramy i w takiej formie zaproponuję to radzie. Czy mogę pana prosić o zachowanie do tego czasu poufności wobec zespołu?"
+      ]
     }
   },
   "rules": {
@@ -3112,7 +3358,25 @@
     "Elfenbeinturm": "wieża z kości słoniowej",
     "Verschlimmbesserung": "ulepszenie na gorsze, nieudana poprawka",
     "Torschlusspanik": "lęk przed przegapieniem ostatniej szansy",
-    "Schlupfloch": "luka prawna, furtka"
+    "Schlupfloch": "luka prawna, furtka",
+    "Bäckerei": "piekarnia",
+    "Geburtstag": "urodziny",
+    "Ampel": "sygnalizacja świetlna, światła",
+    "Apotheke": "apteka",
+    "Spielplatz": "plac zabaw",
+    "Tankstelle": "stacja benzynowa",
+    "Geldautomat": "bankomat",
+    "Kaution": "kaucja",
+    "Mülltrennung": "segregacja śmieci",
+    "Mindestlohn": "płaca minimalna",
+    "Elternzeit": "urlop rodzicielski",
+    "Rechtsstaat": "państwo prawa",
+    "Zuständigkeit": "właściwość, kompetencja (urzędu)",
+    "Vollmacht": "pełnomocnictwo",
+    "Gleichberechtigung": "równouprawnienie",
+    "Deutungshoheit": "monopol na interpretację, władza interpretacyjna",
+    "Treppenwitz": "spóźniona riposta; ironia historii",
+    "Hemmschwelle": "próg zahamowania, bariera psychiczna"
   },
   "levels": {
     "A1": {
@@ -3818,6 +4082,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3936,6 +4201,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4024,6 +4290,7 @@
         null,
         "spotkanie po latach ze starym znajomym ze szkoły i nadrabianie zaległości",
         null,
+        null,
         null
       ]
     },
@@ -4057,6 +4324,7 @@
         null,
         "rozmowa z sąsiadem o hałasie późnym wieczorem",
         null,
+        null,
         null
       ]
     },
@@ -4073,6 +4341,7 @@
         null,
         null,
         "rozmowa z lekarzem o bólu pleców od siedzenia przy biurku",
+        null,
         null,
         null
       ]
@@ -4112,6 +4381,7 @@
       "title": "Mobilność i podróże",
       "goal": "Załatwić naprawę samochodu i poradzić sobie z utraconym połączeniem, złożyć reklamację w hotelu oraz opowiedzieć, co działo się przed podróżą, w jej trakcie i po niej.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4207,6 +4477,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4251,6 +4522,7 @@
         null,
         null,
         "Jak opowiedzieć o swoich doświadczeniach z przeprowadzki do nowego kraju?",
+        null,
         null,
         null,
         null,
@@ -4305,6 +4577,7 @@
         null,
         null,
         "doradzanie znajomemu w sprawie stresu w pracy",
+        null,
         null,
         null
       ]
@@ -4374,6 +4647,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4403,6 +4677,7 @@
         null,
         null,
         "prezentowanie zespołowi wyników ankiety i odpowiadanie na pytania",
+        null,
         null,
         null
       ]
@@ -4452,6 +4727,7 @@
         null,
         null,
         "wywiad radiowy o tym, jak twój zawód zmieni się pod wpływem AI",
+        null,
         null,
         null
       ]
@@ -4516,6 +4792,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4558,6 +4835,7 @@
         null,
         null,
         "Jakie środki retoryczne działają w niemieckich przemówieniach i jak ich używać, nie brzmiąc napuszenie?",
+        null,
         null,
         null,
         null,

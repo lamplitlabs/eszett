@@ -1382,6 +1382,23 @@
         "The screening starts at 8 pm. Did you know the film is shown in German with English subtitles?"
       ]
     },
+    "doctor_reception": {
+      "situation": "making an appointment at the doctor's reception",
+      "role": "the receptionist",
+      "learner": "the patient",
+      "facts": [
+        "Next appointment",
+        "Bring",
+        "Arrival",
+        "Opening hours"
+      ],
+      "opening": "Dr Weber's practice, good day. What can I do for you?",
+      "beats": [
+        "I'm sorry to hear that. The next free appointment is on Thursday at 10, does that suit you?",
+        "Please bring your health insurance card. What is your name?",
+        "Please come 10 minutes early, then you fill in a form. Do you have any other question?"
+      ]
+    },
     "return_item": {
       "situation": "returning an item of clothing",
       "role": "the shop assistant",
@@ -1613,6 +1630,23 @@
         "No, that's covered by the insurance with no co-payment. Afterwards please don't eat for two hours; do you have any questions?"
       ]
     },
+    "lost_wallet_police": {
+      "situation": "reporting a lost wallet at the police station",
+      "role": "the police officer",
+      "learner": "the citizen",
+      "facts": [
+        "Report",
+        "Bank card",
+        "ID card",
+        "Lost property office"
+      ],
+      "opening": "Good day. How can I help you?",
+      "beats": [
+        "That's annoying. We'll take a report, it's free and takes about 15 minutes; have you already blocked the bank card?",
+        "Call the blocking hotline 116 116 right away, it works around the clock. Where did you last see the wallet?",
+        "You apply for a new ID card at the citizens' office. Also ask at the lost property office after 3 days; shall I write the address down for you?"
+      ]
+    },
     "mobile_cancel": {
       "situation": "cancelling a mobile phone contract",
       "role": "the customer-service agent",
@@ -1720,6 +1754,74 @@
         "Your ticket remains valid, the train restriction is lifted. Are you travelling through to Hamburg today?",
         "From 60 minutes' delay at your destination you get 25 percent of the fare back. Would you like to take the passenger-rights form with you now?",
         "Yes, I'll confirm the delay for you here on the form. Do you have any other question about your onward journey?"
+      ]
+    },
+    "kita_elternabend": {
+      "situation": "talking to the nursery teacher about your child",
+      "role": "the nursery teacher",
+      "learner": "the father",
+      "facts": [
+        "Settling in",
+        "German",
+        "Outing",
+        "Pick-up time"
+      ],
+      "opening": "Good to see you, Mr Nowak. How is Lena doing at home?",
+      "beats": [
+        "Settling in was completed after 4 weeks; Lena comes happily in the mornings and plays a lot with the other children. Do you feel she is comfortable with the language too?",
+        "She already understands a great deal and still speaks little, which is completely normal with two languages. Do you read to her at home in your language?",
+        "On Friday we're going to the zoo, it costs 5 euros, and Lena needs a backpack with a lunch box. Can you pick her up by 16:30 at the latest that day?"
+      ]
+    },
+    "pharmacy_advice": {
+      "situation": "getting advice on a medicine at the pharmacy",
+      "role": "the pharmacist",
+      "learner": "the customer",
+      "facts": [
+        "Dosage",
+        "At most",
+        "Price",
+        "Caution"
+      ],
+      "opening": "Good day. How can I help you?",
+      "beats": [
+        "For that we have an expectorant; you take one tablet 3 times a day after meals. Are you taking any other medicines at the moment?",
+        "At most 5 days without medical advice; if it's no better by then, please see a doctor. Do you have a fever as well?",
+        "It costs 8.95 euros and needs no prescription. May I also tell you that you shouldn't drink alcohol while taking it?"
+      ]
+    },
+    "deutschlandticket_counter": {
+      "situation": "subscribing to a Deutschlandticket at the counter",
+      "role": "the clerk",
+      "learner": "the customer",
+      "facts": [
+        "Price",
+        "Valid",
+        "Cancellation",
+        "Ticket"
+      ],
+      "opening": "Good day, take a seat. What can I do for you?",
+      "beats": [
+        "The Deutschlandticket costs 58 euros a month and is a subscription. Would you like it in the app or as a chip card?",
+        "No, it's valid nationwide on local transport, i.e. buses, trams and regional trains, but not on ICE and IC trains. Do you have a passport photo for the chip card with you?",
+        "You can cancel monthly, always by the 10th for the end of the month, online or here at the counter. Shall I start the subscription on the first of next month?"
+      ]
+    },
+    "neighbour_noise": {
+      "situation": "talking to a neighbour about noise at night",
+      "role": "the neighbour",
+      "learner": "the neighbour",
+      "facts": [
+        "Quiet hours",
+        "Reason",
+        "Offer",
+        "Party"
+      ],
+      "opening": "Oh, hello Ms Yilmaz. Did you want to talk to me?",
+      "beats": [
+        "I'm genuinely sorry; I work shifts and only get home at 23:00, so I'm probably too loud. What exactly do you hear?",
+        "You're right, quiet hours are from 22:00 to 6:00. From now on I'll take my shoes off at the door and put a rug in the hallway; would that be all right for you?",
+        "It's my birthday on Saturday and I'm celebrating until midnight; I wanted to let you know beforehand. Would you perhaps like to come by for a drink?"
       ]
     },
     "job_interview": {
@@ -1856,6 +1958,60 @@
         "Then call back with ticket number ST-2093 and we'll send a technician on Friday between 8 and 12. Does that time window work for you?"
       ]
     },
+    "auslaenderbehoerde_extension": {
+      "situation": "extending a residence permit at the immigration office",
+      "role": "the case officer",
+      "learner": "the applicant",
+      "facts": [
+        "Documents",
+        "Fee",
+        "Until the decision",
+        "Processing",
+        "Missing documents"
+      ],
+      "opening": "Good day, Mr Haddad. You'd like to extend your residence permit, correct?",
+      "beats": [
+        "Then I need your passport, the employment contract, the last 3 payslips, the rental contract and proof of health insurance. Do you have everything with you?",
+        "That's no problem, you can send it by email; please quote your file number when you do. Will you pay the 98 euro fee by card today?",
+        "Processing takes about 8 weeks, the new card comes by post, and until the decision you receive a provisional certificate today under which your stay and your work remain permitted. Has your job changed since the last application?"
+      ]
+    },
+    "landlord_deposit_return": {
+      "situation": "asking for the deposit back after moving out",
+      "role": "the property manager",
+      "learner": "the former tenant",
+      "facts": [
+        "Deposit",
+        "Retention",
+        "Deadline",
+        "Handover record",
+        "Transfer"
+      ],
+      "opening": "Krüger property management, Lehmann speaking. What can I do for you?",
+      "beats": [
+        "I have your file here: the deposit is 2,400 euros plus interest, and the handover record was signed by both sides with no defects noted. Are you aware that we may retain part of it until the service charge statement?",
+        "We retain 600 euros until the service charge statement; paying out the rest within 6 months of moving out is customary. Have you already given us your new bank details?",
+        "Then I'll arrange the transfer of 1,800 euros by the end of the month; you'll then receive the statement for the remaining 600 euros in writing. Shall I send you the confirmation by email?"
+      ]
+    },
+    "krankschreibung_hr": {
+      "situation": "talking to HR about a longer sick leave",
+      "role": "the HR officer",
+      "learner": "the employee",
+      "facts": [
+        "Continued pay",
+        "Afterwards",
+        "Certificate",
+        "Return",
+        "Contact"
+      ],
+      "opening": "Good day, Mr Okafor, good of you to call. How are you?",
+      "beats": [
+        "The employer continues paying your salary for 6 weeks; after that the health insurer takes over with sick pay, which is about 70 percent of gross salary. Has your insurer already written to you about this?",
+        "The certificate comes electronically from the doctor; you only need to inform us, and a follow-up certificate is needed by the next working day after the old one expires at the latest. Have you already spoken with your doctor about when you might return?",
+        "Yes, a gradual return to work is possible; the company doctor coordinates the plan with your doctor, and we arrange the appointment here in HR. Would a meeting with the company doctor next week suit you?"
+      ]
+    },
     "salary_negotiation": {
       "situation": "a salary negotiation in the annual review",
       "role": "the head of department",
@@ -1911,6 +2067,60 @@
         "It is true that 120 parking spaces will go; in return, a neighbourhood multi-storey car park will be built at the station. Would you use such an option?",
         "Yes, line 7 will run every ten minutes in future, also at the weekend. Would that be sufficient for your journeys?",
         "Construction is planned to start in spring and the works will take about 18 months. The planning office accepts objections in writing until 30 September – may I give you the form to take with you?"
+      ]
+    },
+    "bank_fraud_call": {
+      "situation": "disputing an unauthorised debit with the bank",
+      "role": "the bank adviser",
+      "learner": "the customer",
+      "facts": [
+        "Debit",
+        "Card",
+        "Chargeback",
+        "Police report",
+        "Liability"
+      ],
+      "opening": "Good day, this is Mr Brandt from customer service. What can I do for you?",
+      "beats": [
+        "I can see the transaction: 489.90 euros to an online retailer in Portugal, and I've just blocked your card; you'll receive the replacement within 5 working days. Have you entered your card details on a website or confirmed them via a link recently?",
+        "You fill in the dispute form, which I'll send you right away; the deadline is 8 weeks from the booking date, and the provisional credit is made within 10 days. Would you be willing to file a police report as well?",
+        "The report is recommended; please forward the case number to us, and your liability is at most 50 euros unless there was gross negligence, such as a PIN passed on to others. Would you like me to send you the form by email or by post?"
+      ]
+    },
+    "jobcenter_appointment": {
+      "situation": "an advisory meeting about further training at the employment agency",
+      "role": "the adviser",
+      "learner": "the client",
+      "facts": [
+        "Training voucher",
+        "Course",
+        "Living costs",
+        "Requirement",
+        "Next step"
+      ],
+      "opening": "Ms Petrova, good day. You indicated that you'd like to reorient yourself professionally; what do you have in mind?",
+      "beats": [
+        "For retraining as an IT specialist, 24 months full-time with a certified provider, a training voucher is an option; it covers the course fees in full, provided it is applied for before the course starts. What prior IT knowledge do you bring?",
+        "Your unemployment benefit continues during the training, and in addition you receive 150 euros a month in training allowance. Can you prove German at level B2? The provider requires that.",
+        "Then take the aptitude test at the provider and submit their cost estimate to us; we decide on the training voucher within 2 weeks. Have you already arranged a date for the aptitude test?"
+      ]
+    },
+    "kita_platz_amt": {
+      "situation": "pressing the youth welfare office for a nursery place",
+      "role": "the case officer",
+      "learner": "the mother",
+      "facts": [
+        "Legal entitlement",
+        "Waiting time",
+        "Alternative",
+        "Remedy",
+        "Priority"
+      ],
+      "opening": "Good day, Ms Alvarez. You asked for a meeting about the childcare place for your son; what is the situation?",
+      "beats": [
+        "The legal entitlement applies from the first birthday, and your application was submitted in time with 6 months' notice; however, the waiting time in your district is currently 4 to 9 months. Have you already submitted proof that both parents are employed?",
+        "The proof raises your priority, and as an alternative I can offer you a childminder at the same fees, though with about 30 minutes' travel. Would that be a solution for you for the interim?",
+        "After 3 months without a decision, an action for failure to act is open to you, and private childcare costs you incur because of the missing place can be reimbursed, provided you document them. Would you like me to put the steps together for you in writing?"
       ]
     },
     "press_interview_study": {
@@ -1971,6 +2181,42 @@
         "The simplest way is via the ELSTER online portal, but you can also send them by post, as long as they arrive before the deadline. Do you already have access to the portal?",
         "The objection by itself does not postpone the payment, but you can apply for suspension of enforcement; then the additional payment of 1,240 euros is deferred until the decision. Shall I include the application right away?",
         "From experience, about six to eight weeks after receipt of the documents. Shall I send you the confirmation of receipt by post or electronically?"
+      ]
+    },
+    "mietminderung_verwaltung": {
+      "situation": "asserting a rent reduction for mould against the property management",
+      "role": "the property manager",
+      "learner": "the tenant",
+      "facts": [
+        "Defect notice",
+        "Cause",
+        "Reduction",
+        "Repair",
+        "Escalation"
+      ],
+      "opening": "Mr Lindqvist, good day, do sit down. You wanted to talk about the mould in the bedroom and your reduction claim, didn't you?",
+      "beats": [
+        "I have your notice of 3 September with the photos, and the survey confirms the thermal bridge in the outer wall, which rules out a ventilation error on your part. The owner offers you a reduction of 10 percent of the gross rent from the date of notice; would that be acceptable to you?",
+        "I note your claim of 15 percent of the gross rent from the notice date and will put it to the owner together with the survey, but I cannot give you a commitment today. Would you be prepared to tolerate the repair through external insulation from 1 November, even though it will take 3 weeks?",
+        "Involving the tenants' association and announcing the retention of a further 10 percent is your right; I would only advise you to set the amounts aside separately until the matter is settled. May I send you the owner's decision in writing by the end of next week?"
+      ]
+    },
+    "kuendigungsgespraech": {
+      "situation": "a separation meeting with the employer, negotiating a termination agreement",
+      "role": "the managing director",
+      "learner": "the employee",
+      "facts": [
+        "Reason",
+        "Offer",
+        "Notice period",
+        "Benefit suspension",
+        "Counter-proposal"
+      ],
+      "opening": "Mr Fischer, thank you for coming. I won't beat about the bush: your department is being closed at the end of the year, and that affects your position too. How do you feel about that?",
+      "beats": [
+        "The dismissal would be for operational reasons; instead we offer you a termination agreement with severance of 0.5 months' salary per year for 9 years of service. May I give you the draft to take with you right away?",
+        "You're right, with a termination agreement a 12-week benefit suspension is possible; an ordinary dismissal with the 4-month notice period to the end of the month and release from work would avoid that, though without severance. Which of the two options appeals to you more?",
+        "0.75 months' salary per year, a very good reference and 1 week to consider it, I consider that a fair framework, which I will propose to the board as such. May I ask you to keep the arrangement confidential from the team until then?"
       ]
     }
   },
@@ -3112,7 +3358,25 @@
     "Elfenbeinturm": "ivory tower",
     "Verschlimmbesserung": "a change for the worse meant as an improvement",
     "Torschlusspanik": "fear of missing the boat (last-minute panic)",
-    "Schlupfloch": "loophole"
+    "Schlupfloch": "loophole",
+    "Bäckerei": "bakery",
+    "Geburtstag": "birthday",
+    "Ampel": "traffic light",
+    "Apotheke": "pharmacy",
+    "Spielplatz": "playground",
+    "Tankstelle": "petrol station",
+    "Geldautomat": "cash machine",
+    "Kaution": "deposit",
+    "Mülltrennung": "waste separation",
+    "Mindestlohn": "minimum wage",
+    "Elternzeit": "parental leave",
+    "Rechtsstaat": "rule of law",
+    "Zuständigkeit": "responsibility, competence (of an office)",
+    "Vollmacht": "power of attorney",
+    "Gleichberechtigung": "equal rights",
+    "Deutungshoheit": "interpretive authority",
+    "Treppenwitz": "belated witty comeback; irony of history",
+    "Hemmschwelle": "inhibition threshold"
   },
   "levels": {
     "A1": {
@@ -3818,6 +4082,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3936,6 +4201,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4024,6 +4290,7 @@
         null,
         "catching up with an old school friend you have not seen for years",
         null,
+        null,
         null
       ]
     },
@@ -4057,6 +4324,7 @@
         null,
         "a conversation with a neighbour about noise late at night",
         null,
+        null,
         null
       ]
     },
@@ -4073,6 +4341,7 @@
         null,
         null,
         "talking to a doctor about back pain from sitting at a desk",
+        null,
         null,
         null
       ]
@@ -4112,6 +4381,7 @@
       "title": "Mobility and travel",
       "goal": "Deal with a car repair and a missed connection, complain at a hotel, and tell what happened before, during and after a trip.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4207,6 +4477,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4251,6 +4522,7 @@
         null,
         null,
         "How do I talk about my experience of moving to a new country?",
+        null,
         null,
         null,
         null,
@@ -4305,6 +4577,7 @@
         null,
         null,
         "giving a friend advice about stress at work",
+        null,
         null,
         null
       ]
@@ -4374,6 +4647,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4403,6 +4677,7 @@
         null,
         null,
         "presenting the results of a survey to your team and taking questions",
+        null,
         null,
         null
       ]
@@ -4452,6 +4727,7 @@
         null,
         null,
         "a radio interview about how your profession will change with AI",
+        null,
         null,
         null
       ]
@@ -4516,6 +4792,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4558,6 +4835,7 @@
         null,
         null,
         "Which rhetorical devices work in German speeches, and how do I use them without sounding pompous?",
+        null,
         null,
         null,
         null,

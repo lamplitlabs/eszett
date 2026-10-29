@@ -1,5 +1,5 @@
 import { router, useLocalSearchParams } from 'expo-router';
-import { BookOpenText, ChevronRight, Grid3x3, MessagesSquare, Swords, WholeWord } from 'lucide-react-native';
+import { BookOpenText, ChevronRight, Drama, Grid3x3, MessagesSquare, Swords, WholeWord } from 'lucide-react-native';
 import { useState } from 'react';
 import { ScrollView, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -114,6 +114,7 @@ export default function TogetherHub() {
           <Paper style={{ padding: 0, overflow: 'hidden' }}>
             <GameRow first title={t('together.duelTitle')} detail={t('together.duelDetail')} icon={Swords} tone="die" tint="dieTint" onPress={() => router.push({ pathname: '/together/duel', params: { level } })} />
             <GameRow title={t('together.tabooTitle')} detail={t('together.tabooDetail')} icon={MessagesSquare} tone="der" tint="derTint" onPress={() => router.push({ pathname: '/together/taboo', params: { level } })} />
+            <GameRow title={t('together.whoamiTitle')} detail={t('together.whoamiDetail')} icon={Drama} tone="green" tint="greenTint" onPress={() => router.push({ pathname: '/together/whoami', params: { level } })} />
             <GameRow title={t('together.storyTitle')} detail={t('together.storyDetail')} icon={BookOpenText} tone="das" tint="dasTint" onPress={() => router.push({ pathname: '/together/story', params: { level } })} />
             <GameRow
               title={t('together.scrabbleTitle')}

@@ -1972,6 +1972,252 @@
         "L’opposizione da sola non rinvia il pagamento, ma può chiedere la sospensione dell’esecuzione; in tal caso il conguaglio di 1.240 euro viene differito fino alla decisione. Devo inserire subito anche la domanda?",
         "Per esperienza, da sei a otto settimane circa dal ricevimento dei documenti. Le mando la conferma di ricezione per posta o per via elettronica?"
       ]
+    },
+    "doctor_reception": {
+      "situation": "prendere un appuntamento alla reception dello studio medico",
+      "role": "la segretaria dello studio medico",
+      "learner": "il paziente",
+      "facts": [
+        "Prossimo appuntamento",
+        "Da portare",
+        "Arrivo",
+        "Orario di ambulatorio"
+      ],
+      "opening": "Studio del dottor Weber, buongiorno. Cosa posso fare per lei?",
+      "beats": [
+        "Mi dispiace. Il prossimo appuntamento libero è giovedì alle 10, le va bene?",
+        "Porti la tessera sanitaria, per favore. Come si chiama?",
+        "Venga 10 minuti prima, per favore, così compila un modulo. Ha qualche altra domanda?"
+      ]
+    },
+    "lost_wallet_police": {
+      "situation": "denunciare lo smarrimento di un portafoglio al commissariato",
+      "role": "il poliziotto",
+      "learner": "la cittadina",
+      "facts": [
+        "Denuncia",
+        "Carta bancaria",
+        "Carta d’identità",
+        "Oggetti smarriti"
+      ],
+      "opening": "Buongiorno. Come posso aiutarla?",
+      "beats": [
+        "Che seccatura. Raccogliamo la denuncia, è gratuita e richiede circa 15 minuti; ha già bloccato la carta bancaria?",
+        "Chiami subito il numero per il blocco 116 116, è attivo 24 ore su 24. Dove ha visto il portafoglio l’ultima volta?",
+        "La nuova carta d’identità la richiede all’ufficio anagrafe. Chieda anche all’ufficio oggetti smarriti dopo 3 giorni; le scrivo l’indirizzo?"
+      ]
+    },
+    "kita_elternabend": {
+      "situation": "parlare della propria figlia con l’educatrice dell’asilo nido",
+      "role": "l’educatrice",
+      "learner": "il padre",
+      "facts": [
+        "Inserimento",
+        "Tedesco",
+        "Gita",
+        "Orario di uscita"
+      ],
+      "opening": "Che piacere vederla, signor Nowak. Come sta Lena a casa?",
+      "beats": [
+        "L’inserimento si è concluso dopo 4 settimane; Lena viene volentieri la mattina e gioca molto con gli altri bambini. Ha l’impressione che si senta a suo agio anche con la lingua?",
+        "Capisce già moltissimo e parla ancora poco, il che è del tutto normale con due lingue. Le legge qualcosa a casa nella vostra lingua?",
+        "Venerdì andiamo allo zoo, costa 5 euro, e Lena ha bisogno di uno zainetto con il portamerenda. Quel giorno può venire a prenderla entro le 16:30 al più tardi?"
+      ]
+    },
+    "pharmacy_advice": {
+      "situation": "farsi consigliare un farmaco in farmacia",
+      "role": "il farmacista",
+      "learner": "la cliente",
+      "facts": [
+        "Posologia",
+        "Al massimo",
+        "Prezzo",
+        "Attenzione"
+      ],
+      "opening": "Buongiorno. Come posso aiutarla?",
+      "beats": [
+        "Per questo abbiamo un mucolitico; ne prende una compressa 3 volte al giorno dopo i pasti. Sta prendendo altri farmaci al momento?",
+        "Al massimo 5 giorni senza parere medico; se entro allora non migliora, vada dal medico, per favore. Ha anche la febbre?",
+        "Costa 8,95 euro e non serve la ricetta. Posso anche dirle che non dovrebbe bere alcol durante l’assunzione?"
+      ]
+    },
+    "deutschlandticket_counter": {
+      "situation": "sottoscrivere un Deutschlandticket allo sportello",
+      "role": "l’impiegato",
+      "learner": "la cliente",
+      "facts": [
+        "Prezzo",
+        "Validità",
+        "Disdetta",
+        "Biglietto"
+      ],
+      "opening": "Buongiorno, si accomodi. Cosa posso fare per lei?",
+      "beats": [
+        "Il Deutschlandticket costa 58 euro al mese ed è un abbonamento. Lo vuole nell’app o come tessera con chip?",
+        "No, vale in tutta la Germania sul trasporto locale, cioè autobus, tram e treni regionali, ma non sui treni ICE e IC. Ha con sé una fototessera per la tessera con chip?",
+        "Può disdire ogni mese, sempre entro il 10 per la fine del mese, online o qui allo sportello. Faccio partire l’abbonamento dal primo del mese prossimo?"
+      ]
+    },
+    "neighbour_noise": {
+      "situation": "parlare con un vicino del rumore di notte",
+      "role": "il vicino",
+      "learner": "la vicina",
+      "facts": [
+        "Silenzio notturno",
+        "Motivo",
+        "Proposta",
+        "Festa"
+      ],
+      "opening": "Ah, buongiorno signora Yilmaz. Voleva parlarmi?",
+      "beats": [
+        "Mi dispiace davvero; lavoro su turni e torno a casa solo alle 23:00, quindi probabilmente faccio troppo rumore. Cosa sente esattamente?",
+        "Ha ragione, il silenzio notturno va dalle 22:00 alle 6:00. D’ora in poi mi toglierò le scarpe alla porta e metterò un tappeto in corridoio; le andrebbe bene?",
+        "Sabato è il mio compleanno e festeggio fino a mezzanotte; volevo avvisarla prima. Le andrebbe di passare per un bicchiere?"
+      ]
+    },
+    "auslaenderbehoerde_extension": {
+      "situation": "rinnovare il permesso di soggiorno all’ufficio immigrazione",
+      "role": "la funzionaria",
+      "learner": "il richiedente",
+      "facts": [
+        "Documenti",
+        "Tassa",
+        "Fino alla decisione",
+        "Elaborazione",
+        "Documenti mancanti"
+      ],
+      "opening": "Buongiorno, signor Haddad. Vuole rinnovare il suo permesso di soggiorno, giusto?",
+      "beats": [
+        "Allora mi servono il passaporto, il contratto di lavoro, le ultime 3 buste paga, il contratto d’affitto e l’attestazione dell’assicurazione sanitaria. Ha tutto con sé?",
+        "Non è un problema, può inviarlo via e-mail; indichi però il suo numero di pratica, per favore. Paga oggi la tassa di 98 euro con la carta?",
+        "L’elaborazione richiede circa 8 settimane, la nuova carta arriva per posta e, fino alla decisione, oggi riceve un certificato provvisorio con cui il suo soggiorno e il suo lavoro restano consentiti. La sua situazione lavorativa è cambiata dall’ultima domanda?"
+      ]
+    },
+    "landlord_deposit_return": {
+      "situation": "chiedere la restituzione della cauzione dopo il trasloco",
+      "role": "l’amministratore dell’immobile",
+      "learner": "l’ex inquilina",
+      "facts": [
+        "Cauzione",
+        "Trattenuta",
+        "Termine",
+        "Verbale di riconsegna",
+        "Bonifico"
+      ],
+      "opening": "Amministrazione immobiliare Krüger, sono Lehmann. Cosa posso fare per lei?",
+      "beats": [
+        "Ho qui la sua pratica: la cauzione è di 2.400 euro più gli interessi, e il verbale di riconsegna è stato firmato da entrambe le parti senza difetti rilevati. Sa che possiamo trattenerne una parte fino al conguaglio delle spese condominiali?",
+        "Tratteniamo 600 euro fino al conguaglio delle spese condominiali; il pagamento del resto entro 6 mesi dal trasloco è la prassi. Ci ha già comunicato le sue nuove coordinate bancarie?",
+        "Allora dispongo il bonifico di 1.800 euro entro la fine del mese; il conteggio dei restanti 600 euro lo riceverà poi per iscritto. Le mando la conferma via e-mail?"
+      ]
+    },
+    "krankschreibung_hr": {
+      "situation": "parlare con le risorse umane di una malattia lunga",
+      "role": "l’addetta alle risorse umane",
+      "learner": "il dipendente",
+      "facts": [
+        "Mantenimento dello stipendio",
+        "Dopo",
+        "Certificato",
+        "Rientro",
+        "Referente"
+      ],
+      "opening": "Buongiorno, signor Okafor, grazie per la chiamata. Come sta?",
+      "beats": [
+        "Il datore di lavoro continua a pagarle lo stipendio per 6 settimane; dopo subentra l’assicurazione sanitaria con l’indennità di malattia, che è circa il 70 per cento dello stipendio lordo. La sua assicurazione le ha già scritto in proposito?",
+        "Il certificato arriva per via elettronica dal medico; lei deve solo avvisarci, e un certificato di continuazione serve al più tardi il giorno lavorativo successivo alla scadenza del precedente. Ha già parlato con il suo medico della data del rientro?",
+        "Sì, un reinserimento graduale al lavoro è possibile; il medico aziendale concorda il piano con il suo medico, e l’appuntamento lo fissiamo qui, alle risorse umane. Le andrebbe bene un colloquio con il medico aziendale la settimana prossima?"
+      ]
+    },
+    "bank_fraud_call": {
+      "situation": "contestare un addebito non autorizzato con la banca",
+      "role": "il consulente bancario",
+      "learner": "la cliente",
+      "facts": [
+        "Addebito",
+        "Carta",
+        "Storno",
+        "Denuncia",
+        "Responsabilità"
+      ],
+      "opening": "Buongiorno, sono il signor Brandt del servizio clienti. Cosa posso fare per lei?",
+      "beats": [
+        "Vedo l’operazione: 489,90 euro a un rivenditore online in Portogallo, e ho appena bloccato la sua carta; la carta sostitutiva le arriverà entro 5 giorni lavorativi. Ha inserito di recente i dati della carta su un sito web o li ha confermati tramite un link?",
+        "Lei compila il modulo di contestazione, che le invio subito; il termine è di 8 settimane dalla data di contabilizzazione, e l’accredito provvisorio avviene entro 10 giorni. Sarebbe disposta a sporgere anche denuncia alla polizia?",
+        "La denuncia è consigliata; ci trasmetta poi il numero di pratica, per favore, e la sua responsabilità è al massimo di 50 euro, salvo colpa grave, come un PIN comunicato a terzi. Vuole che le invii il modulo via e-mail o per posta?"
+      ]
+    },
+    "jobcenter_appointment": {
+      "situation": "un colloquio di orientamento sulla formazione continua al centro per l’impiego",
+      "role": "il consulente",
+      "learner": "la cliente",
+      "facts": [
+        "Voucher formativo",
+        "Corso",
+        "Sostentamento",
+        "Requisito",
+        "Prossimo passo"
+      ],
+      "opening": "Signora Petrova, buongiorno. Aveva indicato di volersi riorientare professionalmente; cosa ha in mente?",
+      "beats": [
+        "Per una riqualificazione come specialista informatica, 24 mesi a tempo pieno presso un ente certificato, è possibile ottenere un voucher formativo, che copre interamente i costi del corso, purché venga richiesto prima dell’inizio del corso. Quali conoscenze pregresse ha in ambito informatico?",
+        "La sua indennità di disoccupazione continua a essere versata durante la formazione e in più riceve 150 euro al mese di indennità di formazione. Può attestare un livello B2 di tedesco? L’ente lo richiede.",
+        "Allora faccia il test attitudinale presso l’ente e ci presenti il suo preventivo; sul voucher formativo decidiamo entro 2 settimane. Ha già fissato una data per il test attitudinale?"
+      ]
+    },
+    "kita_platz_amt": {
+      "situation": "sollecitare un posto all’asilo nido all’ufficio minori",
+      "role": "la funzionaria",
+      "learner": "la madre",
+      "facts": [
+        "Diritto per legge",
+        "Tempo di attesa",
+        "Alternativa",
+        "Ricorso",
+        "Priorità"
+      ],
+      "opening": "Buongiorno, signora Alvarez. Ha chiesto un colloquio per il posto all’asilo per suo figlio; qual è la situazione?",
+      "beats": [
+        "Il diritto per legge vale dal primo compleanno, e la sua domanda è stata presentata in tempo, con 6 mesi di anticipo; tuttavia il tempo di attesa nel suo quartiere è attualmente da 4 a 9 mesi. Ha già presentato una prova che entrambi i genitori lavorano?",
+        "La prova aumenta la sua priorità, e come alternativa posso offrirle un’educatrice domiciliare alle stesse tariffe, però con circa 30 minuti di viaggio. Sarebbe una soluzione per lei nel frattempo?",
+        "Dopo 3 mesi senza una decisione può presentare ricorso contro il silenzio dell’amministrazione, e le spese per l’assistenza privata che sostiene a causa del posto mancante possono essere rimborsate, purché le documenti. Vuole che le metta per iscritto i passi da seguire?"
+      ]
+    },
+    "mietminderung_verwaltung": {
+      "situation": "far valere una riduzione del canone per la muffa nei confronti dell’amministrazione dell’immobile",
+      "role": "l’amministratore dell’immobile",
+      "learner": "l’inquilino",
+      "facts": [
+        "Segnalazione del difetto",
+        "Causa",
+        "Riduzione",
+        "Risanamento",
+        "Escalation"
+      ],
+      "opening": "Signor Lindqvist, buongiorno, si accomodi. Voleva parlare della muffa in camera da letto e della sua richiesta di riduzione, vero?",
+      "beats": [
+        "Ho la sua segnalazione del 3 settembre con le foto, e la perizia conferma il ponte termico nella parete esterna, il che esclude un errore di aerazione da parte sua. La proprietaria le offre una riduzione del 10 per cento del canone spese incluse dalla data della segnalazione; le andrebbe bene?",
+        "Prendo atto della sua richiesta del 15 per cento del canone spese incluse dalla data della segnalazione e la sottoporrò alla proprietaria insieme alla perizia, ma oggi non posso darle un impegno. Sarebbe disposto a tollerare il risanamento con l’isolamento a cappotto dal 1° novembre, anche se durerà 3 settimane?",
+        "Rivolgersi all’associazione inquilini e annunciare la trattenuta di un ulteriore 10 per cento è un suo diritto; le consiglio solo di accantonare separatamente gli importi finché la questione non sarà chiarita. Posso farle avere la decisione della proprietaria per iscritto entro la fine della prossima settimana?"
+      ]
+    },
+    "kuendigungsgespraech": {
+      "situation": "un colloquio di separazione con il datore di lavoro, negoziare una risoluzione consensuale",
+      "role": "l’amministratrice delegata",
+      "learner": "il dipendente",
+      "facts": [
+        "Motivo",
+        "Offerta",
+        "Periodo di preavviso",
+        "Sospensione dell’indennità",
+        "Controproposta"
+      ],
+      "opening": "Signor Fischer, grazie di essere venuto. Non voglio girarci intorno: il suo reparto chiude a fine anno, e questo riguarda anche la sua posizione. Come si sente al riguardo?",
+      "beats": [
+        "Il licenziamento sarebbe per giustificato motivo oggettivo; in alternativa le offriamo una risoluzione consensuale con una buonuscita di 0,5 mensilità per anno per 9 anni di anzianità. Posso darle subito la bozza da portare con sé?",
+        "Ha ragione, con una risoluzione consensuale è possibile una sospensione dell’indennità di disoccupazione di 12 settimane; un licenziamento ordinario con il preavviso di 4 mesi alla fine del mese e l’esonero dal lavoro lo eviterebbe, però senza buonuscita. Quale delle due opzioni le sembra più adatta?",
+        "0,75 mensilità per anno, un’ottima lettera di referenze e 1 settimana di tempo per riflettere, lo considero un quadro equo, che proporrò così al consiglio. Posso chiederle di mantenere il riserbo con il team sull’accordo fino ad allora?"
+      ]
     }
   },
   "rules": {
@@ -3112,7 +3358,25 @@
     "Elfenbeinturm": "torre d’avorio",
     "Verschlimmbesserung": "miglioramento che peggiora le cose",
     "Torschlusspanik": "paura di perdere l’ultimo treno",
-    "Schlupfloch": "scappatoia"
+    "Schlupfloch": "scappatoia",
+    "Bäckerei": "panetteria",
+    "Geburtstag": "compleanno",
+    "Ampel": "semaforo",
+    "Apotheke": "farmacia",
+    "Spielplatz": "parco giochi",
+    "Tankstelle": "distributore di benzina",
+    "Geldautomat": "bancomat",
+    "Kaution": "cauzione",
+    "Mülltrennung": "raccolta differenziata",
+    "Mindestlohn": "salario minimo",
+    "Elternzeit": "congedo parentale",
+    "Rechtsstaat": "Stato di diritto",
+    "Zuständigkeit": "competenza (di un ufficio)",
+    "Vollmacht": "procura, delega",
+    "Gleichberechtigung": "parità di diritti",
+    "Deutungshoheit": "autorità interpretativa",
+    "Treppenwitz": "battuta tardiva; ironia della storia",
+    "Hemmschwelle": "soglia di inibizione"
   },
   "levels": {
     "A1": {
@@ -3818,6 +4082,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3936,6 +4201,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4024,6 +4290,7 @@
         null,
         "ritrovare un vecchio compagno di scuola che non vedi da anni",
         null,
+        null,
         null
       ]
     },
@@ -4057,6 +4324,7 @@
         null,
         "una conversazione con un vicino sul rumore a tarda notte",
         null,
+        null,
         null
       ]
     },
@@ -4073,6 +4341,7 @@
         null,
         null,
         "parlare con un medico del mal di schiena dovuto al lavoro alla scrivania",
+        null,
         null,
         null
       ]
@@ -4112,6 +4381,7 @@
       "title": "Mobilità e viaggi",
       "goal": "Gestire una riparazione dell'auto e una coincidenza persa, reclamare in hotel, e raccontare cos'è successo prima, durante e dopo un viaggio.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4207,6 +4477,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4251,6 +4522,7 @@
         null,
         null,
         "Come parlo della mia esperienza di trasferimento in un nuovo paese?",
+        null,
         null,
         null,
         null,
@@ -4305,6 +4577,7 @@
         null,
         null,
         "dare consigli a un amico sullo stress al lavoro",
+        null,
         null,
         null
       ]
@@ -4374,6 +4647,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4403,6 +4677,7 @@
         null,
         null,
         "presentare i risultati di un sondaggio al tuo team e rispondere alle domande",
+        null,
         null,
         null
       ]
@@ -4452,6 +4727,7 @@
         null,
         null,
         "un'intervista radiofonica su come la tua professione cambierà con l'IA",
+        null,
         null,
         null
       ]
@@ -4516,6 +4792,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4558,6 +4835,7 @@
         null,
         null,
         "Quali figure retoriche funzionano nei discorsi in tedesco, e come le uso senza sembrare pomposo?",
+        null,
         null,
         null,
         null,

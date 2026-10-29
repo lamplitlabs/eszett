@@ -1972,6 +1972,252 @@
         "İtiraz tek başına ödemeyi ertelemez, ancak yürütmenin durdurulmasını talep edebilirsiniz; o zaman 1.240 euroluk ek ödeme karara kadar ertelenir. Başvuruyu hemen ekleyeyim mi?",
         "Deneyimlerimize göre belgelerin ulaşmasından sonra yaklaşık altı ila sekiz hafta. Alındı teyidini size posta yoluyla mı yoksa elektronik olarak mı göndereyim?"
       ]
+    },
+    "doctor_reception": {
+      "situation": "doktor muayenehanesinin resepsiyonunda randevu alma",
+      "role": "muayenehane resepsiyonisti",
+      "learner": "hasta",
+      "facts": [
+        "Bir sonraki randevu",
+        "Getirilecekler",
+        "Varış",
+        "Muayene saatleri"
+      ],
+      "opening": "Dr. Weber'in muayenehanesi, iyi günler. Sizin için ne yapabilirim?",
+      "beats": [
+        "Geçmiş olsun. Bir sonraki boş randevu perşembe saat 10'da, size uyar mı?",
+        "Lütfen sağlık sigortası kartınızı getirin. Adınız nedir?",
+        "Lütfen 10 dakika erken gelin, o zaman bir form doldurursunuz. Başka sorunuz var mı?"
+      ]
+    },
+    "lost_wallet_police": {
+      "situation": "karakolda kayıp cüzdan bildiriminde bulunma",
+      "role": "polis memuru",
+      "learner": "vatandaş",
+      "facts": [
+        "Tutanak",
+        "Banka kartı",
+        "Kimlik kartı",
+        "Kayıp eşya bürosu"
+      ],
+      "opening": "İyi günler. Size nasıl yardımcı olabilirim?",
+      "beats": [
+        "Can sıkıcı bir durum. Bir tutanak tutuyoruz; ücretsiz ve yaklaşık 15 dakika sürüyor. Banka kartınızı bloke ettirdiniz mi?",
+        "Hemen 116 116 numaralı kart bloke hattını arayın; günün her saati çalışıyor. Cüzdanı en son nerede gördünüz?",
+        "Yeni kimlik kartı için Bürgeramt'a (vatandaşlık dairesi) başvuruyorsunuz. Ayrıca 3 gün sonra kayıp eşya bürosuna da sorun; adresi sizin için yazayım mı?"
+      ]
+    },
+    "kita_elternabend": {
+      "situation": "kreş öğretmeniyle çocuğun hakkında konuşma",
+      "role": "kreş öğretmeni",
+      "learner": "baba",
+      "facts": [
+        "Alışma dönemi",
+        "Almanca",
+        "Gezi",
+        "Alma saati"
+      ],
+      "opening": "Gelmenize sevindim, Bay Nowak. Lena evde nasıl?",
+      "beats": [
+        "Alışma dönemi 4 hafta sonra tamamlandı; Lena sabahları severek geliyor ve diğer çocuklarla çok oynuyor. Sizce dil açısından da kendini rahat hissediyor mu?",
+        "Şimdiden çok şey anlıyor ve henüz az konuşuyor; iki dilde bu tamamen normal. Evde ona kendi dilinizde kitap okuyor musunuz?",
+        "Cuma günü hayvanat bahçesine gidiyoruz; 5 euro tutuyor ve Lena'ya beslenme kutulu bir sırt çantası gerekiyor. O gün onu en geç 16:30'da alabilir misiniz?"
+      ]
+    },
+    "pharmacy_advice": {
+      "situation": "eczanede bir ilaç hakkında danışma",
+      "role": "eczacı",
+      "learner": "müşteri",
+      "facts": [
+        "Dozaj",
+        "En fazla",
+        "Fiyat",
+        "Dikkat"
+      ],
+      "opening": "İyi günler. Size nasıl yardımcı olabilirim?",
+      "beats": [
+        "Bunun için bir balgam söktürücümüz var; günde 3 kez, yemeklerden sonra bir tablet alıyorsunuz. Şu anda başka ilaç kullanıyor musunuz?",
+        "Doktora danışmadan en fazla 5 gün; o zamana kadar düzelmezse lütfen doktora gidin. Ateşiniz de var mı?",
+        "Fiyatı 8,95 euro ve reçete gerektirmiyor. Bir de kullandığınız sürece alkol almamanız gerektiğini söyleyebilir miyim?"
+      ]
+    },
+    "deutschlandticket_counter": {
+      "situation": "gişede Deutschlandticket aboneliği yaptırma",
+      "role": "gişe görevlisi",
+      "learner": "müşteri",
+      "facts": [
+        "Fiyat",
+        "Geçerlilik",
+        "İptal",
+        "Bilet"
+      ],
+      "opening": "İyi günler, buyurun oturun. Sizin için ne yapabilirim?",
+      "beats": [
+        "Deutschlandticket ayda 58 euro ve bir abonelik. Uygulamada mı yoksa çipli kart olarak mı istersiniz?",
+        "Hayır, Almanya genelinde toplu taşımada, yani otobüs, tramvay ve bölgesel trenlerde geçerli; ancak ICE ve IC trenlerinde geçerli değil. Çipli kart için yanınızda vesikalık fotoğraf var mı?",
+        "Aylık olarak, her zaman ay sonu için ayın 10'una kadar, online ya da burada gişede iptal edebilirsiniz. Aboneliği gelecek ayın birinden başlatayım mı?"
+      ]
+    },
+    "neighbour_noise": {
+      "situation": "komşuyla gece gürültüsü hakkında konuşma",
+      "role": "komşu",
+      "learner": "komşu",
+      "facts": [
+        "Gece sessizliği",
+        "Neden",
+        "Öneri",
+        "Parti"
+      ],
+      "opening": "Ah, merhaba Bayan Yılmaz. Benimle konuşmak mı istiyordunuz?",
+      "beats": [
+        "Gerçekten özür dilerim; vardiyalı çalışıyorum ve eve ancak 23:00'te geliyorum, o yüzden muhtemelen fazla gürültü yapıyorum. Tam olarak ne duyuyorsunuz?",
+        "Haklısınız, gece sessizliği 22:00 ile 6:00 arasında. Bundan sonra ayakkabılarımı kapıda çıkaracağım ve koridora bir halı sereceğim; bu sizin için uygun olur mu?",
+        "Cumartesi doğum günüm var ve gece yarısına kadar kutlayacağım; size önceden haber vermek istedim. Belki bir şeyler içmeye uğramak ister misiniz?"
+      ]
+    },
+    "auslaenderbehoerde_extension": {
+      "situation": "göçmenlik dairesinde Aufenthaltstitel (oturma izni) uzatma",
+      "role": "dosya memuru",
+      "learner": "başvuran",
+      "facts": [
+        "Belgeler",
+        "Ücret",
+        "Karara kadar",
+        "İşlem süresi",
+        "Eksik belgeler"
+      ],
+      "opening": "İyi günler, Bay Haddad. Aufenthaltstitel'inizi uzatmak istiyorsunuz, doğru mu?",
+      "beats": [
+        "O hâlde pasaportunuz, iş sözleşmeniz, son 3 maaş bordronuz, kira sözleşmeniz ve sağlık sigortası belgeniz gerekiyor. Hepsi yanınızda mı?",
+        "Sorun değil, e-postayla sonradan gönderebilirsiniz; gönderirken lütfen dosya numaranızı belirtin. 98 euroluk ücreti bugün kartla mı ödeyeceksiniz?",
+        "İşlem yaklaşık 8 hafta sürüyor, yeni kart postayla geliyor ve karar verilene kadar bugün size bir Fiktionsbescheinigung (geçici belge) veriyoruz; bununla ikametiniz ve çalışmanız izinli kalıyor. Son başvurudan bu yana işinizde bir değişiklik oldu mu?"
+      ]
+    },
+    "landlord_deposit_return": {
+      "situation": "taşındıktan sonra depozitoyu geri isteme",
+      "role": "bina yöneticisi",
+      "learner": "eski kiracı",
+      "facts": [
+        "Depozito",
+        "Kesinti",
+        "Süre",
+        "Teslim tutanağı",
+        "Havale"
+      ],
+      "opening": "Krüger Bina Yönetimi, ben Lehmann. Sizin için ne yapabilirim?",
+      "beats": [
+        "Dosyanız önümde: depozito 2.400 euro artı faiz ve teslim tutanağı, kusur kaydedilmeden her iki tarafça imzalanmış. Bir kısmını aidat ve gider hesaplaşmasına kadar tutabileceğimizi biliyor musunuz?",
+        "600 euroyu aidat ve gider hesaplaşmasına kadar tutuyoruz; kalanın taşınmadan sonraki 6 ay içinde ödenmesi olağan. Yeni banka bilgilerinizi bize ilettiniz mi?",
+        "O zaman 1.800 euroluk havaleyi ay sonuna kadar yaptırıyorum; kalan 600 euronun hesaplaşmasını da yazılı olarak alacaksınız. Onayı size e-postayla göndereyim mi?"
+      ]
+    },
+    "krankschreibung_hr": {
+      "situation": "insan kaynaklarıyla uzun süreli hastalık raporu hakkında konuşma",
+      "role": "insan kaynakları uzmanı",
+      "learner": "çalışan",
+      "facts": [
+        "Maaş ödemesi",
+        "Sonrası",
+        "Rapor",
+        "İşe dönüş",
+        "Muhatap"
+      ],
+      "opening": "İyi günler Bay Okafor, aradığınıza sevindim. Nasılsınız?",
+      "beats": [
+        "İşveren maaşınızı 6 hafta boyunca ödemeye devam ediyor; sonrasında sağlık sigortası hastalık parasıyla devralıyor, bu da brüt maaşın yaklaşık yüzde 70'i. Sigortanız bu konuda size yazdı mı?",
+        "Rapor doktordan elektronik olarak geliyor; sizin yalnızca bize haber vermeniz yeterli ve devam raporunun en geç eskisinin bitiminden sonraki ilk iş günü gelmesi gerekiyor. Ne zaman dönebileceğinizi doktorunuzla konuştunuz mu?",
+        "Evet, işe kademeli dönüş mümkün; işyeri hekimi planı doktorunuzla koordine ediyor ve randevuyu burada insan kaynaklarında biz ayarlıyoruz. Gelecek hafta işyeri hekimiyle bir görüşme size uyar mı?"
+      ]
+    },
+    "bank_fraud_call": {
+      "situation": "yetkisiz bir hesap çekimine bankada itiraz etme",
+      "role": "banka danışmanı",
+      "learner": "müşteri",
+      "facts": [
+        "Çekim",
+        "Kart",
+        "İade",
+        "Suç duyurusu",
+        "Sorumluluk"
+      ],
+      "opening": "İyi günler, müşteri hizmetlerinden Brandt ile görüşüyorsunuz. Sizin için ne yapabilirim?",
+      "beats": [
+        "İşlemi görüyorum: Portekiz'deki bir online mağazaya 489,90 euro; kartınızı az önce bloke ettim, yeni kartınız 5 iş günü içinde elinize ulaşacak. Son zamanlarda kart bilgilerinizi bir web sitesine girdiniz ya da bir bağlantı üzerinden onayladınız mı?",
+        "Hemen göndereceğim itiraz formunu dolduruyorsunuz; süre işlem tarihinden itibaren 8 hafta ve koşullu iade 10 gün içinde yapılıyor. Ayrıca polise suç duyurusunda bulunmaya hazır mısınız?",
+        "Suç duyurusu tavsiye edilir; lütfen dosya numarasını sonradan bize iletin. Sorumluluğunuz, başkasına verilmiş bir PIN gibi ağır bir ihmal yoksa en fazla 50 euro. Formu size e-postayla mı yoksa postayla mı göndereyim?"
+      ]
+    },
+    "jobcenter_appointment": {
+      "situation": "iş kurumunda mesleki eğitim hakkında danışma görüşmesi",
+      "role": "danışman",
+      "learner": "danışan",
+      "facts": [
+        "Bildungsgutschein",
+        "Kurs",
+        "Geçim",
+        "Koşul",
+        "Sonraki adım"
+      ],
+      "opening": "Bayan Petrova, iyi günler. Mesleki olarak yeni bir yön arayışında olduğunuzu belirtmiştiniz; aklınızda ne var?",
+      "beats": [
+        "Sertifikalı bir kurumda 24 ay tam zamanlı bilişim uzmanlığı yeniden eğitimi için bir Bildungsgutschein (eğitim çeki) söz konusu olabilir; kurs başlamadan önce başvurulması koşuluyla kurs ücretlerini tamamen karşılıyor. Bilişim alanında ne gibi ön bilgileriniz var?",
+        "İşsizlik ödeneğiniz eğitim süresince devam ediyor ve ek olarak ayda 150 euro eğitim parası alıyorsunuz. B2 düzeyinde Almanca belgeleyebiliyor musunuz? Kurum bunu şart koşuyor.",
+        "O hâlde kurumda uygunluk testine girin ve kurumun fiyat teklifini bize sunun; Bildungsgutschein hakkında 2 hafta içinde karar veriyoruz. Uygunluk testi için bir tarih ayarladınız mı?"
+      ]
+    },
+    "kita_platz_amt": {
+      "situation": "gençlik dairesinde (Jugendamt) kreş yeri için ısrar etme",
+      "role": "dosya memuru",
+      "learner": "anne",
+      "facts": [
+        "Yasal hak",
+        "Bekleme süresi",
+        "Alternatif",
+        "Hukuki yol",
+        "Öncelik"
+      ],
+      "opening": "İyi günler, Bayan Alvarez. Oğlunuzun bakım yeri konusunda bir görüşme talep etmiştiniz; durum nedir?",
+      "beats": [
+        "Yasal hak birinci doğum gününden itibaren geçerli ve başvurunuz 6 ay öncesinden, zamanında yapılmış; ancak semtinizde bekleme süresi şu anda 4 ila 9 ay. Her iki ebeveynin de çalıştığına dair belge sundunuz mu?",
+        "Bu belge önceliğinizi artırıyor; alternatif olarak size aynı ücretle, ancak yaklaşık 30 dakikalık yol mesafesinde bir çocuk bakıcısı (Tagesmutter) önerebilirim. Geçiş dönemi için bu sizin açınızdan bir çözüm olur mu?",
+        "Karar olmadan geçen 3 ayın ardından Untätigkeitsklage (idarenin hareketsizliğine karşı dava) yolu size açık; ayrıca yer eksikliği yüzünden yaptığınız özel bakım masrafları, belgelemeniz koşuluyla iade edilebilir. Bunun adımlarını sizin için yazılı olarak derleyeyim mi?"
+      ]
+    },
+    "mietminderung_verwaltung": {
+      "situation": "bina yönetimine karşı küf nedeniyle kira indirimi talep etme",
+      "role": "bina yöneticisi",
+      "learner": "kiracı",
+      "facts": [
+        "Kusur bildirimi",
+        "Neden",
+        "İndirim",
+        "Onarım",
+        "Tırmandırma"
+      ],
+      "opening": "Bay Lindqvist, iyi günler, buyurun oturun. Yatak odasındaki küf ve kira indirimi talebiniz hakkında konuşmak istiyordunuz, değil mi?",
+      "beats": [
+        "3 Eylül tarihli bildiriminiz fotoğraflarıyla birlikte önümde ve bilirkişi raporu dış duvardaki ısı köprüsünü doğruluyor; bu da sizin tarafınızdan bir havalandırma hatasını dışlıyor. Mal sahibi size bildirim tarihinden itibaren brüt kiranın yüzde 10'u oranında indirim öneriyor; bu sizin için kabul edilebilir mi?",
+        "Bildirim tarihinden itibaren brüt kiranın yüzde 15'i yönündeki talebinizi not ediyorum ve bilirkişi raporuyla birlikte mal sahibine sunacağım, ancak bugün size bir taahhüt veremem. 1 Kasım'dan itibaren dış cephe yalıtımıyla yapılacak onarıma, 3 hafta sürecek olsa da katlanmaya hazır mısınız?",
+        "Kiracılar derneğini (Mieterverein) devreye sokmak ve yüzde 10 daha alıkoyacağınızı bildirmek sizin hakkınız; ben yalnızca mesele çözülene kadar bu tutarları ayrı bir yerde tutmanızı öneririm. Mal sahibinin kararını gelecek haftanın sonuna kadar size yazılı olarak iletebilir miyim?"
+      ]
+    },
+    "kuendigungsgespraech": {
+      "situation": "işverenle ayrılık görüşmesi ve karşılıklı fesih anlaşması pazarlığı",
+      "role": "genel müdür",
+      "learner": "çalışan",
+      "facts": [
+        "Neden",
+        "Teklif",
+        "İhbar süresi",
+        "Ödenek kesintisi",
+        "Karşı teklif"
+      ],
+      "opening": "Bay Fischer, geldiğiniz için teşekkürler. Lafı dolandırmayacağım: bölümünüz yıl sonunda kapatılıyor ve bu sizin pozisyonunuzu da etkiliyor. Bu konuda ne hissediyorsunuz?",
+      "beats": [
+        "Fesih, işletme gereklerinden kaynaklanan bir fesih olurdu; bunun yerine size 9 yıllık kıdem için yıl başına 0,5 aylık maaş tazminatlı bir karşılıklı fesih anlaşması teklif ediyoruz. Taslağı hemen yanınızda götürmeniz için verebilir miyim?",
+        "Haklısınız, karşılıklı fesih anlaşmasında 12 haftalık ödenek kesintisi mümkün; ay sonuna 4 aylık ihbar süresi ve çalışma yükümlülüğünden muafiyetle olağan bir fesih bunu önlerdi, ancak tazminatsız. İki seçenekten hangisi size daha yakın?",
+        "Yıl başına 0,75 aylık maaş, çok iyi bir referans mektubu ve 1 haftalık düşünme süresi; bunu adil bir çerçeve olarak görüyorum ve kurula bu şekilde önereceğim. O zamana kadar ekibe karşı bu düzenleme hakkında sessiz kalmanızı rica edebilir miyim?"
+      ]
     }
   },
   "rules": {
@@ -3112,7 +3358,25 @@
     "Elfenbeinturm": "fildişi kule",
     "Verschlimmbesserung": "düzelteyim derken bozma",
     "Torschlusspanik": "son treni kaçırma korkusu, geç kalmışlık paniği",
-    "Schlupfloch": "yasal boşluk, kuraldaki açık"
+    "Schlupfloch": "yasal boşluk, kuraldaki açık",
+    "Bäckerei": "fırın",
+    "Geburtstag": "doğum günü",
+    "Ampel": "trafik lambası",
+    "Apotheke": "eczane",
+    "Spielplatz": "çocuk parkı, oyun alanı",
+    "Tankstelle": "benzin istasyonu",
+    "Geldautomat": "bankamatik, ATM",
+    "Kaution": "depozito",
+    "Mülltrennung": "çöp ayrıştırma",
+    "Mindestlohn": "asgari ücret",
+    "Elternzeit": "ebeveyn izni",
+    "Rechtsstaat": "hukuk devleti",
+    "Zuständigkeit": "yetki alanı, sorumluluk (bir makamın)",
+    "Vollmacht": "vekâletname",
+    "Gleichberechtigung": "hak eşitliği, eşit haklar",
+    "Deutungshoheit": "yorumlama üstünlüğü, yorum tekeli",
+    "Treppenwitz": "aklına geç gelen hazırcevap; tarihin ironisi",
+    "Hemmschwelle": "çekinme eşiği"
   },
   "levels": {
     "A1": {
@@ -3818,6 +4082,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -3936,6 +4201,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4024,6 +4290,7 @@
         null,
         "yıllardır görmediğin eski bir okul arkadaşınla hasret gidermek",
         null,
+        null,
         null
       ]
     },
@@ -4057,6 +4324,7 @@
         null,
         "gece geç saatteki gürültü hakkında bir komşuyla konuşma",
         null,
+        null,
         null
       ]
     },
@@ -4073,6 +4341,7 @@
         null,
         null,
         "masa başında oturmaktan kaynaklanan sırt ağrısı hakkında bir doktorla konuşmak",
+        null,
         null,
         null
       ]
@@ -4112,6 +4381,7 @@
       "title": "Ulaşım ve seyahat",
       "goal": "Bir araba tamiriyle ve kaçırılan bir aktarmayla başa çıkabilir, otelde şikâyette bulunabilir ve bir geziden önce, gezi sırasında ve sonrasında ne olduğunu anlatabilirsin.",
       "steps": [
+        null,
         null,
         null,
         null,
@@ -4207,6 +4477,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4251,6 +4522,7 @@
         null,
         null,
         "Yeni bir ülkeye taşınma deneyimimi nasıl anlatırım?",
+        null,
         null,
         null,
         null,
@@ -4305,6 +4577,7 @@
         null,
         null,
         "bir arkadaşına iş stresi hakkında tavsiye vermek",
+        null,
         null,
         null
       ]
@@ -4374,6 +4647,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4403,6 +4677,7 @@
         null,
         null,
         "bir anketin sonuçlarını ekibine sunup soruları yanıtlamak",
+        null,
         null,
         null
       ]
@@ -4452,6 +4727,7 @@
         null,
         null,
         "mesleğinin yapay zekâyla nasıl değişeceği üzerine bir radyo röportajı",
+        null,
         null,
         null
       ]
@@ -4516,6 +4792,7 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
@@ -4558,6 +4835,7 @@
         null,
         null,
         "Almanca konuşmalarda hangi retorik araçlar işe yarar ve bunları tumturaklı durmadan nasıl kullanırım?",
+        null,
         null,
         null,
         null,

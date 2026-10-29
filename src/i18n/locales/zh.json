@@ -1207,6 +1207,26 @@
   "together.wordsGuessed": {
     "other": "{name} 让对方猜中了 {count} 个词。"
   },
+  "together.whoamiTitle": "我是谁？",
+  "together.whoamiDetail": "一个人暗中是某个人物、动物、物品或地点；另一个人用德语提问，答案只能是“是”或“否”。",
+  "together.whoamiRules": "一个人看到一张秘密卡片：一个人物、动物、物品或地点。另一个人用德语提出只能用 ja 或 nein 回答的问题（最多 {total} 个），然后猜。守秘密的人只回答 ja、nein 或 jein，对方要求时就念出一条提示；每条提示扣一分。猜中了，剩下几个问题就得几分，再加五分。然后交换。",
+  "together.whoamiFirst": "谁先守秘密？",
+  "together.whoamiPass": "把手机递给 {name}；{other} 先别看。",
+  "together.whoamiStarters": "{name}，这些问题会有帮助：",
+  "together.whoamiShowCard": "显示卡片",
+  "together.whoamiAlsoCounts": "也算对：{forms}",
+  "together.whoamiAnswerHint": "只用 ja、nein 或 jein 回答，然后点你说的那个。",
+  "together.whoamiLastGuess": "问题用完了——最后猜一次，{name}。",
+  "together.whoamiHint": "念出一条提示 · −1 分",
+  "together.whoamiHintsNone": "没有提示了",
+  "together.whoamiReadOut": "把提示念出来；别让对方看屏幕。",
+  "together.whoamiReveal": "放弃并揭晓",
+  "together.whoamiWon": {
+    "other": "{name} 猜中了：{count} 分"
+  },
+  "together.whoamiLost": "{name} 没猜中。答案是：{answer}",
+  "together.whoamiSwap": "换 {name} 来守秘密",
+  "together.whoamiDoneTitle": "猜得真好",
   "topics.ai": "人工智能",
   "topics.body": "身体与健康",
   "topics.career": "工作与职业",

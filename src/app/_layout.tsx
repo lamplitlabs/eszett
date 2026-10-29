@@ -277,7 +277,7 @@ export default function RootLayout() {
                   }}
                 />
                 <Stack.Screen name="together/index" />
-                {["together/talk", "together/duel", "together/taboo", "together/story", "together/scrabble", "together/wordle"].map((name) => (
+                {["together/talk", "together/duel", "together/taboo", "together/whoami", "together/story", "together/scrabble", "together/wordle"].map((name) => (
                   <Stack.Screen
                     key={name}
                     name={name}

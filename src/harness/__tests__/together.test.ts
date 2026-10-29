@@ -45,12 +45,12 @@ const fullLexiconPath = join(__dirname, '../../../.model-cache/lexicon.json');
 const fullLex = existsSync(fullLexiconPath) ? new LexiconIndex(JSON.parse(readFileSync(fullLexiconPath, 'utf8')) as LexiconData) : null;
 
 describe('talking points', () => {
-  it('ships three questions per topic and level, each glossed in four languages with three key words', () => {
-    expect(togetherData).toHaveLength(TALK_TOPICS.length * LEVELS.length * 3);
+  it('ships five questions per topic and level, each glossed in four languages with three key words', () => {
+    expect(togetherData).toHaveLength(TALK_TOPICS.length * LEVELS.length * 5);
     for (const topic of TALK_TOPICS) {
       for (const level of LEVELS) {
         const points = talkPoints(topic, level);
-        expect(points).toHaveLength(3);
+        expect(points).toHaveLength(5);
         for (const p of points) {
           expect(p.q.endsWith('?') || p.q.endsWith('.')).toBe(true);
           expect(p.gloss.en && p.gloss.fr && p.gloss.es && p.gloss.it).toBeTruthy();
@@ -58,7 +58,7 @@ describe('talking points', () => {
         }
       }
     }
-    expect(talkPoints('food', 'B1', true)).toHaveLength(9);
+    expect(talkPoints('food', 'B1', true)).toHaveLength(15);
   });
 
   it('never repeats a question', () => {
@@ -167,7 +167,7 @@ describe('talking points', () => {
 
 describe('Taboo', () => {
   it('ships cards with four forbidden words that never contain the word itself', () => {
-    expect(TABOO_BUNDLED.length).toBeGreaterThanOrEqual(36);
+    expect(TABOO_BUNDLED.length).toBeGreaterThanOrEqual(84);
     for (const c of TABOO_BUNDLED) {
       expect(c.forbidden).toHaveLength(4);
       expect(c.forbidden.some((f) => f.toLowerCase().includes(c.word.toLowerCase()))).toBe(false);

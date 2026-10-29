@@ -430,7 +430,7 @@ helpers `atOrBelow` / `atLeast`, and `levelSentence`, which states the level the
 ("I'm at C2 level."). Every per-level table is typed `Record<Level, …>`, so adding a level is a compile error
 until each pool has its entry: `SUGGESTIONS` (Tutor), `WORD_TOPICS` and `WORD_TOPIC_KEY` (`src/features/topics.ts`, with a
 `topics.*` catalog key each), `VERB_LEVEL_POOL` (drills), `WORDS_FOR_LEVEL` (authoring), `STORY_OPENERS` and the
-talking points (`together.json` is checked to hold topics × levels × 3), the `levels.<L>` block of every content
+talking points (`together.json` is checked to hold topics × levels × 5), the `levels.<L>` block of every content
 overlay. The authored store's `topics` is keyed by level too; `migrateAuthored` (`src/state/authoredMigration.ts`,
 persist version 2: C1 came with version 1, C2 with version 2) gives a store saved before a level existed its slot.
 
@@ -998,27 +998,39 @@ prompts, parsers and tests are untouched.
   field carries a pencil and lights its border while focused. `setName` keeps a space typed between two
   names (the field is controlled, so trimming on every keystroke would swallow it) and `playerName` trims on
   display, falling back to "Player 1"/"Player 2" (`together.playerN`).
-- **Talking points** (`talk.tsx`): `src/data/together.json` holds 120 German questions, eight topics × five levels
-  × three, each with its English, French, Spanish and Italian gloss and up to three key words. The screen shows
+- **Talking points** (`talk.tsx`): `src/data/together.json` holds 240 German questions, eight topics × six levels
+  × five, each with its English, French, Spanish and Italian gloss and up to three key words. The screen shows
   who asks and who answers (alternating; the swap button exists), the question with its voice button, the gloss
   in the app's language (bundled for fr/es/it; English, translated on the phone when the ML Kit pack is there,
   for the others; nothing for German), the key words with article and meaning from the lexicon (resolved at
   render against `tutor.lexicon ?? coreLexicon`; a compound the lexicon does not list as a whole takes article
   and plural from its last part through `LexiconIndex.compoundHead` — *die Vier-Tage-Woche*, *die
   Debattenkultur* — and the word sheet says so in an amber note; a bare lemma otherwise), and a composer to
-  have a sentence checked with the normal correction prompt. A level's own three questions come first, lower
+  have a sentence checked with the normal correction prompt. A level's own five questions come first, lower
   levels fill in. Questions the model wrote for a custom topic reach the screen through the store's
   non-persisted `custom` field, not through route params.
 - **Duel** (`duel.tsx`): `newDuel` builds `2 × rounds` drills of one category (`DUEL_CATEGORIES` leaves out the
   slow ordinal and sentence drills) with the drill engine; players alternate, one attempt each (typed digits in a
   number drill only ask for the word), the answer and hint after every turn, then "pass the phone". `ArticleButtons`, `Choices`
   and `AnswerField` moved from the drill screen into `src/ui/DrillAnswer.tsx` so both use the same controls.
-- **Taboo** (`taboo.tsx`): `tabooCards` deals 40 hand-written cards (word, article, meaning, forbidden words) at
-  or below the level first, then lexicon nouns without forbidden words; for those, `tutor.tabooWords` asks the
+- **Taboo** (`taboo.tsx`): `tabooCards` deals 84 hand-written cards (word, article, meaning, forbidden words; fourteen
+  a level) at or below the level first, then lexicon nouns without forbidden words; for those, `tutor.tabooWords` asks the
   model for three or four words (`tabooPrompt`, 40 tokens, `priority: 'background'`) for the current and the
   next card while the players talk, and the card fills in when the answer arrives; it is playable without. Sixty
   seconds a turn (`TABOO_SECONDS`), then the roles swap; two turns make a game.
-- **Story chain** (`story.tsx`): an opener per level (`STORY_OPENERS`), one sentence each, every sentence checked
+- **Who am I?** (`whoami.tsx`, `src/harness/whoami.ts`): one player keeps a secret card — a person, an animal, a
+  thing, a place, a food or a job, with its article (`WHOAMI_CARDS`, 70 cards, ten or more a level, from *der Hund*
+  to *die Gewaltenteilung*) — and the other asks yes/no questions in German, twenty at most
+  (`WHOAMI_QUESTIONS`), then guesses. Before the phone changes hands the guesser sees five question frames
+  (`WHOAMI_STARTERS`: *Bist du ein Tier?*, *Kann man dich essen?* …) with voice buttons. The keeper taps Ja / Nein /
+  Jein for every answer (the counter), may read out up to three hints written from vague to telling (each costs
+  a point, `WHOAMI_HINT_COST`), sees the lexicon's gloss for the word where it has one and the other forms that
+  count (*Ärztin* for *der Arzt*), and ends the round with "Got it" or "Give up and reveal". A right guess earns
+  the questions left plus five (`whoAmIScore`, never below one) for the guesser; one round each makes a game.
+  Cards of the chosen level come first, lower levels fill in (`whoAmICards`). Tests:
+  `src/harness/__tests__/whoami.test.ts` (ten cards a level, three distinct hints that do not contain the answer,
+  unique answers, scoring).
+- **Story chain** (`story.tsx`): six openers per level (`STORY_OPENERS`, one drawn at random), one sentence each, every sentence checked
   with `tutor.correct` when the model is ready: the red pen inline with the rule lines (`RuleLines`) or the first
   sentence of the explanation under it, "Correct German" with a tick when nothing changed. A sentence written
   while the model is still loading is kept as `check.status: 'off'` ("Not checked yet") and checked, one at a
@@ -1135,13 +1147,13 @@ src/app/                 screens (Expo Router)
   path/                  the course: index (the level's weeks), [unit] (a week's steps by skill), check/[unit] (the week's Lerncheck); see "The learning path"
   read.tsx               Lesen & Hören: the text the tutor writes on a topic, listen first, three questions checked by the app
   speak.tsx              Sprechen: the week's sentences to listen to and say, checked word by word against what the phone's recognizer heard
-  together/              practising together: index (hub), talk, duel, taboo, story, scrabble, wordle (see "Practising together")
+  together/              practising together: index (hub), talk, duel, taboo, whoami, story, scrabble, wordle (see "Practising together")
 src/model/
   manifest.ts            editions (Q5_K_M, Q8_0), sizes, the storage URLs, "does this edition fit this phone", "is this our model" (pure TS, tested)
   files.ts               Documents/models, download tasks (pause state persisted), sideload scan, picker, lexicon file
   engine.ts              llama.rn: load, metadata, cache primes (home prefix, typing-time prepare), greedy streaming generation, the queue; engine.web.ts stub
   runtime.ts             zustand store: status machine, boot (auto-download), download (size check), useLocal (header check), remove; the Tutor instance
-src/harness/             prompts, grounding, parsers, lexicon, engines, rules, role-play, writing, authoring (model-written scenes, tasks, cards, topics), together (talking points, Taboo, story chain, duel), template renderer, path (the course's weeks, skills, progress and routes; pure, tested), reading (the reading draft read by shape), speaking (what was heard against the sentence to say)
+src/harness/             prompts, grounding, parsers, lexicon, engines, rules, role-play, writing, authoring (model-written scenes, tasks, cards, topics), together (talking points, Taboo, story chain, duel), whoami (the Who am I? cards and scoring), template renderer, path (the course's weeks, skills, progress and routes; pure, tested), reading (the reading draft read by shape), speaking (what was heard against the sentence to say)
 src/features/            lesson planning (the course's slice first, the tutor's plan after), topics (the word-list topics per level), path + CourseCard (the course's labels, routes, today's slice, the check's and the speaking step's sentences and the Today card), dictation (the phone's German speech recognizer, on the device, for the composer's microphone and the speaking step), chat, scene icons, AuthorBox (the "your tutor writes it" box), modelStatus (status wording), access + accessRules + accessBind + purchases (the free week and the one-time purchase), release + releaseRules (the update check), review + reviewRules (the store-review ask), together (the two names, sessions played), the self-test battery
 src/i18n/                t()/tIn()/useI18n, languages, plural rules, catalogs, bind (device locale, RTL, explainIn), content (localised cards, scenes, rules, lexicon, levels, writing tasks), locales/<lang>.json
 src/mt/                  translation on this phone (ML Kit): store (one language pack, session cache), bind, languages (who it is for, when a question is translated), markdown (German-protecting line translation), question (German-protecting question translation), glossary, useTranslated
