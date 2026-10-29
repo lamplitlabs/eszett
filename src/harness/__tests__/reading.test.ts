@@ -6,7 +6,7 @@ import grounding from '../../data/grounding.json';
 import lexiconCore from '../../data/lexicon-core.json';
 import type { GroundingPack } from '../grounding';
 import { LexiconIndex, type LexiconData } from '../lexicon';
-import { LEVELS } from '../levels';
+import { LEVELS, type Level } from '../levels';
 import { READING_PREFILL } from '../prompts';
 import { parseReadingDraft, READING_QUESTIONS, READING_WORDS, readingBudget, readingComplete, readingWordsSoFar } from '../reading';
 import { DraftError, Tutor, type ChatMessage, type GrammarCard } from '../tutor';
@@ -70,12 +70,16 @@ describe('the reading draft', () => {
     expect(readingComplete(DRAFT)).toBe(true);
     expect(readingComplete(DRAFT.split('Frage 3:')[0])).toBe(false);
     expect(READING_QUESTIONS).toBe(3);
+    // the 90th-percentile token count of the tutor's own reading rows per level on its tokenizer (SmolLM3;
+    // licht WU-034 round 13, 285 rows): a budget under these cuts the text before the third question
+    const MEASURED_P90: Record<Level, number> = { A1: 238, A2: 318, B1: 432, B2: 605, C1: 715, C2: 755 };
     let last = 0;
     for (const level of LEVELS) {
       expect(READING_WORDS[level][0]).toBeLessThan(READING_WORDS[level][1]);
       expect(READING_WORDS[level][0]).toBeGreaterThanOrEqual(last);
       last = READING_WORDS[level][0];
       expect(readingBudget(level)).toBeGreaterThan(READING_WORDS[level][1]);
+      expect(readingBudget(level)).toBeGreaterThanOrEqual(MEASURED_P90[level]);
     }
   });
 

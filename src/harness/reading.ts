@@ -35,8 +35,11 @@ export const READING_QUESTIONS = 3;
 /** How many tokens the draft may take: the text at the level's length plus the three questions. */
 export function readingBudget(level: Level): number {
   const words = READING_WORDS[level][1];
-  // German runs at roughly 1.7 tokens a word on this tokenizer; the questions and labels take about 160 more
-  return Math.round(words * 1.7) + 160;
+  // Measured on the tutor's tokenizer over its own reading rows (licht WU-034, round 13): German text runs
+  // 1.7 tokens a word at A1 and 2.0-2.1 at B2-C2 (longer words), and the three questions with their options take
+  // 180-230 tokens. 2.2 a word plus 200 fits a text at the top of every band; the draft stops at the third answer
+  // (readingComplete), so the budget binds only when the model runs long. 1.7 a word plus 160 cut most B2-C2 texts.
+  return Math.round(words * 2.2) + 200;
 }
 
 const QUESTION_LINE = /^(?:frage|question|q)\s*(\d)\s*[:.)-]\s*(.+)$/i;
