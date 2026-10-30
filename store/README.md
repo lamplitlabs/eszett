@@ -15,6 +15,7 @@ store/
   output/                      rendered by compose.py, not committed: <locale>/phone/NN.png, <locale>/feature.png, icon.png
   compose.py                   renders the Play graphics from the captures and the metadata (Pillow)
   product-icons.py             renders the icons of the three products (the app's Lucide icons via rsvg-convert); uploaded by hand
+  video.py                     renders the silent promo video per locale, landscape and portrait (Pillow + ffmpeg); uploaded to YouTube by hand
   play-products.mjs            creates, prices and activates the one-time products
   play-listing.mjs             pushes texts and images of the listing (validate first, then apply)
   play-release.mjs             uploads a signed .aab to a track with the release notes
@@ -74,6 +75,15 @@ tax-exclusive, Play adds local tax); the single purchase option stays `legacyCom
 title and short description. Captures to take (Home with a greeting and the course card, the course's week, a
 tutor answer with the red pen, a scene mid-dialogue, the one-minute result, the mock exam) - the captions in
 every locale are written for exactly these six, in this order.
+
+## The promo video
+
+`python3 store/video.py` renders `output/video/promo-<locale>-<orientation>.mp4` from the same captures and captions as
+the screenshots: an intro card, one scene per capture with a slow push-in, cross-fades, an outro card; 1920×1080
+and 1080×1920, 30 fps, about 23 seconds, no audio (nothing to license). Play's listing takes a **YouTube URL**:
+upload the landscape file to the Lamplit Labs channel (unlisted is fine, ads off, no end screens), put the link
+into `metadata/android/<locale>/video.txt` and run `node store/play-listing.mjs --apply --text-only`; a locale
+without the file keeps whatever video the listing has. The portrait file is for Shorts and social posts.
 
 ## The bundle and its signature
 
