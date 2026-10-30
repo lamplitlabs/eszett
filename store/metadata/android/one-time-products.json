@@ -1,0 +1,171 @@
+{
+  "_note": "The one-time products of the app (src/features/purchases.ts, server/src/rules.ts). Ids are fixed in the app; titles, descriptions and prices are store data. Prices are German consumer prices in EUR incl. VAT; other regions come from Google's converter (store/play-products.mjs). Listing titles up to 55 characters, descriptions up to 200.",
+  "purchaseOptionId": "buy",
+  "defaultRegion": "DE",
+  "defaultCurrency": "EUR",
+  "defaultVatRate": 0.19,
+  "products": [
+    {
+      "productId": "eszett_full_access",
+      "price": "29.99",
+      "listings": {
+        "en-US": {
+          "title": "Eszett for good",
+          "description": "The app for good, every new tutor model for twelve months, and the last of them forever. One purchase, no subscription."
+        },
+        "de-DE": {
+          "title": "Eszett für immer",
+          "description": "Die App für immer, jedes neue Tutor-Modell zwölf Monate lang und das letzte davon für immer. Ein Kauf, kein Abo."
+        },
+        "fr-FR": {
+          "title": "Eszett pour de bon",
+          "description": "L’appli pour de bon, chaque nouveau modèle tuteur pendant douze mois, et le dernier d’entre eux pour toujours. Un seul achat, pas d’abonnement."
+        },
+        "es-ES": {
+          "title": "Eszett para siempre",
+          "description": "La app para siempre, cada nuevo modelo tutor durante doce meses y el último de ellos para siempre. Una sola compra, sin suscripción."
+        },
+        "it-IT": {
+          "title": "Eszett per sempre",
+          "description": "L’app per sempre, ogni nuovo modello del tutor per dodici mesi e l’ultimo di questi per sempre. Un solo acquisto, nessun abbonamento."
+        },
+        "pt-BR": {
+          "title": "Eszett para sempre",
+          "description": "O app para sempre, todo novo modelo do tutor durante doze meses, e o último deles para sempre. Uma única compra, sem assinatura."
+        },
+        "pl-PL": {
+          "title": "Eszett na stałe",
+          "description": "Aplikacja na stałe, każdy nowy model korepetytora przez dwanaście miesięcy, a ostatni z nich na zawsze. Jeden zakup, bez subskrypcji."
+        },
+        "ru-RU": {
+          "title": "Eszett навсегда",
+          "description": "Приложение навсегда, каждая новая модель репетитора в течение двенадцати месяцев, а последняя из них — навсегда. Одна покупка, без подписки."
+        },
+        "uk": {
+          "title": "Eszett назавжди",
+          "description": "Застосунок назавжди, кожна нова модель репетитора протягом дванадцяти місяців, а остання з них — назавжди. Одна покупка, без підписки."
+        },
+        "tr-TR": {
+          "title": "Eszett kalıcı olarak senin",
+          "description": "Uygulama kalıcı olarak senin, on iki ay boyunca her yeni öğretmen modeli ve sonuncusu sonsuza dek. Tek satın alma, abonelik yok."
+        },
+        "ar": {
+          "title": "Eszett إلى الأبد",
+          "description": "التطبيق إلى الأبد، وكل نموذج معلّم جديد لمدة اثني عشر شهرًا، وآخرها لك إلى الأبد. شراء واحد، لا اشتراك."
+        },
+        "zh-CN": {
+          "title": "Eszett 永久版",
+          "description": "应用永久可用，十二个月内的每一个新导师模型，以及其中最后一个永久归你。一次购买，无订阅。"
+        }
+      }
+    },
+    {
+      "productId": "eszett_fresh_tutor",
+      "price": "12.99",
+      "listings": {
+        "en-US": {
+          "title": "Fresh tutor",
+          "description": "Twelve more months of new tutor models. Never required: the app and your last model keep working."
+        },
+        "de-DE": {
+          "title": "Frischer Tutor",
+          "description": "Zwölf weitere Monate neue Tutor-Modelle. Nie Pflicht: Die App und dein letztes Modell funktionieren weiter."
+        },
+        "fr-FR": {
+          "title": "Tuteur tout neuf",
+          "description": "Douze mois de plus de nouveaux modèles tuteurs. Jamais obligatoire : l’appli et ton dernier modèle continuent de fonctionner."
+        },
+        "es-ES": {
+          "title": "Tutor renovado",
+          "description": "Doce meses más de nuevos modelos tutor. Nunca es obligatorio: la app y tu último modelo siguen funcionando."
+        },
+        "it-IT": {
+          "title": "Tutor rinnovato",
+          "description": "Altri dodici mesi di nuovi modelli del tutor. Mai obbligatorio: l’app e il tuo ultimo modello continuano a funzionare."
+        },
+        "pt-BR": {
+          "title": "Tutor renovado",
+          "description": "Mais doze meses de novos modelos do tutor. Nunca é obrigatório: o app e seu último modelo continuam funcionando."
+        },
+        "pl-PL": {
+          "title": "Korepetytor na kolejny rok",
+          "description": "Kolejne dwanaście miesięcy nowych modeli korepetytora. Nigdy nie jest wymagane: aplikacja i Twój ostatni model działają dalej."
+        },
+        "ru-RU": {
+          "title": "Ещё год новых репетиторов",
+          "description": "Ещё двенадцать месяцев новых моделей репетитора. Никогда не обязательно: приложение и твоя последняя модель продолжают работать."
+        },
+        "uk": {
+          "title": "Свіжий репетитор",
+          "description": "Ще дванадцять місяців нових моделей репетитора. Ніколи не обов’язково: застосунок і твоя остання модель працюють далі."
+        },
+        "tr-TR": {
+          "title": "Öğretmenini yenile",
+          "description": "On iki ay daha yeni öğretmen modelleri. Asla zorunlu değil: uygulama ve son modelin çalışmaya devam eder."
+        },
+        "ar": {
+          "title": "معلّم متجدّد",
+          "description": "اثنا عشر شهرًا إضافيًا من نماذج المعلّم الجديدة. غير مطلوب أبدًا: التطبيق ونموذجك الأخير يواصلان العمل."
+        },
+        "zh-CN": {
+          "title": "焕新导师",
+          "description": "再享十二个月的新导师模型。从不强制：应用和你的最后一个模型会继续工作。"
+        }
+      }
+    },
+    {
+      "productId": "eszett_gift",
+      "price": "29.99",
+      "listings": {
+        "en-US": {
+          "title": "Pay it forward",
+          "description": "Full access for someone who cannot afford it: a code to hand on, or into the pool for the next learner who asks."
+        },
+        "de-DE": {
+          "title": "Einen Tutor weiterschenken",
+          "description": "Vollzugang für jemanden, der es sich nicht leisten kann: als Code zum Weitergeben oder in den Topf für die nächste Person, die danach fragt."
+        },
+        "fr-FR": {
+          "title": "Offrir au suivant",
+          "description": "L’accès complet pour quelqu’un qui n’en a pas les moyens : un code à transmettre, ou dans la réserve pour le prochain apprenant qui le demandera."
+        },
+        "es-ES": {
+          "title": "Regalar un tutor",
+          "description": "Acceso completo para alguien que no puede permitírselo: un código para dárselo a quien quieras, o a la reserva para el siguiente estudiante que lo pida."
+        },
+        "it-IT": {
+          "title": "Lascia un tutor sospeso",
+          "description": "Accesso completo per chi non può permetterselo: un codice da passare a qualcuno, oppure in riserva per il prossimo studente che lo chiede."
+        },
+        "pt-BR": {
+          "title": "Pague adiante",
+          "description": "Acesso completo para alguém que não pode pagar: um código para entregar, ou guardado para o próximo aluno que pedir."
+        },
+        "pl-PL": {
+          "title": "Podaj dalej",
+          "description": "Pełny dostęp dla kogoś, kogo na to nie stać: kod do przekazania albo do puli dla następnej osoby, która poprosi."
+        },
+        "ru-RU": {
+          "title": "Заплати другому",
+          "description": "Полный доступ для того, кто не может себе этого позволить: код, который ты передашь сам, или в общую копилку для следующего ученика, который попросит."
+        },
+        "uk": {
+          "title": "Передати далі",
+          "description": "Повний доступ для того, хто не може собі цього дозволити: код, щоб віддати комусь, або у спільну скриньку для наступного учня, який попросить."
+        },
+        "tr-TR": {
+          "title": "Askıda öğretmen",
+          "description": "Ödeyemeyen biri için tam erişim: elden vereceğin bir kod ya da isteyen bir sonraki öğrenci için askıda bekler."
+        },
+        "ar": {
+          "title": "هدية لمن بعدك",
+          "description": "الوصول الكامل لشخص لا يستطيع تحمّل كلفته: رمز تعطيه لمن تعرف، أو في الصندوق المشترك للمتعلّم التالي الذي يطلبه."
+        },
+        "zh-CN": {
+          "title": "爱心传递",
+          "description": "为付不起的人送一份完整访问：作为兑换码交给他人，或放进爱心池，留给下一位申请的学习者。"
+        }
+      }
+    }
+  ]
+}

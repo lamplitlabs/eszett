@@ -48,3 +48,6 @@ example
 
 # icon generator (scripts/make-icons.py)
 .venv/
+
+# the Play graphics rendered by store/compose.py (store/README.md)
+store/output/

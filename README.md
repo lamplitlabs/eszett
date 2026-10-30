@@ -1007,6 +1007,17 @@ appears for builds installed from the Play Store) after `REVIEW_RULES` in `revie
 five finished activities, at most three asks, 120 days apart. The Me screen's "Rate Eszett" row opens the store
 page directly.
 
+## Google Play, from the repository
+
+`store/` holds what Play shows and sells and pushes it with three scripts on the Play Developer API - the listing
+in twelve languages (texts, screenshots, feature graphic), the three one-time products with Google's regional
+prices, the signed bundle to a track - plus the renderers for the graphics and the owner's checklist for the
+steps only the Console can do (creating the app, inviting the service account, the content declarations):
+[`store/README.md`](store/README.md) and [`store/PLAY-CONSOLE.md`](store/PLAY-CONSOLE.md). The bundle is
+signed with the upload key through `ESZETT_UPLOAD_*` (Gradle properties or environment; the debug key stays the
+fallback), `ESZETT_VERSION_CODE` counts the builds, and `.github/workflows/android-release.yml` builds and signs
+on every push while `play-publish.yml` pushes products, texts or the bundle on demand.
+
 ## Business model, accounts and the server
 
 Eszett is sold the way its learners asked for in the research behind it (billing dark patterns were the

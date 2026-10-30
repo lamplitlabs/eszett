@@ -1,0 +1,28 @@
+Eszett, telefonunda yaşayan bir Almanca öğretmeni. Almanca öğretmek için eğitilmiş bir dil modeli doğrudan cihazın üzerinde çalışır: açıklar, düzeltir, günlük sahnelerde karşındaki kişiyi oynar ve nasıl konuştuğunu değerlendirir – internet bağlantısı olmadan ve tek bir kelimen bile telefondan çıkmadan.
+
+NELER VAR
+
+• A1'den C2'ye bir kurs: 56 hafta; her birinde bir hedef, iki ya da üç dil bilgisi kartı, bir kelime alanı, oynanacak bir sahne, okunacak ve dinlenecek bir şeyler, bir yazma görevi ve bir kontrol. Resmî sınav müfredatlarından oluşturuldu.
+• İstediğini sor: “seit” mi, “vor” mu? “als”, “wenn” mi, “wann” mı? Bir cümle yaz ve kırmızı kalemi iş başında gör. Açıklamalar senin dilinde – on iki dil arasından seç.
+• Örnekleri ve tipik hatalarıyla 71 dil bilgisi kuralı; sen onlardan öğrenmeden önce doğrulanmış verilerle kontrol edildi.
+• 58 gerçek konuşma: fırın, telefondaki doktor, nüfus dairesi (Bürgeramt), ev gezmesi, iş görüşmesi, veli toplantısı. Öğretmen karşındaki kişiyi oynar ve seni sonunda düzeltir, asla konuşmanın ortasında değil.
+• Günde bir dakika Almanca: serbestçe konuş; telefon yazsın, kelimelerini ve hızını saysın, öğretmen de seni bir sınav görevlisi gibi değerlendirsin.
+• Her seviye için sözlü deneme sınavları – Goethe, telc, DTZ, TestDaF, DSH – süreli, görev kâğıdıyla ve ek sorular soran bir sınav görevlisiyle.
+• Almanya'da yaşamak: Bürgeramt'tan gelen mektup, Nebenkostenabrechnung (yıllık yan gider hesabı), hastalık raporu, Deutschlandticket gişesi – gerçek mektupları oku, gerçek konuşmaları oyna.
+• A2'den C2'ye okunacak hikâyeler: Grimm, Hebel, Storm, Kafka, Kleist – sorular ve sözlükçeyle.
+• Birlikte pratik: telefonu bir arkadaşına uzat; tandem sohbeti, kelime düellosu, Tabu, hikâye zinciri.
+• Günlük seriler, günün kelimesi, istediğinde hatırlatmalar.
+
+TASARIMI GEREĞİ GİZLİ
+
+Model, cümlelerin, ilerlemen ve profilin cihazında kalır. Analitik yok, reklam yok, takip yok. Hesap yalnızca tek bir şey için gerekir: öğretmen modelini indirmek (yaklaşık 2.2 GB, en iyisi Wi-Fi üzerinden). Sonrasında her şey uçakta bile çalışır.
+
+DIRDIR ETMEYEN FİYAT
+
+Bir hafta boyunca her şey ücretsiz; öğretmenin bir indirmesi de dahil. Sonra tek bir satın alma – abonelik yok: uygulama kalıcı olarak senin, on iki ay boyunca her yeni öğretmen modeli ve sonuncusu sonsuza dek. Alıştırmalar, kural kartları, sözlükte kelime arama ve iki kişilik oyunlar kalıcı olarak ücretsiz kalır. Askıya da bırakabilirsin: ödeyemeyen biri için tam erişim satın al – elden vereceğin bir kod olarak ya da isteyen bir sonraki öğrenci için askıda beklesin.
+
+HANGİ TELEFONLAR
+
+6 GB ve üzeri RAM'e sahip Android telefonlar (daha büyük sürüm için 8 GB); konuşma özellikleri için Android 13 veya üzeri.
+
+Eszett, Almanya'da Lamplit Labs tarafından yapılır. Gizlilik politikası: https://eszett.lamplitlabs.com/privacy

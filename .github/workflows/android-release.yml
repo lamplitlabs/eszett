@@ -1,0 +1,118 @@
+name: Android Release
+
+# Builds the signed Android App Bundle on every push to main (and on demand), verifies the signature against the
+# upload key's fingerprint, keeps it as a workflow artifact and, on a version tag, attaches it to a GitHub release
+# (the pattern of the Leben in Deutschland app). The bundle goes to Google Play with the Play Publish workflow or
+# `node store/play-release.mjs` (store/README.md).
+#
+# Secrets:   ANDROID_KEYSTORE_BASE64 (the upload keystore, base64), ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_ALIAS,
+#            ANDROID_KEY_PASSWORD
+# Variables: EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY, EXPO_PUBLIC_API_BASE (baked into the JS bundle; public by design)
+#            ANDROID_UPLOAD_SHA1 (the upload certificate's SHA-1, colon-separated; the build fails on any other key)
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+    paths-ignore: ["web/**", "server/**", "docs/**", "**/*.md"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-release-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ vars.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY }}
+      EXPO_PUBLIC_API_BASE: ${{ vars.EXPO_PUBLIC_API_BASE }}
+      # the secrets context is not available in step conditions; this flag is
+      HAS_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Install
+        run: npm ci
+
+      - name: Check (typecheck, tests, catalogs)
+        run: |
+          npx tsc --noEmit
+          npx vitest run
+          npm run -s i18n-check
+
+      - name: Keystore from the secret
+        if: env.HAS_KEYSTORE == 'true'
+        run: |
+          echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 -d > "$RUNNER_TEMP/upload.keystore"
+          {
+            echo "ESZETT_UPLOAD_STORE_FILE=$RUNNER_TEMP/upload.keystore"
+            echo "ESZETT_UPLOAD_STORE_PASSWORD=${{ secrets.ANDROID_KEYSTORE_PASSWORD }}"
+            echo "ESZETT_UPLOAD_KEY_ALIAS=${{ secrets.ANDROID_KEY_ALIAS }}"
+            echo "ESZETT_UPLOAD_KEY_PASSWORD=${{ secrets.ANDROID_KEY_PASSWORD }}"
+          } >> "$GITHUB_ENV"
+
+      - name: Generate the Android project
+        # android/ is not committed: Expo generates it, with plugins/withUploadSigning.js adding the upload key
+        run: npx expo prebuild --platform android --no-install
+
+      - name: Build the bundle
+        working-directory: android
+        env:
+          # every CI build counts up; app.json's versionCode is the floor for local builds
+          ESZETT_VERSION_CODE: ${{ github.run_number }}
+        run: ./gradlew :app:bundleRelease --console=plain -q -PreactNativeArchitectures=arm64-v8a
+
+      - name: Verify the signature
+        if: env.HAS_KEYSTORE == 'true'
+        env:
+          EXPECTED_SHA1: ${{ vars.ANDROID_UPLOAD_SHA1 }}
+        run: |
+          set -euo pipefail
+          AAB=android/app/build/outputs/bundle/release/app-release.aab
+          jarsigner -verify "$AAB" | grep -Fq "jar verified." || { echo "::error::the bundle is not signed"; exit 1; }
+          ACTUAL="$(keytool -printcert -jarfile "$AAB" | awk '/SHA1:/{print $2; exit}')"
+          if [ -n "$EXPECTED_SHA1" ] && [ "$ACTUAL" != "$EXPECTED_SHA1" ]; then
+            echo "::error::signed with an unexpected certificate: $ACTUAL"; exit 1
+          fi
+          echo "signed with $ACTUAL"
+
+      - name: Name the bundle
+        id: name
+        run: |
+          VERSION=$(node -p "require('./app.json').expo.version")
+          NAME="eszett-v${VERSION}-${{ github.run_number }}.aab"
+          cp android/app/build/outputs/bundle/release/app-release.aab "$NAME"
+          echo "name=$NAME" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.name.outputs.name }}
+          path: ${{ steps.name.outputs.name }}
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: GitHub release (version tags)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Eszett ${{ github.ref_name }}
+          files: ${{ steps.name.outputs.name }}
+          generate_release_notes: true

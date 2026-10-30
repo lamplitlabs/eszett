@@ -1,0 +1,77 @@
+name: Play Publish
+
+# Pushes the store configuration from the repository to Google Play (store/README.md): the one-time products,
+# the listing texts in twelve languages, or the latest signed bundle to a testing track. Dry runs and --list
+# change nothing; apply writes to the store. Images (screenshots, feature graphic) are rendered and pushed from a
+# laptop with `python3 store/compose.py` and `node store/play-listing.mjs --apply`.
+#
+# Secret:    PLAY_SERVICE_ACCOUNT_KEY_JSON - the JSON key of the Play service account
+#            (play-publisher@leben-in-deutschland-play.iam.gserviceaccount.com), invited in Play Console -> Users and permissions
+# The release task downloads the bundle artifact of the latest successful Android Release run on main.
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "What to do"
+        type: choice
+        required: true
+        default: products-list
+        options:
+          - products-list
+          - products-apply
+          - listing-validate-texts
+          - listing-apply-texts
+          - release-internal
+          - release-internal-draft
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: play-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      TASK: ${{ inputs.task }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Credentials
+        run: |
+          if [ -z "${{ secrets.PLAY_SERVICE_ACCOUNT_KEY_JSON }}" ]; then
+            echo "::error::Set the repository secret PLAY_SERVICE_ACCOUNT_KEY_JSON (store/README.md)."; exit 1
+          fi
+          echo '${{ secrets.PLAY_SERVICE_ACCOUNT_KEY_JSON }}' > "$RUNNER_TEMP/play-key.json"
+          echo "PLAY_SERVICE_ACCOUNT_KEY=$RUNNER_TEMP/play-key.json" >> "$GITHUB_ENV"
+
+      - name: Latest bundle from Android Release
+        if: startsWith(inputs.task, 'release-')
+        uses: dawidd6/action-download-artifact@v6
+        with:
+          workflow: android-release.yml
+          branch: main
+          workflow_conclusion: success
+          name_is_regexp: true
+          name: eszett-v.*\.aab
+          path: bundle
+
+      - name: Run ${{ inputs.task }}
+        run: |
+          case "$TASK" in
+            products-list)          node store/play-products.mjs --list ;;
+            products-apply)         node store/play-products.mjs --apply ;;
+            listing-validate-texts) node store/play-listing.mjs --validate --text-only ;;
+            listing-apply-texts)    node store/play-listing.mjs --apply --text-only ;;
+            release-internal)       node store/play-release.mjs "$(ls bundle/*/*.aab bundle/*.aab 2>/dev/null | head -1)" --apply --track internal ;;
+            release-internal-draft) node store/play-release.mjs "$(ls bundle/*/*.aab bundle/*.aab 2>/dev/null | head -1)" --apply --track internal --status draft ;;
+            *) echo "::error::unknown task $TASK"; exit 1 ;;
+          esac

@@ -1,0 +1,28 @@
+Eszett es un tutor de alemán que vive en tu teléfono. Un modelo de lenguaje entrenado para enseñar alemán funciona en el propio dispositivo: explica, corrige, hace de la otra persona en escenas cotidianas y evalúa cómo hablas, sin conexión a internet y sin que ni una sola palabra tuya salga del teléfono.
+
+QUÉ TE LLEVAS
+
+• Un curso de A1 a C2: 56 semanas, cada una con un objetivo, dos o tres fichas de gramática, un campo léxico, una escena para representar, algo que leer y escuchar, una tarea de escritura y una prueba. Construido a partir de los programas oficiales de los exámenes.
+• Pregunta lo que quieras: ¿“seit” o “vor”? ¿“als”, “wenn” o “wann”? Escribe una frase y mira cómo trabaja el boli rojo. Explicaciones en tu idioma: doce para elegir.
+• 71 reglas gramaticales con ejemplos y los errores típicos, contrastadas con datos verificados antes de que aprendas de ellas.
+• 58 conversaciones reales: la panadería, el médico por teléfono, la oficina de empadronamiento (Bürgeramt), la visita a un piso, una entrevista de trabajo, una reunión de padres. El tutor hace de la otra persona y te corrige al final, nunca a mitad de la conversación.
+• Un minuto de alemán al día: habla libremente, el teléfono anota lo que oye, cuenta tus palabras y tu ritmo, y el tutor te evalúa como lo haría un examinador.
+• Simulacros de examen oral para cada nivel (Goethe, telc, DTZ, TestDaF, DSH): con tiempo, hoja de tareas y un examinador que repregunta.
+• Vivir en Alemania: la carta del Bürgeramt, la liquidación de gastos (Nebenkostenabrechnung), la baja médica, la ventanilla del Deutschlandticket. Lee las cartas reales, representa las conversaciones reales.
+• Historias para leer de A2 a C2: Grimm, Hebel, Storm, Kafka, Kleist, con preguntas y glosario.
+• Practicar juntos: pásale el teléfono a alguien para una charla en tándem, un duelo de palabras, un Tabú, una historia en cadena.
+• Rachas, una palabra del día y recordatorios, si los quieres.
+
+PRIVADO POR DISEÑO
+
+El modelo, tus frases, tu progreso y tu perfil se quedan en tu dispositivo. No hay analíticas, ni publicidad, ni rastreo. La cuenta solo hace falta para una cosa: descargar el modelo tutor (unos 2.2 GB, mejor por Wi-Fi). Después, todo funciona hasta en un avión.
+
+UN PRECIO QUE NO DA LA LATA
+
+Todo es gratis durante una semana, incluida una descarga del tutor. Después, una sola compra, sin suscripción: la app para siempre, cada nuevo modelo tutor durante doce meses y el último de ellos para siempre. Los ejercicios, las fichas de regla, el léxico y los juegos para dos siguen siendo gratis para siempre. También puedes regalar un tutor: compra el acceso completo para alguien que no puede permitírselo, como código para dárselo a quien quieras o para la reserva, para el siguiente estudiante que lo pida.
+
+QUÉ TELÉFONOS
+
+Teléfonos Android con 6 GB de RAM o más (8 GB para la edición grande); Android 13 o posterior para las funciones de voz.
+
+Eszett está hecho en Alemania por Lamplit Labs. Política de privacidad: https://eszett.lamplitlabs.com/privacy

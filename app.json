@@ -30,7 +30,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.lamplitlabs.eszett"
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.lamplitlabs.eszett",
+      "versionCode": 2
     },
     "web": {
       "output": "single",
@@ -94,7 +95,8 @@
         }
       ],
       "expo-secure-store",
-      "expo-web-browser"
+      "expo-web-browser",
+      "./plugins/withUploadSigning"
     ],
     "experiments": {
       "typedRoutes": true,
