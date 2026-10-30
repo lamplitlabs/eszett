@@ -49,7 +49,10 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
 
       - name: Install
-        run: npm ci
+        # the lock file is written by npm 11 (the laptop); npm 10 of the Node 22 runner resolves peers differently and refuses it
+        run: |
+          npm install -g npm@11
+          npm ci
 
       - name: Check (typecheck, tests, catalogs)
         run: |
