@@ -1,0 +1,183 @@
+{
+  "general": {
+    "heading": "通用信息（所有考试）",
+    "items": [
+      "CEFR 级别：A2 = 基础使用者（日常事务、简单交流），B1 = 独立使用者（能理解清晰标准语言的要点，就熟悉的话题写出连贯的文本，描述经历和计划，说明理由），B2 = 能读懂复杂文本，进行抽象讨论，写出清晰详尽的文本并论证自己的观点。",
+      "C1 = 熟练使用者：说话自然流利，熟悉口语习语并能有意识地变换文体，保持很高的语法准确度（telc 的描述），能在复杂的社会和职业场合中以很高的正确性和得体性进行交流（ÖSD 的描述）。C2 = 能轻松理解读到或听到的几乎一切内容，能综合多个书面和口头来源的信息并加以说明和解释，能自然、非常流利且精确地表达，并体现出细微的意义差别（歌德学院的描述）。",
+      "歌德学院建议：A2 之前约 200-350 课时（每课时 45 分钟），B1 之前 350-650 课时，B2 之前 600-800 课时，C1 之前 800-1,000 课时，C2 之前至少 1,000 课时；实际需要因人而异。",
+      "官方免费练习材料：歌德学院在 goethe.de 上为每个级别发布“Modellsatz”和“Übungssatz”（样题集和练习题集，附音频和答案）；telc 在 telc.net 上发布带音频的“Übungstest”（练习测试）PDF；BAMF（德国联邦移民与难民局）和 telc 发布 DTZ 的 Modelltests（样题）。务必使用这些材料的最新版本来练习。",
+      "证书在形式上不会过期，但大学、雇主和移民部门常常要求证书不超过 1-2 年；请核实相关机构的要求。",
+      "价格由考试中心定；在德国，B1 考试通常约在 150-300 欧元之间，B2 略贵一些。报名截止日期通常在考试日期前几周。",
+      "申请德国国籍（入籍 Einbürgerung：B1 级别）和定居许可（Niederlassungserlaubnis：通常 B1）时被认可的证书包括 Goethe-Zertifikat、telc Deutsch、ÖSD 和 DTZ 等；请核实主管部门的现行规定，它们会变动。",
+      "语体：在一封信里不能混用“du”和“Sie”；正式信件用“Sehr geehrte Damen und Herren,” / “Sehr geehrte Frau X,”开头，以“Mit freundlichen Grüßen”结尾（结尾语后不加逗号，署名另起一行）；非正式信件用“Liebe Anna,” / “Lieber Tom,”以及“Liebe Grüße”或“Viele Grüße”。称呼语的逗号之后，第一个词小写，除非它是名词或“Sie”。",
+      "ÖSD（Österreichisches Sprachdiplom Deutsch，奥地利德语语言证书）是一家独立的考试机构——既不是 Goethe 也不是 telc：它是奥地利国家认可的考试体系，由一个独立的非营利协会运营，考试从 ÖSD Zertifikat A1 一直到 ÖSD Zertifikat C1 和 ÖSD Zertifikat C2（另有青少年版和职业专项版）。奥地利的大学接受 B1 到 C2 之间的 ÖSD 证书——具体要求哪个级别取决于大学和专业——作为德语授课学位课程的入学语言证明（并且自 2019 年夏季学期起在申请时就要求 A2）；德国的大学根据各校规定接受 ÖSD Zertifikat B2、C1 或 C2，而且根据 HRK/KMK Rahmenordnung（RO-DT § 8），ÖSD Zertifikat C2 可免除 DSH/TestDaF 要求。因此在 B2 以上可选的是 Goethe C1/C2、telc Deutsch C1 Hochschule、TestDaF、DSH 或 ÖSD C1/C2——按目标机构列出的要求来选。"
+    ]
+  },
+  "goethe-a2": {
+    "heading": "Goethe-Zertifikat A2（自 2016 年起的考试形式）",
+    "items": [
+      "一场考试，四个部分，总分 100 分：Lesen（阅读）25 分、Hören（听力）25 分、Schreiben（写作）25 分、Sprechen（口语）25 分。",
+      "及格规则：总分至少 60 分，其中笔试 75 分（Lesen + Hören + Schreiben 合计）中至少 45 分，口语 25 分中至少 15 分。",
+      "Lesen：30 分钟，4 Teile（部分），20 道题（简短的日常文本：报纸启事、电子邮件/短信、广告、告示/标牌；题型：选择题和配对题）。",
+      "Hören：约 30 分钟，4 Teile，20 道题（简短的广播通知/电台消息、一段对话、简短的独白；大多数部分播放两遍）。",
+      "Schreiben：30 分钟，2 Aufgaben（任务）：Teil 1 一条简短的私人信息（给朋友的短信/聊天消息/电子邮件，约 20-30 个词，给出三个内容要点）；Teil 2 一封稍正式一些的电子邮件/信件（约 30-40 个词，给出三个内容要点）。",
+      "Sprechen：两名考生约 15 分钟，3 Teile：Teil 1 用关键词卡片就对方的个人情况提问并回答（例如“Hobby?”“Arbeit?”）；Teil 2 根据一张带四个关键词的话题卡谈谈自己（例如“Wohnen: Wo? Mit wem? Seit wann? Wie?”）；Teil 3 以对话形式共同计划一件事（例如约定见面的时间和地点）。",
+      "成绩等级（满分 100）：100-90 sehr gut（优秀），89-80 gut（良好），79-70 befriedigend（中等），69-60 ausreichend（及格），60 以下 nicht bestanden（不及格）。"
+    ]
+  },
+  "goethe-b1": {
+    "heading": "Goethe-Zertifikat B1（由歌德学院、ÖSD 和弗莱堡大学/瑞士联合开发，自 2013 年起）",
+    "items": [
+      "模块化考试：Lesen、Hören、Schreiben、Sprechen 四个独立模块。每个模块 100 分，至少 60 分及格。各模块可以一起考也可以分开考；及格的模块单独发证，只需重考未及格的模块。每个模块的成绩等级：100-90 sehr gut，89-80 gut，79-70 befriedigend，69-60 ausreichend，60 以下 nicht bestanden。",
+      "Lesen：65 分钟，5 Teile，30 道题。Teil 1：一篇博客/日记式的文本，6 道 richtig/falsch（对/错）题。Teil 2：两篇简短的报刊文本，6 道选择题（3 个选项）。Teil 3：把 7 个人物/情境与 10 则广告配对（有些人会是“kein passendes Angebot”，即没有合适的广告）。Teil 4：7 条读者对一个有争议问题的评论，判断每位作者是赞成（ja）还是反对（nein）。Teil 5：一篇说明文或住宅守则，4 道选择题。答案填写在 Antwortbogen（答题卡）上。",
+      "Hören：约 40 分钟，4 Teile，30 道题。Teil 1：5 段短文本（通知、留言），每段播放两遍，10 道题（每段一道 richtig/falsch 题和一道选择题）。Teil 2：一段较长的独白，如导览或讲座，播放一遍，5 道选择题。Teil 3：一段日常对话，播放一遍，7 道 richtig/falsch 题。Teil 4：一场有主持人和两位嘉宾的电台讨论，播放两遍，8 道题（“谁说了什么”）。",
+      "Schreiben：60 分钟，3 Aufgaben，100 分。Aufgabe 1（约 20 分钟，40 分）：就三个给定的内容要点给朋友写一封非正式电子邮件，约 80 个词。Aufgabe 2（约 25 分钟，40 分）：就某个话题为论坛写一篇意见或写一封读者来信，约 80 个词，包括对问题的简短概述、你自己的看法及理由和一个例子。Aufgabe 3（约 15 分钟，20 分）：给老师、上司或机构写一条简短的正式或半正式信息（例如取消约会、道歉、询问信息），约 40 个词。每项 Aufgabe 按四个标准评分：Erfüllung（任务和内容要点的完成度）、Kohärenz（结构、连接词）、Wortschatz（词汇）、Strukturen（语法），等级从 A（最好）到 E；偏题或明显过短的答案会失去大部分分数。",
+      "Sprechen：两名考生约 15 分钟（面对两位考官），之前有 15 分钟准备时间，3 Teile，100 分。Teil 1“Gemeinsam etwas planen”（共同计划；约 3 分钟，28 分）：根据一张列有讨论要点的任务卡，以对话形式共同计划一件事（例如聚会、旅行、探访）。Teil 2“Ein Thema präsentieren”（陈述一个话题；每位考生约 3 分钟，40 分）：按照五张给定的幻灯片（“Folien”）做一个简短陈述：1 引入话题，2 你的个人经历，3 你家乡国家的情况，4 优缺点及你的看法，5 结束语和致谢。Teil 3“Über ein Thema sprechen”（就话题交谈；每位考生约 2 分钟，16 分）：对搭档的陈述给出反馈并提一个问题，并回答搭档和考官关于你自己陈述的问题。Aussprache（发音）单独评分，16 分。评分标准：Erfüllung/Interaktion、Wortschatz、Strukturen、Aussprache。"
+    ]
+  },
+  "goethe-b2": {
+    "heading": "Goethe-Zertifikat B2（自 2019 年起的新形式，分成人版和青少年版）",
+    "items": [
+      "与 B1 一样模块化：Lesen、Hören、Schreiben、Sprechen，每个模块 100 分，60 分及格，各模块可以分开考，及格的模块无需重考。成绩等级区间与 B1 相同。",
+      "Lesen：65 分钟，5 Teile，30 道题：论坛里多人就一个话题的看法（“谁说了什么”）、一篇带选择题的报刊文章、一篇被抽掉若干句子需要还原的文本、把简短评论/陈述与标题或人物配对，以及一篇带选择题的说明或规则文本。文本比 B1 更长、更抽象。",
+      "Hören：约 40 分钟，4 Teile，30 道题：几段简短的日常文本、一段电台访谈或报道、多人之间的一段对话（“谁说了什么”），以及一场带选择题的报告或讲座；有些部分播放两遍，有些只播放一遍。",
+      "Schreiben：75 分钟，2 Aufgaben。Aufgabe 1（约 50 分钟，权重更高）：就给定话题按提示要点为网络论坛写一篇讨论发言，至少 150 个词。Aufgabe 2（约 25 分钟）：一条正式或半正式信息，例如写给同事、上司或老师，至少 100 个词，涵盖给定的内容要点。评分标准：任务完成度/内容、连贯性、词汇、语法。",
+      "Sprechen：两名考生约 15 分钟，15 分钟准备时间，2 Teile。Teil 1“Vortrag”（报告）：就两个备选话题之一做一个简短报告（约 4 分钟），结构为引言、若干选项/替代方案、优缺点、你的看法、结论；之后搭档和考官提问。Teil 2“Diskussion”（讨论）：两名考生就一个有争议的论点进行讨论（约 5 分钟），提出论据，回应对方，并得出结论。"
+    ]
+  },
+  "telc-b1": {
+    "heading": "telc Deutsch B1（也称“Zertifikat Deutsch”；姊妹版本 telc Deutsch B1 Schule、telc Deutsch B1+",
+    "items": [
+      "一场考试，包括笔试部分（225 分）和口试部分（75 分），总分 300 分。及格规则：笔试部分至少 60%（135 分），并且口试部分至少 60%（45 分）。按总分划分成绩等级：300-270 sehr gut，269.5-240 gut，239.5-210 befriedigend，209.5-180 ausreichend。未及格的部分（笔试或口试）通常可以在一年内单独重考；请咨询考试中心。",
+      "Leseverstehen（阅读理解）+ Sprachbausteine（语言结构）：共 90 分钟（时间由你自己分配）。Leseverstehen：3 Teile，20 道题，75 分：Teil 1 Globalverstehen（整体理解：把 5 篇短文与 10 个标题配对），Teil 2 Detailverstehen（细节理解：一篇较长的文本，5 道选择题），Teil 3 Selektives Verstehen（选择性理解：把 10 个情境与 12 则广告配对；有些情境的答案是“x”= 没有合适的广告）。Sprachbausteine：2 Teile，20 道题，30 分：Teil 1 一封有 10 个空格的信，每个空格三个选项（a/b/c），主要考语法（连接词、介词、代词、动词形式、形容词词尾）；Teil 2 一篇有 10 个空格的文本，从 15 个词（a-o）的词库中选词填空，五个词不会用到。",
+      "Hörverstehen（听力理解）：约 30 分钟，3 Teile，20 道题，75 分：Teil 1 Globalverstehen（5 段短文本，richtig/falsch，播放一遍），Teil 2 Detailverstehen（一段访谈或报道，10 道 richtig/falsch 题，播放一遍），Teil 3 Selektives Verstehen（5 段简短通知，richtig/falsch，播放两遍）。",
+      "Schriftlicher Ausdruck（书面表达）：30 分钟，45 分：针对一篇给定文本（一则广告、一封信、一则通知）写一封半正式或正式的信/电子邮件作为回复，有四个 Leitpunkte（要点），全部都要涉及；约 100 个词是合适的长度，没有严格的字数限制。按三项标准评分，每项 15 分：I Berücksichtigung der Leitpunkte（四个要点是否都得到恰当处理）、II Kommunikative Gestaltung（交际组织：语体、称呼和结尾、结构、连接词）、III Formale Richtigkeit（形式正确性：语法、拼写、标点）。漏掉一个 Leitpunkt 在标准 I 上会被扣很多分。",
+      "Mündlicher Ausdruck（口头表达）：两名考生约 15 分钟，之前有 20 分钟准备时间（可以做笔记），3 Teile，75 分：Teil 1 Kontaktaufnahme（相互认识；15 分）：了解你的搭档——姓名、来自哪里、家庭、工作或学业、语言、业余时间、计划。Teil 2 Gespräch über ein Thema（就话题交谈；30 分）：每位考生拿到一篇关于某个话题的短文或统计图，向搭档说明其内容，然后双方交流经历和看法。Teil 3 Gemeinsam eine Aufgabe lösen（共同解决任务；30 分）：共同计划或组织一件事（例如告别聚会、旅行、探访）并商定细节。"
+    ]
+  },
+  "telc-b2": {
+    "heading": "telc Deutsch B2",
+    "items": [
+      "结构与 telc B1 相同，但任务更难：笔试部分 225 分（Leseverstehen 75、Sprachbausteine 30、Hörverstehen 75、Schriftlicher Ausdruck 45），口试部分 75 分，总分 300 分；笔试部分至少 60% 并且口试部分至少 60% 才及格；成绩等级区间相同（180 ausreichend，210 befriedigend，240 gut，270 sehr gut）。",
+      "Leseverstehen + Sprachbausteine：90 分钟；Leseverstehen 3 Teile，20 道题（标题配对、对一篇较长文本的细节选择题、情境与广告配对）；Sprachbausteine 2 Teile，20 道题（10 个选择题式空格，10 个从 15 个词的词库中选填的空格），考查 B2 语法，如 Konjunktiv II、Passiv、Partizipialattribute、成对连接词、带介词的动词、名词化风格。",
+      "Hörverstehen：约 20 分钟，3 Teile，20 道题（整体、细节、选择性听力；较长的访谈或报道，大多数只播放一遍）。",
+      "Schriftlicher Ausdruck：30 分钟，45 分：从两项任务（A 或 B）中选一项，按给定要点写一封正式或半正式的信/电子邮件（投诉、申请、请求、表态）；目标约 150 个词或更多；评分标准 I 内容/任务、II 交际组织、III 形式正确性，每项 15 分。",
+      "Mündlicher Ausdruck：两名考生约 15 分钟，之前有 20 分钟准备时间，3 Teile：Teil 1 Präsentation（每位考生就一个话题陈述约 1.5 分钟，搭档提问），Teil 2 Diskussion（就一个论点或文本进行讨论，提出论据和反驳），Teil 3 Problemlösung（共同计划或决定一件事）。"
+    ]
+  },
+  "dtz": {
+    "heading": "Deutsch-Test für Zuwanderer（移民德语测试，DTZ，A2-B1），融入课程（Integrationskurs）的结业考试，",
+    "items": [
+      "分级考试：证书按领域分别给出级别——Hören/Lesen（算一个领域）、Schreiben、Sprechen——每项为 B1、A2 或“unter A2”（即低于该级别）。总成绩要达到 B1，必须 Sprechen 达到 B1，并且另外两个领域（Hören/Lesen 或 Schreiben）中至少一个达到 B1；剩下的领域可以是 A2。Sprechen 没有达到 B1，总成绩就不可能是 B1。",
+      "笔试部分约 100 分钟：Hören 约 25 分钟，4 Teile（广播通知、电台/电话留言、日常对话、多人的看法）；Lesen 45 分钟，5 Teile（告示、广告、一篇报刊文本、一封正式信件/官方文本、看法）；题型为选择题、配对题和 richtig/falsch。Schreiben 30 分钟：从两项任务中选一项，写一封半正式或正式的信或电子邮件（例如写给幼儿园 Kita、房东、雇主、机构、学校），涵盖所有给定的 Leitpunkte（通常三或四个），包括称呼、开头、各要点、请求、结尾和问候语。",
+      "Sprechen：两名考生约 16 分钟，3 Teile：Teil 1“Über sich sprechen”（谈自己：1A 用姓名、来自哪里、家庭、工作、语言等关键词做自我介绍；1B 回答考官的追问）；Teil 2“Über Erfahrungen sprechen”（谈经历：2A 描述一张图片：在哪里、是谁、在做什么、你怎么看；2B 谈你自己与该话题相关的经历并向搭档提问）；Teil 3“Gemeinsam etwas planen”（共同计划：根据任务卡共同组织一件事，例如一起出游、一份礼物、一门课程）。",
+      "用途：DTZ 的 B1 是申请定居许可和入籍时通常使用的语言证明（连同 Orientierungskurs（社会常识课程）的“Leben in Deutschland”测试）。课程学员在课程结束时免费参加 DTZ；考试可以重考。"
+    ]
+  },
+  "goethe-c1": {
+    "heading": "Goethe-Zertifikat C1（新的模块化形式；2023 年九月 1 日的 Durchführungsbestimmungen（实施细则），适用于之后的考试",
+    "items": [
+      "Lesen、Hören、Schreiben、Sprechen 四个独立模块，可以单独考也可以组合考。三个笔试模块为集体考试；Sprechen 通常是双人考试（只有在特殊情况下才是单人考试）。提供数字形式（在考试中心）或纸笔形式，全球标准一致。",
+      "每个模块最高 100 分 = 100%，至少 60 分（60%）及格。每个模块的 Prädikate（成绩等级）：100-90 sehr gut，89-80 gut，79-70 befriedigend，69-60 ausreichend，59-0 nicht bestanden。各模块可以按需多次报考和重考，以考试中心的容量为限。",
+      "Lesen：65 分钟，Teil 1-4，30 道题（论坛帖子、报刊杂志文章、评论、说明；关键信息、细节、观点、看法和规则）。每题得 1 或 0 分；得分点数乘以 3.33 并四舍五入，得出 100 分制的成绩（30 题中答对 18 题 = 60 分 = 及格）。请在考试时间内留出约 5 分钟把答案誊写到 Antwortbogen（答题卡）上。",
+      "Hören：约 40 分钟，Teil 1-4，30 道题（访谈、陈述、对话、日常评论、电台广播；主要观点和关键细节），计分方式与 Lesen 相同（× 3.33）；时间内约 3 分钟用于 Antwortbogen。",
+      "Schreiben：75 分钟，Teil 1-2：一篇论坛帖子，就一个当前社会话题表达并论证你的看法，以及一条职业场合中的正式信息。最高 100 分；两名评分员独立评分，取算术平均值并四舍五入到整数分；当一名评分员的分数低于、另一名高于 60 分，且平均值低于 60 分时，进行第三次评分。",
+      "Sprechen：Teil 1-2，双人考试约 20 分钟（单人考试约 15 分钟），外加 20 分钟准备时间（可以在盖章的纸上做笔记）。约一分钟的简短自我介绍（不计分）；Teil 1：每位考生就两个备选话题之一做一个简短的 Vortrag（报告），每位考生约 7 分钟，包括搭档和一位考官的提问；Teil 2：两名考生共同讨论一个有争议的话题，两人合计约 5 分钟。两名考官独立评分；最高 100 分。",
+      "笔试模块不含休息约需 180 分钟；建议顺序为 Lesen - Hören - Schreiben，模块之间至少休息 15 分钟。",
+      "目标人群：成人；建议最低年龄 16 岁；歌德学院估计需要 800-1,000 个 45 分钟的教学单元才能达到 C1，视已有基础而定。"
+    ]
+  },
+  "goethe-c2": {
+    "heading": "Goethe-Zertifikat C2：Großes Deutsches Sprachdiplom（GDS；2025 年九月 1 日的 Durchführungsbestimmungen（实施细则））",
+    "items": [
+      "Lesen、Hören、Schreiben、Sprechen 四个独立模块，可以单独考也可以组合考；三个笔试模块为集体考试，Sprechen 为单人考试（Einzelprüfung）。四份模块证书等同于一份总证书。以文学为基础的 Schreiben 任务与慕尼黑大学（Ludwig-Maximilians-Universität München）共同编制。",
+      "每个模块：最高 100 分 = 100%，至少 60 分（60%）及格；Prädikate（成绩等级）100-90 sehr gut，89-80 gut，79-70 befriedigend，69-60 ausreichend，59-0 nicht bestanden。各模块可以按需多次重考，以容量为限。",
+      "Lesen：80 分钟，Teil 1-4（Sachtexte 说明性文本、Kommentare 评论、Reportagen 报道、Anzeigen 广告——抽象且语言复杂的文本，含隐含意义）；每个答案得 1 或 0 分，各部分相加，最高 100 分。时间内约 5 分钟用于 Antwortbogen（答题卡）。",
+      "Hören：约 35 分钟，Teil 1-3（媒体中的报道和 Reportagen、非正式对话、以自然语速进行的专家访谈）；每个答案得 1 或 0 分，最高 100 分；3 分钟用于 Antwortbogen。",
+      "Schreiben：80 分钟，Teil 1-2。Teil 1：改写一篇 Kurzreferat（短报告）的若干部分——10 个答案，每个得 2、1 或 0 分 = 最高 20 分。Teil 2：从四个题目中选一个，写一篇结构完整的文本（Leserbrief 读者来信或 Buchrezension 书评）——两个一般题目和两个文学题目（当年 Literaturliste（书目）上每本书一个题目，书目在网上公布，在该日历年内有效）；五项标准各按 4-0 分评分 = 20 分，乘以四 = 最高 80 分。",
+      "Sprechen：约 15 分钟外加 15 分钟准备时间；约 2-3 分钟的自我介绍（不计分）；Teil 1 Produktion（产出）：就从两个话题中选出的话题（例如全球化）做约 5 分钟的自由 Vortrag（报告），随后约 2-3 分钟提问；Teil 2 Interaktion（互动）：约 5 分钟——从两个话题中选一个并选择 Pro（正方）或 Contra（反方）立场，开启讨论，第二位考官为另一方辩护。两名考官独立评分；Teil 1 和 2 的分数相加后乘以 2.5，得出 100 分制的成绩。",
+      "笔试模块不含休息约需 195 分钟；建议顺序为 Lesen - Hören - Schreiben，中间至少休息 15 分钟。",
+      "目标人群：成人；建议最低年龄 18 岁；歌德学院估计至少需要 1,000 个 45 分钟的教学单元才能达到 C2。2012 年一月 1 日起，GDS 取代了原来的 ZOP、KDS 和 GDS。",
+      "认可：使国际学生能够进入德国大学——根据 HRK/KMK Rahmenordnung（RO-DT）§ 8，GDS 持有者免于提供 DSH/TestDaF 语言能力证明；德国各联邦州（Länder）在教师资格认定中接受它作为语言证明；它也被广泛用作德语教学资格的证明。"
+    ]
+  },
+  "telc-c1-hochschule": {
+    "heading": "telc Deutsch C1 Hochschule（telc 的大学入学考试；分数来自 telc Handbuch“Lernziele",
+    "items": [
+      "一场 Schriftliche Prüfung（笔试：Leseverstehen、Sprachbausteine、Hörverstehen、Schriftlicher Ausdruck）在同一场次内完成，Mündliche Prüfung（口试）可以在另一天进行。提供数字、混合或纸笔形式；也可以作为 Teilprüfung（部分考试，只考一部分）报考。",
+      "Leseverstehen：3 Teile，与 Sprachbausteine 合计 90 分钟。Teil 1 Textrekonstruktion（文本重构：6 道配对题，每题 2 分 = 12 分），Teil 2 selektives Verstehen（选择性理解：6 道配对题 = 12 分），Teil 3 Detailverstehen（细节理解：11 道 richtig/falsch/nicht im Text 题，每题 2 分 = 22 分），外加一道关于 Globalverstehen（整体理解）的 Makroaufgabe（宏观任务）（2 分）：共 48 分。",
+      "Sprachbausteine：1 Teil，Grammatik und Lexik（语法与词汇），22 道四选一选择题，每题 1 分 = 22 分。",
+      "Pause（休息）：20 分钟。",
+      "Hörverstehen：3 Teile，约 40 分钟：Teil 1 Globalverstehen（8 道配对题 = 8 分），Teil 2 Detailverstehen（10 道三选一选择题，每题 2 分 = 20 分），Teil 3 Informationstransfer（信息转换）——补全 10 条信息，即记下一场 Vortrag（报告）的要点（每条 2 分 = 20 分）：共 48 分。",
+      "Schriftlicher Ausdruck：1 项任务，70 分钟——自由写作，如 Erörterung（议论文）或 Stellungnahme（表态文）= 48 分。",
+      "Mündlicher Ausdruck：2 Teile，16 分钟，通常 2 名考生（Paarprüfung，双人考试），20 分钟准备时间。Teil 1a Präsentation——从两项任务中选一项并陈述（6 分）；Teil 1b Zusammenfassung/Anschlussfragen——概括搭档的陈述，提出后续问题并回答搭档的问题（4 分）；Teil 2 Diskussion——按 Leitpunkte（要点）讨论一句引语（6 分）；外加整个口试部分的 sprachliche Angemessenheit（语言得体性）32 分 = 48 分。",
+      "及格规则：总分至少 60%，并且笔试部分（LV、HV、SA）和口试部分各自也至少 60%。如果两部分中只有一部分未达标，可以在下一个日历年内单独重考该部分。成绩单列出每个 Subtest（分测验）的分数和百分比。",
+      "认可：根据 HRK/KMK Rahmenordnung（RO-DT）§ 8，通过“telc Deutsch C1 Hochschule”的持有者在德国大学免于提供 DSH/TestDaF 语言能力证明；telc 证书在国际上得到学校、大学、雇主和政府部门的认可（telc 是 ALTE 的正式成员）。"
+    ]
+  },
+  "testdaf": {
+    "heading": "TestDaF（Test Deutsch als Fremdsprache，对外德语考试，由 g.a.s.t. 下属的 TestDaF-Institut 主办；成绩以 TestDaF-Niveaus",
+    "items": [
+      "两种形式，目标和级别相同：数字 TestDaF（在 g.a.s.t. 考试中心的电脑上进行）和纸笔 TestDaF。两者都有四个部分——Lesen、Hören、Schreiben、Sprechen——分别计分并分别列在证书上；低于 TDN 3 的成绩显示为“unter TDN 3”。",
+      "大学入学：四个部分全部达到至少 TDN 4 的 TestDaF，可作为德国大学所有学位课程的入学语言能力证明（RO-DT § 4）。大学可以在某些专业上接受个别部分较低的 TDN（例如 Informatik（计算机科学）或 Ingenieurwissenschaften（工程科学）的 Schreiben 为 TDN 3），或要求 TDN 5（例如 Übersetzungswissenschaften（翻译学））；TDN 5 高于入学级别。所有德国大学的所有课程都认可；在约 100 个国家的 500 多个考试中心提供。话题和任务始终与大学学习相关；不需要专业知识。",
+      "数字 TestDaF——Lesen：7 Aufgaben，34 道题，约 55 分钟（Lückentext（完形填空）5 题，Textabschnitte ordnen（段落排序）4 题，Multiple-Choice（选择题）7 题，Sprachhandlungen zuordnen（语言行为配对）4 题，Aussagen Kategorien zuordnen（陈述归类）7 题，Aussagen einem Begriffspaar zuordnen（把陈述归入一对概念）4 题，Fehler in Zusammenfassung erkennen（找出摘要中的错误）3 题）。Hören：7 Aufgaben，30 道题，约 40 分钟（键盘输入的简答、配对、选择题、Laut- und Schriftbild abgleichen（听音辨字）；音频和视频材料）。任务按固定顺序出现，不能返回，其中还混有不计分的试测任务。",
+      "数字 TestDaF——Schreiben：2 Aufgaben，约 60 分钟，键盘输入：一篇至少 200 个词的论证性文本，以及一篇约 100-150 个词、对一篇阅读文本加一张图表的概述。Sprechen：7 Aufgaben，约 35 分钟，通过耳机与虚拟对话者交流并录下回答；每项任务的说话时间从 0:45 到 2:30 分钟（Rat geben 提建议、Optionen abwägen 权衡选项、Text zusammenfassen 概括文本、Informationen abgleichen und Stellung nehmen 比对信息并表态、Thema präsentieren 陈述话题、Argumente wiedergeben und Stellung nehmen 转述论据并表态、Maßnahmen kritisieren 批评措施）。",
+      "数字版计分：每个部分换算为 0-20 分（总分 0-80）：0-4 = unter TDN 3，5-9 = TDN 3，10-15 = TDN 4，16-20 = TDN 5。Lesen 和 Hören 自动评分（简答题由受过培训的评分员评分）；Schreiben 和 Sprechen 由受过培训的评分员评判：文本是否切题，是否涵盖任务的所有要点，是否完成了要求的 Schreib-/Sprechhandlungen（写作/口语行为），是否用自己的话正确转述了材料，表达是否精确并使用多样的语法、词汇和 Redemittel（套语），以及尽管有一些错误是否仍能被理解（Sprechen 还看：流利度、发音和语调）。",
+      "纸笔 TestDaF：纯考试时间 3 小时 15 分钟，各部分之间有休息。Leseverstehen：3 篇文本（Kurztexte 短文、journalistischer Text 新闻文本、Text aus einer Fachzeitschrift 专业期刊文本），30 道题（10 道 Zuordnung 配对、10 道 Multiple-Choice 选择、10 道 ja/nein/Text sagt dazu nichts 即是/否/文中未提及），60 分钟——50 分钟后有 10 分钟把答案誊写到 Antwortblatt（答题纸）上。Hörverstehen：3 篇文本（Dialog 对话、Interview 访谈、Vortrag/Interview 报告/访谈），25 道题（8 道 Kurzantworten 简答、10 道 richtig/falsch、7 道 Kurzantworten），40 分钟，含 Hörtext 3 之后用于 Antwortblatt 的 10 分钟。Schriftlicher Ausdruck：1 项任务，一篇结构完整的手写文本，含 Grafikbeschreibung（图表描述）和 Argumentation（论证），60 分钟。Mündlicher Ausdruck：7 项典型大学情境中的任务，35 分钟，在电脑上戴耳机进行——没有与考官的现场对话。",
+      "纸笔版计分：每道答对的题 1 分（Lesen 最高 30 分，Hören 最高 25 分）；TDN 的分数线按每套试题通过统计分析确定——TDN 5 从 24、25 或 26 分起（Lesen）/ 19、20 或 21 分起（Hören），TDN 4 从 20-22 / 15-17 分起，TDN 3 从 14-16 / 10-12 分起。7 项口语任务中的每一项分别被评为 TDN 3、4 或 5。",
+      "官方概览页面没有说明费用和证书有效期；请向考试中心咨询当前费用，向大学咨询证书最长可以是多久以前的。"
+    ]
+  },
+  "dsh": {
+    "heading": "DSH（Deutsche Sprachprüfung für den Hochschulzugang，大学入学德语考试），依据 HRK/KMK 的“Rahmenordnung über Deutsche",
+    "items": [
+      "DSH 由各大学或 Studienkolleg（预科学院）依据各自的本地 Prüfungsordnung（考试规程）举办，该规程必须遵循 RO-DT 和 DSH-MPO，并与 FaDaF 合作在 HRK 登记。因此日期、费用（大学可以对 DSH 收费）、重考规则和具体任务因校而异——请务必查看当地的 DSH 页面。",
+      "成绩级别：证书显示加权总成绩 DSH-1（Eingangsstufe，入门级）、DSH-2 或 DSH-3，以及每个 Teilprüfung（分项考试）的成绩。DSH-1 = 笔试和口试均至少 57%；DSH-2 = 两者均至少 67%；DSH-3 = 两者均至少 82%。笔试部分和口试部分各自达到至少 57%，整场考试即为及格。RO-DT 没有把 DSH-1/2/3 对应到 CEFR 级别。",
+      "DSH-2 是作为所有学位课程入学语言能力证明的成绩（RO-DT § 3 Abs. 6）；大学可以为特定课程设定 DSH-1（更低）或 DSH-3（更高）。基于 DSH-1 的录取对其他大学或转换专业不具约束力。",
+      "笔试（schriftliche Prüfung）：三个 Teilprüfungen，权重 HV : LV : WS : TP = 2 : 2 : 1 : 2（LV 和 WS 合为一个 Teilprüfung）。任务涵盖至少两个不同的主题领域，均不需要专业知识，整个笔试包括 Hörtext（听力文本）的播放在内最多四小时。只允许使用单语纸质词典，其他一概不允许。笔试可以采用现场电子考试（elektronische Präsenzprüfung）形式，与纸笔版本等效。",
+      "Hörverstehen（HV，“Verstehen und Verarbeiten eines Hörtextes”，即理解并加工一篇听力文本）：一篇 5,500-7,000 字符的讲座式文本播放两遍（可以做笔记）；第一遍后有 10 分钟、第二遍后有 40 分钟的作答时间，播放时间本身不计入。任务如回答问题、画 Strukturskizze（结构图）、写 Resümee（摘要）或呈现思路；按完整性和恰当性评分，不按语言正确性评分。",
+      "Leseverstehen und wissenschaftssprachliche Strukturen（阅读理解与学术语言结构，LV + WS）：90 分钟，含阅读时间；一篇基本为真实材料、与学习相关的 4,500-6,000 字符的文本，可能附有图表。LV 任务如回答问题、描述论证结构或 Gliederung（提纲）、解释段落、写标题或摘要（按内容评分，不按语言评分）；WS 任务针对文本中的学术语言结构——补全、理解问题、改写或转换（按语言正确性评分）。",
+      "Vorgabenorientierte Textproduktion（按给定材料写作，TP）：70 分钟，根据给定材料（图表、关键词列表、表格、图示、引文或短文——Darstellen 呈现、Zusammenfassen 概括、Vergleichen 比较、Begründen 论证、Bewerten 评价、Stellung nehmen 表态）就一个与学习相关的话题写一篇约 250 个词的论证性 Sachtext（说明性文本）；不能写成自由作文。按内容（完整性、展开、结构、连贯性）和——权重更高的——语言（正确性、用词、句法、衔接）评分。",
+      "口试（mündliche Prüfung）：最多 20 分钟，外加 20 分钟准备时间（可用单语纸质词典）——先是一个最多 5 分钟、以描述为主、基于一篇短文和/或一张图表的 Kurzvortrag（短报告），然后是最多 15 分钟的 Gespräch（交谈）（Darstellen、Zusammenfassen、Vergleichen、Begründen、Bewerten、Stellung nehmen）。不设集体考试。评分看内容、表述的可理解性和独立性、互动、语法准确度和词汇广度、发音和语调。口试是必考的（不得免除），笔试不及格时可以取消口试；大学可以提供在线的 elektronische Fernprüfung（电子远程考试）作为现场考试的替代。",
+      "允许重考 DSH；重考的次数和时间由当地的 Prüfungsordnung（考试规程）规定。",
+      "认可：依据 RO-DT 举行并在 HRK 登记的 DSH，其及格成绩被德国各大学接受为语言能力证明（RO-DT § 7）。免除 DSH/TestDaF 要求的包括 Goethe-Zertifikat C2: GDS、ÖSD Zertifikat C2 和 telc Deutsch C1 Hochschule 的持有者等（RO-DT § 8）。"
+    ]
+  },
+  "osd": {
+    "heading": "ÖSD（Österreichisches Sprachdiplom Deutsch）——独立的考试机构，既不是 Goethe 也不是 telc",
+    "items": [
+      "来自奥地利、国家认可的德语作为外语和第二语言考试体系；自 2009 年起为独立、自筹资金的非营利协会；首批考试于 1995 年举行，如今每年有超过 100,000 名考生在全球约 400 个授权中心参加考试。“ÖSD”也代表 Österreich - Schweiz - Deutschland（奥地利 - 瑞士 - 德国）：三国的标准变体被视为同等，Lesen 和 Hören 的文本来自这三个国家（多中心标准德语）。",
+      "级别：ÖSD Zertifikat A1 到 C2（ZA1-ZC2），另有青少年版和职业专项考试（例如 ÖSD Zertifikat C1 Pflege und medizinische Berufe 护理与医疗职业、ÖSD Zertifikat C2 Wirtschaftssprache Deutsch 经济德语）。",
+      "ÖSD Zertifikat C1（ZC1）：面向 16 岁以上的学习者（青少年版 14 岁以上），特别针对想在德语区大学学习的人。两个模块，Schriftliche Prüfung（笔试：Lesen、Hören、Schreiben）和 Mündliche Prüfung（口试：Sprechen），可以一起考也可以分开考：两个模块在同一考期或一年内在同一中心都及格时颁发 Gesamtzertifikat（总证书），否则每个模块颁发 Modulzertifikat（模块证书）。自 2024 年一月 1 日起也提供数字考试。",
+      "ZC1 各部分：Lesen——4 Aufgaben，90 分钟（来自奥地利、德国和瑞士的真实文本，整体和细节理解）；Hören——2 Aufgaben，约 40 分钟（标准语的真实录音，整体、细节和选择性理解）；Schreiben——根据给定材料写 2 篇文本，一封正式电子邮件和一篇书面的 Referat（报告）、Stellungnahme（表态文）或 Kommentar（评论），90 分钟；Sprechen——3 Aufgaben（Telefongespräch 电话交谈、Diskussion 讨论、Kurzreferat 短报告），15-20 分钟，由两名受过培训的 ÖSD 考官主持并评分。",
+      "ÖSD Zertifikat C2（ZC2）：面向 16 岁以上的学习者；Lesen、Hören、Schreiben 和 Sprechen 四个模块，可以在不同考期独立报考（四个模块在同一考期或一年内在同一中心全部及格时颁发 Gesamtzertifikat，否则每个模块颁发 Modulzertifikat）。Lesen——4 Aufgaben，90 分钟；Hören——3 Aufgaben，约 40 分钟；Schreiben——根据给定材料写 2 篇文本，90 分钟；Sprechen——3 Aufgaben（Telefongespräch、Präsentation、就所陈述话题的 Diskussion），15-20 分钟。同样自 2024 年一月 1 日起提供数字考试。",
+      "各模块的分数和及格线在考试页面上没有给出；它们依据 osd.at 上链接的官方 Auswertungsbogen（评分表）和 Prüfungsordnung（考试规程）。",
+      "在奥地利的认可：申请德语授课的学位课程时，奥地利的大学根据学校和专业要求 B1 到 C2 之间的 ÖSD 证书（并且自 2019 年夏季学期起在申请时就要求 A2）；A1 及以上的 ÖSD 证书也可作为居留许可的语言证明。",
+      "在德国的认可：德国的大学根据各校规定在 B2、C1 或 C2 级别接受；ÖSD Zertifikat C2 根据 RO-DT § 8 免除 DSH/TestDaF；ÖSD Zertifikat B1 可用于入籍。"
+    ]
+  },
+  "compare": {
+    "heading": "选择哪种考试",
+    "items": [
+      "Goethe B1/B2 是模块化的（逐个模块及格并发证，只需重考未及格的模块）；telc B1/B2 是一场考试，笔试和口试两部分都必须达到 60%，但未及格的部分通常可以在一年内单独重考。",
+      "telc 有单独的 Sprachbausteine 部分（填空文本中的语法和词汇）；Goethe 没有单独的语法部分——语法在写作和口语中计分。",
+      "Goethe B1 的 Sprechen 包含一个按五张幻灯片进行的结构化陈述；telc B1 的 Sprechen 有相互认识的部分、围绕一篇短文或统计图的交谈，以及一项计划任务。两者都是双人考试。",
+      "Goethe B1 的 Schreiben 有三项任务（非正式电子邮件、意见文、简短的正式信息）；telc B1 是一封带四个 Leitpunkte 的半正式/正式信件。Goethe B2 的两项任务要求至少 150 + 100 个词；telc B2 要求在两项任务中选一项，写一封约 150 个词或更多的信。",
+      "DTZ 对融入课程学员免费，按领域给出 A2 或 B1，并且为德国的日常生活而设计（写给机构、房东、学校的信）。它和 Goethe/telc B1 一样可用于定居许可和入籍；至于大学入学或职业资格认可，机构通常会要求相应级别的 Goethe、telc、ÖSD 或 TestDaF/DSH。",
+      "ÖSD（奥地利）提供同等的 A1-C2 考试，在德国、奥地利和瑞士都得到认可；ÖSD Zertifikat B1 与 Goethe-Zertifikat B1 是同一场考试（联合开发）。",
+      "同一 CEFR 级别的难度相当；按形式偏好（模块化还是一场考试、陈述还是统计图）、考期的可选性、价格以及目标机构接受什么来选择。",
+      "B2 以上、为了在德国上大学（HRK/KMK Rahmenordnung RO-DT，§§ 4、7 和 8）：DSH 由各大学自行命题和举办，给出 DSH-1/DSH-2/DSH-3（DSH-2 是通常的入学级别）；TestDaF 是在授权中心举行的统一考试，按部分给出 TDN 3/4/5（四个部分全部 TDN 4 是通常的入学级别）；Goethe-Zertifikat C2: GDS、ÖSD Zertifikat C2 和 telc Deutsch C1 Hochschule 免除 DSH/TestDaF 要求；ÖSD Zertifikat C1 被一些德国大学接受（osd.at 列出了这些大学）——对于 Goethe-Zertifikat C1 或任何其他证书，请查看该机构自己的名单。Goethe C1/C2 和 ÖSD C2 是模块化的；telc C1 Hochschule 有笔试和口试两部分，都必须达到 60%。"
+    ]
+  },
+  "strategy": {
+    "heading": "策略与常见错误",
+    "items": [
+      "阅读：先读题目，划出关键词，先做容易的 Teile（广告配对、说明文），跳过难题再回头，并留出约 5 分钟把所有答案誊写到 Antwortbogen（答题卡）上——只有 Antwortbogen 会被批改。配对题：划掉已经用过的广告；要预料到有些人会是“kein passendes Angebot”/“x”，不要硬配。意见题（ja/nein）：评论里可能有“aber”（但是）——按整体立场判断，而不是看第一句。",
+      "听力：利用每部分开始前的读题时间预测话题和要问的信息类型（数字、地点、原因）。边听边标答案，绝不要事后凭记忆填。播放两遍的部分，第一遍抓主旨，第二遍核对。遇到不认识的词不要停下；下一题马上就来。宁可猜也不要留空（答错不倒扣分）。",
+      "写作：花 2-3 分钟做计划（每个内容要点一行），然后写，再留 3-5 分钟检查动词词尾、从句中的动词位置（weil/dass/obwohl 把动词送到句尾）、名词大写、正式信件中“Sie/Ihnen/Ihr”大写、“dass/weil”前的逗号、称呼和结尾。每一个内容要点都要涵盖；漏掉一个要点比几个小语法错误扣分更多。背好的但不符合任务的文本会被扣分。遵守大致的篇幅：明显过短的答案会丢分；稍微超出没关系。",
+      "口语：回应你的搭档（提问、同意、反对），对话任务里不要自说自话；准备时间用来写关键词，而不是完整句子；听不懂就问（“Könntest du das bitte wiederholen?”）。发音也计分：说得慢一点、清楚一点。",
+      "考官常见的学习者典型错误：从属连词之后动词位置错误，冠词/形容词词尾缺失或错误，介词之后的第三格/第四格（in + Akk = 方向，in + Dat = 位置），Perfekt 用错助动词，“ich bin 20 Jahre”（缺“alt”），“Ich habe Interesse für”（正确：“an”），混用 du/Sie，“Mit freundlichen Grüßen,”后面加了逗号，前置成分之后忘了主语（动词必须留在第 2 位）。",
+      "时间规划（以 B1 为例）：6-8 周，每天 45-60 分钟；每周做一套官方 Modellsatz（样题）里完整的听力和一套阅读，两篇限时写作，三次口语练习（给自己录音），按话题（Arbeit、Wohnen、Gesundheit、Reisen、Medien、Umwelt、Bildung、Familie、Einkaufen、Freizeit、Ernährung、Verkehr、Ämter）记单词，连同词性、复数和一个例句；最后一周做一次完整的限时模拟考试。"
+    ]
+  }
+}
