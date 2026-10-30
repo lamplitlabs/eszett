@@ -1,7 +1,7 @@
 # Eszett app
 
 The Expo app of Eszett, the German tutor built around `lamplitlabs/licht-german-tutor`. The 3B model runs on the
-phone through [llama.rn](https://github.com/mybigday/llama.rn) (llama.cpp) from a GGUF file; there is no server.
+phone through [llama.rn](https://github.com/mybigday/llama.rn) (llama.cpp) from a GGUF file; the only server is the small one that hands out download links to signed-in learners (see "Business model, accounts and the server").
 See the sections below for what the app does and how the model editions were chosen.
 
 ## Prerequisites
@@ -768,6 +768,31 @@ word-list topics (`src/features/topics.ts`, where the topic tables now live). Al
 overlays and the twelve UI catalogs (the `path` section of `en.source.json`: a week's title, goal and, per step, the
 question or situation it carries).
 
+## Moments
+
+The research warned against gamification that nags (streak anxiety, "logging in so they don't lose"); what it
+asked for was warmth. The motion kit in `src/ui/motion/` makes the good moments felt and leaves the rest quiet:
+
+- **`Celebration.tsx`** - one full-screen moment, mounted once in the root layout and fired from anywhere with
+  `celebrate({ kind, cheer, title, detail, streak })`: a badge springs in with a halo, confetti falls, a German
+  cheer (`CHEERS`: *Geschafft!*, *Klasse!*, *Weiter so!* …), one line about what was achieved and the streak as a
+  flame; a tap or three and a half seconds later it is gone. Kinds: `lesson`, `week`, `exam`, `streak`,
+  `speaking`, `level`, `done`.
+- **`Confetti.tsx`** - the burst alone, for result screens; pure Reanimated, deterministic per `shot`, honours
+  reduced motion (nothing is drawn). On the drill results (80 % and up), the exam summary when passed, the
+  one-minute talk when the level's word count is reached, Taboo and Who am I? at the end.
+- **`StreakFlame.tsx`** - the Home streak pill's flame breathes while the streak is alive, faster and taller the
+  longer it is (filled from 7 days, red from 30), and flares up with a glow the moment the number rises.
+- **`Numbers.tsx`** - `CountUp` (a score that counts up with an ease-out) and `ProgressRing` (an SVG ring that
+  fills itself): the drill result, the one-minute pace, the small ring next to "Today's lesson".
+
+What fires when (`src/features/moments.ts`, pure rules and a persisted store so each moment fires once): the
+day's lesson once a day (`lesson`, with the streak), a streak milestone (`STREAK_MILESTONES`: 3, 7, 14, 30, 60,
+100, 365) the day it is reached, a finished week of the course (`week`). **Welcome back**
+(`src/features/WelcomeBackCard.tsx`) greets a learner after three or more days away - *Schön, dass du wieder da
+bist!*, where they left off, one button to continue - with no word about the lost streak; once a day until they
+practise. All of it respects the system's reduce-motion setting.
+
 ## Reminders
 
 Local notifications only (`expo-notifications`; `src/features/notify.ts`, `notifyRules.ts`, `notifyStore.ts`,
@@ -970,11 +995,69 @@ appears for builds installed from the Play Store) after `REVIEW_RULES` in `revie
 five finished activities, at most three asks, 120 days apart. The Me screen's "Rate Eszett" row opens the store
 page directly.
 
-## Free week and full access
+## Business model, accounts and the server
 
-Everything is open for seven days from the first start; after that the tutor model needs a one-time purchase (no
-subscription). The drills, rule cards, word lookups and the pass-and-play games stay free for good — the gate is
-only on the model.
+Eszett is sold the way its learners asked for in the research behind it (billing dark patterns were the
+third-most-common complaint about language apps; "simple, transparent, no auto-renewal" the ask): **nothing
+renews by itself, nothing is taken away, and the people who can pay help the people who cannot.**
+
+| | What you get | Price |
+| --- | --- | --- |
+| **Free week** | Everything, for seven days from the first start, with one tutor model download. The drills, rule cards, word lookups and the pass-and-play games stay free for good; only the model needs the purchase afterwards. | — |
+| **Eszett for good** (`eszett_full_access`) | The app for good, every tutor model released in the next **twelve months**, and the last of them for good. One purchase. | the store's price |
+| **Fresh tutor** (`eszett_fresh_tutor`) | Twelve more months of new tutor models, for someone whose year is over. One payment, never required: the app and the last model keep working. | smaller |
+| **Pay it forward** (`eszett_gift`) | Full access for someone who cannot afford it: a code to hand to a person you know, or into the pool, where the next learner who asks for one gets it. | same as full access |
+| **Codes** | Schools, Integrationskurs providers and employers get codes in bulk (`POST /v1/codes`, owner only); one code, one account. | by agreement |
+
+Why this shape: the costs are the training of new models and the 2.2 GB a download moves, not the running of
+the app (the model runs on the phone). A one-time purchase with a year of updates pays for the models that year;
+a learner who stops is not charged for what they do not use; a learner who returns after two years still has
+their tutor and can buy a fresh one. The pool turns the audience's own goodwill (the research is full of "pay it
+forward" stories among migrants learning German) into access for those who need it most, without the app giving
+anything away that someone else did not choose to give. Regional pricing is the stores' business (price tiers per
+country), not the app's.
+
+**The pieces.**
+
+- **Accounts (Clerk).** An account is needed for one thing only: downloading the tutor model. Sign-in is an
+  e-mail address and a six-digit code, no password (`src/app/signin.tsx`, `@clerk/clerk-expo`, the session in
+  `expo-secure-store`). A build without `EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY` has no account at all and downloads
+  from the public URLs as before; `src/features/account.tsx` mirrors Clerk's state into a store so no screen
+  depends on Clerk directly (`AccountProvider`, `AccountBridge`). The Clerk application is set up through pulse's
+  Clerk MCP (task `TASK-042`); the publishable key goes into `.env` (git-ignored), the secret key only into the
+  Function App's settings.
+- **The server** (`server/`, Azure Functions v4 on Node 22, Consumption plan, resource group `eszett`, function
+  app `eszett-gwc-func-001`, reusing the `lichtgwcst001` storage account for its tables and the shared Application
+  Insights). It verifies the Clerk session token and answers:
+  `GET /v1/health` · `GET /v1/me` (the entitlement) · `POST /v1/download-url {file}` (a read-only link to one
+  blob, signed with the function's managed identity - a user-delegation SAS, seven days at most, no account key
+  anywhere) · `POST /v1/purchase {platform, productId, token}` (asks Google Play / the App Store, records the
+  entitlement; a gift answers with a code) · `POST /v1/redeem {code | fromPool}` · `POST /v1/codes` (owner, with
+  `x-admin-key`). The rules are pure and tested (`server/src/rules.ts`, `rules.test.ts`): **first download free
+  for every account; a model once downloaded can always be downloaded again (a new phone); with full access every
+  model released before `updatesUntil`; otherwise 402 with `needs-full` or `needs-fresh`**. The storage account's
+  roles for the identity: Storage Blob Data Reader, Storage Blob Delegator, Storage Table Data Contributor.
+  Settings: `STORAGE_ACCOUNT`, `MODELS_CONTAINER`, `MODEL_STUDENT`, `EDITIONS`, `LINK_HOURS`, `UPDATES_MONTHS`,
+  `CLERK_SECRET_KEY`, `GOOGLE_SERVICE_ACCOUNT_JSON` (a Play service account with "View financial data"),
+  `APPLE_ISSUER_ID` / `APPLE_KEY_ID` / `APPLE_PRIVATE_KEY` (App Store Server API), `ADMIN_KEY`;
+  `TRUST_UNVERIFIED_PURCHASES=true` is for development only. Deploy: `cd server && npm run deploy`. Until
+  `CLERK_SECRET_KEY` is set the server answers 503 and the app falls back to the public URLs; once the new app
+  version is out, the `models` container can be made private (`az storage container set-permission --public-access
+  off`), and then only the server's links download.
+- **The app's side** (`src/features/api.ts`, pure and tested): `requestDownloadLink` turns the server's answers
+  into what the app does - a link, "sign in" (401), "full access" (402, the unlock screen with the reason), or a
+  fallback to the public URL when the server is not configured or not reachable (`shouldFallBackToPublic`).
+  `src/model/runtime.ts` asks for the link in `download()` and parks the reason in `gate`; the Your-tutor sheet and
+  the Home card show it. Purchases are reported to the server after the store confirms them
+  (`src/features/purchases.ts` `report`); a fresh tutor and a gift are consumables that live on the account, so
+  the store is told only after the server has them.
+- **A new tutor model** (`src/model/update.ts`, `src/features/ModelUpdateCard.tsx`): a new build no longer deletes
+  the previous student's model and downloads the next one unasked. The old model keeps working (`outdated` in the
+  runtime), a card says "A new tutor is ready" - download with full access, the unlock screen in the free week,
+  "Later" puts it away for this student - and the old files go only after the new one is loaded (or first, when
+  the phone has room for one model: `mustRetireFirst`). Rules tested in `src/model/__tests__/update.test.ts`.
+
+The local pieces from before remain:
 
 - `src/features/accessRules.ts` (pure, tested) holds the rules: `TRIAL_DAYS = 7`, `PRODUCT_ID =
   'eszett_full_access'`, `evaluateAccess(record, now)` → `paid` / `trial` (with `daysLeft`) / `ended`. The clock
@@ -1003,7 +1086,7 @@ only on the model.
 
 - **App Store.** In App Store Connect sign the Paid Apps agreement (Agreements, Tax, and Banking — until it is
   active `fetchProducts` returns nothing and the button says the store is not available), then under the app's
-  In-App Purchases add a **Non-Consumable** with product id `eszett_full_access`, a price, the display name and
+  In-App Purchases add a **Non-Consumable** with product id `eszett_full_access` (and two **Consumables**, `eszett_fresh_tutor` and `eszett_gift`, for the fresh tutor and pay-it-forward purchases), a price, the display name and
   description in the app's languages, and a screenshot of the unlock sheet for review. The first in-app purchase
   has to be submitted together with an app version (pick it on the version page). No capability or entitlement is
   needed: In-App Purchase is on for every App ID, and `expo-iap` uses StoreKit 2 (iOS 15+; the app is iOS 16.4+).
@@ -1016,15 +1099,16 @@ only on the model.
   History lets a tester buy again. In the simulator use a StoreKit Configuration file (Xcode: File › New › StoreKit
   Configuration File, add the non-consumable `eszett_full_access`, pick it in Product › Scheme › Edit Scheme › Run
   › Options); `ios/` is generated, so redo that after a `prebuild --clean`. Or just use the dev pills.
-- **Google Play.** Play Console › Monetize › Products › In-app products: product id `eszett_full_access`, one-time,
-  active. Purchases only work for builds signed with the upload/app signing key that Play knows (an internal
+- **Google Play.** Play Console › Monetize › Products › In-app products: `eszett_full_access` (one-time), `eszett_fresh_tutor` and `eszett_gift` (consumable), all
+  active; for the server's receipt check, a service account with "View financial data" (Play Console › Users and
+  permissions), its JSON in the Function App setting `GOOGLE_SERVICE_ACCOUNT_JSON`. Purchases only work for builds signed with the upload/app signing key that Play knows (an internal
   testing track is enough) and for accounts listed as licence testers.
 
-**Limitations, on purpose:** there is no server and no receipt verification — the device's own StoreKit / Play
-Billing state is trusted, the same way the rest of the app trusts the phone. A reinstall starts a new week (the
-trial record lives in AsyncStorage); a rooted phone can edit it. The purchase itself is tied to the store account
-and comes back through Restore on any phone. Learners who update from a version without the gate get seven days
-from the first start of the new version.
+**Limitations, on purpose:** the device's own StoreKit / Play Billing state still unlocks the app on the phone
+(the week, the lock, the local purchase record); the server is the authority for downloads and for what the
+account owns, and the two meet when a purchase is reported. A reinstall starts a new week on the phone (the trial
+record lives in AsyncStorage) but not a new free download: the account remembers. Learners who update from a
+version without the gate get seven days from the first start of the new version.
 
 ## Practising together
 

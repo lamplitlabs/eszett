@@ -33,10 +33,13 @@ import {
   pickModelFile,
   readLexicon,
   removeRetiredFiles,
+  retiredBytes,
   restoreModelDownload,
   type LocalModel,
 } from './files';
 import { describeBytes, EDITIONS, editionInfo, estimatedBytes, isEdition, isOurModel, modelUrl, SYSTEM_PROMPT, type Edition } from './manifest';
+import { mustRetireFirst, previousStudentModel } from './update';
+import { accountsEnabled, requestDownloadLink, sessionToken, shouldFallBackToPublic } from '@/features/api';
 
 export const coreLexicon = new LexiconIndex(lexiconCore as unknown as LexiconData);
 export const cards = grammarCards as unknown as GrammarCard[];
@@ -87,6 +90,16 @@ export interface ModelState {
   removed: string[];
   /** True once the full lexicon (88k nouns) is loaded, so model answers are checked against all of it. */
   checking: boolean;
+  /**
+   * The model in use is a previous student's: the build ships a newer one, downloadable from the Your-tutor sheet
+   * and the Home card (src/model/update.ts). False once the current student's file is loaded.
+   */
+  outdated: boolean;
+  /**
+   * Why the last download did not start: the learner must sign in, or the server wants full access (or a fresh
+   * tutor) first. The screens turn this into the sign-in or unlock screen; null when nothing is in the way.
+   */
+  gate: { kind: 'sign-in' } | { kind: 'entitlement'; reason: 'needs-full' | 'needs-fresh' } | null;
   boot: () => Promise<void>;
   download: (edition?: Edition) => Promise<void>;
   pause: () => Promise<void>;
@@ -146,7 +159,7 @@ async function readSaved(): Promise<SavedDownload | null> {
     const state = saved.state;
     if (!isEdition(saved.edition) || !state || typeof state.url !== 'string' || typeof state.resumeData !== 'string') return null;
     // a download of another file (the previous student's, before an app update) cannot be resumed into this one
-    if (basename(state.url.split(/[?#]/)[0]) !== editionInfo(saved.edition).file) return null;
+    if (decodeURIComponent(basename(state.url.split(/[?#]/)[0])) !== editionInfo(saved.edition).file) return null;
     return { edition: saved.edition, state };
   } catch (e) {
     // A corrupt record would silently look like "no download to resume"; keep the reason in the log.
@@ -320,6 +333,10 @@ async function runTask(dl: DownloadTask, edition: Edition, how: 'start' | 'resum
     }
     useModel.setState({ progress: 1, bytes: actual, total: actual, detail: t('model.detailDownloaded'), local: findLocalModels() });
     await load(final.uri, edition);
+    // the new student is in: the previous one's files have done their job
+    const removed = removeRetiredFiles();
+    if (removed.length) useModel.setState({ removed: [...useModel.getState().removed, ...removed], local: findLocalModels() });
+    useModel.setState({ outdated: false });
   } catch (e) {
     const text = t('model.errSaveFailed', { reason: message(e) });
     useModel.setState({ status: 'error', detail: text, error: text });
@@ -364,6 +381,8 @@ export const useModel = create<ModelState>()((set, get) => ({
   local: [],
   removed: [],
   checking: false,
+  outdated: false,
+  gate: null,
 
   boot: () => {
     bootPromise ??= (async () => {
@@ -372,17 +391,25 @@ export const useModel = create<ModelState>()((set, get) => ({
         return;
       }
       const settings = useSettings.getState();
-      // After an update to a new student the previous one's files go first, so the phone never holds two models.
-      const removed = removeRetiredFiles();
+      // After an update to a new student, the previous one's half-downloaded files go at once; its complete model
+      // stays and keeps working until the new one is on the phone (the learner is asked, not switched).
+      const installedNow = installedModel(settings.edition);
+      const removed = removeRetiredFiles(!installedNow);
       if (settings.modelFile && removed.includes(basename(settings.modelFile))) settings.setModelFile('');
       const local = findLocalModels();
-      set({ status: 'checking', detail: detailOf('checking'), local, removed, edition: settings.edition });
+      set({ status: 'checking', detail: detailOf('checking'), local, removed, edition: settings.edition, gate: null });
 
       const chosen = chosenLocal(local, settings.modelFile);
-      const found = chosen ?? installedModel(settings.edition);
+      const found = chosen ?? installedNow;
       if (found) {
         // already logged and in the store as 'error' when the load fails: the Your-tutor sheet shows it from there
         await load(found.uri, found.edition ?? settings.edition).catch(() => undefined);
+        return;
+      }
+      const previous = previousStudentModel(local, settings.edition);
+      if (previous) {
+        set({ outdated: true });
+        await load(previous.uri, previous.edition ?? settings.edition).catch(() => undefined);
         return;
       }
 
@@ -424,8 +451,33 @@ export const useModel = create<ModelState>()((set, get) => ({
     }
     if (task) await get().cancel();
 
-    const free = freeBytes();
-    if (free >= 0 && free < estimatedBytes(edition) + HEADROOM_BYTES) {
+    // the link: from the server when the build has accounts (sign-in and the entitlement decide), else the public URL
+    let url = modelUrl(edition, useSettings.getState().modelSource);
+    if (accountsEnabled() && !useSettings.getState().modelSource.trim()) {
+      const outcome = await requestDownloadLink(editionInfo(edition).file, await sessionToken());
+      if (outcome.kind === 'ok') url = outcome.grant.url;
+      else if (outcome.kind === 'sign-in' || outcome.kind === 'entitlement') {
+        set({ gate: outcome.kind === 'sign-in' ? { kind: 'sign-in' } : { kind: 'entitlement', reason: outcome.reason }, status: get().status === 'ready' ? 'ready' : 'absent', detail: get().status === 'ready' ? detailOf('ready') : detailOf('absent') });
+        return;
+      } else if (!shouldFallBackToPublic(outcome)) {
+        const text = t('model.errDownloadFailed', { reason: outcome.message });
+        set({ status: 'error', edition, detail: text, error: text, progress: 0, bytes: 0, total: -1 });
+        return;
+      }
+    }
+    set({ gate: null });
+
+    const needed = estimatedBytes(edition) + HEADROOM_BYTES;
+    let free = freeBytes();
+    if (free >= 0 && free < needed && mustRetireFirst(free, needed, retiredBytes())) {
+      // the phone has room for one model, not two: the previous one goes now, the new one takes its place
+      loadSeq += 1;
+      await engine.unload();
+      const removed = removeRetiredFiles();
+      set({ removed: [...get().removed, ...removed], local: findLocalModels(), outdated: false });
+      free = freeBytes();
+    }
+    if (free >= 0 && free < needed) {
       const text = t('model.errNoSpace', { size: describeBytes(estimatedBytes(edition)) });
       set({ status: 'error', edition, detail: text, error: text, progress: 0, bytes: 0, total: -1 });
       return;
@@ -445,7 +497,6 @@ export const useModel = create<ModelState>()((set, get) => ({
     set({ status: 'downloading', edition, info: null, error: null, progress: 0, bytes: 0, total: -1, detail: t('model.detailStarting') });
     deletePart(edition);
     try {
-      const url = modelUrl(edition, useSettings.getState().modelSource);
       const t = createModelDownload(url, partFile(edition), progressSink(edition));
       await runTask(t, edition, 'start');
     } catch (e) {

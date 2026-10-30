@@ -23,6 +23,7 @@ import { useEffect, useMemo, useState } from "react";
 import { AppState, Platform, useColorScheme, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
+import { AccountProvider } from "@/features/AccountProvider";
 import { useAccessBind } from "@/features/accessBind";
 import { useAccess } from "@/features/access";
 import { useModelBoot } from "@/features/modelBoot";
@@ -34,6 +35,7 @@ import { useDeck } from "@/state/deck";
 import { useProgress } from "@/state/progress";
 import { useSettings } from "@/state/settings";
 import { dark, light, ThemeContext, type Theme } from "@/ui/theme";
+import { CelebrationOverlay } from "@/ui/motion/Celebration";
 import { UpdateCard, UpdateRequired, useUpdateVerdict } from "@/ui/UpdateCard";
 
 SplashScreen.preventAutoHideAsync().catch(() => undefined);
@@ -185,6 +187,7 @@ export default function RootLayout() {
       }}
     >
       <ThemeContext value={theme}>
+        <AccountProvider>
         <PhoneColumn color={theme.c.paper}>
           <ThemeProvider value={navTheme}>
             <StatusBar style={scheme === "dark" ? "light" : "dark"} />
@@ -268,6 +271,7 @@ export default function RootLayout() {
                 <Stack.Screen name="minute" />
                 <Stack.Screen name="talk" />
                 <Stack.Screen name="profile" />
+                <Stack.Screen name="signin" options={{ presentation: "fullScreenModal", animation: "slide_from_bottom" }} />
                 <Stack.Screen name="stories/index" />
                 <Stack.Screen name="stories/[id]" />
                 <Stack.Screen name="texts/index" />
@@ -323,8 +327,10 @@ export default function RootLayout() {
               </Stack>
             )}
             {update.required ? null : <UpdateCard verdict={update} />}
+            <CelebrationOverlay />
           </ThemeProvider>
         </PhoneColumn>
+        </AccountProvider>
       </ThemeContext>
     </GestureHandlerRootView>
   );

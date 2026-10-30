@@ -27,6 +27,8 @@ import { TopBar } from '@/ui/Screen';
 import { De, Txt } from '@/ui/Text';
 import { Thinking } from '@/ui/Thinking';
 import { font, gutter, space, useTheme } from '@/ui/theme';
+import { Confetti } from '@/ui/motion/Confetti';
+import { CountUp, ProgressRing } from '@/ui/motion/Numbers';
 
 type Phase = 'ready' | 'speak' | 'rating' | 'result';
 const clock = () => Date.now();
@@ -351,15 +353,14 @@ export default function MinuteScreen() {
 
         {phase === 'result' && stats ? (
           <Animated.View entering={FadeInDown.duration(300)} style={{ gap: space.l }}>
+            <Confetti shot={stats.words >= MIN_WORDS[level] ? `minute-${stats.words}-${seconds}` : false} count={56} />
             <Animated.View entering={ZoomIn.duration(400)} style={{ alignItems: 'center', gap: space.xs }}>
-              <View style={{ width: 120, height: 120, borderRadius: 60, borderWidth: 6, borderColor: percent === null ? c.rule : percent >= 60 ? c.green : c.amber, alignItems: 'center', justifyContent: 'center' }}>
-                <Txt variant="title" style={{ fontSize: 36, lineHeight: 42 }}>
-                  {stats.wpm}
-                </Txt>
+              <ProgressRing value={Math.min(1, stats.words / Math.max(1, MIN_WORDS[level] * 1.5))} size={124} stroke={8} color={percent === null ? 'inkFaint' : percent >= 60 ? 'green' : 'amber'}>
+                <CountUp value={stats.wpm} style={{ fontSize: 36, lineHeight: 42 }} />
                 <Txt variant="caption" color="inkSoft">
                   {t('minute.wpmLabel')}
                 </Txt>
-              </View>
+              </ProgressRing>
               <De variant="display">{stats.words >= MIN_WORDS[level] ? 'Gut gesprochen!' : 'Weiter so!'}</De>
             </Animated.View>
             <Paper style={{ flexDirection: 'row', gap: space.s }}>

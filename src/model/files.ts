@@ -8,7 +8,7 @@ import { Directory, DownloadTask, File, Paths, type DownloadPauseState } from 'e
 import { Platform } from 'react-native';
 
 import type { LexiconData } from '@/harness/lexicon';
-import { editionInfo, editionOfName, isGgufName, isRetiredModelName, LEXICON_URL, REVISION, type Edition } from '@/model/manifest';
+import { editionInfo, editionOfName, isGgufName, isRetiredModelName, LEXICON_FALLBACK_URL, LEXICON_URL, REVISION, type Edition } from '@/model/manifest';
 
 export interface LocalModel {
   uri: string;
@@ -75,10 +75,12 @@ export function findLocalModels(): LocalModel[] {
 
 /**
  * Removes from models/ what an earlier version of the app left behind: exports of other students, complete or
- * still .part, and lexicons of other revisions. Files the learner dropped into Documents are not touched.
+ * still .part, and lexicons of other revisions. With `keepComplete` the complete files of other students stay -
+ * the previous model keeps working until the new one is on the phone (src/model/update.ts) - and only their
+ * half-downloaded .part files and stale lexicons go. Files the learner dropped into Documents are not touched.
  * Returns the names removed; never throws.
  */
-export function removeRetiredFiles(): string[] {
+export function removeRetiredFiles(keepComplete = false): string[] {
   const removed: string[] = [];
   if (!native) return removed;
   try {
@@ -88,6 +90,7 @@ export function removeRetiredFiles(): string[] {
       const name = item.name;
       const staleLexicon = /^lexicon-.+\.json$/i.test(name) && name !== lexiconFile.name;
       if (!isRetiredModelName(name) && !staleLexicon) continue;
+      if (keepComplete && isRetiredModelName(name) && !/\.part$/i.test(name)) continue;
       try {
         item.delete();
         removed.push(name);
@@ -99,6 +102,21 @@ export function removeRetiredFiles(): string[] {
     // the folder cannot be read: nothing to clean
   }
   return removed;
+}
+
+/** The bytes of other students' complete models in models/: what retiring them would free. */
+export function retiredBytes(): number {
+  if (!native) return 0;
+  try {
+    if (!modelsDir.exists) return 0;
+    let total = 0;
+    for (const item of modelsDir.list()) {
+      if (item instanceof File && isRetiredModelName(item.name) && !/\.part$/i.test(item.name)) total += item.size;
+    }
+    return total;
+  } catch {
+    return 0;
+  }
 }
 
 /** The edition's file in models/, when it is complete (no .part next to it). */
@@ -210,7 +228,13 @@ export async function readLexicon(): Promise<LexiconData | null> {
   }
 }
 
+/** Fetches the full lexicon from our storage, from the Hub when that fails. */
 export async function downloadLexicon(): Promise<void> {
   ensureModelsDir();
-  await File.downloadFileAsync(LEXICON_URL, lexiconFile, { idempotent: true });
+  try {
+    await File.downloadFileAsync(LEXICON_URL, lexiconFile, { idempotent: true });
+  } catch (e) {
+    console.warn('[model] lexicon from our storage failed, trying the Hub:', e);
+    await File.downloadFileAsync(LEXICON_FALLBACK_URL, lexiconFile, { idempotent: true });
+  }
 }

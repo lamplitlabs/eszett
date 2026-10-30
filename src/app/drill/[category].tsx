@@ -26,6 +26,8 @@ import { speak } from '@/ui/speech';
 import { De, Txt } from '@/ui/Text';
 import { Thinking } from '@/ui/Thinking';
 import { font, gutter, radius, space, useTheme } from '@/ui/theme';
+import { Confetti } from '@/ui/motion/Confetti';
+import { CountUp, ProgressRing } from '@/ui/motion/Numbers';
 
 const TITLE_KEYS: Record<DrillCategory, string> = {
   article: 'drill.titleArticle',
@@ -163,13 +165,12 @@ export default function DrillScreen() {
     const right = outcomes.filter((o) => o.ok).length;
     return (
       <View style={{ flex: 1, backgroundColor: c.paper, paddingTop: insets.top + space.l, paddingBottom: insets.bottom + space.l }}>
+        <Confetti shot={right >= drills.length * 0.8 ? `drill-${right}` : false} count={right === drills.length ? 70 : 40} />
         <ScrollView contentContainerStyle={{ paddingHorizontal: gutter, gap: space.xl }}>
           <Animated.View entering={ZoomIn.duration(400)} style={{ alignItems: 'center', marginTop: space.x3 }}>
-            <View style={{ width: 132, height: 132, borderRadius: 66, borderWidth: 6, borderColor: right >= drills.length * 0.8 ? c.green : c.amber, alignItems: 'center', justifyContent: 'center' }}>
-              <Txt variant="title" style={{ fontSize: 40, lineHeight: 46 }}>
-                {right}/{drills.length}
-              </Txt>
-            </View>
+            <ProgressRing value={drills.length ? right / drills.length : 0} size={132} stroke={8} color={right >= drills.length * 0.8 ? 'green' : 'amber'}>
+              <CountUp value={right} render={(n) => `${n}/${drills.length}`} style={{ fontSize: 40, lineHeight: 46 }} />
+            </ProgressRing>
             <De variant="display" style={{ marginTop: space.xl }}>
               {right === drills.length ? t('drill.resultExcellent') : right >= drills.length * 0.6 ? t('drill.resultGood') : t('drill.resultKeepGoing')}
             </De>

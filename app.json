@@ -92,7 +92,9 @@
           "color": "#2442C6",
           "defaultChannel": "reminders"
         }
-      ]
+      ],
+      "expo-secure-store",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,

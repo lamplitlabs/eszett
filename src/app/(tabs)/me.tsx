@@ -1,10 +1,11 @@
 import { router } from 'expo-router';
-import { BookMarked, ChevronRight, GraduationCap, KeyRound, Mic, NotebookPen, RefreshCw, Repeat, Star, UserRound } from 'lucide-react-native';
+import { BookMarked, ChevronRight, GraduationCap, KeyRound, LogIn, LogOut, Mic, NotebookPen, RefreshCw, Repeat, Star, UserRound } from 'lucide-react-native';
 import { useState, type ReactNode } from 'react';
 import { Platform, Switch, View } from 'react-native';
 
 import modelInfo from '@/data/model.json';
 import { useAccessView } from '@/features/access';
+import { useAccount } from '@/features/account';
 import { enableNotifications, openNotificationSettings, sendTestNotification, useNotifyPermission } from '@/features/notify';
 import { REMINDER_HOURS, useNotify } from '@/features/notifyStore';
 import { modelTitle, statusLabel, useModelPercent } from '@/features/modelStatus';
@@ -170,6 +171,7 @@ export default function Me() {
   const detail = useModel((h) => h.detail);
   const pct = useModelPercent();
   const access = useAccessView();
+  const account = useAccount();
   const [updateCheck, setUpdateCheck] = useState<'idle' | 'busy' | CheckOutcome>('idle');
   const notify = useNotify();
   const permission = useNotifyPermission();
@@ -384,6 +386,19 @@ export default function Me() {
           </Paper>
         </Press>
       </Section>
+
+      {account.enabled ? (
+        <Section title={t('me.account')}>
+          <Paper style={{ paddingVertical: space.xs }}>
+            <Row
+              label={account.signedIn ? (account.email ?? t('unlock.signedIn')) : t('me.accountSignIn')}
+              detail={account.signedIn ? (account.me?.plan === 'full' ? (account.me.updatesLeftDays > 0 ? t('unlock.updatesLeft', { count: account.me.updatesLeftDays }) : t('unlock.updatesOver')) : t('me.accountDetail')) : t('me.accountWhy')}
+              right={account.signedIn ? <LogOut size={18} color={c.inkSoft} /> : <LogIn size={18} color={c.royal} />}
+              onPress={() => (account.signedIn ? void account.signOut() : router.push('/signin'))}
+            />
+          </Paper>
+        </Section>
+      ) : null}
 
       <Section title={t('profile.title')}>
         <Press onPress={() => router.push('/profile')} scaleTo={0.99} accessibilityLabel={t('profile.title')}>

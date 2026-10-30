@@ -1,0 +1,29 @@
+{
+  "name": "eszett-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The small server behind Eszett: short-lived download links for the tutor model, handed out to signed-in learners who are entitled to them (full access, a first download, a code), and the record of what they bought.",
+  "main": "dist/src/functions/*.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "clean": "rimraf dist",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "vitest run",
+    "deploy": "npm run build && func azure functionapp publish eszett-api"
+  },
+  "dependencies": {
+    "@azure/data-tables": "^13.3.0",
+    "@azure/functions": "^4.7.0",
+    "@azure/identity": "^4.14.1",
+    "@azure/storage-blob": "^12.26.0",
+    "@clerk/backend": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.0",
+    "vitest": "^3.2.0"
+  }
+}

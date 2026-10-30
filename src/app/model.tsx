@@ -1,6 +1,6 @@
 import * as Device from 'expo-device';
 import { router, useLocalSearchParams } from 'expo-router';
-import { Activity, Check, ChevronDown, ChevronRight, Download, FolderOpen, KeyRound, Pause, Play, Trash2, X } from 'lucide-react-native';
+import { Activity, Check, ChevronDown, ChevronRight, Download, FolderOpen, KeyRound, LogIn, Pause, Play, Sparkles, Trash2, X } from 'lucide-react-native';
 import { useEffect, useRef, useState } from 'react';
 import { Alert, Platform, ScrollView, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-screens/experimental';
@@ -111,7 +111,7 @@ function LocalRow({ file, inUse, onUse }: { file: LocalModel; inUse: boolean; on
 export default function ModelSheet() {
   const { c } = useTheme();
   const { t, lang } = useI18n();
-  const { status, progress, bytes, total, detail, error, edition, info, stats, local, removed, checking } = useModel();
+  const { status, progress, bytes, total, detail, error, edition, info, stats, local, removed, checking, outdated, gate } = useModel();
   const retired = removed.filter((name) => /\.gguf/i.test(name));
   const download = useModel((s) => s.download);
   const pause = useModel((s) => s.pause);
@@ -235,6 +235,35 @@ export default function ModelSheet() {
           <Paper tone="amber" style={{ gap: space.m }}>
             <Txt variant="small">{t('model.noteLocked')}</Txt>
             <Button label={t('unlock.open')} icon={KeyRound} size="medium" onPress={() => router.push('/unlock')} />
+          </Paper>
+        ) : null}
+
+        {gate ? (
+          <Paper tone={gate.kind === 'sign-in' ? 'royal' : 'amber'} style={{ gap: space.s }}>
+            <Txt variant="bodyStrong">{gate.kind === 'sign-in' ? t('model.gateSignIn') : gate.reason === 'needs-fresh' ? t('model.gateFresh') : t('model.gateFull')}</Txt>
+            <Txt variant="small" color="inkSoft">
+              {gate.kind === 'sign-in' ? t('model.gateSignInDetail') : gate.reason === 'needs-fresh' ? t('model.gateFreshDetail') : t('model.gateFullDetail')}
+            </Txt>
+            {gate.kind === 'sign-in' ? (
+              <Button label={t('signin.open')} icon={LogIn} size="medium" onPress={() => router.push({ pathname: '/signin', params: { then: 'download' } })} />
+            ) : (
+              <Button label={t('unlock.open')} icon={KeyRound} size="medium" onPress={() => router.push('/unlock')} />
+            )}
+          </Paper>
+        ) : null}
+
+        {outdated && status !== 'downloading' && status !== 'paused' && !gate ? (
+          <Paper tone="amber" style={{ gap: space.s }}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.s }}>
+              <Sparkles size={18} color={c.amberInk} />
+              <Txt variant="bodyStrong" style={{ flex: 1, color: c.amberInk }}>
+                {t('model.newTutorTitle')}
+              </Txt>
+            </View>
+            <Txt variant="small" color="inkSoft">
+              {t('model.newTutorDetail', { size: describeBytes(estimatedBytes(edition)) })}
+            </Txt>
+            <Button label={t('model.newTutorDownload')} icon={Download} size="medium" onPress={() => startDownload(edition)} />
           </Paper>
         ) : null}
 

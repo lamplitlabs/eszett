@@ -1,0 +1,9 @@
+*.js.map
+*.ts
+.git*
+.vscode
+local.settings.json
+test
+src/__tests__
+tsconfig.json
+vitest.config.ts

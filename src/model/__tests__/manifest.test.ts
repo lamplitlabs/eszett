@@ -15,6 +15,7 @@ import {
   isGgufName,
   isOurModel,
   isRetiredModelName,
+  LEXICON_FALLBACK_URL,
   LEXICON_URL,
   MODEL_BASE,
   MODEL_NAME,
@@ -35,7 +36,9 @@ describe('model manifest', () => {
     expect(modelInfo.student).toBe(MODEL_STUDENT);
     expect(MODEL_NAME).toBe('Light German Tutor Phone v27');
     expect(MODEL_BASE).toBe('https://lichtgwcst001.blob.core.windows.net/models/light-german-tutor-phone-v27/gguf');
-    expect(LEXICON_URL).toBe('https://huggingface.co/lamplitlabs/licht-german-tutor/resolve/v16/lexicon.json');
+    // the lexicon comes from our storage too (the Hub file byte for byte); the Hub stays the fallback
+    expect(LEXICON_URL).toBe('https://lichtgwcst001.blob.core.windows.net/models/data/v16/lexicon.json');
+    expect(LEXICON_FALLBACK_URL).toBe('https://huggingface.co/lamplitlabs/licht-german-tutor/resolve/v16/lexicon.json');
     expect(SYSTEM_PROMPT).toBe(modelInfo.system_prompt);
     expect(SYSTEM_PROMPT.startsWith('You are a patient, precise German tutor')).toBe(true);
     // v23 to v27 were trained to keep gender and plural out of sentences and role-play lines (the v13 prompt said "always mark")

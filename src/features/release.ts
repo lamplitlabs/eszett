@@ -20,15 +20,18 @@ interface ReleaseState {
   checkedAt: number;
   /** The version the learner tapped "Later" on; the card returns for the next one. */
   dismissed: string | null;
-  set: (patch: Partial<Pick<ReleaseState, 'info' | 'checkedAt' | 'dismissed'>>) => void;
+  /** The tutor model (student) the learner put the "new tutor" card off for (src/features/ModelUpdateCard.tsx). */
+  modelDismissed: string | null;
+  set: (patch: Partial<Pick<ReleaseState, 'info' | 'checkedAt' | 'dismissed' | 'modelDismissed'>>) => void;
 }
 
 export const useRelease = create<ReleaseState>()(
-  persist((set) => ({ info: null, checkedAt: 0, dismissed: null, set: (patch) => set(patch) }), {
+  persist((set) => ({ info: null, checkedAt: 0, dismissed: null, modelDismissed: null, set: (patch) => set(patch) }), {
     name: 'eszett.release',
     storage,
-    version: 1,
-    partialize: ({ info, checkedAt, dismissed }) => ({ info, checkedAt, dismissed }),
+    version: 2,
+    migrate: (persisted) => ({ modelDismissed: null, ...(persisted as Partial<ReleaseState>) }) as ReleaseState,
+    partialize: ({ info, checkedAt, dismissed, modelDismissed }) => ({ info, checkedAt, dismissed, modelDismissed }),
   }),
 );
 

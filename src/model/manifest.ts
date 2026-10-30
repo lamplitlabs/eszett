@@ -57,7 +57,15 @@ export const MODEL_NAME: string = data.gguf.student
 export const MODEL_BASE: string = data.gguf.base;
 /** @deprecated the GGUF files are served from our storage, not the Hub; kept for the download-source placeholder. */
 export const HUB_BASE: string = MODEL_BASE;
-export const LEXICON_URL = `https://huggingface.co/${data.hub.repo}/resolve/${REVISION}/lexicon.json`;
+/** The storage account's public container, where the model files and the data release live. */
+export const STORAGE_BASE = MODEL_BASE.replace(/\/models\/.*$/, '/models');
+/**
+ * The full lexicon of the data release, served from our storage (models/data/<revision>/lexicon.json, the Hub
+ * file byte for byte) so that nothing the app fetches at run time leaves our account; the Hub copy stays the
+ * fallback when ours cannot be reached.
+ */
+export const LEXICON_URL = `${STORAGE_BASE}/data/${REVISION}/lexicon.json`;
+export const LEXICON_FALLBACK_URL = `https://huggingface.co/${data.hub.repo}/resolve/${REVISION}/lexicon.json`;
 export const CHAT_TEMPLATE: string = data.chat_template;
 /** The system prompt the student was trained with (its Modelfile's SYSTEM block). */
 export const SYSTEM_PROMPT: string = data.system_prompt;

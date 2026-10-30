@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "STORAGE_ACCOUNT": "lichtgwcst001",
+    "STORAGE_KEY": "<account key: az storage account keys list -n lichtgwcst001 -g licht --query [0].value -o tsv>",
+    "MODELS_CONTAINER": "models",
+    "MODEL_STUDENT": "light-german-tutor-phone-v27",
+    "CLERK_SECRET_KEY": "<sk_... from the Clerk dashboard; the server verifies the app's session tokens with it>",
+    "CLERK_AUTHORIZED_PARTIES": "",
+    "LINK_HOURS": "168",
+    "UPDATES_MONTHS": "12",
+    "GOOGLE_SERVICE_ACCOUNT_JSON": "",
+    "APPLE_SHARED_SECRET": ""
+  }
+}

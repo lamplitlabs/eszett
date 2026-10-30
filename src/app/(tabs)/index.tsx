@@ -1,11 +1,14 @@
 import { router } from 'expo-router';
-import { BadgeCheck, Bookmark, BookmarkCheck, Check, ChevronRight, Flame, MessageCircle, RefreshCw, Route, Sparkles } from 'lucide-react-native';
+import { BadgeCheck, Bookmark, BookmarkCheck, Check, ChevronRight, MessageCircle, RefreshCw, Route, Sparkles } from 'lucide-react-native';
 import { useEffect, useMemo } from 'react';
 import { View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 
 import { CourseCard } from '@/features/CourseCard';
 import MinuteCard from '@/features/MinuteCard';
+import ModelUpdateCard from '@/features/ModelUpdateCard';
+import { streakMilestoneDue, useMoments } from '@/features/moments';
+import WelcomeBackCard from '@/features/WelcomeBackCard';
 import ReminderCard from '@/features/ReminderCard';
 import { activityLabel, lessonKey, useLesson } from '@/features/lesson';
 import { levelProgress, weekNumber } from '@/harness/path';
@@ -25,7 +28,10 @@ import { haptic } from '@/ui/haptics';
 import { LampGlow, StatusLight } from '@/ui/Lamp';
 import { Screen, Section } from '@/ui/Screen';
 import { De, Txt } from '@/ui/Text';
-import { space, useTheme } from '@/ui/theme';
+import { celebrate, cheerFor } from '@/ui/motion/Celebration';
+import { ProgressRing } from '@/ui/motion/Numbers';
+import { StreakFlame } from '@/ui/motion/StreakFlame';
+import { radius, space, useTheme } from '@/ui/theme';
 
 function greeting(now = new Date()) {
   const h = now.getHours();
@@ -66,6 +72,31 @@ export default function Today() {
   const finished = activities.map((_, i) => Boolean(done[lessonKey(i)]));
   const next = finished.findIndex((f) => !f);
   const lessonDone = activities.length > 0 && next === -1;
+  const todayKey = dayKey();
+  const moments = useMoments();
+
+  // the moments: the day's lesson once a day, a streak milestone once, a finished week once
+  useEffect(() => {
+    if (lessonDone && moments.lessonDay !== todayKey) {
+      moments.set({ lessonDay: todayKey });
+      celebrate({ kind: 'lesson', cheer: cheerFor(streak), title: t('celebrate.lessonTitle'), detail: streak > 1 ? t('celebrate.lessonStreak', { count: streak }) : t('celebrate.lessonFirst'), streak });
+      return;
+    }
+    const milestone = streakMilestoneDue(streak, moments.streakCelebrated);
+    if (milestone !== null && (days[todayKey] ?? 0) > 0) {
+      moments.set({ streakCelebrated: milestone });
+      celebrate({ kind: 'streak', cheer: cheerFor(milestone), title: t('celebrate.streakTitle', { count: milestone }), detail: t('celebrate.streakDetail'), streak: milestone });
+    }
+  }, [days, lessonDone, moments, streak, t, todayKey]);
+  useEffect(() => {
+    const finishedWeeks = levelProgress(level, done).finished;
+    const before = moments.weeksCelebrated[level] ?? 0;
+    if (finishedWeeks > before) {
+      moments.set({ weeksCelebrated: { ...moments.weeksCelebrated, [level]: finishedWeeks } });
+      // the first open with a course counts weeks done before this build: no moment for those
+      if (before > 0 || finishedWeeks === 1) celebrate({ kind: 'week', cheer: 'Geschafft!', title: t('celebrate.weekTitle', { week: finishedWeeks, level }), detail: t('celebrate.weekDetail'), streak });
+    }
+  }, [done, level, moments, streak, t]);
 
   const open = (i: number) => {
     const a = activities[i];
@@ -80,7 +111,14 @@ export default function Today() {
         </De>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: space.s, marginTop: space.m }}>
           <Pill label={`${level} ${localizeLevel(LEVEL_INFO[level], lang).name}`} tone="royal" onPress={() => router.navigate('/me')} />
-          {streak > 0 ? <Pill label={t('home.days', { count: streak })} icon={Flame} tone="amber" /> : null}
+          {streak > 0 ? (
+            <View accessibilityLabel={t('home.days', { count: streak })} style={{ flexDirection: 'row', alignItems: 'center', gap: 6, paddingLeft: space.s, paddingRight: space.m, height: 34, borderRadius: radius.pill, backgroundColor: c.amberTint }}>
+              <StreakFlame streak={streak} size={17} />
+              <Txt variant="smallStrong" style={{ color: c.amberInk }}>
+                {t('home.days', { count: streak })}
+              </Txt>
+            </View>
+          ) : null}
         </View>
         <Press onPress={() => router.push(connection === 'locked' ? '/unlock' : '/model')} scaleTo={0.99} accessibilityLabel={tutorLine(connection, pct, lang)}>
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.s, marginTop: space.l, marginBottom: space.xxl }}>
@@ -96,17 +134,26 @@ export default function Today() {
         <CourseCard level={level} />
       </Section>
 
+      <WelcomeBackCard />
+      <ModelUpdateCard />
       <MinuteCard />
       <ReminderCard />
 
       <Section
         title={t('home.lessonTitle')}
         action={
-          plannedBy !== 'app' && !planning ? (
-            <Press onPress={() => void replan(level)} accessibilityLabel={t('home.planAgain')} hitSlop={8}>
-              <RefreshCw size={17} color={c.inkSoft} />
-            </Press>
-          ) : null
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
+            {activities.length ? (
+              <ProgressRing value={finished.filter(Boolean).length / activities.length} size={30} stroke={4} color={lessonDone ? 'green' : 'royal'} delay={300}>
+                {lessonDone ? <Check size={14} color={c.green} strokeWidth={3} /> : null}
+              </ProgressRing>
+            ) : null}
+            {plannedBy !== 'app' && !planning ? (
+              <Press onPress={() => void replan(level)} accessibilityLabel={t('home.planAgain')} hitSlop={8}>
+                <RefreshCw size={17} color={c.inkSoft} />
+              </Press>
+            ) : null}
+          </View>
         }>
         <Paper style={{ padding: 0, overflow: 'hidden' }}>
           {activities.map((a, i) => {

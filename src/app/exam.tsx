@@ -41,6 +41,7 @@ import { TopBar } from '@/ui/Screen';
 import { speak, stopSpeaking } from '@/ui/speech';
 import { De, Txt } from '@/ui/Text';
 import { font, gutter, radius, space, useTheme } from '@/ui/theme';
+import { Confetti } from '@/ui/motion/Confetti';
 import { Thinking } from '@/ui/Thinking';
 
 type Phase = 'overview' | 'sheet' | 'prep' | 'speak' | 'followup' | 'rating' | 'result' | 'summary';
@@ -467,6 +468,7 @@ export default function ExamScreen() {
           </Animated.View>
         ) : null}
 
+        {phase === 'summary' && total !== null && passed(total) ? <Confetti shot={`exam-${total}`} count={70} /> : null}
         {phase === 'summary' ? (
           <Animated.View entering={ZoomIn.duration(360)} style={{ gap: space.m }}>
             <Txt variant="title">{t('exam.summary')}</Txt>

@@ -19,6 +19,8 @@ import { haptic } from '@/ui/haptics';
 import { TopBar } from '@/ui/Screen';
 import { De, Txt } from '@/ui/Text';
 import { gutter, radius, space, useTheme } from '@/ui/theme';
+import { Confetti } from '@/ui/motion/Confetti';
+import { CountUp } from '@/ui/motion/Numbers';
 
 type Phase = 'setup' | 'ready' | 'playing' | 'timeUp' | 'done';
 
@@ -168,12 +170,11 @@ export default function TabooScreen() {
     const total = scores[0] + scores[1];
     return (
       <View style={{ flex: 1, backgroundColor: c.paper, paddingTop: insets.top + space.l, paddingBottom: insets.bottom + space.l }}>
+        <Confetti shot={`taboo-${total}`} count={60} />
         <ScrollView contentContainerStyle={{ paddingHorizontal: gutter, gap: space.xl }}>
           <Animated.View entering={ZoomIn.duration(400)} style={{ alignItems: 'center', marginTop: space.x3, gap: space.m }}>
             <View style={{ width: 132, height: 132, borderRadius: 66, borderWidth: 6, borderColor: c.green, alignItems: 'center', justifyContent: 'center' }}>
-              <Txt variant="title" style={{ fontSize: 40, lineHeight: 46 }}>
-                {total}
-              </Txt>
+              <CountUp value={total} style={{ fontSize: 40, lineHeight: 46 }} />
             </View>
             <De variant="display">{t('together.tabooDoneTitle')}</De>
             <Txt variant="body" color="inkSoft" center>
