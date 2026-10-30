@@ -32,10 +32,13 @@ const TEXT_FILES = { title: "title.txt", shortDescription: "short_description.tx
 const UPLOAD_MAX_BYTES = 15 * 1024 * 1024;
 // output/<locale>/phone/*.png, output/<locale>/feature.png; the icon is one file for every locale (output/icon.png)
 const IMAGE_SETS = [
-  { imageType: "phoneScreenshots", dir: "phone", max: 8, required: true },
+  // screenshots come from the phone (store/captures); a listing without them can go up and is completed later
+  { imageType: "phoneScreenshots", dir: "phone", max: 8, required: false },
   { imageType: "featureGraphic", file: "feature.png", max: 1, required: true },
-  { imageType: "icon", file: "../icon.png", max: 1, required: false },
+  { imageType: "icon", file: "../icon.png", max: 1, required: true },
 ];
+// Store settings -> contact details (the API's edits.details); the category and the rest are Console-only
+const DETAILS = { contactEmail: "hello@lamplitlabs.com", contactWebsite: "https://eszett.lamplitlabs.com", defaultLanguage: "en-US" };
 
 function parseArgs(argv) {
   const args = { mode: "dry-run", languages: [], textOnly: false, imagesOnly: false, help: false };
@@ -137,6 +140,8 @@ function validateLocal(texts, images, { textOnly, imagesOnly }) {
     for (const spec of images) {
       if (spec.files.length === 0 && spec.required) {
         problems.push(`${texts.language} ${spec.imageType}: no files in ${relative(spec.dir)} - run python3 store/compose.py first`);
+      } else if (spec.files.length === 0) {
+        console.warn(`  ! ${texts.language} ${spec.imageType}: none yet (${relative(spec.dir)}); the listing stays incomplete until they are pushed`);
       }
       if (spec.files.length > spec.max) {
         problems.push(`${texts.language} ${spec.imageType}: ${spec.files.length} files, Play allows ${spec.max}`);
@@ -173,6 +178,7 @@ function describeTexts(texts) {
 function dryRun(packageName, plan) {
   console.log(`dry run for ${packageName} - nothing is sent\n`);
   console.log(`POST ${API}/applications/${packageName}/edits`);
+  console.log(`PATCH .../details  (${Object.entries(DETAILS).map(([k, v]) => `${k} ${v}`).join(", ")})`);
   for (const { language, texts, images } of plan) {
     console.log(`\n${language}`);
     if (texts) {
@@ -193,6 +199,17 @@ async function pushListing(client, packageName, plan, mode) {
   console.log(`edit ${edit.id} opened`);
   let changes = 0;
   try {
+    if (!plan.every((entry) => entry.texts === null)) {
+      const current = await client.request("GET", `${editPath}/details`).catch(() => ({}));
+      const changed = Object.keys(DETAILS).filter((key) => (current[key] ?? "") !== DETAILS[key]);
+      if (changed.length) {
+        await client.request("PATCH", `${editPath}/details`, { body: DETAILS });
+        changes += 1;
+        console.log(`details: ${changed.join(", ")} set`);
+      } else {
+        console.log("details: unchanged");
+      }
+    }
     for (const { language, texts, images } of plan) {
       console.log(`\n${language}`);
       if (texts) {
