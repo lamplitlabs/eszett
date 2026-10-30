@@ -1183,15 +1183,15 @@ German aliases (`/datenschutz`, `/impressum`, `/nutzungsbedingungen`, `/konto-lo
 this origin and Google Fonts. `sitemap.xml` is written by the build (all pages, all languages); `robots.txt`
 points at it; `assets/og.png` is the 1200×630 share image.
 
-Hosting: a Vercel project with **Root Directory `web`**, framework "Other", no build command, and the domain
-`eszett.lamplitlabs.com` (a CNAME to `cname.vercel-dns.com` at the DNS of lamplitlabs.com, which is at
-Hostinger). Preview locally with `node scripts/web-preview.mjs` (clean URLs like Vercel, port 8788). The provider is named the way
+Hosting: the Vercel project `eszett` of the team `lamplitlabs`, framework "Other", no build command, linked
+from `web/` (`web/.vercel/`, git-ignored); `cd web && npx vercel deploy --prod` publishes. The domain
+`eszett.lamplitlabs.com` is a CNAME at Hostinger (the DNS of lamplitlabs.com) to the project; production
+deployments are public, preview deployments stay behind Vercel's authentication. Preview locally with `node scripts/web-preview.mjs` (clean URLs like Vercel, port 8788). The provider is named the way
 the other Lamplit Labs sites name it (Lamplit Labs, Germany, `hello@lamplitlabs.com` for everything: support,
 privacy requests, account deletion by e-mail); the privacy and terms pages point to the Impressum for the
-address, and the Impressum alone carries `<span class="todo">` placeholders (owner or legal form, street and
-city, phone, VAT id). They have to be filled before the site goes live: Eszett is paid, so § 5 DDG and the
-Digital Services Act's trader rules ask for a postal address and a phone number, and Google Play and the App
-Store show the same details publicly for apps with purchases anyway. The same URLs go into the
+address; the Impressum names the owner and the postal address (Lamplit Labs, Manish Tiwari, Ratingen), which
+§ 5 DDG and the Digital Services Act's trader rules require for a paid app and which Google Play and the App
+Store show publicly anyway. A VAT id, if one exists, belongs there too. The same URLs go into the
 store listings (privacy policy, account deletion) and into Clerk's production instance (legal links in the
 sign-in flow); the app links to them from **Me › About**.
 

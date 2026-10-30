@@ -51,3 +51,6 @@ example
 
 # the Play graphics rendered by store/compose.py (store/README.md)
 store/output/
+
+# Vercel project link of web/ (store: team lamplitlabs, project eszett)
+.vercel
