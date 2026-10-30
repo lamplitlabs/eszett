@@ -49,10 +49,11 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
 
       - name: Install
-        # the lock file is written by npm 11 (the laptop); npm 10 of the Node 22 runner resolves peers differently and refuses it
+        # npm 11 on the laptop writes a lock without the other platforms' optional bindings (rolldown), so `npm ci` on
+        # Linux refuses it; `npm install` takes the lock as the pin for everything it names and adds the Linux bindings
         run: |
           npm install -g npm@11
-          npm ci
+          npm install --no-audit --no-fund
 
       - name: Check (typecheck, tests, catalogs)
         run: |
