@@ -8,6 +8,7 @@ import { useAuth, useUser } from '@clerk/clerk-expo';
 import { useEffect } from 'react';
 import { create } from 'zustand';
 
+import { accountImage } from '@/features/avatar';
 import { accountsEnabled, deleteAccount, getMe, registerTokenProvider, type Me } from '@/features/api';
 
 export interface AccountState {
@@ -18,6 +19,10 @@ export interface AccountState {
   signedIn: boolean;
   userId: string | null;
   email: string | null;
+  /** The first name on the account, when the sign-in method gave one (Google, Apple). */
+  name: string | null;
+  /** The account's own photo (Clerk's `imageUrl` when `hasImage`), never Clerk's generated placeholder. */
+  imageUrl: string | null;
   /** What the server knows about this learner; null until fetched. */
   me: Me | null;
   meAt: number;
@@ -27,7 +32,7 @@ export interface AccountState {
   refreshMe: (force?: boolean) => Promise<Me | null>;
   /** Deletes the account on the server and signs out; throws when the server refused. */
   deleteAccount: () => Promise<void>;
-  set: (patch: Partial<Pick<AccountState, 'loaded' | 'signedIn' | 'userId' | 'email' | 'getToken' | 'signOut'>>) => void;
+  set: (patch: Partial<Pick<AccountState, 'loaded' | 'signedIn' | 'userId' | 'email' | 'name' | 'imageUrl' | 'getToken' | 'signOut'>>) => void;
 }
 
 export const useAccount = create<AccountState>()((set, get) => ({
@@ -36,6 +41,8 @@ export const useAccount = create<AccountState>()((set, get) => ({
   signedIn: false,
   userId: null,
   email: null,
+  name: null,
+  imageUrl: null,
   me: null,
   meAt: 0,
   getToken: async () => null,
@@ -62,7 +69,7 @@ export const useAccount = create<AccountState>()((set, get) => ({
     await deleteAccount(token);
     // Clerk no longer knows the user; signing out clears the cached session on this phone
     await s.signOut().catch(() => undefined);
-    set({ me: null, meAt: 0, signedIn: false, userId: null, email: null });
+    set({ me: null, meAt: 0, signedIn: false, userId: null, email: null, name: null, imageUrl: null });
   },
   set: (patch) => set(patch),
 }));
@@ -77,6 +84,8 @@ export function AccountBridge() {
   const { isLoaded, isSignedIn, userId, getToken, signOut } = useAuth();
   const { user } = useUser();
   const email = user?.primaryEmailAddress?.emailAddress ?? null;
+  const name = user?.firstName?.trim() || null;
+  const imageUrl = accountImage(user);
   const set = useAccount((s) => s.set);
   useEffect(() => {
     set({
@@ -84,6 +93,8 @@ export function AccountBridge() {
       signedIn: Boolean(isSignedIn),
       userId: userId ?? null,
       email,
+      name,
+      imageUrl,
       getToken: async () => {
         try {
           return (await getToken()) ?? null;
@@ -96,7 +107,7 @@ export function AccountBridge() {
         useAccount.setState({ me: null, meAt: 0 });
       },
     });
-  }, [email, getToken, isLoaded, isSignedIn, set, signOut, userId]);
+  }, [email, getToken, imageUrl, isLoaded, isSignedIn, name, set, signOut, userId]);
   const signedIn = Boolean(isSignedIn);
   const refreshMe = useAccount((s) => s.refreshMe);
   useEffect(() => {

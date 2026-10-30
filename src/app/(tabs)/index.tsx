@@ -4,6 +4,7 @@ import { useEffect, useMemo } from 'react';
 import { View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 
+import { useAccount } from '@/features/account';
 import { CourseCard } from '@/features/CourseCard';
 import MinuteCard from '@/features/MinuteCard';
 import ModelUpdateCard from '@/features/ModelUpdateCard';
@@ -27,6 +28,7 @@ import { Button, GenderChip, Paper, Pill, Press, SpeakButton } from '@/ui/contro
 import { haptic } from '@/ui/haptics';
 import { LampGlow, StatusLight } from '@/ui/Lamp';
 import { Screen, Section } from '@/ui/Screen';
+import { Avatar } from '@/ui/Avatar';
 import { De, Txt } from '@/ui/Text';
 import { celebrate, cheerFor } from '@/ui/motion/Celebration';
 import { ProgressRing } from '@/ui/motion/Numbers';
@@ -52,7 +54,12 @@ export default function Today() {
   const words = useDeck((s) => s.words);
   const add = useDeck((s) => s.add);
   const { activities, plannedBy, planning, ensure, replan } = useLesson();
-  const name = firstName(useProfile((p) => p.profile));
+  const signedIn = useAccount((a) => a.signedIn);
+  const accountName = useAccount((a) => a.name);
+  const accountEmail = useAccount((a) => a.email);
+  const accountImage = useAccount((a) => a.imageUrl);
+  // the greeting uses the name the learner gave the tutor; failing that, the one on the account
+  const name = firstName(useProfile((p) => p.profile)) || accountName || '';
   const streak = streakOf(days);
   const due = dueWords(words).length;
 
@@ -106,9 +113,16 @@ export default function Today() {
   return (
     <Screen backdrop={<LampGlow connection={connection} />}>
       <Animated.View entering={FadeIn.duration(450)}>
-        <De variant="display" speakable style={{ fontSize: 38, lineHeight: 44 }}>
-          {name ? `${greeting()}, ${name}` : greeting()}
-        </De>
+        <View style={{ flexDirection: 'row', alignItems: 'flex-start', gap: space.m }}>
+          <De variant="display" speakable style={{ fontSize: 38, lineHeight: 44, flex: 1 }}>
+            {name ? `${greeting()}, ${name}` : greeting()}
+          </De>
+          {signedIn ? (
+            <Press onPress={() => router.navigate('/me')} accessibilityRole="button" accessibilityLabel={t('tabs.me')} style={{ marginTop: 4 }}>
+              <Avatar uri={accountImage} name={name || accountName} email={accountEmail} size={44} />
+            </Press>
+          ) : null}
+        </View>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: space.s, marginTop: space.m }}>
           <Pill label={`${level} ${localizeLevel(LEVEL_INFO[level], lang).name}`} tone="royal" onPress={() => router.navigate('/me')} />
           {streak > 0 ? (

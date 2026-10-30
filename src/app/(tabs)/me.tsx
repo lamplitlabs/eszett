@@ -31,15 +31,17 @@ import { Divider, Paper, Pill, Press } from '@/ui/controls';
 import { StatusLight } from '@/ui/Lamp';
 import { Screen, Section } from '@/ui/Screen';
 import { De, Txt } from '@/ui/Text';
+import { Avatar } from '@/ui/Avatar';
 import { APP_VERSION, useUpdateVerdict } from '@/ui/UpdateCard';
 import { radius, space, useTheme } from '@/ui/theme';
 
 /** The website with the legal pages (privacy, terms, imprint) and support; the same URLs are in the store listings. */
 const WEBSITE = 'https://eszett.lamplitlabs.com';
 
-function Row({ label, detail, right, onPress }: { label: string; detail?: string; right?: ReactNode; onPress?: () => void }) {
+function Row({ label, detail, left, right, onPress }: { label: string; detail?: string; left?: ReactNode; right?: ReactNode; onPress?: () => void }) {
   const body = (
     <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.m, paddingVertical: space.m }}>
+      {left}
       <View style={{ flex: 1 }}>
         <Txt variant="body">{label}</Txt>
         {detail ? (
@@ -395,6 +397,7 @@ export default function Me() {
           <Paper style={{ paddingVertical: space.xs }}>
             <Row
               label={account.signedIn ? (account.email ?? t('unlock.signedIn')) : t('me.accountSignIn')}
+              left={account.signedIn ? <Avatar uri={account.imageUrl} name={account.name} email={account.email} size={40} /> : undefined}
               detail={account.signedIn ? (account.me?.plan === 'full' ? (account.me.updatesLeftDays > 0 ? t('unlock.updatesLeft', { count: account.me.updatesLeftDays }) : t('unlock.updatesOver')) : t('me.accountDetail')) : t('me.accountWhy')}
               right={account.signedIn ? <LogOut size={18} color={c.inkSoft} /> : <LogIn size={18} color={c.royal} />}
               onPress={() => (account.signedIn ? void account.signOut() : router.push('/signin'))}

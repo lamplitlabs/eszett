@@ -1032,8 +1032,11 @@ country), not the app's.
 **The pieces.**
 
 - **Accounts (Clerk).** An account is needed for one thing only: downloading the tutor model. Sign-in is an
-  e-mail address and a six-digit code, no password (`src/app/signin.tsx`, `@clerk/clerk-expo`, the session in
-  `expo-secure-store`). A build without `EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY` has no account at all, and so no way
+  e-mail address and a six-digit code, no password, or Google (and Apple on iOS) through Clerk's SSO flow in a
+  browser tab that returns on the `eszett://sso` link (`src/app/signin.tsx`, `@clerk/clerk-expo`, the session in
+  `expo-secure-store`). The account's photo and first name, when the provider gave them (`hasImage` tells Clerk's
+  own placeholder from a real photo: `src/features/avatar.ts`), show in the Home greeting and in Me › Account
+  (`src/ui/Avatar.tsx`, an initial when there is none); the greeting uses the name from "About you" first. A build without `EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY` has no account at all, and so no way
   to download from our storage (a download source of its own still works); `src/features/account.tsx` mirrors
   Clerk's state into a store so no screen depends on Clerk directly (`AccountProvider`, `AccountBridge`), and
   **Me › Account › Delete account** deletes the account on the server and at Clerk (`DELETE /v1/me`), then signs

@@ -2,11 +2,13 @@
 // downloading the tutor model. A new address is signed up on the spot. Clerk's hooks live here and in the
 // account bridge; this screen is reachable only in a build with a Clerk key.
 
-import { useSignIn, useSignUp } from '@clerk/clerk-expo';
+import { useSignIn, useSignUp, useSSO } from '@clerk/clerk-expo';
+import * as AuthSession from 'expo-auth-session';
 import { router, useLocalSearchParams } from 'expo-router';
+import * as WebBrowser from 'expo-web-browser';
 import { ArrowLeft, Mail, ShieldCheck } from 'lucide-react-native';
-import { useRef, useState } from 'react';
-import { ScrollView, TextInput, View } from 'react-native';
+import { useEffect, useRef, useState } from 'react';
+import { Platform, ScrollView, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useAccount } from '@/features/account';
@@ -19,6 +21,10 @@ import { Txt } from '@/ui/Text';
 import { font, gutter, radius, space, useTheme } from '@/ui/theme';
 
 type Step = 'email' | 'code';
+type Provider = 'oauth_google' | 'oauth_apple';
+
+// the browser tab Clerk opens for Google / Apple comes back to the app through the scheme; this closes it
+WebBrowser.maybeCompleteAuthSession();
 
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
@@ -36,6 +42,7 @@ export default function SignInScreen() {
   const insets = useSafeAreaInsets();
   const { signIn, setActive: setActiveIn, isLoaded: inLoaded } = useSignIn();
   const { signUp, setActive: setActiveUp, isLoaded: upLoaded } = useSignUp();
+  const { startSSOFlow } = useSSO();
   const refreshMe = useAccount((s) => s.refreshMe);
   const [step, setStep] = useState<Step>('email');
   const [email, setEmail] = useState('');
@@ -47,6 +54,41 @@ export default function SignInScreen() {
   const codeField = useRef<TextInput>(null);
 
   const close = () => (router.canGoBack() ? router.back() : router.replace('/'));
+
+  useEffect(() => {
+    // Android keeps the browser warm for the sign-in tab; a no-op elsewhere
+    void WebBrowser.warmUpAsync();
+    return () => void WebBrowser.coolDownAsync();
+  }, []);
+
+  const finish = () => {
+    haptic.success();
+    void refreshMe(true);
+    if (then === 'download') {
+      close();
+      setTimeout(() => void useModel.getState().download(), 300);
+    } else close();
+  };
+
+  /** Google or Apple: Clerk opens the provider in a browser tab and comes back with a session (and the photo and name on that account). */
+  const withProvider = async (strategy: Provider) => {
+    setBusy(true);
+    setError('');
+    try {
+      const { createdSessionId, setActive, authSessionResult } = await startSSOFlow({ strategy, redirectUrl: AuthSession.makeRedirectUri({ scheme: 'eszett', path: 'sso' }) });
+      if (createdSessionId && setActive) {
+        await setActive({ session: createdSessionId });
+        finish();
+      } else if (authSessionResult?.type !== 'cancel' && authSessionResult?.type !== 'dismiss') {
+        // a provider account that still needs something (a missing e-mail, a second factor) is not something this app asks for
+        setError(t('signin.errProvider'));
+      }
+    } catch (e) {
+      setError(clerkMessage(e, t('signin.errProvider')));
+    } finally {
+      setBusy(false);
+    }
+  };
 
   const sendCode = async () => {
     const address = email.trim().toLowerCase();
@@ -93,12 +135,7 @@ export default function SignInScreen() {
         if (result.status !== 'complete' || !result.createdSessionId) throw new Error(t('signin.errCode'));
         await setActiveUp({ session: result.createdSessionId });
       }
-      haptic.success();
-      void refreshMe(true);
-      if (then === 'download') {
-        close();
-        setTimeout(() => void useModel.getState().download(), 300);
-      } else close();
+      finish();
     } catch (e) {
       setError(clerkMessage(e, t('signin.errCode')));
     } finally {
@@ -127,6 +164,11 @@ export default function SignInScreen() {
 
         {step === 'email' ? (
           <View style={{ gap: space.m }}>
+            <Button label={t('signin.withGoogle')} kind="secondary" disabled={busy} onPress={() => void withProvider('oauth_google')} />
+            {Platform.OS === 'ios' ? <Button label={t('signin.withApple')} kind="secondary" disabled={busy} onPress={() => void withProvider('oauth_apple')} /> : null}
+            <Txt variant="caption" color="inkFaint" center style={{ marginVertical: space.xs }}>
+              {t('signin.orEmail')}
+            </Txt>
             <Txt variant="smallStrong" color="inkSoft">
               {t('signin.email')}
             </Txt>
