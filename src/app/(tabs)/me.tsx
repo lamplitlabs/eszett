@@ -1,7 +1,7 @@
 import { router } from 'expo-router';
-import { BookMarked, ChevronRight, GraduationCap, KeyRound, LogIn, LogOut, Mic, NotebookPen, RefreshCw, Repeat, Star, UserRound } from 'lucide-react-native';
+import { BookMarked, ChevronRight, GraduationCap, KeyRound, LogIn, LogOut, Mic, NotebookPen, RefreshCw, Repeat, Star, Trash2, UserRound } from 'lucide-react-native';
 import { useState, type ReactNode } from 'react';
-import { Platform, Switch, View } from 'react-native';
+import { Alert, Linking, Platform, Switch, View } from 'react-native';
 
 import modelInfo from '@/data/model.json';
 import { useAccessView } from '@/features/access';
@@ -33,6 +33,9 @@ import { Screen, Section } from '@/ui/Screen';
 import { De, Txt } from '@/ui/Text';
 import { APP_VERSION, useUpdateVerdict } from '@/ui/UpdateCard';
 import { radius, space, useTheme } from '@/ui/theme';
+
+/** The website with the legal pages (privacy, terms, imprint) and support; the same URLs are in the store listings. */
+const WEBSITE = 'https://eszett.lamplitlabs.com';
 
 function Row({ label, detail, right, onPress }: { label: string; detail?: string; right?: ReactNode; onPress?: () => void }) {
   const body = (
@@ -396,6 +399,31 @@ export default function Me() {
               right={account.signedIn ? <LogOut size={18} color={c.inkSoft} /> : <LogIn size={18} color={c.royal} />}
               onPress={() => (account.signedIn ? void account.signOut() : router.push('/signin'))}
             />
+            {account.signedIn ? (
+              <>
+                <Divider />
+                <Row
+                  label={t('me.deleteAccount')}
+                  detail={t('me.deleteAccountDetail')}
+                  right={<Trash2 size={18} color={c.red} />}
+                  onPress={() =>
+                    Alert.alert(t('me.deleteAccount'), t('me.deleteAccountConfirm'), [
+                      { text: t('common.cancel'), style: 'cancel' },
+                      {
+                        text: t('me.deleteAccountYes'),
+                        style: 'destructive',
+                        onPress: () => {
+                          void account.deleteAccount().then(
+                            () => Alert.alert(t('me.deleteAccountDone')),
+                            (e: unknown) => Alert.alert(t('me.deleteAccount'), t('me.deleteAccountFailed', { reason: e instanceof Error ? e.message : String(e) })),
+                          );
+                        },
+                      },
+                    ])
+                  }
+                />
+              </>
+            ) : null}
           </Paper>
         </Section>
       ) : null}
@@ -524,6 +552,18 @@ export default function Me() {
           <Txt variant="small" color="inkSoft">
             {t('me.licence', { attribution: t('me.attribution') })}
           </Txt>
+          <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.s, marginTop: space.xs }}>
+            {(
+              [
+                ['privacy', t('me.linkPrivacy')],
+                ['terms', t('me.linkTerms')],
+                ['imprint', t('me.linkImprint')],
+                ['support', t('me.linkSupport')],
+              ] as const
+            ).map(([page, label]) => (
+              <Pill key={page} tone="royal" label={label} onPress={() => void Linking.openURL(`${WEBSITE}/${page}`)} />
+            ))}
+          </View>
         </Paper>
         <Press onPress={() => void checkUpdatesNow()} scaleTo={0.99} accessibilityLabel={t('me.checkUpdates')} style={{ marginTop: space.m }}>
           <Paper style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>

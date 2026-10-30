@@ -8,7 +8,7 @@ import { useAuth, useUser } from '@clerk/clerk-expo';
 import { useEffect } from 'react';
 import { create } from 'zustand';
 
-import { accountsEnabled, getMe, registerTokenProvider, type Me } from '@/features/api';
+import { accountsEnabled, deleteAccount, getMe, registerTokenProvider, type Me } from '@/features/api';
 
 export interface AccountState {
   /** The build carries a Clerk key and the server address. */
@@ -25,6 +25,8 @@ export interface AccountState {
   signOut: () => Promise<void>;
   /** Fetches /v1/me (at most once a minute unless forced); quiet on failure. */
   refreshMe: (force?: boolean) => Promise<Me | null>;
+  /** Deletes the account on the server and signs out; throws when the server refused. */
+  deleteAccount: () => Promise<void>;
   set: (patch: Partial<Pick<AccountState, 'loaded' | 'signedIn' | 'userId' | 'email' | 'getToken' | 'signOut'>>) => void;
 }
 
@@ -52,6 +54,15 @@ export const useAccount = create<AccountState>()((set, get) => ({
       console.warn('[account] /v1/me failed:', e);
       return null;
     }
+  },
+  deleteAccount: async () => {
+    const s = get();
+    const token = await s.getToken();
+    if (!token) throw new Error('no session');
+    await deleteAccount(token);
+    // Clerk no longer knows the user; signing out clears the cached session on this phone
+    await s.signOut().catch(() => undefined);
+    set({ me: null, meAt: 0, signedIn: false, userId: null, email: null });
   },
   set: (patch) => set(patch),
 }));

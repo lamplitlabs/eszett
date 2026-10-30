@@ -1,7 +1,8 @@
 // The app's side of the small server (server/ in this repository): download links for the tutor model, the
 // learner's entitlement, purchases and codes. Everything here is pure or takes its fetch and token as arguments,
-// so the decisions - what each answer means for the app - are tested without a network. The server is optional:
-// without EXPO_PUBLIC_API_BASE the app downloads from the public URLs as before (src/model/manifest.ts).
+// so the decisions - what each answer means for the app - are tested without a network. Without EXPO_PUBLIC_API_BASE
+// (a development build) the app tries the plain URLs of src/model/manifest.ts, which only work with a custom
+// model source: the published model files are private and reachable through the server's links alone.
 
 export const API_BASE = (process.env.EXPO_PUBLIC_API_BASE ?? '').trim().replace(/\/+$/, '');
 export const CLERK_PUBLISHABLE_KEY = (process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY ?? '').trim();
@@ -51,7 +52,7 @@ export type LinkOutcome =
   | { kind: 'sign-in' }
   /** The learner needs full access (or a fresh tutor): open the unlock screen with the reason. */
   | { kind: 'entitlement'; reason: 'needs-full' | 'needs-fresh'; me: Me }
-  /** The server is not set up (no Clerk key yet) or could not be reached: fall back to the public URL, or show the message. */
+  /** The server is not set up (no Clerk key yet) or could not be reached: the model files are private, so show the message and let the learner try again later. */
   | { kind: 'unavailable'; message: string; status: number | null };
 
 export class ApiError extends Error {
@@ -122,8 +123,8 @@ export interface PurchaseReport {
 /** Tells the server about a store purchase; the server verifies it with the store and answers with the entitlement. */
 export const reportPurchase = (report: PurchaseReport, token: string, fetchImpl: Fetch = fetch) => call<Me & { recorded: boolean; gift: string | null }>('/v1/purchase', token, { method: 'POST', body: JSON.stringify(report) }, fetchImpl);
 
+/** Deletes the account on the server and at Clerk: the entitlement, the download log, the e-mail address. */
+export const deleteAccount = (token: string, fetchImpl: Fetch = fetch) => call<{ deleted: boolean }>('/v1/me', token, { method: 'DELETE' }, fetchImpl);
+
 /** Redeems a code, or asks for one from the pay-it-forward pool. */
 export const redeemCode = (code: string | null, token: string, fetchImpl: Fetch = fetch) => call<Me & { code: string }>('/v1/redeem', token, { method: 'POST', body: JSON.stringify(code ? { code } : { fromPool: true }) }, fetchImpl);
-
-/** Whether a public-URL fallback is right: the server is not configured yet, or did not answer at all. */
-export const shouldFallBackToPublic = (outcome: LinkOutcome): boolean => outcome.kind === 'unavailable' && (outcome.status === null || outcome.status === 503 || outcome.status >= 500);

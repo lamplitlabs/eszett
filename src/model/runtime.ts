@@ -39,7 +39,7 @@ import {
 } from './files';
 import { describeBytes, EDITIONS, editionInfo, estimatedBytes, isEdition, isOurModel, modelUrl, SYSTEM_PROMPT, type Edition } from './manifest';
 import { mustRetireFirst, previousStudentModel } from './update';
-import { accountsEnabled, requestDownloadLink, sessionToken, shouldFallBackToPublic } from '@/features/api';
+import { accountsEnabled, requestDownloadLink, sessionToken } from '@/features/api';
 
 export const coreLexicon = new LexiconIndex(lexiconCore as unknown as LexiconData);
 export const cards = grammarCards as unknown as GrammarCard[];
@@ -451,7 +451,8 @@ export const useModel = create<ModelState>()((set, get) => ({
     }
     if (task) await get().cancel();
 
-    // the link: from the server when the build has accounts (sign-in and the entitlement decide), else the public URL
+    // the link: from the server when the build has accounts (sign-in and the entitlement decide); a build without
+    // accounts can only download from a source of its own (Me › Your tutor › Model source), the store's files are private
     let url = modelUrl(edition, useSettings.getState().modelSource);
     if (accountsEnabled() && !useSettings.getState().modelSource.trim()) {
       const outcome = await requestDownloadLink(editionInfo(edition).file, await sessionToken());
@@ -459,7 +460,8 @@ export const useModel = create<ModelState>()((set, get) => ({
       else if (outcome.kind === 'sign-in' || outcome.kind === 'entitlement') {
         set({ gate: outcome.kind === 'sign-in' ? { kind: 'sign-in' } : { kind: 'entitlement', reason: outcome.reason }, status: get().status === 'ready' ? 'ready' : 'absent', detail: get().status === 'ready' ? detailOf('ready') : detailOf('absent') });
         return;
-      } else if (!shouldFallBackToPublic(outcome)) {
+      } else {
+        // the model files are private: without a link from the server there is no URL to fall back to
         const text = t('model.errDownloadFailed', { reason: outcome.message });
         set({ status: 'error', edition, detail: text, error: text, progress: 0, bytes: 0, total: -1 });
         return;

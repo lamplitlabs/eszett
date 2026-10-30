@@ -232,3 +232,28 @@ export async function publishedModel(): Promise<PublishedModel> {
   published = { model, readAt: Date.now() };
   return model;
 }
+
+// ---------------------------------------------------------------------------------------------- deletion
+
+/** Removes everything this server holds about a learner: the entitlement, the download log, the purchase rows. Codes they bought stay valid for whoever holds them. */
+export async function deleteLearner(userId: string): Promise<{ entitlement: boolean; downloads: number; purchases: number }> {
+  await ensureTables();
+  let entitlement = false;
+  try {
+    await table(ENTITLEMENTS).deleteEntity('user', userId);
+    entitlement = true;
+  } catch (e) {
+    if ((e as { statusCode?: number }).statusCode !== 404) throw e;
+  }
+  let downloads = 0;
+  for await (const row of table(DOWNLOADS).listEntities<TableEntity>({ queryOptions: { filter: odata`PartitionKey eq ${userId}` } })) {
+    await table(DOWNLOADS).deleteEntity(row.partitionKey, row.rowKey);
+    downloads += 1;
+  }
+  let purchases = 0;
+  for await (const row of table(PURCHASES).listEntities<TableEntity & { userId?: string }>({ queryOptions: { filter: odata`userId eq ${userId}` } })) {
+    await table(PURCHASES).deleteEntity(row.partitionKey, row.rowKey);
+    purchases += 1;
+  }
+  return { entitlement, downloads, purchases };
+}

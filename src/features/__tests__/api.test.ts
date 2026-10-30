@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from 'vitest';
 
-import { ApiError, linkOutcomeOfError, requestDownloadLink, shouldFallBackToPublic } from '../api';
+import { ApiError, linkOutcomeOfError, requestDownloadLink } from '../api';
 
 const respond = (status: number, body: unknown) =>
   vi.fn(async () => ({ ok: status >= 200 && status < 300, status, text: async () => JSON.stringify(body) }) as unknown as Response);
@@ -31,12 +31,11 @@ describe('asking the server for a download link', () => {
     }
   });
 
-  it('falls back to the public URL only when the server is not set up or not answering', async () => {
-    expect(shouldFallBackToPublic(linkOutcomeOfError(new ApiError(503, 'not-configured', 'later')))).toBe(true);
-    expect(shouldFallBackToPublic(linkOutcomeOfError(new TypeError('Network request failed')))).toBe(true);
-    expect(shouldFallBackToPublic(linkOutcomeOfError(new ApiError(500, 'server', 'oops')))).toBe(true);
-    expect(shouldFallBackToPublic(linkOutcomeOfError(new ApiError(404, 'unknown-file', 'no such file')))).toBe(false);
-    expect(shouldFallBackToPublic(linkOutcomeOfError(new ApiError(402, 'needs-full', 'pay')))).toBe(false);
-    expect(shouldFallBackToPublic(linkOutcomeOfError(new ApiError(401, 'unauthorized', 'sign in')))).toBe(false);
+  it('reports every other failure as unavailable, with the status when there was one', async () => {
+    expect(linkOutcomeOfError(new ApiError(503, 'not-configured', 'later'))).toMatchObject({ kind: 'unavailable', status: 503, message: 'later' });
+    expect(linkOutcomeOfError(new TypeError('Network request failed'))).toMatchObject({ kind: 'unavailable', status: null });
+    expect(linkOutcomeOfError(new ApiError(500, 'server', 'oops'))).toMatchObject({ kind: 'unavailable', status: 500 });
+    expect(linkOutcomeOfError(new ApiError(404, 'unknown-file', 'no such file'))).toMatchObject({ kind: 'unavailable', status: 404 });
+    expect(linkOutcomeOfError(new ApiError(401, 'unauthorized', 'sign in'))).toEqual({ kind: 'sign-in' });
   });
 });

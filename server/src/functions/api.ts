@@ -4,10 +4,10 @@
 
 import { app, type HttpRequest, type HttpResponseInit, type InvocationContext } from '@azure/functions';
 
-import { AuthError, requireCaller } from '../auth';
+import { AuthError, deleteClerkUser, requireCaller } from '../auth';
 import { config } from '../config';
 import { decideDownload, extendUpdates, grantFull, isCodeShape, isProductId, makeCode, normalizeCode, PRODUCTS, recordDownload, summarize } from '../rules';
-import { createCode, downloadLink, logDownload, publishedModel, readCode, readEntitlement, recordPurchase, takeFromPool, useCode, writeEntitlement } from '../storage';
+import { createCode, deleteLearner, downloadLink, logDownload, publishedModel, readCode, readEntitlement, recordPurchase, takeFromPool, useCode, writeEntitlement } from '../storage';
 import { verifyPurchase, type StorePurchase } from '../stores';
 
 const json = (status: number, body: unknown): HttpResponseInit => ({ status, jsonBody: body, headers: { 'cache-control': 'no-store' } });
@@ -53,6 +53,22 @@ app.http('me', {
   handler: withCaller(async (_req, userId, now) => {
     const [ent, model] = await Promise.all([readEntitlement(userId, now), publishedModel()]);
     return json(200, { ...summarize(ent, model.student, model.releasedAt, now), files: model.files.map((f) => f.file) });
+  }),
+});
+
+// ---------------------------------------------------------------------------------------------- DELETE /v1/me
+
+app.http('deleteMe', {
+  methods: ['DELETE'],
+  authLevel: 'anonymous',
+  route: 'v1/me',
+  handler: withCaller(async (_req, userId, _now, ctx) => {
+    // the account and everything we hold about it go together; what the stores hold (receipts) is theirs, and a
+    // purchase comes back through the store's own Restore on the phone
+    const removed = await deleteLearner(userId);
+    await deleteClerkUser(userId);
+    ctx.log('deleted learner', userId, JSON.stringify(removed));
+    return json(200, { deleted: true, ...removed });
   }),
 });
 

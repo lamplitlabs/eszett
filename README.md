@@ -83,9 +83,12 @@ pass `--user 0`.
 ## Getting a model onto the phone
 
 The app wants one GGUF of the **light-german-tutor-phone-v27** export, `light-german-tutor-phone-v27-Q5_K_M.gguf`
-(default) or `-Q8_0.gguf`. The files are public blobs in the `models` container of our Azure storage account
-`lichtgwcst001` (resource group `licht`, germanywestcentral): anonymous read by URL, no listing. The private
-`students` container holds every export and is never referenced by the app.
+(default) or `-Q8_0.gguf`. The GGUFs live in the **private** `models-private` container of our Azure storage
+account `lichtgwcst001` (resource group `licht`, germanywestcentral); the app gets a short-lived read link for
+one file from our server (see "Business model, accounts and the server"), nothing is reachable by URL alone. The
+small files next to them - the export manifest, `Modelfile`, chat template, grounding pack, `release.json` and
+the lexicon - stay in the public `models` container (anonymous read by URL, no listing). The private `students`
+container holds every export and is never referenced by the app.
 
 | Edition | Size | Top-1 agreement with the full model | Phone | |
 | --- | --- | --- | --- | --- |
@@ -129,13 +132,17 @@ the app resumes on the next launch, a failed one (no network) is tried again on 
 turns the automatic download back on. The sheet also shows the file in use, the GGUF files found on the phone
 and the three ways to get one:
 
-1. **Download from our storage.** The app downloads
-   `https://lichtgwcst001.blob.core.windows.net/models/light-german-tutor-phone-v27/gguf/<file>` to its Documents
-   folder (the URL comes from `src/data/model.json`, built by the data pipeline below). The download runs as an
-   iOS background session, can be paused, and resumes on relaunch; it refuses to start when free space is below
+1. **Download from our storage.** The app asks the server for a link to
+   `light-german-tutor-phone-v27/gguf/<file>` (`POST /v1/download-url`; the learner signs in first, and the
+   account's entitlement decides) and downloads it to its Documents folder (the file names and sizes come from
+   `src/data/model.json`, built by the data pipeline below). The download runs as an
+   iOS background session, can be paused, and resumes on relaunch (a paused download asks for a fresh link when
+   the old one has expired); it refuses to start when free space is below
    the file size plus 500 MB. When it finishes the app compares the file's size with the export manifest; a
    file that is short or long (a captive portal's page, a connection that ended early, a different file at a
-   custom source) is deleted and reported as "The download is incomplete".
+   custom source) is deleted and reported as "The download is incomplete". A build without
+   `EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY` and `EXPO_PUBLIC_API_BASE` has no account and therefore no link: it can
+   only download from a source of its own (way 3).
 2. **Sideload a file.** Any `*.gguf` dropped into the app's Documents folder is picked up: on iOS through the
    Files app (On My iPhone › Eszett) or Finder file sharing when the phone is plugged in; the app rescans when it
    returns to the foreground without a model. Or tap **Choose a file…** in **Me › Your tutor** to pick a GGUF with
@@ -160,7 +167,8 @@ that does not publish one; `model.json.grounding_source` says which was used), t
 all published next to the GGUFs. At load the app compares the GGUF's embedded chat
 template with the bundled one; when they match, prompts are rendered by `src/harness/template.ts`, otherwise by
 llama.rn's Jinja renderer from the file's own template. After the model is ready the app downloads the full
-lexicon (`lexicon.json`, about 4.5 MB, 88k nouns) from the Hub at that revision into `models/`; until then
+lexicon (`lexicon.json`, about 4.5 MB, 88k nouns) from our storage (`models/data/v16/lexicon.json`, a copy of
+the Hub's file at that revision; the Hub itself is the fallback) into `models/`; until then
 answers are checked against the bundled core.
 
 ## How a generation runs
@@ -363,20 +371,24 @@ export.
 
 ### Publishing a new student
 
-The GGUFs of every export sit in the private `students` container; a student the app should run is copied,
-server-side, into the public `models` container (only the shipped GGUFs, the manifest, the Modelfile, the chat
-template and the grounding pack become public):
+The GGUFs of every export sit in the private `students` container. A student the app should run is copied,
+server-side, into two places: the shipped GGUFs (with the manifest, `SHA256SUMS` and the `Modelfile` the server
+reads next to them) into the private `models-private` container, which only the server's links can read; and
+the small files the app and the data pipeline fetch by URL - the manifest, the Modelfile, the chat template and
+the grounding pack - into the public `models` container:
 
 ```bash
 S=light-german-tutor-phone-v27
-for f in gguf/$S-Q5_K_M.gguf gguf/$S-Q8_0.gguf gguf/gguf_manifest.json gguf/SHA256SUMS gguf/Modelfile chat_template.jinja; do
-  # grounding.json lives in the export's -collect folder: copy it as $S/grounding.json (v24 to v27: students/$S-collect/$S/grounding.json)
-  az storage blob copy start --auth-mode key --account-name lichtgwcst001 \
-    --destination-container models --destination-blob $S/$f \
-    --source-container students --source-blob $S/$f
-done
+copy() { az storage blob copy start --auth-mode key --account-name lichtgwcst001 \
+  --destination-container "$1" --destination-blob $S/$2 --source-container students --source-blob $S/$2; }
+for f in gguf/$S-Q5_K_M.gguf gguf/$S-Q8_0.gguf gguf/gguf_manifest.json gguf/SHA256SUMS gguf/Modelfile; do copy models-private $f; done
+for f in gguf/gguf_manifest.json gguf/SHA256SUMS gguf/Modelfile chat_template.jinja; do copy models $f; done
+# grounding.json lives in the export's -collect folder: copy it as $S/grounding.json (v24 to v27: students/$S-collect/$S/grounding.json)
 node scripts/build-data.mjs v16 $S     # the Hub revision of lexicon/grounding, then the student
+az functionapp config appsettings set -g eszett -n eszett-gwc-func-001 --settings MODEL_STUDENT=$S   # the server's current student
 ```
+
+Never put a GGUF into `models`: the public container is listed nowhere, but a URL is a URL.
 
 Then run the tests (`manifest.test.ts` pins the student, the file names, the sizes, the sha256 of the phone
 edition, the grounding source and the system prompt: update its expectations) and rebuild the app. Only quantisations with at least 95 % top-1 agreement go into the
@@ -1021,15 +1033,19 @@ country), not the app's.
 
 - **Accounts (Clerk).** An account is needed for one thing only: downloading the tutor model. Sign-in is an
   e-mail address and a six-digit code, no password (`src/app/signin.tsx`, `@clerk/clerk-expo`, the session in
-  `expo-secure-store`). A build without `EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY` has no account at all and downloads
-  from the public URLs as before; `src/features/account.tsx` mirrors Clerk's state into a store so no screen
-  depends on Clerk directly (`AccountProvider`, `AccountBridge`). The Clerk application is set up through pulse's
+  `expo-secure-store`). A build without `EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY` has no account at all, and so no way
+  to download from our storage (a download source of its own still works); `src/features/account.tsx` mirrors
+  Clerk's state into a store so no screen depends on Clerk directly (`AccountProvider`, `AccountBridge`), and
+  **Me › Account › Delete account** deletes the account on the server and at Clerk (`DELETE /v1/me`), then signs
+  out. The Clerk application is set up through pulse's
   Clerk MCP (task `TASK-042`); the publishable key goes into `.env` (git-ignored), the secret key only into the
-  Function App's settings.
+  Function App's settings. Clerk's dev instance accepts `<anything>+clerk_test@example.com` with the code
+  `424242`, so sign-in can be tested without an inbox.
 - **The server** (`server/`, Azure Functions v4 on Node 22, Consumption plan, resource group `eszett`, function
   app `eszett-gwc-func-001`, reusing the `lichtgwcst001` storage account for its tables and the shared Application
   Insights). It verifies the Clerk session token and answers:
-  `GET /v1/health` · `GET /v1/me` (the entitlement) · `POST /v1/download-url {file}` (a read-only link to one
+  `GET /v1/health` · `GET /v1/me` (the entitlement) · `DELETE /v1/me` (the account, everywhere) ·
+  `POST /v1/download-url {file}` (a read-only link to one
   blob, signed with the function's managed identity - a user-delegation SAS, seven days at most, no account key
   anywhere) · `POST /v1/purchase {platform, productId, token}` (asks Google Play / the App Store, records the
   entitlement; a gift answers with a code) · `POST /v1/redeem {code | fromPool}` · `POST /v1/codes` (owner, with
@@ -1037,16 +1053,18 @@ country), not the app's.
   for every account; a model once downloaded can always be downloaded again (a new phone); with full access every
   model released before `updatesUntil`; otherwise 402 with `needs-full` or `needs-fresh`**. The storage account's
   roles for the identity: Storage Blob Data Reader, Storage Blob Delegator, Storage Table Data Contributor.
-  Settings: `STORAGE_ACCOUNT`, `MODELS_CONTAINER`, `MODEL_STUDENT`, `EDITIONS`, `LINK_HOURS`, `UPDATES_MONTHS`,
-  `CLERK_SECRET_KEY`, `GOOGLE_SERVICE_ACCOUNT_JSON` (a Play service account with "View financial data"),
-  `APPLE_ISSUER_ID` / `APPLE_KEY_ID` / `APPLE_PRIVATE_KEY` (App Store Server API), `ADMIN_KEY`;
+  Settings: `STORAGE_ACCOUNT`, `MODELS_CONTAINER` (`models-private`), `MODEL_STUDENT`, `EDITIONS`, `LINK_HOURS`,
+  `UPDATES_MONTHS`, `CLERK_SECRET_KEY`, `GOOGLE_SERVICE_ACCOUNT_JSON` (a Play service account with "View
+  financial data"), `APPLE_ISSUER_ID` / `APPLE_KEY_ID` / `APPLE_PRIVATE_KEY` (App Store Server API), `ADMIN_KEY`;
   `TRUST_UNVERIFIED_PURCHASES=true` is for development only. Deploy: `cd server && npm run deploy`. Until
-  `CLERK_SECRET_KEY` is set the server answers 503 and the app falls back to the public URLs; once the new app
-  version is out, the `models` container can be made private (`az storage container set-permission --public-access
-  off`), and then only the server's links download.
+  `CLERK_SECRET_KEY` is set the server answers 503 to everything but `/v1/health`, and the app shows that message
+  instead of a download (there is no public URL to fall back to). The owner's key for `/v1/codes` is kept outside
+  the repository (`~/.pulse/private/providers/eszett-admin-key.json`); a batch of codes for a school:
+  `curl -X POST "$API/v1/codes" -H "x-admin-key: $ADMIN_KEY" -H "content-type: application/json" -d '{"count":30,"note":"VHS Köln B1 autumn"}'`.
 - **The app's side** (`src/features/api.ts`, pure and tested): `requestDownloadLink` turns the server's answers
-  into what the app does - a link, "sign in" (401), "full access" (402, the unlock screen with the reason), or a
-  fallback to the public URL when the server is not configured or not reachable (`shouldFallBackToPublic`).
+  into what the app does - a link, "sign in" (401), "full access" (402, the unlock screen with the reason), or
+  "unavailable" with the server's message when it is not set up or not reachable (the learner tries again later;
+  a model already on the phone keeps working).
   `src/model/runtime.ts` asks for the link in `download()` and parks the reason in `gate`; the Your-tutor sheet and
   the Home card show it. Purchases are reported to the server after the store confirms them
   (`src/features/purchases.ts` `report`); a fresh tutor and a gift are consumables that live on the account, so
@@ -1109,6 +1127,59 @@ The local pieces from before remain:
 account owns, and the two meet when a purchase is reported. A reinstall starts a new week on the phone (the trial
 record lives in AsyncStorage) but not a new free download: the account remembers. Learners who update from a
 version without the gate get seven days from the first start of the new version.
+
+## Website
+
+`web/` is the static site for **eszett.lamplitlabs.com**: the landing page (`index.html`), the pages the
+stores and Clerk ask for - `privacy` (Datenschutzerklärung, German and English on one page, `#de` / `#en`),
+`terms` (Nutzungsbedingungen: the free week, the one-time purchases, codes and the pool, model updates, no
+warranty on what a language model says), `imprint` (§ 5 DDG), `delete-account` (Google Play's account-deletion
+URL: the in-app path and the e-mail fallback, what is deleted and what never left the phone), `support` - and
+the **learning pages**, generated from the app's own data in the app's twelve languages.
+
+**The learning pages** (`node web/build.mjs`, about 1,300 files, committed so Vercel needs no build step) are
+what a learner finds on a search engine before they know the app exists, and the material the tutor teaches
+from, free to read: the course by level (`/learn`, `/learn/a1` … `/learn/c2`: what the level means in Germany,
+how long it takes, every week with its grammar, words, drills, scenes and the questions to ask the tutor), one
+page per grammar card (`/grammar/<key>`: the rule in the reader's language and in German, the examples, the
+pitfalls, the weeks it comes up in), one per exam (`/exams/<key>`: the fact sheets of the grounding pack -
+parts, points, pass marks, timing - plus a comparison, the level guidance and the strategy notes on `/exams`),
+one per story (`/stories/<id>`: the public-domain text with the glossary and the questions, answers behind a
+toggle), and the scenes (`/scenes`). English lives at the root, the other languages under their code
+(`/fr/grammar/adjektivendungen`); every page lists all twelve as `hreflang` alternates with English as
+`x-default`, carries canonical, Open Graph and Twitter tags, JSON-LD (`BreadcrumbList` everywhere, `Article`
+for cards, exams and stories, `Course` for the levels; the landing page has `Organization`, `WebSite`,
+`MobileApplication` and `FAQPage`), and a language switcher. Arabic pages are `dir="rtl"` with the German
+examples kept left-to-right.
+
+Where the words come from: the cards, scenes, course units and stories are `src/data/*.json`, their translations
+`src/data/i18n/<lang>.json` - the same overlays the app shows (German uses the native `_de` fields); the word-list
+topics come from the UI catalogs (`topics.*`). The page strings and the exam sheets have their own tables,
+`web/i18n/strings.<lang>.json` and `web/i18n/exams.<lang>.json`, English being the source; a missing language
+falls back to English (the exam pages then say so). Translating them follows the UI pattern: an agent writes the
+language file, `node scripts/web-i18n-check.mjs strings|exams <lang>` checks keys, placeholders, link keys and - for the exam sheets -
+that every number survived, then the file is copied into `web/i18n/`. Run the build again after any of these
+change; its output is deterministic, so a rebuild only changes what changed.
+
+Plain HTML and one stylesheet (`styles.css`, the app's colours and fonts, dark mode by `prefers-color-scheme`),
+no build step, no scripts beyond the language toggle of the legal pages, no analytics, no cookies - the privacy
+page says so and the site has to keep it true. `vercel.json` sets clean URLs (`/privacy`, not `/privacy.html`),
+German aliases (`/datenschutz`, `/impressum`, `/nutzungsbedingungen`, `/konto-loeschen`, `/grammatik`,
+`/pruefungen`, `/deutsch-lernen`), `/<lang>` → `/<lang>/learn`, the security headers and a CSP that allows only
+this origin and Google Fonts. `sitemap.xml` is written by the build (all pages, all languages); `robots.txt`
+points at it; `assets/og.png` is the 1200×630 share image.
+
+Hosting: a Vercel project with **Root Directory `web`**, framework "Other", no build command, and the domain
+`eszett.lamplitlabs.com` (a CNAME to `cname.vercel-dns.com` at the DNS of lamplitlabs.com, which is at
+Hostinger). Preview locally with `node scripts/web-preview.mjs` (clean URLs like Vercel, port 8788). The provider is named the way
+the other Lamplit Labs sites name it (Lamplit Labs, Germany, `hello@lamplitlabs.com` for everything: support,
+privacy requests, account deletion by e-mail); the privacy and terms pages point to the Impressum for the
+address, and the Impressum alone carries `<span class="todo">` placeholders (owner or legal form, street and
+city, phone, VAT id). They have to be filled before the site goes live: Eszett is paid, so § 5 DDG and the
+Digital Services Act's trader rules ask for a postal address and a phone number, and Google Play and the App
+Store show the same details publicly for apps with purchases anyway. The same URLs go into the
+store listings (privacy policy, account deletion) and into Clerk's production instance (legal links in the
+sign-in flow); the app links to them from **Me › About**.
 
 ## Practising together
 

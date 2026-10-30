@@ -2,7 +2,7 @@
 // Clerk secret key (networkless once Clerk's JWKS is cached by the SDK). Without a key nothing is verified and
 // every request is refused: the server fails closed.
 
-import { verifyToken } from '@clerk/backend';
+import { createClerkClient, verifyToken } from '@clerk/backend';
 import type { HttpRequest } from '@azure/functions';
 
 import { config } from './config';
@@ -46,5 +46,16 @@ export async function requireCaller(req: HttpRequest): Promise<Caller> {
   } catch (e) {
     if (e instanceof AuthError) throw e;
     throw new AuthError('the sign-in token was not accepted; sign in again');
+  }
+}
+
+/** Deletes the learner's Clerk user (e-mail address, sessions, sign-in history); quiet when Clerk already has no such user. */
+export async function deleteClerkUser(userId: string): Promise<void> {
+  if (!config.clerkSecretKey) throw new AuthError('sign-in is not configured on this server yet', 503);
+  const clerk = createClerkClient({ secretKey: config.clerkSecretKey });
+  try {
+    await clerk.users.deleteUser(userId);
+  } catch (e) {
+    if ((e as { status?: number }).status !== 404) throw e;
   }
 }
