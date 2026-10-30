@@ -11,6 +11,7 @@ store/
                                release_notes.txt (500), screenshots.txt (one caption per capture, 60 each)
                                for en-US de-DE fr-FR es-ES it-IT pt-BR pl-PL ru-RU uk tr-TR ar zh-CN
   metadata/android/one-time-products.json   the three products: ids, euro prices, listings in twelve languages
+  metadata/youtube/<lang>.md   titles, descriptions and tags for the promo videos on YouTube (en, de)
   captures/                    phone screenshots from the device, in display order (adb exec-out screencap -p)
   output/                      rendered by compose.py, not committed: <locale>/phone/NN.png, <locale>/feature.png, icon.png
   compose.py                   renders the Play graphics from the captures and the metadata (Pillow)
