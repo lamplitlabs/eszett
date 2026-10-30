@@ -30,9 +30,10 @@ ${indent.slice(0, -4)}def eszettUploadProp = { String name -> findProperty(name)
 ${indent.slice(0, -4)}def eszettUploadStoreFile = eszettUploadProp('ESZETT_UPLOAD_STORE_FILE')
 ${indent.slice(0, -4)}${block.replace(/\n(\s*)\}\s*$/, `\n${upload}\n$1}`)}`);
   // the release build type: the upload key when the build has it, else the debug key
-  const release = /(release \{[\s\S]*?)signingConfig = signingConfigs\.debug/;
-  if (!release.test(out)) throw new Error('withUploadSigning: release { signingConfig = signingConfigs.debug } not found');
-  out = out.replace(release, '$1signingConfig = eszettUploadStoreFile ? signingConfigs.upload : signingConfigs.debug');
+  // the template writes `signingConfig signingConfigs.debug`; older generated projects `signingConfig = …`
+  const release = /(release \{[\s\S]*?)signingConfig\s*=?\s*signingConfigs\.debug/;
+  if (!release.test(out)) throw new Error('withUploadSigning: release { signingConfig signingConfigs.debug } not found');
+  out = out.replace(release, '$1signingConfig eszettUploadStoreFile ? signingConfigs.upload : signingConfigs.debug');
   // the version code: ESZETT_VERSION_CODE, else app.json's
   const code = /versionCode (\d+)\n/;
   if (!code.test(out)) throw new Error('withUploadSigning: versionCode not found');
