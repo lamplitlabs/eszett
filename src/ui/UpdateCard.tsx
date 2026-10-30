@@ -2,7 +2,7 @@
 // minimum version, a full page with only the way to the store. Shown from the root layout.
 import Constants from 'expo-constants';
 import { useEffect } from 'react';
-import { Linking, Platform, View } from 'react-native';
+import { Alert, Linking, Platform, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { checkForUpdate, evaluateRelease, useRelease, type UpdateVerdict } from '@/features/release';
@@ -27,7 +27,16 @@ export function useUpdateVerdict(enabled: boolean): UpdateVerdict & { dismissed:
   return { ...verdict, dismissed: verdict.version !== null && dismissed === verdict.version, dismiss: () => set({ dismissed: verdict.version }) };
 }
 
-const open = (url: string) => Linking.openURL(url).catch(() => undefined);
+// A tap on "Open in the store" can fail (no store app, a blocked itms-apps:// link): without a catch the
+// promise rejects into the void and the tap looks dead. Like shareWordsCsv in reviewCsv.ts, a failure now
+// shows a localized alert with Retry, which hands the learner the same link again, or Cancel.
+export const openUpdateLink = (url: string, t: (key: string) => string): Promise<void> =>
+  Linking.openURL(url).catch(() => {
+    Alert.alert(t('update.openFailedTitle'), t('update.openFailedMessage'), [
+      { text: t('common.cancel'), style: 'cancel' },
+      { text: t('common.retry'), onPress: () => void openUpdateLink(url, t) },
+    ]);
+  });
 
 export function UpdateCard({ verdict }: { verdict: ReturnType<typeof useUpdateVerdict> }) {
   const { t } = useI18n();
@@ -43,7 +52,7 @@ export function UpdateCard({ verdict }: { verdict: ReturnType<typeof useUpdateVe
           {verdict.notes ?? t('update.body', { version: verdict.version ?? '' })}
         </Txt>
         <View style={{ flexDirection: 'row', gap: space.s, marginTop: space.xs }}>
-          <Button label={t('update.open')} size="medium" grow onPress={() => void open(storeUrl)} />
+          <Button label={t('update.open')} size="medium" grow onPress={() => void openUpdateLink(storeUrl, t)} />
           <Button label={t('common.later')} size="medium" kind="quiet" onPress={verdict.dismiss} />
         </View>
       </Paper>
@@ -67,7 +76,7 @@ export function UpdateRequired({ verdict }: { verdict: UpdateVerdict }) {
           {verdict.notes}
         </Txt>
       ) : null}
-      <Button label={t('update.open')} onPress={() => void open(storeUrl)} style={{ marginTop: space.m }} />
+      <Button label={t('update.open')} onPress={() => void openUpdateLink(storeUrl, t)} style={{ marginTop: space.m }} />
     </View>
   );
 }

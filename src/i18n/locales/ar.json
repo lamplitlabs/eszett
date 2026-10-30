@@ -2011,6 +2011,8 @@
   "unlock.freshBuy": "اثنا عشر شهرًا إضافيًا من المعلّمين الجدد · {price}",
   "update.body": "الإصدار {version} متوفر في المتجر.",
   "update.open": "تحديث",
+  "update.openFailedMessage": "تعذّر فتح رابط التحديث. المحاولة مرة أخرى؟",
+  "update.openFailedTitle": "تعذّر فتح المتجر",
   "update.requiredBody": "هذا الإصدار لم يعد يعمل مع المعلّم. الإصدار {version} بانتظارك في المتجر.",
   "update.requiredTitle": "يرجى تحديث Eszett",
   "update.title": "إصدار جديد من Eszett جاهز",

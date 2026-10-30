@@ -476,10 +476,13 @@ class Engine {
       // tutor that just stops answering. Log it with the reason; the settled 'stall' outcome marks the miss.
       console.warn('[model] the cache prime failed:', error);
       this.cached = '';
+      end('stall');
     } finally {
       cancelWatchdog();
       job.interrupt = undefined;
     }
+    // When the prime just failed, `end('stall')` already marked `done`: a broken prime settles as 'stall',
+    // never as the normal 'eos' of a finished reply, so the chat path can tell the two ends apart.
     this.settle(job, { text: '', stopped: done ?? 'eos' });
   }
 
