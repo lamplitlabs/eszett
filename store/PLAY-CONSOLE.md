@@ -22,8 +22,8 @@ The package name is fixed by the first bundle upload: `com.lamplitlabs.eszett`.
 
 Play Console → **Users and permissions → Invite new users**.
 
-- E-mail: `play-publisher@leben-in-deutschland-play.iam.gserviceaccount.com` (the Google Cloud project
-  `leben-in-deutschland-play`, already linked under Setup → API access; the key is on the laptop at
+- E-mail: `play-publisher@eszett-play.iam.gserviceaccount.com` (the Google Cloud project
+  `eszett-play`, Eszett's own; the key is on the laptop at
   `~/.pulse/private/providers/play-service-account.json` and in the repository secret `PLAY_SERVICE_ACCOUNT_KEY_JSON`).
 - App permissions → add **Eszett** (or grant at account level if the same account should also publish Leben in
   Deutschland from its repository), with:

@@ -24,8 +24,8 @@ store/
 ## Credentials
 
 The scripts authenticate as the Google Cloud service account
-`play-publisher@leben-in-deutschland-play.iam.gserviceaccount.com` (project `leben-in-deutschland-play`, which is
-linked to the Play Console under Setup → API access and has the Google Play Android Developer API enabled). The
+`play-publisher@eszett-play.iam.gserviceaccount.com` (Eszett's own Cloud project `eszett-play`, owned by the lamplitlabs account, with the Google Play Android
+Developer API enabled; Play no longer needs the project linked, only the account invited). The
 account has to be invited in Play Console → Users and permissions (PLAY-CONSOLE.md, step 2). First match wins:
 
 | Variable | Meaning |

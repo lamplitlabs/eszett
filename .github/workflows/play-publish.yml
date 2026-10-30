@@ -6,7 +6,7 @@ name: Play Publish
 # laptop with `python3 store/compose.py` and `node store/play-listing.mjs --apply`.
 #
 # Secret:    PLAY_SERVICE_ACCOUNT_KEY_JSON - the JSON key of the Play service account
-#            (play-publisher@leben-in-deutschland-play.iam.gserviceaccount.com), invited in Play Console -> Users and permissions
+#            (play-publisher@eszett-play.iam.gserviceaccount.com), invited in Play Console -> Users and permissions
 # The release task downloads the bundle artifact of the latest successful Android Release run on main.
 
 on:
