@@ -737,7 +737,7 @@ the tutor's corrections (shown with the red pen and the explanation), newest fir
 points over the last five — the trend a teacher's folder shows; a text opens its task again.
 
 **The placement test** (`src/app/placement.tsx`, `src/harness/placement.ts`; from onboarding's "Not sure?" and
-Me › Your level): four of the app's own drills per level — two meanings, an article and a verb form from that level's
+Me › Settings › Your level): four of the app's own drills per level — two meanings, an article and a verb form from that level's
 words and verb band — from A1 upwards; a round passes with three right, the first round that fails ends the test, and
 the level before it is suggested (every round passed suggests C1; the lexicon has no C2 tier, so C2 stays the
 learner's own choice). The learner takes the suggestion or chooses; nothing is written to the progress store.
@@ -810,7 +810,7 @@ practise. All of it respects the system's reduce-motion setting.
 Local notifications only (`expo-notifications`; `src/features/notify.ts`, `notifyRules.ts`, `notifyStore.ts`,
 `wordOfDay.ts`, `ReminderCard.tsx`): the app schedules them itself, no push service, nothing leaves the phone.
 Everything is off until the learner turns it on — the home-screen card asks once, after the first practice (**Turn
-on** / **Not now**), and Me › Reminders holds the switches: a **nudge on days without practice** at 9, 12, 18 or
+on** / **Not now**), and Me › Settings › Reminders holds the switches: a **nudge on days without practice** at 9, 12, 18 or
 21 (`REMINDER_HOURS`), the **word of the day** every morning at 9 on a quiet channel, and **Send one**, a sample
 delivered at once so the learner sees what a reminder looks like on this phone (it asks for the permission if
 needed; on Android 13+ the channels are created first, as the system prompt needs them).
@@ -1342,7 +1342,8 @@ node scripts/i18n-content-check.mjs fr es it pt pl ru uk tr ar zh      # the con
 ```
 src/app/                 screens (Expo Router)
   _layout.tsx            fonts, theme, the boot hook (loads the model once settings are hydrated, rescans on foreground), the splash timeout
-  (tabs)/                Today (index), Tutor, Practice, Scenes, Me
+  (tabs)/                Today (index), Tutor, Practice, Scenes, Me (one screen: who you are, the week, and the doors below)
+  progress.tsx, settings.tsx, account.tsx, about.tsx   Me › Progress (areas, speaking, the notebooks), Settings (level, languages, appearance, how the tutor works, reminders), Account (sign out, delete), About (licences, website, updates, rating)
   model.tsx              Me › Your tutor: edition, download / pause / resume, files on the phone, download source, stream test
   unlock.tsx             Me › Full access: the free week, the one-time purchase, restore (see "Free week and full access")
   onboarding.tsx, review.tsx, words.tsx, drill/, grammar/ ([key] and new), scene/, word/, write/ ([id] and new)
