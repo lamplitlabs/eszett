@@ -6,6 +6,7 @@
   "main": "dist/src/functions/*.js",
   "scripts": {
     "build": "tsc",
+    "typecheck": "tsc --noEmit",
     "watch": "tsc -w",
     "clean": "rimraf dist",
     "prestart": "npm run build",
