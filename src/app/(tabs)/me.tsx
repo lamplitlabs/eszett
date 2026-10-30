@@ -1,5 +1,5 @@
 import { router } from 'expo-router';
-import { BookMarked, ChevronRight, GraduationCap, KeyRound, NotebookPen, RefreshCw, Repeat, Star } from 'lucide-react-native';
+import { BookMarked, ChevronRight, GraduationCap, KeyRound, Mic, NotebookPen, RefreshCw, Repeat, Star, UserRound } from 'lucide-react-native';
 import { useState, type ReactNode } from 'react';
 import { Platform, Switch, View } from 'react-native';
 
@@ -20,6 +20,8 @@ import { useModel } from '@/model/runtime';
 import { isMtLang, readLangFor, useTranslator } from '@/mt';
 import { dueWords, useDeck } from '@/state/deck';
 import { useMistakes } from '@/state/mistakes';
+import { filledFields, useProfile } from '@/state/profile';
+import { summarise, useSpeaking, wordsByDay } from '@/state/speaking';
 import { useTexts } from '@/state/texts';
 import { accuracy, streakOf, useProgress, type Area } from '@/state/progress';
 import { useSettings, type ThemePref } from '@/state/settings';
@@ -104,6 +106,58 @@ function Week() {
   );
 }
 
+function SpeakingCard() {
+  const { c } = useTheme();
+  const { t } = useI18n();
+  const talks = useSpeaking((s) => s.talks);
+  const chats = useSpeaking((s) => s.chats);
+  const summary = summarise(talks, chats);
+  const days = wordsByDay(talks, chats, 14);
+  const max = Math.max(60, ...days.map((d) => d.words));
+  const trend = summary.recentWpm !== null && summary.earlierWpm !== null ? summary.recentWpm - summary.earlierWpm : null;
+  return (
+    <Paper style={{ gap: space.l }}>
+      <View style={{ flexDirection: 'row', gap: space.xl }}>
+        <View>
+          <Txt variant="title">{summary.talks}</Txt>
+          <Txt variant="small" color="inkSoft">
+            {t('me.speakingTalks', { count: summary.talks })}
+          </Txt>
+        </View>
+        <View>
+          <Txt variant="title">{summary.chats}</Txt>
+          <Txt variant="small" color="inkSoft">
+            {t('me.speakingChats', { count: summary.chats })}
+          </Txt>
+        </View>
+        <View>
+          <Txt variant="title">{summary.words}</Txt>
+          <Txt variant="small" color="inkSoft">
+            {t('me.speakingWords')}
+          </Txt>
+        </View>
+      </View>
+      {summary.talks ? (
+        <Txt variant="small" color="inkSoft">
+          {summary.recentWpm !== null ? t('me.speakingPace', { wpm: summary.recentWpm, best: summary.bestWpm }) : ''}
+          {trend !== null ? ` ${trend > 0 ? t('me.speakingUp', { n: trend }) : trend < 0 ? t('me.speakingDown', { n: -trend }) : t('me.speakingSame')}` : ''}
+        </Txt>
+      ) : (
+        <Txt variant="small" color="inkSoft">
+          {t('me.speakingEmpty')}
+        </Txt>
+      )}
+      <View style={{ flexDirection: 'row', alignItems: 'flex-end', gap: 4, height: 56 }} accessibilityLabel={t('me.speakingChart')}>
+        {days.map((d, i) => (
+          <View key={d.key} style={{ flex: 1, height: 56, justifyContent: 'flex-end' }}>
+            <View style={{ height: Math.max(3, (d.words / max) * 56), borderRadius: 3, backgroundColor: d.words ? (i === days.length - 1 ? c.amber : c.red) : c.sheetAlt }} />
+          </View>
+        ))}
+      </View>
+    </Paper>
+  );
+}
+
 export default function Me() {
   const { c } = useTheme();
   const { lang, t } = useI18n();
@@ -124,6 +178,7 @@ export default function Me() {
   const streak = streakOf(days);
   const mistakeCount = useMistakes((x) => Object.keys(x.items).length);
   const textCount = useTexts((x) => Object.keys(x.items).length);
+  const profileFilled = filledFields(useProfile((x) => x.profile)).length;
   const due = dueWords(words).length;
   const practised = AREAS.filter(([a]) => (areas[a]?.seen ?? 0) > 0);
   const level = localizeLevel(LEVEL_INFO[s.level], lang);
@@ -312,6 +367,34 @@ export default function Me() {
             <Txt variant="bodyStrong" style={{ flex: 1 }}>
               {textCount ? t('texts.practiceDetail', { count: textCount }) : t('texts.title')}
             </Txt>
+            <ChevronRight size={18} color={c.inkSoft} />
+          </Paper>
+        </Press>
+      </Section>
+
+      <Section title={t('me.speaking')}>
+        <SpeakingCard />
+        <Press onPress={() => router.push('/minute')} scaleTo={0.99} accessibilityLabel={t('minute.title')} style={{ marginTop: space.m }}>
+          <Paper tone="red" style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
+            <Mic size={18} color={c.red} />
+            <Txt variant="bodyStrong" style={{ flex: 1, color: c.red }}>
+              {t('me.speakNow')}
+            </Txt>
+            <ChevronRight size={18} color={c.red} />
+          </Paper>
+        </Press>
+      </Section>
+
+      <Section title={t('profile.title')}>
+        <Press onPress={() => router.push('/profile')} scaleTo={0.99} accessibilityLabel={t('profile.title')}>
+          <Paper tone={profileFilled ? 'alt' : 'amber'} style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
+            <UserRound size={18} color={profileFilled ? c.inkSoft : c.amberInk} />
+            <View style={{ flex: 1 }}>
+              <Txt variant="bodyStrong">{profileFilled ? t('me.profileFilled', { count: profileFilled }) : t('me.profileEmpty')}</Txt>
+              <Txt variant="small" color="inkSoft">
+                {t('me.profileWhy')}
+              </Txt>
+            </View>
             <ChevronRight size={18} color={c.inkSoft} />
           </Paper>
         </Press>

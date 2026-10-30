@@ -265,6 +265,9 @@ export default function RootLayout() {
                 <Stack.Screen name="situation" />
                 <Stack.Screen name="exam" />
                 <Stack.Screen name="alltag" />
+                <Stack.Screen name="minute" />
+                <Stack.Screen name="talk" />
+                <Stack.Screen name="profile" />
                 <Stack.Screen name="stories/index" />
                 <Stack.Screen name="stories/[id]" />
                 <Stack.Screen name="texts/index" />

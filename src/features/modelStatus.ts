@@ -31,7 +31,7 @@ export function statusLabel(status: ModelStatus, pct = 0, lang: AppLang = getLan
   return tIn(lang, STATUS_KEY[status], { pct });
 }
 
-/** "Light German Tutor Phone v25", without repeating a version the name already carries. */
+/** "Light German Tutor Phone v27", without repeating a version the name already carries. */
 export function modelTitle(info: { name: string; version?: string | null }, sep = ' '): string {
   return info.version && !info.name.includes(info.version) ? `${info.name}${sep}${info.version}` : info.name;
 }

@@ -82,7 +82,7 @@ pass `--user 0`.
 
 ## Getting a model onto the phone
 
-The app wants one GGUF of the **light-german-tutor-phone-v25** export, `light-german-tutor-phone-v25-Q5_K_M.gguf`
+The app wants one GGUF of the **light-german-tutor-phone-v27** export, `light-german-tutor-phone-v27-Q5_K_M.gguf`
 (default) or `-Q8_0.gguf`. The files are public blobs in the `models` container of our Azure storage account
 `lichtgwcst001` (resource group `licht`, germanywestcentral): anonymous read by URL, no listing. The private
 `students` container holds every export and is never referenced by the app.
@@ -91,11 +91,14 @@ The app wants one GGUF of the **light-german-tutor-phone-v25** export, `light-ge
 | --- | --- | --- | --- | --- |
 | **Q5_K_M** | 2.2 GB | 96.2 % | 6 GB of RAM | The default: the phone edition. |
 | **Q8_0** | 3.3 GB | 98.8 % | 8 GB of RAM | Offered on phones that report 8 GB. |
-| Q4_K_M | 1.9 GB | 93.3 % | | Fails the 95 % gate; not shipped. |
+| Q4_K_M | 1.9 GB | 93.7 % | | Fails the 95 % gate; not shipped. |
 | bf16 | 6.2 GB | | | The reference the quants are measured against; not for phones. |
 
-v25 is the v24 recipe (same 3B base, SmolLM3-3B, same chat template, byte-identical system prompt, lexicon and
-24-note grounding pack) trained on a 10,215-row set that now carries **C2** material, with v24's validation split
+v27 (exported 29 October 2026) keeps v25's base (SmolLM3-3B), chat template, byte-identical system prompt and
+24-note grounding pack, so the harness, the prompts and the readers carry over unchanged; its Q5_K_M edition
+agrees with the full model on 96.2 % of top-1 tokens (KL 0.015), Q8_0 on 98.8 %. The app retires the v25 files on
+the phone at first start and downloads v27 (see "Updating the model on a phone"). v25 was the v24 recipe (same
+base, template, system prompt, lexicon and grounding pack) trained on a 10,215-row set that first carried **C2** material, with v24's validation split
 held fixed; it is the first student the app offers at C2. On the toolkit's 498-scenario gate set (level,
 light-verb, Redemittel, register and Stilbruch batteries, 97 of them C2) it is ahead of v24 on every battery:
 shape passes its gate for the first time (0.84 against 0.80; v24 0.74), facts 0.77 against 0.76 (the 0.85
@@ -127,7 +130,7 @@ turns the automatic download back on. The sheet also shows the file in use, the 
 and the three ways to get one:
 
 1. **Download from our storage.** The app downloads
-   `https://lichtgwcst001.blob.core.windows.net/models/light-german-tutor-phone-v25/gguf/<file>` to its Documents
+   `https://lichtgwcst001.blob.core.windows.net/models/light-german-tutor-phone-v27/gguf/<file>` to its Documents
    folder (the URL comes from `src/data/model.json`, built by the data pipeline below). The download runs as an
    iOS background session, can be paused, and resumes on relaunch; it refuses to start when free space is below
    the file size plus 500 MB. When it finishes the app compares the file's size with the export manifest; a
@@ -142,7 +145,7 @@ and the three ways to get one:
 3. **A computer on the Wi-Fi as download source.** In the folder that contains the `.gguf` files run
    `python3 -m http.server 8000`, then set the **Download source** in **Me › Your tutor › Advanced** to
    `http://<laptop-ip>:8000` and download as in 1. The app requests `<source>/<file>` and checks the finished
-   size against the export manifest, so serve the v25 files themselves under the names above.
+   size against the export manifest, so serve the v27 files themselves under the names above.
    (`NSAllowsLocalNetworking` on iOS and `usesCleartextTraffic` on Android exist for this.)
 
 Where the file lives: `Documents/models/<file>` (a `.part` file while downloading; sideloaded files in the
@@ -150,7 +153,7 @@ Documents root are used in place). Documents survives cache purges and, on iOS, 
 so **Remove** in **Me › Your tutor** when the model should go. The app remembers the chosen file in its settings.
 
 The bundled data (`src/data`) comes from two places: the lexicon from Hub revision v16 of the data release
-(byte-identical to the one in the v25 export), and from the export itself the grounding notes
+(byte-identical to the one in the v27 export), and from the export itself the grounding notes
 (`grounding.json`, the pack the student was trained with — the Hub's v16 pack is the fallback for an export
 that does not publish one; `model.json.grounding_source` says which was used), the system prompt from the
 `Modelfile` (the SYSTEM block the student was trained with) and the chat template from `chat_template.jinja`,
@@ -275,7 +278,7 @@ the same draft), then surfaces as `DraftError` with the draft attached; the box 
 the model wrote. Field names are matched exactly first and loosely second, and a loose match never crosses
 languages ("Opening (English)" is not the German opening line, "Rule (German)" is not the English rule).
 
-The prompts and the reader were tuned against the students themselves (v13, then v23; v24 and v25 share v23's system
+The prompts and the reader were tuned against the students themselves (v13, then v23; v24 to v27 share v23’s system
 prompt, template and lexicon, so the tuning carries over), on the phone and then
 in a local loop (the same Q5_K_M GGUF under `llama-completion` with the app's rendered prompt and greedy
 sampling, 3-12 s a draft against ~150 s on the phone). What that showed, and what the code does about it: the
@@ -337,7 +340,7 @@ would pay off (the app's prompts in `src/harness/prompts.ts` are the training te
 ## Data pipeline
 
 ```bash
-node scripts/build-data.mjs [revision] [student]     # default: v16 light-german-tutor-phone-v25; also: npm run build-data
+node scripts/build-data.mjs [revision] [student]     # default: v16 light-german-tutor-phone-v27; also: npm run build-data
 ```
 
 Fetches from the Hub at the pinned revision: `lexicon.json` (→ `src/data/lexicon-core.json`, A1-C1 nouns with
@@ -365,9 +368,9 @@ server-side, into the public `models` container (only the shipped GGUFs, the man
 template and the grounding pack become public):
 
 ```bash
-S=light-german-tutor-phone-v25
+S=light-german-tutor-phone-v27
 for f in gguf/$S-Q5_K_M.gguf gguf/$S-Q8_0.gguf gguf/gguf_manifest.json gguf/SHA256SUMS gguf/Modelfile chat_template.jinja; do
-  # grounding.json lives in the export's -collect folder: copy it as $S/grounding.json (v24, v25: students/$S-collect/$S/grounding.json)
+  # grounding.json lives in the export's -collect folder: copy it as $S/grounding.json (v24 to v27: students/$S-collect/$S/grounding.json)
   az storage blob copy start --auth-mode key --account-name lichtgwcst001 \
     --destination-container models --destination-blob $S/$f \
     --source-container students --source-blob $S/$f
@@ -648,6 +651,47 @@ the reading step with `/read?alltag=<key>` so listening, word lookup and reading
 the app's own role-play scene and writing task where they exist (`scene`, `write`; checked by the tests). The
 track answers the research's "I want to manage my own appointments and paperwork without relying on my partner".
 Tests: `src/harness/__tests__/alltag.test.ts`.
+
+**Speaking** (Practice › Speaking; the Home card). The learner research's first complaint is "I can read and
+understand but I can't speak", and its standard remedy is a tandem partner. Three pieces answer it, and the
+output they produce is counted on its own, apart from the comprehension drills:
+
+- **Eine Minute Deutsch** (`src/harness/minute.ts`, `src/app/minute.tsx`, `src/features/MinuteCard.tsx`): one
+  minute of free speech on the prompt of the day — sixty prompts, ten a level, each with three cue points
+  (`MINUTE_PROMPTS`; *Erzähl von deinem Tag* with *Wann du aufstehst / Was du morgens und mittags machst / Was du
+  am Abend machst* at A1, *Ist Ungleichheit der Preis für Wohlstand?* at C1), rotated by day and skipping the ones
+  done (`promptOfDay`; the gloss is the catalog's `minute.prompt.<id>`). The phone's recognizer writes along in
+  continuous mode (`useDictation`), the clock stops the turn at sixty seconds, and the time counts to the last
+  word heard. The app measures what it can itself (`minuteStats`: words without fillers, different words, *ähs
+  and ähms*, words a minute) and the tutor rates the talk through the exam grid (`minutePart` builds an
+  `ExamPart` of kind *monologue* with the level's `MIN_WORDS`, `minuteSheet` turns the prompt into the task sheet,
+  `tutor.examRating` scores Erfüllung, Kohärenz, Wortschatz, Strukturen with a comment, a tip and one improved
+  sentence; fluency comes from the pace bands by code). A model that stops after the four scores is run again
+  with its scores as the beginning of the answer up to `Kommentar:` (`ratingPrefill`, through the engine's
+  `prefill`), so the free lines arrive. Every talk is kept in `src/state/speaking.ts` (`MinuteTalk`), the Home card
+  shows today's prompt and, once done, the pace and the streak of days, and the ready screen lists the last
+  talks. Tests: `src/harness/__tests__/minute.test.ts`.
+- **Plaudern** (`src/harness/talk.ts`, `src/app/talk.tsx`): a free conversation with a tandem partner, built on
+  the role-play frame the model was trained on (`counterpartPrompt`, `readCounterpartLine`, `tutor.sceneTurn`):
+  `talkCard` makes a scene card on the fly with one of three partners (`PARTNERS`: Lena, Jonas, Aylin, rotated
+  weekly by `partnerFor`, each with a life of her own in five facts), the topic (`TALK_TOPICS`, thirty from *Dein
+  Tag* to *Eine Streitfrage*, the level's own first, or one the learner types), the *du* register and the
+  partner's opener as the opening line, greeting the learner by first name. What makes it a conversation with
+  *this* learner is **memory**: the profile (`src/state/profile.ts`, Me › About you: name, where they live and
+  come from, work, hobbies, why German — all optional, all on the phone) and what they said last time
+  (`memoryOf` in `src/state/speaking.ts`: the last topics and the longest thing they told, `thingTold`) go to the
+  partner as facts. Ownership is spelled out in the labels — the partner's facts are *Dein Alter*, *Dein Plan für
+  Sonntag*, the learner's *Manishs Wohnort*, *Manishs Hobbys* — because a 3B model given *Jonas, this week: a
+  flea-market stand* happily asked the learner how his stand went. `keepTalking` drops a farewell the partner
+  slips into mid-chat and appends a follow-up question when her line forgot to ask (`FOLLOW_UPS`, varied by
+  turn). Nothing is corrected while the two talk; **End the talk** opens the recap, where the tutor goes through
+  the learner's lines one by one with the red pen (`tutor.correct`), and the chat is saved (`Chat`: lines, words,
+  what was told) so the partner "remembers this next time". Tests: `src/harness/__tests__/talk.test.ts` (the
+  card passes the scene reader; a line that corrects, greets again or invents a figure is caught).
+- **Speaking on the Me tab** (`summarise`, `wordsByDay` in `src/state/speaking.ts`): talks, conversations and
+  words said, the pace over the last five talks against the five before, the best, a fourteen-day bar chart of
+  words spoken, and a button into the minute. Practice › Speaking lists the minute, the chat and the week's
+  sentences to say (`/speak`); the mock exam stays under Exam.
 
 **Wortschatz and the deck**: the course's words step is done once three words of its list are saved to My words
 (`SAVE_TO_FINISH` in `src/app/words.tsx`), not when the list is written — the week's vocabulary then comes back in
@@ -1208,7 +1252,7 @@ extended-virtual-addressing entitlements, and the local-network permissions used
 | Download paused or interrupted | A paused download is saved and resumes when the app is relaunched; on iOS it runs in a background session, so leaving the app does not stop it. **Cancel** deletes the partial file and switches the automatic download off; **Download** switches it back on. |
 | The download does not start by itself | It was cancelled, or the model was removed, on this phone before. Tap **Download** in **Me › Your tutor**. |
 | "The download is incomplete" | The finished file was not the size the export manifest lists: a Wi-Fi login page instead of the file, a connection that ended early, or a custom download source serving another file. The file was deleted; try again (on a network without a captive portal, or with the source field empty). |
-| Download fails | The files are public blobs: `curl -I https://lichtgwcst001.blob.core.windows.net/models/light-german-tutor-phone-v25/gguf/light-german-tutor-phone-v25-Q5_K_M.gguf` should answer 200. Check the **Download source** in **Me › Your tutor › Advanced** is empty, or points at a computer that serves the same files. |
+| Download fails | The files are public blobs: `curl -I https://lichtgwcst001.blob.core.windows.net/models/light-german-tutor-phone-v27/gguf/light-german-tutor-phone-v27-Q5_K_M.gguf` should answer 200. Check the **Download source** in **Me › Your tutor › Advanced** is empty, or points at a computer that serves the same files. |
 | "This file isn't the Eszett tutor model" | The chosen GGUF's header names another model. Only the tutor is loaded; download it, or pick the right file. |
 | The simulator is very slow | Metal is not available in the iOS simulator; it runs on the CPU. Use a device. |
 | Expo Go shows a native-module error | Expo Go cannot load llama.rn; build a development build (above). |

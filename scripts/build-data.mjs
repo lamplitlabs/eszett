@@ -11,14 +11,14 @@
 // Everything fetched is also kept in .model-cache/ (the full lexicon for the tests), and a rerun falls back
 // to that copy when the network cannot be reached.
 //
-//   node scripts/build-data.mjs [revision] [student]      (default: v16 light-german-tutor-phone-v25)
+//   node scripts/build-data.mjs [revision] [student]      (default: v16 light-german-tutor-phone-v27)
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const revision = process.argv[2] ?? 'v16';
-const student = process.argv[3] ?? 'light-german-tutor-phone-v25';
+const student = process.argv[3] ?? 'light-german-tutor-phone-v27';
 const repo = 'lamplitlabs/licht-german-tutor';
 const base = `https://huggingface.co/${repo}/resolve/${revision}`;
 const studentBase = `https://lichtgwcst001.blob.core.windows.net/models/${student}`;

@@ -492,6 +492,15 @@ function readRating(raw: string): RatingRead {
 /** The four scores in the order of the criteria, then comment, tip and improved sentence; null without four scores. */
 export const parseExamRating = (raw: string): ExamRating | null => readRating(raw).rating;
 
+/** True when the rating has all three free lines; a model that stopped after the scores is asked to go on. */
+export const ratingHasFeedback = (r: ExamRating): boolean => Boolean(r.comment && r.tip && r.better);
+
+/**
+ * The answer's beginning for a second run when the model stopped after the scores: its own four score lines and
+ * the label of the first free line, so it has to continue with the comment.
+ */
+export const ratingPrefill = (r: ExamRating): string => `Erfüllung: ${r.scores.fulfilment}\nKohärenz: ${r.scores.coherence}\nWortschatz: ${r.scores.vocabulary}\nStrukturen: ${r.scores.structures}\nKommentar:`;
+
 /**
  * Stop the generation once all three free lines stand under their labels and the last one has reached the end
  * of a sentence: a label still being written ("Kom") or a half sentence must not pass.

@@ -47,9 +47,9 @@ const ORDER: Edition[] = ['Q5_K_M', 'Q8_0'];
 export const DEFAULT_EDITION: Edition = 'Q5_K_M';
 /** The revision of the data release (lexicon, grounding pack) on the Hub. */
 export const REVISION: string = data.revision;
-/** The student whose GGUF export the phone runs, e.g. "light-german-tutor-phone-v25". */
+/** The student whose GGUF export the phone runs, e.g. "light-german-tutor-phone-v27". */
 export const MODEL_STUDENT: string = data.gguf.student;
-/** What the GGUF header calls the model (general.name), e.g. "Light German Tutor Phone v25". */
+/** What the GGUF header calls the model (general.name), e.g. "Light German Tutor Phone v27". */
 export const MODEL_NAME: string = data.gguf.student
   .split('-')
   .map((part) => (/^v\d+$/.test(part) ? part : part.charAt(0).toUpperCase() + part.slice(1)))
@@ -93,7 +93,7 @@ export function modelUrl(edition: Edition, source: string): string {
 }
 
 /**
- * Whether a GGUF header describes our model: general.name "Light German Tutor Phone v25", or any name that says
+ * Whether a GGUF header describes our model: general.name "Light German Tutor Phone v27", or any name that says
  * german tutor (an older or newer student still answers the way the harness expects).
  */
 export function isOurModel(generalName: string | null | undefined): boolean {

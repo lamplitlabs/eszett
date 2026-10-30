@@ -25,26 +25,26 @@ import {
   SYSTEM_PROMPT,
 } from '../manifest';
 
-const Q5_K_M_FILE = 'light-german-tutor-phone-v25-Q5_K_M.gguf';
-const Q8_0_FILE = 'light-german-tutor-phone-v25-Q8_0.gguf';
+const Q5_K_M_FILE = 'light-german-tutor-phone-v27-Q5_K_M.gguf';
+const Q8_0_FILE = 'light-german-tutor-phone-v27-Q8_0.gguf';
 
 describe('model manifest', () => {
   it('pins the release', () => {
     expect(REVISION).toBe('v16');
-    expect(MODEL_STUDENT).toBe('light-german-tutor-phone-v25');
+    expect(MODEL_STUDENT).toBe('light-german-tutor-phone-v27');
     expect(modelInfo.student).toBe(MODEL_STUDENT);
-    expect(MODEL_NAME).toBe('Light German Tutor Phone v25');
-    expect(MODEL_BASE).toBe('https://lichtgwcst001.blob.core.windows.net/models/light-german-tutor-phone-v25/gguf');
+    expect(MODEL_NAME).toBe('Light German Tutor Phone v27');
+    expect(MODEL_BASE).toBe('https://lichtgwcst001.blob.core.windows.net/models/light-german-tutor-phone-v27/gguf');
     expect(LEXICON_URL).toBe('https://huggingface.co/lamplitlabs/licht-german-tutor/resolve/v16/lexicon.json');
     expect(SYSTEM_PROMPT).toBe(modelInfo.system_prompt);
     expect(SYSTEM_PROMPT.startsWith('You are a patient, precise German tutor')).toBe(true);
-    // v23 to v25 were trained to keep gender and plural out of sentences and role-play lines (the v13 prompt said "always mark")
+    // v23 to v27 were trained to keep gender and plural out of sentences and role-play lines (the v13 prompt said "always mark")
     expect(SYSTEM_PROMPT).toContain('mark gender and plural for nouns once, in a vocabulary line, never inside a sentence or a role-play line');
     expect(SYSTEM_PROMPT).not.toContain('always mark gender');
     expect(SYSTEM_PROMPT.endsWith('never mention being an AI model.')).toBe(true);
     expect(DEFAULT_EDITION).toBe('Q5_K_M');
-    // the grounding pack is the one v25 was trained with (published next to its export), not the v16 data release's
-    expect(modelInfo.grounding_source).toBe('light-german-tutor-phone-v25/grounding.json');
+    // the grounding pack is the one v27 was trained with (published next to its export), not the v16 data release's
+    expect(modelInfo.grounding_source).toBe('light-german-tutor-phone-v27/grounding.json');
     // the prompt is the one v24 was trained with, byte for byte: the C2 battery was gated with it, so the harness keeps it
     expect(SYSTEM_PROMPT).toContain('learners from A1 to C1');
   });
@@ -53,10 +53,10 @@ describe('model manifest', () => {
     expect(EDITIONS.map((e) => e.edition)).toEqual(['Q5_K_M', 'Q8_0']);
     expect(EDITIONS.map((e) => e.file)).toEqual([Q5_K_M_FILE, Q8_0_FILE]);
     expect(EDITIONS.map((e) => e.minRamGb)).toEqual([6, 8]);
-    expect(EDITIONS.map((e) => e.bytes)).toEqual([2213756704, 3275575072]);
+    expect(EDITIONS.map((e) => e.bytes)).toEqual([2213756736, 3275575104]);
     expect(EDITIONS.map((e) => e.sha256)).toEqual([
-      '97c8cfa241fb090d2413ef9739e464dab9f58092f4ee64faecb6d2e71c2bd256',
-      'bb62e60e7843c92ae2fbc368a2a2957c1ba1f1ad7a5ea119af6303f31fcb481d',
+      'ea8da7d954c1e238051e45a3006ea520763f28024bbca4c205ed4efbeebfc8c9',
+      '5b9acc844a0feb69e8a483b6eea1cf01fa1152bb76708f120b688d4c4b9ce937',
     ]);
     for (const e of EDITIONS) {
       expect(editionInfo(e.edition)).toBe(e);
@@ -84,8 +84,8 @@ describe('model manifest', () => {
   });
 
   it('knows the download sizes', () => {
-    expect(estimatedBytes('Q5_K_M')).toBe(2213756704);
-    expect(estimatedBytes('Q8_0')).toBe(3275575072);
+    expect(estimatedBytes('Q5_K_M')).toBe(2213756736);
+    expect(estimatedBytes('Q8_0')).toBe(3275575104);
     expect(estimatedBytes('Q8_0')).toBeGreaterThan(estimatedBytes('Q5_K_M'));
   });
 
@@ -99,8 +99,8 @@ describe('model manifest', () => {
   });
 
   it('describes sizes in the decimal units phones show', () => {
-    expect(describeBytes(2213756704)).toBe('2.2 GB');
-    expect(describeBytes(3275575072)).toBe('3.3 GB');
+    expect(describeBytes(2213756736)).toBe('2.2 GB');
+    expect(describeBytes(3275575104)).toBe('3.3 GB');
     expect(describeBytes(1e9)).toBe('1.0 GB');
     expect(describeBytes(999_999_999)).toBe('1000 MB');
     expect(describeBytes(700e6)).toBe('700 MB');
@@ -141,8 +141,8 @@ describe('model manifest', () => {
   });
 
   it('names the student behind one of our export files', () => {
-    expect(studentOfName(Q5_K_M_FILE)).toBe('light-german-tutor-phone-v25');
-    expect(studentOfName(`${Q8_0_FILE}.part`)).toBe('light-german-tutor-phone-v25');
+    expect(studentOfName(Q5_K_M_FILE)).toBe('light-german-tutor-phone-v27');
+    expect(studentOfName(`${Q8_0_FILE}.part`)).toBe('light-german-tutor-phone-v27');
     expect(studentOfName('light-german-tutor-v13-Q5_K_M.gguf')).toBe('light-german-tutor-v13');
     expect(studentOfName('Light-German-Tutor-V13-Q8_0.GGUF')).toBe('light-german-tutor-v13');
     expect(studentOfName('light-german-tutor-pro-v22-Q4_K_M.gguf')).toBe('light-german-tutor-pro-v22');
@@ -162,12 +162,14 @@ describe('model manifest', () => {
     expect(isRetiredModelName('light-german-tutor-phone-v23-Q5_K_M.gguf')).toBe(true);
     expect(isRetiredModelName('light-german-tutor-phone-v24-Q5_K_M.gguf')).toBe(true);
     expect(isRetiredModelName('light-german-tutor-phone-v24-Q8_0.gguf.part')).toBe(true);
+    expect(isRetiredModelName('light-german-tutor-phone-v25-Q5_K_M.gguf')).toBe(true);
+    expect(isRetiredModelName('light-german-tutor-phone-v25-Q8_0.gguf.part')).toBe(true);
     expect(isRetiredModelName('light-german-tutor-phone-v26-Q5_K_M.gguf')).toBe(true);
     expect(isRetiredModelName(Q5_K_M_FILE)).toBe(false);
     expect(isRetiredModelName(`${Q5_K_M_FILE}.part`)).toBe(false);
     expect(isRetiredModelName(Q8_0_FILE)).toBe(false);
     // another quantisation of the current student (a tester's import) is not retired
-    expect(isRetiredModelName('light-german-tutor-phone-v25-Q4_K_M.gguf')).toBe(false);
+    expect(isRetiredModelName('light-german-tutor-phone-v27-Q4_K_M.gguf')).toBe(false);
     // files that are not our exports are never touched
     expect(isRetiredModelName('SmolLM3-3B-Q5_K_M.gguf')).toBe(false);
     expect(isRetiredModelName('my-tutor.gguf')).toBe(false);
@@ -175,9 +177,9 @@ describe('model manifest', () => {
   });
 
   it('recognises our model by the GGUF header name', () => {
+    expect(isOurModel('Light German Tutor Phone v27')).toBe(true);
+    expect(isOurModel('light german tutor phone v27')).toBe(true);
     expect(isOurModel('Light German Tutor Phone v25')).toBe(true);
-    expect(isOurModel('light german tutor phone v25')).toBe(true);
-    expect(isOurModel('Light German Tutor Phone v24')).toBe(true);
     expect(isOurModel('Light German Tutor v13')).toBe(true);
     expect(isOurModel('Light German Tutor v17')).toBe(true);
     expect(isOurModel('Licht German Tutor Lite')).toBe(true);

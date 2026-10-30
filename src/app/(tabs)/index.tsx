@@ -5,6 +5,7 @@ import { View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 
 import { CourseCard } from '@/features/CourseCard';
+import MinuteCard from '@/features/MinuteCard';
 import ReminderCard from '@/features/ReminderCard';
 import { activityLabel, lessonKey, useLesson } from '@/features/lesson';
 import { levelProgress, weekNumber } from '@/harness/path';
@@ -16,6 +17,7 @@ import { localizeLevel, wordMeaning } from '@/i18n/content';
 import { coreLexicon, useModel } from '@/model/runtime';
 import { dueWords, nounKey, useDeck } from '@/state/deck';
 import { streakOf, useProgress } from '@/state/progress';
+import { firstName, useProfile } from '@/state/profile';
 import { useSettings } from '@/state/settings';
 import { dayKey } from '@/state/storage';
 import { Button, GenderChip, Paper, Pill, Press, SpeakButton } from '@/ui/controls';
@@ -44,6 +46,7 @@ export default function Today() {
   const words = useDeck((s) => s.words);
   const add = useDeck((s) => s.add);
   const { activities, plannedBy, planning, ensure, replan } = useLesson();
+  const name = firstName(useProfile((p) => p.profile));
   const streak = streakOf(days);
   const due = dueWords(words).length;
 
@@ -73,7 +76,7 @@ export default function Today() {
     <Screen backdrop={<LampGlow connection={connection} />}>
       <Animated.View entering={FadeIn.duration(450)}>
         <De variant="display" speakable style={{ fontSize: 38, lineHeight: 44 }}>
-          {greeting()}
+          {name ? `${greeting()}, ${name}` : greeting()}
         </De>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: space.s, marginTop: space.m }}>
           <Pill label={`${level} ${localizeLevel(LEVEL_INFO[level], lang).name}`} tone="royal" onPress={() => router.navigate('/me')} />
@@ -93,6 +96,7 @@ export default function Today() {
         <CourseCard level={level} />
       </Section>
 
+      <MinuteCard />
       <ReminderCard />
 
       <Section

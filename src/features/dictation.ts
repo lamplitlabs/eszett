@@ -28,6 +28,8 @@ export interface Dictation {
   stop: () => void;
   /** Drops the turn without a result. */
   abort: () => void;
+  /** Clears the last error and transcript, so a screen starting a new turn does not read the old failure. */
+  reset: () => void;
   /** Android 13+: asks the system to fetch the offline German pack; null elsewhere. */
   downloadOfflinePack: (() => Promise<void>) | null;
 }
@@ -184,6 +186,11 @@ export function useDictation(handlers: DictationHandlers = {}): Dictation {
     setListening(false);
   }, []);
 
+  const reset = useCallback(() => {
+    setError(null);
+    setTranscript('');
+  }, []);
+
   const downloadOfflinePack = useMemo(
     () =>
       Platform.OS === 'android' && reason === 'offline-pack'
@@ -198,7 +205,7 @@ export function useDictation(handlers: DictationHandlers = {}): Dictation {
     [reason],
   );
 
-  return { available, reason, listening, transcript, error, start, stop, abort, downloadOfflinePack };
+  return { available, reason, listening, transcript, error, start, stop, abort, reset, downloadOfflinePack };
 }
 
 export interface FieldDictation {

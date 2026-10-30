@@ -18,7 +18,7 @@ import { diffWords, tokenize, type DiffOp } from './diff';
 import { drillAsText, type Drill } from './drills';
 import type { AlltagItem } from './alltag';
 import { compact, normalise } from './engines';
-import { fixedSheet, parseExamRating, parseExamSheet, ratingComplete, sheetComplete, spoken, type ExamPart, type ExamRating, type ExamSheet, type ExamTurn } from './exam';
+import { fixedSheet, parseExamRating, parseExamSheet, ratingComplete, ratingHasFeedback, ratingPrefill, sheetComplete, spoken, type ExamPart, type ExamRating, type ExamSheet, type ExamTurn } from './exam';
 import { blockTitle, groundPrompt, noteKeys, notePrefix, type GroundingPack, type NoteLayout } from './grounding';
 import { GENUS_ARTICLE, type Article, type LexiconIndex } from './lexicon';
 import type { Level } from './levels';
@@ -695,11 +695,22 @@ export class Tutor {
   /** The rating of a part in the learner's language; the scores are read by shape, a draft without them is asked again. */
   async examRating(part: ExamPart, sheet: ExamSheet | null, turns: ExamTurn[], ctx: Ctx): Promise<ExamRating> {
     let last = '';
+    const prompt = P.examRatingPrompt(part, sheet, turns, ctx.level, ctx.lang);
     for (const attempt of [0, 1]) {
-      const { text } = await this.run(P.examRatingPrompt(part, sheet, turns, ctx.level, ctx.lang), attempt ? { ...ctx, onText: undefined } : ctx, P.EXAM_BUDGET.rating, { stopWhen: ratingComplete }, false);
+      const { text } = await this.run(prompt, attempt ? { ...ctx, onText: undefined } : ctx, P.EXAM_BUDGET.rating, { stopWhen: ratingComplete }, false);
       last = text;
       const rating = parseExamRating(text);
-      if (rating) return rating;
+      if (!rating) continue;
+      if (ratingHasFeedback(rating)) return rating;
+      // the model ended after the four scores: the same prompt again, its answer begun for it up to "Kommentar:"
+      try {
+        const { text: more } = await this.run(prompt, { ...ctx, onText: undefined }, P.EXAM_BUDGET.rating, { prefill: ratingPrefill(rating), stopWhen: ratingComplete }, false);
+        const full = parseExamRating(more);
+        if (full) return { ...rating, comment: rating.comment || full.comment, tip: rating.tip || full.tip, better: rating.better || full.better };
+      } catch {
+        // the scores alone are still a rating
+      }
+      return rating;
     }
     throw new DraftError(t('exam.reasonRating'), last);
   }

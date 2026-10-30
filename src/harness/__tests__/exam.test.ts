@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { EXAM_CRITERIA, EXAMS, examFor, examPercent, FIXED_SHEETS, fixedSheet, fluencyScore, parseExamRating, parseExamSheet, partById, partPercent, passed, ratingComplete, sheetComplete, spoken, wordsOf, wordsPerMinute, type ExamPartResult } from '../exam';
+import { EXAM_CRITERIA, EXAMS, examFor, examPercent, FIXED_SHEETS, fixedSheet, fluencyScore, parseExamRating, parseExamSheet, partById, partPercent, passed, ratingComplete, ratingHasFeedback, ratingPrefill, sheetComplete, spoken, wordsOf, wordsPerMinute, type ExamPartResult } from '../exam';
 import { LEVELS } from '../levels';
 import { examFollowupPrompt, examSheetPrompt } from '../prompts';
 
@@ -121,5 +121,21 @@ describe('the mock oral exam', () => {
     expect(talk).toContain('counter-argument');
     expect(talk).toContain('Ich finde das gut.');
     expect(spoken('Prüfer: Danke. Wo wohnen Sie?')).toBe('Danke. Wo wohnen Sie?');
+  });
+});
+
+describe('a rating that stopped after the scores', () => {
+  it('is recognised and gets the scores as the beginning of a second answer', () => {
+    const scoresOnly = parseExamRating('Erfüllung: 4\nKohärenz: 3\nWortschatz: 3\nStrukturen: 2\n');
+    expect(scoresOnly).not.toBeNull();
+    expect(ratingHasFeedback(scoresOnly!)).toBe(false);
+    expect(ratingPrefill(scoresOnly!)).toBe('Erfüllung: 4\nKohärenz: 3\nWortschatz: 3\nStrukturen: 2\nKommentar:');
+    // the second answer, prefill included, reads as a whole rating
+    const full = parseExamRating(`${ratingPrefill(scoresOnly!)} Clear and complete for A1, though the sentences are short. Add a reason now and then.\nTipp: Join two sentences with "und" or "weil".\nBesser: Am Sonntag mache ich Sport im Park und besuche dann meine Familie.`);
+    expect(full).not.toBeNull();
+    expect(ratingHasFeedback(full!)).toBe(true);
+    expect(full!.scores).toEqual({ fulfilment: 4, coherence: 3, vocabulary: 3, structures: 2 });
+    expect(full!.comment.startsWith('Clear and complete')).toBe(true);
+    expect(full!.better).toBe('Am Sonntag mache ich Sport im Park und besuche dann meine Familie.');
   });
 });

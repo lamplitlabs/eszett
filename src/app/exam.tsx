@@ -19,7 +19,6 @@ import {
   examFor,
   examPercent,
   fluencyScore,
-  MAX_SCORE,
   partPercent,
   passed,
   wordsOf,
@@ -37,6 +36,7 @@ import { useProgress } from '@/state/progress';
 import { useSettings } from '@/state/settings';
 import { Button, Paper, ProgressBar } from '@/ui/controls';
 import { haptic } from '@/ui/haptics';
+import { ScoreRow } from '@/ui/ScoreRow';
 import { TopBar } from '@/ui/Screen';
 import { speak, stopSpeaking } from '@/ui/speech';
 import { De, Txt } from '@/ui/Text';
@@ -48,33 +48,6 @@ type Phase = 'overview' | 'sheet' | 'prep' | 'speak' | 'followup' | 'rating' | '
 const fmt = (seconds: number) => `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
 /** The wall clock, read in handlers and timers (never in render). */
 const clock = () => Date.now();
-
-function ScoreRow({ label, score, note }: { label: string; score: number; note?: string }) {
-  const { c } = useTheme();
-  const tone = score >= 3 ? c.green : score >= 2 ? c.amberInk : c.red;
-  return (
-    <View style={{ gap: 4 }}>
-      <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space.s }}>
-        <Txt variant="small" style={{ flex: 1 }}>
-          {label}
-        </Txt>
-        <Txt variant="smallStrong" style={{ color: tone }}>
-          {score}/{MAX_SCORE}
-        </Txt>
-      </View>
-      <View style={{ flexDirection: 'row', gap: 4 }}>
-        {Array.from({ length: MAX_SCORE }, (_, i) => (
-          <View key={i} style={{ flex: 1, height: 6, borderRadius: 3, backgroundColor: i < score ? tone : c.rule }} />
-        ))}
-      </View>
-      {note ? (
-        <Txt variant="caption" color="inkFaint">
-          {note}
-        </Txt>
-      ) : null}
-    </View>
-  );
-}
 
 export default function ExamScreen() {
   const { c } = useTheme();

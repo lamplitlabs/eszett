@@ -12,6 +12,8 @@ import {
   Layers,
   Library,
   ListChecks,
+  MessagesSquare,
+  Mic,
   NotebookPen,
   Radio,
   Repeat,
@@ -39,6 +41,7 @@ import { cards } from '@/model/runtime';
 import { newestFirst, topicsFor, useAuthored } from '@/state/authored';
 import { dueWords, useDeck } from '@/state/deck';
 import { attemptsNewestFirst, useExams } from '@/state/exams';
+import { summarise, talkToday, useSpeaking } from '@/state/speaking';
 import { useMistakes } from '@/state/mistakes';
 import { accuracy, useProgress, type Area } from '@/state/progress';
 import { useTexts } from '@/state/texts';
@@ -210,6 +213,37 @@ export default function Practice() {
       href: '/exam',
     },
   ];
+  const talks = useSpeaking((s) => s.talks);
+  const chats = useSpeaking((s) => s.chats);
+  const speakingSummary = summarise(talks, chats);
+  const minuteToday = talkToday(talks);
+  const speakingRows: Row[] = [
+    {
+      title: t('practice.minuteTitle'),
+      detail: minuteToday ? t('practice.minuteDetailDone', { wpm: minuteToday.wpm }) : speakingSummary.talks ? t('practice.minuteDetailSome', { count: speakingSummary.talks }) : t('practice.minuteDetail'),
+      icon: Mic,
+      tone: minuteToday ? 'green' : 'red',
+      tint: minuteToday ? 'greenTint' : 'redTint',
+      href: `/minute?level=${level}`,
+    },
+    {
+      title: t('practice.talkTitle'),
+      detail: speakingSummary.chats ? t('practice.talkDetailSome', { count: speakingSummary.chats }) : t('practice.talkDetail'),
+      icon: MessagesSquare,
+      tone: 'royal',
+      tint: 'royalTint',
+      href: `/talk?level=${level}`,
+    },
+    {
+      title: t('practice.sayTitle'),
+      detail: t('practice.sayDetail'),
+      icon: Radio,
+      tone: 'green',
+      tint: 'greenTint',
+      href: course.current ? `/speak?unit=${course.current.key}` : '/speak',
+      area: 'speaking',
+    },
+  ];
   const alltagRows: Row[] = [
     {
       title: t('practice.alltagTitle'),
@@ -257,6 +291,9 @@ export default function Practice() {
     <Screen title={t('practice.title')} subtitle={t('practice.subtitle', { level })}>
       <Section title={t('path.title')}>
         <List rows={courseRows} />
+      </Section>
+      <Section title={t('practice.speaking')}>
+        <List rows={speakingRows} />
       </Section>
       <Section title={t('practice.words')}>
         <List rows={wordRows} />
