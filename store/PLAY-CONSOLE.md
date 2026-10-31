@@ -60,11 +60,17 @@ Fill every declaration; the answers describe what the app does today.
 **Ads**: No, the app does not contain ads.
 
 **App access**: *All functionality is available without special access* is **not** true once the free week is
-over, so choose **All or some functionality is restricted** and add an instruction set:
-"Install, open the app; everything works for seven days without an account. To test the download of the tutor model
-sign in with the e-mail `review+clerk_test@example.com` and the code `424242` (a Clerk test address; no mail is
-sent). To test purchases use a license-testing account." (Replace the test address once the Clerk production
-instance is live: production instances do not accept `+clerk_test` addresses – create a real reviewer account then.)
+over, so choose **All or some functionality is restricted** and add one instruction set:
+
+| Field | Value |
+| --- | --- |
+| Instruction name | Tutor download (account) |
+| Username / e-mail | `reviewer+eszett@lamplitlabs.com` |
+| Password | the one in `~/.pulse/private/providers/eszett-play-reviewer.json` (the account exists on the Clerk **production** instance with the password strategy enabled for it) |
+| Any other information | "Everything in the app works for 7 days without an account: the course, grammar cards, drills, scenes, speaking practice and games. Only downloading the tutor model (2.2 GB, about 3 minutes on Wi-Fi) requires signing in. 1. Open Me > Account > Sign in. 2. Enter reviewer+eszett@lamplitlabs.com and tap 'Send me a code'; on the next screen tap 'Use a password instead' and enter the password above (regular learners sign in with a one-time e-mail code; the reviewer account also has a password so no mailbox is needed). The model download then starts; the tutor is ready when the dot in the top-left of Home turns green. Purchases are standard Google Play one-time products; use a licence-testing account." |
+
+For a build still on the **development** instance (`pk_test`), use `reviewer+clerk_test@example.com` with the code
+`424242` instead (Clerk's test addresses; production has none).
 
 **Content rating** (IARC questionnaire): category **Utility, Productivity, Communication, or Other** →
 Educational/Reference; no violence, no sexual content, no profanity, no controlled substances, no gambling; **does

@@ -20,7 +20,7 @@ import { KeyboardAvoider } from '@/ui/KeyboardAvoider';
 import { Txt } from '@/ui/Text';
 import { font, gutter, radius, space, useTheme } from '@/ui/theme';
 
-type Step = 'email' | 'code';
+type Step = 'email' | 'code' | 'password';
 type Provider = 'oauth_google' | 'oauth_apple';
 
 // the browser tab Clerk opens for Google / Apple comes back to the app through the scheme; this closes it
@@ -47,6 +47,9 @@ export default function SignInScreen() {
   const [step, setStep] = useState<Step>('email');
   const [email, setEmail] = useState('');
   const [code, setCode] = useState('');
+  const [password, setPassword] = useState('');
+  // an account that also has a password (the store reviewers' account): the code step offers it as a way in
+  const [hasPassword, setHasPassword] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   // which flow the code belongs to: an existing account signs in, a new address signs up
@@ -100,12 +103,14 @@ export default function SignInScreen() {
         const attempt = await signIn.create({ identifier: address });
         const factor = attempt.supportedFirstFactors?.find((f) => f.strategy === 'email_code');
         if (!factor || !('emailAddressId' in factor)) throw new Error(t('signin.errNoEmailCode'));
+        setHasPassword(Boolean(attempt.supportedFirstFactors?.some((f) => f.strategy === 'password')));
         await signIn.prepareFirstFactor({ strategy: 'email_code', emailAddressId: factor.emailAddressId });
         flow.current = 'in';
       } catch (e) {
         const code = (e as { errors?: { code?: string }[] })?.errors?.[0]?.code;
         if (code !== 'form_identifier_not_found') throw e;
         // no account yet: make one with this address
+        setHasPassword(false);
         await signUp.create({ emailAddress: address });
         await signUp.prepareEmailAddressVerification({ strategy: 'email_code' });
         flow.current = 'up';
@@ -143,13 +148,30 @@ export default function SignInScreen() {
     }
   };
 
+  /** The password way in, for the accounts that have one (the sign-in screen never asks learners to set one). */
+  const withPassword = async () => {
+    if (!signIn || !password) return;
+    setBusy(true);
+    setError('');
+    try {
+      const result = await signIn.attemptFirstFactor({ strategy: 'password', password });
+      if (result.status !== 'complete' || !result.createdSessionId) throw new Error(t('signin.errPassword'));
+      await setActiveIn({ session: result.createdSessionId });
+      finish();
+    } catch (e) {
+      setError(clerkMessage(e, t('signin.errPassword')));
+    } finally {
+      setBusy(false);
+    }
+  };
+
   const fieldStyle = { fontFamily: font.sans, fontSize: 18, color: c.ink, backgroundColor: c.sheet, borderRadius: radius.control, borderWidth: 1.5, borderColor: c.rule, paddingHorizontal: space.l, paddingVertical: 14 } as const;
 
   return (
     <KeyboardAvoider style={{ flex: 1, backgroundColor: c.paper }}>
       <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{ paddingTop: insets.top + space.s, paddingHorizontal: gutter, paddingBottom: insets.bottom + space.x4, gap: space.xl }}>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
-          <IconButton icon={ArrowLeft} label={t('common.back')} tone="sheet" size={38} onPress={step === 'code' ? () => setStep('email') : close} />
+          <IconButton icon={ArrowLeft} label={t('common.back')} tone="sheet" size={38} onPress={step === 'email' ? close : () => setStep(step === 'password' ? 'code' : 'email')} />
           <Txt variant="title" style={{ flex: 1 }} accessibilityRole="header">
             {t('signin.title')}
           </Txt>
@@ -189,7 +211,7 @@ export default function SignInScreen() {
             />
             <Button label={t('signin.sendCode')} icon={Mail} loading={busy} disabled={!EMAIL.test(email.trim()) || busy} onPress={() => void sendCode()} />
           </View>
-        ) : (
+        ) : step === 'code' ? (
           <View style={{ gap: space.m }}>
             <Txt variant="body" color="inkSoft">
               {t('signin.codeSent', { email: email.trim() })}
@@ -210,8 +232,31 @@ export default function SignInScreen() {
             />
             <Button label={t('signin.verify')} loading={busy} disabled={code.length < 6 || busy} onPress={() => void verify()} />
             <Button label={t('signin.resend')} kind="quiet" size="medium" disabled={busy} onPress={() => void sendCode()} />
+            {hasPassword ? <Button label={t('signin.usePassword')} kind="quiet" size="medium" disabled={busy} onPress={() => setStep('password')} /> : null}
           </View>
-        )}
+        ) : step === 'password' ? (
+          <View style={{ gap: space.m }}>
+            <Txt variant="body" color="inkSoft">
+              {t('signin.passwordFor', { email: email.trim() })}
+            </Txt>
+            <TextInput
+              value={password}
+              onChangeText={setPassword}
+              placeholder="••••••••"
+              placeholderTextColor={c.inkFaint}
+              secureTextEntry
+              autoCapitalize="none"
+              autoCorrect={false}
+              autoComplete="current-password"
+              textContentType="password"
+              returnKeyType="done"
+              onSubmitEditing={() => void withPassword()}
+              accessibilityLabel={t('signin.password')}
+              style={fieldStyle}
+            />
+            <Button label={t('signin.signIn')} loading={busy} disabled={!password || busy} onPress={() => void withPassword()} />
+          </View>
+        ) : null}
 
         {error ? (
           <Txt variant="small" center style={{ color: c.red }}>
