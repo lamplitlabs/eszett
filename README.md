@@ -1178,7 +1178,8 @@ change; its output is deterministic, so a rebuild only changes what changed.
 Plain HTML and one stylesheet (`styles.css`, the app's colours and fonts, dark mode by `prefers-color-scheme`),
 no build step, one small script (`site.js`: the footer year and the language toggle of the legal pages), no
 analytics, no cookies, **no third-party requests** - the fonts are self-hosted (`assets/fonts/`, subsetted WOFF2
-built by `python3 scripts/web-fonts.py` from the app's `@expo-google-fonts` packages; loading them from Google
+built by `python3 scripts/web-fonts.py` from the app's `@expo-google-fonts` packages, which also writes the
+`@font-face` block into `styles.css`; loading them from Google
 would send every visitor's IP address to Google, which German courts have treated as a GDPR violation since 2022).
 The privacy page says all this and the site has to keep it true. `vercel.json` sets clean URLs (`/privacy`, not
 `/privacy.html`), German aliases (`/datenschutz`, `/impressum`, `/nutzungsbedingungen`, `/konto-loeschen`,

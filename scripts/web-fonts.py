@@ -5,8 +5,8 @@
 
 Reads Fira Sans and Vollkorn from node_modules/@expo-google-fonts (the faces the app bundles), subsets them to the
 scripts the site uses (Latin incl. German, Turkish and Polish letters; Cyrillic for ru/uk; Arabic and Chinese pages
-fall back to the system fonts the CSS names) and writes WOFF2 files to web/assets/fonts/ plus the @font-face
-block to web/assets/fonts/fonts.css. Self-hosting keeps visitors' IP addresses away from Google (the 2022 LG München
+fall back to the system fonts the CSS names) and writes WOFF2 files to web/assets/fonts/ and the @font-face
+block into web/styles.css (between the fonts:start / fonts:end markers). Self-hosting keeps visitors' IP addresses away from Google (the 2022 LG München
 ruling on Google Fonts), removes the render-blocking request, and lets the privacy policy drop the Google Fonts
 section. Needs fontTools and brotli (pip install --user fonttools brotli).
 """
@@ -49,9 +49,22 @@ def main():
             size = os.path.getsize(target) // 1024
             css.append(f"@font-face {{ font-family: '{family}'; font-style: {style}; font-weight: {weight}; font-display: swap; src: url('/assets/fonts/{stem}.woff2') format('woff2'); unicode-range: {UNICODES}; }}")
             print(f"{stem}.woff2 {size} KB")
+    # the @font-face block goes straight into styles.css (between the markers) so the browser discovers the fonts with
+    # the first stylesheet instead of after a second, chained request
+    styles = os.path.join(ROOT, "web/styles.css")
+    with open(styles, encoding="utf-8") as f:
+        text = f.read()
+    start, end = "/* fonts:start (written by scripts/web-fonts.py) */", "/* fonts:end */"
+    if start not in text or end not in text:
+        sys.exit(f"markers {start!r} … {end!r} missing in web/styles.css")
+    head, rest = text.split(start, 1)
+    _, tail = rest.split(end, 1)
+    with open(styles, "w", encoding="utf-8") as f:
+        f.write(f"{head}{start}\n" + "\n".join(css[1:]) + f"\n{end}{tail}")
+    print("web/styles.css: @font-face block updated")
+    # the same block as a file: stylesheets cached from before the block moved into styles.css @import it
     with open(os.path.join(OUT, "fonts.css"), "w", encoding="utf-8") as f:
         f.write("\n".join(css) + "\n")
-    print("fonts.css")
 
 
 if __name__ == "__main__":
