@@ -59,3 +59,11 @@ export async function deleteClerkUser(userId: string): Promise<void> {
     if ((e as { status?: number }).status !== 404) throw e;
   }
 }
+
+/** The Clerk user id behind an e-mail address, or null when no such user exists (the owner's grants are by e-mail). */
+export async function findClerkUserByEmail(email: string): Promise<string | null> {
+  if (!config.clerkSecretKey) throw new AuthError('sign-in is not configured on this server yet', 503);
+  const clerk = createClerkClient({ secretKey: config.clerkSecretKey });
+  const page = await clerk.users.getUserList({ emailAddress: [email.trim().toLowerCase()], limit: 1 });
+  return page.data[0]?.id ?? null;
+}

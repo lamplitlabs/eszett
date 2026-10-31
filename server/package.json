@@ -12,7 +12,7 @@
     "prestart": "npm run build",
     "start": "func start",
     "test": "vitest run",
-    "deploy": "npm run build && func azure functionapp publish eszett-api"
+    "deploy": "npm run build && func azure functionapp publish eszett-gwc-func-001 --javascript"
   },
   "dependencies": {
     "@azure/data-tables": "^13.3.0",

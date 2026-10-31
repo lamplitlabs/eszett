@@ -4,7 +4,7 @@
 
 import { app, type HttpRequest, type HttpResponseInit, type InvocationContext } from '@azure/functions';
 
-import { AuthError, deleteClerkUser, requireCaller } from '../auth';
+import { AuthError, deleteClerkUser, findClerkUserByEmail, requireCaller } from '../auth';
 import { config } from '../config';
 import { decideDownload, extendUpdates, grantFull, isCodeShape, isProductId, makeCode, normalizeCode, PRODUCTS, recordDownload, summarize } from '../rules';
 import { createCode, deleteLearner, downloadLink, logDownload, publishedModel, readCode, readEntitlement, recordPurchase, takeFromPool, useCode, writeEntitlement } from '../storage';
@@ -173,5 +173,34 @@ app.http('codes', {
       codes.push(code);
     }
     return json(200, { codes, kind, note });
+  },
+});
+
+// ---------------------------------------------------------------------------------------------- POST /v1/grant (owner)
+
+/**
+ * Full access for one account, by e-mail, without a code: the store reviewers' account, a learner whose code was
+ * lost, a partner's test account. The account has to exist (the person signed in once). Owner only.
+ */
+app.http('grant', {
+  methods: ['POST'],
+  authLevel: 'anonymous',
+  route: 'v1/grant',
+  handler: async (req) => {
+    if (!config.adminKey || req.headers.get('x-admin-key') !== config.adminKey) return fail(401, 'unauthorized', 'owner only');
+    const { email, note = '' } = await body<{ email: string; note: string }>(req);
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return fail(400, 'bad-request', 'an e-mail address is needed');
+    const now = Date.now();
+    try {
+      const userId = await findClerkUserByEmail(email);
+      if (!userId) return fail(404, 'no-such-user', 'no account with this e-mail has signed in yet');
+      const ent = grantFull(await readEntitlement(userId, now), now, 'manual', config.updatesMonths);
+      await writeEntitlement(ent);
+      const model = await publishedModel();
+      return json(200, { ...summarize(ent, model.student, model.releasedAt, now), userId, note });
+    } catch (e) {
+      if (e instanceof AuthError) return fail(e.status, 'auth', e.message);
+      throw e;
+    }
   },
 });

@@ -1063,7 +1063,8 @@ country), not the app's.
   blob, signed with the function's managed identity - a user-delegation SAS, seven days at most, no account key
   anywhere) · `POST /v1/purchase {platform, productId, token}` (asks Google Play / the App Store, records the
   entitlement; a gift answers with a code) · `POST /v1/redeem {code | fromPool}` · `POST /v1/codes` (owner, with
-  `x-admin-key`). The rules are pure and tested (`server/src/rules.ts`, `rules.test.ts`): **first download free
+  `x-admin-key`) · `POST /v1/grant {email, note}` (owner: full access for one existing account without a code - the
+  store reviewers' account, a lost code). The rules are pure and tested (`server/src/rules.ts`, `rules.test.ts`): **first download free
   for every account; a model once downloaded can always be downloaded again (a new phone); with full access every
   model released before `updatesUntil`; otherwise 402 with `needs-full` or `needs-fresh`**. The storage account's
   roles for the identity: Storage Blob Data Reader, Storage Blob Delegator, Storage Table Data Contributor.
