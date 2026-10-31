@@ -99,6 +99,12 @@ the Families programme and its extra requirements; learners of 16–17 can still
 
 **Advertising ID**: No, the app does not use the advertising ID.
 
+**Foreground service permissions**: none are declared from versionCode 6 on. `expo-audio`'s config plugin adds
+`FOREGROUND_SERVICE_MEDIA_PLAYBACK` and a media service by default; `app.json` turns `enableBackgroundPlayback`
+and `enableBackgroundRecording` off because the app plays only short sounds in the foreground. If the Console
+still asks for a bundle that carries the permission (versionCode 5), answer "Other" with "The permission came
+from a library default and is unused; removed in the next release" - or simply roll out the next bundle first.
+
 ## 5. Monetisation
 
 - **Setup → Monetisation setup → Payments profile**: the existing Lamplit Labs merchant account (the one the
