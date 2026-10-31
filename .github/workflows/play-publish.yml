@@ -39,9 +39,9 @@ jobs:
     env:
       TASK: ${{ inputs.task }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
 
@@ -55,7 +55,7 @@ jobs:
 
       - name: Latest bundle from Android Release
         if: startsWith(inputs.task, 'release-')
-        uses: dawidd6/action-download-artifact@v6
+        uses: dawidd6/action-download-artifact@v27
         with:
           workflow: android-release.yml
           branch: main
