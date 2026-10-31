@@ -60,7 +60,13 @@ node store/play-listing.mjs --apply --text-only --lang de-DE
 node store/play-release.mjs android/app/build/outputs/bundle/release/app-release.aab           # check the bundle
 node store/play-release.mjs <file.aab> --apply                                                  # internal testing track
 node store/play-release.mjs <file.aab> --apply --track production --status inProgress --fraction 0.1
+node store/play-release.mjs <file.aab> --apply --symbols android/app/build/outputs/native-debug-symbols/release/native-debug-symbols.zip
 ```
+
+`--symbols` attaches the native debug symbols Gradle writes next to the bundle (CI keeps them in the artifact as
+`eszett-v…-symbols.zip`), so Play symbolicates native crashes and ANRs and stops warning about missing
+deobfuscation files. There is no ProGuard mapping to upload: the app does not minify (`enableMinifyInReleaseBuilds`
+is off; R8 and the llama.rn/ML Kit JNI would need rules and testing first).
 
 Rules the scripts keep: unchanged texts and byte-identical image sets are skipped; the euro price in the definition
 is what euro countries see, other regions come from `pricing:convertRegionPrices` (the price is passed

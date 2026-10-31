@@ -6,6 +6,11 @@
 //   node store/play-release.mjs <file.aab> --apply                 # upload to the internal testing track and commit
 //   node store/play-release.mjs <file.aab> --apply --track alpha   # closed testing; also beta, production
 //   node store/play-release.mjs <file.aab> --apply --status draft  # keep the release as a draft to roll out in the Console
+//   node store/play-release.mjs <file.aab> --apply --symbols android/app/build/outputs/native-debug-symbols/release/native-debug-symbols.zip
+//
+// --symbols uploads the native debug symbols (the zip Gradle writes next to the bundle) so Play symbolicates native
+// crashes and ANRs; without it the Console warns. A ProGuard mapping file (--mapping) is only produced when R8 is on
+// (android.enableMinifyInReleaseBuilds), which this app does not do.
 //
 // The bundle has to be signed with the app's upload key (android/app/build.gradle
 // reads ESZETT_UPLOAD_* from ~/.gradle/gradle.properties or the environment;
@@ -26,7 +31,7 @@ const NOTES_LIMIT = 500;
 const MAX_BUNDLE_BYTES = 200 * 1024 * 1024;
 
 function parseArgs(argv) {
-  const args = { file: null, apply: false, track: "internal", status: "completed", help: false, fraction: null };
+  const args = { file: null, apply: false, track: "internal", status: "completed", help: false, fraction: null, symbols: null, mapping: null };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === "--apply") args.apply = true;
@@ -34,6 +39,8 @@ function parseArgs(argv) {
     else if (arg === "--track") args.track = argv[++i];
     else if (arg === "--status") args.status = argv[++i];
     else if (arg === "--fraction") args.fraction = Number(argv[++i]);
+    else if (arg === "--symbols") args.symbols = argv[++i];
+    else if (arg === "--mapping") args.mapping = argv[++i];
     else if (arg === "--help" || arg === "-h") args.help = true;
     else if (arg.startsWith("--")) fail(`unknown argument ${arg} (see --help)`);
     else if (args.file) fail("one bundle at a time");
@@ -54,6 +61,8 @@ function usage() {
   --apply     upload the bundle, set the track's release with the notes, validate and commit
   --track     the Play track (default internal, the internal testing track)
   --status    completed (default: rolled out to the track), draft (finish in the Console), inProgress (+ --fraction), halted
+  --symbols   native-debug-symbols.zip to attach to the bundle (Play symbolicates native crashes)
+  --mapping   ProGuard/R8 mapping.txt to attach (only when minification is on)
 Environment: PLAY_SERVICE_ACCOUNT_KEY (key file) or PLAY_SERVICE_ACCOUNT (keyless) or PLAY_ACCESS_TOKEN,
 PLAY_PACKAGE_NAME (optional override of android.package in app.json).`);
 }
@@ -93,6 +102,12 @@ async function release(client, packageName, bundle, notes, args) {
   try {
     const uploaded = await client.upload(`${editPath}/bundles`, { contentType: "application/octet-stream", bytes: bundle.bytes });
     console.log(`bundle uploaded: versionCode ${uploaded.versionCode}, sha256 ${uploaded.sha256?.slice(0, 16)}…`);
+    for (const [file, type] of [[args.symbols, "nativeCode"], [args.mapping, "proguard"]]) {
+      if (!file) continue;
+      const bytes = readFileSync(path.resolve(file));
+      await client.upload(`${editPath}/apks/${uploaded.versionCode}/deobfuscationFiles/${type}`, { contentType: "application/octet-stream", bytes });
+      console.log(`${type === "nativeCode" ? "native debug symbols" : "mapping file"} attached (${(bytes.length / 1024 / 1024).toFixed(1)} MB)`);
+    }
     const releaseBody = {
       status: args.status,
       versionCodes: [String(uploaded.versionCode)],
@@ -127,6 +142,7 @@ async function main() {
   const bundle = checkBundle(args.file);
   const notes = loadNotes();
   console.log(`${relative(bundle.resolved)}: ${(bundle.bytes.length / 1024 / 1024).toFixed(1)} MB; release notes in ${notes.map((note) => note.language).join(", ")}`);
+  for (const file of [args.symbols, args.mapping]) if (file && !existsSync(path.resolve(file))) fail(`no such file: ${file}`);
   if (!args.apply) {
     console.log(`\ndry run for ${packageName} - nothing is sent`);
     console.log(`POST ${API}/applications/${packageName}/edits`);

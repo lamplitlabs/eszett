@@ -71,7 +71,7 @@ jobs:
             products-apply)         node store/play-products.mjs --apply ;;
             listing-validate-texts) node store/play-listing.mjs --validate --text-only ;;
             listing-apply-texts)    node store/play-listing.mjs --apply --text-only ;;
-            release-internal)       node store/play-release.mjs "$(ls bundle/*/*.aab bundle/*.aab 2>/dev/null | head -1)" --apply --track internal ;;
-            release-internal-draft) node store/play-release.mjs "$(ls bundle/*/*.aab bundle/*.aab 2>/dev/null | head -1)" --apply --track internal --status draft ;;
+            release-internal)       node store/play-release.mjs "$(ls bundle/*/*.aab bundle/*.aab 2>/dev/null | head -1)" --apply --track internal $(S=$(ls bundle/*/*-symbols.zip bundle/*-symbols.zip 2>/dev/null | head -1); [ -n "$S" ] && echo --symbols "$S") ;;
+            release-internal-draft) node store/play-release.mjs "$(ls bundle/*/*.aab bundle/*.aab 2>/dev/null | head -1)" --apply --track internal --status draft $(S=$(ls bundle/*/*-symbols.zip bundle/*-symbols.zip 2>/dev/null | head -1); [ -n "$S" ] && echo --symbols "$S") ;;
             *) echo "::error::unknown task $TASK"; exit 1 ;;
           esac

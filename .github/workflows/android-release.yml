@@ -103,13 +103,17 @@ jobs:
           VERSION=$(node -p "require('./app.json').expo.version")
           NAME="eszett-v${VERSION}-${{ github.run_number }}.aab"
           cp android/app/build/outputs/bundle/release/app-release.aab "$NAME"
+          # the native debug symbols travel with the bundle: play-release.mjs --symbols attaches them for crash reports
+          cp android/app/build/outputs/native-debug-symbols/release/native-debug-symbols.zip "${NAME%.aab}-symbols.zip" || true
           echo "name=$NAME" >> "$GITHUB_OUTPUT"
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - uses: actions/upload-artifact@v7
         with:
           name: ${{ steps.name.outputs.name }}
-          path: ${{ steps.name.outputs.name }}
+          path: |
+            ${{ steps.name.outputs.name }}
+            eszett-v*-symbols.zip
           if-no-files-found: error
           retention-days: 30
 
