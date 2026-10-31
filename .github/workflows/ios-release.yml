@@ -1,0 +1,171 @@
+name: iOS Release
+
+# Builds the iOS app on every push to main: an unsigned device build that proves the native graph compiles
+# (llama.rn, ML Kit, StoreKit 2, speech recognition), and - when the Apple secrets exist - a signed archive
+# uploaded straight to TestFlight (the Leben in Deutschland pattern; store/APP-STORE.md).
+#
+# Secrets:   APPLE_TEAM_ID (W7CJ9CQD7Q), ASC_KEY_ID, ASC_ISSUER_ID, ASC_API_KEY_BASE64 (the .p8, base64),
+#            IOS_DIST_CERT_P12_BASE64, IOS_DIST_CERT_PASSWORD (the Apple Distribution certificate)
+# Variables: EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY, EXPO_PUBLIC_API_BASE (baked into the JS bundle)
+#
+# ios/ is not committed: Expo generates it; the archive signs manually with the "Eszett App Store" profile that
+# store/asc-profile.mjs creates for the certificate through the App Store Connect API. The build number is the run
+# number, like versionCode on Android.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["web/**", "server/**", "docs/**", "**/*.md", "store/metadata/**", ".github/workflows/android-release.yml", ".github/workflows/play-publish.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios-release-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  archive:
+    runs-on: macos-26
+    timeout-minutes: 120
+    env:
+      EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ vars.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY }}
+      EXPO_PUBLIC_API_BASE: ${{ vars.EXPO_PUBLIC_API_BASE }}
+      # the secrets context is not available in step conditions; this flag is
+      SIGNED: ${{ secrets.APPLE_TEAM_ID != '' && secrets.ASC_KEY_ID != '' && secrets.ASC_ISSUER_ID != '' && secrets.ASC_API_KEY_BASE64 != '' && secrets.IOS_DIST_CERT_P12_BASE64 != '' && secrets.IOS_DIST_CERT_PASSWORD != '' }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: |
+          npm install -g npm@11
+          npm install --no-audit --no-fund
+
+      - name: Check (typecheck, tests, catalogs)
+        run: |
+          npx tsc --noEmit
+          npx vitest run
+          npm run -s i18n-check
+
+      - name: Generate the iOS project
+        run: |
+          npx expo prebuild --platform ios --no-install
+          cd ios && pod install
+
+      - name: Version
+        id: version
+        run: echo "version=$(node -p "require('./app.json').expo.version")" >> "$GITHUB_OUTPUT"
+
+      # --- unsigned: always, so a broken native graph is caught without Apple credentials -------------------------
+      - name: Build (unsigned, device)
+        if: env.SIGNED != 'true'
+        working-directory: ios
+        run: |
+          set -o pipefail
+          xcodebuild -workspace Eszett.xcworkspace -scheme Eszett -configuration Release -sdk iphoneos \
+            -destination 'generic/platform=iOS' -derivedDataPath "$RUNNER_TEMP/DerivedData" \
+            CODE_SIGNING_ALLOWED=NO build | xcbeautify --renderer github-actions
+          APP="$RUNNER_TEMP/DerivedData/Build/Products/Release-iphoneos/Eszett.app"
+          /usr/libexec/PlistBuddy -c 'Print CFBundleIdentifier' -c 'Print CFBundleShortVersionString' "$APP/Info.plist"
+
+      # --- signed: certificate and API key in a throw-away keychain, the App Store profile from the API ----------
+      - name: Install signing certificate and API key
+        if: env.SIGNED == 'true'
+        env:
+          IOS_DIST_CERT_P12_BASE64: ${{ secrets.IOS_DIST_CERT_P12_BASE64 }}
+          IOS_DIST_CERT_PASSWORD: ${{ secrets.IOS_DIST_CERT_PASSWORD }}
+          ASC_API_KEY_BASE64: ${{ secrets.ASC_API_KEY_BASE64 }}
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+        run: |
+          set -euo pipefail
+          KEYCHAIN_PATH="$RUNNER_TEMP/ios-signing.keychain-db"
+          KEYCHAIN_PASSWORD="$(openssl rand -base64 32)"
+          CERT_PATH="$RUNNER_TEMP/distribution.p12"
+          KEY_DIR="$HOME/private_keys"
+          KEY_PATH="$KEY_DIR/AuthKey_${ASC_KEY_ID}.p8"
+          security create-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+          security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          printf '%s' "$IOS_DIST_CERT_P12_BASE64" | base64 --decode > "$CERT_PATH"
+          security import "$CERT_PATH" -P "$IOS_DIST_CERT_PASSWORD" -A -t cert -f pkcs12 -k "$KEYCHAIN_PATH"
+          security set-key-partition-list -S apple-tool:,apple: -s -k "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH" > /dev/null
+          security list-keychain -d user -s "$KEYCHAIN_PATH" login.keychain-db
+          rm -f "$CERT_PATH"
+          mkdir -p "$KEY_DIR"
+          printf '%s' "$ASC_API_KEY_BASE64" | base64 --decode > "$KEY_PATH"
+          chmod 600 "$KEY_PATH"
+          echo "KEYCHAIN_PATH=$KEYCHAIN_PATH" >> "$GITHUB_ENV"
+          echo "ASC_API_KEY_PATH=$KEY_PATH" >> "$GITHUB_ENV"
+          echo "Installed $(security find-identity -v -p codesigning "$KEYCHAIN_PATH" | grep -c 'Apple Distribution') Apple Distribution identity"
+
+      - name: Install the App Store provisioning profile
+        if: env.SIGNED == 'true'
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+        run: |
+          set -euo pipefail
+          serial="$(security find-certificate -c "Apple Distribution" -p "$KEYCHAIN_PATH" | openssl x509 -noout -serial | sed 's/^serial=//')"
+          node store/asc-profile.mjs --serial "$serial"
+
+      - name: Archive
+        if: env.SIGNED == 'true'
+        working-directory: ios
+        env:
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          set -o pipefail
+          xcodebuild -workspace Eszett.xcworkspace -scheme Eszett -configuration Release \
+            -destination 'generic/platform=iOS' -archivePath "$RUNNER_TEMP/Eszett.xcarchive" \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData" \
+            CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM="$APPLE_TEAM_ID" \
+            CODE_SIGN_IDENTITY="Apple Distribution" PROVISIONING_PROFILE_SPECIFIER="Eszett App Store" \
+            MARKETING_VERSION="$VERSION" CURRENT_PROJECT_VERSION="$GITHUB_RUN_NUMBER" \
+            archive | xcbeautify --renderer github-actions
+
+      - name: Verify the archive
+        if: env.SIGNED == 'true'
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          set -euo pipefail
+          PLIST="$RUNNER_TEMP/Eszett.xcarchive/Products/Applications/Eszett.app/Info.plist"
+          [ -f "$PLIST" ] || { echo "::error::the archive has no Eszett.app"; exit 1; }
+          bundle_id="$(/usr/libexec/PlistBuddy -c 'Print CFBundleIdentifier' "$PLIST")"
+          version="$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' "$PLIST")"
+          build="$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' "$PLIST")"
+          [ "$bundle_id" = "com.lamplitlabs.eszett" ] || { echo "::error::unexpected bundle id $bundle_id"; exit 1; }
+          [ "$version" = "$VERSION" ] && [ "$build" = "$GITHUB_RUN_NUMBER" ] || { echo "::error::unexpected version $version ($build)"; exit 1; }
+          codesign --verify --deep --strict "$RUNNER_TEMP/Eszett.xcarchive/Products/Applications/Eszett.app"
+          echo "Verified $bundle_id $version ($build)"
+
+      # destination: upload in ExportOptions.plist sends the build to App Store Connect; TestFlight shows it after processing
+      - name: Upload to TestFlight
+        if: env.SIGNED == 'true'
+        env:
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+        run: |
+          set -o pipefail
+          OPTIONS="$RUNNER_TEMP/ExportOptions.plist"
+          plutil -replace teamID -string "$APPLE_TEAM_ID" -o "$OPTIONS" store/ExportOptions.plist
+          xcodebuild -exportArchive -archivePath "$RUNNER_TEMP/Eszett.xcarchive" -exportOptionsPlist "$OPTIONS" \
+            -exportPath "$RUNNER_TEMP/export" -allowProvisioningUpdates \
+            -authenticationKeyPath "$ASC_API_KEY_PATH" -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID" \
+            | xcbeautify --renderer github-actions
+          rm -f "$OPTIONS"
+
+      - name: Clean up signing material
+        if: always() && env.SIGNED == 'true'
+        run: |
+          [ -n "${KEYCHAIN_PATH:-}" ] && security delete-keychain "$KEYCHAIN_PATH" || true
+          [ -n "${ASC_API_KEY_PATH:-}" ] && rm -f "$ASC_API_KEY_PATH" || true
+          rm -rf "$HOME/Library/MobileDevice/Provisioning Profiles"

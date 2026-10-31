@@ -92,6 +92,18 @@ upload the landscape file to the Lamplit Labs channel (unlisted is fine, ads off
 into `metadata/android/<locale>/video.txt` and run `node store/play-listing.mjs --apply --text-only`; a locale
 without the file keeps whatever video the listing has. The portrait file is for Shorts and social posts.
 
+## iOS
+
+The plan with phases and the owner's steps is [`APP-STORE.md`](APP-STORE.md). What exists in the repository today:
+`lib/asc-api.mjs` (App Store Connect API client: ES256 token from the `.p8`, laptop defaults from
+`~/.pulse/private/providers/asc-key.json`), `asc-profile.mjs` (creates or reuses the "Eszett App Store"
+provisioning profile for the distribution certificate and installs it where Xcode looks), `ExportOptions.plist`
+(manual signing, `destination: upload`), `Eszett.storekit` (a StoreKit configuration with the three products for
+testing purchases in Xcode before App Store Connect has them), and `.github/workflows/ios-release.yml` (unsigned
+device build on every push; the signed archive and TestFlight upload once the Apple secrets exist). The iOS
+project is generated (`npx expo prebuild --platform ios && cd ios && pod install`) and the unsigned Release build
+for a device compiles on Xcode 27 (`xcodebuild -sdk iphoneos CODE_SIGNING_ALLOWED=NO`).
+
 ## The bundle and its signature
 
 Play needs an Android App Bundle signed with the **upload key**. The keystore lives outside the repository

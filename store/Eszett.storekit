@@ -1,0 +1,80 @@
+{
+  "identifier": "ESZETT_STOREKIT",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "29.99",
+      "familyShareable": false,
+      "internalID": "ESZETT_FULL_ACCESS",
+      "localizations": [
+        {
+          "locale": "en_US",
+          "displayName": "Eszett for good",
+          "description": "The app for good, every new tutor model for twelve months, and the last of them forever. One purchase, no subscription."
+        },
+        {
+          "locale": "de_DE",
+          "displayName": "Eszett für immer",
+          "description": "Die App für immer, jedes neue Tutor-Modell zwölf Monate lang und das letzte davon für immer. Ein Kauf, kein Abo."
+        }
+      ],
+      "productID": "eszett_full_access",
+      "referenceName": "Eszett for good",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "12.99",
+      "familyShareable": false,
+      "internalID": "ESZETT_FRESH_TUTOR",
+      "localizations": [
+        {
+          "locale": "en_US",
+          "displayName": "Fresh tutor",
+          "description": "Twelve more months of new tutor models. Never required: the app and your last model keep working."
+        },
+        {
+          "locale": "de_DE",
+          "displayName": "Frischer Tutor",
+          "description": "Zwölf weitere Monate neue Tutor-Modelle. Nie Pflicht: Die App und dein letztes Modell funktionieren weiter."
+        }
+      ],
+      "productID": "eszett_fresh_tutor",
+      "referenceName": "Fresh tutor",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "29.99",
+      "familyShareable": false,
+      "internalID": "ESZETT_GIFT",
+      "localizations": [
+        {
+          "locale": "en_US",
+          "displayName": "Pay it forward",
+          "description": "Full access for someone who cannot afford it: a code to hand on, or into the pool for the next learner who asks."
+        },
+        {
+          "locale": "de_DE",
+          "displayName": "Einen Tutor weiterschenken",
+          "description": "Vollzugang für jemanden, der es sich nicht leisten kann: als Code zum Weitergeben oder in den Topf für die nächste Person, die danach fragt."
+        }
+      ],
+      "productID": "eszett_gift",
+      "referenceName": "Pay it forward",
+      "type": "Consumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "",
+    "_developerTeamID": "W7CJ9CQD7Q",
+    "_failTransactionsEnabled": false,
+    "_lastSynchronizedDate": 0,
+    "_locale": "de_DE",
+    "_storefront": "DEU",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
