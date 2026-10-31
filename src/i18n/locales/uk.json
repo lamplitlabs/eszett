@@ -1874,6 +1874,8 @@
   "unlock.freshBuy": "Ще дванадцять місяців нових репетиторів · {price}",
   "update.body": "Версія {version} уже в магазині застосунків.",
   "update.open": "Оновити",
+  "update.openFailedMessage": "Не вдалося відкрити посилання на оновлення. Спробувати ще раз?",
+  "update.openFailedTitle": "Не вдалося відкрити магазин",
   "update.requiredBody": "Ця версія більше не працює з репетитором. Версія {version} чекає в магазині застосунків.",
   "update.requiredTitle": "Будь ласка, онови Eszett",
   "update.title": "Новий Eszett уже готовий",

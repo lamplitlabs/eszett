@@ -1661,6 +1661,8 @@
   "unlock.freshBuy": "再享十二个月新导师 · {price}",
   "update.body": "版本 {version} 已在应用商店上架。",
   "update.open": "更新",
+  "update.openFailedMessage": "无法打开更新链接。重试？",
+  "update.openFailedTitle": "无法打开商店",
   "update.requiredBody": "当前版本已无法与导师配合使用。版本 {version} 已在应用商店等你。",
   "update.requiredTitle": "请更新 Eszett",
   "update.title": "新版 Eszett 已就绪",

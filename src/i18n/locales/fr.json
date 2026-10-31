@@ -1732,6 +1732,8 @@
   "unlock.freshBuy": "Douze mois de plus de nouveaux tuteurs · {price}",
   "update.body": "La version {version} est disponible sur le store.",
   "update.open": "Mettre à jour",
+  "update.openFailedMessage": "Le lien de mise à jour n’a pas pu être ouvert. Réessayer ?",
+  "update.openFailedTitle": "Impossible d’ouvrir la boutique",
   "update.requiredBody": "Cette version ne fonctionne plus avec le tuteur. La version {version} t’attend sur le store.",
   "update.requiredTitle": "Merci de mettre à jour Eszett",
   "update.title": "Une nouvelle version d’Eszett est prête",

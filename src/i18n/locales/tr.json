@@ -1732,6 +1732,8 @@
   "unlock.freshBuy": "On iki ay daha yeni öğretmenler · {price}",
   "update.body": "{version} sürümü mağazada.",
   "update.open": "Güncelle",
+  "update.openFailedMessage": "Güncelleme bağlantısı açılamadı. Yeniden denensin mi?",
+  "update.openFailedTitle": "Mağaza açılamadı",
   "update.requiredBody": "Bu sürüm artık öğretmenle çalışmıyor. {version} sürümü mağazada seni bekliyor.",
   "update.requiredTitle": "Lütfen Eszett'i güncelle",
   "update.title": "Yeni Eszett hazır",

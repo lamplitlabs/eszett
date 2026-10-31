@@ -1874,6 +1874,8 @@
   "unlock.freshBuy": "Kolejne dwanaście miesięcy nowych korepetytorów · {price}",
   "update.body": "Wersja {version} jest już w sklepie.",
   "update.open": "Aktualizuj",
+  "update.openFailedMessage": "Nie można otworzyć linku aktualizacji. Spróbować ponownie?",
+  "update.openFailedTitle": "Nie udało się otworzyć sklepu",
   "update.requiredBody": "Ta wersja nie współpracuje już z korepetytorem. Wersja {version} czeka w sklepie.",
   "update.requiredTitle": "Zaktualizuj Eszett",
   "update.title": "Nowa wersja Eszett jest gotowa",
