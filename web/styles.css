@@ -1,7 +1,7 @@
 /* Eszett - the website. The same palette and faces as the app: Vollkorn for German, Fira Sans for the rest,
-   Königsblau on paper, amber for warmth; light and dark follow the system. No framework, no tracking. */
+   Königsblau on paper, amber for warmth; light and dark follow the system. No framework, no tracking, no third-party requests. */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Vollkorn:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('/assets/fonts/fonts.css'); /* self-hosted: nothing is requested from Google (scripts/web-fonts.py) */
 
 :root {
   --paper: #f5f6f9;
