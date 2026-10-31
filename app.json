@@ -10,7 +10,7 @@
     "description": "Eszett, a German tutor for A1 to B2 that runs the lamplitlabs/licht-german-tutor model on the phone.",
     "ios": {
       "bundleIdentifier": "com.lamplitlabs.eszett",
-      "supportsTablet": true,
+      "supportsTablet": false,
       "infoPlist": {
         "NSLocalNetworkUsageDescription": "Eszett can fetch the tutor model from a computer on your local network during development.",
         "NSAppTransportSecurity": {
