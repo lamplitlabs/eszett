@@ -46,6 +46,46 @@ The iOS side has compiled before but **never run on an iPhone**. Before any stor
 
 Fix what breaks; nothing below starts until the app runs through a lesson, a scene and a minute talk on the phone.
 
+### Phase 0 results (2026-10-31, laptop only - the phone run is still open)
+
+- **Device run - unverified, blocked on two owner steps.** `npx expo run:ios --device <iPhone 16e> --configuration Release`
+  ran prebuild and `pod install`, then stopped at `CommandError: No code signing certificates are available to use.`
+  The keychain holds one identity, an *Apple Distribution* certificate, and no *Apple Development* one; the only
+  provisioning profile on the laptop belongs to another app. `xcrun devicectl` sees the iPhone 16e paired and connected,
+  but says `The operation failed because Developer Mode is turned off.` To unblock it: on the phone, Settings >
+  Privacy & Security > Developer Mode, then restart. In Xcode > Settings > Accounts, sign in to the team and create an
+  Apple Development certificate (or let `-allowProvisioningUpdates` make one). Then rerun the command.
+- **Release build compiles - verified (unsigned).** `xcodebuild -workspace ios/Eszett.xcworkspace -scheme Eszett
+  -configuration Release -sdk iphoneos -destination generic/platform=iOS CODE_SIGNING_ALLOWED=NO` gives BUILD SUCCEEDED
+  on Xcode 27.2. Eszett.app is 137 MB, MinimumOSVersion is 16.4, and it requires arm64. The generated entitlements are
+  `applesignin`, `kernel.increased-memory-limit`, `kernel.extended-virtual-addressing` and `aps-environment`.
+- **iPad - decided: `ios.supportsTablet` is now `false`.** With `true` the build declared UIDeviceFamily 1,2 with all
+  four iPad orientations and `UIRequiresFullScreen` false, so Split View and landscape were allowed. The app is
+  portrait-only, though, and has no tablet layout: the only width cap (480) applies on web. Shipping as an iPad app
+  would bring 13" iPad screenshots and App Review on an iPad with a stretched phone UI. iPhone apps still run on iPad
+  in compatibility mode. To revisit later, add a width cap or a tablet layout first, then flip the flag back.
+- **Model download, Metal tokens/s, memory/jetsam, on-device German speech, StoreKit sandbox, Files - unverified.**
+  These all need the phone. One build-time fact: `UIFileSharingEnabled` and `LSSupportsOpeningDocumentsInPlace` are
+  true, and the increased-memory-limit entitlement is present.
+- **Native tabs - code reviewed, unverified on device.** The app uses `NativeTabs` with 5 triggers, SF Symbols,
+  `disableTransparentOnScrollEdge` and `minimizeBehavior="onScrollDown"`.
+- **Safe areas and keyboard - code reviewed, unverified on device.** `Screen` pads the top inset. Tutor uses
+  `SafeAreaView edges={{ bottom: true on iOS }}`, and model/unlock use `edges={{ top: true }}`. `KeyboardAvoider` uses
+  `KeyboardAvoidingView behavior="padding"` on iOS.
+- **RTL - code reviewed, unverified on device.** `src/i18n/bind.ts` sets `allowRTL`/`forceRTL` and asks for a
+  restart. app.json sets no `ExpoLocalization_supportsRTL`/`forcesRTL`, so expo-localization's launch hook leaves
+  the saved direction alone.
+- **Dark mode - code reviewed, DEFECT found, not fixed yet.** The JS palette and StatusBar follow the in-app
+  theme setting (system/light/dark). The tab tint is a `DynamicColorIOS`, and nothing calls `Appearance.setColorScheme`,
+  so the native tab bar tint, keyboards and alerts follow the *phone's* trait instead. Example: app set to dark on a
+  light phone gives a light-mode tint (#2442C6) on the dark tab bar (#0E1322).
+- **Apple sign-in - config present in the app, MISSING in Clerk production.** app.json carries the
+  `com.apple.developer.applesignin` entitlement, and `src/app/signin.tsx` shows the Apple button on iOS only
+  (`useSSO`, `oauth_apple`). The Clerk Eszett production instance has `connection_oauth_apple` enabled, but its
+  Services ID, team id, key id, client secret and bundle id are all empty: `get_deploy_oauth_providers` reports
+  apple `configured: false`. Development works on Clerk's shared credentials. This is owner work (credentials): fill
+  them in before a TestFlight build signs anyone in with Apple.
+
 ## Phase 1 - Apple accounts and the app record (owner, ~1 hour + Apple's waits)
 
 1. **Paid Apps agreement**: App Store Connect → Business → agreements → Paid Apps; needs the legal entity's bank
